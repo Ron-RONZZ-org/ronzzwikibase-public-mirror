@@ -1,0 +1,5 @@
+{{Person}}
+
+== Overview ==
+
+mathematician at Brigham Young University, author of A First Course in Linear Algebra

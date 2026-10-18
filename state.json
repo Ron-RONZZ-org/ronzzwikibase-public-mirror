@@ -956,9 +956,9 @@
     },
     "Matrix": {
       "path": "Main/Matrix.wiki",
-      "revid": 10325,
-      "sha256": "f505d1cbae677ba47ae30d9e398cabb2194f4cff184b04dcf73ea723032826ba",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "revid": 10389,
+      "sha256": "c5928fbdffc37e36f26a785883913611d822b6f5c0df09093464261e6517652f",
+      "synced_at": "2026-10-18T11:24:20+00:00"
     },
     "Matrix/Practice/Matrix multiplication": {
       "path": "Main/Matrix/Practice/Matrix multiplication.wiki",
@@ -1374,6 +1374,12 @@
       "sha256": "af296c8b521dd91188b9c713599db1a3325b1c005c3e7e3e7bfd65ecb5fe6791",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Jay Abramson": {
+      "path": "Person/Jay Abramson.wiki",
+      "revid": 10369,
+      "sha256": "1f33e984e00fb0aec93fe5bb5060b2523cd16f079b5840aabbb29b962eebf805",
+      "synced_at": "2026-10-18T11:24:20+00:00"
+    },
     "Person:Jean le Rond d'Alembert": {
       "path": "Person/Jean le Rond d'Alembert.wiki",
       "revid": 7450,
@@ -1445,6 +1451,12 @@
       "revid": 6434,
       "sha256": "aa04b115cdc93b7d77fe0723d430f1a4c2000eefd667489e81a6ba5de8041fff",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Ken Kuttler": {
+      "path": "Person/Ken Kuttler.wiki",
+      "revid": 10365,
+      "sha256": "417fad6cc5861522e11a1475f581844a39075a2ff2220f45706b9ac08132787a",
+      "synced_at": "2026-10-18T11:24:20+00:00"
     },
     "Person:Ken Robinson": {
       "path": "Person/Ken Robinson.wiki",
@@ -2010,6 +2022,12 @@
       "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:3.2: Properties of Determinants (Webpage)": {
+      "path": "Source/3.2_ Properties of Determinants (Webpage).wiki",
+      "revid": 10377,
+      "sha256": "9eee06256940c25eb75c525a0d56bbbeb93bc0fb6b583bffb34f23d15761ccc2",
+      "synced_at": "2026-10-18T11:24:20+00:00"
+    },
     "Source:3.2: Propositional Logic (Webpage)": {
       "path": "Source/3.2_ Propositional Logic (Webpage).wiki",
       "revid": 8172,
@@ -2075,6 +2093,12 @@
       "revid": 8024,
       "sha256": "78412176a0f5efc8d1d4cdc34375736caae3f25b6499dc4aa6d2157172566acb",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:7.8: Solving Systems with Cramer's Rule (Webpage)": {
+      "path": "Source/7.8_ Solving Systems with Cramer's Rule (Webpage).wiki",
+      "revid": 10381,
+      "sha256": "883452850a63d2dc89c1dbd950d9d27de2b70b154c5b8325f6056639d5e20164",
+      "synced_at": "2026-10-18T11:24:20+00:00"
     },
     "Source:8.14.2: Properties of Nobel Gases (Webpage)": {
       "path": "Source/8.14.2_ Properties of Nobel Gases (Webpage).wiki",
@@ -2243,6 +2267,12 @@
       "revid": 8840,
       "sha256": "9c35111288563c9f1a28d4529f0a93c194977ac1c486f64903d763b8c21508ad",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:CK-12 FlexBooks (Website)": {
+      "path": "Source/CK-12 FlexBooks (Website).wiki",
+      "revid": 10373,
+      "sha256": "5d54ddf62a03075d4dad809c2339d21a95e30d1b087c209118d0dad35d8d2292",
+      "synced_at": "2026-10-18T11:24:20+00:00"
     },
     "Source:Cairn.info (Website)": {
       "path": "Source/Cairn.info (Website).wiki",
@@ -3084,6 +3114,12 @@
       "sha256": "3d08defb55ef3c172fd3bf416f141d8ad6acf9150b3841865237ead173534cf9",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Properties of Determinants (Webpage)": {
+      "path": "Source/Properties of Determinants (Webpage).wiki",
+      "revid": 10385,
+      "sha256": "c6d9cceaf9b187e8d48ab02ab5b8ed04e593d9d6d15ef06b279a43352cba88e2",
+      "synced_at": "2026-10-18T11:24:20+00:00"
+    },
     "Source:Prufrock and Other Observations (Book)": {
       "path": "Source/Prufrock and Other Observations (Book).wiki",
       "revid": 8693,
@@ -3481,6 +3517,6 @@
       "synced_at": "2026-10-18T07:12:56+00:00"
     }
   },
-  "updated": "2026-10-18T08:51:57+00:00",
+  "updated": "2026-10-18T11:24:20+00:00",
   "version": 1
 }
