@@ -67,6 +67,53 @@ s_1 & s_2 & \cdots & s_n \\
 \end{pmatrix}
 $$
 
+== Special permutations ==
+
+=== {{anchor|Identity_permutation}}Identity permutation: $\sigma_{id}(s)=s$ ===
+
+The '''identity permutation''' for set $S=\{s_1,s_2,\cdots,s_n\}$ is
+
+$$
+\sigma_{id} =
+\begin{pmatrix}
+s_1 & s_2 & \cdots & s_n \\
+s_1 & s_2 & \cdots & s_n
+\end{pmatrix}.
+$$
+
+{{Hidden example}}
+The identity permutation for $\{1,2,3\}$ is
+
+$$
+\begin{pmatrix}
+1&2&3 \\
+1&2&3
+\end{pmatrix}.
+$$
+{{End hidden}}
+
+=== Transposition ===
+
+A '''transposition''' is a permutation that swaps only two elements and do nothing to the rest of the elements.
+
+i.e.,
+
+if
+$$
+\exists i,j \in \{1,2,\cdots,n\}:
+\begin{cases}
+\tau(s_i)=s_j \\
+\tau(s_j)=s_i \\
+\tau(s_k)=s_k ,& \forall k \in \{1,2,\cdots,n\}, k \ne i \lor j
+\end{cases}
+$$
+
+then $\tau$ is a transposition of set $\{s_1,s_2,\cdots,s_n\} $.
+
+=== {{anchor|Symmetric_groups}}Symmetric groups $\mathcal{S}_{n}$ ===
+
+$\{\sigma_1,\sigma_2,\sigma_3,\cdots,\sigma_{n!}\}$, the '''set''' of all permutations for $\{1,2,3,\cdots,n\}$, is known as the '''symmetric group''' of degree n, denoted by $\mathcal{S}_n$.
+
 == Properties ==
 
 === {{anchor|Counting_permutations}}$n$ elements $\Rightarrow $ $n!$ permutations ===
