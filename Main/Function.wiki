@@ -27,7 +27,7 @@ Lastly,
 if 
 
 $$
-\forall y \in R_f: \exists f^{-1}, f^{-1}(y)=x,
+\exists f^{-1} : \forall y \in R_f, f^{-1}(y)=x,
 $$
 
 then function $f$ is said to be '''reversible''' and the '''bijection''' of $D$ to $R_f$. $f$ and $f^{-1}$ are said to be '''inverse functions''' of each other.

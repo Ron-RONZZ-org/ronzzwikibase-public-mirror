@@ -782,9 +782,9 @@
     },
     "Function": {
       "path": "Main/Function.wiki",
-      "revid": 10322,
-      "sha256": "7762824ca7fc687ea230dbbaf27e6e71df0bb15d1f8ffb2deb179306bc10b51b",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "revid": 10540,
+      "sha256": "35bc2a1c0b239f5434bc8e62bc9c47075eb7b594b97805d38efd59ccd8c8e1c1",
+      "synced_at": "2026-10-18T16:14:35+00:00"
     },
     "Fundamental particle": {
       "path": "Main/Fundamental particle.wiki",
@@ -3523,6 +3523,6 @@
       "synced_at": "2026-10-18T07:12:56+00:00"
     }
   },
-  "updated": "2026-10-18T14:12:39+00:00",
+  "updated": "2026-10-18T16:14:35+00:00",
   "version": 1
 }
