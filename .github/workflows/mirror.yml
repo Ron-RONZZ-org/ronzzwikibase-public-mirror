@@ -1,0 +1,80 @@
+name: Public content mirror
+
+# One-way wiki -> repository snapshot of the public content namespaces.
+# Gated RonzzIT:/RonzzInt: namespaces are refused by the tool: this
+# repository is public and those pages are mirrored by ronzz-it-runbooks.
+#
+# The tool lives in ronzz-wikibase (single source of truth); this workflow
+# clones it read-only and writes the snapshot here.
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: public-content-mirror
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the mirror
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch the mirror tool
+        run: |
+          git clone --depth=1 \
+            https://github.com/Ron-RONZZ-org/ronzz-wikibase.git /tmp/ronzz-wikibase
+
+      - name: Mirror and commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          run_mirror() {
+            python3 /tmp/ronzz-wikibase/tools/wiki_content_mirror.py \
+              --dir . --state state.json --prune --report /tmp/mirror-report.md
+          }
+          run_mirror
+          git add -A
+          if git diff --cached --quiet; then
+            echo "no content changes to commit"
+            exit 0
+          fi
+          git commit -m "mirror: sync production content [skip ci]"
+          for attempt in 1 2 3; do
+            if git push origin main; then
+              exit 0
+            fi
+            echo "push raced with another commit; retrying ($attempt/3)"
+            git fetch origin main
+            git reset --hard origin/main
+            run_mirror
+            git add -A
+            if git diff --cached --quiet; then
+              echo "no content changes after retry"
+              exit 0
+            fi
+            git commit -m "mirror: sync production content [skip ci]"
+            sleep 5
+          done
+          echo "could not commit the mirror after 3 attempts" >&2
+          exit 1
+
+      - name: Publish summary
+        if: always()
+        run: |
+          if [ -f /tmp/mirror-report.md ]; then
+            cat /tmp/mirror-report.md >> "$GITHUB_STEP_SUMMARY"
+          fi
