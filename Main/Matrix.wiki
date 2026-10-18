@@ -48,11 +48,9 @@ Special cases:
 | '''Column vector'''
 |}
 
-== [[Binary operation]]s ==
+== Single matrix operations ==
 
-=== Single matrix operations ===
-
-For matrice $\mathbf{A}=(a_{ij}) \in \mathbb{F}$:
+For matrice $\mathbf{A}=(a_{ij}),\, a_{ij}\in \mathbb{F}$:
 
 {| class="wikitable"
 |-
@@ -66,11 +64,11 @@ For matrice $\mathbf{A}=(a_{ij}) \in \mathbb{F}$:
 | $\mathbf{A}^T = (a_{ji})$
 |}
 
-=== Two matrices operations ===
+== [[Binary operation]]s ==
 
-==== Matrix addition/subtraction ====
+=== Matrix addition/subtraction ===
 
-It is defined for two matrices of '''identical sizes''' $\mathbf{A}_{m \times n}=(a_{ij}), \mathbf{B}_{m \times n}=(b_{ij})\in \mathbb{F}$:
+It is defined for two matrices of '''identical sizes''' $\mathbf{A}_{m \times n}=(a_{ij}), \mathbf{B}_{m \times n}=(b_{ij}),\, a_{ij},b_{ij}\in \mathbb{F}$:
 
 $$
 (\mathbf{A} \pm \mathbf{B})= (a_{ij} \pm b_{ij})
@@ -78,11 +76,11 @@ $$
 
 ==== Matrix multiplication ====
 
-It is defined for two matrices of '''compatible sizes''' $\mathbf{A}_{m \times n}=(a_{ij}), \mathbf{B}_{n \times p}=(b_{ij})\in \mathbb{F}$:
+It is defined for two matrices of '''compatible sizes''' $\mathbf{A}_{m \times n}=(a_{ij}), \mathbf{B}_{n \times p}=(b_{ij}),\, a_{ij},b_{ij}\in \mathbb{F}$:
 
 $$
 \forall i \in \{1,\dots,m\}, j \in \{1,\dots,p\} \\
-(\mathbf{A}\mathbf{B})_{ij} = \sum_{k=1}^{n} a_{ik} b_{kj}.
+(\mathbf{AB})_{ij} = \sum_{k=1}^{n} a_{ik} b_{kj}.
 $$
 
 <blockquote>
@@ -162,26 +160,56 @@ $$
 
 === Determinant properties ===
 
-==== Multilinearity ====
+==== {{Anchor|determinant of transpose}}$\det(\mathbf{A}^{T})=\det(\mathbf{A})$ ====
 
-The determinant is linear in each row:
+for any square matrix $\mathbf{A}$.
 
-Let the rows of $\mathbf{A}$ be $\vec r_1,\dots,\vec r_n$. 
-
-For $1\le i\le n$ and $\vec w\in\mathbb{F}^n$, let $\mathbf{A}_i(\vec w)$ denote the matrix obtained from $\mathbf{A}$ by replacing row $i$ with $\vec w$. 
-
-If row $i$ is replaced by $\alpha\vec u+\beta\vec v$, then
+{{Hidden proof}}
+By definition,
 
 $$
-\det(\mathbf{A}_i(\alpha\vec u+\beta\vec v))
+\det(\mathbf{A}^{T})=\sum_{\sigma\in\mathcal{S}_n}\operatorname{sign}(\sigma)\prod_{i=1}^{n}a_{\sigma(i),i}.
+$$
+
+Re-index the product by $j=\sigma(i) \Rightarrow i=\sigma^{-1}(j)$,
+$$
+\prod_{i=1}^{n}a_{\sigma(i),i}=\prod_{j=1}^{n}a_{j,\sigma^{-1}(j)}.
+$$
+
+Since $\sigma^{-1} \in \mathcal{S}_n$ ([[Permutation#Inverse_permutation|See why]]), let $\pi = \sigma^{-1}$
+
+$$
+\det(\mathbf{A}^{T})=\sum_{\pi\in\mathcal{S}_n}\operatorname{sign}(\pi)\prod_{j=1}^{n}a_{j,\pi(j)}=\det(\mathbf{A}).
+$$
+{{End hidden}}
+
+<ref name="kuttler">{{#cite:Q2236}}</ref>
+
+==== Multilinearity ====
+
+The determinant is linear in each row and each column:
+
+Let the rows of $\mathbf{A}$ be $\vec r_1,\cdots,\vec r_n$, and columns be $\vec c_1,\cdots,\vec c_n$. 
+
+For $1\le i\le n$ and $\vec w\in\mathbb{F}^n$, let $\mathbf{A}_{ri}(\vec w),\mathbf{A}_{ci}(\vec w)$ denote the matrix obtained from $\mathbf{A}$ by replacing row or column $i$ with $\vec w$. 
+
+Then
+
+$$
+\det(\mathbf{A}_{ri}(\alpha\vec u+\beta\vec v))
 =
-\alpha\det(\mathbf{A}_i(\vec u))
+\alpha\det(\mathbf{A}_{ri}(\vec u))
 +
-\beta\det(\mathbf{A}_i(\vec v)).
+\beta\det(\mathbf{A}_{ri}(\vec v)); \\
+\det(\mathbf{A}_{ci}(\alpha\vec u+\beta\vec v))
+=
+\alpha\det(\mathbf{A}_{ci}(\vec u))
++
+\beta\det(\mathbf{A}_{ci}(\vec v)).
 $$
 
 {{Hidden proof}}
-Let $\vec u=(u_1,\dots,u_n)$ and $\vec v=(v_1,\dots,v_n)$, $\mathbf{A}_i(\alpha\vec u+\beta\vec v)=(a'_{ij})$
+Let $\vec u=(u_1,\dots,u_n)$ and $\vec v=(v_1,\dots,v_n)$, $\mathbf{A}_{ri}(\alpha\vec u+\beta\vec v)=(a'_{k,j})$
 
 $$
 \Rightarrow a'_{k,j}=
@@ -189,7 +217,7 @@ $$
 k=i &: \alpha u_j+\beta v_j,\\[4pt]
 k\ne i &: a_{k,j}.
 \end{cases}\\ \\
-\det(\mathbf{A}_i(\alpha\vec u+\beta\vec v)) \\
+\det(\mathbf{A}_{ri}(\alpha\vec u+\beta\vec v)) \\
 =
 \sum_{\sigma\in \mathcal{S}_n}\operatorname{sign}(\sigma)\prod_{i=1}^n a'_{i,\sigma(i)} \\
 =
@@ -201,54 +229,54 @@ k\ne i &: a_{k,j}.
 \beta\sum_{\sigma\in\mathcal{S}_n}\operatorname{sign}(\sigma)
 \left(\prod_{k\ne i}a_{k,\sigma(k)}\right)v_{\sigma(i)}\\
 =
-\alpha\det(\mathbf{A}_i(\vec u))
+\alpha\det(\mathbf{A}_{ri}(\vec u))
 +
-\beta\det(\mathbf{A}_i(\vec v)).
+\beta\det(\mathbf{A}_{ri}(\vec v)).
+$$
+
+Which proves
+
+$$
+\det(\mathbf{A}_{ri}(\alpha\vec u+\beta\vec v))
+=
+\alpha\det(\mathbf{A}_{ri}(\vec u))
++
+\beta\det(\mathbf{A}_{ri}(\vec v))
+$$
+
+Let $\mathbf{B}=\mathbf{A}^T$, since $\mathbf{A}$ is an arbitrary matrix, so is $\mathbf{B}$.
+
+also,
+$$
+\mathbf{B}_{ci}(\alpha\vec u+\beta\vec v)=\mathbf{A}^T_{ri}(\alpha\vec u+\beta\vec v), \\
+\mathbf{B}_{ci}(\vec u)=\mathbf{A}^T_{ri}(\vec u), \\
+\mathbf{B}_{ci}(\vec v)=\mathbf{A}^T_{ri}(\vec v).
+$$
+
+By [[#determinant of transpose|property]],
+
+$$
+\det(\mathbf{B}_{ci}(\alpha\vec u+\beta\vec v))=\det(\mathbf{A}_{ri}(\alpha\vec u+\beta\vec v)), \\
+\mathbf{B}_{ci}(\vec u))=\det(\mathbf{A}_{ri}(\vec u)), \\
+\mathbf{B}_{ci}(\vec v))=\det(\mathbf{A}_{ri}(\vec v)).
+$$
+
+Hence
+
+$$
+\det(\mathbf{B}_{ci}(\alpha\vec u+\beta\vec v))
+=
+\alpha\det(\mathbf{B}_{ci}(\vec u))
++
+\beta\det(\mathbf{B}_{ci}(\vec v)).
 $$
 {{End hidden}}
 
-==== Transpose ====
+==== $\det(c\mathbf{A})=c^{n}\det(\mathbf{A})$ ====
 
-For any square matrix,
-
-$$
-\det(\mathbf{A}^{T})=\det(\mathbf{A}).
-$$
-
+for any square matrix $\mathbf{A}$.
 {{Hidden proof}}
-By definition,
-
-$$
-\det(\mathbf{A}^{T})=\sum_{\sigma\in\mathcal{S}_n}\operatorname{sign}(\sigma)\prod_{i=1}^{n}a_{\sigma(i),i}.
-$$
-
-Re-indexing the product by $j=\sigma(i)$, that is $i=\sigma^{-1}(j)$,
-
-$$
-\prod_{i=1}^{n}a_{\sigma(i),i}=\prod_{j=1}^{n}a_{j,\sigma^{-1}(j)}.
-$$
-
-Since $\sigma\mapsto\sigma^{-1}$ is a bijection of $\mathcal{S}_n$ and $\operatorname{sign}(\sigma^{-1})=\operatorname{sign}(\sigma)$,
-
-$$
-\det(\mathbf{A}^{T})=\sum_{\tau\in\mathcal{S}_n}\operatorname{sign}(\tau)\prod_{j=1}^{n}a_{j,\tau(j)}=\det(\mathbf{A}).
-$$
-{{End hidden}}
-
-<ref name="kuttler">{{#cite:Q2236}}</ref>
-
-<blockquote>
-Every property stated below for rows therefore holds for columns as well.
-</blockquote>
-
-==== Scalar multiple ====
-
-$$
-\det(c\mathbf{A})=c^{n}\det(\mathbf{A}).
-$$
-
-{{Hidden proof}}
-Every entry of $c\mathbf{A}$ is $ca_{i,j}$, hence
+$c\mathbf{A}=(ca_{i,j})$, hence
 
 $$
 \det(c\mathbf{A})=\sum_{\sigma\in\mathcal{S}_n}\operatorname{sign}(\sigma)\prod_{i=1}^{n}\left(ca_{i,\sigma(i)}\right)
@@ -257,264 +285,107 @@ $$
 $$
 {{End hidden}}
 
-<blockquote>
-The scalar multiplies all $n$ rows, so the factor appears $n$ times:
-
-$$
-\det(2\mathbf{A})=2^{n}\det(\mathbf{A}).
-$$
-</blockquote>
-
 <ref name="openstax">{{#cite:Q2237}}</ref>
 
-==== Equal rows ====
+==== Zero row/column $\Rightarrow \det=0$  ====
 
 $$
-\det(\mathbf{A})=
-\begin{cases}
-\text{some } \vec r_i=\vec 0 &: 0,\\[4pt]
-\vec r_i=\vec r_j \text{ for some } i\ne j &: 0.
-\end{cases}
+\vec r_i=\vec 0 \Rightarrow \det(\mathbf{A})= 0 \\
+\vec c_i=\vec 0 \Rightarrow \det(\mathbf{A})= 0 \\
 $$
 
 {{Hidden proof}}
-For a zero row, multilinearity in row $i$ gives
+When $\vec r_i= \vec 0$ or $\vec c_i=\vec 0$, [[#multilinearity|multilinearity]] in row or column $i$ gives
 
 $$
-\det(\mathbf{A}_i(\vec 0))=\det(\mathbf{A}_i(0\cdot\vec r_i))=0\cdot\det(\mathbf{A}_i(\vec r_i))=0.
+\det(\mathbf{A}_{ri}(\vec 0))=\det(\mathbf{A}_{ri}(0\cdot\vec r_i))=0\cdot\det(\mathbf{A}_{ri}(\vec r_i))=0
 $$
 
-For two equal rows, take $\vec r_i=\vec r_j$ with $i\ne j$ and $\tau=(i\;j)$. The term of permutation $\sigma$ is
+or
 
 $$
-T(\sigma)=\operatorname{sign}(\sigma)\prod_{k=1}^{n}a_{k,\sigma(k)}.
+\det(\mathbf{A}_{ci}(\vec 0))=\det(\mathbf{A}_{ci}(0\cdot\vec c_i))=0\cdot\det(\mathbf{A}_{ci}(\vec c_i))=0.
 $$
+{{End hidden}}
 
-Because $a_{k,l}=a_{\tau(k),l}$ for all $k,l$, re-indexing by $m=\tau(k)$ gives
-
-$$
-\prod_{k=1}^{n}a_{k,(\sigma\circ\tau)(k)}=\prod_{k=1}^{n}a_{\tau(k),(\sigma\circ\tau)(k)}=\prod_{m=1}^{n}a_{m,\sigma(m)}.
-$$
-
-With $\operatorname{sign}(\sigma\circ\tau)=-\operatorname{sign}(\sigma)$, this shows $T(\sigma\circ\tau)=-T(\sigma)$; pairing each $\sigma$ with $\sigma\circ\tau$,
+==== Equal rows/columns $\Rightarrow \det=0$ ====
 
 $$
-\det(\mathbf{A})=\frac{1}{2}\sum_{\sigma\in\mathcal{S}_n}\left(T(\sigma)+T(\sigma\circ\tau)\right)=0.
+\vec r_i=\vec r_j,\, i\ne j \Rightarrow \det(\mathbf{A})= 0 \\
+\vec c_i=\vec c_j,\, i\ne j \Rightarrow \det(\mathbf{A})= 0
 $$
+
+{{Hidden proof}}
+When $\vec r_i=\vec r_j,\, i\ne j$:
+
+$$
+\forall \sigma \in \mathcal{S}_n: 
+\exists \tau \in \mathcal{S}_n,\, \\
+\forall k \in \{1,2,\cdots,n\},
+(\tau \circ \sigma)(k)=
+\begin{cases}
+\sigma(k), & k \ne \sigma(i) \lor \sigma(j) \\
+\sigma(j), & k = \sigma(i) \\
+\sigma(i), & k = \sigma(j)
+\end{cases}
+$$
+where $\tau \circ \sigma \in \mathcal{S}_n$ ([[Permutation#Compositions_of_permutations_are_permutations|Why?]])
+
+By [[Permutation#transposition sign composition|property]],
+
+$$
+\operatorname{sign}(\tau \circ \sigma)=-\operatorname{sign}(\sigma)
+$$
+
+Hence
+
+$$
+&\forall \sigma \in S_n:\ \exists \sigma'=\tau\circ\sigma\in S_n,\\
+&\operatorname{sign}(\sigma)\prod_{z=1}^n a_{z,\sigma(z)}
++\operatorname{sign}(\sigma')\prod_{z=1}^n a_{z,\sigma'(z)}\\
+&\quad=
+\operatorname{sign}(\sigma)a_{i,\sigma(i)}a_{j,\sigma(j)}
+\prod_{\substack{k=1\\k\ne i,j}}^n a_{k,\sigma(k)}
++\operatorname{sign}(\sigma')a_{i,\sigma'(i)}a_{j,\sigma'(j)}
+\prod_{\substack{k=1\\k\ne i,j}}^n a_{k,\sigma'(k)}\\
+&\quad=
+\operatorname{sign}(\sigma)a_{i,\sigma(i)}a_{j,\sigma(j)}
+\prod_{\substack{k=1\\k\ne i,j}}^n a_{k,\sigma(k)}
++\left(-\operatorname{sign}(\sigma)a_{i,\sigma(j)}a_{j,\sigma(i)}
+\prod_{\substack{k=1\\k\ne i,j}}^n a_{k,\sigma(k)}\right)\\
+&\quad=0
+$$
+
+as $\vec r_i=\vec r_j \Rightarrow a_{i,\sigma(i)}=a_{j,\sigma(i)},\, a_{j,\sigma(j)}=a_{i,\sigma(j)}$.
+
+Hence
+$$
+\det(\mathbf{A})=\sum_{\sigma\in \mathcal{S}_n}\operatorname{sign}(\sigma)\prod_{i=1}^n a_{i,\sigma(i)}=0
+$$
+
+Which proves
+
+$$
+\vec r_i=\vec r_j,\, i\ne j \Rightarrow \det(\mathbf{A})= 0 \ \ \ \text{(1)}
+$$
+
+For arbitrary square matrice $\mathbf{B}: \vec c_i=\vec c_j$, $\mathbf{B}^T: \vec r_i=\vec r_j$. By $(1)$,
+
+$$
+\det(\mathbf{B}^T)=0
+$$
+
+By [[#determinant of transpose|property]], $\det(\mathbf{B})=\det(\mathbf{B}^T)=0$
+
+Hence
+
+$$
+\vec c_i=\vec c_j,\, i\ne j \Rightarrow \det(\mathbf{A})= 0
+$$
+
 {{End hidden}}
 
 <ref name="openstax"/>
-
-==== Row operations ====
-
-Let $\mathbf{E}$ be the matrix obtained from $\mathbf{I}_n$ by one elementary row operation. Then $\mathbf{E}\mathbf{A}$ is the matrix obtained from $\mathbf{A}$ by the same operation, and
-
-$$
-\det(\mathbf{E}\mathbf{A})=
-\begin{cases}
-\text{interchange rows } i \text{ and } j &: -\det(\mathbf{A}),\\[4pt]
-\text{multiply row } i \text{ by } c\ne 0 &: c\det(\mathbf{A}),\\[4pt]
-\text{add } c \text{ times row } j \text{ to row } i,\; j\ne i &: \det(\mathbf{A}).
-\end{cases}
-$$
-
-{{Hidden proof}}
-Write $\tilde{\mathbf{A}}=\mathbf{E}\mathbf{A}$.
-
-'''Interchange''': $\tilde a_{k,j}=a_{\tau(k),j}$ with $\tau=(i\;j)$, so
-
-$$
-\begin{aligned}
-\det(\tilde{\mathbf{A}})
-&=\sum_{\sigma\in\mathcal{S}_n}\operatorname{sign}(\sigma)\prod_{k=1}^{n}a_{\tau(k),\sigma(k)}\\
-&=\sum_{\mu\in\mathcal{S}_n}\operatorname{sign}(\mu\circ\tau)\prod_{k=1}^{n}a_{\tau(k),(\mu\circ\tau)(k)}\\
-&=-\sum_{\mu\in\mathcal{S}_n}\operatorname{sign}(\mu)\prod_{m=1}^{n}a_{m,\mu(m)}\\
-&=-\det(\mathbf{A}),
-\end{aligned}
-$$
-
-with $\sigma=\mu\circ\tau$ and $m=\tau(k)$.
-
-'''Multiplication by $c$''': multilinearity in row $i$.
-
-'''Addition''': with $\vec r_j$ the $j$-th row of $\mathbf{A}$,
-
-$$
-\det(\tilde{\mathbf{A}})=\det(\mathbf{A}_i(\vec r_i+c\vec r_j))=\det(\mathbf{A}_i(\vec r_i))+c\det(\mathbf{A}_i(\vec r_j))=\det(\mathbf{A})+c\cdot 0=\det(\mathbf{A}),
-$$
-
-since $\mathbf{A}_i(\vec r_j)$ has rows $i$ and $j$ equal.
-{{End hidden}}
-
-<blockquote>
-Applied to $\mathbf{A}=\mathbf{I}_n$ and $\det(\mathbf{I}_n)=1$,
-
-$$
-\det(\mathbf{E})=
-\begin{cases}
-\text{interchange} &: -1,\\[4pt]
-\text{multiply by } c\ne 0 &: c,\\[4pt]
-\text{add a multiple of a row} &: 1,
-\end{cases}
-$$
-
-hence, for every matrix $\mathbf{A}$ and every elementary matrix $\mathbf{E}$,
-
-$$
-\det(\mathbf{E}\mathbf{A})=\det(\mathbf{E})\det(\mathbf{A}).
-$$
-</blockquote>
-
-<ref name="kuttler"/>
-
-==== Triangular matrix ====
-
-If $\mathbf{A}$ is upper triangular or lower triangular, then
-
-$$
-\det(\mathbf{A})=\prod_{i=1}^{n}a_{i,i}.
-$$
-
-{{Hidden proof}}
-In an upper triangular matrix, $a_{k,\sigma(k)}\ne 0$ requires $\sigma(k)\ge k$. A nonzero term of the definition therefore has
-
-$$
-\sum_{k=1}^{n}\left(\sigma(k)-k\right)=0,\qquad \sigma(k)-k\ge 0,
-$$
-
-so $\sigma(k)=k$ for every $k$, that is $\sigma$ is the identity, and
-
-$$
-\det(\mathbf{A})=\prod_{i=1}^{n}a_{i,i}.
-$$
-
-The lower triangular case is the same with $\sigma(k)\le k$.
-{{End hidden}}
-
-<blockquote>
-'''Application''': elimination to echelon form $\mathbf{U}$ uses only row additions, which leave $\det$ unchanged, and row interchanges, which flip its sign. Hence
-
-$$
-\det(\mathbf{A})=(-1)^{s}\prod_{i=1}^{n}u_{i,i},
-$$
-
-where $u_{i,i}$ are the pivots and $s$ the number of interchanges.
-</blockquote>
-
-<ref name="ck12">{{#cite:Q2238}}</ref>
-
-==== Product ====
-
-$$
-\det(\mathbf{A}\mathbf{B})=\det(\mathbf{A})\det(\mathbf{B}).
-$$
-
-{{Hidden proof}}
-Reducing $\mathbf{A}$ to row echelon form $\mathbf{R}$ by elementary row operations gives elementary matrices $\mathbf{E}_1,\dots,\mathbf{E}_m$ with
-
-$$
-\mathbf{A}=\mathbf{E}_1\cdots\mathbf{E}_m\mathbf{R}.
-$$
-
-Applying $\det(\mathbf{E}\mathbf{X})=\det(\mathbf{E})\det(\mathbf{X})$ $m$ times,
-
-$$
-\det(\mathbf{E}_1\cdots\mathbf{E}_m\mathbf{X})=\det(\mathbf{E}_1)\cdots\det(\mathbf{E}_m)\det(\mathbf{X})
-$$
-
-for any matrix $\mathbf{X}$.
-
-'''$\mathbf{A}$ singular''', that is $\mathbf{R}\ne\mathbf{I}_n$: then $\mathbf{R}$ has a zero row, so $\mathbf{R}\mathbf{B}$ has that zero row as well, and
-
-$$
-\det(\mathbf{A})=\det(\mathbf{E}_1)\cdots\det(\mathbf{E}_m)\cdot 0=0,\qquad \det(\mathbf{A}\mathbf{B})=\det(\mathbf{E}_1)\cdots\det(\mathbf{E}_m)\cdot 0=0.
-$$
-
-'''$\mathbf{A}$ invertible''', that is $\mathbf{R}=\mathbf{I}_n$: then $\mathbf{A}=\mathbf{E}_1\cdots\mathbf{E}_m$ and
-
-$$
-\det(\mathbf{A}\mathbf{B})=\det(\mathbf{E}_1)\cdots\det(\mathbf{E}_m)\det(\mathbf{B})=\det(\mathbf{A})\det(\mathbf{B}).
-$$
-
-Hence $\det(\mathbf{A}\mathbf{B})=\det(\mathbf{A})\det(\mathbf{B})$ in both cases.
-{{End hidden}}
-
-<ref name="kuttler"/>
-
-{{Hidden example}}
-For
-
-$$
-\mathbf{A}=\begin{pmatrix}1&2\\3&4\end{pmatrix},\qquad \mathbf{B}=\begin{pmatrix}0&1\\1&1\end{pmatrix},
-$$
-
-$$
-\det(\mathbf{A})=1\cdot 4-2\cdot 3=-2,\qquad \det(\mathbf{B})=0\cdot 1-1\cdot 1=-1,
-$$
-
-$$
-\mathbf{A}\mathbf{B}=\begin{pmatrix}2&3\\4&7\end{pmatrix},\qquad \det(\mathbf{A}\mathbf{B})=2\cdot 7-3\cdot 4=2=(-2)(-1).
-$$
-{{End hidden}}
-
-<blockquote>
-'''Warning''': $\det$ is multiplicative but not additive. For
-
-$$
-\mathbf{A}=\begin{pmatrix}1&0\\0&0\end{pmatrix},\qquad \mathbf{B}=\begin{pmatrix}0&0\\0&1\end{pmatrix},
-$$
-
-$\det(\mathbf{A})+\det(\mathbf{B})=0$, whereas $\det(\mathbf{A}+\mathbf{B})=\det(\mathbf{I}_2)=1$.
-</blockquote>
-
-==== Invertibility ====
-
-$$
-\det(\mathbf{A})\ne 0 \iff \mathbf{A} \text{ invertible}.
-$$
-
-{{Hidden proof}}
-Row-reduce $\mathbf{A}$ to echelon form $\mathbf{R}$. Every row operation multiplies the determinant by a nonzero factor, $-1$, $c\ne 0$ or $1$, so for some $\delta\ne 0$,
-
-$$
-\det(\mathbf{A})=\delta\det(\mathbf{R}).
-$$
-
-* $\mathbf{A}$ singular: $\mathbf{R}$ has a zero row, so $\det(\mathbf{R})=0$ and $\det(\mathbf{A})=\delta\cdot 0=0$.
-* $\mathbf{A}$ invertible: $\mathbf{R}=\mathbf{I}_n$, so $\det(\mathbf{R})=1$ and $\det(\mathbf{A})=\delta\ne 0$.
-{{End hidden}}
-
-<ref name="kuttler"/>
-
-==== Inverse ====
-
-$$
-\det(\mathbf{A}^{-1})=\frac{1}{\det(\mathbf{A})}.
-$$
-
-{{Hidden proof}}
-Since $\mathbf{A}\mathbf{A}^{-1}=\mathbf{I}_n$ and $\det(\mathbf{I}_n)=1$,
-
-$$
-\det(\mathbf{A})\det(\mathbf{A}^{-1})=\det(\mathbf{I}_n)=1.
-$$
-
-As $\mathbf{A}$ is invertible, $\det(\mathbf{A})\ne 0$, hence
-
-$$
-\det(\mathbf{A}^{-1})=\frac{1}{\det(\mathbf{A})}.
-$$
-{{End hidden}}
-
-<ref name="openstax"/>
-
-<blockquote>
-For $\mathbf{A}=\begin{pmatrix}1&2\\3&4\end{pmatrix}$, $\det(\mathbf{A})=-2$ and
-
-$$
-\mathbf{A}^{-1}=\begin{pmatrix}-2&1\\ \frac{3}{2}&-\frac{1}{2}\end{pmatrix},\qquad \det(\mathbf{A}^{-1})=(-2)\left(-\frac{1}{2}\right)-1\cdot\frac{3}{2}=-\frac{1}{2}=\frac{1}{\det(\mathbf{A})}.
-$$
-</blockquote>
 
 == Matrix operations in python ==
 
