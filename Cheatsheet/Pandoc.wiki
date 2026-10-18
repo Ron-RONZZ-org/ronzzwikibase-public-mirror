@@ -167,4 +167,4 @@ Also, Pandoc reads its own '''pandoc markdown''' dialect by default. Other diale
 * [https://pandoc.org/getting-started.html Pandoc tutorial] — the recommended quick tour
 * [https://pandoc.org/try Try Pandoc] — run conversions in the browser
 * [https://pandoc.org/filters.html Pandoc filters] — extending Pandoc with Lua scripts
-* [[Cheatsheets:Quarto]] — a publishing system built on Pandoc
+* [[Cheatsheet:Quarto]] — a publishing system built on Pandoc

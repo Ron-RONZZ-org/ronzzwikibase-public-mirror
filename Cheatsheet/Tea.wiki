@@ -148,4 +148,4 @@ tea api /repos/alice/widgets/issues     # any authenticated API call (-X, -d, -H
 * [https://gitea.com/gitea/tea/src/branch/main/docs/CLI.md CLI reference] — auto-generated docs for every command and flag
 * [https://about.gitea.com/products/tea/ Official tea page]
 * Shell completion: <syntaxhighlight lang="bash" inline>source <(tea completion bash)</syntaxhighlight> (zsh, fish, PowerShell also supported); <syntaxhighlight lang="bash" inline>tea man</syntaxhighlight> prints the man page
-* [[Cheatsheets:Git]] — the git that does the heavy lifting
+* [[Cheatsheet:Git]] — the git that does the heavy lifting

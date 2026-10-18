@@ -23,4 +23,4 @@ Flameshot lives up to its official slogan:
 
 == See also ==
 
-* [[Cheatsheets:DesktopLinuxFOSS]]
+* [[Cheatsheet:DesktopLinuxFOSS]]

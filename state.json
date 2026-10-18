@@ -56,9 +56,9 @@
     },
     "Cheatsheet:DesktopLinux": {
       "path": "Cheatsheet/DesktopLinux.wiki",
-      "revid": 8422,
-      "sha256": "6d3e7a5988256a1bdfa0519d01284af00d51696e3cfd760e31cca5891a6aa822",
-      "synced_at": "2026-10-18T12:43:35+00:00"
+      "revid": 10392,
+      "sha256": "0782c7cb4ab2dcef9e26e2c7deb02fff9965004d619a02a495a43e4947e21148",
+      "synced_at": "2026-10-18T12:54:28+00:00"
     },
     "Cheatsheet:DesktopLinuxFOSS": {
       "path": "Cheatsheet/DesktopLinuxFOSS.wiki",
@@ -92,21 +92,21 @@
     },
     "Cheatsheet:LinuxCLI": {
       "path": "Cheatsheet/LinuxCLI.wiki",
-      "revid": 8411,
-      "sha256": "6bc5f65383239688cabd48b73adc505af3eb14da3d7d8306d21663e297fcb918",
-      "synced_at": "2026-10-18T12:43:35+00:00"
+      "revid": 10393,
+      "sha256": "1ee9831dddfbac60accce9b8b64f8ed61380bffe160ba0e2cd735959e3791693",
+      "synced_at": "2026-10-18T12:54:28+00:00"
     },
     "Cheatsheet:LinuxCLI/FileOps": {
       "path": "Cheatsheet/LinuxCLI/FileOps.wiki",
-      "revid": 8424,
-      "sha256": "5bac1b6fdcc3afd216788feb9f18c7ca75a5dd4309b8035b1935b23b08481036",
-      "synced_at": "2026-10-18T12:43:35+00:00"
+      "revid": 10394,
+      "sha256": "72b585a56f1fbdeeceeff3770d0263df5a911a7bd8f4057b08ca5933e08948bf",
+      "synced_at": "2026-10-18T12:54:28+00:00"
     },
     "Cheatsheet:LinuxCLI/Password management": {
       "path": "Cheatsheet/LinuxCLI/Password management.wiki",
-      "revid": 8483,
-      "sha256": "c0aa979b8e24fcb68ce77b98d0865f85eaef18995e21e670d1d1d67bc59e832c",
-      "synced_at": "2026-10-18T12:43:35+00:00"
+      "revid": 10395,
+      "sha256": "2ed028955330846b2e2b692ea6d441e2e168d7420c581a1c51d5c1f63c1a2d06",
+      "synced_at": "2026-10-18T12:54:28+00:00"
     },
     "Cheatsheet:LinuxCLI/SysOps": {
       "path": "Cheatsheet/LinuxCLI/SysOps.wiki",
@@ -140,9 +140,9 @@
     },
     "Cheatsheet:Pandoc": {
       "path": "Cheatsheet/Pandoc.wiki",
-      "revid": 1726,
-      "sha256": "4491f9a2a602aa00bcccaa5398c129aa9997b99abc74c8a1b45f836341a18a5d",
-      "synced_at": "2026-10-18T12:43:35+00:00"
+      "revid": 10396,
+      "sha256": "6036d4385ff6a18313df475e6e59f4c0a139c9522354970a5cb4b64c71939ed8",
+      "synced_at": "2026-10-18T12:54:28+00:00"
     },
     "Cheatsheet:PlantUML": {
       "path": "Cheatsheet/PlantUML.wiki",
@@ -152,9 +152,9 @@
     },
     "Cheatsheet:Quarto": {
       "path": "Cheatsheet/Quarto.wiki",
-      "revid": 1538,
-      "sha256": "7a42742267449bcf9f44bac2567d163072670592d75611597651850d4c44beb4",
-      "synced_at": "2026-10-18T12:43:35+00:00"
+      "revid": 10397,
+      "sha256": "615f23dc75c13e0c3089ee602f7539c513f5a7d64d857822cb9b4b4817aab1a4",
+      "synced_at": "2026-10-18T12:54:28+00:00"
     },
     "Cheatsheet:SPARQL": {
       "path": "Cheatsheet/SPARQL.wiki",
@@ -164,15 +164,15 @@
     },
     "Cheatsheet:Tea": {
       "path": "Cheatsheet/Tea.wiki",
-      "revid": 6198,
-      "sha256": "c71522d3ed2754a0d24fa217f3255fa277eb0a042783d6f433c40a330ce6a848",
-      "synced_at": "2026-10-18T12:43:35+00:00"
+      "revid": 10398,
+      "sha256": "7449b718b9974279aeacf5a9930b43d941a91cfc0a7ba9cd8dc5cbb6a5f2549a",
+      "synced_at": "2026-10-18T12:54:28+00:00"
     },
     "Cheatsheet:Yaml": {
       "path": "Cheatsheet/Yaml.wiki",
-      "revid": 3045,
-      "sha256": "3a003b4b1d8b11e88fd9febc4a7a05b591f52c903f110db3213acd866139d939",
-      "synced_at": "2026-10-18T12:43:35+00:00"
+      "revid": 10399,
+      "sha256": "7a76704b29997462a83bc4e00fd1dbeffb53880dc0561bd10f2f27b364c26ef2",
+      "synced_at": "2026-10-18T12:54:28+00:00"
     },
     "Classical mechanics": {
       "path": "Main/Classical mechanics.wiki",
@@ -698,9 +698,9 @@
     },
     "FOSS:Flameshot": {
       "path": "FOSS/Flameshot.wiki",
-      "revid": 1463,
-      "sha256": "e3309557d720336052ca60092d8041dc53e86b4dfc74f59fde926e0bf4cac13a",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "revid": 10401,
+      "sha256": "e7a3617368e9bffdb922e270f70e5824ae4b09591fb554035d732e7905749a94",
+      "synced_at": "2026-10-18T12:54:28+00:00"
     },
     "FOSS:Git": {
       "path": "FOSS/Git.wiki",
@@ -716,9 +716,9 @@
     },
     "FOSS:Main": {
       "path": "FOSS/Main.wiki",
-      "revid": 1295,
-      "sha256": "5281579f2373c156b2373d3a6d096ec0644d7ab5ed50a610b9e8a08ae273e294",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "revid": 10400,
+      "sha256": "467dcbb3b2a8587b931f06da5c311126b3b1854857913e0e1076e43c9fc9989e",
+      "synced_at": "2026-10-18T12:54:28+00:00"
     },
     "FOSS:Moby Project": {
       "path": "FOSS/Moby Project.wiki",
@@ -1850,9 +1850,9 @@
     },
     "SPARQL examples": {
       "path": "Main/SPARQL examples.wiki",
-      "revid": 6401,
-      "sha256": "e3298b719b28c9f1731406dfe7a74d41a126194c616418ce8533c671c4f884cf",
-      "synced_at": "2026-10-18T07:12:56+00:00"
+      "revid": 10402,
+      "sha256": "2bdb2456ba29a398e25099e1339d0c23b01e1598c1222fed49f4d783ffda2b4e",
+      "synced_at": "2026-10-18T12:54:28+00:00"
     },
     "Sandbox:Temp": {
       "path": "Main/Sandbox_Temp.wiki",
@@ -3517,6 +3517,6 @@
       "synced_at": "2026-10-18T07:12:56+00:00"
     }
   },
-  "updated": "2026-10-18T12:43:35+00:00",
+  "updated": "2026-10-18T12:54:28+00:00",
   "version": 1
 }

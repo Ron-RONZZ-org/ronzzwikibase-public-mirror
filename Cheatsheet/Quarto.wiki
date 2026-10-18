@@ -5,7 +5,7 @@ Quarto is like modern Latex+Jupyter: a scientific and technical publishing syste
 more.
 
 <blockquote>
-'''Quarto uses Markdown for prose content. If you are unfamiliar with Markdown syntax, see [[Cheatsheets:Markdown]].
+'''Quarto uses Markdown for prose content. If you are unfamiliar with Markdown syntax, see [[Cheatsheet:Markdown]].
 </blockquote>
 
 New to Quarto? You may find this
@@ -424,5 +424,5 @@ builds the site into <syntaxhighlight lang="text" inline>_site/</syntaxhighlight
 
 * [https://quarto.org/docs/ Quarto documentation] — the official docs
 * [https://quarto.org/docs/get-started/hello/ Get Started tutorial] — the recommended tutorial
-* [[Cheatsheets:markdown]] — Markdown syntax used by Quarto
+* [[Cheatsheet:markdown]] — Markdown syntax used by Quarto
 * [https://pandoc.org/ Pandoc] — the document converter Quarto builds on

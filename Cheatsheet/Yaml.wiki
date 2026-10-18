@@ -1,6 +1,6 @@
 {{Cheatsheet}}
 
-YAML ('''Y'''AML '''A'''in't '''M'''arkup '''L'''anguage) is a human-friendly data format — the de-facto standard for configuration files: GitHub Actions, Docker Compose, Ansible, Kubernetes, and the front matter of [[Cheatsheets:Quarto|Quarto]] documents. It describes plain data with just three building blocks: '''scalars''', '''lists''' and '''maps'''.
+YAML ('''Y'''AML '''A'''in't '''M'''arkup '''L'''anguage) is a human-friendly data format — the de-facto standard for configuration files: GitHub Actions, Docker Compose, Ansible, Kubernetes, and the front matter of [[Cheatsheet:Quarto|Quarto]] documents. It describes plain data with just three building blocks: '''scalars''', '''lists''' and '''maps'''.
 
 New to YAML? The [https://learnxinyminutes.com/docs/yaml/ Learn YAML in Y minutes] tour may interest you.
 
@@ -279,4 +279,4 @@ parses to <syntaxhighlight lang="text" inline>name: Bo</syntaxhighlight> — mos
 * [https://yaml.org/spec/1.2.2/ YAML 1.2 spec] — the official specification
 * [https://learnxinyminutes.com/docs/yaml/ Learn YAML in Y minutes] — a brisk syntax tour
 * [https://yaml-multiline.info/ yaml-multiline.info] — a playground for the block scalars (<syntaxhighlight lang="yaml" inline>|</syntaxhighlight> and <syntaxhighlight lang="yaml" inline>></syntaxhighlight>)
-* [[Cheatsheets:Quarto]] — YAML front matter in Quarto documents
+* [[Cheatsheet:Quarto]] — YAML front matter in Quarto documents

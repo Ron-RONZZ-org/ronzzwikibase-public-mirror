@@ -334,7 +334,7 @@ shopt -s globstar
 
 == File format conversion ==
 
-See [[Cheatsheets:Pandoc]]
+See [[Cheatsheet:Pandoc]]
 
 == Further reading ==
 

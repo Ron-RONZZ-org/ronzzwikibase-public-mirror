@@ -1,4 +1,4 @@
-This page feeds the '''Examples''' dialog of the [https://query.ronzz.org RonzzWiki Query Service]. Each example is a self-contained SPARQL query against the RonzzWiki data (prefixes must be declared — see [[Cheatsheets:SPARQL]]).
+This page feeds the '''Examples''' dialog of the [https://query.ronzz.org RonzzWiki Query Service]. Each example is a self-contained SPARQL query against the RonzzWiki data (prefixes must be declared — see [[Cheatsheet:SPARQL]]).
 
 == People ==
 

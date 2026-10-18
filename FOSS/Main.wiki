@@ -21,4 +21,4 @@ Every software page is built from '''[[Template:FOSS]]''' (banner + infobox) —
 
 == See also ==
 
-* [[Cheatsheets:DesktopLinuxFOSS]] — the desktop-Linux FOSS cheatsheet that links these pages
+* [[Cheatsheet:DesktopLinuxFOSS]] — the desktop-Linux FOSS cheatsheet that links these pages
