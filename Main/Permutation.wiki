@@ -157,10 +157,6 @@ $$
 $$ 
 {{End hidden}}
 
-<blockquote>
-All transpositions $\tau$ are odd permutations.
-</blockquote>
-
 === {{anchor|Sign_function}}$\operatorname{sign}(\sigma)$ ===
 
 $$
@@ -169,6 +165,10 @@ $$
 
 <blockquote>
 All even permutations have sign $+1$ and all odd ones sign $-1$.
+</blockquote>
+
+<blockquote>
+For any [[#transposition|transposition]], $\operatorname{sign}(\tau)=-1$
 </blockquote>
 
 <ref>{{#cite:Q2231}}</ref>
@@ -243,6 +243,21 @@ I_{a,b} \equiv P_{a,b}+Q_{a,b} \pmod 2 \text{ for any } s_a,s_b \in S,\, a \lt b
 \therefore (-1)^{\operatorname{inv}(\sigma_1 \circ \sigma_2)} \equiv (-1)^{\operatorname{inv}(\sigma_1)+\operatorname{inv}(\sigma_2)} \\
 \operatorname{sign}(\sigma_1 \circ \sigma_2)=\operatorname{sign}(\sigma_1)\cdot\operatorname{sign}(\sigma_2) \\
 $$
+{{End hidden}}
+
+==== $\operatorname{sign}(\tau \circ \sigma)=-\operatorname{sign}(\sigma)$ ====
+
+Where $\tau$ is a [[#transposition|transposition]] and $\sigma$ is any permutation of same set $S$.
+
+{{Hidden proof}}
+From [[#transposition|definition]], $\operatorname{sign}(\tau)=-1$.
+
+From [[#sign composition|property]],
+
+$$
+\operatorname{sign}(\tau \circ \sigma)=\operatorname{sign}(\tau) \cdot \operatorname{sign}(\sigma) = - \operatorname{sign}(\sigma)
+$$
+
 {{End hidden}}
 
 == {{anchor|inverse permutation}}Inverse permutation $\sigma^{-1}$ ==

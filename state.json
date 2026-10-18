@@ -1046,9 +1046,9 @@
     },
     "Permutation": {
       "path": "Main/Permutation.wiki",
-      "revid": 10544,
-      "sha256": "3aa1978c7de884f647ffbeaca9f12483a1c3bbf3b1e8ea5cd0f133c9e6ce2776",
-      "synced_at": "2026-10-18T17:36:01+00:00"
+      "revid": 10547,
+      "sha256": "a9c1cce7015178a0f2792cde69800cc692051261c3a560874a8e1e5519055023",
+      "synced_at": "2026-10-18T17:50:07+00:00"
     },
     "Person:Adam Riess": {
       "path": "Person/Adam Riess.wiki",
@@ -3523,6 +3523,6 @@
       "synced_at": "2026-10-18T07:12:56+00:00"
     }
   },
-  "updated": "2026-10-18T17:36:01+00:00",
+  "updated": "2026-10-18T17:50:07+00:00",
   "version": 1
 }
