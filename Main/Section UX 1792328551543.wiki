@@ -1,0 +1,13 @@
+== First section ==
+
+Body one.
+
+=== Added sub ===
+
+Sub body.
+
+== Second section ==
+
+Body two.
+
+Appended by the E2E.

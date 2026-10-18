@@ -55,6 +55,18 @@ $$
 $$
 {{End hidden}}
 
+== Composition ==
+
+Since each permutation is a [[function]], they can be composed:
+
+$$
+\pi \circ \sigma=
+\begin{pmatrix}
+s_1 & s_2 & \cdots & s_n \\
+\pi(\sigma(s_1)) & \pi(\sigma(s_2)) & \cdots & \pi(\sigma(s_n))
+\end{pmatrix}
+$$
+
 == Properties ==
 
 === {{anchor|Counting_permutations}}$n$ elements $\Rightarrow $ $n!$ permutations ===
@@ -64,33 +76,6 @@ For any set $S:|S|=n$:
 $$
 |\operatorname{Perm}(S)|=n!
 $$
-
-=== {{anchor|Symmetric_groups}}Symmetric groups $\mathcal{S}_{n}$ ===
-
-$\{\sigma_1,\sigma_2,\sigma_3,\cdots,\sigma_{n!}\}$, the '''set''' of all permutations for $\{1,2,3,\cdots,n\}$, is known as the '''symmetric group''' of degree n, denoted by $\mathcal{S}_n$.
-
-=== {{anchor|Identity_permutation}}Identity permutation: $\sigma_{id}(s)=s$ ===
-
-The '''identity permutation''' for set $S=\{s_1,s_2,\cdots,s_n\}$
-
-$$
-\sigma_{id} =
-\begin{pmatrix}
-s_1 & s_2 & \cdots & s_n \\
-s_1 & s_2 & \cdots & s_n
-\end{pmatrix}.
-$$
-
-{{Hidden example}}
-The identity permutation for $\{1,2,3\}$ is
-
-$$
-\begin{pmatrix}
-1&2&3 \\
-1&2&3
-\end{pmatrix}
-$$
-{{End hidden}}
 
 === Inversion pairs ===
 
