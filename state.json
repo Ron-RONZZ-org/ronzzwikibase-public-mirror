@@ -54,125 +54,125 @@
       "sha256": "073e296aeb1754ab776ebad41ea59289c36f7d085b5584f877608dc0763d4eb8",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
-    "Cheatsheets:DesktopLinux": {
-      "path": "Cheatsheets/DesktopLinux.wiki",
+    "Cheatsheet:DesktopLinux": {
+      "path": "Cheatsheet/DesktopLinux.wiki",
       "revid": 8422,
       "sha256": "6d3e7a5988256a1bdfa0519d01284af00d51696e3cfd760e31cca5891a6aa822",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "synced_at": "2026-10-18T12:43:35+00:00"
     },
-    "Cheatsheets:DesktopLinuxFOSS": {
-      "path": "Cheatsheets/DesktopLinuxFOSS.wiki",
+    "Cheatsheet:DesktopLinuxFOSS": {
+      "path": "Cheatsheet/DesktopLinuxFOSS.wiki",
       "revid": 1560,
       "sha256": "cb2d17816f7115f40fba0d1d4f7faf552b8e16998bbc19f8f9080820703cdd2f",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "synced_at": "2026-10-18T12:43:35+00:00"
     },
-    "Cheatsheets:Docker": {
-      "path": "Cheatsheets/Docker.wiki",
+    "Cheatsheet:Docker": {
+      "path": "Cheatsheet/Docker.wiki",
       "revid": 1557,
       "sha256": "c40a2004fca605c8b8fe20cbf42602dedc58ae450c090820b03eb1e638587191",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "synced_at": "2026-10-18T12:43:35+00:00"
     },
-    "Cheatsheets:Firefox": {
-      "path": "Cheatsheets/Firefox.wiki",
+    "Cheatsheet:Firefox": {
+      "path": "Cheatsheet/Firefox.wiki",
       "revid": 2772,
       "sha256": "93d5fcf79b40160077a48b05a7583d89df434a9e100e3a796c9e9f039acf2900",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "synced_at": "2026-10-18T12:43:35+00:00"
     },
-    "Cheatsheets:Git": {
-      "path": "Cheatsheets/Git.wiki",
+    "Cheatsheet:Git": {
+      "path": "Cheatsheet/Git.wiki",
       "revid": 9521,
       "sha256": "7f324cced49792de8ae2bb900e8b508f562d11593e4b45b85c5e569d4977fa64",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "synced_at": "2026-10-18T12:43:35+00:00"
     },
-    "Cheatsheets:Keepassxc-cli": {
-      "path": "Cheatsheets/Keepassxc-cli.wiki",
+    "Cheatsheet:Keepassxc-cli": {
+      "path": "Cheatsheet/Keepassxc-cli.wiki",
       "revid": 8482,
       "sha256": "f2ea9eb473af495d66a5ddc460412674da1f7dff10ec50d20fa1b9c35b8f015b",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "synced_at": "2026-10-18T12:43:35+00:00"
     },
-    "Cheatsheets:LinuxCLI": {
-      "path": "Cheatsheets/LinuxCLI.wiki",
+    "Cheatsheet:LinuxCLI": {
+      "path": "Cheatsheet/LinuxCLI.wiki",
       "revid": 8411,
       "sha256": "6bc5f65383239688cabd48b73adc505af3eb14da3d7d8306d21663e297fcb918",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "synced_at": "2026-10-18T12:43:35+00:00"
     },
-    "Cheatsheets:LinuxCLI/FileOps": {
-      "path": "Cheatsheets/LinuxCLI/FileOps.wiki",
+    "Cheatsheet:LinuxCLI/FileOps": {
+      "path": "Cheatsheet/LinuxCLI/FileOps.wiki",
       "revid": 8424,
       "sha256": "5bac1b6fdcc3afd216788feb9f18c7ca75a5dd4309b8035b1935b23b08481036",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "synced_at": "2026-10-18T12:43:35+00:00"
     },
-    "Cheatsheets:LinuxCLI/Password management": {
-      "path": "Cheatsheets/LinuxCLI/Password management.wiki",
+    "Cheatsheet:LinuxCLI/Password management": {
+      "path": "Cheatsheet/LinuxCLI/Password management.wiki",
       "revid": 8483,
       "sha256": "c0aa979b8e24fcb68ce77b98d0865f85eaef18995e21e670d1d1d67bc59e832c",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "synced_at": "2026-10-18T12:43:35+00:00"
     },
-    "Cheatsheets:LinuxCLI/SysOps": {
-      "path": "Cheatsheets/LinuxCLI/SysOps.wiki",
+    "Cheatsheet:LinuxCLI/SysOps": {
+      "path": "Cheatsheet/LinuxCLI/SysOps.wiki",
       "revid": 8425,
       "sha256": "6772d72ddf4ca9b342dbc520b60aa9e875870b366cb62acf88c9ead060bffb12",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "synced_at": "2026-10-18T12:43:35+00:00"
     },
-    "Cheatsheets:LinuxCLI/ssh": {
-      "path": "Cheatsheets/LinuxCLI/ssh.wiki",
+    "Cheatsheet:LinuxCLI/ssh": {
+      "path": "Cheatsheet/LinuxCLI/ssh.wiki",
       "revid": 8421,
       "sha256": "83ef555ee1c7e4274eaba8dc138b455d1d6e13d2fb3fe3ba39a22bbbdb173fbc",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "synced_at": "2026-10-18T12:43:35+00:00"
     },
-    "Cheatsheets:Main": {
-      "path": "Cheatsheets/Main.wiki",
+    "Cheatsheet:Main": {
+      "path": "Cheatsheet/Main.wiki",
       "revid": 694,
       "sha256": "aca916405f74518e0996fc1d05479830eabaead8c23c8450aeab5cbc811d0d8a",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "synced_at": "2026-10-18T12:43:35+00:00"
     },
-    "Cheatsheets:Markdown": {
-      "path": "Cheatsheets/Markdown.wiki",
+    "Cheatsheet:Markdown": {
+      "path": "Cheatsheet/Markdown.wiki",
       "revid": 1537,
       "sha256": "afa85d842b0492c732128414b5722d8ebae02fc7880b8facde097d6bf56897da",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "synced_at": "2026-10-18T12:43:35+00:00"
     },
-    "Cheatsheets:Neovim": {
-      "path": "Cheatsheets/Neovim.wiki",
+    "Cheatsheet:Neovim": {
+      "path": "Cheatsheet/Neovim.wiki",
       "revid": 10274,
       "sha256": "199121cc34a4da7faf6f9e3b20c003d1913aa4a61718a28b1913797835971da2",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "synced_at": "2026-10-18T12:43:35+00:00"
     },
-    "Cheatsheets:Pandoc": {
-      "path": "Cheatsheets/Pandoc.wiki",
+    "Cheatsheet:Pandoc": {
+      "path": "Cheatsheet/Pandoc.wiki",
       "revid": 1726,
       "sha256": "4491f9a2a602aa00bcccaa5398c129aa9997b99abc74c8a1b45f836341a18a5d",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "synced_at": "2026-10-18T12:43:35+00:00"
     },
-    "Cheatsheets:PlantUML": {
-      "path": "Cheatsheets/PlantUML.wiki",
+    "Cheatsheet:PlantUML": {
+      "path": "Cheatsheet/PlantUML.wiki",
       "revid": 6274,
       "sha256": "c95f9a9f874b131b78622561bf49e7c7b173544ade54970ce48b1284186f3b80",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "synced_at": "2026-10-18T12:43:35+00:00"
     },
-    "Cheatsheets:Quarto": {
-      "path": "Cheatsheets/Quarto.wiki",
+    "Cheatsheet:Quarto": {
+      "path": "Cheatsheet/Quarto.wiki",
       "revid": 1538,
       "sha256": "7a42742267449bcf9f44bac2567d163072670592d75611597651850d4c44beb4",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "synced_at": "2026-10-18T12:43:35+00:00"
     },
-    "Cheatsheets:SPARQL": {
-      "path": "Cheatsheets/SPARQL.wiki",
+    "Cheatsheet:SPARQL": {
+      "path": "Cheatsheet/SPARQL.wiki",
       "revid": 1536,
       "sha256": "e9da3ba6cf353d65dbaaf3b63c8b61a07a16cdddf2184441d812b527c67e9a22",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "synced_at": "2026-10-18T12:43:35+00:00"
     },
-    "Cheatsheets:Tea": {
-      "path": "Cheatsheets/Tea.wiki",
+    "Cheatsheet:Tea": {
+      "path": "Cheatsheet/Tea.wiki",
       "revid": 6198,
       "sha256": "c71522d3ed2754a0d24fa217f3255fa277eb0a042783d6f433c40a330ce6a848",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "synced_at": "2026-10-18T12:43:35+00:00"
     },
-    "Cheatsheets:Yaml": {
-      "path": "Cheatsheets/Yaml.wiki",
+    "Cheatsheet:Yaml": {
+      "path": "Cheatsheet/Yaml.wiki",
       "revid": 3045,
       "sha256": "3a003b4b1d8b11e88fd9febc4a7a05b591f52c903f110db3213acd866139d939",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "synced_at": "2026-10-18T12:43:35+00:00"
     },
     "Classical mechanics": {
       "path": "Main/Classical mechanics.wiki",
@@ -3517,6 +3517,6 @@
       "synced_at": "2026-10-18T07:12:56+00:00"
     }
   },
-  "updated": "2026-10-18T11:24:20+00:00",
+  "updated": "2026-10-18T12:43:35+00:00",
   "version": 1
 }
