@@ -244,3 +244,76 @@ I_{a,b} \equiv P_{a,b}+Q_{a,b} \pmod 2 \text{ for any } s_a,s_b \in S,\, a \lt b
 \operatorname{sign}(\sigma_1 \circ \sigma_2)=\operatorname{sign}(\sigma_1)\cdot\operatorname{sign}(\sigma_2) \\
 $$
 {{End hidden}}
+
+== {{anchor|inverse permutation}}Inverse permutation $\sigma^{-1}$ ==
+
+If $\sigma$ is a permutation of set $S$, $\sigma^{-1}$ is also a permutation of set $S$.
+
+{{Hidden proof}}
+Since for any set $S$, $\sigma:S \to S$ is a bijection, $\sigma^{-1}: S \to S$ is also a bijection of $S$ to $S$. 
+
+By [[#Formal_definition|definition]], any bijection of $S \to S$ is also a permutation of $S$, so $\sigma^{-1}$, is also a permutation of $S$.
+{{End hidden}}
+
+=== Inverse permutation properties ===
+
+==== {{Anchor|inverse composition}}$\sigma^{-1} \circ \sigma=\sigma_{id}=\sigma \circ \sigma^{-1}$ ====
+
+for any permutation $\sigma$.
+
+{{Hidden proof}}
+Let $S=\{s_1,s_2,\cdots,s_n\}$ be a set, $\sigma$ be any one of its permutations.
+
+By [[#Formal_definition|definition]],
+
+$$
+\forall s_a \in S: \exists s_b \in S, s_a \mapsto s_b
+$$
+
+By [[Function#Formal_definition|definition]],
+
+$$
+\sigma^{-1}: s_b \mapsto s_a \\
+\therefore (\sigma^{-1} \circ \sigma)(s_a)=\sigma^{-1}[\sigma(s_a)]=\sigma^{-1}(s_b)=s_a,\, \forall s_a \in S \\
+\therefore \sigma^{-1} \circ \sigma = \sigma_{id}
+$$
+
+Let $\sigma'=\sigma^{-1}$, then $\sigma'^{-1}=\sigma$. Since $\sigma$ is any permutation of $S$, $\sigma'$ can also be any permutation of $S$
+
+$$
+(\sigma' \circ \sigma'^{-1})(s_a)=\sigma'[\sigma'^{-1}(s_a)]=\sigma'(s_b)=s_a,\, \forall s_a \in S
+\therefore \sigma' \circ \sigma'^{-1}=\sigma_{id}
+$$
+
+Hence
+
+$$
+\sigma^{-1} \circ \sigma=\sigma_{id}=\sigma \circ \sigma^{-1}
+$$
+
+{{End hidden}}
+
+==== $\operatorname{sign}(\sigma)=\operatorname{sign}(\sigma^{-1})$ ====
+
+for any permutation $\sigma$.
+
+{{Hidden proof}}
+From [[#inverse composition|property]],
+
+$$
+\sigma^{-1} \circ \sigma=\sigma_{id}
+$$
+
+From [[#sign composition|property]],
+
+$$
+\operatorname{sign}(\sigma^{-1} ) \cdot \operatorname{sign}(\sigma)=\operatorname{sign}(\sigma_{id})=1
+$$
+
+Hence
+
+$$
+\operatorname{sign}(\sigma)=\operatorname{sign}(\sigma^{-1})
+$$
+
+{{End hidden}}
