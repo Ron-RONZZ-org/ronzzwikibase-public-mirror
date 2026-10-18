@@ -172,3 +172,75 @@ All even permutations have sign $+1$ and all odd ones sign $-1$.
 </blockquote>
 
 <ref>{{#cite:Q2231}}</ref>
+
+== Composition ==
+
+Since each permutation is a [[function]], they can be composed:
+
+$$
+\sigma_1 \circ \sigma_2=
+\begin{pmatrix}
+s_1 & s_2 & \cdots & s_n \\
+\sigma_1(\sigma_2(s_1)) & \sigma_1(\sigma_2(s_2)) & \cdots & \sigma_1(\sigma_2(s_n))
+\end{pmatrix}
+$$
+
+=== Composition properties ===
+
+==== {{anchor|sign composition}} $\operatorname{sign}(\sigma_1 \circ \sigma_2)= \operatorname{sign}(\sigma_1)\cdot\operatorname{sign}(\sigma_2)$ ====
+
+Where $\sigma_1,\sigma_2$ are permutations of the same set.
+
+{{Hidden proof}}
+
+Let $S=\{s_1,s_2,\cdots,s_n\}$ be a set, $\sigma_1,\sigma_2$ two of its permutations.
+
+For each pair of elements $s_a,s_b \in S: a \lt b$,
+
+$$
+\exists s_i,s_j \in S, i \lt j: \{\sigma_2(s_i),\sigma_2(s_j)\}=\{s_a,s_b\} \\
+\exists s_m,s_k \in S: \sigma_1(s_a)=s_m,\sigma_1(s_b)=s_k, \\
+\exists s_c,s_d \in S: (\sigma_1 \circ \sigma_2(s_i)=s_c,(\sigma_1 \circ \sigma_2)(s_j)=s_d, \\
+$$
+
+Define [[boolean-valued function]]s $I,P,Q$ that
+
+$$
+I_{a,b}=
+\begin{cases}
+1 ,& c \gt d \\
+0 ,& c \lt d
+\end{cases},\, 
+P_{a,b}=
+\begin{cases}
+1 ,& m \gt k \\
+0 ,& m \lt k
+\end{cases},\,
+Q_{a,b}=
+\begin{cases}
+1 ,& s_a=\sigma_2(s_j),s_b=\sigma_2(s_i)\\
+0 ,& s_a=\sigma_2(s_i),s_b=\sigma_2(s_j)
+\end{cases},\\
+$$
+
+* If $Q=0$, $s_a=\sigma_2(s_i),s_b=\sigma_2(s_j)$
+
+$$
+I=1 \iff P=1
+$$
+* Else $Q=1$, $s_a=\sigma_2(s_j),s_b=\sigma_2(s_i)$
+
+$$
+I=1 \iff P=0
+$$
+
+Hence,
+
+$$
+I_{a,b} \equiv P_{a,b}+Q_{a,b} \pmod 2 \text{ for any } s_a,s_b \in S,\, a \lt b \\
+\therefore \sum^{s_a,s_b \in S}_{a<b} I_{a,b} \equiv \sum^{s_a,s_b \in S}_{a<b} P_{a,b} + \sum^{s_a,s_b \in S}_{a<b} Q_{a,b} \pmod 2 \\
+\therefore \operatorname{inv}(\sigma_1 \circ \sigma_2) \equiv \operatorname{inv}(\sigma_1)+\operatorname{inv}(\sigma_2) \pmod 2 \\
+\therefore (-1)^{\operatorname{inv}(\sigma_1 \circ \sigma_2)} \equiv (-1)^{\operatorname{inv}(\sigma_1)+\operatorname{inv}(\sigma_2)} \\
+\operatorname{sign}(\sigma_1 \circ \sigma_2)=\operatorname{sign}(\sigma_1)\cdot\operatorname{sign}(\sigma_2) \\
+$$
+{{End hidden}}

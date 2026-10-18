@@ -65,3 +65,60 @@ $$
 Then $B_1$ is known as the '''image''' of $A_1$ in $B$ under $f$, and $A_1$ is known as the '''pre-image''' of $B_1$ under $f$, noted $f^{\leftarrow}(B_1)=A_1$
 
 <ref>{{#cite:Q2199}}</ref>
+
+== Composition ==
+
+Let $f,g$ be functions:
+
+$$
+f: A \to B \\
+g: C \to D
+$$
+
+where $A,B,C,D$ are sets
+
+If $B \subseteq C$, then is defined the composite function
+
+$$
+g \circ f: A \to D
+$$
+where $\forall x \in A$, $g\circ f (x)=g(f(x))$
+
+== Properties ==
+
+=== $f^{-1}[f(x)]=x; f[f^{-1}(y)]=y$ ===
+
+Given for arbitrary function $f: D \to R$
+
+$$
+\exists f^{-1}: R \to D \\
+x \in D, y \in R
+$$
+
+{{Hidden proof}}
+
+By [[#Formal_definition|definition]],
+
+$$
+\forall x \in D: \exists y \in R,\, f(x)=y
+$$
+
+By [[#Formal_definition|definition]],
+
+$$
+f^{-1}(y)=x \\
+\therefore f^{-1}[f(x)]=f^{-1}(y)=x
+$$
+
+Let $g=f^{-1}$, then $g^{-1}=f$. Since $f$ is an arbitrary function, $g$ is also an arbitrary function where
+
+$$
+g[g^{-1}(y)]=g(x)=y
+$$
+
+Hence
+
+$$
+f^{-1}[f(x)]=x; f[f^{-1}(y)]=y
+$$
+{{End hidden}}
