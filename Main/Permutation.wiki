@@ -55,18 +55,6 @@ $$
 $$
 {{End hidden}}
 
-== Composition ==
-
-Since each permutation is a [[function]], they can be composed:
-
-$$
-\pi \circ \sigma=
-\begin{pmatrix}
-s_1 & s_2 & \cdots & s_n \\
-\pi(\sigma(s_1)) & \pi(\sigma(s_2)) & \cdots & \pi(\sigma(s_n))
-\end{pmatrix}
-$$
-
 == Special permutations ==
 
 === {{anchor|Identity_permutation}}Identity permutation: $\sigma_{id}(s)=s$ ===
@@ -147,27 +135,36 @@ $$
 \end{aligned}
 $$
 
-If a permutation contains $2n, n \in N$ inversion pairs, it is called an '''even permutation'''. Elsewise it is an '''odd permutation'''.
+The number of unique inversion pairs in arbitrary permutation $\sigma$ is often denoted by $\operatorname{inv}(\sigma)$
+
+If $\operatorname{inv}(\sigma) \equiv 0 \pmod 2$, $\sigma$ is called an '''even permutation'''. Elsewise it is an '''odd permutation'''.
 
 {{Hidden example}}
-One permutation for $\{a,b,c\}$ is
+One permutation for $\{a,b,c\}$
 
 $$
+\sigma=
 \begin{pmatrix}
 a&b&c \\
 b&c&a
 \end{pmatrix}
 $$
 
-Here, the inversion pairs are $(1,3)$ and $(2,3)$
+has inversion pairs $(1,3)$ and $(2,3)$. It is therefore an even permutation since
+
+$$
+\operatorname{inv}(\sigma)=2 \equiv 0 \pmod 2
+$$ 
 {{End hidden}}
+
+<blockquote>
+All transpositions $\tau$ are odd permutations.
+</blockquote>
 
 === {{anchor|Sign_function}}$\operatorname{sign}(\sigma)$ ===
 
-If permutation $\sigma$ contains m inversion pairs.
-
 $$
-\operatorname{sign}(\sigma) = (-1)^m
+\operatorname{sign}(\sigma) = (-1)^{\operatorname{inv}(\sigma)}
 $$
 
 <blockquote>
