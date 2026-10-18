@@ -782,9 +782,9 @@
     },
     "Function": {
       "path": "Main/Function.wiki",
-      "revid": 10541,
-      "sha256": "012d037fecee64f47de44b0c019f44c95992cc1352db307051559927a91f16af",
-      "synced_at": "2026-10-18T17:11:15+00:00"
+      "revid": 10555,
+      "sha256": "20c38dddedefc5db542504cb22d5ada4bf1db1630389a67aca9bcb6167fa89fb",
+      "synced_at": "2026-10-18T18:15:41+00:00"
     },
     "Fundamental particle": {
       "path": "Main/Fundamental particle.wiki",
@@ -1046,9 +1046,9 @@
     },
     "Permutation": {
       "path": "Main/Permutation.wiki",
-      "revid": 10547,
-      "sha256": "a9c1cce7015178a0f2792cde69800cc692051261c3a560874a8e1e5519055023",
-      "synced_at": "2026-10-18T17:50:07+00:00"
+      "revid": 10557,
+      "sha256": "c227ca67626c819a383efc39ec5f3ec38b316f9cb80c86673e66693805293528",
+      "synced_at": "2026-10-18T18:15:41+00:00"
     },
     "Person:Adam Riess": {
       "path": "Person/Adam Riess.wiki",
@@ -3523,6 +3523,6 @@
       "synced_at": "2026-10-18T07:12:56+00:00"
     }
   },
-  "updated": "2026-10-18T17:50:07+00:00",
+  "updated": "2026-10-18T18:15:41+00:00",
   "version": 1
 }

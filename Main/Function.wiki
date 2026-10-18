@@ -30,7 +30,7 @@ $$
 \exists f^{-1} : \forall y \in R_f, f^{-1}(y)=x,
 $$
 
-then function $f$ is said to be '''reversible''' and the '''bijection''' of $D$ to $R_f$. $f$ and $f^{-1}$ are said to be '''inverse functions''' of each other.
+then function $f$ is said to be '''invertible''' and the '''bijection''' of $D$ to $R_f$. $f$ and $f^{-1}$ are said to be '''inverse functions''' of each other.
 
 <blockquote>
 While a function can be many-to-one, a bijection is an one-to-one function of its domain to its range.

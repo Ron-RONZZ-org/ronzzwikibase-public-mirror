@@ -187,6 +187,28 @@ $$
 
 === Composition properties ===
 
+==== {{Anchor|existence of composite permutation}}Compositions of permutations are permutations ====
+
+If $\sigma_1,\sigma_2$ are permutations of $S$, so is $\sigma_1 \circ \sigma_2$
+
+{{Hidden proof}}
+Since $\sigma_1,\sigma_2$ are permutations of $S$, by [[#formal definition|definition]]
+
+$$
+\sigma_1:S \to S \\
+\sigma_2:S \to S
+$$ 
+
+Hence by [[Function#Composition|composition]]
+
+$$
+\sigma_1 \circ \sigma_2: S \to S
+$$
+which is a bijection of $S$ to $S$. 
+
+By [[#Formal_definition|definition]], any bijection of $S \to S$ is also a permutation of $S$, so $\sigma_1 \circ \sigma_2$, is also a permutation of $S$.
+{{End hidden}}
+
 ==== {{anchor|sign composition}} $\operatorname{sign}(\sigma_1 \circ \sigma_2)= \operatorname{sign}(\sigma_1)\cdot\operatorname{sign}(\sigma_2)$ ====
 
 Where $\sigma_1,\sigma_2$ are permutations of the same set.
@@ -245,7 +267,7 @@ I_{a,b} \equiv P_{a,b}+Q_{a,b} \pmod 2 \text{ for any } s_a,s_b \in S,\, a \lt b
 $$
 {{End hidden}}
 
-==== $\operatorname{sign}(\tau \circ \sigma)=-\operatorname{sign}(\sigma)$ ====
+==== {{Anchor|transposition sign composition}}$\operatorname{sign}(\tau \circ \sigma)=-\operatorname{sign}(\sigma)$ ====
 
 Where $\tau$ is a [[#transposition|transposition]] and $\sigma$ is any permutation of same set $S$.
 
