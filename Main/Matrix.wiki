@@ -424,6 +424,7 @@ $$
 
 {{End hidden}}
 
+'''See also''': [[#Determinant properties (advanced)]]
 <ref name="openstax"/>
 
 == Elementary matrix $\mathbf{E}$ ==
