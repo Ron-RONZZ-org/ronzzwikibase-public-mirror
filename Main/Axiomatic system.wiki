@@ -1,0 +1,46 @@
+An '''axiomatic system''' is a logical system of knowledge.
+
+== Primitive terms ==
+
+Labels for objects or actions left undefined.<ref>{{#cite:Q2281}}</ref>
+
+Ideally, they should be:
+
+* '''few in number'''
+* '''clear and intuitive'''
+
+== Axioms ==
+
+Axioms are statements made without proof in an axiomatic system.<ref>{{#cite:Q2281}}</ref>
+
+Ideally, they should be:
+
+* '''simple and intuitive'''
+* '''independent of each other''', i.e.,no axiom can be deducted from other axioms
+* '''complete''', i.e., everything in that axiomatic system can be derived from those axioms.
+
+{{Hidden example}}
+Euclid, a mathematician working in Alexandria, Egypt around 300 BC<ref>{{#cite:Q2288}}</ref>, devised an axiomatic system of plane geometry based on 5 axioms:
+
+* A straight line may be drawn between any two points.
+* Any terminated straight line may be extended indefinitely.
+* A circle may be drawn with any given point as center and any given radius.
+* All right angles are equal.
+[[File:Intersecting-lines.svg|thumbnail|The last axiom basically says if two lines are not parallel, they will intersect.]]
+*  If two straight lines in a plane are met by another line, and if the sum of the internal angles on one side is less than two right angles, then the straight lines will meet if extended sufficiently on the side on which the sum of the angles is less than two right angles.
+
+
+<ref>{{#cite:Q2284}}</ref>
+{{End hidden}}
+
+== Proposition ==
+
+Synonym: statement.
+
+== Theorems ==
+
+True propositions '''of interest''' logically deduced from axioms or other theorems previously deduced (known as '''lemmas''').<ref>{{#cite:Q2288}}</ref>
+
+== Corollaries ==
+
+A corollary is a proposition that follows in few logical steps from a theorem, not distinct enough to be stated as a new theorem.<ref>{{#cite:Q2288}}</ref>
