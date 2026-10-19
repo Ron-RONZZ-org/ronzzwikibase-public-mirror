@@ -387,6 +387,80 @@ $$
 
 <ref name="openstax"/>
 
+== Row operations ==
+
+The following operations on a matrix are called '''elementary row operations''':
+
+$$
+\vec r_i \gets \vec cr_i, c \in \mathbb{F} \\
+\vec r_i \gets \vec cr_j+\vec r_i, c \in \mathbb{F} \\
+\vec r_i \leftrightarrow \vec r_j
+$$
+
+Let $\mathbf{E}$ be the matrix obtained from $\mathbf{I}_n$ by one elementary row operation. 
+
+Then $\mathbf{E}\mathbf{A}$ is the matrix obtained from $\mathbf{A}$ by the same operation, and
+
+$$
+\det(\mathbf{E}\mathbf{A})=
+\begin{cases}
+c\det(\mathbf{A}) ,\, \vec r_i \gets \vec cr_i, c \in \mathbb{F} \ \ \ \text{(1)} \\
+\det(\mathbf{A}) ,\, \vec r_i \gets \vec cr_j+ \vec r_i, c \in \mathbb{F} \ \ \ \text{(2)} \\
+-\det(\mathbf{A}) ,\, \vec r_i \leftrightarrow \vec r_j \ \ \ \text{(3)}
+\end{cases}
+$$
+
+{{Hidden proof}}
+$(1)$ is a simple result of [[#multilinearity]] in $r_i$
+
+$(2)$ is also proven by [[#multilinearity]] in $r_i$:
+
+$$
+\det(\mathbf{EA})=c\det(\mathbf{A}_{rj})+\det(\mathbf{A}) \\
+\because \vec r_i= \vec r_j \in \mathbf{A}_rj \\
+\therefore \text{ By equal row property, }\det(\mathbf{A}_{rj})=0 \\
+\therefore \det(\mathbf{EA})=\det(\mathbf{A})
+$$
+
+To prove $(3)$, we need various [[permutation]] properties.
+
+Let
+$$
+\mathbf{A}=a_{p,q}\\
+\mathbf{EA}=a'_{p,q}
+$$
+
+Then 
+
+$$
+\det(\mathbf{A})=\sum_{\sigma\in \mathcal{S}_n}\operatorname{sign}(\sigma)\prod_{k=1}^n a_{k,\sigma(k)},
+$$
+
+Define transposition $\tau \in \mathcal{S}_n$, where $n \times n$ is the dimension of matrix $\mathbf{A,EA}$:
+
+$$
+k \in \{1,\cdots,n\}, \tau(k) =
+\begin{cases}
+k,\, k \ne i \\
+j,\, k = i \\
+i,\, k = j
+\end{cases}
+$$
+
+Then by [[Permutation#Composition|permutation composition]], [[Permutation#existence_of_composite_permutation|permutation composition property]] and [[Permutation#transposition_sign_composition|permutation composition with transposition property]]:
+
+$$
+a_{k,\sigma(k)}=a'_{k,\tau \circ \sigma(k)} \\
+\tau \circ \sigma \in \mathcal{S}_n \\
+\operatorname{sign}(\tau \circ \sigma)=-\operatorname{sign}(\sigma) \\ 
+\\
+\det(\mathbf{EA})=\sum_{\tau \circ \sigma\in \mathcal{S}_n}\operatorname{sign}(\tau \circ \sigma)\prod_{k=1}^n a'_{k,\tau \circ \sigma(k)} \\
+= -\sum_{\sigma\in \mathcal{S}_n}\operatorname{sign}(\sigma)\prod_{k=1}^n a_{k,\sigma(k)} \\
+= -\det(\mathbf{A})
+$$
+{{End hidden}}
+<ref name="kuttler"/>
+
 == Matrix operations in python ==
 
 === Initialisation ===
