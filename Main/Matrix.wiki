@@ -426,19 +426,42 @@ $$
 
 <ref name="openstax"/>
 
-== Row operations ==
+== Elementary matrix $\mathbf{E}$ ==
 
 The following operations on a matrix are called '''elementary row operations''':
 
 $$
-\vec r_i \gets \vec cr_i, c \in \mathbb{F} \\
+\vec r_i \gets \vec cr_i, c \in \mathbb{F}, c \ne 0 \\
 \vec r_i \gets \vec cr_j+\vec r_i, c \in \mathbb{F} \\
 \vec r_i \leftrightarrow \vec r_j
 $$
 
-Let $\mathbf{E}$ be the matrix obtained from $\mathbf{I}_n$ by one elementary row operation. 
+Let $\mathbf{E}$ be the matrix obtained from $\mathbf{I}_n$ by one elementary row operation, then $\mathbf{E}$ is known as an '''elementary matrix'''.
 
-Then $\mathbf{E}\mathbf{A}$ is the matrix obtained from $\mathbf{A}$ by the same operation, and
+In general, all $n \times n$ elementary matrices $\mathbf{E}_n=(e_{p,q})$ satisfy one of the three conditions:
+
+{| class="wikitable"
+|-
+! Elementary matrix
+! Corresponding row operation
+|-
+| $e_{p,q}=\begin{cases}1 ,\, p=q \ne i \\ c ,\, p,q=i \\ 0 ,\, \text{elsewise}\end{cases}$
+| $\vec r_i \gets \vec cr_i, c \in \mathbb{F}$
+|-
+| $e_{p,q}=\begin{cases}1 ,\, p=q \\ c ,\, p=i,q=j \\ 0 ,\, \text{elsewise}\end{cases}$
+| $\vec r_i \gets \vec cr_j+\vec r_i, c \in \mathbb{F} $
+|-
+| $e_{p,q}=\begin{cases}1 ,\, p=q\ne i \lor j \\ 1 ,\, \{p,q\}=\{i,j\} \\ 0 ,\, \text{elsewise}\end{cases}$
+| $\vec r_i \leftrightarrow \vec r_j$
+|}
+
+<blockquote>
+$\mathbf{E}\mathbf{A}$ is the matrix obtained from $\mathbf{A}$ by the same row operation.
+</blockquote>
+
+=== Elementary matrix properties ===
+
+==== $\det(\mathbf{EA})${{Anchor|determinant properties}} ====
 
 $$
 \det(\mathbf{E}\mathbf{A})=
@@ -499,6 +522,89 @@ a_{k,\sigma(k)}=a'_{k,\tau \circ \sigma(k)} \\
 $$
 {{End hidden}}
 <ref name="kuttler"/>
+
+==== $\mathbf{A}_n=\mathbf{E}_1\mathbf{E}_2\cdots\mathbf{E}_k\mathbf{I}_n$ {{Anchor|elementary decomposition}} ====
+
+for any square matrix $\mathbf{A}_n$ of dimension $n \times n$, '''given $\det(\mathbf{A}_n) \ne 0$'''
+
+{{Hidden proof}}
+
+Since $\mathbf{E}$ are elementary matrices:
+
+$$
+\mathbf{A}_n=\mathbf{E}_1\mathbf{E}_2\cdots\mathbf{E}_k\mathbf{I}_n \iff \mathbf{A}_n \text{can be obtained from } \mathbf{I}_n \text{by row operations alone}
+$$
+
+To prove the latter:
+
+Let $\mathbf{A}_n: \det(\mathbf{A}_n) \ne 0$ be any square matrix of dimension $n \times n$.
+
+$n=1$:
+$$
+\mathbf{A}_1=(a)=a\mathbf{I}_1, a \in \mathbb{F}, a \ne 0
+$$
+
+<blockquote>
+(The condition $a \ne 0$ is required by the definition of a row operation.)
+</blockquote>
+
+So any square matrix of dimension $1$ is obtained by a single row operation $\vec r_1 \gets a\vec r_1$
+
+For any square matrix of dimension $n$,
+$$
+\mathbf{A}_n=(a_{ij})=
+\begin{pmatrix}
+a_{11} && \vec v \\
+\vec u && \mathbf{A}_{n-1} \\
+\end{pmatrix}
+$$
+
+where $\vec u$ is some column vector and $\vec v$ is some row vector, and $\mathbf{A}_{n-1}$ some square matrix of dimension $n-1$.
+
+By row operations $\forall i \in \{2,...,n\}: \vec r_i gets \vec r_i-\frac{a_{i1}}{a_{11}}\vec r_1$, obtain
+
+$$
+\mathbf{A}'_n=(a'_{ij})=
+\begin{pmatrix}
+a_{11} && \vec v \\
+\vec 0 && \mathbf{A}'_{n-1} \\
+\end{pmatrix}
+$$
+
+'''Now if known for $n$, any square matrix of dimension $n$ can be obtained by row operations alone''', then perform the same row operations that reduce $\mathbf{A}'_{n-1}$ to $\mathbf{I}_{n-1}$ on $\mathbf{A}'_n$ to obtain
+
+$$
+\mathbf{A}''_n=(a''_{ij})=
+\begin{pmatrix}
+a_{11}'' && \vec v \\
+\vec 0 && \mathbf{I}_{n-1} \\
+\end{pmatrix}
+$$
+
+Then perform row operations $\vec r_1 \gets \vec r_1-a_{1j}\vec r_j$ for all $j$ in $\{2,3,\cdots,n\}$ to obtain
+
+$$
+\mathbf{A}^{(3)}_n=(a^{(3)}_{ij})=
+\begin{pmatrix}
+a_{11}^{(3)} && \vec 0 \\
+\vec 0 && \mathbf{I}_{n-1} \\
+\end{pmatrix}
+$$
+
+Finally perform row opeartion $\vec r_1 \gets \frac{1}{a_{11}^{(3)}}\vec r_1$ to obtain $\mathbf{I}_n$.
+
+By performing the inverse of every row operations done to obtain $\mathbf{I}_n$ from $\mathbf{A}_n$, $\mathbf{A}_n$ can be obtained from $\mathbf{I}_n$ by row opeartions alone.
+
+Therefore by induction, $\forall n \in \mathbb{Z}^+$
+
+$$
+\mathbf{A}_n \text{can be obtained from } \mathbf{I}_n \text{by row operations alone} \iff \mathbf{A}=\mathbf{E}_1\mathbf{E}_2\cdots\mathbf{E}_k\mathbf{I}_n 
+$$
+
+<blockquote>
+Notice $\det(\mathbf{A}_n) \ne 0$ is a necessary condition of validity, as even for $n=1$, if $\det(\mathbf{A}_1) = 0 \iff \mathbf{A}_1=(0)$, matrix $(0)$ cannot be obtained from $(1)$ by row operations alone.
+</blockquote>
+{{End hidden}}
 
 == Triangular matrix ==
 
