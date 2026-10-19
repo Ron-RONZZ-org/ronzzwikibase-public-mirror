@@ -2142,6 +2142,12 @@
       "sha256": "78bb9e2057a17d2a1f6869ab015a67028f756ac0759bbe33f9082960f3033669",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:8.1: Basics and examples (Webpage)": {
+      "path": "Source/8.1_ Basics and examples (Webpage).wiki",
+      "revid": 10673,
+      "sha256": "1b897dc7461f1112e19ec6da9df464a912db7d0e60cfff4c4e119342369bd15a",
+      "synced_at": "2026-10-19T18:48:16+00:00"
+    },
     "Source:8.1: Permutations (Webpage)": {
       "path": "Source/8.1_ Permutations (Webpage).wiki",
       "revid": 10296,
@@ -3547,6 +3553,6 @@
       "synced_at": "2026-10-18T07:12:56+00:00"
     }
   },
-  "updated": "2026-10-19T15:14:50+00:00",
+  "updated": "2026-10-19T18:48:16+00:00",
   "version": 1
 }
