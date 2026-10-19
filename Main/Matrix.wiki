@@ -87,6 +87,45 @@ $$
 Notice that $\mathbf{AB}$ is a $m \times p$ matrix over $\mathbb{F}$
 </blockquote>
 
+=== Multiplication properties ===
+
+==== Associativity: $\mathbf{(AB)C}=\mathbf{A}(\mathbf{BC})$ ====
+
+{{Hidden proof}}
+Define matrices:
+
+{| class="wikitable"
+|-
+! Matrix
+! Dimension
+! Elements
+|-
+| $\mathbf{A}$
+| $m \times n$
+| $(a_{ik})$
+|-
+| $\mathbf{B}$
+| $n \times p$
+| $(b_{kj})$
+|-
+| $\mathbf{C}$
+| $p \times q$
+| $(c_{jz})$
+|}
+
+$$
+\mathbf{AB}=((\sum_{k=1}^{n} a_{ik} b_{kj})_{ij})) \\
+\mathbf{BC}=((\sum_{j=1}^{p} b_{kj} b_{jz})_{kz})) \\
+\therefore
+\begin{cases}
+\mathbf{((AB)C)}_{iz}=\sum_{j=1}^{p}(\sum_{k=1}^{n} a_{ik} b_{kj})c_{jz} \\
+\mathbf{(A(BC))}_{iz}=\sum_{k=1}^{n}a_{ik}(\sum_{j=1}^{p} b_{kj}c_{jz}) \\
+\end{cases}\\
+\therefore \mathbf{(AB)C}=\mathbf{A}(\mathbf{BC})
+$$
+
+{{End hidden}}
+
 == Identity matrix ==
 
 If '''square matrix''' $\mathbf{I}=(a_{ij})$ of dimension $m \times m$ satisfies

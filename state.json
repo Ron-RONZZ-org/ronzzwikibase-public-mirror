@@ -956,9 +956,9 @@
     },
     "Matrix": {
       "path": "Main/Matrix.wiki",
-      "revid": 10584,
-      "sha256": "e5d1bedd53ae5b4aa9f9fdfd89a0ec742bd40a3f3a64cee6c1129813d07dc4f5",
-      "synced_at": "2026-10-19T07:46:30+00:00"
+      "revid": 10585,
+      "sha256": "33b53061d36801a547ddabcb35df34f929b2e5dc5c0553f97320d02bdfcffa7a",
+      "synced_at": "2026-10-19T08:51:06+00:00"
     },
     "Matrix/Practice/Matrix multiplication": {
       "path": "Main/Matrix/Practice/Matrix multiplication.wiki",
@@ -3523,6 +3523,6 @@
       "synced_at": "2026-10-18T07:12:56+00:00"
     }
   },
-  "updated": "2026-10-19T07:46:30+00:00",
+  "updated": "2026-10-19T08:51:06+00:00",
   "version": 1
 }
