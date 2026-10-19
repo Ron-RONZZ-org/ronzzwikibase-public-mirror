@@ -516,6 +516,12 @@
       "sha256": "f51477a3fc14a0c026fb626219f93fa2ed982970ee252078816f295c24f0ef82",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Thomas F. Banchoff, Davide Cervone, Nicholas Thompson, Jeff Achter, and Matthew Stone, et al.": {
+      "path": "Collective/Thomas F. Banchoff, Davide Cervone, Nicholas Thompson, Jeff Achter, and Matthew Stone, et al.wiki",
+      "revid": 10684,
+      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
+      "synced_at": "2026-10-19T19:39:31+00:00"
+    },
     "Collective:UFR-SciFA (Université de Lorraine)": {
       "path": "Collective/UFR-SciFA (Université de Lorraine).wiki",
       "revid": 6806,
@@ -1745,6 +1751,12 @@
       "revid": 8688,
       "sha256": "5c5a15719ee990f638f66bdf9f10467b47761dc58174872caefb8fb784f8b1a9",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Thomas F. Banchoff": {
+      "path": "Person/Thomas F. Banchoff.wiki",
+      "revid": 10679,
+      "sha256": "75be0d1138ec7b67b044efe0f7eb6cb9bed6f08ba8edc43af93968fa072f8058",
+      "synced_at": "2026-10-19T19:39:31+00:00"
     },
     "Person:Tim Starling": {
       "path": "Person/Tim Starling.wiki",
@@ -3553,6 +3565,6 @@
       "synced_at": "2026-10-18T07:12:56+00:00"
     }
   },
-  "updated": "2026-10-19T18:48:16+00:00",
+  "updated": "2026-10-19T19:39:31+00:00",
   "version": 1
 }
