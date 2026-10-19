@@ -2292,6 +2292,12 @@
       "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Beyond the third dimension (Book)": {
+      "path": "Source/Beyond the third dimension (Book).wiki",
+      "revid": 10689,
+      "sha256": "0311d90e243f3be68c13d2082783458de88a2149eb53d4dd209d37db3d2db9bd",
+      "synced_at": "2026-10-19T19:51:31+00:00"
+    },
     "Source:Bibm@th (Website)": {
       "path": "Source/Bibm@th (Website).wiki",
       "revid": 8229,
@@ -3565,6 +3571,6 @@
       "synced_at": "2026-10-18T07:12:56+00:00"
     }
   },
-  "updated": "2026-10-19T19:39:31+00:00",
+  "updated": "2026-10-19T19:51:31+00:00",
   "version": 1
 }
