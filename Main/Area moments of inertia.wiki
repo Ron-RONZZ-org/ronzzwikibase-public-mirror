@@ -141,3 +141,7 @@ $$
 I_{xx}, I_{yy}= \frac{1}{2}J_{zz}= 42.5 \text{inch}^4
 $$
 {{End solution}}
+
+== See also ==
+
+[[Area products of inertia]]

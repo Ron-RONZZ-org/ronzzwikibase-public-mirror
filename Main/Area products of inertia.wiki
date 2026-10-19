@@ -1,0 +1,17 @@
+The area products of inertia measure the asymmetry of a cross-section’s area distribution with respect to a pair of perpendicular axes
+
+The three area products of inertia for a solid $S$ according to orthonormal base $B$ is:
+
+$$
+I_{xy} = \int_A {x}{y}\ dA;\ \
+I_{xz} = \int_A {x}{z}\ dA;\ \
+I_{yz} = \int_A {y}{z}\ dA.
+$$
+
+== Parallel axes theorem ==
+
+$$
+I_{xy} = I_{x'y'} + A \bar{x}\bar{y}
+$$
+
+[[File:Parallel-axes-theorem.svg|400px|center]]

@@ -14,9 +14,15 @@
     },
     "Area moments of inertia": {
       "path": "Main/Area moments of inertia.wiki",
-      "revid": 10638,
-      "sha256": "ecd8f5ee4fc854462a30af3f911b0b942f4b337e45db4b3d7ea8b04c9e4f07aa",
-      "synced_at": "2026-10-19T14:15:42+00:00"
+      "revid": 10639,
+      "sha256": "59e0b55100fd612bdaaebab2985354944e116ba43962f66a8bf30b91ac569816",
+      "synced_at": "2026-10-19T14:41:59+00:00"
+    },
+    "Area products of inertia": {
+      "path": "Main/Area products of inertia.wiki",
+      "revid": 10644,
+      "sha256": "8d5c6e7f3e28aec862d17c6bc8e9312ff43e0250e7df58baea4064432e465291",
+      "synced_at": "2026-10-19T14:41:59+00:00"
     },
     "Atom": {
       "path": "Main/Atom.wiki",
@@ -3523,6 +3529,6 @@
       "synced_at": "2026-10-18T07:12:56+00:00"
     }
   },
-  "updated": "2026-10-19T14:15:42+00:00",
+  "updated": "2026-10-19T14:41:59+00:00",
   "version": 1
 }
