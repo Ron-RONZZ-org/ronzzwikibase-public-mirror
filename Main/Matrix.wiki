@@ -424,7 +424,153 @@ $$
 
 {{End hidden}}
 
-'''See also''': [[#Determinant properties (advanced)]]
+==== {{Anchor|determinant of product}}$\det(\mathbf{A}\mathbf{B})=\det(\mathbf{A})\det(\mathbf{B})$ ====
+
+for any square matrices $\mathbf{A,B}$ of same dimension $n \times n$
+
+{{Hidden proof}}
+Let $\mathbf{A}=(a_{ij})$, $\mathbf{B}=(b_{ij})$.
+
+By definition,
+$$
+\det(\mathbf{A}\mathbf{B})
+=
+\sum_{\sigma\in S_n}\operatorname{sign}(\sigma)
+\prod_{i=1}^n(\mathbf{A}\mathbf{B})_{i,\sigma(i)}.
+$$
+
+Since $(\mathbf{A}\mathbf{B})_{i,\sigma(i)}=\sum_{k=1}^n a_{ik}b_{k,\sigma(i)}$
+
+$$
+\det(\mathbf{A}\mathbf{B})
+=
+\sum_{\sigma\in S_n}\operatorname{sign}(\sigma)
+\prod_{i=1}^n\sum_{k=1}^n a_{ik}b_{k,\sigma(i)}
+$$
+
+Expand the product of sum into a sum of products:
+$$
+\det(\mathbf{A}\mathbf{B})
+=
+\sum_{\sigma\in S_n}\operatorname{sign}(\sigma)
+\sum_{f:\{1,\dots,n\}\to\{1,\dots,n\}}
+\prod_{i=1}^n a_{i,f(i)}b_{f(i),\sigma(i)}.
+$$
+
+Interchange the finite sums,
+$$
+=
+\sum_{f}[\left(\prod_{i=1}^n a_{i,f(i)}\right)
+\left(
+\sum_{\sigma\in S_n}\operatorname{sign}(\sigma)
+\prod_{i=1}^n b_{f(i),\sigma(i)}
+\right)].
+$$
+
+For any $f$, define the matrix $\mathbf{C}_f=(c_{ij})$ by
+$$
+c_{ij}=b_{f(i),j}.
+$$
+Then
+$$
+\sum_{\sigma\in S_n}\operatorname{sign}(\sigma)
+\prod_{i=1}^n b_{f(i),\sigma(i)}
+=
+\det(\mathbf{C}_f).
+$$
+
+If $f \notin \mathcal{S}_n$, then $f(i)=f(k)$ for some $i\ne k$, so rows $i$ and $k$ of $\mathbf{C}_f$ are equal. By [[#Equal_rows/columns|property]],
+
+$$
+\det(\mathbf{C}_f)=0.
+$$
+
+Thus
+
+$$
+\sum_{\sigma\in S_n}\operatorname{sign}(\sigma)
+\prod_{i=1}^n b_{f(i),\sigma(i)}
+=0
+$$
+
+Therefore
+$$
+\det(\mathbf{A}\mathbf{B})
+=
+\sum_{\pi\in S_n}
+\left(\prod_{i=1}^n a_{i,\pi(i)}\right)
+\left(
+\sum_{\sigma\in S_n}\operatorname{sign}(\sigma)
+\prod_{i=1}^n b_{\pi(i),\sigma(i)}
+\right).
+$$
+
+Let
+
+$$
+\rho=\sigma\circ\pi^{-1},
+\Rightarrow 
+\sigma=\rho\circ\pi.
+$$
+
+By [[Permutation#sign_composition|sign composition of permutation]],
+$$
+\operatorname{sign}(\sigma)
+=
+\operatorname{sign}(\rho)\operatorname{sign}(\pi).
+$$
+
+Let $j=\pi(i)$,
+
+$$
+\prod_{i=1}^n b_{\pi(i),\sigma(i)}
+=
+\prod_{j=1}^n b_{j,\rho(j)}.
+$$
+
+Hence
+
+$$
+\sum_{\sigma\in S_n}\operatorname{sign}(\sigma)
+\prod_{i=1}^n b_{\pi(i),\sigma(i)}
+=
+\operatorname{sign}(\pi)
+\sum_{\rho\in S_n}\operatorname{sign}(\rho)
+\prod_{j=1}^n b_{j,\rho(j)}
+=
+\operatorname{sign}(\pi)\det(\mathbf{B}).
+$$
+Substituting back,
+$$
+\det(\mathbf{A}\mathbf{B})
+=
+\sum_{\pi\in S_n}
+\operatorname{sign}(\pi)
+\left(\prod_{i=1}^n a_{i,\pi(i)}\right)
+\det(\mathbf{B})
+=
+\det(\mathbf{A})\det(\mathbf{B}).
+$$
+
+Therefore
+$$
+\det(\mathbf{A}\mathbf{B})=\det(\mathbf{A})\det(\mathbf{B}).
+$$
+{{End hidden}}
+
+<blockquote>
+'''Warning''': $\det$ is multiplicative but not additive. For
+
+$$
+\mathbf{A}=\begin{pmatrix}1&0\\0&0\end{pmatrix},\qquad \mathbf{B}=\begin{pmatrix}0&0\\0&1\end{pmatrix},
+$$
+
+$\det(\mathbf{A})+\det(\mathbf{B})=0$, whereas $\det(\mathbf{A}+\mathbf{B})=\det(\mathbf{I}_2)=1$.
+</blockquote>
+
+
+'''See also''': [[#Determinant of inverse]]
+
 <ref name="openstax"/>
 
 == Elementary matrix $\mathbf{E}$ ==
@@ -718,6 +864,28 @@ if $\mathbf{A}_n=\mathbf{E}_1\mathbf{E}_2\cdots\mathbf{E}_k\mathbf{I}_n$
 {{Hidden proof}}
 See the proof for [[#existence of inverse|the last property]].
 {{End hidden}}
+
+==== {{Anchor|Determinant of inverse}} $\det(\mathbf{A}^{-1})=\frac{1}{\det(\mathbf{A})}$ ====
+
+{{Hidden proof}}
+$$
+\mathbf{A}\mathbf{A}^{-1}=\mathbf{I}_n
+$$
+
+by [[#determinant of product]],
+
+$$
+\det(\mathbf{A})\det(\mathbf{A}^{-1})=\det(\mathbf{I}_n)=1.
+$$
+
+As $\mathbf{A}$ is invertible, $\det(\mathbf{A})\ne 0$, hence
+
+$$
+\det(\mathbf{A}^{-1})=\frac{1}{\det(\mathbf{A})}.
+$$
+{{End hidden}}
+
+<ref name="openstax"/>
 
 == Matrix operations in python ==
 

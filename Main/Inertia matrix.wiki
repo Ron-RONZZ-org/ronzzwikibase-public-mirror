@@ -1,4 +1,4 @@
-The '''inertia matrix''' $\overline{I}$ is a 3X3 matrice that describes how a rigid body’s mass is distributed relative to a chosen origin. 
+The '''inertia matrix''' $\overline{I}$ is a 3X3 [[matrix]] that describes how a rigid body’s mass is distributed relative to a chosen origin. 
 
 It relates the body’s angular velocity $\vec{\omega}$ to its angular momentum $\vec{L}$:
 
@@ -8,7 +8,7 @@ $$
 
 == Definition in orthonormal basis ==
 
-In a orthonormal basis (Cartesian coordinate system) $B$ with origin at point $O$, and position vector $\vec{r}_m=(x,y,z)$ of each mass element $dm$, the inertia matrix of an object or system $(S)$ is
+In an [[orthonormality#Orthonormal_basis|orthonormal basis]] (Cartesian coordinate system) $B$ with origin at point $O$, and position vector $\vec{r}_m=(x,y,z)$ of each mass element $dm$, the inertia matrix of an object or system $(S)$ is
 
 {{#content:Q2052}}
 
@@ -20,10 +20,9 @@ $$
 \int_S \left[(\vec{r}_m\cdot\vec{r}_m)\,\mathbf{1}-\vec{r}_m\otimes\vec{r}_m\right]dm
 $$
 
-where $\vec{r}_m=(x,y,z)$ is always the position vector of $dm$, the $\mathbf{1}$ is the 3x3 identity matrix, and $\otimes$ denotes the [[outer product]].
+where $\vec{r}_m=(x,y,z)$ is the position vector of $dm$, the $\mathbf{1}$ is the 3x3 identity matrix, and $\otimes$ denotes the [[outer product]].
 
-=== Derivation ===
-
+{{Hidden proof}}
 If the mass element $dm \in S$ at point $M$ rotates about $O$ with angular velocity $\vec{w}$, then its linear velocity 
 
 $$
@@ -56,9 +55,9 @@ $$
 \vec{r}\wedge(\vec{w}\wedge\vec{r})
 =
 \begin{pmatrix}
-(y^2+z^2)u_x-xyu_y-xzu_z\\
--xyu_x+(x^2+z^2)u_y-yzu_z\\
--xzu_x-yzu_y+(x^2+y^2)u_z
+(y^2+z^2)w_x-xyw_y-xzw_z\\
+-xyw_x+(x^2+z^2)w_y-yzw_z\\
+-xzw_x-yzw_y+(x^2+y^2)w_z
 \end{pmatrix}
 $$
 
@@ -109,6 +108,7 @@ $$
 -\int_S xz\,dm & -\int_S yz\,dm & \int_S(x^2+y^2)\,dm
 \end{bmatrix}
 $$
+{{End hidden}}
 
 == Principal basis of inertia ==
 
@@ -142,7 +142,7 @@ m(b^2+c^2) & -mab & -mac \\
 \end{bmatrix}_{B}
 $$
 
-=== Derivation ===
+{{Hidden proof}}
 
 For any angular velocity $\vec{\omega}$,
 
@@ -339,3 +339,4 @@ m(b^2+c^2) & -mab & -mac \\
 -mac & -mbc & m(a^2+b^2)
 \end{bmatrix}_{B}.
 $$
+{{End hidden}}
