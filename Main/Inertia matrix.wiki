@@ -39,7 +39,9 @@ $$
 \int_S \vec{r}\wedge(\vec{w}\wedge\vec{r})\,dm.
 $$
 
-Since
+By triple vector product
+
+{{#content:Q2274}}
 
 $$
 \vec{r}\wedge(\vec{w}\wedge\vec{r})
@@ -176,7 +178,6 @@ $$
 \end{aligned}
 $$
 
-Note $\int_S \overrightarrow{CM}\wedge(\vec{\omega}\wedge\overrightarrow{CM})\,dm=\vec{L}(C,S)_B = \overline{I}(C,S)_B\vec{\omega}$,
 
 Because $C$ is the centre of inertia,
 
@@ -189,19 +190,22 @@ Hence
 $$
 \overline{I}(O,S)_B\vec{\omega}
 =
+\overrightarrow{OC}\wedge(\vec{\omega}\wedge\overrightarrow{OC})\int_S dm
++\int_S \overrightarrow{CM}\wedge(\vec{\omega}\wedge\overrightarrow{CM})\,dm
+$$
+
+Note $\int_S \overrightarrow{CM}\wedge(\vec{\omega}\wedge\overrightarrow{CM})\,dm=\vec{L}(C,S)_B = \overline{I}(C,S)_B\vec{\omega}$, so
+$$
+\overline{I}(O,S)_B\vec{\omega}
+=
 \overline{I}(C,S)_B\vec{\omega}
 +
 m\,\overrightarrow{OC}\wedge(\vec{\omega}\wedge\overrightarrow{OC}).
 $$
 
-To calculate $\overrightarrow{OC}\wedge(\vec{\omega}\wedge\overrightarrow{OC})$, use the vector triple product identity:
+To calculate $\overrightarrow{OC}\wedge(\vec{\omega}\wedge\overrightarrow{OC})$, use the triple vector product identity:
 
-$$
-\vec{a}\wedge(\vec{b}\wedge\vec{c})
-=
-\vec{b}(\vec{a}\cdot\vec{c})
--\vec{c}(\vec{a}\cdot\vec{b}).
-$$
+{{#content:Q2274}}
 
 Taking
 

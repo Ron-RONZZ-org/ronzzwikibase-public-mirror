@@ -14,9 +14,9 @@
     },
     "Area moments of inertia": {
       "path": "Main/Area moments of inertia.wiki",
-      "revid": 9853,
-      "sha256": "e3665d08b29b6bac4f6673bccfcc61982ac23589c8915fbbbb88e2d612d93dcd",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "revid": 10638,
+      "sha256": "ecd8f5ee4fc854462a30af3f911b0b942f4b337e45db4b3d7ea8b04c9e4f07aa",
+      "synced_at": "2026-10-19T14:15:42+00:00"
     },
     "Atom": {
       "path": "Main/Atom.wiki",
@@ -866,9 +866,9 @@
     },
     "Inertia matrix": {
       "path": "Main/Inertia matrix.wiki",
-      "revid": 10633,
-      "sha256": "e02b8132659a9309b4f1ecf906fd8eb44e5efde1577612a92be18b139fea6d7d",
-      "synced_at": "2026-10-19T13:46:28+00:00"
+      "revid": 10637,
+      "sha256": "373219bf69ac3442e4f5052aa33de32dbcd24f118141e37cf7651b7b69aa2c63",
+      "synced_at": "2026-10-19T14:15:42+00:00"
     },
     "Inertia tensor": {
       "path": "Main/Inertia tensor.wiki",
@@ -3523,6 +3523,6 @@
       "synced_at": "2026-10-18T07:12:56+00:00"
     }
   },
-  "updated": "2026-10-19T13:46:28+00:00",
+  "updated": "2026-10-19T14:15:42+00:00",
   "version": 1
 }

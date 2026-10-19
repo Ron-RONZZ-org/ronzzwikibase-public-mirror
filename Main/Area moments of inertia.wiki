@@ -75,8 +75,9 @@ $$
 
 ==== Rectangular cross-section ====
 
-[[File:Rectangle-h-b.png]]
+[[File:Rectangle-h-b.png|400px|center]]
 
+{{Hidden solution}}
 $$
 I_{xx}=\int_A x^2 dA
 dA=hdx
@@ -93,11 +94,13 @@ $$
 $$
 J_{zz}=\frac{1}{12}h^3b+\frac{1}{12}b^3h
 $$
+{{End solution}}
 
 ==== Circular cross-section ====
 
-[[File:Circle-x-y-axis-R.png]]
+[[File:Circle-x-y-axis-R.png|400px|center]]
 
+{{Hidden solution}}
 $$
 J_zz=\int_{r_min}^{r_max} r^2 dA
 dA=2\pi r dr
@@ -111,11 +114,13 @@ By symmetry, $I_{xx}=I_{yy}$, hence
 $$
 I_{xx}, I_{yy}= \frac{1}{2}J_{zz}=\frac{\pi R^4}{4}
 $$
+{{End solution}}
 
 ==== Circular ring ====
 
-[[File:Ring.png]]
+[[File:Ring.png|400px|center]]
 
+{{Hidden solution}}
 The area of a ring is the area of a larger circle minus a smaller one.
 
 From [[#Circular cross-section]], for a circle, 
@@ -135,3 +140,4 @@ By symmetry, $I_{xx}=I_{yy}$, hence
 $$
 I_{xx}, I_{yy}= \frac{1}{2}J_{zz}= 42.5 \text{inch}^4
 $$
+{{End solution}}
