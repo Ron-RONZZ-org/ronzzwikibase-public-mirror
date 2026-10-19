@@ -14,9 +14,9 @@
     },
     "Area moments of inertia": {
       "path": "Main/Area moments of inertia.wiki",
-      "revid": 10657,
-      "sha256": "3026fc88c0dcd858a4fdb2bd2fbcae0a8ed41a65de5b91382558bbf2c5354445",
-      "synced_at": "2026-10-19T14:54:35+00:00"
+      "revid": 10668,
+      "sha256": "5a90a683a6920d5153fe66bfb2d79857c1c50d1c9bb685039e343fb29273b67b",
+      "synced_at": "2026-10-19T15:14:50+00:00"
     },
     "Area product of inertia": {
       "path": "Main/Area product of inertia.wiki",
@@ -1836,6 +1836,12 @@
       "sha256": "746acea67b4cdec91e4178918527e5cf2b827ac1dd3a2d1f497d2d3cdc22c343",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Radius of Gyration": {
+      "path": "Main/Radius of Gyration.wiki",
+      "revid": 10662,
+      "sha256": "1e630696103fa488d89b01b053454bc34d2546fd5dfa087857f28574327be288",
+      "synced_at": "2026-10-19T15:14:50+00:00"
+    },
     "Real vector space": {
       "path": "Main/Real vector space.wiki",
       "revid": 10331,
@@ -3541,6 +3547,6 @@
       "synced_at": "2026-10-18T07:12:56+00:00"
     }
   },
-  "updated": "2026-10-19T14:54:35+00:00",
+  "updated": "2026-10-19T15:14:50+00:00",
   "version": 1
 }

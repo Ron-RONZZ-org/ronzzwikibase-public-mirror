@@ -1,0 +1,7 @@
+The radius of gyration, often denoted by $k$, is an indicator of the distribution of area away from a given axis in a cross-section.
+
+By definition, for any cross-section of area $A$:
+
+{{#content:Q2279}}
+
+It can hence be considered as the normalisation of [[area moments of inertia]] by area.

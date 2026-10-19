@@ -6,7 +6,7 @@ For a long, thin solid, such as a beam, moments of force along its cross-section
 
 <ref>{{#cite:Q2157}}</ref>
 
-== Bending stress and the second area moment ==
+== Bending stress and the area moment of inertia ==
 
 Under bending stress, a beam tends to deform according to some central plane, where there is no tensile or compressive stress, known as the '''neutral surface'''. Both stresses and the moment arm of force increase linearly with the distance from the neutral surface, Hence, the resistance to bending provided by any solid element is directly proportional to its distance from the neutral surface $d$.
 
@@ -18,9 +18,9 @@ To sum up this resistance for the entire cross-section:
 
 {{#content:Q2160}}
 
-$I$ is known as the second area moment, according to axes $xx$ or $yy$ depending on the axis of the force moment.
+$I$ is known as the '''area moment of inertia''' of the cross-section according to the given neutral axis.
 
-== Torsion stress and the polar moment of inertia ==
+== Torsion stress and the polar area moment of inertia ==
 
 Under torsion stress, a beam tends to deform according to some central axis, where there is no torsional stress, known as the '''neutral axis'''. Both stresses and the moment arm of force increase linearly with the distance from the neutral axis, Hence, the resistance to bending provided by any solid element is directly proportional to its distance from the neutral axis $r$.
 
@@ -34,11 +34,11 @@ $$
 J_zz=\int_{r_min}^{r_max} r^2 dA
 $$
 
-$J_zz$ is known as the '''polar moment of inertia''' of the solid according to axis $zz$
+$J_zz$ is known as the '''polar area moment of inertia''' of the solid according to axis $zz$
 
 == Calculation ==
 
-=== Second moment of area ===
+=== Area moments of inertia ===
 
 From the formula
 
@@ -60,7 +60,7 @@ $$
 
 Where $f(x),g(y)$ are some functions according to $x$ and $y$ respectively.
 
-=== Polar moment of inertia ===
+=== Polar area moment of inertia ===
 
 Since $r^2=x^2+y^2$, 
 
@@ -69,7 +69,6 @@ J_{zz}=\int_{r_min}^{r_max} r^2 dA=J_zz=\int_{r_min}^{r_max} (x^2+y^2) dA \\
 =\int_{r_min}^{r_max} x^2 dA+\int_{r_min}^{r_max} y^2 dA \\
 =I_{xx}+I_{yy}
 $$
-
 
 === Examples ===
 
@@ -144,4 +143,5 @@ $$
 
 == See also ==
 
-[[Area product of inertia]]
+* [[Area product of inertia]]
+* [[Radius of Gyration]]
