@@ -29,7 +29,7 @@ is a matrix of '''dimension''' $m \times n$ over [[field (mathematical concept)|
 
 == Dimension ==
 
-If a matrix $\mathbb{M}_{m \times n}$ has $m$ rows and $n$ columns, its '''dimension''' is $m \times n$.
+If a matrix $\mathbf{M}_{m \times n}$ has $m$ rows and $n$ columns, its '''dimension''' is $m \times n$.
 
 Special cases:
 
@@ -650,6 +650,74 @@ Notice if $\exists i: a_{i,i}=0$, the reasoning still holds.
 {{End hidden}}
 
 <ref name="ck12">{{#cite:Q2238}}</ref>
+
+== Inverse matrix $\mathbf{A}^{-1}$ ==
+
+Let $\mathbf{A}$ be a square matrix of dimension $n \times n$, if
+
+$$
+\exists \mathbf{A}^{-1}: \mathbf{A}^{-1}\mathbf{A}=\mathbf{I}_n=\mathbf{A}\mathbf{A}^{-1}
+$$
+
+then $\mathbf{A}^{-1}$ is known as the '''inverse matrix''' of $\mathbf{A}$.
+
+
+=== Inverse matrix properties ===
+
+==== $\exists \mathbf{E}^{-1}$ {{Anchor|existence of elementary inverse}} ====
+
+for any [[#elementary matrix]] $\mathbf{E}$.
+
+{{Hidden proof}}
+{| class="wikitable"
+|-
+! Elementary matrice $\mathbf{E}$
+! Corresponding row operation
+! $\mathbf{E}^{-1}$
+! Corresponding row operation
+|-
+| $e_{p,q}=\begin{cases}1 ,\, p=q \ne i \\ c ,\, p,q=i \\ 0 ,\, \text{elsewise}\end{cases}$
+| $\vec r_i \gets c\vec r_i, c \in \mathbb{F}$
+| $e_{p,q}=\begin{cases}1 ,\, p=q \ne i \\ c^{-1} ,\, p,q=i \\ 0 ,\, \text{elsewise}\end{cases}$
+| $\vec r_i \gets c^{-1}\vec r_i, c \in \mathbb{F}$
+|-
+| $e_{p,q}=\begin{cases}1 ,\, p=q  \\ c ,\, p=i,q=j \\ 0 ,\, \text{elsewise}\end{cases}$
+| $\vec r_i \gets c\vec r_j+\vec r_i, c \in \mathbb{F} $
+| $e_{p,q}=\begin{cases}1 ,\, p=q  \\ -c ,\, p=i,q=j \\ 0 ,\, \text{elsewise}\end{cases}$
+| $\vec r_i \gets -c\vec r_j+\vec r_i, c \in \mathbb{F} $
+|-
+| $e_{p,q}=\begin{cases}1 ,\, p=q\ne i \lor j \\ 1 ,\, \{p,q\}=\{i,j\} \\ 0 ,\, \text{elsewise}\end{cases}$
+| $\vec r_i \leftrightarrow \vec r_j$
+| $e_{p,q}=\begin{cases}1 ,\, p=q\ne i \lor j \\ 1 ,\, \{p,q\}=\{i,j\} \\ 0 ,\, \text{elsewise}\end{cases}$
+| $\vec r_i \leftrightarrow \vec r_j$
+|}
+{{End hidden}}
+
+==== {{Anchor|existence of inverse}} $\forall \mathbf{A}, \dim(\mathbf{A})=n \times n, \det(\mathbf{A}) \ne 0: \exists A^{-1}$ ====
+
+By [[#elementary_decomposition]],
+
+{{Hidden proof}}
+$$
+\mathbf{A}_n=\mathbf{E}_1\mathbf{E}_2\cdots\mathbf{E}_k\mathbf{I}_n
+$$
+
+By [[#existence of elementary inverse]], $\forall \mathbf{E}: \exists \mathbf{E}^{-1},\,  \mathbf{E}\mathbf{E}^{-1}=\mathbf{I}=\mathbf{E}^{-1}\mathbf{E}$.
+
+$$
+\mathbf{A}^{-1}=\mathbf{E}^{-1}_k\mathbf{E}^{-1}_{k-1}\cdots\mathbf{E}^{-1}_1
+$$
+
+Which verifies $\mathbf{A}^{-1}\mathbf{A}=\mathbf{I}_n=\mathbf{A}\mathbf{A}^{-1}$ ([[Matrix#Multiplication_properties|Hint]])
+{{End hidden}}
+
+==== $\mathbf{A}^{-1}=\mathbf{E}^{-1}_k\mathbf{E}^{-1}_{k-1}\cdots\mathbf{E}^{-1}_1$ ====
+
+if $\mathbf{A}_n=\mathbf{E}_1\mathbf{E}_2\cdots\mathbf{E}_k\mathbf{I}_n$
+
+{{Hidden proof}}
+See the proof for [[#existence of inverse|the last property]].
+{{End hidden}}
 
 == Matrix operations in python ==
 

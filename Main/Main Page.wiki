@@ -9,3 +9,5 @@ If you would like to become an external contributor, consult [[Help:JoinUs]]
 If you are an existing contributor, consult [[Help:Contributing]]
 
 If you are looking for ronzz.ORG's internal doc, consult [[RonzzInt:Main]] (you must be logged-in as ronzz.ORG user)
+
+[[Category:Proper name]]
