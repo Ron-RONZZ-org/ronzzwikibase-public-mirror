@@ -432,8 +432,8 @@ $$
 The following operations on a matrix are called '''elementary row operations''':
 
 $$
-\vec r_i \gets \vec cr_i, c \in \mathbb{F}, c \ne 0 \\
-\vec r_i \gets \vec cr_j+\vec r_i, c \in \mathbb{F} \\
+\vec r_i \gets c\vec r_i, c \in \mathbb{F}, c \ne 0 \\
+\vec r_i \gets c\vec r_j+\vec r_i, c \in \mathbb{F} \\
 \vec r_i \leftrightarrow \vec r_j
 $$
 
