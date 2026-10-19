@@ -461,6 +461,50 @@ $$
 {{End hidden}}
 <ref name="kuttler"/>
 
+== Triangular matrix ==
+
+A square matrix $\mathbf{A}=(a_{i,j})$ of dimension $A \times A$ is known as '''triangular''' if:
+
+$$
+\forall j > i: a_{i,j}=0 \text{  (Lower triangular)} \lor \forall j < i: a_{i,j}=0 \text{  (Upper triangular)}
+$$
+
+=== Triangluar matrix properties ===
+
+If $\mathbf{A}$ is triangular, then
+
+==== $\det(\mathbf{A})=\prod_{i=1}^{n}a_{i,i}$ {{Anchor|triangular matrix determinant}} ====
+
+{{Hidden proof}}
+
+$$
+\det(\mathbf{A})=\sum_{\sigma\in \mathcal{S}_n}\operatorname{sign}(\sigma)\prod_{i=1}^n a_{i,\sigma(i)},
+$$
+
+By definition of [[permutation]],
+$$
+\forall j \ne i, \sigma(j) \ne \sigma(i)
+$$
+
+Hence, $\prod_{i=1}^n a_{i,\sigma(i)}$ calculates the product of $n$ elements in $A$, each from a different row and a different column.
+
+By property of multiplication, if any of those $n$ elements is $0$, then the product is $0$. The only way to possibly select one element from each row and column without selecting a $0$ in any triangular matrix, is to select $a_{i,i}$.
+
+In this case, $\forall i \in \{1,\cdots,n\}: \sigma(i)=i \Rightarrow \sigma=\sigma_{id}$.
+
+Since $\operatorname{sign}(\sigma_{id})=1$
+
+$$
+\det(\mathbf{A})=\operatorname{sign}(\sigma_{id})\prod_{i=1}^n a_{i,i}=\prod_{i=1}^{n}a_{i,i}
+$$
+
+<blockquote>
+Notice if $\exists i: a_{i,i}=0$, the reasoning still holds.
+</blockquote>
+{{End hidden}}
+
+<ref name="ck12">{{#cite:Q2238}}</ref>
+
 == Matrix operations in python ==
 
 === Initialisation ===
