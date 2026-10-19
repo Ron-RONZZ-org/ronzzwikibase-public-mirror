@@ -1,0 +1,17 @@
+The area product of inertia measures the asymmetry of a cross-section’s area distribution with respect to a pair of perpendicular axes
+
+The area product of inertia for a cross-section $A$ according to orthonormal base $B$ is:
+
+$$
+I_{xy} = \int_A {x}{y}\ dA
+$$
+<ref>{{#cite:Q2278}}</ref>
+
+== Parallel axes theorem ==
+
+$$
+I_{xy} = I_{x'y'} + A \bar{x}\bar{y}
+$$
+
+[[File:Parallel-axes-theorem.svg|400px|center]]
+<ref>{{#cite:Q2278}}</ref>

@@ -144,4 +144,4 @@ $$
 
 == See also ==
 
-[[Area products of inertia]]
+[[Area product of inertia]]

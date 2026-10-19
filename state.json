@@ -14,15 +14,15 @@
     },
     "Area moments of inertia": {
       "path": "Main/Area moments of inertia.wiki",
-      "revid": 10639,
-      "sha256": "59e0b55100fd612bdaaebab2985354944e116ba43962f66a8bf30b91ac569816",
-      "synced_at": "2026-10-19T14:41:59+00:00"
+      "revid": 10657,
+      "sha256": "3026fc88c0dcd858a4fdb2bd2fbcae0a8ed41a65de5b91382558bbf2c5354445",
+      "synced_at": "2026-10-19T14:54:35+00:00"
     },
-    "Area products of inertia": {
-      "path": "Main/Area products of inertia.wiki",
-      "revid": 10644,
-      "sha256": "8d5c6e7f3e28aec862d17c6bc8e9312ff43e0250e7df58baea4064432e465291",
-      "synced_at": "2026-10-19T14:41:59+00:00"
+    "Area product of inertia": {
+      "path": "Main/Area product of inertia.wiki",
+      "revid": 10658,
+      "sha256": "e71a1480a6ef6ea8843d57336e619eb0766f6cc63682f1d8402e26aa5be0ba54",
+      "synced_at": "2026-10-19T14:54:35+00:00"
     },
     "Atom": {
       "path": "Main/Atom.wiki",
@@ -263,6 +263,12 @@
       "revid": 8109,
       "sha256": "eaf798d7fb06641e066a65c2dc3e8e681e0d07b5bd4e0aca3d39afe8ffcdebdf",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Collective:Daniel W. Baker, William Haynes, Jacob Moore et al.": {
+      "path": "Collective/Daniel W. Baker, William Haynes, Jacob Moore et al.wiki",
+      "revid": 10650,
+      "sha256": "a3ecf8784f61fd9fc3cefa5fcb17af64980564803b4a4ddd05e399ea003ce93f",
+      "synced_at": "2026-10-19T14:54:35+00:00"
     },
     "Collective:David Cherney, Tom Denton, and Andrew Waldron": {
       "path": "Collective/David Cherney, Tom Denton, and Andrew Waldron.wiki",
@@ -1968,6 +1974,12 @@
       "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:10.7: Products of Inertia (Webpage)": {
+      "path": "Source/10.7_ Products of Inertia (Webpage).wiki",
+      "revid": 10655,
+      "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
+      "synced_at": "2026-10-19T14:54:35+00:00"
+    },
     "Source:17.5: Area Moments of Inertia via Integration (Webpage)": {
       "path": "Source/17.5_ Area Moments of Inertia via Integration (Webpage).wiki",
       "revid": 9829,
@@ -3529,6 +3541,6 @@
       "synced_at": "2026-10-18T07:12:56+00:00"
     }
   },
-  "updated": "2026-10-19T14:41:59+00:00",
+  "updated": "2026-10-19T14:54:35+00:00",
   "version": 1
 }
