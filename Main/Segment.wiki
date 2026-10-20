@@ -1,0 +1,9 @@
+Let $(AB)$ be a [[line]] passing through points $A,B$. Segment $[AB]$ is the section of $(AB)$ between points $A$ and $B$
+
+Formally,
+
+$$
+[AB]=[AB) \cap (AB]
+$$
+where $[AB),(AB]$ are [[half line]]s.
+<ref>{{#cite:Q2300}}</ref>

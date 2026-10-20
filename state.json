@@ -846,6 +846,12 @@
       "sha256": "fe015943f09cafcdd221b28d506e79ecc4d013a9c8d70e8bb0c7cd4d01058dc7",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Half line": {
+      "path": "Main/Half line.wiki",
+      "revid": 10767,
+      "sha256": "7d0c69d73c33e8b40deba8309a1eac74ced2bd8d2fe84c3920a83e69c150105c",
+      "synced_at": "2026-10-20T13:42:09+00:00"
+    },
     "Historiography": {
       "path": "Main/Historiography.wiki",
       "revid": 886,
@@ -1890,6 +1896,12 @@
       "sha256": "1e630696103fa488d89b01b053454bc34d2546fd5dfa087857f28574327be288",
       "synced_at": "2026-10-19T15:14:50+00:00"
     },
+    "Real line": {
+      "path": "Main/Real line.wiki",
+      "revid": 10756,
+      "sha256": "427a50d827aee1b2f8099976a977a262a7b9fe5449bdd8505e163dde91dabbbb",
+      "synced_at": "2026-10-20T13:42:09+00:00"
+    },
     "Real vector space": {
       "path": "Main/Real vector space.wiki",
       "revid": 10331,
@@ -1949,6 +1961,12 @@
       "revid": 10414,
       "sha256": "0f23c208ca25f4230984850a4050143fe745459e9effdc6efb89367a39573982",
       "synced_at": "2026-10-18T13:11:53+00:00"
+    },
+    "Segment": {
+      "path": "Main/Segment.wiki",
+      "revid": 10763,
+      "sha256": "9b38675e8c839918f1e85a4b591f2509c94116eb788353b6960bd5c21922968c",
+      "synced_at": "2026-10-20T13:42:09+00:00"
     },
     "Set": {
       "path": "Main/Set.wiki",
@@ -2039,6 +2057,12 @@
       "revid": 10742,
       "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
       "synced_at": "2026-10-20T11:14:49+00:00"
+    },
+    "Source:1.6: Half-lines and segments (Webpage)": {
+      "path": "Source/1.6_ Half-lines and segments (Webpage).wiki",
+      "revid": 10762,
+      "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
+      "synced_at": "2026-10-20T13:42:09+00:00"
     },
     "Source:10 key numbers on education (Webpage)": {
       "path": "Source/10 key numbers on education (Webpage).wiki",
@@ -3625,6 +3649,6 @@
       "synced_at": "2026-10-18T07:12:56+00:00"
     }
   },
-  "updated": "2026-10-20T13:15:53+00:00",
+  "updated": "2026-10-20T13:42:09+00:00",
   "version": 1
 }

@@ -1,0 +1,9 @@
+A real line is a line in its everyday sense.
+
+== Formal definition ==
+
+The real line is the [[metric space]]
+
+$$
+L_{\text{real}}=(\mathbb{R},d=|s-t|\  \forall s,t \in \mathbb{R}).
+$$
