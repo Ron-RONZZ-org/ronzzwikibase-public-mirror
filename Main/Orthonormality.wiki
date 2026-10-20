@@ -35,39 +35,4 @@ $$
 
 == Orthonormal basis ==
 
-Any [[#orthonormal vector list|orthonormal vector list]] of length $dim(V)$ is an '''orthonormal basis''' for $V$.<ref>{{#cite:Q1930}}</ref>
-
-Which means:
-
-If $(e_1,\ldots,e_n)$ is an orthonormal vector list for $V \in \mathbb{F}^n$
-
-Then
-
-$$
-\forall v = a_1 e_1 + \cdots + a_n e_n
-$$
-
-=== Property ===
-
-$$
-\forall v\in V
-\begin{cases}
-v=\sum_{k=1}^n \langle v,e_k\rangle e_k \\
-\lVert v\rVert^2=\sum_{k=1}^n |\langle v,e_k\rangle|^2
-\end{cases}
-$$
-
-{{Hidden proof}}
-$$
-\because v = a_1 e_1 + \cdots + a_n e_n & \text{(1)} \\
-\therefore \forall k \in \{1, \cdots, n\}, \langle v, e_k \rangle= \langle a_1 e_1 + \cdots + a_n e_n , e_k \rangle = a_k \\
-\therefore \text{(1) becomes } v =  \langle v, e_1 \rangle e_1 + \cdots + \langle v, e_n \rangle e_n \\
-\text{i.e., } v=\sum_{k=1}^n \langle v,e_k\rangle e_k \\
-$$
-
-and
-
-$$
-\lVert v\rVert^2=\sum_{k=1}^n |a_k|^2=\sum_{k=1}^n |\langle v,e_k\rangle|^2
-$$
-{{End hidden}}
+See [[orthonormal basis]].

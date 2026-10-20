@@ -956,9 +956,9 @@
     },
     "Line": {
       "path": "Main/Line.wiki",
-      "revid": 10755,
-      "sha256": "536633c2493ced57f9abba858ef1863033f2a1b80b6243d940af92dd352a4810",
-      "synced_at": "2026-10-20T13:15:53+00:00"
+      "revid": 10768,
+      "sha256": "cc41f1647931aea7ec7d27088fd1266235447233948ecb8df49c31ac838c3f52",
+      "synced_at": "2026-10-20T13:53:22+00:00"
     },
     "Linear differential equation": {
       "path": "Main/Linear differential equation.wiki",
@@ -1076,9 +1076,9 @@
     },
     "Orthonormality": {
       "path": "Main/Orthonormality.wiki",
-      "revid": 10329,
-      "sha256": "ed4097fffb7ac590e98115008ee522a1482207ef7e2227529595fb7588884c99",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "revid": 10769,
+      "sha256": "77c74c46e62ba5cba655700c3e7bc9510b55b4c027f1be8726264d4b6eab5a14",
+      "synced_at": "2026-10-20T13:53:22+00:00"
     },
     "Outer product": {
       "path": "Main/Outer product.wiki",
@@ -3649,6 +3649,6 @@
       "synced_at": "2026-10-18T07:12:56+00:00"
     }
   },
-  "updated": "2026-10-20T13:42:09+00:00",
+  "updated": "2026-10-20T13:53:22+00:00",
   "version": 1
 }
