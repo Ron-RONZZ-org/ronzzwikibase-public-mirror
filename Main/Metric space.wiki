@@ -1,0 +1,39 @@
+A metric space is a space whre distance between points can be measured.
+
+== Formal definition ==
+
+Let $S$ be a set.
+
+Function
+
+$$
+d: S \times S \to \mathbb{R}
+$$
+
+is a '''metric function''' of $S$ if
+
+$$
+\begin{cases}
+d(a,b) \ge 0,\, \forall a,b \in S \text{  (Positive definiteness)} \\
+d(a,b) = 0 \iff a=b \text{  (Non-overlay)} \\
+d(a,b)=d(b,a),\,  \forall a,b \in S \text{  (Symmetry)} \\
+d(a,c) \le d(a,b)+d(b,c),\, \forall a,b,c \in S \text{  (Triangle inequality)} \\
+\end{cases};
+$$
+
+In which case $d(a,b)$ is called the '''distance''' between $a,b$; $(S,d)$ is a '''metric space'''.
+
+{{Hidden example}}
+The '''discrete metric function''' for any set $S$ is:
+
+$$
+\forall a,b \in S,\, 
+d(a,b)=
+\begin{cases}
+0,\, a=b \\
+1,\, \text{elsewise}
+\end{cases}
+$$
+{{End hidden}}
+
+<ref>{{#cite:Q2293}}</ref>
