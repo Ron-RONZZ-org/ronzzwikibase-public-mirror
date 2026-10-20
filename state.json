@@ -692,9 +692,9 @@
     },
     "Euclidean space": {
       "path": "Main/Euclidean space.wiki",
-      "revid": 10736,
-      "sha256": "ea04b585d1920da43394afe08c52614ba764eae2d7a75277ff8ad7a445b30d2d",
-      "synced_at": "2026-10-20T11:14:49+00:00"
+      "revid": 10748,
+      "sha256": "75c4d08d6d9ec4bc01662c6c362aa96a29ae4c65fe14a8b679c9796097c80f9b",
+      "synced_at": "2026-10-20T11:50:52+00:00"
     },
     "Euler's method": {
       "path": "Main/Euler's method.wiki",
@@ -1022,9 +1022,9 @@
     },
     "Metric space": {
       "path": "Main/Metric space.wiki",
-      "revid": 10745,
-      "sha256": "49e9bf1c2663e1043b47b3f807dec6250135eea6fca45a7d76216ca119a05fa8",
-      "synced_at": "2026-10-20T11:30:30+00:00"
+      "revid": 10747,
+      "sha256": "db411fc25a6743613372a932df842989e958f6e374316f11b5b103085a44483b",
+      "synced_at": "2026-10-20T11:50:52+00:00"
     },
     "Moment of inertia": {
       "path": "Main/Moment of inertia.wiki",
@@ -3619,6 +3619,6 @@
       "synced_at": "2026-10-18T07:12:56+00:00"
     }
   },
-  "updated": "2026-10-20T11:30:30+00:00",
+  "updated": "2026-10-20T11:50:52+00:00",
   "version": 1
 }

@@ -1,5 +1,7 @@
 An Euclidean space is a [[metric space]] of real vectors with the Euclidean metric function.
 
+[[Category:Proper name]]
+
 == Formal definition ==
 
 Let $S=\{\vec u=(u_1,\cdots,u_n)|u_1,\cdots,u_n \in \mathbb{R}\}$ be a set.
