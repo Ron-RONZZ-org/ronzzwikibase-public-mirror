@@ -21,7 +21,7 @@ d(a,c) \le d(a,b)+d(b,c),\, \forall a,b,c \in S \text{  (Triangle inequality)} \
 \end{cases};
 $$
 
-In which case $d(a,b)$ is called the '''distance''' between $a,b$; $(S,d)$ is a '''metric space'''.
+In which case $d(a,b)$ is called the '''distance''' between $a,b$; $(S,d)$ is a '''metric space''', often denoted by $\mathcal{x}$.
 
 {{Hidden example}}
 The '''discrete metric function''' for any set $S$ is:
