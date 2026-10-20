@@ -1,13 +1,1 @@
-Let $(AB)$ be a [[line]] passing through points $A,B$. Half line $[AB)$ starts at point $A$, passes through and extend beyond point $B$.
-
-Formally,
-
-$$
-\exists f:
-\begin{cases}
-f\bigl((AB)\bigr)=\mathbb{R} \\
-f\bigl([AB)\bigr)=[0, \infty),\, f(A)=0, f(B) >0.
-\end{cases}
-$$
-
-<ref>{{#cite:Q2300}}</ref>
+#REDIRECT [[Half-line]]

@@ -1,0 +1,28 @@
+'''An Euclidean circle''' is a [[circle]] in the [[Euclidean space#Special_Euclidean_spaces|Euclidean plane]].
+
+[[File:Circle-O-r.svg]]
+
+== Formal definition ==
+
+Let $\mathbb{E}^2$ be an [[Euclidean space#Special_Euclidean_spaces|Euclidean plane]].
+
+$$
+\text{Circle}(\vec{c},r)=\{\vec{x}\in\mathbb{E}^2:\|\vec{x}-\vec{c}\|=r,\,  r>0, \vec c \in \mathbb{E}^2\}
+$$
+
+== Cartesian coordinate description ==
+
+Let $X,C \in \mathbb{E}^2$ be points in an [[Euclidean space#Special_Euclidean_spaces|Euclidean plane]].
+
+Let
+$$
+\vec{x}=(x,y),\quad \vec{c}=(c_1,c_2)
+$$
+
+be their position vectors, then
+
+$$
+\vec{x}\in\text{Circle}(\vec{c},r)\iff (x-c_1)^2+(y-c_2)^2=r^2
+$$
+
+[[File:Circle-cartesian-coordinate.svg|center]]

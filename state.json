@@ -714,6 +714,12 @@
       "sha256": "47fa659983a5aadc2db00fc0d857ea7147a913a948f7b76f7a29ab0983011b74",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Euclidean circle": {
+      "path": "Main/Euclidean circle.wiki",
+      "revid": 10835,
+      "sha256": "d652b081f5b7bf2687b7052c7f53a726c84bdc960d4f1c1d745e6b114d108a45",
+      "synced_at": "2026-10-20T21:14:14+00:00"
+    },
     "Euclidean space": {
       "path": "Main/Euclidean space.wiki",
       "revid": 10748,
@@ -872,9 +878,15 @@
     },
     "Half line": {
       "path": "Main/Half line.wiki",
-      "revid": 10767,
-      "sha256": "7d0c69d73c33e8b40deba8309a1eac74ced2bd8d2fe84c3920a83e69c150105c",
-      "synced_at": "2026-10-20T13:42:09+00:00"
+      "revid": 10839,
+      "sha256": "17331ed048b2ee39e044b1df3c3b7e4325749803524ab17a286b94ed089ea5c5",
+      "synced_at": "2026-10-20T21:14:14+00:00"
+    },
+    "Half-line": {
+      "path": "Main/Half-line.wiki",
+      "revid": 10838,
+      "sha256": "9b5f8589d3a6b4d7bd09c125fbe02da12417444f971ff5931f850ba353026c71",
+      "synced_at": "2026-10-20T21:14:14+00:00"
     },
     "Historiography": {
       "path": "Main/Historiography.wiki",
@@ -3703,6 +3715,6 @@
       "synced_at": "2026-10-18T07:12:56+00:00"
     }
   },
-  "updated": "2026-10-20T16:53:14+00:00",
+  "updated": "2026-10-20T21:14:14+00:00",
   "version": 1
 }
