@@ -1,0 +1,45 @@
+An Euclidean space is a [[metric space]] of real vectors with the Euclidean metric function.
+
+== Formal definition ==
+
+Let $S=\{\vec u=(u_1,\cdots,u_n)|u_1,\cdots,u_n \in \mathbb{R}\}$ be a set.
+
+Define [[metric space#Formal_definition|metric function]] $d: S \times S \to \mathbb{R}$
+
+$$
+d(\vec u,\vec v)=\sqrt{(u_1-v_1)^2+\cdots+(u_n-v_n)^2},\, \forall \vec u, \vec v \in S
+$$
+
+Then $d$ is the '''Euclidean metric function''' of dimension $n$, $(S,d)$ is an '''$n$-diemensional Euclidean space'''.
+
+{{Hidden example}}
+The 3D-Euclidean space $(S=\mathbb{R}^3,d)$ is often used to model our physical world, where
+
+$$
+S=\{\vec p=(x,y,z)|x,y,z \in \mathbb{R}\}, \\
+d(\vec p_1,\vec p_2)=\sqrt{(x_1-x_2)^2+(y_1-y_2)^2+(z_1-z_2)^2}.
+$$
+
+and $\vec p$ are the '''position vectors''' of points in space.
+{{End hidden}}
+
+== Special Euclidean spaces ==
+
+{| class="wikitable"
+|-
+! Dimension
+! Name
+|-
+| $\mathbb{R}$
+| Real number line
+|-
+| $\mathbb{R}^2$
+| Euclidean plane
+|-
+| $\mathbb{R}^3$
+| 3D-Euclidean space*
+|}
+
+<blockquote>
+Although 3-dimensional Euclidean space is often simply referred to as 'Euclidean space', this can be a source of ambiguity. It is therefore preferred to call it 3D-Euclidean space.
+</blockquote>

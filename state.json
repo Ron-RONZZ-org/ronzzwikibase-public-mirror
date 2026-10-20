@@ -690,6 +690,12 @@
       "sha256": "47fa659983a5aadc2db00fc0d857ea7147a913a948f7b76f7a29ab0983011b74",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Euclidean space": {
+      "path": "Main/Euclidean space.wiki",
+      "revid": 10736,
+      "sha256": "ea04b585d1920da43394afe08c52614ba764eae2d7a75277ff8ad7a445b30d2d",
+      "synced_at": "2026-10-20T11:14:49+00:00"
+    },
     "Euler's method": {
       "path": "Main/Euler's method.wiki",
       "revid": 7380,
@@ -1016,9 +1022,9 @@
     },
     "Metric space": {
       "path": "Main/Metric space.wiki",
-      "revid": 10735,
-      "sha256": "a27ba721ebe13998c30a9cfeaf93502a80fb18e6cfa9ac1e05c8d84b52ccbb9a",
-      "synced_at": "2026-10-20T10:53:45+00:00"
+      "revid": 10744,
+      "sha256": "f575a6c9aa908487599d86f46236e80f916b963ef2c0776943936b8a1baa5544",
+      "synced_at": "2026-10-20T11:14:49+00:00"
     },
     "Moment of inertia": {
       "path": "Main/Moment of inertia.wiki",
@@ -2021,6 +2027,12 @@
       "revid": 8000,
       "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:1.5: Isometries, motions, and lines (Webpage)": {
+      "path": "Source/1.5_ Isometries, motions, and lines (Webpage).wiki",
+      "revid": 10742,
+      "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
+      "synced_at": "2026-10-20T11:14:49+00:00"
     },
     "Source:10 key numbers on education (Webpage)": {
       "path": "Source/10 key numbers on education (Webpage).wiki",
@@ -3607,6 +3619,6 @@
       "synced_at": "2026-10-18T07:12:56+00:00"
     }
   },
-  "updated": "2026-10-20T10:53:45+00:00",
+  "updated": "2026-10-20T11:14:49+00:00",
   "version": 1
 }

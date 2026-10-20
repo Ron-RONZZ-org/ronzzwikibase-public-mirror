@@ -21,7 +21,7 @@ d(a,c) \le d(a,b)+d(b,c),\, \forall a,b,c \in S \text{  (Triangle inequality)} \
 \end{cases};
 $$
 
-In which case $d(a,b)$ is called the '''distance''' between $a,b$; $(S,d)$ is a '''metric space''', often denoted by $\mathcal{x}$.
+In which case $d(a,b)$ is called the '''distance''' between $a,b$; $(S,d)$ is a '''metric space''', often denoted by $\mathcal{X}$.
 
 {{Hidden example}}
 The '''discrete metric function''' for any set $S$ is:
@@ -37,3 +37,27 @@ $$
 {{End hidden}}
 
 <ref>{{#cite:Q2293}}</ref>
+
+== Isometry ==
+
+Function
+
+$$
+f: \mathcal{X} \to \mathcal{Y}
+$$
+
+is said to be '''distance-preserving''' if
+
+$$
+d_{\mathcal{Y}} (f(A), f(B)) = d_{\mathcal{X}} (A, B)
+$$
+
+and if it is also bijective,i.e.,
+
+$$
+\exists f^-1: \mathcal{Y} \to \mathcal{X},\, \forall y \in \mathcal{Y}, f^{-1}(y)=x \iff f(x)=y
+$$
+
+then $f$ is an '''isometry''' of metric space $\mathcal{X}$ to metric space $\mathcal{Y}$
+
+<ref>{{#cite:Q2296}}</ref>
