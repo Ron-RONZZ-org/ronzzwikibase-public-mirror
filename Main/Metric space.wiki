@@ -58,6 +58,6 @@ $$
 \exists f^-1: \mathcal{Y} \to \mathcal{X},\, \forall y \in \mathcal{Y}, f^{-1}(y)=x \iff f(x)=y
 $$
 
-then $f$ is an '''isometry''' of metric space $\mathcal{X}$ to metric space $\mathcal{Y}$
+then $f$ is an '''isometry''' of metric space $\mathcal{X}$ to metric space $\mathcal{Y}$, and metric spaces $\mathcal{X,Y}$ are said to be '''isometric''' over $f$.
 
 <ref>{{#cite:Q2296}}</ref>

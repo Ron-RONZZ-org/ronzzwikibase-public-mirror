@@ -1022,9 +1022,9 @@
     },
     "Metric space": {
       "path": "Main/Metric space.wiki",
-      "revid": 10744,
-      "sha256": "f575a6c9aa908487599d86f46236e80f916b963ef2c0776943936b8a1baa5544",
-      "synced_at": "2026-10-20T11:14:49+00:00"
+      "revid": 10745,
+      "sha256": "49e9bf1c2663e1043b47b3f807dec6250135eea6fca45a7d76216ca119a05fa8",
+      "synced_at": "2026-10-20T11:30:30+00:00"
     },
     "Moment of inertia": {
       "path": "Main/Moment of inertia.wiki",
@@ -3619,6 +3619,6 @@
       "synced_at": "2026-10-18T07:12:56+00:00"
     }
   },
-  "updated": "2026-10-20T11:14:49+00:00",
+  "updated": "2026-10-20T11:30:30+00:00",
   "version": 1
 }
