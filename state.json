@@ -192,6 +192,12 @@
       "sha256": "7a76704b29997462a83bc4e00fd1dbeffb53880dc0561bd10f2f27b364c26ef2",
       "synced_at": "2026-10-18T12:54:28+00:00"
     },
+    "Circle": {
+      "path": "Main/Circle.wiki",
+      "revid": 10832,
+      "sha256": "96fd3e61a5af2e5ad83ccb0670b1d4d471b2801ac4ff1625b67978809f336f85",
+      "synced_at": "2026-10-20T16:53:14+00:00"
+    },
     "Classical mechanics": {
       "path": "Main/Classical mechanics.wiki",
       "revid": 9182,
@@ -1052,9 +1058,9 @@
     },
     "Metric space": {
       "path": "Main/Metric space.wiki",
-      "revid": 10774,
-      "sha256": "1a20bfa4139933d7a02d2c888229d8b608621a225048bc1ae7ea4a36c1d78ce8",
-      "synced_at": "2026-10-20T14:15:08+00:00"
+      "revid": 10834,
+      "sha256": "dbb9476728ee12ad5f5281611ffafe64d390b6869acc0d81bdf96db2fb6319c5",
+      "synced_at": "2026-10-20T16:53:14+00:00"
     },
     "Moment of inertia": {
       "path": "Main/Moment of inertia.wiki",
@@ -3697,6 +3703,6 @@
       "synced_at": "2026-10-18T07:12:56+00:00"
     }
   },
-  "updated": "2026-10-20T16:41:16+00:00",
+  "updated": "2026-10-20T16:53:14+00:00",
   "version": 1
 }

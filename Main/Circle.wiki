@@ -1,0 +1,23 @@
+A '''circle''' is a set of all points of equal distance from a given point in a given [[plane]].
+
+An '''arc''' is part of a circle.
+
+== Formal definition ==
+
+Let $\mathcal{X}=(\mathbb{F}^2,d)$ be a [[metric space|2-dimensional metric space]].
+
+Set of points
+
+$$
+\{P:d(P,O)=r,\, r \in \mathbb{R}^+\}
+$$
+
+is called the '''circle''' of radius $r$ centered at $O$ in $\mathcal{X}$,denoted by $\bigcirc O_r$.
+
+[[File:Circle-O-r-P1-20.svg|thumbnail|A circle in the [[Euclidean circle|Euclidean plane]]. In reality, there are an infinite number of points $P$s. There is no way to draw all of them at once.]]
+
+Any of its subsets, $A \subseteq \bigcirc O_r$, is an '''arc''' of radius $r$ centered at $O$.
+
+== In the Euclidean plane ==
+
+See [[Euclidean circle]].

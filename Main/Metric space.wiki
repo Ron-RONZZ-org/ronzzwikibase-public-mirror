@@ -14,8 +14,8 @@ is a '''metric function''' of $S$ if
 
 $$
 \begin{cases}
-d(a,b) \ge 0,\, \forall a,b \in S \text{  (Positive definiteness)} \\
-d(a,b) = 0 \iff a=b \text{  (Non-overlay)} \\
+d(a,b) \ge 0,\, \forall a,b \in S \text{  (Positivity)} \\
+d(a,b) = 0 \iff a=b \text{  (Definiteness)} \\
 d(a,b)=d(b,a),\,  \forall a,b \in S \text{  (Symmetry)} \\
 d(a,c) \le d(a,b)+d(b,c),\, \forall a,b,c \in S \text{  (Triangle inequality)} \\
 \end{cases};
