@@ -3672,6 +3672,12 @@
       "sha256": "ac5384b965a615038cf6439198763b3d900ee0a79e24b1f5fc7cfe258d557cfd",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Unit of measurement": {
+      "path": "Main/Unit of measurement.wiki",
+      "revid": 10826,
+      "sha256": "aa5e129168a7d247e95dbf154b6b9decbaf204104e7256ac2b8d6daa966d5f91",
+      "synced_at": "2026-10-20T16:41:16+00:00"
+    },
     "Universe": {
       "path": "Main/Universe.wiki",
       "revid": 6854,
@@ -3691,6 +3697,6 @@
       "synced_at": "2026-10-18T07:12:56+00:00"
     }
   },
-  "updated": "2026-10-20T15:31:19+00:00",
+  "updated": "2026-10-20T16:41:16+00:00",
   "version": 1
 }

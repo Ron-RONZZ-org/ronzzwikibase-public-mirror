@@ -1,0 +1,3 @@
+<blockquote>
+{{#content:Q2314}}<ref>{{#cite:Q2310}}</ref>
+</blockquote>
