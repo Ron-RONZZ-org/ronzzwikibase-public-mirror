@@ -1,0 +1,107 @@
+In geometry, a '''line''' is a set of [[point]]s in a particular [[metric space]] isometric to the [[real line]].
+
+== Formal definition ==
+
+Let $\mathcal{X}=(S,d)$ be a [[metric space]].
+
+$L \subseteq S$ is a '''line''' in $\mathcal{X}$ if
+
+$$
+\exists f:\mathbb{R} \to L,\\
+\begin{cases}
+f(\mathbb{R})=L \\
+d(f(a),f(b))= |a-b|,\,  \forall a,b \in \mathbb{R}
+\end{cases}
+$$
+
+<ref>{{#cite:Q2296}}</ref>
+
+{{Hidden example}}
+In the '''Manhattan metric plane''' $\mathbb{M}^2=(\mathbb{R}^2,d_1(A, B) = |x_A - x_B| + |y_A - y_B|)$<ref>{{#cite:Q2293}}</ref>:
+
+Every line is the image of a parametrisation with general form
+
+$$
+\vec{L}(t)=\bigl(\alpha x(t),\ \beta(t+C-x(t))\bigr),
+\qquad t\in\mathbb R,
+$$
+
+where $\alpha,\beta\in\{-1,+1\}$,$C\in\mathbb R$, and $x:\mathbb R\to\mathbb R$ is continuous, non-decreasing, and $1$-Lipschitz, i.e., $0\le x(t)-x(s)\le t-s\qquad(s<t)$
+
+[[File:Manhattan-plane-lines.png|center|500px|Examples of lines in the Manhattan plane $\mathbb{M}^2]]
+
+{{Hidden proof}}
+By definition,
+$$
+L:\mathbb R\to\mathbb R^2,\qquad \vec{L}(t)=(x(t),y(t)),
+|x(t)-x(s)|+|y(t)-y(s)|=|t-s|
+\qquad \forall s,t\in\mathbb R. \tag{1}
+$$
+
+Assume $s<t$, then
+
+$$
+|x(t)-x(s)|+|y(t)-y(s)|=t-s. \tag{2}
+$$
+
+Let $u \in \mathbb{R}$, then $L(s),L(u),L(t) \in \mathbb{M}^2$ are three colinear points, so $\forall u: s<u<t$, by colinearity,
+
+$$
+|x(t)-x(s)|+|y(t)-y(s)| = |x(t)-x(u)|+|y(t)-y(u)| + |x(u)-x(s)|+|y(u)-y(s)|
+$$
+
+Since $x,y \in \mathbb{R}$, by triangular inequality of real numbers ($|a-c| \le |a-b|+|b-c|$)
+
+$$
+\begin{cases}
+|x(t)-x(s)| \le |x(t)-x(u)| + |x(u)-x(s)| \\
+|y(t)-y(s)| \le |y(t)-y(u)| + |y(u)-y(s)|
+\end{cases}\\ \\
+\therefore 
+\begin{cases}
+|x(t)-x(s)|=|x(t)-x(u)|+|x(u)-x(s)|, \\
+|y(t)-y(s)|=|y(t)-y(u)|+|y(u)-y(s)|;
+\end{cases}
+$$
+
+Hence $\forall t \in \mathbb{R}$, $x(t)$ and $y(t)$ are monotone functions
+
+$\therefore \exists, \alpha,\eta\in\{-1,+1\}$ such that $\alpha x(t),\eta y(t) $ are both non-decreasing functions of $t$.
+
+$$
+\therefore \text{(2)} \Rightarrow \alpha(x(t)-x(s))+\eta(y(t)-y(s))=t-s, \tag{3}
+$$
+
+Separate $t$-terms and $s$-terms via algebraic manipulation
+
+$$
+\alpha x(t)+\eta y(t)-t
+=
+\alpha x(s)+\eta y(s)-s,\, \forall s,t \in \mathbb{R}
+$$
+
+Hence
+
+$$
+\forall t \in \mathbb{R}: \alpha x(t)+\eta y(t)-t=C,\, C \in \mathbb{R} \\
+\Rightarrow \alpha x(t)+\eta y(t)=t+C,\, C \in \mathbb{R}
+\Rightarrow y(t) = \beta(t+C-x(t)),\, C \in \mathbb{R}, \beta = \eta^{-1} \in \{-1,1\}
+$$
+
+Hence
+
+$$
+\vec{L}(t)=\bigl(\alpha x(t),\ \beta(t+C-x(t))\bigr),
+\qquad t\in\mathbb R,
+$$
+
+where $\alpha,\beta\in\{-1,+1\}$,$C\in\mathbb R$, and $x:\mathbb R\to\mathbb R$ is continuous, non-decreasing, and $1$-Lipschitz, i.e., $0\le x(t)-x(s)\le t-s\qquad(s<t)$
+
+{{End hidden}}
+{{End hidden}}
+
+== Properties ==
+
+=== Colinearity ===
+
+If $L$ is a line in a given metric space, for any three points $A,B,C \in L$, if $AC \ge AB \land AC \ge BC$, then $AC=AB+BC$.<ref>{{#cite:Q2296}}</ref>

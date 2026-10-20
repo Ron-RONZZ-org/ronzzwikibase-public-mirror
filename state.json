@@ -948,6 +948,12 @@
       "sha256": "a64153ee05000271f3c4efb6a9024dcb5c7fc6ee3472be6e473b143f6907046d",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Line": {
+      "path": "Main/Line.wiki",
+      "revid": 10755,
+      "sha256": "536633c2493ced57f9abba858ef1863033f2a1b80b6243d940af92dd352a4810",
+      "synced_at": "2026-10-20T13:15:53+00:00"
+    },
     "Linear differential equation": {
       "path": "Main/Linear differential equation.wiki",
       "revid": 9721,
@@ -3619,6 +3625,6 @@
       "synced_at": "2026-10-18T07:12:56+00:00"
     }
   },
-  "updated": "2026-10-20T11:50:52+00:00",
+  "updated": "2026-10-20T13:15:53+00:00",
   "version": 1
 }
