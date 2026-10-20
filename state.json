@@ -12,6 +12,12 @@
       "sha256": "9679b43dd5ab32154cc228116e0722804c14b659e805db5152f94d107b3ad160",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Angle": {
+      "path": "Main/Angle.wiki",
+      "revid": 10784,
+      "sha256": "05aa048c1b12877bbea81fd54e3b9b027af83ab0b4e487c46e2f49754ac6bc76",
+      "synced_at": "2026-10-20T14:52:47+00:00"
+    },
     "Area moments of inertia": {
       "path": "Main/Area moments of inertia.wiki",
       "revid": 10668,
@@ -2070,6 +2076,12 @@
       "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
       "synced_at": "2026-10-20T13:42:09+00:00"
     },
+    "Source:1.7: Angles (Webpage)": {
+      "path": "Source/1.7_ Angles (Webpage).wiki",
+      "revid": 10783,
+      "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
+      "synced_at": "2026-10-20T14:52:47+00:00"
+    },
     "Source:10 key numbers on education (Webpage)": {
       "path": "Source/10 key numbers on education (Webpage).wiki",
       "revid": 8982,
@@ -3655,6 +3667,6 @@
       "synced_at": "2026-10-18T07:12:56+00:00"
     }
   },
-  "updated": "2026-10-20T14:15:08+00:00",
+  "updated": "2026-10-20T14:52:47+00:00",
   "version": 1
 }

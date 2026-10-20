@@ -1,0 +1,67 @@
+An angle is a pair of [[half-line]]s originating from the same point.<ref>{{#cite:Q2305}}</ref>
+
+[[File:Angle.png]]
+
+== Notation ==
+
+Angle $AOB$ is denoted by $\angle AOB$. Its measurement (noted $\alpha$ in the picture) is denoted by $\measuredangle AOB$.<ref>{{#cite:Q2305}}</ref>
+
+== Formal definition ==
+
+Let $A,O,B$ be arbitrary points in a [[metric space]].
+
+$$
+\angle AOB = [OA) \cup [OB)
+$$
+
+<ref>{{#cite:Q2305}}</ref>
+== Measurement ==
+
+The most common unit of measurement for angles used by mathematicians is [[radian]].
+
+However, many different units of measurement exist for historical reasons:
+
+{| class="wikitable"
+|+ Common angle units
+! Unit
+! Symbol
+! $1U$ (radians per unit)
+! Conversion to radians
+! Conversion from radians
+|-
+| [[Radian]]
+| $\mathrm{rad}$
+| $1\ \mathrm{rad}$
+| 
+| 
+|-
+| [[Degree (angle)|Degree]]
+| $^{\circ}$
+| $\frac{\pi}{180}\ \mathrm{rad}$
+| $\theta_{\mathrm{rad}}=\frac{\pi}{180}\theta_{\mathrm{deg}}$
+| $\theta_{\mathrm{deg}}=\frac{180}{\pi}\theta_{\mathrm{rad}}$
+|-
+| [[Arcminute]]
+| $\mathrm{arcmin}$
+| $\frac{\pi}{10800}\ \mathrm{rad}$
+| $\theta_{\mathrm{rad}}=\frac{\pi}{10800}\theta_{\mathrm{arcmin}}$
+| $\theta_{\mathrm{arcmin}}=\frac{10800}{\pi}\theta_{\mathrm{rad}}$
+|-
+| [[Arcsecond]]
+| $\mathrm{arcsec}$
+| $\frac{\pi}{648000}\ \mathrm{rad}$
+| $\theta_{\mathrm{rad}}=\frac{\pi}{648000}\theta_{\mathrm{arcsec}}$
+| $\theta_{\mathrm{arcsec}}=\frac{648000}{\pi}\theta_{\mathrm{rad}}$
+|-
+| [[Gradian]] (gon)
+| $\mathrm{gon}$
+| $\frac{\pi}{200}\ \mathrm{rad}$
+| $\theta_{\mathrm{rad}}=\frac{\pi}{200}\theta_{\mathrm{gon}}$
+| $\theta_{\mathrm{gon}}=\frac{200}{\pi}\theta_{\mathrm{rad}}$
+|-
+| [[Turn (angle)|Turn]]
+| $\mathrm{turn}$
+| $2\pi\ \mathrm{rad}$
+| $\theta_{\mathrm{rad}}=2\pi\theta_{\mathrm{turn}}$
+| $\theta_{\mathrm{turn}}=\frac{1}{2\pi}\theta_{\mathrm{rad}}$
+|}
