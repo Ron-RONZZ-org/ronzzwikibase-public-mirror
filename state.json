@@ -384,6 +384,12 @@
       "sha256": "7af937a36c626378cc557a9b84151006a9ef939917552705331612220d683f93",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:International Bureau of Weights and Measures": {
+      "path": "Collective/International Bureau of Weights and Measures.wiki",
+      "revid": 10798,
+      "sha256": "152aa971de61950e0c769fbed005a6cbcf6c7e94f2d03143b33942bc3e6a6d3a",
+      "synced_at": "2026-10-20T15:14:48+00:00"
+    },
     "Collective:Isaiah Lankham, Bruno Nachtergaele, and Anne Schilling": {
       "path": "Collective/Isaiah Lankham, Bruno Nachtergaele, and Anne Schilling.wiki",
       "revid": 8302,
@@ -437,6 +443,12 @@
       "revid": 8372,
       "sha256": "e79133e5045a17d61ffd343d8823ea9626f1b2b85dab676e70ee109ed552fdee",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Collective:Math centre": {
+      "path": "Collective/Math centre.wiki",
+      "revid": 10789,
+      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
+      "synced_at": "2026-10-20T15:14:48+00:00"
     },
     "Collective:Michael Janssen and Melissa Lindsey": {
       "path": "Collective/Michael Janssen and Melissa Lindsey.wiki",
@@ -3667,6 +3679,6 @@
       "synced_at": "2026-10-18T07:12:56+00:00"
     }
   },
-  "updated": "2026-10-20T14:52:47+00:00",
+  "updated": "2026-10-20T15:14:48+00:00",
   "version": 1
 }
