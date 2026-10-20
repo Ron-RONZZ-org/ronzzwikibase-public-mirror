@@ -1,0 +1,42 @@
+Orthonormal bases (singular: basis) are a useful subclass of [[vector space]] bases.
+
+== Formal definition ==
+
+If $(e_1,\ldots,e_n)$
+
+* is an [[orthonormality#Orthonormal_vector_list|orthonormal vector list]] in vector space $V$,
+* has length $\dim(V)$, then
+
+$$
+\forall v = a_1 e_1 + \cdots + a_n e_n
+$$
+
+$(e_1,\ldots,e_n)$ is hence known as an '''orthonormal basis''' for $V$.<ref>{{#cite:Q1930}}</ref>
+
+== Properties ==
+
+
+Let $(e_1,\ldots,e_n)$ be an orthonormal basis for [[vector space]] $V$.
+
+$$
+\forall v\in V
+\begin{cases}
+v=\sum_{k=1}^n \langle v,e_k\rangle e_k \\
+\lVert v\rVert^2=\sum_{k=1}^n |\langle v,e_k\rangle|^2
+\end{cases}
+$$
+
+{{Hidden proof}}
+$$
+\because v = a_1 e_1 + \cdots + a_n e_n & \text{(1)} \\
+\therefore \forall k \in \{1, \cdots, n\}, \langle v, e_k \rangle= \langle a_1 e_1 + \cdots + a_n e_n , e_k \rangle = a_k \\
+\therefore \text{(1) becomes } v =  \langle v, e_1 \rangle e_1 + \cdots + \langle v, e_n \rangle e_n \\
+\text{i.e., } v=\sum_{k=1}^n \langle v,e_k\rangle e_k \\
+$$
+
+and
+
+$$
+\lVert v\rVert^2=\sum_{k=1}^n |a_k|^2=\sum_{k=1}^n |\langle v,e_k\rangle|^2
+$$
+{{End hidden}}

@@ -52,7 +52,7 @@ $$
 d_{\mathcal{Y}} (f(A), f(B)) = d_{\mathcal{X}} (A, B)
 $$
 
-and if it is also bijective,i.e.,
+and if it is also [[function#Formal_definition|bijective]],i.e.,
 
 $$
 f(\mathcal{X})=\mathcal{Y}
@@ -60,6 +60,23 @@ $$
 
 then $f$ is an '''isometry''' of metric space $\mathcal{X}$ to metric space $\mathcal{Y}$, and metric spaces $\mathcal{X,Y}$ are said to be '''isometric''' over $f$.
 
+<ref>{{#cite:Q2296}}</ref>
+
+=== Motion ===
+
+Function
+
+$$
+f: \mathcal{X} \to \mathcal{X} \\
+d_{\mathcal{X}} (f(A), f(B)) = d_{\mathcal{X}} (A, B) \\
+f(\mathcal{X})=\mathcal{X}
+$$
+
+is called a '''motion''' within metric space $\mathcal{X}$.
+
+<blockquote>
+A motion is a special case of isometry where $\mathcal{Y}=\mathcal{X}$.
+</blockquote>
 <ref>{{#cite:Q2296}}</ref>
 
 == See also ==
