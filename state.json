@@ -1914,6 +1914,12 @@
       "sha256": "746acea67b4cdec91e4178918527e5cf2b827ac1dd3a2d1f497d2d3cdc22c343",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Radian": {
+      "path": "Main/Radian.wiki",
+      "revid": 10810,
+      "sha256": "e2a82033dd7c39ea12fe9157d9d94c47edc86da5af32169987240e14a7c8896e",
+      "synced_at": "2026-10-20T15:31:19+00:00"
+    },
     "Radius of Gyration": {
       "path": "Main/Radius of Gyration.wiki",
       "revid": 10662,
@@ -3414,6 +3420,12 @@
       "sha256": "a59be86f667782459b41082bd9bf5c79380b43e9f50fe8e6a296eacda99591c5",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:The International System of Units (SI), 9th Edition (Document)": {
+      "path": "Source/The International System of Units (SI), 9th Edition (Document).wiki",
+      "revid": 10809,
+      "sha256": "cfc0a1b54046c3fab435d3a884bc47cd647371d11244ce51615e9ce9ecb24eca",
+      "synced_at": "2026-10-20T15:31:19+00:00"
+    },
     "Source:The Origin of the Universe Without a Big Bang Singularity: The Bilobular Collision Model as a Cyclic Anisotropic Alternative to ΛCDM": {
       "path": "Source/The Origin of the Universe Without a Big Bang Singularity_ The Bilobular Collision Model as a Cyclic Anisotropic Alternative to ΛCDM.wiki",
       "revid": 1854,
@@ -3679,6 +3691,6 @@
       "synced_at": "2026-10-18T07:12:56+00:00"
     }
   },
-  "updated": "2026-10-20T15:14:48+00:00",
+  "updated": "2026-10-20T15:31:19+00:00",
   "version": 1
 }

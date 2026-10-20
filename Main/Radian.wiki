@@ -1,0 +1,12 @@
+Radian is a [[unit of measurement]] used to measure [[angle]]s.
+
+[[File:Radian.png]]
+
+In any [[circle#In the Euclidean plane|Euclidean circle]], if the length of an arc is equal to the radius of the circle $r$, then the [[circle#central angle|central angle]] of that arc always measures exactly $1 \ \mathrm{rad}$
+
+== Formal definition ==
+
+<blockquote>
+{{#content:Q2309}}
+</blockquote>
+<ref>{{#cite:Q2310}}</ref>
