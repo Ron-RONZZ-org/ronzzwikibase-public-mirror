@@ -1,0 +1,5 @@
+{{Webpage}}
+
+== Overview ==
+
+Section 1.4 of Michael Corral's Vector Calculus: definition of the cross product in R^3, its geometric meaning, properties, and the scalar and vector triple products

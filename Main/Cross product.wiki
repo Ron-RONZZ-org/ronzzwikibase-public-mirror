@@ -1,0 +1,327 @@
+The '''cross product''' is a product of two vectors in $\mathbb{R}^3$ whose result is again a vector, hence the alternative name '''vector product'''. It differs from the [[dot product]], which maps a pair of vectors to a scalar.
+
+== Formal definition ==
+
+For $\vec{u}=(u_1,u_2,u_3)$ and $\vec{v}=(v_1,v_2,v_3)$ in $\mathbb{R}^3$,
+
+$$
+\vec{u}\times\vec{v}=(u_2v_3-u_3v_2,\; u_3v_1-u_1v_3,\; u_1v_2-u_2v_1).
+$$
+<ref>{{#cite:Q2329}}</ref><ref>{{#cite:Q2330}}</ref><ref>{{#cite:Q2331}}</ref>
+
+{{Hidden example}}
+For $\vec{u}=(-1,2,5)$ and $\vec{v}=(4,0,-3)$,
+
+$$
+\begin{aligned}
+\vec{u}\times\vec{v}
+&=\bigl(2(-3)-5(0),\; 5(4)-(-1)(-3),\; (-1)(0)-2(4)\bigr)\\
+&=(-6,\;17,\;-8).
+\end{aligned}
+$$
+{{End hidden}}
+
+With the standard basis vectors $\vec{i}=(1,0,0)$, $\vec{j}=(0,1,0)$, and $\vec{k}=(0,0,1)$, the same operation is written as a determinant whose first row holds vectors,
+
+$$
+\vec{u}\times\vec{v}
+=
+\begin{vmatrix}
+\vec{i} & \vec{j} & \vec{k}\\
+u_1 & u_2 & u_3\\
+v_1 & v_2 & v_3
+\end{vmatrix}
+=
+\begin{vmatrix}u_2 & u_3\\v_2 & v_3\end{vmatrix}\vec{i}
+-\begin{vmatrix}u_1 & u_3\\v_1 & v_3\end{vmatrix}\vec{j}
++\begin{vmatrix}u_1 & u_2\\v_1 & v_2\end{vmatrix}\vec{k},
+$$
+
+where $\begin{vmatrix}a & b\\c & d\end{vmatrix}=ad-bc$. Expanding the three $2\times 2$ determinants,
+
+$$
+\begin{aligned}
+\vec{u}\times\vec{v}
+&=(u_2v_3-u_3v_2)\vec{i}-(u_1v_3-u_3v_1)\vec{j}+(u_1v_2-u_2v_1)\vec{k}\\
+&=(u_2v_3-u_3v_2,\; u_3v_1-u_1v_3,\; u_1v_2-u_2v_1).
+\end{aligned}
+$$
+
+<blockquote>
+The cross product is an operation specific to $\mathbb{R}^3$: two non-parallel vectors in $\mathbb{R}^2$ admit no nonzero vector orthogonal to both, so no such product exists in the plane.
+</blockquote>
+
+== Geometric interpretation ==
+
+=== Orthogonality ===
+
+For all $\vec{u},\vec{v}\in\mathbb{R}^3$,
+
+$$
+\begin{cases}
+(\vec{u}\times\vec{v})\cdot\vec{u}=0\\
+(\vec{u}\times\vec{v})\cdot\vec{v}=0
+\end{cases}
+$$
+
+{{Hidden proof}}
+Expanding the first product,
+
+$$
+\begin{aligned}
+(\vec{u}\times\vec{v})\cdot\vec{u}
+&=u_1(u_2v_3-u_3v_2)+u_2(u_3v_1-u_1v_3)+u_3(u_1v_2-u_2v_1)\\
+&=u_1u_2v_3-u_1u_3v_2+u_2u_3v_1-u_1u_2v_3+u_1u_3v_2-u_2u_3v_1\\
+&=0.
+\end{aligned}
+$$
+
+The second product vanishes by the same expansion with $\vec{u}$ and $\vec{v}$ interchanged.
+{{End hidden}}
+
+=== Magnitude and direction ===
+
+Let $\theta\in[0,\pi]$ be the angle between $\vec{u}$ and $\vec{v}$.
+
+$$
+|\vec{u}\times\vec{v}|=|\vec{u}|\,|\vec{v}|\sin\theta .
+$$
+<ref>{{#cite:Q2330}}</ref>
+
+{{Hidden proof}}
+Expand the squared magnitude of the component form,
+
+$$
+\begin{aligned}
+|\vec{u}\times\vec{v}|^2
+&=(u_2v_3-u_3v_2)^2+(u_3v_1-u_1v_3)^2+(u_1v_2-u_2v_1)^2\\
+&=u_2^2v_3^2+u_3^2v_2^2+u_3^2v_1^2+u_1^2v_3^2+u_1^2v_2^2+u_2^2v_1^2\\
+&\quad-2\left(u_2u_3v_2v_3+u_1u_3v_1v_3+u_1u_2v_1v_2\right)\\
+&=|\vec{u}|^2|\vec{v}|^2-\left(u_1^2v_1^2+u_2^2v_2^2+u_3^2v_3^2\right)\\
+&\quad-2\left(u_1u_2v_1v_2+u_1u_3v_1v_3+u_2u_3v_2v_3\right)\\
+&=|\vec{u}|^2|\vec{v}|^2-(\vec{u}\cdot\vec{v})^2,
+\end{aligned}
+$$
+
+the third line having added and subtracted $u_1^2v_1^2+u_2^2v_2^2+u_3^2v_3^2$. Since $\vec{u}\cdot\vec{v}=|\vec{u}|\,|\vec{v}|\cos\theta$ (see [[Dot product]]),
+
+$$
+\begin{aligned}
+|\vec{u}\times\vec{v}|^2
+&=|\vec{u}|^2|\vec{v}|^2-|\vec{u}|^2|\vec{v}|^2\cos^2\theta\\
+&=|\vec{u}|^2|\vec{v}|^2\sin^2\theta,
+\end{aligned}
+$$
+
+and $\sin\theta\ge 0$ on $[0,\pi]$, so $|\vec{u}\times\vec{v}|=|\vec{u}|\,|\vec{v}|\sin\theta$.
+{{End hidden}}
+
+The direction is fixed by the '''right-hand rule''': curling the fingers of the right hand from $\vec{u}$ towards $\vec{v}$ leaves the thumb pointing along $\vec{u}\times\vec{v}$, so that $(\vec{u},\vec{v},\vec{u}\times\vec{v})$ is a right-handed triple.
+
+=== Areas ===
+
+With $\vec{u}$ and $\vec{v}$ as adjacent sides,
+
+$$
+A_{\text{parallelogram}}=|\vec{u}\times\vec{v}|,
+\qquad
+A_{\text{triangle}}=\frac{1}{2}|\vec{u}\times\vec{v}|.
+$$
+
+Taking $|\vec{u}|$ as the base, the height of the parallelogram is $h=|\vec{v}|\sin\theta$, hence
+
+$$
+A_{\text{parallelogram}}=|\vec{u}|\,h=|\vec{u}|\,|\vec{v}|\sin\theta=|\vec{u}\times\vec{v}|,
+$$
+
+and a triangle on the same two sides is half of that parallelogram.
+
+== Properties ==
+
+For all $\vec{u},\vec{v},\vec{w}\in\mathbb{R}^3$ and $a\in\mathbb{R}$:<ref>{{#cite:Q2329}}</ref>
+
+* '''Anti-commutativity''': $\vec{u}\times\vec{v}=-\vec{v}\times\vec{u}$
+* '''Distributivity''': $\vec{u}\times(\vec{v}+\vec{w})=\vec{u}\times\vec{v}+\vec{u}\times\vec{w}$ and $(\vec{u}+\vec{v})\times\vec{w}=\vec{u}\times\vec{w}+\vec{v}\times\vec{w}$
+* '''Homogeneity''': $(a\vec{u})\times\vec{v}=\vec{u}\times(a\vec{v})=a(\vec{u}\times\vec{v})$
+* '''Vanishing''': $\vec{u}\times\vec{u}=\vec{0}$ and $\vec{u}\times\vec{0}=\vec{0}$
+* '''Parallelism''': $\vec{u}\times\vec{v}=\vec{0}\iff\vec{u}\parallel\vec{v}$
+* '''Lagrange identity''': $|\vec{u}\times\vec{v}|^2=|\vec{u}|^2|\vec{v}|^2-(\vec{u}\cdot\vec{v})^2$
+
+{{Hidden proof}}
+Anti-commutativity follows by reversing the sign of each component,
+
+$$
+\begin{aligned}
+\vec{u}\times\vec{v}
+&=(u_2v_3-u_3v_2,\; u_3v_1-u_1v_3,\; u_1v_2-u_2v_1)\\
+&=-(v_2u_3-v_3u_2,\; v_3u_1-v_1u_3,\; v_1u_2-v_2u_1)\\
+&=-\vec{v}\times\vec{u}.
+\end{aligned}
+$$
+{{End hidden}}
+
+The cross product is neither commutative nor associative:
+
+$$
+(\vec{i}\times\vec{i})\times\vec{j}=\vec{0}\times\vec{j}=\vec{0},
+\qquad
+\vec{i}\times(\vec{i}\times\vec{j})=\vec{i}\times\vec{k}=-\vec{j},
+$$
+
+so the position of the parentheses changes the result.
+
+== Standard basis ==
+
+Applying the definition to the standard basis vectors, for instance
+
+$$
+\vec{i}\times\vec{j}=(0\cdot 0-0\cdot 1,\; 0\cdot 0-1\cdot 0,\; 1\cdot 1-0\cdot 0)=(0,0,1)=\vec{k},
+$$
+
+and the remaining products follow by anti-commutativity and by cyclic permutation of the axes:
+
+$$
+\begin{aligned}
+\vec{i}\times\vec{j}&=\vec{k}, & \vec{j}\times\vec{k}&=\vec{i}, & \vec{k}\times\vec{i}&=\vec{j},\\
+\vec{j}\times\vec{i}&=-\vec{k}, & \vec{k}\times\vec{j}&=-\vec{i}, & \vec{i}\times\vec{k}&=-\vec{j}.
+\end{aligned}
+$$
+
+== Scalar triple product ==
+
+For $\vec{u},\vec{v},\vec{w}\in\mathbb{R}^3$, the '''scalar triple product''' is the determinant of the matrix of components,
+
+$$
+\vec{u}\cdot(\vec{v}\times\vec{w})
+=
+\begin{vmatrix}
+u_1 & u_2 & u_3\\
+v_1 & v_2 & v_3\\
+w_1 & w_2 & w_3
+\end{vmatrix}.
+$$
+<ref>{{#cite:Q2329}}</ref><ref>{{#cite:Q2330}}</ref>
+
+It is invariant under cyclic permutation of the three vectors,
+
+$$
+\vec{u}\cdot(\vec{v}\times\vec{w})=\vec{w}\cdot(\vec{u}\times\vec{v})=\vec{v}\cdot(\vec{w}\times\vec{u}),
+$$
+
+whereas transposing any two of them changes its sign. Geometrically it gives the volume of the parallelepiped spanned by the three vectors, since with base area $|\vec{v}\times\vec{w}|$ and height $h=|\vec{u}|\,|\cos\varphi|$, where $\varphi$ is the angle between $\vec{u}$ and $\vec{v}\times\vec{w}$,
+
+$$
+V=|\vec{v}\times\vec{w}|\,h=|\vec{v}\times\vec{w}|\,|\vec{u}|\,|\cos\varphi|=|\vec{u}\cdot(\vec{v}\times\vec{w})|.
+$$
+
+A vanishing volume means the three vectors are coplanar,
+
+$$
+\vec{u}\cdot(\vec{v}\times\vec{w})=0
+\iff
+\vec{u},\vec{v},\vec{w}\text{ coplanar}.
+$$
+
+== Vector triple product ==
+
+For $\vec{u},\vec{v},\vec{w}\in\mathbb{R}^3$,
+
+$$
+\vec{u}\times(\vec{v}\times\vec{w})=(\vec{u}\cdot\vec{w})\vec{v}-(\vec{u}\cdot\vec{v})\vec{w},
+$$
+
+a combination of $\vec{v}$ and $\vec{w}$ only, hence a vector in the plane they span. The parentheses cannot be moved: $\vec{u}\times(\vec{v}\times\vec{w})\neq(\vec{u}\times\vec{v})\times\vec{w}$ in general.
+
+== Examples ==
+
+=== Area of a triangle ===
+
+{{Hidden example}}
+For the triangle with vertices $P=(1,0,0)$, $Q=(0,1,0)$, and $R=(0,0,1)$, the two sides from $P$ are $\vec{PQ}=(-1,1,0)$ and $\vec{PR}=(-1,0,1)$, so
+
+$$
+\begin{aligned}
+\vec{PQ}\times\vec{PR}
+&=\bigl(1(1)-0(0),\; 0(-1)-(-1)(1),\; (-1)(0)-1(-1)\bigr)\\
+&=(1,1,1),\\
+|\vec{PQ}\times\vec{PR}|&=\sqrt{1^2+1^2+1^2}=\sqrt{3},
+\end{aligned}
+$$
+
+and the area is $\frac{\sqrt{3}}{2}$.
+{{End hidden}}
+
+=== Unit vector orthogonal to two vectors ===
+
+{{Hidden example}}
+For $\vec{a}=(5,2,-1)$ and $\vec{b}=(0,-1,4)$,
+
+$$
+\vec{a}\times\vec{b}=\bigl(2(4)-(-1)(-1),\; (-1)(0)-5(4),\; 5(-1)-2(0)\bigr)=(7,-20,-5),
+$$
+
+with $|\vec{a}\times\vec{b}|=\sqrt{7^2+(-20)^2+(-5)^2}=\sqrt{474}$, so
+
+$$
+\frac{1}{\sqrt{474}}(7,-20,-5)
+$$
+
+is the unit vector orthogonal to $\vec{a}$ and $\vec{b}$ whose direction obeys the right-hand rule.
+{{End hidden}}
+
+=== Coplanarity ===
+
+{{Hidden example}}
+For $\vec{u}=(2,0,5)$, $\vec{v}=(2,2,4)$, and $\vec{w}=(1,-1,3)$,
+
+$$
+\begin{aligned}
+\vec{u}\cdot(\vec{v}\times\vec{w})
+&=2\begin{vmatrix}2 & 4\\-1 & 3\end{vmatrix}
+-0\begin{vmatrix}2 & 4\\1 & 3\end{vmatrix}
++5\begin{vmatrix}2 & 2\\1 & -1\end{vmatrix}\\
+&=2(10)-0(2)+5(-4)\\
+&=0,
+\end{aligned}
+$$
+
+so the parallelepiped they span has volume $0$, and the three vectors are coplanar.
+{{End hidden}}
+
+== Applications ==
+
+'''Torque''' of a force $\vec{F}$ applied at position $\vec{r}$ relative to an axis:
+
+$$
+\vec{\tau}=\vec{r}\times\vec{F},
+\qquad
+|\vec{\tau}|=|\vec{r}|\,|\vec{F}|\sin\theta .
+$$
+<ref>{{#cite:Q2330}}</ref>
+
+'''Magnetic force''' on a charge $q$ moving with velocity $\vec{v}$ in a magnetic field $\vec{B}$:
+
+$$
+\vec{F}=q\,\vec{v}\times\vec{B}.
+$$
+
+'''Angular momentum''' of a particle at position $\vec{r}$ with linear momentum $\vec{p}$:
+
+$$
+\vec{L}=\vec{r}\times\vec{p}.
+$$
+
+{{Hidden example}}
+A force of $6\ \text{N}$ applied $0.15\ \text{m}$ from the axis, at $40^\circ$ to the lever arm, produces the torque magnitude
+
+$$
+|\vec{\tau}|=(0.15\ \text{m})(6\ \text{N})\sin 40^\circ\approx 0.58\ \text{N}\cdot\text{m}.
+$$
+{{End hidden}}
+
+== See also ==
+
+* [[Dot product]]
+* [[Inner product]]
+* [[Orthogonality]]
+* [[Vector space]]

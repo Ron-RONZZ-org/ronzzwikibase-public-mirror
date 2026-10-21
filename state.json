@@ -642,6 +642,12 @@
       "sha256": "2905de72d6b8a317145a86edde48a9fa1f9fce9c7346979c201533b7e9cc27e5",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Cross product": {
+      "path": "Main/Cross product.wiki",
+      "revid": 10897,
+      "sha256": "ff90fd2641ff30ac74d4670f9b11cfd7e23fed41ac61a1963aa487acf4a08384",
+      "synced_at": "2026-10-21T10:32:44+00:00"
+    },
     "Dark energy": {
       "path": "Main/Dark energy.wiki",
       "revid": 6927,
@@ -680,9 +686,9 @@
     },
     "Dot product": {
       "path": "Main/Dot product.wiki",
-      "revid": 10884,
-      "sha256": "9fc6c3b27bfd1adf436d85ec1091095e02e4ce6e557492435adf2ecc68b50876",
-      "synced_at": "2026-10-21T09:42:51+00:00"
+      "revid": 10899,
+      "sha256": "6a1d0f65c86fec0a1656d96c373251b18a2c99b037af0052fea22279b273c0b5",
+      "synced_at": "2026-10-21T10:32:44+00:00"
     },
     "Education": {
       "path": "Main/Education.wiki",
@@ -2124,6 +2130,12 @@
       "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
       "synced_at": "2026-10-19T20:15:43+00:00"
     },
+    "Source:1.4: Cross Product (Webpage)": {
+      "path": "Source/1.4_ Cross Product (Webpage).wiki",
+      "revid": 10888,
+      "sha256": "96a190e1b1470505830994ebcf3d2d9f508a927fd8064c39c69df1ffab3133a4",
+      "synced_at": "2026-10-21T10:32:44+00:00"
+    },
     "Source:1.4: The Earth's crust (Webpage)": {
       "path": "Source/1.4_ The Earth's crust (Webpage).wiki",
       "revid": 8000,
@@ -2195,6 +2207,12 @@
       "revid": 10103,
       "sha256": "440dc49447245530870722439b95a9d377376062e9032539bc0361692b3d2912",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:2.4: The Cross Product (Webpage)": {
+      "path": "Source/2.4_ The Cross Product (Webpage).wiki",
+      "revid": 10892,
+      "sha256": "865b2013defb516669b9916b1f48d73b01ca1632f6338a8a5fec2781d5268136",
+      "synced_at": "2026-10-21T10:32:44+00:00"
     },
     "Source:2.7: The Periodic Table (Webpage)": {
       "path": "Source/2.7_ The Periodic Table (Webpage).wiki",
@@ -2567,6 +2585,12 @@
       "revid": 6722,
       "sha256": "0728018a9775c94940bbff68445f28440abd39460029e07094efb7185b1d3300",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:Cross Products (Webpage)": {
+      "path": "Source/Cross Products (Webpage).wiki",
+      "revid": 10896,
+      "sha256": "53b6ddde94424aae370a6c3f11cc803402520aee05908530025eba6cc505c3bb",
+      "synced_at": "2026-10-21T10:32:44+00:00"
     },
     "Source:DSM-5-TR (Book)": {
       "path": "Source/DSM-5-TR (Book).wiki",
@@ -3751,6 +3775,6 @@
       "synced_at": "2026-10-18T07:12:56+00:00"
     }
   },
-  "updated": "2026-10-21T09:42:51+00:00",
+  "updated": "2026-10-21T10:32:44+00:00",
   "version": 1
 }

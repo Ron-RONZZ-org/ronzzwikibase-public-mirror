@@ -24,3 +24,8 @@ $$
 3.
 $$
 {{End hidden}}
+
+== See also ==
+
+* [[Cross product]]
+* [[Inner product space]]

@@ -1,0 +1,5 @@
+{{Webpage}}
+
+== Overview ==
+
+Section 2.4 of OpenStax Calculus Volume 3: definition and properties of the cross product, determinant notation, areas, volumes, and torque

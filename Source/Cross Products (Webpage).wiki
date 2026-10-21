@@ -1,0 +1,5 @@
+{{Webpage}}
+
+== Overview ==
+
+CK-12 lesson defining the cross product of two vectors and using it to find normal vectors
