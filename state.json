@@ -656,9 +656,9 @@
     },
     "Cross product": {
       "path": "Main/Cross product.wiki",
-      "revid": 10947,
-      "sha256": "7c77a54913446ed3be15544ae59641f28c5ab69b10ac64b43f9d51e0760eef67",
-      "synced_at": "2026-10-21T12:50:34+00:00"
+      "revid": 11011,
+      "sha256": "7c38e6daf717871c39ff9c0078d269b60cef6fe701117645ab2c927d1cf99f66",
+      "synced_at": "2026-10-21T15:14:40+00:00"
     },
     "Dark energy": {
       "path": "Main/Dark energy.wiki",
@@ -3824,9 +3824,9 @@
     },
     "Vector space": {
       "path": "Main/Vector space.wiki",
-      "revid": 11008,
-      "sha256": "611a3e38720ca3e16c50076c4e810099b6809ea43ab6c00ee82d920c25748c20",
-      "synced_at": "2026-10-21T14:52:51+00:00"
+      "revid": 11010,
+      "sha256": "a7be8534fdf3b080b23e6ec74b0c686a85386f9e2e7d0925ca6bfaf6393eb5fd",
+      "synced_at": "2026-10-21T15:14:40+00:00"
     },
     "Vector subspace": {
       "path": "Main/Vector subspace.wiki",
@@ -3841,6 +3841,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-21T14:52:51+00:00",
+  "updated": "2026-10-21T15:14:40+00:00",
   "version": 1
 }

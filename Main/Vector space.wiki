@@ -1,18 +1,20 @@
 == Mathematical definition ==
 
-Set $\mathbf{V}$ is a '''vector space''' over $\mathbb{F}$ if:
+Let $\mathbf{V} \in \mathbb{F}^n$ be a set, $+,\cdot$ be two [[binary operation]]s.
+
+$(\mathbf{V},+,\cdot)$ is a '''vector space''' over $\mathbb{F}$ if:
 
 1. Are defined operations
-** of addition: $\mathbf{V} \times \mathbf{V} \to \mathbf{V}$
-** of scalar multiplication: $\mathbb{F} \times \mathbf{V} \to \mathbf{V}$
+* of addition: $+:\mathbf{V} \times \mathbf{V} \to \mathbf{V}$
+* of scalar multiplication: $\cdot: \mathbb{F} \times \mathbf{V} \to \mathbf{V}$
 
 2. Are satisfied the properties
-** Commutativity: $\forall u,v\in\mathbf{V},\; u+v=v+u$;
-** Associativity: $\forall u,v,w\in\mathbf{V},\;\forall a,b\in\mathbb{F},\; (u+v)+w=u+(v+w)\;\land\;(ab)v=a(bv)$;
-** Additive identity: $\exists \vec 0\in\mathbf{V},\;\forall v\in\mathbf{V},\; \vec 0+v=v$;
-** Additive inverse: $\forall v\in\mathbf{V},\;\exists w\in\mathbf{V},\; v+w=0$;
-** Multiplicative identity: $\forall v\in\mathbf{V},\; 1v=v$;
-** Distributivity: $\forall u,v\in\mathbf{V},\;\forall a,b\in\mathbb{F},\; a(u+v)=au+av\;\land\;(a+b)u=au+bu$.
+* Additive commutativity: $\forall \vec{u},\vec{v}\in\mathbf{V},\; \vec{u}+\vec{v}=\vec{v}+\vec{u}$;
+* Associativity (vector addition, scalar multiplication): $\forall \vec{u},\vec{v},\vec{w}\in\mathbf{V},\;\forall a,b\in\mathbb{F},\; (\vec{u}+\vec{v})+\vec{w}=\vec{u}+(\vec{v}+\vec{w})\;\land\;(a\cdot b)\vec{v}=a\cdot(b\cdot \vec{v})$;
+* Additive identity (vector): $\exists \vec 0\in\mathbf{V},\;\forall \vec{v}\in\mathbf{V},\; \vec 0+\vec{v}=\vec{v}$;
+* Additive inverse: $\forall \vec{v}\in\mathbf{V},\;\exists \vec{w}\in\mathbf{V},\; \vec{v}+\vec{w}=0$;
+* Multiplicative identity (scalar): $\exists 1_V \in \mathbf{V}: \forall \vec{v}\in\mathbf{V},\; 1_V \cdot \vec{v}=\vec{v}$;
+* Distributivity: $\forall \vec{u},\vec{v}\in\mathbf{V},\;\forall a,b\in\mathbb{F},\; a\cdot(\vec{u}+\vec{v})=a\vec{u}+a\vec{v}\;\land\;(a+b)\cdot \vec{u}=a\cdot \vec{u}+b\cdot \vec{u}$.
 
 <ref>{{#cite:Q1866}}</ref>
 
