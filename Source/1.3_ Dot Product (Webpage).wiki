@@ -1,0 +1,5 @@
+{{Webpage}}
+
+== Overview ==
+
+You may have noticed that while we did define multiplication of a vector by a scalar in the previous section on vector algebra, we did not define multiplication of a vector by a vector. We will now …

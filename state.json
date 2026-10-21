@@ -678,6 +678,12 @@
       "sha256": "4273c48fb10a2702bf991f96d4b4286c149ca4cb07eaed46361e61f3cc23cd20",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Dot product": {
+      "path": "Main/Dot product.wiki",
+      "revid": 10884,
+      "sha256": "9fc6c3b27bfd1adf436d85ec1091095e02e4ce6e557492435adf2ecc68b50876",
+      "synced_at": "2026-10-21T09:42:51+00:00"
+    },
     "Education": {
       "path": "Main/Education.wiki",
       "revid": 9645,
@@ -1632,6 +1638,12 @@
       "sha256": "d3c99797d0c2e8b2e7d0a0b7920eb0a5c80a71bd1163f35dca9b7972afa2dad8",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:Michael Corral": {
+      "path": "Person/Michael Corral.wiki",
+      "revid": 10878,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-10-21T09:42:51+00:00"
+    },
     "Person:Michel Chasles": {
       "path": "Person/Michel Chasles.wiki",
       "revid": 8256,
@@ -2093,6 +2105,12 @@
       "revid": 10065,
       "sha256": "f9ed137d4baaae6e411fa7e7ec4dfdc30e37fe646667c5b52806cc891f245c8b",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:1.3: Dot Product (Webpage)": {
+      "path": "Source/1.3_ Dot Product (Webpage).wiki",
+      "revid": 10883,
+      "sha256": "c1f9a5da8319339a6a30cd8d82e5f9fc9c0b9df45282a411133400bcdc6282e2",
+      "synced_at": "2026-10-21T09:42:51+00:00"
     },
     "Source:1.3: Metric spaces (Webpage)": {
       "path": "Source/1.3_ Metric spaces (Webpage).wiki",
@@ -3733,6 +3751,6 @@
       "synced_at": "2026-10-18T07:12:56+00:00"
     }
   },
-  "updated": "2026-10-21T09:16:35+00:00",
+  "updated": "2026-10-21T09:42:51+00:00",
   "version": 1
 }
