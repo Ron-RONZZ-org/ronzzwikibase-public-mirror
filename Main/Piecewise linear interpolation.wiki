@@ -1,0 +1,22 @@
+'''Piecewise linear interpolation''' is the process of finding a series of linear functions $L_i(x)$ that for a definite set of datapoints $\{(x_i,y_i)|\ i\in [0,n], i \in N\}$ satisfies $L(x_i)=y_i$.
+
+i.e., find
+
+$$
+L(x)=L_i(x),\, x_i \le x \le x_{i+1} \forall \{(x_i,y_i)| i\in [0,n], i \in N\} \\
+L_i(x)=a_i(x-x_i)+b_i
+$$
+
+== Solution ==
+
+By definition,
+
+$$
+L_i(x_i)=y_i,\, L_i(x_{i+1})=y_{i+1}
+$$
+
+Hence
+
+$$
+a_i=\frac{y_{i+1}-y_i}{x_{i+1}-x_i},\, b_i=y_i
+$$

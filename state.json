@@ -1962,6 +1962,12 @@
       "sha256": "7acf9265e67b5b40a2fef3c64723b7408f4cac055f92fd20525c7d62bab825fc",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Piecewise linear interpolation": {
+      "path": "Main/Piecewise linear interpolation.wiki",
+      "revid": 11024,
+      "sha256": "4b5ea4c18097aa9a6831b30403435e623cf96e2dbed19a5ea6b87e619d3b8d91",
+      "synced_at": "2026-10-21T19:16:49+00:00"
+    },
     "Polynomial": {
       "path": "Main/Polynomial.wiki",
       "revid": 10107,
@@ -3847,6 +3853,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-21T15:32:57+00:00",
+  "updated": "2026-10-21T19:16:49+00:00",
   "version": 1
 }
