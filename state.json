@@ -642,6 +642,12 @@
       "sha256": "43a74030b6fa6a69d27f3b2a57297d15a8359067af4cdee430be6c067f2440e6",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Complex number": {
+      "path": "Main/Complex number.wiki",
+      "revid": 11006,
+      "sha256": "a906c1bf0de26f488039882e4a99cdfaebce609673a1774ef89c97bd8bb2a678",
+      "synced_at": "2026-10-21T14:52:51+00:00"
+    },
     "Cosmic microwave background": {
       "path": "Main/Cosmic microwave background.wiki",
       "revid": 7284,
@@ -3818,9 +3824,9 @@
     },
     "Vector space": {
       "path": "Main/Vector space.wiki",
-      "revid": 10335,
-      "sha256": "17e26668b643b2fdc39ab8717d97e6c89da6c9f200a5c5d3dfc43802112cb727",
-      "synced_at": "2026-10-18T07:12:56+00:00"
+      "revid": 11008,
+      "sha256": "611a3e38720ca3e16c50076c4e810099b6809ea43ab6c00ee82d920c25748c20",
+      "synced_at": "2026-10-21T14:52:51+00:00"
     },
     "Vector subspace": {
       "path": "Main/Vector subspace.wiki",
@@ -3835,6 +3841,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-21T14:41:43+00:00",
+  "updated": "2026-10-21T14:52:51+00:00",
   "version": 1
 }

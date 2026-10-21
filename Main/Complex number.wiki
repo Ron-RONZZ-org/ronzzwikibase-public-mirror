@@ -1,0 +1,15 @@
+A '''complex number''' is the sum of a [[real number]] with an [[imaginary number]].
+
+== Formal definition ==
+
+$$
+a+bi,\,  a,b \in \mathbb{R}
+$$
+
+is a '''complex number''', where $i$ is the [[imaginary number#Formal_definition|imaginary unit]].
+
+The set of all complex numbers can be denoted by $\mathbb{C}$.
+
+== Complex plane ==
+
+See [[complex plane]].

@@ -80,7 +80,7 @@ which shows that $(-1)v$ is the additive inverse $-v$ of $v$.
 <ref>{{#cite:Q1893}}</ref>
 {{End hidden}}
 
-== Basis (plural: bases) ==
+== Basis (plural: bases) and vector space dimension ==
 
 If for $B=\{\vec u_1,\dots,\vec u_n\}$:
 
