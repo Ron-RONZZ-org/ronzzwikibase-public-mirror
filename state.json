@@ -1248,6 +1248,12 @@
       "sha256": "9634145b6e85bff4f3e463b88adb95fe565cfca6d82de4fa86fb8fb82dd7b2c8",
       "synced_at": "2026-10-20T10:29:37+00:00"
     },
+    "Person:Antonio Lupetti": {
+      "path": "Person/Antonio Lupetti.wiki",
+      "revid": 10994,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-10-21T14:41:43+00:00"
+    },
     "Person:Arno Penzias": {
       "path": "Person/Arno Penzias.wiki",
       "revid": 7182,
@@ -1998,6 +2004,12 @@
       "sha256": "427a50d827aee1b2f8099976a977a262a7b9fe5449bdd8505e163dde91dabbbb",
       "synced_at": "2026-10-20T13:42:09+00:00"
     },
+    "Real number": {
+      "path": "Main/Real number.wiki",
+      "revid": 11005,
+      "sha256": "362763464203bd44812c1060723826824c961cb0fee6a5cd053badc2a5cd86e8",
+      "synced_at": "2026-10-21T14:41:43+00:00"
+    },
     "Real vector space": {
       "path": "Main/Real vector space.wiki",
       "revid": 10331,
@@ -2448,6 +2460,12 @@
       "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Algebrica - A Mathematical Knowledge Base (Website)": {
+      "path": "Source/Algebrica - A Mathematical Knowledge Base (Website).wiki",
+      "revid": 10999,
+      "sha256": "e018fdcc7470473d035803a7c68389ec3b097d620cf6173ccd8b1e9c6fa9dc16",
+      "synced_at": "2026-10-21T14:41:43+00:00"
+    },
     "Source:Algèbre Linéaire et Applications (Book)": {
       "path": "Source/Algèbre Linéaire et Applications (Book).wiki",
       "revid": 10912,
@@ -2573,6 +2591,12 @@
       "revid": 6628,
       "sha256": "2719d16c2b4abf592979ce7fb1e5ef368443027045a13b277290c5854004890d",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:Complex Numbers - Algebrica (Webpage)": {
+      "path": "Source/Complex Numbers - Algebrica (Webpage).wiki",
+      "revid": 11004,
+      "sha256": "9fdf965cc0c8610ec3f3d79017352eaddb10f0c0b27ec59e1f6e39c9be9249f5",
+      "synced_at": "2026-10-21T14:41:43+00:00"
     },
     "Source:Conceptual physics (Book)": {
       "path": "Source/Conceptual physics (Book).wiki",
@@ -3811,6 +3835,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-21T14:16:28+00:00",
+  "updated": "2026-10-21T14:41:43+00:00",
   "version": 1
 }
