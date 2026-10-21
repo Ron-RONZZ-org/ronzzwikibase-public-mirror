@@ -18,6 +18,36 @@ is called the '''circle''' of radius $r$ centered at $O$ in $\mathcal{X}$,denote
 
 Any of its subsets, $A \subseteq \bigcirc O_r$, is an '''arc''' of radius $r$ centered at $O$.
 
+== Terminologies ==
+
+=== Lines, segments, and arcs ===
+
+* '''Radius''': A segment from the centre to any point on the circle.
+
+<blockquote>
+Confusingly, the length of a radius is also called radius.
+</blockquote>
+
+* '''Diameter''': Segment formed by extending a radius beyond the centre of the circle until another intersection with the circle.
+* '''Circumference''': The perimeter around the circle.
+* '''Chord''': A segment whose endpoints lie on the circle.
+* '''Secant''': A line that intersects the circle at two points.
+* '''Tangent''': A line that intersects the circle at exactly one point.
+* '''Point of tangency''': The point where a tangent touches the circle.
+** '''Minor arc''': Shorter arc between two points on the circle.
+** '''Major arc''': Longer arc between two points on the circle.
+** '''Semicircle''': Arc equal to half the circle.
+
+=== Angles ===
+
+* '''Central angle''': An angle whose vertex is the centre of the circle.
+* '''Inscribed angle''': An angle whose vertex is on the circle, and whose sides each intersect the circle at another point.
+
+=== Areas ===
+
+* '''Disk''': The region enclosed by a circle
+* '''Sector''': Region bounded by two radii and the arc delimited by them.
+
 == In the Euclidean plane ==
 
 See [[Euclidean circle]].

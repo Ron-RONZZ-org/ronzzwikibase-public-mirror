@@ -194,9 +194,9 @@
     },
     "Circle": {
       "path": "Main/Circle.wiki",
-      "revid": 10832,
-      "sha256": "96fd3e61a5af2e5ad83ccb0670b1d4d471b2801ac4ff1625b67978809f336f85",
-      "synced_at": "2026-10-20T16:53:14+00:00"
+      "revid": 10841,
+      "sha256": "db10ea24de776ca10a96d85d81e17974de74564bb7479b0363b820b877b66458",
+      "synced_at": "2026-10-21T08:19:49+00:00"
     },
     "Classical mechanics": {
       "path": "Main/Classical mechanics.wiki",
@@ -3715,6 +3715,6 @@
       "synced_at": "2026-10-18T07:12:56+00:00"
     }
   },
-  "updated": "2026-10-20T21:14:14+00:00",
+  "updated": "2026-10-21T08:19:49+00:00",
   "version": 1
 }
