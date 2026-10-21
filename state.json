@@ -2370,6 +2370,12 @@
       "sha256": "4295a8e27f57cba600a82265dbb18c277afe0a79be965cd14c8bf0007ec54965",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:5.2: Piecewise Linear Interpolation (Webpage)": {
+      "path": "Source/5.2_ Piecewise Linear Interpolation (Webpage).wiki",
+      "revid": 11030,
+      "sha256": "626c22c57957cca172b14db555f0ab5f4be3a801a1e329bd987bdd62afa4ee5c",
+      "synced_at": "2026-10-21T19:38:37+00:00"
+    },
     "Source:6.11: Noble Gases (Webpage)": {
       "path": "Source/6.11_ Noble Gases (Webpage).wiki",
       "revid": 8024,
@@ -3853,6 +3859,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-21T19:16:49+00:00",
+  "updated": "2026-10-21T19:38:37+00:00",
   "version": 1
 }

@@ -1,0 +1,5 @@
+{{Webpage}}
+
+== Overview ==
+
+Instead of constructing a single global polynomial that goes through all the points, one can construct local polynomials that are then connected together. In the the section following this one, we …
