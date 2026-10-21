@@ -7,6 +7,8 @@ L(x)=L_i(x),\, x_i \le x \le x_{i+1} \forall \{(x_i,y_i)| i\in [0,n], i \in N\} 
 L_i(x)=a_i(x-x_i)+b_i
 $$
 
+<ref>{{#cite:Q2357}}</ref>
+
 == Solution ==
 
 By definition,
@@ -20,3 +22,5 @@ Hence
 $$
 a_i=\frac{y_{i+1}-y_i}{x_{i+1}-x_i},\, b_i=y_i
 $$
+
+<ref>{{#cite:Q2357}}</ref>

@@ -1964,9 +1964,9 @@
     },
     "Piecewise linear interpolation": {
       "path": "Main/Piecewise linear interpolation.wiki",
-      "revid": 11024,
-      "sha256": "4b5ea4c18097aa9a6831b30403435e623cf96e2dbed19a5ea6b87e619d3b8d91",
-      "synced_at": "2026-10-21T19:16:49+00:00"
+      "revid": 11031,
+      "sha256": "efe54e307490a0b717dcaa22aa60fc3cd64442b473d354a1d7d075aa5a56d160",
+      "synced_at": "2026-10-21T19:50:28+00:00"
     },
     "Polynomial": {
       "path": "Main/Polynomial.wiki",
@@ -3859,6 +3859,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-21T19:38:37+00:00",
+  "updated": "2026-10-21T19:50:28+00:00",
   "version": 1
 }
