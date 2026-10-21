@@ -2,8 +2,9 @@ The '''cross product''' is a product of two vectors in $\mathbb{R}^3$ whose resu
 
 == Formal definition ==
 
-For $\vec{u}=(u_1,u_2,u_3)$ and $\vec{v}=(v_1,v_2,v_3)$ in $\mathbb{R}^3$,
+Let $\vec{u}=(u_1,u_2,u_3),\vec{v}=(v_1,v_2,v_3)$ be vectors in $\mathbb{R}^3$,
 
+then is defined their '''cross product''':
 $$
 \vec{u}\times\vec{v}=(u_2v_3-u_3v_2,\; u_3v_1-u_1v_3,\; u_1v_2-u_2v_1).
 $$
@@ -21,34 +22,8 @@ $$
 $$
 {{End hidden}}
 
-With the standard basis vectors $\vec{i}=(1,0,0)$, $\vec{j}=(0,1,0)$, and $\vec{k}=(0,0,1)$, the same operation is written as a determinant whose first row holds vectors,
-
-$$
-\vec{u}\times\vec{v}
-=
-\begin{vmatrix}
-\vec{i} & \vec{j} & \vec{k}\\
-u_1 & u_2 & u_3\\
-v_1 & v_2 & v_3
-\end{vmatrix}
-=
-\begin{vmatrix}u_2 & u_3\\v_2 & v_3\end{vmatrix}\vec{i}
--\begin{vmatrix}u_1 & u_3\\v_1 & v_3\end{vmatrix}\vec{j}
-+\begin{vmatrix}u_1 & u_2\\v_1 & v_2\end{vmatrix}\vec{k},
-$$
-
-where $\begin{vmatrix}a & b\\c & d\end{vmatrix}=ad-bc$. Expanding the three $2\times 2$ determinants,
-
-$$
-\begin{aligned}
-\vec{u}\times\vec{v}
-&=(u_2v_3-u_3v_2)\vec{i}-(u_1v_3-u_3v_1)\vec{j}+(u_1v_2-u_2v_1)\vec{k}\\
-&=(u_2v_3-u_3v_2,\; u_3v_1-u_1v_3,\; u_1v_2-u_2v_1).
-\end{aligned}
-$$
-
 <blockquote>
-The cross product is an operation specific to $\mathbb{R}^3$: two non-parallel vectors in $\mathbb{R}^2$ admit no nonzero vector orthogonal to both, so no such product exists in the plane.
+The cross product is specific to $\mathbb{R}^3$.
 </blockquote>
 
 == Geometric interpretation ==

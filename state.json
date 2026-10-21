@@ -650,9 +650,9 @@
     },
     "Cross product": {
       "path": "Main/Cross product.wiki",
-      "revid": 10897,
-      "sha256": "ff90fd2641ff30ac74d4670f9b11cfd7e23fed41ac61a1963aa487acf4a08384",
-      "synced_at": "2026-10-21T10:32:44+00:00"
+      "revid": 10919,
+      "sha256": "f5fcb4b25343c131c27304c45734420340d541297abb138df98671992bec8040",
+      "synced_at": "2026-10-21T11:31:30+00:00"
     },
     "Dark energy": {
       "path": "Main/Dark energy.wiki",
@@ -3799,6 +3799,6 @@
       "synced_at": "2026-10-18T07:12:56+00:00"
     }
   },
-  "updated": "2026-10-21T11:14:33+00:00",
+  "updated": "2026-10-21T11:31:30+00:00",
   "version": 1
 }
