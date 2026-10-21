@@ -378,6 +378,12 @@
       "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Hass et al.": {
+      "path": "Collective/Hass et al.wiki",
+      "revid": 10861,
+      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
+      "synced_at": "2026-10-21T09:16:35+00:00"
+    },
     "Collective:Helvetica Physica Acta": {
       "path": "Collective/Helvetica Physica Acta.wiki",
       "revid": 6951,
@@ -2136,6 +2142,12 @@
       "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
       "synced_at": "2026-10-19T14:54:35+00:00"
     },
+    "Source:11.1: Three-Dimensional Coordinate Systems (Webpage)": {
+      "path": "Source/11.1_ Three-Dimensional Coordinate Systems (Webpage).wiki",
+      "revid": 10866,
+      "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
+      "synced_at": "2026-10-21T09:16:35+00:00"
+    },
     "Source:17.5: Area Moments of Inertia via Integration (Webpage)": {
       "path": "Source/17.5_ Area Moments of Inertia via Integration (Webpage).wiki",
       "revid": 9829,
@@ -3721,6 +3733,6 @@
       "synced_at": "2026-10-18T07:12:56+00:00"
     }
   },
-  "updated": "2026-10-21T08:46:09+00:00",
+  "updated": "2026-10-21T09:16:35+00:00",
   "version": 1
 }
