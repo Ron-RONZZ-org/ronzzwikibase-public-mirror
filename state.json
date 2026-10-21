@@ -3806,11 +3806,11 @@
     },
     "Vector triple product": {
       "path": "Main/Vector triple product.wiki",
-      "revid": 10946,
-      "sha256": "0326589f6a65765535a3d7190d5aff3d901b0dddda995477eb247c232daced35",
-      "synced_at": "2026-10-21T12:50:34+00:00"
+      "revid": 10985,
+      "sha256": "6e911de3147818615105faa8b4d618e886edad45d360b58b138210d7b3f34f86",
+      "synced_at": "2026-10-21T13:41:06+00:00"
     }
   },
-  "updated": "2026-10-21T13:16:20+00:00",
+  "updated": "2026-10-21T13:41:06+00:00",
   "version": 1
 }
