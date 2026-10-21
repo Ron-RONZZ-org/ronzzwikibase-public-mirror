@@ -1,0 +1,19 @@
+'''Cubic spline interpolation''' is the process of finding a '''continuous and differentiable up to second degree''' function $C(x)$ consisting of a series of cubic functions $C_i(x)$ that for a definite set of datapoints $\{(x_i,y_i)| i\in [0,n], i \in N\}$ satisfies $C(x_i)=y_i$.
+
+i.e., find
+
+$$
+C(x)=C_i(x),\, x_i \le x \le x_{i+1} \\
+C_i(x)=a_i(x-x_i)^3+b_i(x-x_i)^2+c_i(x-x_i)+d_i,\, \forall i\in [0,n-1], i \in N\
+$$
+
+so
+
+$$
+C(x_i)=y_i,\, \forall \{(x_i,y_i)| i\in [0,n], i \in N\} \tag{1} \\
+C_i(x_{i+1})=C_{i+1}(x_{i+1}),\,  \forall i \in [0,n-1], i \in N \tag{2} \\
+\dot C_i(x_{i+1})=\dot C_{i+1}(x_{i+1}),\,  \forall i \in [0,n-2], i \in N \tag{3} \\
+\ddot C_i(x_{i+1})=\ddot C_{i+1}(x_{i+1}),\,  \forall i \in [0,n-2], i \in N \tag{4} \\
+$$
+
+== Solution ==

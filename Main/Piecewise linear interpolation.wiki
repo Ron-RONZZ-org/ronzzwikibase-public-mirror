@@ -3,8 +3,14 @@
 i.e., find
 
 $$
-L(x)=L_i(x),\, x_i \le x \le x_{i+1} \forall \{(x_i,y_i)| i\in [0,n], i \in N\} \\
-L_i(x)=a_i(x-x_i)+b_i
+L_i(x)=a_i(x-x_i)+b_i,\, \forall i\in [0,n-1], i \in N\
+$$
+
+so that
+
+$$
+L(x)=L_i(x),\, x_i \le x \le x_{i+1} \\
+L_i(x_i)=y_i,\,  \forall \{(x_i,y_i)| i\in [0,n], i \in N\} \\
 $$
 
 <ref>{{#cite:Q2357}}</ref>

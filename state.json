@@ -666,6 +666,12 @@
       "sha256": "7c38e6daf717871c39ff9c0078d269b60cef6fe701117645ab2c927d1cf99f66",
       "synced_at": "2026-10-21T15:14:40+00:00"
     },
+    "Cubic spline interpolation": {
+      "path": "Main/Cubic spline interpolation.wiki",
+      "revid": 11033,
+      "sha256": "5355afcdaec61e24ce37655b6645e0c3d20be5ee6676c48dedb300828cc02cf1",
+      "synced_at": "2026-10-21T20:14:21+00:00"
+    },
     "Dark energy": {
       "path": "Main/Dark energy.wiki",
       "revid": 6927,
@@ -1964,9 +1970,9 @@
     },
     "Piecewise linear interpolation": {
       "path": "Main/Piecewise linear interpolation.wiki",
-      "revid": 11031,
-      "sha256": "efe54e307490a0b717dcaa22aa60fc3cd64442b473d354a1d7d075aa5a56d160",
-      "synced_at": "2026-10-21T19:50:28+00:00"
+      "revid": 11032,
+      "sha256": "66b4cf0fa248b4532b61722b9ef20a13abaa2ad6a701d8e8d876d5b1ae5f7de7",
+      "synced_at": "2026-10-21T20:14:21+00:00"
     },
     "Polynomial": {
       "path": "Main/Polynomial.wiki",
@@ -3859,6 +3865,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-21T19:50:28+00:00",
+  "updated": "2026-10-21T20:14:21+00:00",
   "version": 1
 }
