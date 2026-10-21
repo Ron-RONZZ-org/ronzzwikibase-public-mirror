@@ -26,6 +26,65 @@ $$
 The cross product is specific to $\mathbb{R}^3$.
 </blockquote>
 
+== Standard basis ==
+
+With the '''standard''' [[orthonormality#Orthonormal_vector_list|orthonormal vector list]]: $\vec{i}=(1,0,0)$, $\vec{j}=(0,1,0)$, and $\vec{k}=(0,0,1)$:
+
+$$
+\begin{aligned}
+\vec{i}\times\vec{j}&=\vec{k}, & \vec{j}\times\vec{k}&=\vec{i}, & \vec{k}\times\vec{i}&=\vec{j},\\
+\vec{j}\times\vec{i}&=-\vec{k}, & \vec{k}\times\vec{j}&=-\vec{i}, & \vec{i}\times\vec{k}&=-\vec{j}.
+\end{aligned}
+$$
+
+{{Hidden proof}}
+$$
+\vec{i}\times\vec{j}=(0\cdot 0-0\cdot 1,\; 0\cdot 0-1\cdot 0,\; 1\cdot 1-0\cdot 0)=(0,0,1)=\vec{k}
+$$
+
+All other propositions can be similarly proven.
+{{End hidden}}
+
+== Properties ==
+
+$\forall \vec{u},\vec{v}\in\mathbb{R}^3,\, a\in\mathbb{R}$:<ref>{{#cite:Q2329}}</ref>
+
+* '''Anti-commutativity''': $\vec{u}\times\vec{v}=-\vec{v}\times\vec{u}$
+* '''Distributivity''': $\vec{u}\times(\vec{v}+\vec{w})=\vec{u}\times\vec{v}+\vec{u}\times\vec{w}$ and $(\vec{u}+\vec{v})\times\vec{w}=\vec{u}\times\vec{w}+\vec{v}\times\vec{w}$
+* '''Homogeneity''': $(a\vec{u})\times\vec{v}=\vec{u}\times(a\vec{v})=a(\vec{u}\times\vec{v})$
+* '''Vanishing''': $\vec{u}\times\vec{u}=\vec{0}$ and $\vec{u}\times\vec{0}=\vec{0}$
+* '''Parallelism''': $\vec{u}\times\vec{v}=\vec{0}\iff\vec{u}\parallel\vec{v}$
+
+{{Hidden proof}}
+For '''Anti-commutativity''':
+
+$$
+\begin{aligned}
+\vec{u}\times\vec{v}
+&=(u_2v_3-u_3v_2,\; u_3v_1-u_1v_3,\; u_1v_2-u_2v_1)\\
+&=-(v_2u_3-v_3u_2,\; v_3u_1-v_1u_3,\; v_1u_2-v_2u_1)\\
+&=-\vec{v}\times\vec{u}.
+\end{aligned}
+$$
+
+For '''distributivity, homogeneity, vanishing''', similarly expand the product.
+
+For '''parallelism''', note $\vec{u}\parallel\vec{v} \iff \vec{u}=a\vec{v},\, a \in \mathbb{R}$
+
+Hence $\vec u \times \vec v = \vec u \times a \vec v = a(\vec u \times \vec u)=0$ by '''vanishing'''.
+{{End hidden}}
+
+<blockquote>
+'''Warning''':The cross product is neither commutative nor associative:
+
+$$
+(\vec{i}\times\vec{i})\times\vec{j}=\vec{0}\times\vec{j}=\vec{0}\ 
+\ne\ 
+\vec{i}\times(\vec{i}\times\vec{j})=\vec{i}\times\vec{k}=-\vec{j},
+$$
+
+</blockquote>
+
 == Geometric interpretation ==
 
 === Orthogonality ===
@@ -103,6 +162,7 @@ A_{\text{parallelogram}}=|\vec{u}\times\vec{v}|,
 A_{\text{triangle}}=\frac{1}{2}|\vec{u}\times\vec{v}|.
 $$
 
+{{Hidden proof}}
 Taking $|\vec{u}|$ as the base, the height of the parallelogram is $h=|\vec{v}|\sin\theta$, hence
 
 $$
@@ -110,61 +170,9 @@ A_{\text{parallelogram}}=|\vec{u}|\,h=|\vec{u}|\,|\vec{v}|\sin\theta=|\vec{u}\ti
 $$
 
 and a triangle on the same two sides is half of that parallelogram.
-
-== Properties ==
-
-For all $\vec{u},\vec{v},\vec{w}\in\mathbb{R}^3$ and $a\in\mathbb{R}$:<ref>{{#cite:Q2329}}</ref>
-
-* '''Anti-commutativity''': $\vec{u}\times\vec{v}=-\vec{v}\times\vec{u}$
-* '''Distributivity''': $\vec{u}\times(\vec{v}+\vec{w})=\vec{u}\times\vec{v}+\vec{u}\times\vec{w}$ and $(\vec{u}+\vec{v})\times\vec{w}=\vec{u}\times\vec{w}+\vec{v}\times\vec{w}$
-* '''Homogeneity''': $(a\vec{u})\times\vec{v}=\vec{u}\times(a\vec{v})=a(\vec{u}\times\vec{v})$
-* '''Vanishing''': $\vec{u}\times\vec{u}=\vec{0}$ and $\vec{u}\times\vec{0}=\vec{0}$
-* '''Parallelism''': $\vec{u}\times\vec{v}=\vec{0}\iff\vec{u}\parallel\vec{v}$
-* '''Lagrange identity''': $|\vec{u}\times\vec{v}|^2=|\vec{u}|^2|\vec{v}|^2-(\vec{u}\cdot\vec{v})^2$
-
-{{Hidden proof}}
-Anti-commutativity follows by reversing the sign of each component,
-
-$$
-\begin{aligned}
-\vec{u}\times\vec{v}
-&=(u_2v_3-u_3v_2,\; u_3v_1-u_1v_3,\; u_1v_2-u_2v_1)\\
-&=-(v_2u_3-v_3u_2,\; v_3u_1-v_1u_3,\; v_1u_2-v_2u_1)\\
-&=-\vec{v}\times\vec{u}.
-\end{aligned}
-$$
 {{End hidden}}
 
-The cross product is neither commutative nor associative:
-
-$$
-(\vec{i}\times\vec{i})\times\vec{j}=\vec{0}\times\vec{j}=\vec{0},
-\qquad
-\vec{i}\times(\vec{i}\times\vec{j})=\vec{i}\times\vec{k}=-\vec{j},
-$$
-
-so the position of the parentheses changes the result.
-
-== Standard basis ==
-
-With the '''standard''' [[orthonormality#Orthonormal_vector_list||orthonormal vector list]]: $\vec{i}=(1,0,0)$, $\vec{j}=(0,1,0)$, and $\vec{k}=(0,0,1)$:
-
-$$
-\begin{aligned}
-\vec{i}\times\vec{j}&=\vec{k}, & \vec{j}\times\vec{k}&=\vec{i}, & \vec{k}\times\vec{i}&=\vec{j},\\
-\vec{j}\times\vec{i}&=-\vec{k}, & \vec{k}\times\vec{j}&=-\vec{i}, & \vec{i}\times\vec{k}&=-\vec{j}.
-\end{aligned}
-$$
-
-{{Hidden proof}}
-$$
-\vec{i}\times\vec{j}=(0\cdot 0-0\cdot 1,\; 0\cdot 0-1\cdot 0,\; 1\cdot 1-0\cdot 0)=(0,0,1)=\vec{k}
-$$
-
-All other propositions can be similarly proven.
-{{End hidden}}
-
-=== Relationship to matrices ===
+== Relationship to matrices ==
 
 $$
 \vec{u}\times\vec{v}
@@ -281,14 +289,12 @@ $$
 so the parallelepiped they span has volume $0$, and the three vectors are coplanar.
 {{End hidden}}
 
-== Applications ==
+== Applications in physics ==
 
 '''Torque''' of a force $\vec{F}$ applied at position $\vec{r}$ relative to an axis:
 
 $$
 \vec{\tau}=\vec{r}\times\vec{F},
-\qquad
-|\vec{\tau}|=|\vec{r}|\,|\vec{F}|\sin\theta .
 $$
 <ref>{{#cite:Q2330}}</ref>
 
