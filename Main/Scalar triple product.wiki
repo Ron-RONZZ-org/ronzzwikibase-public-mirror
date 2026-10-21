@@ -1,0 +1,60 @@
+== Formal definition ==
+
+Let $\vec{u},\vec{v},\vec{w}$ be vectors in $\mathbb{R}^3$.
+
+Is defined their '''scalar triple product'''
+
+$$
+\vec{u}\cdot(\vec{v}\times\vec{w})
+$$
+<ref>{{#cite:Q2329}}</ref><ref>{{#cite:Q2330}}</ref>
+
+== Geometrical interpretation ==
+
+The absolute value of the scalar triple product calculates the volume of the parallelepiped spanned by the three vectors.
+
+{{Hidden proof}}
+Base area: $|\vec{v}\times\vec{w}|$
+
+Height $h=|\vec{u}|\,|\cos\varphi|$, where $\varphi$ is the angle between $\vec{u}$ and $\vec{v}\times\vec{w}$,
+
+$$
+V=|\vec{v}\times\vec{w}|\,h=|\vec{v}\times\vec{w}|\,|\vec{u}|\,|\cos\varphi|=|\vec{u}\cdot(\vec{v}\times\vec{w})|.
+$$
+{{End hidden}}
+
+== Properties ==
+
+=== invariance under cyclic permutation ===
+
+$$
+\vec{u}\cdot(\vec{v}\times\vec{w})=\vec{w}\cdot(\vec{u}\times\vec{v})=\vec{v}\cdot(\vec{w}\times\vec{u})
+$$
+
+<blockquote>
+Intuition: [[#geometrical interpretation|The parallelepiped spanned by three vectors in $\mathbb{R}^3$]] is unique.
+</blockquote>
+
+=== Vanishing under coplanarity ===
+
+$$
+\vec{u}\cdot(\vec{v}\times\vec{w})=0
+\iff
+\vec{u},\vec{v},\vec{w}\text{ coplanar}.
+$$
+
+<blockquote>
+Intuition: When the three vectors are coplanar, [[#geometrical interpretation|the parallelepiped spanned by them in $\mathbb{R}^3$]] has vanishing volume.
+</blockquote>
+
+== Relationship to matrices ==
+
+$$
+\vec{u}\cdot(\vec{v}\times\vec{w})
+=
+\det\begin{pmatrix}
+u_1 & u_2 & u_3\\
+v_1 & v_2 & v_3\\
+w_1 & w_2 & w_3
+\end{pmatrix}.
+$$
