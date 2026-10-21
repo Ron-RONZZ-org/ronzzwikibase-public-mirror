@@ -26,3 +26,53 @@ $$
 $$
 
 [[File:Circle-cartesian-coordinate.svg|center]]
+
+== Properties ==
+
+=== $s=r\theta$ ===
+
+[[File:Angle and arc length.png]]
+
+{{Hidden proof}}
+By definition of [[radian]],$\theta=1 \ \mathrm{rad}$ \iff s=r$
+
+Since an Euclidean circle is symmetric according to any line passing through its center, putting two arcs of $1 \ \mathrm{rad}$ next to each other constructs an arc of $2\ \mathrm{rad}$ and a corresponding central angle of $2 \ \mathrm{rad}$, putting three arcs of $1 \ \mathrm{rad}$ next to each other constructs an arc of $2\ \mathrm{rad}$ and a corresponding central angle of $2 \ \mathrm{rad}$, so on so forth.
+
+[[File:Circle-arc-addition-radians.svg|center]]
+
+The logic also works in division. Dividing an arc of $1 \ \mathrm{rad}$ in two produces two arcs of $\frac{1}{2}\ \mathrm{rad}$ and corresponding central angles of $\frac{1}{2} \ \mathrm{rad}$ each, dividing an arc of $1 \ \mathrm{rad}$ in three produces three arcs of $\frac{1}{3}\ \mathrm{rad}$ and corresponding [[circle#Angles|central angles]] of $\frac{1}{3} \ \mathrm{rad}$ each, so on so forth.
+
+[[File:Circle-arc-division-radians.svg|center]]
+
+Therefore, it can be concluded: 
+
+$$
+s \propto \theta
+$$
+
+Now, since all Euclidean circles are geometrically similar, any [[circle#Areas|sector]] of equal central angle must be similar. i.e.,
+
+$$
+\frac{s_1}{s_2}=\frac{r_1}{r_2}
+$$
+
+We conclude therefore
+
+$$
+s \propto r
+$$
+
+Now, since
+$$
+s \propto \theta \land s \propto \theta
+\Rightarrow s = kr\theta,\, k \in \mathbb{R} \\
+$$
+
+Insert $r=1,s=1,\theta=1, hence $k=1$.
+
+i.e.,
+$$
+s=r\theta
+$$
+
+{{End hidden}}

@@ -648,6 +648,12 @@
       "sha256": "530f537517cfc424faded3be62d0cf4feac813de38bd8e421f50e41145872467",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Degree (angle)": {
+      "path": "Main/Degree (angle).wiki",
+      "revid": 10846,
+      "sha256": "2f3b496122d70081a66c0a22637ce7d3d2296ba2ee044b96463d15b911479fa1",
+      "synced_at": "2026-10-21T08:46:09+00:00"
+    },
     "Differential equation": {
       "path": "Main/Differential equation.wiki",
       "revid": 9727,
@@ -716,9 +722,9 @@
     },
     "Euclidean circle": {
       "path": "Main/Euclidean circle.wiki",
-      "revid": 10835,
-      "sha256": "d652b081f5b7bf2687b7052c7f53a726c84bdc960d4f1c1d745e6b114d108a45",
-      "synced_at": "2026-10-20T21:14:14+00:00"
+      "revid": 10856,
+      "sha256": "8fe998a3fabb5b13a234e4ace2d24ea726397b09dc4f8100a415f386300150d3",
+      "synced_at": "2026-10-21T08:46:09+00:00"
     },
     "Euclidean space": {
       "path": "Main/Euclidean space.wiki",
@@ -3715,6 +3721,6 @@
       "synced_at": "2026-10-18T07:12:56+00:00"
     }
   },
-  "updated": "2026-10-21T08:19:49+00:00",
+  "updated": "2026-10-21T08:46:09+00:00",
   "version": 1
 }

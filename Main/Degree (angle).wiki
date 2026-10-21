@@ -1,0 +1,10 @@
+'''Degree''' is a common unit used to measure [[angle]]s.
+
+By definition, the angle produced by rotating a half-line according to its starting point until it overlaps itself again measures $360^\circ$.
+
+[[File:360-deg.png|center]]
+
+== See also ==
+
+* [[Radian]]
+* [[Angle]]
