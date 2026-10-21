@@ -147,19 +147,37 @@ so the position of the parentheses changes the result.
 
 == Standard basis ==
 
-Applying the definition to the standard basis vectors, for instance
-
-$$
-\vec{i}\times\vec{j}=(0\cdot 0-0\cdot 1,\; 0\cdot 0-1\cdot 0,\; 1\cdot 1-0\cdot 0)=(0,0,1)=\vec{k},
-$$
-
-and the remaining products follow by anti-commutativity and by cyclic permutation of the axes:
+With the '''standard''' [[orthonormality#Orthonormal_vector_list||orthonormal vector list]]: $\vec{i}=(1,0,0)$, $\vec{j}=(0,1,0)$, and $\vec{k}=(0,0,1)$:
 
 $$
 \begin{aligned}
 \vec{i}\times\vec{j}&=\vec{k}, & \vec{j}\times\vec{k}&=\vec{i}, & \vec{k}\times\vec{i}&=\vec{j},\\
 \vec{j}\times\vec{i}&=-\vec{k}, & \vec{k}\times\vec{j}&=-\vec{i}, & \vec{i}\times\vec{k}&=-\vec{j}.
 \end{aligned}
+$$
+
+{{Hidden proof}}
+$$
+\vec{i}\times\vec{j}=(0\cdot 0-0\cdot 1,\; 0\cdot 0-1\cdot 0,\; 1\cdot 1-0\cdot 0)=(0,0,1)=\vec{k}
+$$
+
+All other propositions can be similarly proven.
+{{End hidden}}
+
+=== Relationship to matrices ===
+
+$$
+\vec{u}\times\vec{v}
+=
+\det\begin{pmatrix}
+\vec{i} & \vec{j} & \vec{k}\\
+u_1 & u_2 & u_3\\
+v_1 & v_2 & v_3
+\end{pmatrix}
+=
+\det\begin{pmatrix}u_2 & u_3\\v_2 & v_3\end{pmatrix}\vec{i}
+-\det\begin{pmatrix}u_1 & u_3\\v_1 & v_3\end{pmatrix}\vec{j}
++\det\begin{pmatrix}u_1 & u_2\\v_1 & v_2\end{pmatrix}\vec{k},
 $$
 
 == Scalar triple product ==
