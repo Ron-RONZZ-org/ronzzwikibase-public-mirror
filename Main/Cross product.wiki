@@ -1,4 +1,6 @@
-The '''cross product''' is a product of two vectors in $\mathbb{R}^3$ whose result is again a vector, hence the alternative name '''vector product'''. It differs from the [[dot product]], which maps a pair of vectors to a scalar.
+The '''cross product''' maps two vectors in $\mathbb{R}^3$ to a vector [[orthogonal]] to both.
+
+It differs from the [[dot product]], which maps a pair of vectors to a scalar.
 
 == Formal definition ==
 
@@ -8,6 +10,11 @@ then is defined their '''cross product''':
 $$
 \vec{u}\times\vec{v}=(u_2v_3-u_3v_2,\; u_3v_1-u_1v_3,\; u_1v_2-u_2v_1).
 $$
+
+<blockquote>
+Since the result of a cross product is a vector, the cross product is sometimes referred to as the '''vector product''' for $\mathbb{R}^3$. 
+</blockquote>
+
 <ref>{{#cite:Q2329}}</ref><ref>{{#cite:Q2330}}</ref><ref>{{#cite:Q2331}}</ref>
 
 {{Hidden example}}
@@ -187,51 +194,6 @@ v_1 & v_2 & v_3
 -\det\begin{pmatrix}u_1 & u_3\\v_1 & v_3\end{pmatrix}\vec{j}
 +\det\begin{pmatrix}u_1 & u_2\\v_1 & v_2\end{pmatrix}\vec{k},
 $$
-
-== Scalar triple product ==
-
-For $\vec{u},\vec{v},\vec{w}\in\mathbb{R}^3$, the '''scalar triple product''' is the determinant of the matrix of components,
-
-$$
-\vec{u}\cdot(\vec{v}\times\vec{w})
-=
-\begin{vmatrix}
-u_1 & u_2 & u_3\\
-v_1 & v_2 & v_3\\
-w_1 & w_2 & w_3
-\end{vmatrix}.
-$$
-<ref>{{#cite:Q2329}}</ref><ref>{{#cite:Q2330}}</ref>
-
-It is invariant under cyclic permutation of the three vectors,
-
-$$
-\vec{u}\cdot(\vec{v}\times\vec{w})=\vec{w}\cdot(\vec{u}\times\vec{v})=\vec{v}\cdot(\vec{w}\times\vec{u}),
-$$
-
-whereas transposing any two of them changes its sign. Geometrically it gives the volume of the parallelepiped spanned by the three vectors, since with base area $|\vec{v}\times\vec{w}|$ and height $h=|\vec{u}|\,|\cos\varphi|$, where $\varphi$ is the angle between $\vec{u}$ and $\vec{v}\times\vec{w}$,
-
-$$
-V=|\vec{v}\times\vec{w}|\,h=|\vec{v}\times\vec{w}|\,|\vec{u}|\,|\cos\varphi|=|\vec{u}\cdot(\vec{v}\times\vec{w})|.
-$$
-
-A vanishing volume means the three vectors are coplanar,
-
-$$
-\vec{u}\cdot(\vec{v}\times\vec{w})=0
-\iff
-\vec{u},\vec{v},\vec{w}\text{ coplanar}.
-$$
-
-== Vector triple product ==
-
-For $\vec{u},\vec{v},\vec{w}\in\mathbb{R}^3$,
-
-$$
-\vec{u}\times(\vec{v}\times\vec{w})=(\vec{u}\cdot\vec{w})\vec{v}-(\vec{u}\cdot\vec{v})\vec{w},
-$$
-
-a combination of $\vec{v}$ and $\vec{w}$ only, hence a vector in the plane they span. The parentheses cannot be moved: $\vec{u}\times(\vec{v}\times\vec{w})\neq(\vec{u}\times\vec{v})\times\vec{w}$ in general.
 
 == Examples ==
 

@@ -650,9 +650,9 @@
     },
     "Cross product": {
       "path": "Main/Cross product.wiki",
-      "revid": 10939,
-      "sha256": "82f9da781c3de20f3c7ef037b12c06827da54d127bd5100c1ea0de20da482514",
-      "synced_at": "2026-10-21T12:22:17+00:00"
+      "revid": 10947,
+      "sha256": "7c77a54913446ed3be15544ae59641f28c5ab69b10ac64b43f9d51e0760eef67",
+      "synced_at": "2026-10-21T12:50:34+00:00"
     },
     "Dark energy": {
       "path": "Main/Dark energy.wiki",
@@ -3797,8 +3797,14 @@
       "revid": 9764,
       "sha256": "9c07dd3b4dfc2857b4e4b21919f815ba37409e54c675c386fd21c43b11941837",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Vector triple product": {
+      "path": "Main/Vector triple product.wiki",
+      "revid": 10946,
+      "sha256": "0326589f6a65765535a3d7190d5aff3d901b0dddda995477eb247c232daced35",
+      "synced_at": "2026-10-21T12:50:34+00:00"
     }
   },
-  "updated": "2026-10-21T12:22:17+00:00",
+  "updated": "2026-10-21T12:50:34+00:00",
   "version": 1
 }
