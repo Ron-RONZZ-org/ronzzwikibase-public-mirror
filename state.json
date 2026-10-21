@@ -420,6 +420,12 @@
       "sha256": "6debf1d9a9aa58d0fad52d24e57945853f8d0f0142467ce510d8e2797f790a31",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Kevin Cheung, Mathieu Lemire": {
+      "path": "Collective/Kevin Cheung, Mathieu Lemire.wiki",
+      "revid": 10906,
+      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
+      "synced_at": "2026-10-21T10:52:08+00:00"
+    },
     "Collective:Learneo, Inc": {
       "path": "Collective/Learneo, Inc.wiki",
       "revid": 8700,
@@ -2424,6 +2430,12 @@
       "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Algèbre Linéaire et Applications (Book)": {
+      "path": "Source/Algèbre Linéaire et Applications (Book).wiki",
+      "revid": 10912,
+      "sha256": "0311d90e243f3be68c13d2082783458de88a2149eb53d4dd209d37db3d2db9bd",
+      "synced_at": "2026-10-21T10:52:08+00:00"
+    },
     "Source:Alphonse de Lamartine (Webpage)": {
       "path": "Source/Alphonse de Lamartine (Webpage).wiki",
       "revid": 8873,
@@ -3775,6 +3787,6 @@
       "synced_at": "2026-10-18T07:12:56+00:00"
     }
   },
-  "updated": "2026-10-21T10:32:44+00:00",
+  "updated": "2026-10-21T10:52:08+00:00",
   "version": 1
 }
