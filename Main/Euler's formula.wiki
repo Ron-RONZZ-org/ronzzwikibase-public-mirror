@@ -1,0 +1,10 @@
+'''Euler's formula''' states:
+
+{{#content:Q2333}}
+
+A well-known special case ($x=\pi$):
+
+$$
+e^{i\pi} + 1 = 0
+$$
+<ref>{{#cite:Q2335}}</ref>

@@ -756,6 +756,12 @@
       "sha256": "75c4d08d6d9ec4bc01662c6c362aa96a29ae4c65fe14a8b679c9796097c80f9b",
       "synced_at": "2026-10-20T11:50:52+00:00"
     },
+    "Euler's formula": {
+      "path": "Main/Euler's formula.wiki",
+      "revid": 10914,
+      "sha256": "3a576c5ff3d73ec4e067d559f4e79891d7a75855a030624e434600bffc57a84a",
+      "synced_at": "2026-10-21T11:14:33+00:00"
+    },
     "Euler's method": {
       "path": "Main/Euler's method.wiki",
       "revid": 7380,
@@ -965,6 +971,12 @@
       "revid": 9796,
       "sha256": "fdc4afcba485e34f81981724adedb3e3b3c94a987327f514bb214200f0506fd3",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Imaginary number": {
+      "path": "Main/Imaginary number.wiki",
+      "revid": 10916,
+      "sha256": "161c4b8b4308749cbfc1bffd631f02ccdf06cfb646eee4f044cabe00b4cd3f21",
+      "synced_at": "2026-10-21T11:14:33+00:00"
     },
     "Inertia": {
       "path": "Main/Inertia.wiki",
@@ -3787,6 +3799,6 @@
       "synced_at": "2026-10-18T07:12:56+00:00"
     }
   },
-  "updated": "2026-10-21T10:52:08+00:00",
+  "updated": "2026-10-21T11:14:33+00:00",
   "version": 1
 }

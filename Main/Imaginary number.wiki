@@ -1,0 +1,13 @@
+Imaginary numbers are [[number]]s that are multiples of $i$.
+
+== Formal definition ==
+
+Define the '''imaginary unit''' $i$ as the number that satisfies $i=\sqrt{-1}$, then any number
+
+$$
+I=ai,\, a \in \mathbb{R}
+$$
+
+is an '''imaginary number'''. The set of all imaginary numbers is denoted by $\mathbb{I}$.
+
+<ref>{{#cite:Q2335}}</ref>
