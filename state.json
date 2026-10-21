@@ -648,6 +648,12 @@
       "sha256": "a906c1bf0de26f488039882e4a99cdfaebce609673a1774ef89c97bd8bb2a678",
       "synced_at": "2026-10-21T14:52:51+00:00"
     },
+    "Complex plane": {
+      "path": "Main/Complex plane.wiki",
+      "revid": 11022,
+      "sha256": "7a3104cb4769d376673c6bc57fb85319df10a64b4fb67d6a78db53a2082f9cf9",
+      "synced_at": "2026-10-21T15:32:57+00:00"
+    },
     "Cosmic microwave background": {
       "path": "Main/Cosmic microwave background.wiki",
       "revid": 7284,
@@ -3841,6 +3847,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-21T15:14:40+00:00",
+  "updated": "2026-10-21T15:32:57+00:00",
   "version": 1
 }

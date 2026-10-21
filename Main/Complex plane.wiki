@@ -1,0 +1,29 @@
+A complex plane is the coordinate plane of a real number axis and an imaginary number axis.
+
+All [[complex number]]s can be represented on it.
+
+[[File:Complex-plane.svg|500px|thumbnail|An illustration of the complex plane with various complex numbers marked]]
+
+== Formal definition ==
+
+Let $P=(\mathbb{C},+,\cdot)$ be a [[vector space]].
+
+$\dim(P)=\dim(\mathbb{C})=2$. Hence all complex numbers $a+bi \in \mathbb{C},\, a,b \in \mathbb{R}$ can be represented by $\vec p=(a,b) \in P$, where the first dimension is real, and the second dimension is imaginary.
+
+If $\mathbb{C}$ is the set of all [[complex number]]s and are defined operations $+,\cdot$:
+
+$$
++: P \times P \to P \\
+\cdot : P \times P \to P \\
+\forall \vec p_1=(a,b), \vec p_2=(c,d) \in P,\, 
+\begin{cases}
+p_1+p_2=(a+c,b+d) \\
+p_1\cdot p_2=(ac-bd,ad+bc),
+\end{cases}
+$$
+then $P$ is a complex plane.
+
+<ref>{{#cite:Q2353}}</ref>
+<blockquote>
+$\dim(P)=2$ ,so $P$ is indeed a "plane".
+</blockquote>
