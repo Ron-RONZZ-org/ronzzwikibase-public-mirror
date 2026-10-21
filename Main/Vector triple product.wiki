@@ -1,6 +1,24 @@
 == Formal definition ==
 
-For $\vec{a},\vec{b},\vec{c}\in\mathbb{R}^{3}$,
+Let $\vec{a},\vec{b},\vec{c}$ be vectors in $\mathbb{R}^{3}$.
+
+Is defined their '''triple vector product'''
+
+$$
+\mathbf a \times (\mathbf b \times \mathbf c)
+$$
+where $\times$ denotes the [[cross product]].
+
+<blockquote>
+'''Warning''': 
+As the cross product is [[cross product#Properties|not associative]]:
+
+$$
+\mathbf a \times (\mathbf b \times \mathbf c) \ne (\mathbf a \times \mathbf b)\times \mathbf c
+$$
+</blockquote>
+
+== Identity ==
 
 {{#content:Q2274}}
 
@@ -47,3 +65,78 @@ Similarly, by simple calculation it can be demonstrated that the $\hat j, \hat k
 </blockquote>
 
 {{End hidden}}
+
+{{Hidden example}}
+For $\vec{a}=(1,2,4)$, $\vec{b}=(2,2,0)$, and $\vec{c}=(1,3,0)$,
+
+$$
+\vec{a}\cdot\vec{b}=2+4+0=6,
+\qquad
+\vec{a}\cdot\vec{c}=1+6+0=7,
+$$
+
+By identity,
+
+$$
+\begin{aligned}
+\vec{a}\times(\vec{b}\times\vec{c})
+&=7\,(2,2,0)-6\,(1,3,0)\\
+&=(14,14,0)-(6,18,0)\\
+&=(8,-4,0).
+\end{aligned}
+$$
+
+By definition,
+
+$$
+\begin{aligned}
+\vec{b}\times\vec{c}&=(2\cdot 0-0\cdot 3,\; 0\cdot 1-2\cdot 0,\; 2\cdot 3-2\cdot 1)=(0,0,4),\\
+\vec{a}\times(0,0,4)&=(2\cdot 4-4\cdot 0,\; 4\cdot 0-1\cdot 4,\; 1\cdot 0-2\cdot 0)=(8,-4,0).
+\end{aligned}
+$$
+{{End hidden}}
+
+== Applications ==
+
+=== Centripetal acceleration ===
+
+A point $P$ of rigid body rotating with angular velocity $\vec{\omega}$ about a fixed point $O$ has centripetal acceleration
+
+$$
+\vec a_{cen.}=\vec \omega \times \vec v
+$$
+where $\vec v$ is its velocity vector
+
+Since
+
+$$
+\vec{v}=\vec{\omega}\times\vec{r}
+$$
+where $\vec{r}=\vec{OP}$
+
+Hence
+$$
+\vec a_{cen.}=\vec{\omega}\times(\vec{\omega}\times\vec{r})=\vec \omega (\vec{\omega}\cdot\vec{r})-\vec r|\vec{\omega}|^{2}|
+$$
+
+=== Angular momentum ===
+
+The angular momentum of an element mass rotating with angular velocity $\vec{\omega}$ about a fixed point $O$ is
+
+$$
+\vec L=\vec r \times \vec v
+$$
+
+where $\vec v$ is its velocity vector
+
+Since
+
+$$
+\vec{v}=\vec{\omega}\times\vec{r}
+$$
+where $\vec{r}=\vec{OP}$
+
+Hence
+$$
+\vec L=\vec{r}\times(\vec{\omega}\times\vec{r})=\vec \omega \left\|\vec r \right\|^2-\vec r (\vec r \cdot \vec \omega)
+$$
