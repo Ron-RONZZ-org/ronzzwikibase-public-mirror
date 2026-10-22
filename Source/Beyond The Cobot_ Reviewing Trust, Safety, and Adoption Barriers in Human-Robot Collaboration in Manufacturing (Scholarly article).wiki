@@ -1,0 +1,7 @@
+{{ScholarlyArticle}}
+
+== Abstract ==
+
+''from OpenAlex:''
+
+The recent emergence of a technological operational fusion between humans and robots called Human-Robot Collaboration [HRC] in some quarters while others refer it to as “cobotics” promised to combine human flexibility with robotic precision on shared shop floors. Surprisingly, 2020–2026 industry-based surveys show cobot deployment is less than 8% of total global robot installations, with 42% of the pilots failing to scale beyond prototypes. This systematic review critically examines both the non-technical and technical barriers to HRC adoption in manufacturing operations. Following PRISMA 2020 guidelines, 134 peer-reviewed studies from IEEE Xplore, Scopus, and ACM 2020–2026 were analyzed. Barriers were grouped into three domains: 1. Trust: transparency, predictability, and mental models; 2. Safety: ISO 15066 compliance, risk perception, and reactive control; and 3. Adoption: cost-benefit ambiguity, workforce skills, and organizational culture. Findings indicate that technical safety is largely solved by cobotics; but challenges still exist in psychological safety, explainability, and value justification. Hence the proposal for: “Trust-Safety-Value” framework and a 4-stage pathway: Assisted to Monitored to Negotiated to Teamed. The review concludes that HRC will not scale for commercial status until cobots move “beyond the cage” to become legal entity, legible, accountable, liable, responsible and economically legible teammates.

@@ -360,6 +360,12 @@
       "sha256": "7c20dcec60bf8837c740292f17b3be2a6f3e91949f248dbaa16dcdec763df487",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Ezirim Kelechi ThankGod, Sani Abubakar Muhammed, Okoronkwo Iheanyi Chinedu, Aniugo Victor Onyekachi, Obi Obichukwu Immanuel, Nwaokolo Ikechukwu Frank, & Ezekiel Mayaki Asuku": {
+      "path": "Collective/Ezirim Kelechi ThankGod, Sani Abubakar Muhammed, Okoronkwo Iheanyi Chinedu, Aniugo Victor Onyekachi, Obi Obichukwu Immanuel, Nwaokolo Ikechukwu Frank, & Ezekiel Mayaki Asuku.wiki",
+      "revid": 11118,
+      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
+      "synced_at": "2026-10-22T11:51:38+00:00"
+    },
     "Collective:Fondation pour la mémoire de l'esclavage": {
       "path": "Collective/Fondation pour la mémoire de l'esclavage.wiki",
       "revid": 8878,
@@ -2598,6 +2604,12 @@
       "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Beyond The Cobot: Reviewing Trust, Safety, and Adoption Barriers in Human-Robot Collaboration in Manufacturing (Scholarly article)": {
+      "path": "Source/Beyond The Cobot_ Reviewing Trust, Safety, and Adoption Barriers in Human-Robot Collaboration in Manufacturing (Scholarly article).wiki",
+      "revid": 11123,
+      "sha256": "2ad7e7792a9e81940bdf203c5e372edadf6b25d05ae32f7536f6f32ac43a6556",
+      "synced_at": "2026-10-22T11:51:38+00:00"
+    },
     "Source:Beyond the third dimension (Book)": {
       "path": "Source/Beyond the third dimension (Book).wiki",
       "revid": 10689,
@@ -3949,6 +3961,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-22T11:14:03+00:00",
+  "updated": "2026-10-22T11:51:38+00:00",
   "version": 1
 }
