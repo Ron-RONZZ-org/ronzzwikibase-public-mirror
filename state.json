@@ -2724,6 +2724,12 @@
       "sha256": "ab56bf8d02e89eb7cbf2351e80d816fb5bb47a199838f043236dd93190c77af8",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Demystifying Collaborative Industrial Robots (Document)": {
+      "path": "Source/Demystifying Collaborative Industrial Robots (Document).wiki",
+      "revid": 11080,
+      "sha256": "cfc0a1b54046c3fab435d3a884bc47cd647371d11244ce51615e9ce9ecb24eca",
+      "synced_at": "2026-10-22T08:50:18+00:00"
+    },
     "Source:Dictionnaire de mathématiques : Torseur (Webpage)": {
       "path": "Source/Dictionnaire de mathématiques _ Torseur (Webpage).wiki",
       "revid": 8234,
@@ -3913,6 +3919,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-22T06:56:09+00:00",
+  "updated": "2026-10-22T08:50:18+00:00",
   "version": 1
 }
