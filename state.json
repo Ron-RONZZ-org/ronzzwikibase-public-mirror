@@ -2120,9 +2120,9 @@
     },
     "Scalar triple product": {
       "path": "Main/Scalar triple product.wiki",
-      "revid": 11136,
-      "sha256": "a2ddd948c638f7f5969d73a715a747e33e6e153fc3bee0ac7d910657197c78a6",
-      "synced_at": "2026-10-22T16:53:44+00:00"
+      "revid": 11137,
+      "sha256": "5db210f84c4a5da7eb13c91d8d2ca79b0ad7f8d2c4e284b6ee039ef2585e51b0",
+      "synced_at": "2026-10-22T17:13:00+00:00"
     },
     "Science": {
       "path": "Main/Science.wiki",
@@ -3967,6 +3967,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-22T16:53:44+00:00",
+  "updated": "2026-10-22T17:13:00+00:00",
   "version": 1
 }
