@@ -1,0 +1,48 @@
+'''Collaborative robots''', known in short as '''cobots''', are robots designed to interact closely with human, in production or service provision.<ref>{{#cite:Q2362}}</ref>
+
+[[File:Yahama-motor-cobot.jpg|thumbnail|Yamaha Motor's self-propelled cobot with a 7-axis arm for industrial use]]
+[[File:Cobot.png|600px|center]]
+
+== History ==
+
+The name cobot was popularised by the CoBot project piloted by [[Collective:Carnegie Mellon University|Carnegie Mellon University]]'s [[Collective:CORAL research group|CORAL research group]], which pioneered the development of CoBot-2, a collaborative robot aware of its perceptual, physical, and reasoning limitations and proactively sollicit help from human.<ref>{{#cite:Q2366}}</ref>
+
+== Autonomy ==
+
+Compared to traditional robots, the capacity to make autonomous decisions and interact with its environment is even more important for cobots, as they must interact directly with living beings of diverse, sometimes non-predicatable behaviour.<ref>{{#cite:Q2366}}</ref>
+
+[[File:Human-robot-cooperation.png|thumbnail|Various level of human-robot cooperation]]
+
+== Advantage ==
+
+Compared to traditional industrial robots, cobots are more adapted for a diverse number of tasks, rather than concentrating on one particular, repetitive action. Therefore, they are more accessible for small-to-medium scale manufacturing, especially in a workshop-style context.<ref>{{#cite:Q2367}}</ref>
+
+== Limitations ==
+
+According to surveys done between 2020 and 2026, current cobot deployment is less than 8% of total global robot installation. Cited reasons for this lack of adoption include lack of trust and cost-benefit ambiguity.<ref>{{#cite:Q2376}}</ref>
+
+== Research ==
+
+As of 2026, an increasingly popular research direction for collaborative robots is the integration of [[large-language-model]]s and [[vision-language-model]]s.<ref>{{#cite:Q2372}}</ref>
+
+[[Biomimetics]], notably, the study and imitation of human movement control and synchronisation of different muscle groups<ref>{{#cite:Q2370}}</ref>, continues to be popular.
+
+== Safety ==
+
+As Cobots share the same physical space and interact physically with human, the safety risk posed by cobots are also more important than traditional robots. The international standard that governs the security of collaborative robots in industrial settings is ISO 10218-1, which requires appropriate inherent safe design, integrated protective measures, and informed use of collaborative robots.<ref>{{#cite:Q2367}}</ref>
+
+=== inherent safe design ===
+
+Common inherently safe design choices include:<ref>{{#cite:Q2367}}</ref>
+
+* light-weight material
+* rounded contours
+* padding
+
+=== Integrated protective measure ===
+
+Cobots are frequently equipped with motion sensors capable of detecting humans approching them, and programmed to adapt their behaviour accordingly.<ref>{{#cite:Q2367}}</ref>
+
+=== Informed use ===
+
+Inherent safe design and integrated protective measures alone do not guarantee Cobot safety. For example, manipulation of sharp objects, even at slow speed, can be hazardous. Therefore, individual risk assessment for each user scenario by end-user is also essential for Cobot safety.<ref>{{#cite:Q2367}}</ref>

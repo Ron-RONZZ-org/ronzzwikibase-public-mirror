@@ -204,6 +204,12 @@
       "sha256": "0421bd3161450828afb2710254eff13db3912aacf717ce6e7e73a8dd932a3c59",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collaborative robot": {
+      "path": "Main/Collaborative robot.wiki",
+      "revid": 11128,
+      "sha256": "4e5c96cbf8dacb16b5401f1bcbf88d46226510264073fad11915f00f17a68ca7",
+      "synced_at": "2026-10-22T12:22:56+00:00"
+    },
     "Collective:Agence Nationale de la Recherche": {
       "path": "Collective/Agence Nationale de la Recherche.wiki",
       "revid": 11085,
@@ -3961,6 +3967,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-22T11:51:38+00:00",
+  "updated": "2026-10-22T12:22:56+00:00",
   "version": 1
 }
