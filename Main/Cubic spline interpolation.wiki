@@ -1,179 +1,107 @@
-'''Cubic spline interpolation''' finds a piecewise cubic function $C$ that passes through the data points $\{(x_i,y_i)\}_{i=0}^{n}$ and has a continuous second derivative. Continuity of $\ddot{C}$ removes the corner that [[Piecewise linear interpolation|piecewise linear interpolation]] leaves at every knot, and the piecewise form avoids the oscillation of a single interpolating polynomial of high degree ([[Polynomial interpolation]]).<ref>{{#cite:Q2382}}</ref>
+'''Cubic spline interpolation''' is the process of finding a '''twice continuously differentiable''' function $C(x)$ consisting of a series of cubic functions $C_i(x)$ that for a definite set of datapoints $\{(x_i,y_i)| i\in [0,n], i \in \mathbb{N}\}$ satisfies $C(x_i)=y_i$.
 
-== Definition ==
-
-Let $x_0 < x_1 < \cdots < x_n$ and let $y_0,\dots,y_n$ be given. The '''knots''' $x_i$ split $[x_0,x_n]$ into $n$ pieces, and on piece $i$ the interpolant is the cubic
+i.e., find
 
 $$
-C_i(x) = a_i(x-x_i)^3 + b_i(x-x_i)^2 + c_i(x-x_i) + d_i, \qquad i = 0,\dots,n-1,
+C(x)=C_i(x),\, x_i \le x \le x_{i+1} \\
+C_i(x)=a_i(x-x_i)^3+b_i(x-x_i)^2+c_i(x-x_i)+d_i,\, \forall i\in [0,n-1], i \in \mathbb{N}\\
 $$
 
-so that
+so
 
 $$
-C(x) = C_i(x), \qquad x_i \le x \le x_{i+1}.
+C(x_i)=y_i,\, \forall \{(x_i,y_i)| i\in [0,n], i \in \mathbb{N}\} \tag{1} \\
+C_i(x_{i+1})=C_{i+1}(x_{i+1})=y_{i+1},\,  \forall i \in [0,n-1], i \in \mathbb{N} \tag{2} \\
+\dot C_i(x_{i+1})=\dot C_{i+1}(x_{i+1}),\,  \forall i \in [0,n-2], i \in \mathbb{N} \tag{3} \\
+\ddot C_i(x_{i+1})=\ddot C_{i+1}(x_{i+1}),\,  \forall i \in [0,n-2], i \in \mathbb{N} \tag{4} \\
 $$
 
-$C$ is a '''cubic spline interpolant''' of the data if
+== Solution ==
+
+For brevity write $g_i$ for $C_i$ on piece $i$:
 
 $$
-\begin{aligned}
-C_i(x_i) &= y_i, && i = 0,\dots,n-1, \\
-C_i(x_{i+1}) &= y_{i+1}, && i = 0,\dots,n-1, \\
-\dot{C}_i(x_{i+1}) &= \dot{C}_{i+1}(x_{i+1}), && i = 0,\dots,n-2, \\
-\ddot{C}_i(x_{i+1}) &= \ddot{C}_{i+1}(x_{i+1}), && i = 0,\dots,n-2.
-\end{aligned} \tag{1}
+\begin{aligned} g_{i}(x) &=a_{i}\left(x-x_{i}\right)^{3}+b_{i}\left(x-x_{i}\right)^{2}+c_{i}\left(x-x_{i}\right)+d_{i} \tag{5} \\
+g_{i}^{\prime}(x) &=3 a_{i}\left(x-x_{i}\right)^{2}+2 b_{i}\left(x-x_{i}\right)+c_{i} \tag{6}\\ g_{i}^{\prime \prime}(x) &=6 a_{i}\left(x-x_{i}\right)+2 b_{i} \tag{7} \end{aligned} 
 $$
 
-The $n$ cubics carry $4n$ coefficients, while (1) supplies $2n + 2(n-1) = 4n-2$ conditions: two further conditions, one at each end, are needed ([[#Boundary conditions|boundary conditions]]).
+From 1 and 5, $d_i=y_i,\, \forall i \in [0,n-1], i \in \mathbb{N}$,
 
-== Derivation ==
+Let $h_i=x_{i+1}-x_i$, $f_i=y_{i+1}-y_i$,
 
-Write $h_i = x_{i+1}-x_i$ and $f_i = y_{i+1}-y_i$. Differentiating the cubic once and twice,
+then from 2 and 5, $a_{i} h_{i}^{3}+b_{i} h_{i}^{2}+c_{i} h_{i}=f_{i},\, \forall i \in [0,n-1], i \in \mathbb{N} \tag{8, n equations}$;
 
-$$
-\begin{aligned}
-\dot{C}_i(x) &= 3a_i(x-x_i)^2 + 2b_i(x-x_i) + c_i, \\
-\ddot{C}_i(x) &= 6a_i(x-x_i) + 2b_i.
-\end{aligned} \tag{2}
-$$
+from 3 and 6, $3 a_{i} h_{i}^{2}+2 b_{i} h_{i}+c_{i}=c_{i+1},\, \forall i \in [0,n-2], i \in \mathbb{N} \tag{9, n-1 equations}$;
 
-'''The constants $d_i$.''' At the left end of piece $i$ only $d_i$ survives, so the interpolation condition gives
+from 4 and 7, $3 a_{i} h_{i}+b_{i}=b_{i+1} ,\, \forall i \in [0,n-2], i \in \mathbb{N} \tag{10, n-1 equations}$.
 
-$$
-C_i(x_i) = d_i = y_i. \tag{3}
-$$
+Notice there are $3n$ remaining degrees of freedom: $a_i,b_i,c_i\, \forall i \in [0,n-1], i \in \mathbb{N}$.
 
-'''Three equations for the remaining coefficients.''' At the right end of piece $i$, continuity of value, of slope and of curvature gives
+To complete the set of unknowns, extend 10 up to $i=n-1$, which defines $b_n$:
 
 $$
-a_i h_i^3 + b_i h_i^2 + c_i h_i = f_i, \tag{4}
+3 a_{n-1} h_{n-1}+b_{n-1}=b_{n}
 $$
 
-$$
-3a_i h_i^2 + 2b_i h_i + c_i = c_{i+1}, \tag{5}
-$$
+From 10,
 
 $$
-6a_i h_i + 2b_i = 2b_{i+1} \quad \Longrightarrow \quad 3a_i h_i + b_i = b_{i+1}. \tag{6}
+a_{i}=\frac{1}{3 h_{i}}\left(b_{i+1}-b_{i}\right),\, \forall i \in [0,n-1], i \in \mathbb{N} \tag{11, n equations}
 $$
 
-Equation (6) links $b_i$ to $b_{i+1}$ for $i = 0,\dots,n-2$. Extended to $i = n-1$ it defines one more value of the same kind,
+Then use 11 to substitute for $a_i$ in 8,
 
 $$
-b_n = 3a_{n-1}h_{n-1} + b_{n-1},
+\begin{aligned} c_{i} &=\frac{1}{h_{i}}\left(f_{i}-a_{i} h_{i}^{3}-b_{i} h_{i}^{2}\right) \\ &=\frac{1}{h_{i}}\left(f_{i}-\frac{1}{3 h_{i}}\left(b_{i+1}-b_{i}\right) h_{i}^{3}-b_{i} h_{i}^{2}\right) \\ &=\frac{f_{i}}{h_{i}}-\frac{1}{3} h_{i}\left(b_{i+1}+2 b_{i}\right), \quad i=0 \text { to } n-1 . \end{aligned} \tag{12, n equations}
 $$
 
-which leaves $b_0,\dots,b_n$ as the unknowns and $a_i$, $c_i$ as functions of them.
-
-'''Eliminate $a_i$.''' Dividing (6) by $3h_i$,
+Now use 11,12 to substitute for $a_i$, $c_i$ in 9:
 
 $$
-a_i = \frac{b_{i+1}-b_i}{3h_i}, \qquad i = 0,\dots,n-1. \tag{7}
+\begin{gathered} 3\left(\frac{1}{3 h_{i}}\left(b_{i+1}-b_{i}\right)\right) h_{i}^{2}+2 b_{i} h_{i}+\left(\frac{f_{i}}{h_{i}}-\frac{1}{3} h_{i}\left(b_{i+1}+2 b_{i}\right)\right) \\ =\left(\frac{f_{i+1}}{h_{i+1}}-\frac{1}{3} h_{i+1}\left(b_{i+2}+2 b_{i+1}\right)\right) \end{gathered}
 $$
 
-'''Eliminate $c_i$.''' Solving (4) for $c_i$ and inserting (7),
+On simplification, 
 
 $$
-\begin{aligned}
-c_i &= \frac{f_i - a_i h_i^3 - b_i h_i^2}{h_i} \\
-&= \frac{f_i}{h_i} - \frac{1}{h_i}\left(\frac{b_{i+1}-b_i}{3h_i}\,h_i^3 + b_i h_i^2\right) \\
-&= \frac{f_i}{h_i} - \frac{h_i}{3}\left(b_{i+1} + 2b_i\right), \qquad i = 0,\dots,n-1.
-\end{aligned} \tag{8}
+\frac{1}{3} h_{i} b_{i}+\frac{2}{3}\left(h_{i}+h_{i+1}\right) b_{i+1}+\frac{1}{3} h_{i+1} b_{i+2}=\frac{f_{i+1}}{h_{i+1}}-\frac{f_{i}}{h_{i}} ,\, \forall i \in [0,n-2], i \in \mathbb{N} \tag{13, n-1 equations}
 $$
 
-'''One equation per interior knot.''' Inserting (7) and (8) into (5),
+At this point, $n-1$ equations and $n+1$ degrees of freedom, $b_i,\, i \in [0,n], i \in \mathbb{N}$, remain. Therefore, two additional conditions are required for one particular solution.
+
+The 2 additional conditions are imposed at the ends. If the end slopes $\alpha$, $\beta$ are known, they read
 
 $$
-\begin{aligned}
-\frac{b_{i+1}-b_i}{h_i}\,h_i^2 + 2b_i h_i + \frac{f_i}{h_i} - \frac{h_i}{3}\left(b_{i+1}+2b_i\right)
-&= \frac{f_{i+1}}{h_{i+1}} - \frac{h_{i+1}}{3}\left(b_{i+2}+2b_{i+1}\right), \\
-\frac{h_i}{3}b_i + \frac{2h_i}{3}b_{i+1} + \frac{f_i}{h_i}
-&= \frac{f_{i+1}}{h_{i+1}} - \frac{2h_{i+1}}{3}b_{i+1} - \frac{h_{i+1}}{3}b_{i+2}, \\
-\frac{h_i}{3}b_i + \frac{2}{3}\left(h_i+h_{i+1}\right)b_{i+1} + \frac{h_{i+1}}{3}b_{i+2}
-&= \frac{f_{i+1}}{h_{i+1}} - \frac{f_i}{h_i},
-\end{aligned} \tag{9}
+g_{0}^{\prime}\left(x_{0}\right)=\alpha, \quad g_{n-1}^{\prime}\left(x_{n}\right)=\beta . \nonumber
 $$
 
-for $i = 0,\dots,n-2$: that is $n-1$ equations for the $n+1$ unknowns $b_0,\dots,b_n$.<ref>{{#cite:Q2381}}</ref>
+A commonly accepted pair that needs no end slopes, known as the '''not-a-knot''' conditions, requires $a_0=a_1$, $a_{n-2}=a_{n-1}$,
 
-=== Boundary conditions ===
-
-The two missing conditions sit one at each end.
-
-'''Natural.''' The curvature vanishes at both ends, $\ddot{C}(x_0) = \ddot{C}(x_n) = 0$. Since $\ddot{C}_i(x_i) = 2b_i$ by (2),
-
-$$
-b_0, b_n = 0. \tag{10}
-$$
-
-'''Not-a-knot.''' The first two pieces and the last two pieces are each a single cubic, so the third derivative stays continuous at $x_1$ and at $x_{n-1}$ and those two nodes cease to be knots. On piece $i$ the third derivative is the constant $6a_i$, hence
-
-$$
-a_0 = a_1, \qquad a_{n-2} = a_{n-1}.
-$$
-
-Through (7),
+From 11,
 
 $$
 \begin{cases}
-\dfrac{b_1-b_0}{3h_0} = \dfrac{b_2-b_1}{3h_1} \\[3mm]
-\dfrac{b_{n-1}-b_{n-2}}{3h_{n-2}} = \dfrac{b_n-b_{n-1}}{3h_{n-1}},
+\frac{1}{3 h_{0}}\left(b_{1}-b_{0}\right)=\frac{1}{3 h_{1}}\left(b_{2}-b_{1}\right) \\
+\frac{1}{3 h_{n-2}}\left(b_{n-1}-b_{n-2}\right)=\frac{1}{3 h_{n-1}}\left(b_{n}-b_{n-1}\right).
 \end{cases}
 $$
 
-and multiplying the first line by $3h_0h_1$ and the second by $3h_{n-2}h_{n-1}$,
+On simplification,
 
 $$
 \begin{cases}
-h_1 b_0 - (h_0+h_1)b_1 + h_0 b_2 = 0, \\[2mm]
-h_{n-1}b_{n-2} - (h_{n-2}+h_{n-1})b_{n-1} + h_{n-2}b_n = 0.
-\end{cases} \tag{11}
+h_{1} b_{0}-\left(h_{0}+h_{1}\right) b_{1}+h_{0} b_{2}=0 \\
+h_{n-1} b_{n-2}-\left(h_{n-2}+h_{n-1}\right) b_{n-1}+h_{n-2} b_{n}=0.
+\end{cases} \tag{14, 2 equations}
 $$
 
-'''Clamped.''' Both end slopes are prescribed, $\dot{C}(x_0) = \alpha$ and $\dot{C}(x_n) = \beta$. At the left end $\dot{C}_0(x_0) = c_0$, so by (8)
+Rewrite everything into matrices:
 
 $$
-\frac{2}{3}h_0 b_0 + \frac{1}{3}h_0 b_1 = \frac{f_0}{h_0} - \alpha .
+\left(\begin{array}{ccccccc} h_1 & -(h_0+h_1) & h_0 & 0 & \cdots & 0 & 0 \\ \frac{1}{3} h_{0} & \frac{2}{3}\left(h_{0}+h_{1}\right) & \frac{1}{3} h_{1} & 0 & \cdots & 0 & 0 \\ \vdots & \vdots & \vdots & \ddots & \vdots & \vdots & \vdots \\ 0 & 0 & 0 & \cdots & \frac{1}{3} h_{n-2} & \frac{2}{3}\left(h_{n-2}+h_{n-1}\right) & \frac{1}{3} h_{n-1} \\ 0 & 0 & 0 & \cdots & h_{n-1} & -\left(h_{n-2}+h_{n-1}\right) & h_{n-2}\end{array}\right)\left(\begin{array}{c} b_{0} \\ b_{1} \\ \vdots \\ b_{n-1} \\ b_{n} \end{array}\right)=\left(\begin{array}{c} 0 \\ \frac{f_{1}}{h_{1}}-\frac{f_{0}}{h_{0}} \\ \vdots \\ \frac{f_{n-1}}{h_{n-1}}-\frac{f_{n-2}}{h_{n-2}} \\ 0 \end{array}\right)
 $$
 
-At the right end $\dot{C}_{n-1}(x_n) = 3a_{n-1}h_{n-1}^2 + 2b_{n-1}h_{n-1} + c_{n-1}$, which by (7) and (8) reduces to
-
-$$
-\dot{C}_{n-1}(x_n) = \frac{h_{n-1}}{3}b_{n-1} + \frac{2h_{n-1}}{3}b_n + \frac{f_{n-1}}{h_{n-1}} = \beta .
-$$
-
-Together,
-
-$$
-\begin{cases}
-\dfrac{2}{3}h_0 b_0 + \dfrac{1}{3}h_0 b_1 = \dfrac{f_0}{h_0} - \alpha, \\[3mm]
-\dfrac{1}{3}h_{n-1}b_{n-1} + \dfrac{2}{3}h_{n-1}b_n = \beta - \dfrac{f_{n-1}}{h_{n-1}}.
-\end{cases} \tag{12}
-$$
-
-The natural condition suits data whose curvature vanishes at the ends; the clamped condition suits data whose end slopes are known from outside the data; the not-a-knot condition assumes nothing about the ends and is the usual default.
-
-== Linear system ==
-
-Rows $2$ to $n$ of the system come from (9), and the first and last rows from the chosen pair of end conditions. For the not-a-knot pair (11),
-
-$$
-\begin{pmatrix}
-h_1 & -(h_0+h_1) & h_0 & 0 & \cdots & 0 & 0 \\[1mm]
-\dfrac{1}{3}h_0 & \dfrac{2}{3}(h_0+h_1) & \dfrac{1}{3}h_1 & 0 & \cdots & 0 & 0 \\
-\vdots & \vdots & \vdots & \ddots & & & \vdots \\
-0 & 0 & 0 & \cdots & \dfrac{1}{3}h_{n-2} & \dfrac{2}{3}(h_{n-2}+h_{n-1}) & \dfrac{1}{3}h_{n-1} \\[2mm]
-0 & 0 & 0 & \cdots & h_{n-1} & -(h_{n-2}+h_{n-1}) & h_{n-2}
-\end{pmatrix}
-\begin{pmatrix} b_0 \\ b_1 \\ \vdots \\ b_{n-1} \\ b_n \end{pmatrix}
-=
-\begin{pmatrix} 0 \\[1mm] \dfrac{f_1}{h_1} - \dfrac{f_0}{h_0} \\ \vdots \\ \dfrac{f_{n-1}}{h_{n-1}} - \dfrac{f_{n-2}}{h_{n-2}} \\[2mm] 0 \end{pmatrix}.
-$$
-
-The natural conditions put a $1$ on the diagonal of the first and last rows and a $0$ in the last two entries of the right-hand side; (12) supplies those two rows when the end slopes are prescribed. Each row touches at most three consecutive columns, so the matrix is tridiagonal and the system costs $O(n)$ operations instead of the $O(n^3)$ of a dense solver. From (2) at $x = x_i$, the unknown $b_i = \ddot{C}_i(x_i)/2$ is half the second derivative at knot $i$, and (3), (7) and (8) then give $d_i$, $a_i$ and $c_i$.<ref>{{#cite:Q2381}}</ref>
-
-== Python implementation ==
+Finally, solve the matrix numerically (e.g., with python) to obtain the interpolating curve.<ref>{{#cite:Q2381}}</ref>
 
 <syntaxhighlight lang="python" copy>
 import numpy as np
@@ -196,18 +124,18 @@ def cubic_spline(x, y, bc="not-a-knot"):
     A = np.zeros((n + 1, n + 1))        # one row per equation, one column per b[i]
     r = np.zeros(n + 1)
 
-    for i in range(n - 1):              # eq. (9), rows 2 to n
+    for i in range(n - 1):              # (13), rows 2 to n
         A[i + 1, i]     = h[i] / 3
         A[i + 1, i + 1] = 2 * (h[i] + h[i + 1]) / 3
         A[i + 1, i + 2] = h[i + 1] / 3
         r[i + 1] = f[i + 1] / h[i + 1] - f[i] / h[i]
 
-    if bc == "natural":                 # eq. (10)
+    if bc == "natural":                 # zero curvature at both ends: b[0] = b[n] = 0
         A[0, 0] = A[n, n] = 1.0
-    elif bc == "not-a-knot":            # eq. (11)
+    elif bc == "not-a-knot":            # (14)
         A[0, 0], A[0, 1], A[0, 2] = h[1], -(h[0] + h[1]), h[0]
         A[n, n - 2], A[n, n - 1], A[n, n] = h[n - 1], -(h[n - 2] + h[n - 1]), h[n - 2]
-    else:                               # eq. (12), clamped
+    else:                               # prescribed end slopes alpha, beta
         alpha, beta = bc
         A[0, 0], A[0, 1] = 2 * h[0] / 3, h[0] / 3
         r[0] = f[0] / h[0] - alpha
@@ -215,9 +143,9 @@ def cubic_spline(x, y, bc="not-a-knot"):
         r[n] = beta - f[n - 1] / h[n - 1]
 
     b = np.linalg.solve(A, r)
-    a = (b[1:] - b[:-1]) / (3 * h)                  # eq. (7)
-    c = f / h - h * (2 * b[:-1] + b[1:]) / 3        # eq. (8)
-    d = y[:-1]                                      # eq. (3)
+    a = (b[1:] - b[:-1]) / (3 * h)                  # (11)
+    c = f / h - h * (2 * b[:-1] + b[1:]) / 3        # (12)
+    d = y[:-1]                                      # (5) at x = x[i]
     return x, a, b[:-1], c, d
 
 
@@ -249,34 +177,24 @@ def spline_integral(spline, lo, hi):
     return total
 </syntaxhighlight>
 
-The comments give the equation that each line implements. `np.linalg.solve` is a dense solver, so a banded solver is preferable for a large number of knots.
-
-`cubic_spline(x, y, bc)` returns the knots and the coefficient arrays $a$, $b$, $c$, $d$: `bc` takes `"natural"`, `"not-a-knot"`, or a pair `(alpha, beta)` of end slopes, and `spline_eval(spline, t, deriv)` evaluates the spline or one of its first three derivatives. `spline_integral(spline, lo, hi)` integrates it exactly, piece by piece.
-
-== Worked example ==
+`cubic_spline` returns the knots and the coefficient arrays $a$, $b$, $c$, $d$, with `bc` set to `"natural"`, `"not-a-knot"`, or a pair `(alpha, beta)` of end slopes; `spline_eval` evaluates the spline or one of its derivatives, and `spline_integral` integrates it exactly piece by piece. `np.linalg.solve` is a dense solver, so a banded solver is preferable when $n$ is large.
 
 {{Hidden example}}
-'''Velocity of a rocket.''' The upward velocity of a rocket is tabulated at six times, spaced unevenly: $h_0 = 10\ \mathrm{s}$, $h_1, h_2 = 5\ \mathrm{s}$, $h_3 = 2.5\ \mathrm{s}$ and $h_4 = 7.5\ \mathrm{s}$.<ref>{{#cite:Q2382}}</ref>
+'''Velocity of a rocket.''' The upward velocity of a rocket is tabulated at six unevenly spaced times, $h_0 = 10$, $h_1, h_2 = 5$, $h_3 = 2.5$, $h_4 = 7.5\ \mathrm{s}$:<ref>{{#cite:Q2382}}</ref>
 
 {| class="wikitable"
-! $t$ (s) !! $0$ !! $10$ !! $15$ !! $20$ !! $22.5$ !! $30$
+! $t$ (s) !! 0 !! 10 !! 15 !! 20 !! 22.5 !! 30
 |-
-! $v$ (m/s) !! $0$ !! $227.04$ !! $362.78$ !! $517.35$ !! $602.97$ !! $901.67$
+! $v$ (m/s) !! 0 !! 227.04 !! 362.78 !! 517.35 !! 602.97 !! 901.67
 |}
 
-The five cubics of the not-a-knot spline reproduce the tabulated velocities and give a continuous acceleration, so the spline can be differentiated and integrated:
+The not-a-knot spline reproduces the tabulated velocities and, unlike the linear interpolant, gives a continuous acceleration:
 
 $$
-v(16) = 392.07\ \mathrm{m/s}, \qquad \dot{v}(16) = 29.67\ \mathrm{m/s^2},
+v(16) = 392.07\ \mathrm{m/s}, \qquad \dot{v}(16) = 29.67\ \mathrm{m/s^2}, \qquad \int_{11}^{16} v(t)\,dt = 1604.9\ \mathrm{m}.
 $$
 
-$$
-\int_{11}^{16} v(t)\,dt = 1604.9\ \mathrm{m}.
-$$
-
-The natural spline through the same data gives $v(16) = 392.15\ \mathrm{m/s}$, $\dot{v}(16) = 29.75\ \mathrm{m/s^2}$ and $1604.4\ \mathrm{m}$. Piecewise linear interpolation gives $v(16) = 393.7\ \mathrm{m/s}$ and the quadratic spline in the source gives $395.50\ \mathrm{m/s}$: the four methods agree to within $1\%$, but only the cubic splines have a continuous acceleration.
-
-[[File:Rocket velocity cubic spline.png|thumb|none|560px|alt=Two stacked line charts: velocity against time with the measured points, the piecewise linear interpolant and two cubic splines; below them, the corresponding accelerations|Velocity against time, and the acceleration $\dot{v}$ obtained from the spline. The acceleration is continuous at every knot, that of the piecewise linear interpolant jumps.]]
+For comparison, piecewise linear interpolation gives $v(16) = 393.7\ \mathrm{m/s}$ and the natural spline $v(16) = 392.15\ \mathrm{m/s}$.
 
 <syntaxhighlight lang="python" copy>
 import matplotlib.pyplot as plt
@@ -314,14 +232,9 @@ for ax in (top, bottom):
 fig.tight_layout()
 plt.show()
 </syntaxhighlight>
+
+[[File:Rocket velocity cubic spline.png|thumb|none|560px|alt=Two stacked line charts: velocity against time with the measured points, the piecewise linear interpolant and two cubic splines; below them, the corresponding accelerations|Velocity against time, and the acceleration $\dot{v}$ obtained from the spline. The acceleration is continuous at every knot, that of the piecewise linear interpolant jumps.]]
 {{End hidden}}
-
-== See also ==
-
-* [[Piecewise linear interpolation]]
-* [[Polynomial interpolation]]
-* [[Linear system]]
-* [[Matrix]]
 
 == References ==
 
