@@ -402,6 +402,12 @@
       "sha256": "152aa971de61950e0c769fbed005a6cbcf6c7e94f2d03143b33942bc3e6a6d3a",
       "synced_at": "2026-10-20T15:14:48+00:00"
     },
+    "Collective:International Federation of Robotics": {
+      "path": "Collective/International Federation of Robotics.wiki",
+      "revid": 11039,
+      "sha256": "66502cba17bf7ed8cfc40930ed51caae9fb5eaa587bb3614c1bc1d92b930ddfc",
+      "synced_at": "2026-10-22T06:25:08+00:00"
+    },
     "Collective:Isaiah Lankham, Bruno Nachtergaele, and Anne Schilling": {
       "path": "Collective/Isaiah Lankham, Bruno Nachtergaele, and Anne Schilling.wiki",
       "revid": 8302,
@@ -503,6 +509,12 @@
       "revid": 4755,
       "sha256": "d824fe2a1ceedcd5afdb68e024859d5ce22beec8c9726903ffe9dfb8bfccd68d",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Collective:Nineteen Group": {
+      "path": "Collective/Nineteen Group.wiki",
+      "revid": 11044,
+      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
+      "synced_at": "2026-10-22T06:25:08+00:00"
     },
     "Collective:Open Container Initiative": {
       "path": "Collective/Open Container Initiative.wiki",
@@ -3865,6 +3877,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-21T20:14:21+00:00",
+  "updated": "2026-10-22T06:25:08+00:00",
   "version": 1
 }
