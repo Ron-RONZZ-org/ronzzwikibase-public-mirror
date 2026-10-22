@@ -1,0 +1,5 @@
+{{Collective}}
+
+== Overview ==
+
+Research group at Carnegie Mellon University on the scientific and engineering challenges of creating teams of intelligent agents in complex, dynamic, and uncertain environments, in particular adversarial environments, such as robot soccer.   Led by Professor Manuela Veloso.

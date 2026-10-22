@@ -258,11 +258,23 @@
       "sha256": "b56d60093470f3913bf21d1546420ab86e1075dade903f243cebfe27cfc115d5",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:CORAL research group": {
+      "path": "Collective/CORAL research group.wiki",
+      "revid": 11064,
+      "sha256": "6409872565145fe87846f9e899ce6ac9737ad7666a8d772502e52ef6821b30dd",
+      "synced_at": "2026-10-22T06:56:09+00:00"
+    },
     "Collective:Cairn.info": {
       "path": "Collective/Cairn.info.wiki",
       "revid": 7484,
       "sha256": "68b866375163c068780416d691f5936cfb5e650588c0b1cc78e155eef16d2d66",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Collective:Carnegie Mellon University": {
+      "path": "Collective/Carnegie Mellon University.wiki",
+      "revid": 11059,
+      "sha256": "55c976efaa1b9e3910a645dc50fd4fc19654d47c1bd02be26c22dbad40c2ea4a",
+      "synced_at": "2026-10-22T06:56:09+00:00"
     },
     "Collective:Cloud Native Computing Foundation": {
       "path": "Collective/Cloud Native Computing Foundation.wiki",
@@ -2616,11 +2628,23 @@
       "sha256": "bba6a2fc9421700420b343ddc75a6177ffbdea9f5415386e2b1b1e9092c61343",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Carnegie Mellon University - CMU (Website)": {
+      "path": "Source/Carnegie Mellon University - CMU (Website).wiki",
+      "revid": 11069,
+      "sha256": "e2b7187d629382df8b9f02b6b54374c5a84fdb39963ab2449f3e8f851adc3211",
+      "synced_at": "2026-10-22T06:56:09+00:00"
+    },
     "Source:Cloud Native Computing Foundation announces containerd graduation (Webpage)": {
       "path": "Source/Cloud Native Computing Foundation announces containerd graduation (Webpage).wiki",
       "revid": 6327,
       "sha256": "93156946543a8b0ebd8e9bfa357e6b1779aa94e3434f24fed3a0dd24912e11e2",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:CoBot Robots - CORAL, CMU (Webpage)": {
+      "path": "Source/CoBot Robots - CORAL, CMU (Webpage).wiki",
+      "revid": 11074,
+      "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
+      "synced_at": "2026-10-22T06:56:09+00:00"
     },
     "Source:Code de l'éducation (Legislation)": {
       "path": "Source/Code de l'éducation (Legislation).wiki",
@@ -2867,6 +2891,12 @@
       "revid": 1891,
       "sha256": "96428db4a305749b71d1dc1b29b25b1a5c03fd65deea52736ed9714aab131200",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:Industrial manufacturers embrace industry 4.0 to boost productivity (Webpage)": {
+      "path": "Source/Industrial manufacturers embrace industry 4.0 to boost productivity (Webpage).wiki",
+      "revid": 11054,
+      "sha256": "ed92ed0062d5252f468a86ea14d129c53a8f0554dc2fe8fa8507a34a70684e24",
+      "synced_at": "2026-10-22T06:56:09+00:00"
     },
     "Source:InfoQ: Software Development News, Trends & Best Practices - InfoQ (Website)": {
       "path": "Source/InfoQ_ Software Development News, Trends & Best Practices - InfoQ (Website).wiki",
@@ -3263,6 +3293,12 @@
       "revid": 8370,
       "sha256": "606091526df6c677eca863e5e110b3d49794c218de19cbb91609541ac99fbfc2",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:Manufacturing news, articles and insights (Website)": {
+      "path": "Source/Manufacturing news, articles and insights (Website).wiki",
+      "revid": 11049,
+      "sha256": "8263510df42e3a5e2f9f6cdeb8376cdbbe9d4212923f7eabc228a1f46b0d8c09",
+      "synced_at": "2026-10-22T06:56:09+00:00"
     },
     "Source:Matrix manipulation in Python - GeeksforGeeks (Webpage)": {
       "path": "Source/Matrix manipulation in Python - GeeksforGeeks (Webpage).wiki",
@@ -3877,6 +3913,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-22T06:25:08+00:00",
+  "updated": "2026-10-22T06:56:09+00:00",
   "version": 1
 }
