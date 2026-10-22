@@ -204,6 +204,12 @@
       "sha256": "0421bd3161450828afb2710254eff13db3912aacf717ce6e7e73a8dd932a3c59",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Agence Nationale de la Recherche": {
+      "path": "Collective/Agence Nationale de la Recherche.wiki",
+      "revid": 11085,
+      "sha256": "fbbd17f4db6e58187037fe846ca95ff99e32017f9189fafba45e1833314b3e20",
+      "synced_at": "2026-10-22T11:14:03+00:00"
+    },
     "Collective:American Psychiatric Association": {
       "path": "Collective/American Psychiatric Association.wiki",
       "revid": 7547,
@@ -359,6 +365,12 @@
       "revid": 8878,
       "sha256": "233269e2ec993cb2b5922cd61f59385e56c68c56fce9061304b0546882a62402",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Collective:Franci Rrapi, Beatrice Portelli, Giuseppe Serra, Lorenzo Scalera": {
+      "path": "Collective/Franci Rrapi, Beatrice Portelli, Giuseppe Serra, Lorenzo Scalera.wiki",
+      "revid": 11100,
+      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
+      "synced_at": "2026-10-22T11:14:03+00:00"
     },
     "Collective:French national government": {
       "path": "Collective/French national government.wiki",
@@ -2484,6 +2496,12 @@
       "sha256": "d71d7e07a856c4a714dc2c04297928c41eaf0bb759f83e5c6477bc14e3a9c44c",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:ANR (Website)": {
+      "path": "Source/ANR (Website).wiki",
+      "revid": 11090,
+      "sha256": "af9123077414a4ca671035269f422758521d4fc4c9494f9f039accbdb3d3f9b5",
+      "synced_at": "2026-10-22T11:14:03+00:00"
+    },
     "Source:About Add-ons (Webpage)": {
       "path": "Source/About Add-ons (Webpage).wiki",
       "revid": 6636,
@@ -2658,6 +2676,12 @@
       "sha256": "2719d16c2b4abf592979ce7fb1e5ef368443027045a13b277290c5854004890d",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Collaborative Robot (Webpage)": {
+      "path": "Source/Collaborative Robot (Webpage).wiki",
+      "revid": 11095,
+      "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
+      "synced_at": "2026-10-22T11:14:03+00:00"
+    },
     "Source:Complex Numbers - Algebrica (Webpage)": {
       "path": "Source/Complex Numbers - Algebrica (Webpage).wiki",
       "revid": 11004,
@@ -2813,6 +2837,12 @@
       "revid": 8883,
       "sha256": "2ec058f873a909ffb0cf385e14b710db31939535a32ae3bb0fd27d24399c3d6f",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:From AI foundations to Large Language Models: A survey on challenges and opportunities in collaborative robotics (Scholarly article)": {
+      "path": "Source/From AI foundations to Large Language Models_ A survey on challenges and opportunities in collaborative robotics (Scholarly article).wiki",
+      "revid": 11105,
+      "sha256": "003ea40c58d97e816e7b60b06b9e5d2baea63f16d23695dd394ad3a9b6b7be6e",
+      "synced_at": "2026-10-22T11:14:03+00:00"
     },
     "Source:GENtle, a free multi-purpose molecular biology tool - Kölner UniversitätsPublikationsServer": {
       "path": "Source/GENtle, a free multi-purpose molecular biology tool - Kölner UniversitätsPublikationsServer.wiki",
@@ -3919,6 +3949,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-22T08:50:18+00:00",
+  "updated": "2026-10-22T11:14:03+00:00",
   "version": 1
 }

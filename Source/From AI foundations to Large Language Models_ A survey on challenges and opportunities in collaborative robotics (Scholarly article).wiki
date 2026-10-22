@@ -1,0 +1,7 @@
+{{ScholarlyArticle}}
+
+== Abstract ==
+
+''from OpenAlex:''
+
+In recent years, advances in artificial intelligence have significantly enhanced the capabilities of robots in collaborative settings, improving perception, reasoning, planning, and interaction with human partners. This survey provides a comprehensive analysis of different approaches used in Human–Robot Collaboration (HRC) for manufacturing, assembly, and industrial production. Particular attention is given to the emerging role of Large Language Models (LLMs) and Vision–Language Models (VLMs), which have recently been introduced to support high-level reasoning, task planning, and natural language interaction in collaborative robotics. Furthermore, we explore key aspects of HRC, including perception techniques that allow robots to interpret the environment, reasoning and task planning strategies that define the sequence of actions to reach objectives, and interaction modalities that enable natural Human–Robot Interaction (HRI). We also examine the hardware components used in these systems, such as sensors, cameras, and robotic platforms, highlighting their role in improving perception and task execution. Through a quantitative analysis of the literature, we show that while LLM- and VLM-based approaches represent a growing research direction, the majority of existing HRC systems still rely on more classical methods, not based on Foundational Models. Finally, we discuss current technological limitations, compare the reported performance of LLM/VLM-based and traditional approach…
