@@ -13,6 +13,8 @@ $$
 
 The absolute value of the scalar triple product calculates the volume of the parallelepiped spanned by the three vectors.
 
+[[File:Scalar-triple-product-parallelepiped.svg|thumb|center|560px|alt=Parallelepiped spanned by u, v and w, with the base parallelogram shaded and the three hidden edges dashed|The parallelepiped spanned by $\vec{u}$, $\vec{v}$ and $\vec{w}$. The shaded base spanned by $\vec{v}$ and $\vec{w}$ has area $\lvert\vec{v}\times\vec{w}\rvert$; the height $h=\lvert\vec{u}\rvert\,\lvert\cos\varphi\rvert$ is dropped from the tip of $\vec{u}$ onto the base plane, and the three edges hidden behind the solid are dashed.]]
+
 {{Hidden proof}}
 Base area: $|\vec{v}\times\vec{w}|$
 
