@@ -1,0 +1,5 @@
+{{Webpage}}
+
+== Overview ==
+
+Section of the open textbook Numerical Methods with Applications covering spline interpolation: the natural end condition, the outline of the cubic spline equations, and worked rocket-velocity data

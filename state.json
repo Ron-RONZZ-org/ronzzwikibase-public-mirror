@@ -716,9 +716,9 @@
     },
     "Cubic spline interpolation": {
       "path": "Main/Cubic spline interpolation.wiki",
-      "revid": 11033,
-      "sha256": "5355afcdaec61e24ce37655b6645e0c3d20be5ee6676c48dedb300828cc02cf1",
-      "synced_at": "2026-10-21T20:14:21+00:00"
+      "revid": 11160,
+      "sha256": "8aea6f93e782a2a6fc6e690ce6b3f848964f0cefab3c7fff60ea3b7f861d97f7",
+      "synced_at": "2026-10-22T18:44:57+00:00"
     },
     "Dark energy": {
       "path": "Main/Dark energy.wiki",
@@ -1331,6 +1331,12 @@
       "revid": 6999,
       "sha256": "b3945e13093cfadcfe0e13bc63f92b0a5d913e90f3c56118bdc1035f60d401e8",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Person:Autar Kaw": {
+      "path": "Person/Autar Kaw.wiki",
+      "revid": 11146,
+      "sha256": "4b8f3b650b25fe0261b75b6eddfc8abab80b0cc4225d5331e7e9658f6ef54122",
+      "synced_at": "2026-10-22T18:44:57+00:00"
     },
     "Person:Ben Bucksch": {
       "path": "Person/Ben Bucksch.wiki",
@@ -2406,6 +2412,12 @@
       "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:5.05: Spline Method of Interpolation (Webpage)": {
+      "path": "Source/5.05_ Spline Method of Interpolation (Webpage).wiki",
+      "revid": 11154,
+      "sha256": "9d3335d8ff295afb9b5e1594ba9c428cae8e594a1dbe03674f250d6362663690",
+      "synced_at": "2026-10-22T18:44:57+00:00"
+    },
     "Source:5.1: Polynomial Interpolation (Webpage)": {
       "path": "Source/5.1_ Polynomial Interpolation (Webpage).wiki",
       "revid": 9810,
@@ -2429,6 +2441,12 @@
       "revid": 11030,
       "sha256": "626c22c57957cca172b14db555f0ab5f4be3a801a1e329bd987bdd62afa4ee5c",
       "synced_at": "2026-10-21T19:38:37+00:00"
+    },
+    "Source:5.3: Cubic Spline Interpolation (Webpage)": {
+      "path": "Source/5.3_ Cubic Spline Interpolation (Webpage).wiki",
+      "revid": 11150,
+      "sha256": "2af43709df498b11706a7c7204e689eb22927f55a46154419e626f33a5a99eba",
+      "synced_at": "2026-10-22T18:44:57+00:00"
     },
     "Source:6.11: Noble Gases (Webpage)": {
       "path": "Source/6.11_ Noble Gases (Webpage).wiki",
@@ -3967,6 +3985,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-22T17:13:00+00:00",
+  "updated": "2026-10-22T18:44:57+00:00",
   "version": 1
 }
