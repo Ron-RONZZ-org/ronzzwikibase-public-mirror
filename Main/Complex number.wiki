@@ -3,7 +3,7 @@ A '''complex number''' is the sum of a [[real number]] with an [[imaginary numbe
 == Formal definition ==
 
 $$
-a+bi,\,  a,b \in \mathbb{R}
+a+bi,\, a,b \in \mathbb{R}
 $$
 
 is a '''complex number''', where $i$ is the [[imaginary number#Formal_definition|imaginary unit]].
@@ -13,3 +13,91 @@ The set of all complex numbers can be denoted by $\mathbb{C}$.
 == Complex plane ==
 
 See [[complex plane]].
+
+== Polar form ==
+
+All complex numbers $z=a+bi$ can be written in polar form $r\operatorname{cis}(\theta)$, where
+
+$$
+\operatorname{cis}(\theta)=\cos\theta+i\sin\theta \\
+a=r\cos\theta \\
+b=r\sin\theta
+$$
+
+It can therefore be inferred:
+
+$$
+r=\sqrt{a^2+b^2} \\
+\theta=
+\begin{cases}
+\arctan(\frac{b}{a}),\, a>0 \\
+\arctan(\frac{b}{a})+\pi,\, a<0 \\
+\frac{\pi}{2},\, a=0,b>0 \\
+-\frac{\pi}{2},\, a=0,b<0
+\end{cases}
+$$
+
+$r$ is also known as the '''modulus''' of $z$, denoted by $\left\| z \right\|$, and $\theta$ the argument of $z$, denoted by $\arg(z)$.
+<ref>{{#cite:Q2335}}</ref>
+
+=== Inverse, multiplication, division, and nth root in polar form ===
+
+If $z=r_1\operatorname{cis}(\theta_1),\, w=r_2\operatorname{cis}(\theta_2)$, then:
+
+$$
+z^{-1}= \frac{1}{r_1} \operatorname{cis}\left({-\theta_1}\right) = \frac{1}{r_1} \cos \theta_1 - \frac{1}{r_1} i\sin \theta_1 \tag{1}\\
+zw = r_1 r_2 \operatorname{cis}\left({\theta_1 + \theta_2}\right), \tag{2} \\
+\frac{z}{w} = \frac{r_1}{r_2} \operatorname{cis}\left({\theta_1 - \theta_2}\right). \tag{3} \\
+z^{\frac{1}{n}}=r_1^{\frac{1}{n}}\operatorname{cis}\left(\frac{\theta_1}{n}\right) \tag{4}
+$$
+
+<ref>{{#cite:Q2335}}</ref>
+{{Hidden proof}}
+'''Proof.'''
+
+For (1), multiply the numerator and the denominator by $\cos\theta_1-i\sin\theta_1$:
+
+$$
+\frac{1}{\cos\theta_1+i\sin\theta_1}=\frac{\cos\theta_1-i\sin\theta_1}{\left(\cos\theta_1+i\sin\theta_1\right)\left(\cos\theta_1-i\sin\theta_1\right)}=\frac{\cos\theta_1-i\sin\theta_1}{\cos^2\theta_1+\sin^2\theta_1}=\cos\theta_1-i\sin\theta_1,
+$$
+
+since $\cos^2\theta_1+\sin^2\theta_1=1$ and $i^2=-1$. Therefore
+
+$$
+z^{-1}=\frac{1}{r_1}\left(\cos\theta_1-i\sin\theta_1\right)=\frac{1}{r_1}\operatorname{cis}\left(-\theta_1\right)=\frac{1}{r_1}\cos\theta_1-\frac{1}{r_1}i\sin\theta_1.
+$$
+
+For (2), expand the product and group the real and the imaginary parts:
+
+$$
+zw=r_1r_2\left(\cos\theta_1+i\sin\theta_1\right)\left(\cos\theta_2+i\sin\theta_2\right)=r_1r_2\left[\left(\cos\theta_1\cos\theta_2-\sin\theta_1\sin\theta_2\right)+i\left(\sin\theta_1\cos\theta_2+\cos\theta_1\sin\theta_2\right)\right],
+$$
+
+and the angle-sum identities
+
+$$
+\cos\left(\theta_1+\theta_2\right)=\cos\theta_1\cos\theta_2-\sin\theta_1\sin\theta_2,\quad \sin\left(\theta_1+\theta_2\right)=\sin\theta_1\cos\theta_2+\cos\theta_1\sin\theta_2,
+$$
+
+give $zw=r_1r_2\left(\cos\left(\theta_1+\theta_2\right)+i\sin\left(\theta_1+\theta_2\right)\right)=r_1r_2\operatorname{cis}\left(\theta_1+\theta_2\right)$.
+
+For (3), apply (1) and (2):
+
+$$
+\frac{z}{w}=zw^{-1}=r_1\operatorname{cis}\left(\theta_1\right)\cdot\frac{1}{r_2}\operatorname{cis}\left(-\theta_2\right)=\frac{r_1}{r_2}\operatorname{cis}\left(\theta_1-\theta_2\right).
+$$
+
+For (4), repeated application of (2) gives $z^n=r_1^n\operatorname{cis}\left(n\theta_1\right)$ for every integer $n>0$, and (1) extends the identity to every integer $n<0$. If $\zeta=\rho\operatorname{cis}(\phi)$ is an $n$th root of $z$, then
+
+$$
+\rho^n\operatorname{cis}\left(n\phi\right)=r_1\operatorname{cis}\left(\theta_1\right),
+$$
+
+hence $\rho^n=r_1$ and $n\phi=\theta_1+2k\pi$ for some integer $k$. Since $\rho$ is a non-negative real number, $\rho=r_1^{\frac{1}{n}}$, and
+
+$$
+\phi=\frac{\theta_1+2k\pi}{n}.
+$$
+
+The choices $k=0,1,\dots,n-1$ give $n$ distinct arguments, hence the $n$ distinct $n$th roots of $z$; the choice $k=0$ is the root written in (4).
+{{End hidden}}

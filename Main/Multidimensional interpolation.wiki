@@ -1,0 +1,19 @@
+'''Multidimensional interpolation''' is the process of finding a multivariable function $f(x_1,\cdots,x_m)$ that for a definite set of datapoints $\{(x_1,\cdots,x_m,y)_i| i\in [0,n], i \in \mathbb{N}\}$ satisfies $f(x_1,\cdots,x_m)_i=y_i$.
+<!-- Consider spelling the evaluation point out, e.g. $f(x_{1,i},\cdots,x_{m,i}) = y_i$, rather than subscripting the whole tuple: as written, the $i$ on $f(\cdots)$ first reads as an index on the function itself. -->
+
+== Methods ==
+
+=== Grid interpolation ===
+
+If we know a "grid" of $n^m$ datapoints, i.e.,
+
+$$
+\{(x_{1,i_1},\cdots,x_{m,i_m},y_{i_1,\cdots,i_m})| i_1,\cdots,i_m \in [0,n-1],\, i_1,\cdots,i_m \in \mathbb{N}\}
+$$
+
+Then an $m$-dimensional interpolation can be obtained via $n^{m-1}$ one-dimensional interpolations on each variable, fixing all other variables at all possible combinations of known constant values.
+<!-- Worth stating the total: $m\,n^{m-1}$ one-dimensional interpolations in all. -->
+
+{{Hidden example}}
+<!-- add an example of 2d interpolation on temperature based on a grid of weather stations, show python code, 3D plot -->
+{{End hidden}}

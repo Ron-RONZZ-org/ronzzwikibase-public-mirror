@@ -260,7 +260,6 @@ plt.show()
 </syntaxhighlight>
 
 [[File:Rocket velocity cubic spline.png|thumb|none|560px|alt=Three stacked line charts: velocity against time with the measured points, the piecewise linear interpolant and two cubic splines; below it the corresponding accelerations, and below that the displacement since launch|Velocity against time (top), the corresponding acceleration $\dot v$ (middle), and the displacement $s(t)=\int_0^t v\,\mathrm{d}\tau$ accumulated since launch (bottom). The acceleration of the cubic splines is continuous at every knot; that of the piecewise linear interpolant jumps.]]
-<!-- pending: the uploaded PNG still holds the shaded 11 s to 16 s band of an earlier revision; re-run the plotting code above to regenerate it without the axvspan/axvline markers -->
 
 $$
 v(16) = 392.07\ \mathrm{m/s}, \qquad \dot{v}(16) = 29.67\ \mathrm{m/s^2}, \qquad s(16) = \int_{0}^{16} v(t)\,\mathrm{d}t = 2936.9\ \mathrm{m}.

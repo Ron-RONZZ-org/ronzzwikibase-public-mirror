@@ -692,9 +692,9 @@
     },
     "Complex number": {
       "path": "Main/Complex number.wiki",
-      "revid": 11006,
-      "sha256": "a906c1bf0de26f488039882e4a99cdfaebce609673a1774ef89c97bd8bb2a678",
-      "synced_at": "2026-10-21T14:52:51+00:00"
+      "revid": 11194,
+      "sha256": "1fc3db2131c4d74e6f36624bc3e911422ff95bf7244a0bb5b9049d92a23946ea",
+      "synced_at": "2026-10-23T11:50:59+00:00"
     },
     "Complex plane": {
       "path": "Main/Complex plane.wiki",
@@ -716,9 +716,9 @@
     },
     "Cubic spline interpolation": {
       "path": "Main/Cubic spline interpolation.wiki",
-      "revid": 11181,
-      "sha256": "0b4c2074c7eef2a9fbbaad6ae563280ace60aec4a1c8a0dffb0bffa364c719be",
-      "synced_at": "2026-10-22T19:50:36+00:00"
+      "revid": 11193,
+      "sha256": "403607aaefc398716f20657fca92d43ed90dc659a20b7e17d0969267f32147bf",
+      "synced_at": "2026-10-23T11:50:59+00:00"
     },
     "Dark energy": {
       "path": "Main/Dark energy.wiki",
@@ -1187,6 +1187,12 @@
       "revid": 9247,
       "sha256": "800d3c71c79a22cba18bb118ce89b422eee52c1f22e5825e48702a0cb7b7161c",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Multidimensional interpolation": {
+      "path": "Main/Multidimensional interpolation.wiki",
+      "revid": 11197,
+      "sha256": "59dbc0580dac761585793848ff5761bf1601f5f8f4f95b00091299f61e514762",
+      "synced_at": "2026-10-23T11:50:59+00:00"
     },
     "Norm": {
       "path": "Main/Norm.wiki",
@@ -3985,6 +3991,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-22T19:50:36+00:00",
+  "updated": "2026-10-23T11:50:59+00:00",
   "version": 1
 }
