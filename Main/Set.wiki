@@ -160,18 +160,11 @@ See [[direct product (sets)]].
 
 Let $A$ be a set, $X$ be some sets.
 
-If:
+The '''power set''' of $A$, $\mathcal{P}(A)$, is the set of all of its subsets:
 
 $$
 \mathcal{P}(A) = \{X |\forall X \subseteq A\}.
 $$
-
-Then 
-
-$\mathcal{P}(A)$ is the '''power set''' of $A$.
-
-<blockquote>
-Note the power set $\mathcal{P}(A)$ is a set of sets.
 
 {{Hidden example}}
 $$
@@ -179,13 +172,13 @@ $$
 $$
 {{End hidden}}
 
-</blockquote>
-
 It can be inferred:
 
 $$
 |\mathcal{P}(S)|=2^{|S|}
 $$
+
+when $|S|$ is finite.
 
 {{Hidden proof}}
 '''Proof by induction''':
