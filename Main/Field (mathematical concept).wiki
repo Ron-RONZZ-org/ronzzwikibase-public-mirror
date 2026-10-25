@@ -192,6 +192,60 @@ $$
 
 {{End hidden}}
 
+== Derived binary operations ==
+
+For convenience, [[binary operation]]s
+
+$$
+-_F: F \times F \to F \\
+\div_F: F \times F \to F
+$$
+
+are often derived from $+_F,\cdot_F$, s.t.
+
+$$
+\forall a,b \in F: a-_F b=a+_F(-b); \\
+\forall a,b \in F: a\div_F b=a\cdot_F \frac{1}{b};
+$$
+where $(-b),\frac{1}{b}$ are the additive/multiplicative inverses of $b$.
+
+=== Properties of derived binary operations ===
+
+==== $0_F-_F a=(-a);\, a \ne 0_F: 1_F\div_F a=\frac{1}{a}$ ====
+
+$\forall a \in F$
+
+{{Hidden proof}}
+By definition,
+
+$$
+0_F-_Fa=0_F+(-a)=(-a),
+1_F \div_F a=1_F \cdot_F \frac{1}{a}= \frac{1}{a}
+$$
+{{End hidden}}
+
+<blockquote>
+Since $a \ne 0_F: 1_F\div_F a=\frac{1}{a}$, $a \div_F b$ is often noted $\frac{a}{b}$. When $a=1$, $a \div_F b=\frac{1_F}{b}$ finds the multiplicative inverse of $b$, $\frac{1}{b}$, as expected.
+</blockquote>
+
+==== $-(a-_F b)=b-_F a,\, \frac{1}{a \div_F b}=b \div a$ ====
+
+{{Hidden proof}}
+$$
+-(a-_F b)=b-_F a \iff b-_F a \text{ is the additive inverse of } a-_F b \iff b -_F a + (a -_F b) = 0_F
+$$
+
+$b -_F a + (a -_F b) = b + (-a) + a +(-b)=0_F$, so $-(a-_F b)=b-_F$
+
+Similarly,
+
+$$
+\frac{1}{a \div_F b}=b \div_F a \iff a \div_F b \text{ is the multiplicative inverse of } b \div_F a \iff (a \div_F b) \cdot_F (b \div_F a)=1_F
+$$
+
+$(a \div_F b) \cdot_F (b \div_F a)=a \cdot_F \frac{1}{b} \cdot b \cdot_F \frac{1}{a}=1_F$, so $\frac{1}{a \div_F b}=b \div_F a$
+{{End hidden}}
+
 == Ordered field ==
 
 Define [[binary operation]] $-_F: F \times F \to F$, s.t.
