@@ -926,9 +926,9 @@
     },
     "Field (mathematical concept)": {
       "path": "Main/Field (mathematical concept).wiki",
-      "revid": 10275,
-      "sha256": "2fcfe98e4f2af9af28b837e52039115143ff772895362d046a90bf76d41fbdea",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "revid": 11218,
+      "sha256": "b7fe08fce495bd3a2dac701c278056a74d6f93f444764294b3afafcbc3d55c2e",
+      "synced_at": "2026-10-25T10:49:57+00:00"
     },
     "First-order ODE": {
       "path": "Main/First-order ODE.wiki",
@@ -2102,9 +2102,9 @@
     },
     "Ring (mathematical concept)": {
       "path": "Main/Ring (mathematical concept).wiki",
-      "revid": 10339,
-      "sha256": "933580a4b96443f5c2a9e2abaff58e87e0680adbbfd12b48f1dc304d9bd9f375",
-      "synced_at": "2026-10-18T07:23:26+00:00"
+      "revid": 11216,
+      "sha256": "507db32ca7b9c340b6d8d2fc8e044ad8bb95bd7734f33cbf47818659e950f30a",
+      "synced_at": "2026-10-25T10:49:57+00:00"
     },
     "Rolle's theorem": {
       "path": "Main/Rolle's theorem.wiki",
@@ -3991,6 +3991,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-25T10:40:43+00:00",
+  "updated": "2026-10-25T10:49:57+00:00",
   "version": 1
 }

@@ -4,7 +4,12 @@ It is a subclass of [[ring (mathematical concept)|rings]].
 
 == Formal definition ==
 
-Let $F:|F| \ge 2$ be a set, and $+_F,\cdot_F$ two [[binary operation|binary operations]] defined over $F$.
+Let $F:|F| \ge 2$ be a set, and $+_F,\cdot_F$ two [[binary operation|binary operations]] where
+
+$$
++_F: \mathbb{F} \times \mathbb{F} \to \mathbb{F}
+\cdot_F: \mathbb{F} \times \mathbb{F} \to \mathbb{F}
+$$
 
 If $\forall a,b,c \in F$:
 
@@ -17,7 +22,7 @@ If $\forall a,b,c \in F$:
 Then $(F,+_F,\cdot_F)$ is a '''field'''.
 
 <blockquote>
-Just like in [[ring|rings]], $+_F,\cdot_F$ do not have to take the usual definitions of $+,\cdot $.
+Just like [[ring (mathematical concept)|rings]], $+_F,\cdot_F$ do not have to take the usual definitions of $+,\cdot $.
 </blockquote>
 
 <blockquote>
@@ -25,13 +30,13 @@ The smallest field is $(\{0_F,1_F\},+_F,\cdot_F)$.
 </blockquote>
 
 <blockquote>
-Alternatively, a field can be defined as a [[ring]] with additional properties:
+Alternatively, a field can be defined as a [[ring (mathematical concept)|ring]] with additional properties:
 
 * $a \cdot_F b = b \cdot_F a$ ('''multiplicative commutativity''')
 * $\exists 1_F \in F: a \cdot_F 1_F=a$ ('''multiplicative identity''')
 * $\forall a \neq 0_F: \exists (a^{-1}) \in F, a\cdot_F (a^{-1})=1_F$ ('''multiplicative inverse''')
 
-Also, note unlike for rings, there is no need to specify distributivity for each slot. The slots for multiplication are symmetric in a field, because of multiplicative commutativity.
+Also, note unlike for [[ring (mathematical concept)|rings]], there is no need to specify distributivity for each slot. The slots for multiplication are symmetric in a field, because of multiplicative commutativity.
 </blockquote>
 
 <ref>{{#cite:Q2202}}</ref><ref>{{#cite:Q2204}}</ref>
