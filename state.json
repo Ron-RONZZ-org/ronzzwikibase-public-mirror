@@ -1190,9 +1190,9 @@
     },
     "Multidimensional interpolation": {
       "path": "Main/Multidimensional interpolation.wiki",
-      "revid": 11244,
-      "sha256": "733cfa62e3bac750e2a385c09623135b41551de816a08e834ab4eb57b7ec8c8f",
-      "synced_at": "2026-10-25T15:12:36+00:00"
+      "revid": 11274,
+      "sha256": "b5f529a665e001cca2e781f6cd61ee3ebc5ccf16ab3053859ce20ac92a1f613d",
+      "synced_at": "2026-10-25T15:26:48+00:00"
     },
     "Norm": {
       "path": "Main/Norm.wiki",
@@ -1734,6 +1734,12 @@
       "sha256": "53f752cfb15e985db110a699bbf65ede16be97bb930c53912a7685af7d8c943f",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:Mariano Gasca": {
+      "path": "Person/Mariano Gasca.wiki",
+      "revid": 11256,
+      "sha256": "e59595d699f028aead97163bcfbb816915fb1a34c9ce29cb135f291cc998e0b6",
+      "synced_at": "2026-10-25T15:26:48+00:00"
+    },
     "Person:Martin Kutta": {
       "path": "Person/Martin Kutta.wiki",
       "revid": 7327,
@@ -1847,6 +1853,12 @@
       "revid": 7007,
       "sha256": "6e8eb39992d4e3fcd07f80e1c995ae30d9ff97d3f152ca7b3435d56f2edd6b1e",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Richard D. Neidinger": {
+      "path": "Person/Richard D. Neidinger.wiki",
+      "revid": 11252,
+      "sha256": "22293e41f4331d1a46cbba76357d4eca2c7064b0bfcb4dda2f5186e05a2a4a92",
+      "synced_at": "2026-10-25T15:26:48+00:00"
     },
     "Person:Richard Seroter": {
       "path": "Person/Richard Seroter.wiki",
@@ -1973,6 +1985,12 @@
       "revid": 10679,
       "sha256": "75be0d1138ec7b67b044efe0f7eb6cb9bed6f08ba8edc43af93968fa072f8058",
       "synced_at": "2026-10-19T19:39:31+00:00"
+    },
+    "Person:Thomas Sauer": {
+      "path": "Person/Thomas Sauer.wiki",
+      "revid": 11260,
+      "sha256": "e59595d699f028aead97163bcfbb816915fb1a34c9ce29cb135f291cc998e0b6",
+      "synced_at": "2026-10-25T15:26:48+00:00"
     },
     "Person:Tim Starling": {
       "path": "Person/Tim Starling.wiki",
@@ -3438,6 +3456,12 @@
       "sha256": "e7ff36a45d87b0dc913fb0c886aa069fef424be09e84d03306bc9b97323b1ff8",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Multivariate Polynomial Interpolation in Newton Forms (Scholarly article)": {
+      "path": "Source/Multivariate Polynomial Interpolation in Newton Forms (Scholarly article).wiki",
+      "revid": 11264,
+      "sha256": "32b564779b32fd3383c6af2dea36721a4f8d52589eae17f42bb10507cf93e43f",
+      "synced_at": "2026-10-25T15:26:48+00:00"
+    },
     "Source:Méditations poétiques (Book)": {
       "path": "Source/Méditations poétiques (Book).wiki",
       "revid": 8784,
@@ -3557,6 +3581,12 @@
       "revid": 6085,
       "sha256": "2b6b5407330653582d8817e99145e7bd2dafdd5f138b6b8be9f73d13b600d35c",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:Polynomial interpolation in several variables (Scholarly article)": {
+      "path": "Source/Polynomial interpolation in several variables (Scholarly article).wiki",
+      "revid": 11268,
+      "sha256": "c80fa5627927579d3c295a4495894a7228810167d082b75aa5c27787a84c898b",
+      "synced_at": "2026-10-25T15:26:48+00:00"
     },
     "Source:Portfolio: Carrie Beckwith-Fellows (Webpage)": {
       "path": "Source/Portfolio_ Carrie Beckwith-Fellows (Webpage).wiki",
@@ -3997,6 +4027,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-25T15:12:36+00:00",
+  "updated": "2026-10-25T15:26:48+00:00",
   "version": 1
 }

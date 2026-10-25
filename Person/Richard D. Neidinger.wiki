@@ -1,0 +1,5 @@
+{{Person}}
+
+== Overview ==
+
+mathematician, author of the 2019 SIAM Review exposition of multivariate polynomial interpolation in Newton forms

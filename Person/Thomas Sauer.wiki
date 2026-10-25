@@ -1,0 +1,5 @@
+{{Person}}
+
+== Overview ==
+
+mathematician, co-author of the 2000 survey on polynomial interpolation in several variables

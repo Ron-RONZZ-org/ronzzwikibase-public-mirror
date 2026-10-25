@@ -11,8 +11,176 @@ $$
 $$
 
 Then an $m$-dimensional interpolation can be obtained via $n^{m-1}$ one-dimensional interpolations on each variable, fixing all other variables at all possible combinations of known constant values.
-<!-- Worth stating the total: $\sum_{k=0}^{m-1} n^k=\frac{n^m-1}{n-1}$ one-dimensional interpolations in all; note that $m\,n^{m-1}$ overcounts, because each pass shrinks the grid by one dimension. -->
+
+Each of those interpolations runs along one axis-parallel line of the grid. Along $x_j$ there are $n^{m-1}$ such lines, one for each combination of the other $m-1$ indices, so the construction uses $m\,n^{m-1}$ one-dimensional interpolations in all, one per line, each independent of the others.
+
+The line interpolants on their own do not single out $f$; they are combined multiplicatively, by requiring $f$ to be a polynomial of degree at most $n-1$ in each variable separately:
+
+$$
+f(x_1,\cdots,x_m)=\sum_{i_1=0}^{n-1}\cdots\sum_{i_m=0}^{n-1}y_{i_1,\cdots,i_m}\prod_{j=1}^{m}L^{(j)}_{i_j}(x_j),\qquad L^{(j)}_{i}(x)=\prod_{\substack{k=0\\k\neq i}}^{n-1}\frac{x-x_{j,k}}{x_{j,i}-x_{j,k}}
+$$
+
+where $L^{(j)}_i$ is the [[Polynomial_interpolation#Lagrange_polynomial|Lagrange basis polynomial]] of the variable $x_j$. The result is the '''tensor product''' interpolant, and it is the unique polynomial of degree at most $n-1$ in each variable that reproduces the $n^m$ datapoints<ref>{{#cite:Q2392}}</ref>.
 
 {{Hidden example}}
-<!-- add an example of 2d interpolation on temperature based on a grid of weather stations, show python code, 3D plot -->
+'''Surface temperature over a square of weather stations.''' Sixteen stations sit on a $4\times4$ grid, spaced $1^\circ$ of longitude apart from west to east and $1^\circ$ of latitude apart from south to north. The readings are synthetic, constructed for this example:
+
+{| class="wikitable"
+|+ Temperature ($^\circ$C) at each station
+! latitude $\downarrow$ / longitude $\rightarrow$ !! $0^\circ$E !! $1^\circ$E !! $2^\circ$E !! $3^\circ$E
+|-
+! $53^\circ$N
+| 18.4 || 19.1 || 20.6 || 21.8
+|-
+! $52^\circ$N
+| 20.1 || 20.9 || 22.3 || 23.5
+|-
+! $51^\circ$N
+| 21.7 || 22.5 || 23.9 || 25.0
+|-
+! $50^\circ$N
+| 22.8 || 23.6 || 24.9 || 26.1
+|}
+
+With $m=2$ and $n=4$, the whole surface takes $m\,n^{m-1}=2\cdot4=8$ one-dimensional interpolations: one along each of the four longitude lines, and one along each of the four latitude lines.
+
+<syntaxhighlight lang="python" copy>
+import numpy as np
+
+def lagrange_weights(x_nodes, x):
+    """Weights w_i such that sum(w_i * f(x_i)) interpolates f at x."""
+    x_nodes = np.asarray(x_nodes, dtype=float)
+    w = np.ones_like(x_nodes)
+    for i in range(x_nodes.size):
+        for j in range(x_nodes.size):
+            if i != j:
+                w[i] *= (x - x_nodes[j]) / (x_nodes[i] - x_nodes[j])
+    return w
+
+longitude = np.array([0.0, 1.0, 2.0, 3.0])           # degrees east
+latitude = np.array([50.0, 51.0, 52.0, 53.0])        # degrees north
+temperature = np.array([[22.8, 23.6, 24.9, 26.1],
+                        [21.7, 22.5, 23.9, 25.0],
+                        [20.1, 20.9, 22.3, 23.5],
+                        [18.4, 19.1, 20.6, 21.8]])   # row = latitude, column = longitude
+
+# along each longitude line, at 1.4 E
+rows = np.array([lagrange_weights(longitude, 1.4) @ temperature[i] for i in range(4)])
+
+# then along the latitude line through those four values, at 51.6 N
+print(lagrange_weights(latitude, 51.6) @ rows)       # 22.1162...
+</syntaxhighlight>
+
+Plotting the whole surface only needs the same weights, taken in pairs:
+
+<syntaxhighlight lang="python" copy>
+import matplotlib.pyplot as plt
+
+lon_plot = np.linspace(0.0, 3.0, 121)
+lat_plot = np.linspace(50.0, 53.0, 121)
+surface = np.array([[lagrange_weights(latitude, y) @ temperature @ lagrange_weights(longitude, x)
+                     for x in lon_plot] for y in lat_plot])
+
+fig = plt.figure(figsize=(9.0, 6.8))
+ax = fig.add_subplot(111, projection="3d")
+ax.set_box_aspect((1.35, 1.0, 0.62))
+mesh_lon, mesh_lat = np.meshgrid(lon_plot, lat_plot)
+surf = ax.plot_surface(mesh_lon, mesh_lat, surface, cmap="RdYlBu_r", linewidth=0,
+                       antialiased=True, rstride=2, cstride=2, alpha=0.92)
+ax.scatter(np.tile(longitude, 4), np.repeat(latitude, 4), temperature.ravel(),
+           s=70, color="#c0392b", edgecolor="black", linewidth=0.9,
+           depthshade=False, label="16 weather stations")
+ax.scatter([1.4], [51.6], [22.116], s=170, color="black", marker="X",
+           depthshade=False, label=r"query point (1.4$^\circ$E, 51.6$^\circ$N)")
+ax.set_xlabel(r"longitude ($^\circ$E)", labelpad=10)
+ax.set_ylabel(r"latitude ($^\circ$N)", labelpad=10)
+ax.set_zlabel(r"temperature ($^\circ$C)", labelpad=8)
+ax.set_xticks(longitude)
+ax.set_yticks(latitude)
+ax.set_zlim(16.5, 26.5)
+ax.view_init(elev=34, azim=-56)
+fig.colorbar(surf, shrink=0.55, pad=0.10, aspect=24,
+             label=r"interpolated temperature ($^\circ$C)")
+ax.legend(loc="upper left", frameon=False, fontsize=9)
+plt.tight_layout()
+plt.show()
+</syntaxhighlight>
+
+[[File:Bicubic grid interpolation temperature.png|thumb|none|560px|alt=Three-dimensional plot of a gently curving temperature surface over a longitude-latitude grid, with the sixteen station readings marked as red dots and one query point marked with a cross|The interpolating surface through the sixteen station readings. Each of the four longitude and four latitude directions contributes one line interpolant; the surface is their tensor product. The query point at $1.4^\circ$E, $51.6^\circ$N is marked with a cross.]]
+
+The temperature falls from about $26\ ^\circ$C in the south-east to about $18\ ^\circ$C in the north-west, so the surface is dominated by a plane tilted towards the north-west, with a gentler curvature across it.
 {{End hidden}}
+
+=== Pointwise interpolation ===
+
+Pointwise interpolation (or '''point evaluation''') asks only for the value of $f$ at one new point $(x_1^*,\cdots,x_m^*)$ inside the data range, without constructing $f$ anywhere else. It uses the same grid of $n^m$ datapoints and the same one-dimensional interpolations, but chains them instead of laying them out side by side.
+
+In two dimensions, the first pass interpolates along $x_1$ inside each row $x_2=x_{2,i_2}$, at the target $x_1^*$:
+
+$$
+y^*_{i_2}=\sum_{i_1=0}^{n-1}L^{(1)}_{i_1}(x_1^*)\,y_{i_1,i_2},\qquad \forall i_2\in [0,n-1], i_2 \in \mathbb{N}
+$$
+
+The $n$ intermediate values $y^*_{i_2}$ sit at the coordinates $(x_1^*,x_{2,i_2})$, i.e., on a one-dimensional grid in $x_2$, so a second pass interpolates them at $x_2^*$:
+
+$$
+f(x_1^*,x_2^*)=\sum_{i_2=0}^{n-1}L^{(2)}_{i_2}(x_2^*)\,y^*_{i_2}
+$$
+
+The first pass costs $n$ one-dimensional interpolations and the second costs $1$. In $m$ dimensions the passes shrink by one variable each time, costing $n^{m-1}, n^{m-2}, \cdots, n^0$:
+
+$$
+\sum_{k=0}^{m-1}n^{k}=\frac{n^{m}-1}{n-1}
+$$
+
+which is the nested form
+
+$$
+f(x_1^*,\cdots,x_m^*)=\sum_{i_m=0}^{n-1}L^{(m)}_{i_m}(x_m^*)\sum_{i_{m-1}=0}^{n-1}L^{(m-1)}_{i_{m-1}}(x_{m-1}^*)\cdots\sum_{i_1=0}^{n-1}L^{(1)}_{i_1}(x_1^*)\,y_{i_1,\cdots,i_m}
+$$
+
+This count is smaller than the $m\,n^{m-1}$ of [[#Grid_interpolation|grid interpolation]], because the passes are not symmetric. In the first pass "all other variables" do range over $n^{m-1}$ combinations of known values, as in the grid case; afterwards one variable is pinned at the target $x_j^*$, which contributes one position instead of $n$. Nothing is thrown away: the two counts answer different questions, the value at one point and the whole surface.
+
+The order of the passes does not matter. Collapsing $x_1$ first and then $x_2$ gives the same number as collapsing $x_2$ first and then $x_1$, because the tensor product sum can be regrouped; every ordering evaluates the same polynomial of [[#Grid_interpolation|grid interpolation]]<ref>{{#cite:Q2391}}</ref>.
+
+{| class="wikitable"
+|+ One-dimensional interpolations needed, for $n=4$ stations per axis
+! $m$ !! grid interpolation, $m\,n^{m-1}$ !! pointwise, $\sum_{k=0}^{m-1}n^{k}$
+|-
+! 2
+| 8 || 5
+|-
+! 3
+| 48 || 21
+|-
+! 4
+| 256 || 85
+|}
+
+For a general number of variables the passes are most conveniently written as contractions, one per variable:
+
+<syntaxhighlight lang="python" copy>
+def grid_interpolate_point(axes, values, point):
+    """Interpolated value at `point` from an n_1 x ... x n_m grid.
+
+    axes   -- one 1-D array of node coordinates per variable, in the same order
+              as the axes of `values`
+    values -- m-dimensional array, values[i_1, ..., i_m]
+    point  -- the m query coordinates
+    """
+    data = np.asarray(values, dtype=float)
+    for axis in range(len(axes) - 1, -1, -1):        # collapse one variable per pass
+        data = np.tensordot(data, lagrange_weights(axes[axis], point[axis]),
+                            axes=([axis], [0]))
+    return float(data)
+</syntaxhighlight>
+
+For the station grid, `grid_interpolate_point([latitude, longitude], temperature, [51.6, 1.4])` returns `22.1162048...`, which is the two-pass calculation of the example above: four longitude interpolations give $24.094$, $23.038$, $21.433$, and $19.666\ ^\circ$C on the rows at $50$, $51$, $52$, and $53^\circ$N, and one latitude interpolation of those four values gives the reading at the query point.
+
+<blockquote>
+Because these readings happen to be close to planar, bilinear interpolation of the four stations surrounding the query point gives $22.100\ ^\circ$C, only $0.02\ ^\circ$C away from the grid interpolant. The two are not interchangeable, however: the bilinear interpolant is merely continuous where cells meet, whereas the grid interpolant is a single polynomial and therefore smooth everywhere.
+</blockquote>
+
+== References ==
+
+<references/>

@@ -1,0 +1,5 @@
+{{ScholarlyArticle}}
+
+== Overview ==
+
+Exposition of tensor-product multivariate polynomial interpolation in Newton form, with divided-difference algorithms for the coefficients and existence and uniqueness on multivariate grids
