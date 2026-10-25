@@ -45,9 +45,9 @@ $$
 3 a_{i} h_{i}+b_{i}=b_{i+1} ,\, \forall i \in [0,n-2], i \in \mathbb{N} \tag{10, n-1 equations}
 $$
 
-Notice there are $3n$ remaining degrees of freedom: $a_i,b_i,c_i\, \forall i \in [0,n-1], i \in \mathbb{N}$.
+Since each successive derivative eliminates one variable family (first $d_i$, second $c_i$), a sensible strategy of solution would be substitution of variables, e.g., rewriting everything in terms of $b_i$.
 
-To complete the set of unknowns, extend 10 up to $i=n-1$, which defines $b_n$:
+Notice one potential problem of this strategy is that $b_n$ remains undefined by 8-10. Since there are $3n$ remaining degrees of freedom: $a_i,b_i,c_i\, \forall i \in [0,n-1], i \in \mathbb{N}$, and only $3n-2$ equations, an additional condition on $b_n$ can be safely imposed by extending 10 up to $i=n-1$:
 
 $$
 3 a_{n-1} h_{n-1}+b_{n-1}=b_{n}
@@ -85,7 +85,7 @@ $$
 a_0=a_1, \qquad a_{n-2}=a_{n-1}.
 $$
 
-With equal leading coefficients, and with 2 to 4 already holding at $x_1$ and at $x_{n-1}$, the first two pieces become one and the same cubic, and so do the last two: the knots $x_1$ and $x_{n-1}$ stop being knots of the spline, hence the name. This smooths up the curves near the end-points.
+which coupled with 2 to 4 imposing continuity and twice differentiability at $x_1$ and at $x_{n-1}$, imposes effectively that $C_0=C_1$, $C_{n-2}=C_{n-1}$, i.e.,the first and last two cubic pieces become one, and points $(x_1,y_1)$ and $(x_{n-1},y_{n-1})$ stop being "knots" of the spline, hence the name. This smooths up the curves near the end-points.
 
 Using 11 on those additional conditions,
 
@@ -265,7 +265,7 @@ $$
 v(16) = 392.07\ \mathrm{m/s}, \qquad \dot{v}(16) = 29.67\ \mathrm{m/s^2}, \qquad s(16) = \int_{0}^{16} v(t)\,\mathrm{d}t = 2936.9\ \mathrm{m}.
 $$
 
-The three interpolants are compared below. The piecewise linear interpolant has no instantaneous acceleration: at $t = 16\ \mathrm{s}$ the tabulated value is the chord slope over the segment $[15, 20]\ \mathrm{s}$, which jumps at every knot.
+The cubic interpolant is compared with the piecewise and the natural cubic interpolants below.
 
 {| class="wikitable"
 |+ Estimates at $t = 16\ \mathrm{s}$, from three interpolants of the same six datapoints

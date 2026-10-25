@@ -716,9 +716,9 @@
     },
     "Cubic spline interpolation": {
       "path": "Main/Cubic spline interpolation.wiki",
-      "revid": 11193,
-      "sha256": "403607aaefc398716f20657fca92d43ed90dc659a20b7e17d0969267f32147bf",
-      "synced_at": "2026-10-23T11:50:59+00:00"
+      "revid": 11198,
+      "sha256": "8c37e9c9765cfe5df93f3a037adf2e05dbcbf0356fb682565682620dc030cf64",
+      "synced_at": "2026-10-25T09:30:07+00:00"
     },
     "Dark energy": {
       "path": "Main/Dark energy.wiki",
@@ -3991,6 +3991,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-23T11:50:59+00:00",
+  "updated": "2026-10-25T09:30:07+00:00",
   "version": 1
 }
