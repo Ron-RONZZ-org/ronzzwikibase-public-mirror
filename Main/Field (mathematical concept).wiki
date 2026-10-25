@@ -179,3 +179,40 @@ $$
 c\cdot x>_F c\cdot y
 $$
 {{End hidden}}
+
+==== $x^2 >_F 0_F$ (Positive definiteness of square) ====
+
+$\forall x \in F,\, x \ne 0_F$.
+
+if $x^n$
+
+$$
+\char"5E: F \times \mathbb{N} \to F
+$$
+is defined as $x\cdot_F x \cdots \cdot_F x$ (product of $n$ $x$)
+
+
+{{Hidden proof}}
+By definition of the positive cone, since $x \ne 0_F$
+
+$$
+x \in P \oplus -x \in P
+$$
+
+If $x \in P$:
+
+$$
+x^2=x \cdot_F x \in P
+$$
+
+since $P$ is closed under $\cdot_F$
+
+If $-x \in P$:
+
+$$
+x^2=(-x) \cdot_F (-x) \in P
+$$
+
+since $P$ is closed under $\cdot_F$
+
+{{End hidden}}
