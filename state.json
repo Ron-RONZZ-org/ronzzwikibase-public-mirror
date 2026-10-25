@@ -926,9 +926,9 @@
     },
     "Field (mathematical concept)": {
       "path": "Main/Field (mathematical concept).wiki",
-      "revid": 11241,
-      "sha256": "10256c0f40fd1d5136e581ff7d376b50d431836c4cb44b20fd2f497afc4767a9",
-      "synced_at": "2026-10-25T14:49:40+00:00"
+      "revid": 11243,
+      "sha256": "c08f8b58473115d5f6cd6671285c45d2f5d88c1443c517498c11b0cdd8a59d71",
+      "synced_at": "2026-10-25T15:12:36+00:00"
     },
     "First-order ODE": {
       "path": "Main/First-order ODE.wiki",
@@ -1190,9 +1190,9 @@
     },
     "Multidimensional interpolation": {
       "path": "Main/Multidimensional interpolation.wiki",
-      "revid": 11237,
-      "sha256": "099d19598f49221a39a187e3915ac728f4f8c59741b0780a2510f362198be556",
-      "synced_at": "2026-10-25T14:13:02+00:00"
+      "revid": 11244,
+      "sha256": "733cfa62e3bac750e2a385c09623135b41551de816a08e834ab4eb57b7ec8c8f",
+      "synced_at": "2026-10-25T15:12:36+00:00"
     },
     "Norm": {
       "path": "Main/Norm.wiki",
@@ -3997,6 +3997,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-25T14:49:40+00:00",
+  "updated": "2026-10-25T15:12:36+00:00",
   "version": 1
 }

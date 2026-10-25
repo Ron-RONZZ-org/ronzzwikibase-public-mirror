@@ -4,7 +4,7 @@
 
 === Grid interpolation ===
 
-If we know a "grid" of $n^m$ datapoints:
+If a "grid" of $n^m$ datapoints is known:
 
 $$
 \{(x_{1,i_1},\cdots,x_{m,i_m},y_{i_1,\cdots,i_m})\mid i_1,\cdots,i_m \in [0,n-1],\, i_1,\cdots,i_m \in \mathbb{N}\}
