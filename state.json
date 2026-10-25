@@ -1190,9 +1190,9 @@
     },
     "Multidimensional interpolation": {
       "path": "Main/Multidimensional interpolation.wiki",
-      "revid": 11197,
-      "sha256": "59dbc0580dac761585793848ff5761bf1601f5f8f4f95b00091299f61e514762",
-      "synced_at": "2026-10-23T11:50:59+00:00"
+      "revid": 11237,
+      "sha256": "099d19598f49221a39a187e3915ac728f4f8c59741b0780a2510f362198be556",
+      "synced_at": "2026-10-25T14:13:02+00:00"
     },
     "Norm": {
       "path": "Main/Norm.wiki",
@@ -3997,6 +3997,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-25T12:44:43+00:00",
+  "updated": "2026-10-25T14:13:02+00:00",
   "version": 1
 }
