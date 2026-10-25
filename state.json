@@ -1164,6 +1164,12 @@
       "sha256": "4f56fbf3670cf3d3af0b650d30660f9c0f9afb7a67fd18358ce46227f7598df2",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Maximum and minimum": {
+      "path": "Main/Maximum and minimum.wiki",
+      "revid": 11295,
+      "sha256": "21cfccba980d7ab586812b3f29f742ef1339e5bd21316fd6c1dae8e342caea23",
+      "synced_at": "2026-10-25T19:36:18+00:00"
+    },
     "Mechanics": {
       "path": "Main/Mechanics.wiki",
       "revid": 7791,
@@ -4051,6 +4057,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-25T19:21:48+00:00",
+  "updated": "2026-10-25T19:36:18+00:00",
   "version": 1
 }

@@ -1,0 +1,31 @@
+== Formal definition ==
+
+Let $(F,+_F,\cdot_F,>_F)$ be an [[field (mathematical concept)#Ordered_field|ordered field]]. Let $\ge_F$ denote $>_F \lor =$.
+
+$a_1\in A$ is the '''maximum''' of set $A \subseteq F$ if
+
+$$
+\forall a \in A, a_1 \ge_F a
+$$
+
+the '''minimum''' of set $A \subseteq F$ if
+
+$$
+\forall a \in A, a \ge_F a_1
+$$
+
+<blockquote>
+If $A$ is finite, then logically there should always be '''one or more''' maxima and minima. However, this is not always the case when $A$ is an infinite set.
+
+{{Hidden example}}
+Consider the set
+
+$$
+\{x \in \mathbb{Q} | x^2 < 2\}
+$$
+{{End hidden}}
+
+When a maximum or minimum exists, it is always simultaneously the [[supremum and infimum|supremum or infimum]] of the set.
+</blockquote>
+
+<ref>{{#cite:Q2396}}</ref>
