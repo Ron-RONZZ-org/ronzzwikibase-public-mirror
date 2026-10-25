@@ -926,9 +926,9 @@
     },
     "Field (mathematical concept)": {
       "path": "Main/Field (mathematical concept).wiki",
-      "revid": 11276,
-      "sha256": "0caff646de3c5daf7a99212f89ec3a470b0629c536e9626220bb2f150583964f",
-      "synced_at": "2026-10-25T17:49:53+00:00"
+      "revid": 11294,
+      "sha256": "c5b03fad38a25d85b57a06b76d9cb4a111f6dc04db12bfcf5e5bc0a5dd2ddc1e",
+      "synced_at": "2026-10-25T19:21:48+00:00"
     },
     "First-order ODE": {
       "path": "Main/First-order ODE.wiki",
@@ -1142,9 +1142,9 @@
     },
     "Lower bound, upper bound": {
       "path": "Main/Lower bound, upper bound.wiki",
-      "revid": 11282,
-      "sha256": "b416556b5f3a96a4073e26f3954f049fabdfa664ea2fe238f144fbabbe7e1275",
-      "synced_at": "2026-10-25T19:10:43+00:00"
+      "revid": 11293,
+      "sha256": "f521f5086677b07738c910dbc295eee702d4f00c1dd4cfcbee309023f389d17f",
+      "synced_at": "2026-10-25T19:21:48+00:00"
     },
     "Main Page": {
       "path": "Main/Main Page.wiki",
@@ -3984,6 +3984,12 @@
       "sha256": "2b4887bdfeab356aa5312f036777b888d36bad56ec91b024cc9691ddec873bf4",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Supremum and infimum": {
+      "path": "Main/Supremum and infimum.wiki",
+      "revid": 11292,
+      "sha256": "b19b2fa4d3aa3bdbf15268be815db9ccf17f8ace8060b7535976cf0b1d89b177",
+      "synced_at": "2026-10-25T19:21:48+00:00"
+    },
     "Technology": {
       "path": "Main/Technology.wiki",
       "revid": 7786,
@@ -4045,6 +4051,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-25T19:10:43+00:00",
+  "updated": "2026-10-25T19:21:48+00:00",
   "version": 1
 }

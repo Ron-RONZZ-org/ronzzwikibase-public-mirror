@@ -1,6 +1,6 @@
 == Formal definition ==
 
-Let $(F,+_F,\cdot_F,>_F) be an [[field (mathematical concept)#Ordered_field|ordered field]]. Let $\ge_F$ denote $>_F \lor =$.
+Let $(F,+_F,\cdot_F,>_F)$ be an [[field (mathematical concept)#Ordered_field|ordered field]]. Let $\ge_F$ denote $>_F \lor =$.
 
 $M\in F$ is an '''upper bound''' of set $A \subseteq F$ if
 
@@ -13,3 +13,14 @@ a '''lower bound''' of set $A \subseteq F$ if
 $$
 a \ge_F M,\, \forall a \in A
 $$
+
+<blockquote>
+Upper and lower bounds are not unique.
+
+{{Hidden example}}
+In $(\mathbb{R},+,\cdot,>)$, both $3$ and $2$ are upper bounds of $\{0,1\} \in \mathbb{R}$.
+{{End hidden}}
+</blockquote>
+
+
+<ref>{{#cite:Q2396}}</ref>

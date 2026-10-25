@@ -1,0 +1,23 @@
+== Formal definition ==
+
+Let $(F,+_F,\cdot_F,>_F)$ be an [[field (mathematical concept)#Ordered_field|ordered field]]. Let $\ge_F$ denote $>_F \lor =$.
+
+$M\in F$ is the '''supremum''' of set $A \subseteq F$ if
+
+$$
+M \ge_F a,\, \forall a \in A, \\
+\forall 0_F>_F\epsilon, \exists a \in A: a >_F M+\epsilon
+$$
+
+the '''infimum''' of set $A \subseteq F$ if
+
+$$
+a \ge_F M,\, \forall a \in A \\
+\forall \epsilon >_F 0_F, \exists a \in A:  M+\epsilon >_F a
+$$
+
+<blockquote>
+The '''suprenum''' is the smallest [[lower bound, upper bound|upper bound]], and the '''infimum''' is the largest [[lower bound, upper bound|lower bound]].
+</blockquote>
+
+<ref>{{#cite:Q2396}}</ref>

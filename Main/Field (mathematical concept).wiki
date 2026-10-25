@@ -395,3 +395,10 @@ $$
 since $P$ is closed under $\cdot_F$
 
 {{End hidden}}
+
+=== Lower bounds, upper bounds, supremum, infimum ===
+
+See
+
+* [[lower bound, upper bound]]
+* [[supremum and infimum]]
