@@ -120,6 +120,23 @@ $$
 
 {{End hidden}}
 
+==== $\forall a \in F,\, 0_F\cdot a =0_F $ ====
+
+{{Hidden proof}}
+By definition $0_F+0_F=0_F$, hence
+
+$$
+0_F\cdot a=(0_F+0_F)\cdot a=0_F\cdot a + 0_F \cdot a
+$$
+
+Add the additive inverse of $0_F \cdot a$, $(-0_F\cdot a)$ to both sides and by [[field (mathematical concept)#Formal_definition|associativity of $+_F$]]:
+
+$$
+0_F\cdot a+(-0_F \cdot a)=0_F\cdot a + (0_F \cdot a +(-0_F\cdot a))
+0_F=0_F\cdot a
+$$
+{{End hidden}}
+
 == Ordered field ==
 
 Define [[binary operation]] $-_F: F \times F \to F$, s.t.
