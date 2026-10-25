@@ -926,9 +926,9 @@
     },
     "Field (mathematical concept)": {
       "path": "Main/Field (mathematical concept).wiki",
-      "revid": 11275,
-      "sha256": "16e3e8c0d039f95e5ccb5f7d01278f2ebe9c11260dd86c27e445e683cfc27fde",
-      "synced_at": "2026-10-25T16:43:06+00:00"
+      "revid": 11276,
+      "sha256": "0caff646de3c5daf7a99212f89ec3a470b0629c536e9626220bb2f150583964f",
+      "synced_at": "2026-10-25T17:49:53+00:00"
     },
     "First-order ODE": {
       "path": "Main/First-order ODE.wiki",
@@ -4027,6 +4027,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-25T16:43:06+00:00",
+  "updated": "2026-10-25T17:49:53+00:00",
   "version": 1
 }

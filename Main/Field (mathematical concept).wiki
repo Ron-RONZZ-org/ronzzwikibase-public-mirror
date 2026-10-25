@@ -248,18 +248,33 @@ $(a \div_F b) \cdot_F (b \div_F a)=a \cdot_F \frac{1}{b} \cdot b \cdot_F \frac{1
 
 == Ordered field ==
 
-Define [[binary operation]] $-_F: F \times F \to F$, s.t.
+Define '''strict comparison operator''' $>_F$, s.t.
 
 $$
-\forall a,b \in F: a-_F b=a+_F(-b);
+\forall a, b \in F: \\
+a>_F b \iff a+(-b)>_F 0_F
 $$
 
-define '''strict comparison operators'''  $>_F,<_F$, s.t.
+Then, a field $(F,+_F,\cdot_F,>_F)$ is said to be '''ordered''' if
+
+$$
+\exists P=\{x \in F|x>_F0_F\}: \\
+\text{1. Closed under } +_F,\, \cdot_F, \\
+\text{2. }\forall x \in F: x \in P \oplus x=0_F \oplus -x \in P.
+$$
+
+$P$ is then known as the '''positive cone''' of $F$.
+
+=== Derived comparison operators: $<_F,\ge_F,\le_F$ ===
+
+For convenience,
+
+derive additional '''strict comparison operators'''  $<_F$, s.t.
 
 $$
 \forall a,b \in F: \\
 a>_F b \iff a-_F b >_F 0_F\\
-a<_F b \iff a-_F b <_F 0_F,
+a<_F b \iff b >_F a
 $$
 
 by [[#formal definition|definition of a field]],
@@ -269,23 +284,13 @@ $$
 a=b \iff a-_F b =0_F \iff a \text{ is the additive inverse of } b.
 $$
 
-then define '''non-strict comparison operators''' $\ge_F,\le_F$, s.t.
+then derive '''non-strict comparison operators''' $\ge_F,\le_F$, s.t.
 
 $$
 \forall a,b \in F: \\
 a \ge_F b \iff a>_F b \lor a=b \\
 a \le_F b \iff a<_F b \lor a=b.
 $$
-
-Then, a field $(F,+_F,\cdot_F)$ is said to be '''ordered''' if
-
-$$
-\exists P=\{x \in F|x>_F0_F\}: \\
-\text{1. Closed under } +_F,\, \cdot_F, \\
-\text{2. }\forall x \in F: x \in P \oplus x=0_F \oplus -x \in P.
-$$
-
-$P$ is then known as the '''positive cone''' of $F$.
 
 === Properties of an ordered field ===
 
@@ -296,12 +301,14 @@ $\forall x,y \in F$.
 {{Hidden proof}}
 Let $z=x-_F y \in F$, by definition of an ordered field, $z \in P \oplus z=0_F \oplus -z \in P$
 
+By [[field (mathematical concept)#$0_F-_F_a=(-a);\,_a_\ne_0_F:_1_F\div_F_a=\frac_1_a_$|property of $-_F$]], $(-z)=y-_F x$
+
 $$
 \Rightarrow 
 \begin{cases}
-z>_F 0 \iff x>_F y \\
-z=_F 0 \iff x=_F y \\
-z<_F 0 \iff x<_F y
+z>_F 0_F \iff x>_F y \\
+z=_F 0_F \iff x=_F y \\
+-z>_F 0_F \iff y>_F y \iff x<_F y
 \end{cases}
 $$
 
