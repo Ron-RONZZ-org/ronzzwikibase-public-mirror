@@ -1,0 +1,14 @@
+A '''right-handed coordinate system''' is an [[orthonormal basis]] used to model 3-dimensional [[Euclidean space]] with a particular direction convention.
+
+[[File:Right-handed-coordinate-system.svg|300px|center]]
+
+== Formal definition ==
+
+Let $\mathbb{E}^3$ be a three dimensional [[Euclidean space]].
+
+An orthonormal vector list $(\hat x, \hat y, \hat z)$ satisfying the following condition is a '''right-handed coordinate system''':
+
+* Using a right human hand, point the index finger and the thumb in the direction of $\hat x,\hat z$ respectively,
+* then the middle finger can point to the direction of $\hat y$.
+
+<ref>{{#cite:Q2324}}</ref>

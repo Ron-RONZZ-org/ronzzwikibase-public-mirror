@@ -926,9 +926,9 @@
     },
     "Field (mathematical concept)": {
       "path": "Main/Field (mathematical concept).wiki",
-      "revid": 11218,
-      "sha256": "b7fe08fce495bd3a2dac701c278056a74d6f93f444764294b3afafcbc3d55c2e",
-      "synced_at": "2026-10-25T10:49:57+00:00"
+      "revid": 11219,
+      "sha256": "c8f1417b240f9a7c9b2d287a7b490e502e6386d2d9fb17fbfa4d01dcaaf93c45",
+      "synced_at": "2026-10-25T11:11:54+00:00"
     },
     "First-order ODE": {
       "path": "Main/First-order ODE.wiki",
@@ -2100,11 +2100,17 @@
       "sha256": "cf40638d1fa53ade063d26ec9ed183b91e3bffe19931e8d242e4784bf5600104",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Right-handed coordinate system": {
+      "path": "Main/Right-handed coordinate system.wiki",
+      "revid": 11232,
+      "sha256": "b04dcd4e5cddb56fd1ad4c5acc95761dca89123e1a9a449f23df5b647f359467",
+      "synced_at": "2026-10-25T11:11:54+00:00"
+    },
     "Ring (mathematical concept)": {
       "path": "Main/Ring (mathematical concept).wiki",
-      "revid": 11216,
-      "sha256": "507db32ca7b9c340b6d8d2fc8e044ad8bb95bd7734f33cbf47818659e950f30a",
-      "synced_at": "2026-10-25T10:49:57+00:00"
+      "revid": 11220,
+      "sha256": "b54e706cd1ee853525f1a95a68ebf9408b7fa8d2a6d59085da5ea388dff29347",
+      "synced_at": "2026-10-25T11:11:54+00:00"
     },
     "Rolle's theorem": {
       "path": "Main/Rolle's theorem.wiki",
@@ -3991,6 +3997,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-25T10:49:57+00:00",
+  "updated": "2026-10-25T11:11:54+00:00",
   "version": 1
 }

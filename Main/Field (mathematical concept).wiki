@@ -7,8 +7,8 @@ It is a subclass of [[ring (mathematical concept)|rings]].
 Let $F:|F| \ge 2$ be a set, and $+_F,\cdot_F$ two [[binary operation|binary operations]] where
 
 $$
-+_F: \mathbb{F} \times \mathbb{F} \to \mathbb{F}
-\cdot_F: \mathbb{F} \times \mathbb{F} \to \mathbb{F}
++_F: F \times F \to F ,\, 
+\cdot_F: F \times F \to F
 $$
 
 If $\forall a,b,c \in F$:

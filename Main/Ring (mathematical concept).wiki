@@ -2,9 +2,12 @@ A ring is a [[set]] closed under two binary operations, with some special proper
 
 == Formal definition ==
 
-Let $R:|R| \ge 1$ be a set, and $+_R,\cdot_R$ two [[binary operation|binary operations]] defined over $R$.
+Let $R:|R| \ge 1$ be a set, and $+_R,\cdot_R$ two [[binary operation|binary operations]] where
 
-If $\forall a,b,c \in R$:
+$$
++_C: C \times C \to C,\,  
+\cdot_C: C \times C \to C
+$$
 
 * $a+_Rb=b+_Ra$ ('''additive commutativity''')
 * $(a+_Rb)+_Rc=a+_R(b+_Rc);(a \cdot_R b)\cdot_R c = a \cdot (b \cdot_R c)$ ('''associativity''')
