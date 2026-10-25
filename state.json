@@ -1674,6 +1674,12 @@
       "sha256": "6060cda800e5ece12487e1d7eec770aa5e66258ea498a2925ce2e4682abae507",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:Joshua Johnson": {
+      "path": "Person/Joshua Johnson.wiki",
+      "revid": 11281,
+      "sha256": "271c88935d000e546970faf8425ec9ba15766ae2d754198adb901afbd70c07e2",
+      "synced_at": "2026-10-25T18:16:09+00:00"
+    },
     "Person:Junio Hamano": {
       "path": "Person/Junio Hamano.wiki",
       "revid": 6434,
@@ -4027,6 +4033,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-25T17:49:53+00:00",
+  "updated": "2026-10-25T18:16:09+00:00",
   "version": 1
 }
