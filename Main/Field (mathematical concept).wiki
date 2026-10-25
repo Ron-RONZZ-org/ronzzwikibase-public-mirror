@@ -74,6 +74,52 @@ For each of the $F$ below, $(F,+_F,\cdot_F )$, where $+_F,\cdot_F=+,\cdot$ unles
 | $a=2 \in \mathbb{N}: \nexists (2^{-1}) \in \mathbb{Z}$
 |}
 
+== Properties ==
+
+=== $\exists ! 1_F,0_F$ (Uniqueness of identities) ===
+
+{{Hidden proof}}
+Suppose $\exists 1_F,1'_F$ two multiplicative identities
+
+Then by definition $\forall a \in F$, $a\cdot 1_F = 1_F,\, a \cdot 1'_F = 1'_F$
+Since $1_F \in F$, $1_F=1_F \cdot 1'_F=1'_F$
+
+Suppose $\exists 0_F,0'_F$ two additive identities
+
+Then by definition $\forall a \in F$, $a+0_F = 0_F,\, a+0'_F = a$
+Since $0_F,0_F \in F$, $0'_F+0_F=0_F,\, 0_F+0'_F=0'_F$
+
+By [[field (mathematical concept)#Formal_definition|commutativity of $+_F$]], $0'_F+0_F=0_F+0'_F$,
+
+Hence $0_F=0'_F$.
+
+Therefore both the additive and multiplicative identities must be unique.
+{{End hidden}}
+
+=== $\forall a \in F,\, \exists ! (-a)$ (Uniqueness of additive inverse) ===
+
+{{Hidden proof}}
+Suppose $\exists (-a),(-a)'$ two additive inverses of $a$, by definition
+
+$$
+a+(-a)'=0_F=a+(-a)
+$$
+
+Add $(-a)$ to both sides:
+
+$$
+a+(-a)'+(-a)=a+(-a)+(-a)
+$$
+
+By [[field (mathematical concept)#Formal_definition|commutativity and associativity of $+_F$]],
+
+$$
+(a+(-a))+(-a)'=(a+(-a))+(-a)
+(-a)'=(-a)
+$$
+
+{{End hidden}}
+
 == Ordered field ==
 
 Define [[binary operation]] $-_F: F \times F \to F$, s.t.
