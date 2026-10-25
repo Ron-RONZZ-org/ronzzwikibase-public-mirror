@@ -1140,6 +1140,12 @@
       "sha256": "40fc9395648ffad08ee1b5b76e6aff510ca0d1a8c2ff59f34be4b10ce655cf6c",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Lower bound, upper bound": {
+      "path": "Main/Lower bound, upper bound.wiki",
+      "revid": 11282,
+      "sha256": "b416556b5f3a96a4073e26f3954f049fabdfa664ea2fe238f144fbabbe7e1275",
+      "synced_at": "2026-10-25T19:10:43+00:00"
+    },
     "Main Page": {
       "path": "Main/Main Page.wiki",
       "revid": 10591,
@@ -3720,6 +3726,12 @@
       "sha256": "4f0fbf9550d78e3a57c7bad46885024c1ee88d235e13c1267cf7890d62ba8abc",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Supremum and Infimum - Algebrica (Webpage)": {
+      "path": "Source/Supremum and Infimum - Algebrica (Webpage).wiki",
+      "revid": 11288,
+      "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
+      "synced_at": "2026-10-25T19:10:43+00:00"
+    },
     "Source:TED (YouTube channel)": {
       "path": "Source/TED (YouTube channel).wiki",
       "revid": 8932,
@@ -4033,6 +4045,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-25T18:16:09+00:00",
+  "updated": "2026-10-25T19:10:43+00:00",
   "version": 1
 }

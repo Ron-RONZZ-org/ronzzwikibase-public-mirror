@@ -1,0 +1,15 @@
+== Formal definition ==
+
+Let $(F,+_F,\cdot_F,>_F) be an [[field (mathematical concept)#Ordered_field|ordered field]]. Let $\ge_F$ denote $>_F \lor =$.
+
+$M\in F$ is an '''upper bound''' of set $A \subseteq F$ if
+
+$$
+M \ge_F a,\, \forall a \in A;
+$$
+
+a '''lower bound''' of set $A \subseteq F$ if
+
+$$
+a \ge_F M,\, \forall a \in A
+$$
