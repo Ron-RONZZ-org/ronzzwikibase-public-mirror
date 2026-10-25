@@ -73,3 +73,109 @@ For each of the $F$ below, $(F,+_F,\cdot_F )$, where $+_F,\cdot_F=+,\cdot$ unles
 | $\mathbb{Z}$
 | $a=2 \in \mathbb{N}: \nexists (2^{-1}) \in \mathbb{Z}$
 |}
+
+== Ordered field ==
+
+Define [[binary operation]] $-_F: F \times F \to F$, s.t.
+
+$$
+\forall a,b \in F: a-_F b=a+_F(-b);
+$$
+
+define '''strict comparison operators'''  $>_F,<_F$, s.t.
+
+$$
+\forall a,b \in F: \\
+a>_F b \iff a-_F b >_F 0_F\\
+a<_F b \iff a-_F b <_F 0_F,
+$$
+
+by [[#formal definition|definition of a field]],
+
+$$
+\forall a,b \in F: \\
+a=b \iff a-_F b =0_F \iff a \text{ is the additive inverse of } b.
+$$
+
+then define '''non-strict comparison operators''' $\ge_F,\le_F$, s.t.
+
+$$
+\forall a,b \in F: \\
+a \ge_F b \iff a>_F b \lor a=b \\
+a \le_F b \iff a<_F b \lor a=b.
+$$
+
+Then, a field $(F,+_F,\cdot_F)$ is said to be '''ordered''' if
+
+$$
+\exists P=\{x \in F|x>_F0_F\}: \\
+\text{1. Closed under } +_F,\, \cdot_F, \\
+\text{2. }\forall x \in F: x \in P \oplus x=0_F \oplus -x \in P.
+$$
+
+$P$ is then known as the '''positive cone''' of $F$.
+
+=== Properties of an ordered field ===
+
+==== $x>_F y \oplus x=_F y \oplus x<_F y$ (Trichotomy) ====
+
+$\forall x,y \in F$.
+
+{{Hidden proof}}
+Let $z=x-_F y \in F$, by definition of an ordered field, $z \in P \oplus z=0_F \oplus -z \in P$
+
+$$
+\Rightarrow 
+\begin{cases}
+z>_F 0 \iff x>_F y \\
+z=_F 0 \iff x=_F y \\
+z<_F 0 \iff x<_F y
+\end{cases}
+$$
+
+{{End hidden}}
+
+==== $x>_F y \iff x+c>_F y+c$ (Compatibility over addition) ====
+
+$\forall x,y,c \in F$.
+
+{{Hidden proof}}
+$$
+\because x>_F y \\
+\therefore x-_F y >_F 0_F \\
+\therefore (x+c)-_F (y+c) >_F 0_F \\
+\therefore x+c>y+c
+$$
+
+{{End hidden}}
+
+==== $x>_F y \iff c\cdot x>_F c\cdot y$ (Compatibility over multiplication by positive) ====
+
+$\forall x,y \in F,\, c \in P$.
+
+{{Hidden proof}}
+$$
+\because x>_F y \\
+\therefore x-_F y >_F 0_F
+$$
+
+Let $z=x-_F y$, by definition of the positive cone, $z \in P$
+
+Since $c \in P$, by closeness of $\cdot_F$ over $P$, 
+
+$$
+c\cdot(x-_F y) \in P \iff c \cdot(x-_F y) > 0_F
+$$
+
+By [[field (mathematical concept)#Formal_definition|distributivity]] of field $F$,
+
+$$
+c\cdot x -_F c \cdot y= c \cdot(x-_F y) > 0_F
+$$
+
+By definition of the comparators,
+
+$$
+c\cdot x>_F c\cdot y
+$$
+{{End hidden}}
