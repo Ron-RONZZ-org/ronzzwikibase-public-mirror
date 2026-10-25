@@ -137,6 +137,22 @@ $$
 $$
 {{End hidden}}
 
+==== $\forall a \in F,\, (-1_F)\cdot a = (-a)$ ====
+
+where $(-1_F)$ is the multiplicative inverse of $1_F$.
+
+{{Hidden proof}}
+
+$$
+a+(-1_F)\cdot a= 1_F \cdot a+(-1_F)\cdot a= (1+(-1_F))\cdot a = 0_F \cdot a =0
+$$
+since [[field (mathematical concept)#$\forall_a_\in_F,\,_0_F\cdot_a_=0_F_$|$\forall a \in F,\, 0_F\cdot a =0_F$]].
+
+Hence by [[field (mathematical concept)#Formal_definition|definition]], $(-1_F)\cdot a$ is the additive inverse of $a$
+
+Since $(-a)$ is also the additive inverse of $a$, and [[field (mathematical concept)#(Uniqueness_of_additive_inverse)|the additive inverse is unique]], hence $(-1_F)\cdot a = (-a)$.
+{{End hidden}}
+
 == Ordered field ==
 
 Define [[binary operation]] $-_F: F \times F \to F$, s.t.
@@ -252,7 +268,7 @@ if $x^n$
 $$
 \char"5E: F \times \mathbb{N} \to F
 $$
-is defined as $x\cdot_F x \cdots \cdot_F x$ (product of $n$ $x$)
+is defined as $x\cdot_F x \cdots \cdot_F x$ (product of $n$ $x$s)
 
 
 {{Hidden proof}}
