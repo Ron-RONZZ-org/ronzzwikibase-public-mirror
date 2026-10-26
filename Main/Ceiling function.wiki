@@ -1,0 +1,25 @@
+The '''ceiling function''', often denoted by $\lceil \ \rceil$, finds the smallest integer no smaller than a [[real number]].
+
+{{Hidden example}}
+$$
+\lceil 4.5 \rceil = 5 \\
+\lceil \pi \rceil = 4 \\
+\lceil -1 \rceil = -1 \\
+$$
+{{End hidden}}
+
+== Formal definition ==
+
+$$
+\lceil \ \rceil: \mathbb{R} \to \mathbb{Z},\\
+\forall x \in \mathbb{R},\, \lceil x \rceil =
+\begin{cases}
+x, & x \in \mathbb{Z},\\
+\min(\{z\in \mathbb{Z}| z>x\}), & \text{elsewise}.
+\end{cases}
+$$
+
+== See also ==
+
+* [[floor function]]
+* [[function]]

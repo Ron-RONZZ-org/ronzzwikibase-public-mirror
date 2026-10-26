@@ -62,3 +62,29 @@ $$
 which is itself a Dedekind cut, equal to the largest Dedekind cut in $\mathcal{A}$.
 
 {{End hidden}}
+
+== Properties ==
+
+=== $\forall r \in \mathbb{R}: \exists n \in \mathbb{N},\, n>r$ (Archimedean property) ===
+
+{{Hidden proof}}
+
+$\forall r \in \mathbb{R}$, let
+
+$$
+n=
+\begin{cases}
+0, & r<0, \\
+\lfloor r \rfloor +1, & \text{elsewise}.
+\end{cases}
+$$
+
+where $\lfloor \rfloor$ is the [[floor function]].
+
+then
+
+$$
+n \in \mathbb{N}, n>r
+$$
+
+{{End hidden}}

@@ -60,6 +60,12 @@
       "sha256": "6ff10261dd3d42d096d1c80e014985afafdb73ac94d3abde12c46168ff81cd54",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Ceiling function": {
+      "path": "Main/Ceiling function.wiki",
+      "revid": 11312,
+      "sha256": "0e1b5aca876dc58df41b978c9df8eb88e1ea00ed50a90012153c2c82bdf6a2fd",
+      "synced_at": "2026-10-26T17:40:19+00:00"
+    },
     "Centre of gravity": {
       "path": "Main/Centre of gravity.wiki",
       "revid": 9170,
@@ -944,9 +950,9 @@
     },
     "Floor function": {
       "path": "Main/Floor function.wiki",
-      "revid": 11309,
-      "sha256": "ea6cbdf9b597e67a4fe5dbf9467b592030de6479daca9a97608a22dd3482aa07",
-      "synced_at": "2026-10-26T17:17:56+00:00"
+      "revid": 11311,
+      "sha256": "69676064ae74aa0da6742bc668ce27af5f4cd83a09337c71c579ad48d34686b7",
+      "synced_at": "2026-10-26T17:40:19+00:00"
     },
     "French Literature/fr": {
       "path": "Main/French Literature/fr.wiki",
@@ -1079,6 +1085,12 @@
       "revid": 8538,
       "sha256": "1ec0df4841ca396b6a98a9510a68d57bbd2d38e24fa3b435121a931044e15037",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Integer": {
+      "path": "Main/Integer.wiki",
+      "revid": 11316,
+      "sha256": "41f0ccc5d6377341b9cb4e3c2fb4df292b9377c23675737646b84c75e88572a0",
+      "synced_at": "2026-10-26T17:40:19+00:00"
     },
     "Interval": {
       "path": "Main/Interval.wiki",
@@ -2132,9 +2144,9 @@
     },
     "Rational number": {
       "path": "Main/Rational number.wiki",
-      "revid": 11307,
-      "sha256": "a4a252a97c44c2de76b90fcfa9a17d3b5df0cee0e2153363eb2aeea93bc5b94c",
-      "synced_at": "2026-10-26T16:56:48+00:00"
+      "revid": 11315,
+      "sha256": "40decca407e5e092d5823a2852a20c1d6a7c1b47d3a9e995d787e1d76c01a080",
+      "synced_at": "2026-10-26T17:40:19+00:00"
     },
     "Real line": {
       "path": "Main/Real line.wiki",
@@ -2144,9 +2156,9 @@
     },
     "Real number": {
       "path": "Main/Real number.wiki",
-      "revid": 11302,
-      "sha256": "a41c559a320b9d0f0b6f575e11e53cafac5abe73e3f90a7272bee3e38c6d8b45",
-      "synced_at": "2026-10-26T15:52:26+00:00"
+      "revid": 11314,
+      "sha256": "b0b298bbaa4053d039949b7f089d0948c3cf39117fb2c03ae2f914cf135008ac",
+      "synced_at": "2026-10-26T17:40:19+00:00"
     },
     "Real vector space": {
       "path": "Main/Real vector space.wiki",
@@ -4075,6 +4087,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-26T17:17:56+00:00",
+  "updated": "2026-10-26T17:40:19+00:00",
   "version": 1
 }

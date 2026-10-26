@@ -1,4 +1,4 @@
-'''Rational numbers''' are numbers that can be written as fractions of integers.
+'''Rational numbers''' are numbers that can be written as fractions of [[integer]]s.
 
 The set of all rational numbers is often denoted by $\mathbb{Q}$, and
 

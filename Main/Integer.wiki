@@ -1,0 +1,15 @@
+'''Integers''' are [[number]]s that can be written as the difference between two [[natural number]]s.
+
+The set of all integers is often denoted by $\mathbb{Z}$, and
+
+$$
+z \in \mathbb{Z} \iff \exists a,b \in \mathbb{N}, z=a-b
+$$
+
+== Formal definition ==
+
+$$
+\mathbb{Z} = \left(\mathbb{N} \times \mathbb{N}\right)/\sim,
+$$
+
+where $\sim: \forall a,b,c,d \in \mathbb{N},\, (a,b) \sim (c,d) \iff a-b = c-d$.

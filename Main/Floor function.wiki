@@ -1,4 +1,4 @@
-The '''floor function''', often denoted by $\lfloor \ \rfloor$, finds the largest integer no larger than a real number.
+The '''floor function''', often denoted by $\lfloor \ \rfloor$, finds the largest integer no larger than a [[real number]].
 
 {{Hidden example}}
 $$
@@ -11,10 +11,15 @@ $$
 == Formal definition ==
 
 $$
-\lfloor \ \rfloor: \mathbb{R} \to \mathbb{N},\\
+\lfloor \ \rfloor: \mathbb{R} \to \mathbb{Z},\\
 \forall x \in \mathbb{R},\, \lfloor x \rfloor =
 \begin{cases}
-x, & x \in \mathbb{N},\\
-\max(\{n\in \mathbb{N}| n<x\}), & \text{elsewise}.
+x, & x \in \mathbb{Z},\\
+\max(\{z\in \mathbb{Z}| z<x\}), & \text{elsewise}.
 \end{cases}
 $$
+
+== See also ==
+
+* [[ceiling function]]
+* [[function]]
