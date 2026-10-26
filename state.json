@@ -2124,6 +2124,12 @@
       "sha256": "1e630696103fa488d89b01b053454bc34d2546fd5dfa087857f28574327be288",
       "synced_at": "2026-10-19T15:14:50+00:00"
     },
+    "Rational number": {
+      "path": "Main/Rational number.wiki",
+      "revid": 11307,
+      "sha256": "a4a252a97c44c2de76b90fcfa9a17d3b5df0cee0e2153363eb2aeea93bc5b94c",
+      "synced_at": "2026-10-26T16:56:48+00:00"
+    },
     "Real line": {
       "path": "Main/Real line.wiki",
       "revid": 10756,
@@ -4063,6 +4069,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-26T15:52:26+00:00",
+  "updated": "2026-10-26T16:56:48+00:00",
   "version": 1
 }

@@ -1,0 +1,15 @@
+'''Rational numbers''' are numbers that can be written as fractions of integers.
+
+The set of all rational numbers is often denoted by $\mathbb{Q}$, and
+
+$$
+q \in \mathbb{Q} \iff \exists a,b \in \mathbb{Z}, q=\frac{b}{a}
+$$
+
+== Formal definition ==
+
+$$
+\mathbb{Q} = \left(\mathbb{Z} \times (\mathbb{Z}\setminus\{0\})\right)/\sim,
+$$
+
+where $\sim: \forall a,b,c,d \in \mathbb{Z},\, (a,b) \sim (c,d) \iff ad = bc$.
