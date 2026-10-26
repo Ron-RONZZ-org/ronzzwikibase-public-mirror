@@ -139,7 +139,7 @@ $$
 
 ==== $\forall a \in F,\, (-1_F)\cdot a = (-a)$ ====
 
-where $(-1_F)$ is the multiplicative inverse of $1_F$.
+where $(-1_F)$ is the additive inverse of $1_F$.
 
 {{Hidden proof}}
 
@@ -181,15 +181,6 @@ $$
 (-a)\cdot(-a)=(-1_F\cdot a)\cdot(-1_F \cdot a)=((-1_F)(-1_F))\cdot(a\cdot a)= 1_F \cdot (a\cdot a)=a \cdot a
 $$
 by [[field (mathematical concept)#$\forall_a_\in_F,\,_(-1_F)\cdot_a_=_(-a)$|property]], [[field (mathematical concept)#Formal_definition|commutativity and associativity of $\cdot_F$]], and [[field (mathematical concept)#$(-1_F)(-1_F)=1_F$|property]].
-
-Hence $(-1_F)(-1_F)$ is an additive inverse of $(-1_F)$ by [[field (mathematical concept)#Formal_definition|definition]].
-
-Since [[field (mathematical concept)#(Uniqueness_of_additive_inverse)|the additive inverse is unique]] and $1_F$ is the additive inverse of $(-1_F)$,
-
-$$
-(-1_F)(-1_F)=1_F.
-$$
-
 {{End hidden}}
 
 == Derived binary operations ==

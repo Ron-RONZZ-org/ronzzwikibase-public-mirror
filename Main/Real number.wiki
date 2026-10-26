@@ -1,1 +1,64 @@
-#REDIRECT [[number#Categories]]
+'''Real numbers''' are numbers that are either [[rational number|rational]] or [[number#Categories|irrational]].
+
+== Formal definition ==
+
+The set of all real numbers $\mathbb{R}$ is a '''complete''' [[field (mathematical concept)#Ordered_field|ordered field]].
+
+Here, completeness means that any non-empty subset of $\mathbb{R}$ bounded above has a '''least upper bound''' in $\mathbb{R}$.
+
+i.e.,
+
+$$
+\forall S \in \mathbb{R},\, S \ne \emptyset,\, \exists b: \forall s \in S, s \le b,\,  \\
+\exists \operatorname{sup}(S) \in \mathbb{R}.
+$$
+
+=== Via [[Dedekind cut]] ===
+
+$$
+\mathbb{R}=\{A\subset\mathbb{Q}:A\text{ is a Dedekind cut}\}.
+$$
+
+Where each [[Dedekind cut]] $A$ is declared to be a real number.
+
+{{Hidden proof}}
+Recall:
+
+{{#content:Q2400}}
+
+To prove that the set of all Dedekind cuts is indeed a complete ordered field, recall the definition of [[field (mathematical concept)#Formal_definition|field]] and [[field (mathematical concept)#Ordered_field|orderness]].
+
+'''Qualification as field''':
+
+$$
+A>B \iff B \subset A \tag{order} \\
+0_\mathbb{R}=\{q\in\mathbb{Q}:q<0_\mathbb{Q}\} \tag{additive identity} \\
+1_\mathbb{R}=\{q\in\mathbb{Q}:q<1_\mathbb{Q}\} \tag{multiplicative identity} \\
+A+B=\{a+b:a\in A,\ b\in B\} \tag{addition} \\
+-A=\{q\in\mathbb{Q}:\exists s\notin A,\, q<-s\} \tag{additive inverse} \\
+A\cdot B=
+\begin{cases}
+\{q\in\mathbb{Q}:\exists a\in A,\ b\in B,\ q<ab\}, & A>0_\mathbb{R},\ B>0_\mathbb{R},\\
+0_\mathbb{R}, & A=0_\mathbb{R} \lor B=0_\mathbb{R},\\
+-\big(A\cdot(-B)\big), & A>0_\mathbb{R},\ B<0_\mathbb{R},\\
+-\big((-A)\cdot B\big), & A<0_\mathbb{R},\ B>0_\mathbb{R},\\
+(-A)\cdot(-B), & A<0_\mathbb{R},\ B<0_\mathbb{R}.
+\end{cases} \tag{multiplication} \\
+A^{-1}=
+\begin{cases}
+\left\{q\in\mathbb{Q}:\exists s\notin A\text,\, q<\frac{1}{s}\right\}, & A>0_\mathbb{R}, \\
+-(-A)^{-1}, & A<0_\mathbb{R}.
+\end{cases} \tag{multiplicative inverse}
+$$
+
+'''Completeness''':
+
+Let $\mathcal{A}$ be a set of Dedekind cuts, then its supremum is simply the union of those Dedekind cuts, i.e.,
+
+$$
+\operatorname{sup}(\mathcal{A})=\bigcup_{A\in\mathcal{A}}A.
+$$
+
+which is itself a Dedekind cut, equal to the largest Dedekind cut in $\mathcal{A}$.
+
+{{End hidden}}
