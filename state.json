@@ -1226,9 +1226,9 @@
     },
     "Number": {
       "path": "Main/Number.wiki",
-      "revid": 10246,
-      "sha256": "a010ffdffa5d554b2aca22367bde5f1d081c61ff3c33ae58cf065d9dd710ff88",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "revid": 11299,
+      "sha256": "79e25e8222c45c67042a28a97ad77e12e68ab07fc67de99864b2b8cb78dcdc9e",
+      "synced_at": "2026-10-26T15:18:48+00:00"
     },
     "Ordinary differential equation": {
       "path": "Main/Ordinary differential equation.wiki",
@@ -4063,6 +4063,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-26T14:18:30+00:00",
+  "updated": "2026-10-26T15:18:48+00:00",
   "version": 1
 }

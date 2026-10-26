@@ -8,12 +8,12 @@
 ** e.g., $0,1,2,3\cdots$
 * '''Integers $\mathbb{Z}$''': extension of natural numbers to their negative counterparts, used to measure quantities that can be less than 0, like temperature
 ** e.g., $-10,-5,5,10\cdots$
-* '''Rational numbers''' $\mathbb{Q}$: extension of integers to their fractions, used to count discrete objects that can be divided, like $\frac{1}{2}$ cup of a water, $\frac{2}{3}$ of a cucumber pie
+* '''[[Rational number]]s''' $\mathbb{Q}$: extension of integers to their fractions, used to count discrete objects that can be divided, like $\frac{1}{2}$ cup of a water, $\frac{2}{3}$ of a cucumber pie
 ** e.g., $2,2.5,-\frac{8847}{8848}\cdots$
 <blockquote>
 A decimal number like $2.5$ is a rational number if it can be written in fractions of integers. e.g., $2.5=\frac{5}{2}$.
 </blockquote>
-* '''Real numbers $\mathbb{R}$''': extension of rationals to include decimals that cannot be written as fractions, known as '''irrationals''', like $\pi$
+* '''[[Real number]]s $\mathbb{R}$''': extension of rationals to include decimals that cannot be written as fractions, known as '''irrationals''', like $\pi$
 <blockquote>
 '''Irrational numbers''' are infinite, non-periodic decimals that cannot be written in fractions of integers.
 
