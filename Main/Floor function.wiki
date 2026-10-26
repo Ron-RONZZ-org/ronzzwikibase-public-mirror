@@ -1,0 +1,20 @@
+The '''floor function''', often denoted by $\lfloor \ \rfloor$, finds the largest integer no larger than a real number.
+
+{{Hidden example}}
+$$
+\lfloor 4.5 \rfloor = 4 \\
+\lfloor \pi \rfloor = 3 \\
+\lfloor -1 \rfloor = -1 \\
+$$
+{{End hidden}}
+
+== Formal definition ==
+
+$$
+\lfloor \ \rfloor: \mathbb{R} \to \mathbb{N},\\
+\forall x \in \mathbb{R},\, \lfloor x \rfloor =
+\begin{cases}
+x, & x \in \mathbb{N},\\
+\max(\{n\in \mathbb{N}| n<x\}), & \text{elsewise}.
+\end{cases}
+$$
