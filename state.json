@@ -1074,6 +1074,12 @@
       "sha256": "1ec0df4841ca396b6a98a9510a68d57bbd2d38e24fa3b435121a931044e15037",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Interval": {
+      "path": "Main/Interval.wiki",
+      "revid": 11297,
+      "sha256": "9e6ad914f6521f2d0e17cc44046c2281458d45bf253528402156e8bdde5ef71f",
+      "synced_at": "2026-10-26T14:18:30+00:00"
+    },
     "Kronecker delta function": {
       "path": "Main/Kronecker delta function.wiki",
       "revid": 8549,
@@ -4057,6 +4063,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-25T19:36:18+00:00",
+  "updated": "2026-10-26T14:18:30+00:00",
   "version": 1
 }

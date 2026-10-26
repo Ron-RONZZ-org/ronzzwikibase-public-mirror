@@ -1,0 +1,26 @@
+== Formal definition ==
+
+Let $(F,+_F,\cdot_F,>_F)$ be an [[field (mathematical concept)#Ordered_field|ordered field]]. Let $\ge_F$ denote $>_F \lor =$.
+
+$I \subseteq F$ is said to be an '''interval''' over $F$ between $a,b \in F,\, b \ge_F a$ if
+
+$$
+I=\{c \in F|b >_F c >_F a\} \tag{Open interval} \\
+\lor \\
+I=\{c \in F|b \ge_F c \ge_F a\} \tag{Closed interval}
+$$
+
+== Notation ==
+
+An interval $I$ between $a,b \in F,\, b \ge_F a$ is denoted:
+
+$$
+I=(a,b) \tag{Open interval} \\
+I=[a,b] \tag{Closed interval}
+$$
+
+== Properties ==
+
+=== $\max([a,b])=b,\, \min([a,b])=a$ ===
+
+which is a simple result of [[maximum and minimum|definition of maximum and minimum]]. In other words, it is a [[axiomatic system#Corollaries|corollary of the definition]].
