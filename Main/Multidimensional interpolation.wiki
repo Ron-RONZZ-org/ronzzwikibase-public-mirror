@@ -230,100 +230,81 @@ As observed, the surface is dominated by a plane tilted gently downwards from th
 
 == Pointwise interpolation ==
 
-Pointwise interpolation (or '''point evaluation''') asks only for the value of $f$ at one new point $(x_1^*,\cdots,x_m^*)$ inside the data range, without constructing $f$ anywhere else. It fixes what is to be computed, not how $f$ is defined: the rule of interpolation is free, and only one number is wanted out of it.
+Pointwise interpolation estimates the value of $y$ at one particular point, $y(x_1^*,\cdots,x_m^*)$, without constructing a general interpolating function.
 
-'''One variable at a time.''' A grid is a family of lines, one along each variable, and each of those lines is an ordinary one-dimensional dataset. A one-dimensional rule applied to the lines of one direction, and then to the lines of the next, reaches the query point. [[Person:Jeffrey R. Chasnov|Chasnov]] states the two-variable case in full: on an $(n+1)\times(n+1)$ grid, first perform $n+1$ one-dimensional interpolations to find the interpolant at the $n+1$ points $(x_0,y^*),\cdots,(x_n,y^*)$, then a single one-dimensional interpolation to find it at $(x^*,y^*)$; MATLAB's <code>interp2</code> and <code>interp3</code> address exactly this problem<ref>{{#cite:Q2421}}</ref>.
+=== via successive 1D interpolation in each variable ===
 
-'''The rule, named once.''' Let
-
-$$
-\mathcal{I}\big[\{v_k\}_{k=0}^{n-1}\big](t)
-$$
-
-be the value at $t$ that the chosen rule gives to readings $v_0,\cdots,v_{n-1}$ at nodes $t_0,\cdots,t_{n-1}$. The rule may be [[Piecewise_linear_interpolation|piecewise linear]], a cubic spline with whatever end condition ([[Cubic_spline_interpolation|cubic spline interpolation]]), a monotone scheme, or a single polynomial through the whole line; only the arithmetic inside a pass changes.
-
-'''Two variables.''' With readings $y_{i_1,i_2}$ on $n$ nodes per axis, a pass along $x_2$ holds $x_1$ at each of its nodes in turn:
+If a "grid" of $n^m$ datapoints, i.e., values of $y$ at all possible combinations of $n$ particular values in each of the $m$ variables
 
 $$
-y^*_{i_1}=\mathcal{I}\big[\{y_{i_1,i_2}\}_{i_2=0}^{n-1}\big](x_2^*),\qquad \forall i_1\in [0,n-1],\, i_1 \in \mathbb{N}
+\{(x_{1,i_1},\cdots,x_{m,i_m},y_{i_1,\cdots,i_m})\mid i_1,\cdots,i_m \in [0,n-1],\, i_1,\cdots,i_m \in \mathbb{N}\}
 $$
 
-The $n$ values $y^*_{i_1}$ are the interpolant at $(x_{1,i_1},x_2^*)$, i.e., readings on the line $x_2=x_2^*$, so one more pass finishes:
+is known, then first perform $n^{m-1}$ 1D interpolation in $x_1$, fixing $x_2,\cdots,x_m$ at all known values, obtaining $n^{m-1}$ interpolating functions $f^{(x_1)}_{i_2,i_3,\cdots,i_m}(x_1)$
+
+Now evaluate each $f^{(x_1)}$ at $x_1=x_1^*$ to obtain $n^{m-1}$ interpolated datapoints
 
 $$
-f(x_1^*,x_2^*)\approx\mathcal{I}\big[\{y^*_{i_1}\}_{i_1=0}^{n-1}\big](x_1^*)
+\{(x_1^*,x_{2,i_2},\cdots,x_{m,i_m},y_{x_1^*,i_2,\cdots,i_m})\mid i_2,\cdots,i_m \in [0,n-1],\, i_2,\cdots,i_m \in \mathbb{N}\}
 $$
 
-'''$m$ variables.''' Each pass removes one variable, leaving $n^{m-1}$ values, then $n^{m-2}$, down to one, so the passes cost $n^{m-1},n^{m-2},\cdots,n^0$ interpolations whatever the rule, that is $(n^m-1)/(n-1)$ in all; for $n=4$ and $m=2,3,4$ that is $5$, $21$, and $85$. A rule that reads only the nodes bracketing its target needs only the lines that bracket the target, so a local rule costs two readings a line and two lines a pass.
+Then perform $n^{m-2}$ 1D interpolation in $x_2$, fixing $x_3,\cdots,x_m$ at all known values, obtaining $n^{m-2}$ interpolating functions $f^{(x_2)}_{i_3,\cdots,i_m}(x_2)$
 
-'''Any order.''' For a rule linear in its readings, with weights $\varphi_k$ fixed by the nodes and by the target, the two passes give
-
-$$
-f(x_1^*,x_2^*)=\sum_{i_1=0}^{n-1}\sum_{i_2=0}^{n-1}\varphi^{(1)}_{i_1}(x_1^*)\,\varphi^{(2)}_{i_2}(x_2^*)\,y_{i_1,i_2}
-$$
-
-whose products are the same under either nesting, so the order of the passes is free<ref>{{#cite:Q2391}}</ref>.
-
-'''The station grid again, by hand.''' Take the sixteen readings of [[#Grid_interpolation|grid interpolation]] and the query at $1.4^\circ$E, $51.6^\circ$N, and take the rule for a line of unit spacing to be the cubic through its four readings, written in differences:
+Now evaluate each $f^{(x_2)}$ at $x_2=x_2^*$ to obtain $n^{m-2}$ interpolated datapoints
 
 $$
-C(u)=w_0+\Delta w_0\,u+\frac{\Delta^2 w_0}{2}u(u-1)+\frac{\Delta^3 w_0}{6}u(u-1)(u-2)
+\{(x_1^*,x_2^*,x_{3,i_3}, \cdots,x_{m,i_m},y_{x_1^*,x_2^*,i_3,\cdots,i_m})\mid i_3,\cdots,i_m \in [0,n-1],\, i_3,\cdots,i_m \in \mathbb{N}\}
 $$
 
-where $u$ is the distance from the first node and $\Delta$ is the forward difference of the line's readings. On four nodes this is what a not-a-knot spline gives as well, a single cubic piece spanning the line. At $u=1.4$ the last two coefficients are $u(u-1)/2=0.28$ and $u(u-1)(u-2)/6=-0.056$, the same on every parallel, so each longitude pass costs three multiplications on top of its reading:
+Then perform $n^{m-3}$ 1D interpolation in $x_3$, $n^{m-4}$ 1D interpolation in $x_4$... $n$ 1D interpolation in $x_{m-1}$, and finally $1$ 1D interpolation in $x_m$ to obtain one interpolating function $f^{(x_m)}$.
 
-* $50^\circ$N, $\Delta=(0.8,1.3,1.2)$, $\Delta^2=(0.5,-0.1)$, $\Delta^3=-0.6$: $22.8+1.4(0.8)+0.28(0.5)-0.056(-0.6)=24.0936$
-* $51^\circ$N, $\Delta=(0.8,1.4,1.1)$, $\Delta^2=(0.6,-0.3)$, $\Delta^3=-0.9$: $21.7+1.4(0.8)+0.28(0.6)-0.056(-0.9)=23.0384$
-* $52^\circ$N, $\Delta=(0.8,1.4,1.2)$, $\Delta^2=(0.6,-0.2)$, $\Delta^3=-0.8$: $20.1+1.4(0.8)+0.28(0.6)-0.056(-0.8)=21.4328$
-* $53^\circ$N, $\Delta=(0.7,1.5,1.2)$, $\Delta^2=(0.8,-0.3)$, $\Delta^3=-1.1$: $18.4+1.4(0.7)+0.28(0.8)-0.056(-1.1)=19.6656$
+Then the estimate of $y$ at $(x_1^*,\cdots,x_m^*)$ is $f^{(x_m)}(x_m^*)$.<ref>{{#cite:Q2421}}</ref>
 
-Those four are readings on the line $x_1=1.4$, and the same rule on them at $u=1.6$, where $u(u-1)/2=0.48$ and $u(u-1)(u-2)/6=-0.064$, gives
+{{Hidden example}}
+'''Surface temperature over a square of weather stations, by successive 1D interpolation.'''
+
+Take the same sixteen weather stations as above.
+
+What is the interpolated temperature at $51.6^\circ \textbf{N}, 1.4^\circ \textbf{E}$?
+
+'''Algebraic solution''':
+
+'''Step 1: interpolate in $x_1$ (latitude).''' Fix the longitude at each of its four known values, and interpolate the four readings along latitude with the one-dimensional Lagrange polynomial, evaluated at $x_1^*=51.6$:
 
 $$
-24.0936+1.6(-1.0552)+0.48(-0.5504)-0.064(0.3888)=22.1162048
+L^{(x_1)}_{1}(51.6)=-0.056,\qquad L^{(x_1)}_{2}(51.6)=0.448,\qquad L^{(x_1)}_{3}(51.6)=0.672,\qquad L^{(x_1)}_{4}(51.6)=-0.064
 $$
 
-the number [[#Grid_interpolation|grid interpolation]] reached by summing its 16 monomials, obtained here without forming any of them.
+Hence the four interpolated readings
 
-The same passes in code, with the rule passed in as an argument:
+$$
+y_{x_1^*,i_2}=\sum_{i_1=1}^{4}y_{i_1,i_2}\,L^{(x_1)}_{i_1}(51.6),\qquad i_2=1,2,3,4
+$$
 
-<syntaxhighlight lang="python" copy>
-import numpy as np
-from scipy.interpolate import CubicSpline
+{| class="wikitable"
+|+ Interpolated temperature ($^\circ$C) at $51.6^\circ$N
+! longitude $x_{2,i_2}$ !! $0^\circ$E !! $1^\circ$E !! $2^\circ$E !! $3^\circ$E
+|-
+! $y_{x_1^*,i_2}$
+| 20.7744 || 21.5808 || 22.9800 || 24.1352
+|}
 
-temperature = np.array([[22.8, 23.6, 24.9, 26.1],
-                        [21.7, 22.5, 23.9, 25.0],
-                        [20.1, 20.9, 22.3, 23.5],
-                        [18.4, 19.1, 20.6, 21.8]])   # row = latitude, column = longitude
+'''Step 2: interpolate in $x_2$ (longitude).''' Interpolate these four readings along longitude with the one-dimensional Lagrange polynomial in $x_2$, evaluated at $x_2^*=1.4$:
 
-def passes(nodes, values, point, rule):
-    """Value at `point` of the grid interpolant, one one-dimensional pass per variable.
+$$
+L^{(x_2)}_{1}(1.4)=-0.064,\qquad L^{(x_2)}_{2}(1.4)=0.672,\qquad L^{(x_2)}_{3}(1.4)=0.448,\qquad L^{(x_2)}_{4}(1.4)=-0.056
+$$
 
-    nodes  -- node coordinates of each variable, in the order of the axes of `values`
-    values -- m-dimensional array of readings, values[i_1, ..., i_m]
-    rule   -- rule(nodes, readings, t), the one-dimensional rule evaluated at t
-    """
-    data = np.asarray(values, dtype=float)
-    for axis, target in enumerate(point):         # one pass per variable, first axis first
-        data = np.apply_along_axis(
-            lambda line: rule(np.asarray(nodes[axis], dtype=float), line, target), 0, data)
-    return float(data)
+$$
+P(51.6,1.4)=\sum_{i_2=1}^{4}y_{x_1^*,i_2}\,L^{(x_2)}_{i_2}(1.4)=-0.064(20.7744)+0.672(21.5808)+0.448(22.9800)-0.056(24.1352)
+$$
 
-linear  = lambda nodes, line, t: float(np.interp(t, nodes, line))
-spline  = lambda nodes, line, t: float(CubicSpline(nodes, line)(t))
-natural = lambda nodes, line, t: float(CubicSpline(nodes, line, bc_type="natural")(t))
+$$
+{}=22.1162
+$$
 
-latitude, longitude = np.arange(50.0, 54.0), np.arange(0.0, 4.0)
-for name, rule in [("piecewise linear", linear), ("natural cubic spline", natural),
-                   ("not-a-knot cubic spline", spline)]:
-    print(name, passes([latitude, longitude], temperature, [51.6, 1.4], rule))
-</syntaxhighlight>
-
-The spline line prints the value worked out above; the natural end condition gives $22.1157$ instead, and swapping the two variables in <code>nodes</code> and in <code>point</code> alike, with the readings transposed, returns the same three values.
-
-<blockquote>
-A rule that reads only the nodes bracketing its target does far less of this arithmetic. Piecewise linear passes at the same point touch only the four stations surrounding it: $0.6(22.5)+0.4(23.9)=23.06$ and $0.6(20.9)+0.4(22.3)=21.46$ along the parallels, then $0.4(23.06)+0.6(21.46)=22.10$ along the meridian. That is $0.02\ ^\circ$C from the grid interpolant, but the two are not interchangeable: the bilinear interpolant is merely continuous where cells meet, whereas the grid interpolant is a single polynomial and therefore smooth everywhere.
-</blockquote>
+which agrees with the value obtained above from the full two-variable polynomial, without ever forming that polynomial: $4$ one-dimensional interpolations in latitude, followed by $1$ in longitude, sufficed.
+{{End hidden}}
 
 == References ==
 
