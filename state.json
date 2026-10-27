@@ -468,6 +468,12 @@
       "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Jan Komara and Paul J. Voda": {
+      "path": "Collective/Jan Komara and Paul J. Voda.wiki",
+      "revid": 11482,
+      "sha256": "5e4d21f3ad0ced63022fc0fdee40e04fbe8b5407b750a54c7b416b24574ee32b",
+      "synced_at": "2026-10-27T16:13:35+00:00"
+    },
     "Collective:John Wiley & Sons": {
       "path": "Collective/John Wiley & Sons.wiki",
       "revid": 7027,
@@ -1274,9 +1280,9 @@
     },
     "Multidimensional interpolation": {
       "path": "Main/Multidimensional interpolation.wiki",
-      "revid": 11467,
-      "sha256": "028b4c3a5a0cb1b1a0393e5704a11f1d33d6110f5fa2ed57e59a72050c7d865a",
-      "synced_at": "2026-10-27T15:16:10+00:00"
+      "revid": 11477,
+      "sha256": "cb1320ad952f0df5a254094090f387cb9d8a518ecc0970f047c22fa267a2c0ad",
+      "synced_at": "2026-10-27T16:13:35+00:00"
     },
     "Natural number": {
       "path": "Main/Natural number.wiki",
@@ -3534,6 +3540,12 @@
       "sha256": "d77f5222e491ec4b2f5bfc17a397acf4ea506d3f003b99d34e20990caaf451d3",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Metamathematics of Computer Programming (Book)": {
+      "path": "Source/Metamathematics of Computer Programming (Book).wiki",
+      "revid": 11488,
+      "sha256": "0311d90e243f3be68c13d2082783458de88a2149eb53d4dd209d37db3d2db9bd",
+      "synced_at": "2026-10-27T16:13:35+00:00"
+    },
     "Source:Metz.fr (Website)": {
       "path": "Source/Metz.fr (Website).wiki",
       "revid": 9386,
@@ -4183,6 +4195,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-27T15:16:10+00:00",
+  "updated": "2026-10-27T16:13:35+00:00",
   "version": 1
 }
