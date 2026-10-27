@@ -3696,6 +3696,12 @@
       "sha256": "2b6b5407330653582d8817e99145e7bd2dafdd5f138b6b8be9f73d13b600d35c",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:PlanetMath.org (Website)": {
+      "path": "Source/PlanetMath.org (Website).wiki",
+      "revid": 11389,
+      "sha256": "e2b7187d629382df8b9f02b6b54374c5a84fdb39963ab2449f3e8f851adc3211",
+      "synced_at": "2026-10-27T11:14:31+00:00"
+    },
     "Source:Polynomial interpolation in several variables (Scholarly article)": {
       "path": "Source/Polynomial interpolation in several variables (Scholarly article).wiki",
       "revid": 11268,
@@ -4026,6 +4032,12 @@
       "sha256": "e2b7187d629382df8b9f02b6b54374c5a84fdb39963ab2449f3e8f851adc3211",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Von Neumann ordinal (Webpage)": {
+      "path": "Source/Von Neumann ordinal (Webpage).wiki",
+      "revid": 11394,
+      "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
+      "synced_at": "2026-10-27T11:14:31+00:00"
+    },
     "Source:What is Docker? (Webpage)": {
       "path": "Source/What is Docker_ (Webpage).wiki",
       "revid": 6159,
@@ -4153,6 +4165,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-27T10:54:39+00:00",
+  "updated": "2026-10-27T11:14:31+00:00",
   "version": 1
 }
