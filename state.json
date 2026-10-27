@@ -582,6 +582,12 @@
       "sha256": "efeb0cfc9c2cf28f4ac5c7691e4a11a3f63f84fdae4b755edd35b8d084daa98c",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:PlanetMath.org, Ltd.": {
+      "path": "Collective/PlanetMath.org, Ltd.wiki",
+      "revid": 11322,
+      "sha256": "9d97210477ae93e6ce24059dd453d8e464a556567fca6dd415fd6ee159fa4c30",
+      "synced_at": "2026-10-27T08:48:13+00:00"
+    },
     "Collective:Proceedings of the National Academy of Sciences of the United States of America": {
       "path": "Collective/Proceedings of the National Academy of Sciences of the United States of America.wiki",
       "revid": 6828,
@@ -1703,6 +1709,12 @@
       "revid": 9128,
       "sha256": "9f3b9bc51c9ea07df923b55e39d8cf202359a5680a827068f4f149666366afd5",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Joseph Angus Corneli": {
+      "path": "Person/Joseph Angus Corneli.wiki",
+      "revid": 11328,
+      "sha256": "d922344b4da088900c691ac6574908afb529885f2904f8dca5acecf2ea37fcaa",
+      "synced_at": "2026-10-27T08:48:13+00:00"
     },
     "Person:Joseph Fourier": {
       "path": "Person/Joseph Fourier.wiki",
@@ -4087,6 +4099,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-26T17:40:19+00:00",
+  "updated": "2026-10-27T08:48:13+00:00",
   "version": 1
 }
