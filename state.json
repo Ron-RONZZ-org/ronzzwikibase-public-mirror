@@ -432,6 +432,12 @@
       "sha256": "e229acc3bdb51fbcb1c168cc2858f1940b3186d558b5fc540ce8ea28e1d8f0b5",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Hyperreal Enterprises LTD": {
+      "path": "Collective/Hyperreal Enterprises LTD.wiki",
+      "revid": 11361,
+      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
+      "synced_at": "2026-10-27T09:44:41+00:00"
+    },
     "Collective:Institute of Electrical and Electronics Engineers": {
       "path": "Collective/Institute of Electrical and Electronics Engineers.wiki",
       "revid": 8270,
@@ -575,6 +581,12 @@
       "revid": 7972,
       "sha256": "f431b4c8a9a40621e056f051d513df59c29930856f4d01eeccbfee46093d9b8d",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Collective:Oxford Brookes University": {
+      "path": "Collective/Oxford Brookes University.wiki",
+      "revid": 11356,
+      "sha256": "4ad59e0459cadb277f46039d4d11ba4b07d5d3f56d2b27f2fd1e8f8a7330e6a4",
+      "synced_at": "2026-10-27T09:44:41+00:00"
     },
     "Collective:Physical Review Letters": {
       "path": "Collective/Physical Review Letters.wiki",
@@ -3558,6 +3570,12 @@
       "sha256": "5d0afc6091ec7833892e49760a2bca592fff0eb607617066c8449fe89bbd8597",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Narrative CV of Joseph Angus Corneli (Document)": {
+      "path": "Source/Narrative CV of Joseph Angus Corneli (Document).wiki",
+      "revid": 11367,
+      "sha256": "cfc0a1b54046c3fab435d3a884bc47cd647371d11244ce51615e9ce9ecb24eca",
+      "synced_at": "2026-10-27T09:44:41+00:00"
+    },
     "Source:National Geographic (website)": {
       "path": "Source/National Geographic (website).wiki",
       "revid": 3880,
@@ -4123,6 +4141,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-27T09:17:43+00:00",
+  "updated": "2026-10-27T09:44:41+00:00",
   "version": 1
 }
