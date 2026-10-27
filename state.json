@@ -552,6 +552,12 @@
       "sha256": "d824fe2a1ceedcd5afdb68e024859d5ce22beec8c9726903ffe9dfb8bfccd68d",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:New College of Florida": {
+      "path": "Collective/New College of Florida.wiki",
+      "revid": 11341,
+      "sha256": "0ead18977bfe2086a49aaff61d2028eed8dd6009b67ebb7b0d4d9fc2ee7b7795",
+      "synced_at": "2026-10-27T09:17:43+00:00"
+    },
     "Collective:Nineteen Group": {
       "path": "Collective/Nineteen Group.wiki",
       "revid": 11044,
@@ -624,6 +630,12 @@
       "sha256": "f51477a3fc14a0c026fb626219f93fa2ed982970ee252078816f295c24f0ef82",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:The Open University": {
+      "path": "Collective/The Open University.wiki",
+      "revid": 11346,
+      "sha256": "0b99adfee3fb2f89040cab7533c8ee3ff4b970464914dc171e7e417d1328934f",
+      "synced_at": "2026-10-27T09:17:43+00:00"
+    },
     "Collective:Thomas F. Banchoff, Davide Cervone, Nicholas Thompson, Jeff Achter, and Matthew Stone, et al.": {
       "path": "Collective/Thomas F. Banchoff, Davide Cervone, Nicholas Thompson, Jeff Achter, and Matthew Stone, et al.wiki",
       "revid": 10684,
@@ -660,11 +672,23 @@
       "sha256": "89318bef297816ea7aa9a444cc518cd5617501a3d0c707eb48f1ff0f18f9c0ab",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:University of Florida": {
+      "path": "Collective/University of Florida.wiki",
+      "revid": 11336,
+      "sha256": "de3af5d1af84fba3d18f4fd07ca8db18e412fbeb64639b83cc1a9cc9ee2308dc",
+      "synced_at": "2026-10-27T09:17:43+00:00"
+    },
     "Collective:University of Lorraine": {
       "path": "Collective/University of Lorraine.wiki",
       "revid": 6755,
       "sha256": "b387da59d4a0361589360cfe32abde937f4906b75e8bbd0c632f6ee24ff136ca",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Collective:University of Texas System": {
+      "path": "Collective/University of Texas System.wiki",
+      "revid": 11351,
+      "sha256": "e2f2a141f74a748d06b5486d6fbdfef645d6e0cc7c67fd6c2e34f9d106a1627a",
+      "synced_at": "2026-10-27T09:17:43+00:00"
     },
     "Collective:Ville de Metz": {
       "path": "Collective/Ville de Metz.wiki",
@@ -1436,9 +1460,9 @@
     },
     "Person:Carrie Beckwith-Fellows": {
       "path": "Person/Carrie Beckwith-Fellows.wiki",
-      "revid": 8961,
-      "sha256": "b501fc4f8deb521dbc08b8f62080ca4b43e6df59ae3bc9b339969f40e63539e6",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "revid": 11329,
+      "sha256": "7c6dd00f95256e148a2c2f147f76a058ff8559e4738b2396e1fcf41d041481b9",
+      "synced_at": "2026-10-27T09:17:43+00:00"
     },
     "Person:Chris Johnson": {
       "path": "Person/Chris Johnson.wiki",
@@ -4099,6 +4123,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-27T08:48:13+00:00",
+  "updated": "2026-10-27T09:17:43+00:00",
   "version": 1
 }
