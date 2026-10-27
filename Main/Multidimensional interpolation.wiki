@@ -23,7 +23,7 @@ Each factor $L^{(j)}_{i_j}(x_j)$ equals one at the node $x_{j,i_j}$ and zero at 
 The result is the '''tensor product''' interpolant, and it is unique among polynomials of degree at most $n-1$ in each variable: a difference of two of them vanishes at all $n^m$ nodes, and such a difference, read as a polynomial of degree at most $n-1$ in $x_1$, has $n$ roots for every fixed choice of the other variables, so each of its coefficients vanishes at those choices, one variable at a time<ref>{{#cite:Q2392}}</ref>. In the Lagrange basis the coefficients are the readings themselves, so nothing is solved for: the $n^m$ coefficients and the $n^m$ datapoints are the same numbers.
 
 {{Hidden example}}
-'''Surface temperature over a square of weather stations.''' Sixteen stations sit on a $4\times4$ grid, spaced $1^\circ$ of longitude apart from west to east and $1^\circ$ of latitude apart from south to north. The readings are synthetic, constructed for this example:
+'''Surface temperature over a square of weather stations.''' Sixteen stations sit on a $4\times4$ grid, spaced $1^\circ$ of longitude apart from west to east and $1^\circ$ of latitude apart from south to north.<!-- Suggestion: at 51°N a degree of longitude spans about 70 km against about 111 km for a degree of latitude, so the patch is square in degrees but roughly 210 km by 330 km on the ground; a clause here would keep "square" from being read as a shape on the ground. --> The readings are synthetic, constructed for this example:
 
 {| class="wikitable"
 |+ Temperature ($^\circ$C) at each station
@@ -96,25 +96,25 @@ $$
 {}-\tfrac{31}{360}x_1x_2^3+\tfrac{199}{15}x_1x_2^2-\tfrac{245249}{360}x_1x_2+\tfrac{174899}{15}x_1+\tfrac{1}{15}x_2^3-\tfrac{209}{20}x_2^2+\tfrac{32657}{60}x_2-\tfrac{93997}{10}
 $$
 
-'''Evaluating at $1.4^\circ$E, $51.6^\circ$N.''' The point goes into the developed form, whose powers there are $x_1=1.4$, $x_1^2=1.96$, $x_1^3=2.744$ and $x_2=51.6$, $x_2^2=2662.56$, $x_2^3=137388.096$:
+'''Evaluating at $1.4^\circ$E, $51.6^\circ$N.''' The point goes into the developed form as it stands, one coordinate for each of $x_1$ and $x_2$:
 
 $$
-f(1.4,51.6)=-\tfrac{1}{45}(2.744)(137388.096)+\tfrac{103}{30}(2.744)(2662.56)-\tfrac{31823}{180}(2.744)(51.6)+\tfrac{45511}{15}(2.744)
-$$
-
-$$
-{}+\tfrac{11}{120}(1.96)(137388.096)-\tfrac{283}{20}(1.96)(2662.56)+\tfrac{87361}{120}(1.96)(51.6)-\tfrac{62416}{5}(1.96)
+f(1.4,51.6)=-\tfrac{1}{45}(1.4)^3(51.6)^3+\tfrac{103}{30}(1.4)^3(51.6)^2-\tfrac{31823}{180}(1.4)^3(51.6)+\tfrac{45511}{15}(1.4)^3
 $$
 
 $$
-{}-\tfrac{31}{360}(1.4)(137388.096)+\tfrac{199}{15}(1.4)(2662.56)-\tfrac{245249}{360}(1.4)(51.6)+\tfrac{174899}{15}(1.4)
+{}+\tfrac{11}{120}(1.4)^2(51.6)^3-\tfrac{283}{20}(1.4)^2(51.6)^2+\tfrac{87361}{120}(1.4)^2(51.6)-\tfrac{62416}{5}(1.4)^2
 $$
 
 $$
-{}+\tfrac{1}{15}(137388.096)-\tfrac{209}{20}(2662.56)+\tfrac{32657}{60}(51.6)-\tfrac{93997}{10}=22.1162
+{}-\tfrac{31}{360}(1.4)(51.6)^3+\tfrac{199}{15}(1.4)(51.6)^2-\tfrac{245249}{360}(1.4)(51.6)+\tfrac{174899}{15}(1.4)
 $$
 
-The single terms reach $7\times10^4$ and cancel down to $22$, so more than three digits are lost and the sum has to be taken exactly; the code below does that. Going through the product form instead, with the eight basis values at the point, reaches the same number without any cancellation to lose, since those values are all below $1$. The developed form is the harder of the two routes to evaluate, not the easier.
+$$
+{}+\tfrac{1}{15}(51.6)^3-\tfrac{209}{20}(51.6)^2+\tfrac{32657}{60}(51.6)-\tfrac{93997}{10}=22.1162
+$$
+
+The individual terms are of order $10^4$ and cancel down to $22$, so several digits are lost and the sum has to be taken exactly; the code below does that.<!-- Suggestion: with terms of order 10^4 against a result of 22, about three digits cancel, so in IEEE double precision roughly thirteen of the sixteen remain and the float64 sum is already good to about 10^-11. If the point is precision rather than method, "the sum has to be carried in double precision" (or "in single precision several digits would be lost") may be the intended claim. --> The nested route of [[#Pointwise_interpolation|pointwise interpolation]] regroups these same 16 terms into two passes, with numbers no larger than the readings, and reaches the same result with nothing to cancel; the developed form is the harder of the two routes to evaluate, not the easier.
 
 The same arithmetic in code:
 
@@ -156,7 +156,7 @@ print(value)
 print(float(value))
 </syntaxhighlight>
 
-The two coordinates go in as the decimals they are, and `sp.Rational` reads a decimal string exactly, so nothing is rounded: `value` is the exact $\tfrac{3455657}{156250}$, which prints as `22.1162048`, the number the developed form gave above.
+The two coordinates go in as the decimals they are, and <code>sp.Rational</code> reads a decimal string exactly, so nothing is rounded: <code>value</code> is the exact $\tfrac{3455657}{156250}$, which prints as <code>22.1162048</code>, the number the developed form gave above.
 
 Plotting the surface needs the sum evaluated on a mesh of arguments. This snippet stands on its own:
 
@@ -215,83 +215,131 @@ The temperature falls from about $26\ ^\circ$C in the south-east to about $18\ ^
 
 === Pointwise interpolation ===
 
-Pointwise interpolation (or '''point evaluation''') asks only for the value of $f$ at one new point $(x_1^*,\cdots,x_m^*)$ inside the data range, without constructing $f$ anywhere else. It uses the same grid of $n^m$ datapoints and the same basis polynomials, but regroups the sum one variable at a time instead of writing out its $n^m$ terms.
+Pointwise interpolation (or '''point evaluation''') asks only for the value of $f$ at one new point $(x_1^*,\cdots,x_m^*)$ inside the data range, without constructing $f$ anywhere else. It says what is to be computed, not how $f$ is defined: the interpolation scheme, whether piecewise linear, a cubic spline, or a single polynomial, fixes the values everywhere, and pointwise evaluation fixes that only one of them is wanted. Building the whole interpolant is a separate undertaking, and the heavier one: the developed form of a high-degree polynomial in many variables runs to $n^m$ terms and, as [[#Grid_interpolation|grid interpolation]] showed, evaluating it develops large cancellations. The passes below never form it.
 
-In two dimensions, the first pass interpolates along $x_1$ inside each row $x_2=x_{2,i_2}$, at the target $x_1^*$:
+'''One variable at a time.''' A grid is a family of straight lines, one along each variable, and each of those lines is an ordinary one-dimensional dataset. A one-dimensional rule applied to the lines of one direction, and then to the lines of the next, reaches the query point, and the rule itself is a free choice. [[Person:Jeffrey R. Chasnov|Chasnov]] states the two-variable case in full: on an $(n+1)\times(n+1)$ grid, first perform $n+1$ one-dimensional interpolations in one variable, giving the interpolant at the $n+1$ points $(x_0,y^*),\cdots,(x_n,y^*)$ of the line crossed at the target coordinate, then a single one-dimensional interpolation in the other variable, giving the value at $(x^*,y^*)$. The two- and three-dimensional interpolation routines of numerical software address exactly this problem; MATLAB's are <code>interp2</code> and <code>interp3</code><ref>{{#cite:Q2421}}</ref>.
 
-$$
-y^*_{i_2}=\sum_{i_1=0}^{n-1}L^{(1)}_{i_1}(x_1^*)\,y_{i_1,i_2},\qquad \forall i_2\in [0,n-1], i_2 \in \mathbb{N}
-$$
-
-The $n$ intermediate values $y^*_{i_2}$ sit at the coordinates $(x_1^*,x_{2,i_2})$, i.e., on a one-dimensional grid in $x_2$, so a second pass interpolates them at $x_2^*$:
+'''The rule, named once.''' Let
 
 $$
-f(x_1^*,x_2^*)=\sum_{i_2=0}^{n-1}L^{(2)}_{i_2}(x_2^*)\,y^*_{i_2}
+\mathcal{I}\big[\{v_k\}_{k=0}^{n-1}\big](t)
 $$
 
-The first pass costs $n$ one-dimensional interpolations and the second costs $1$. In $m$ dimensions the passes shrink by one variable each time, costing $n^{m-1}, n^{m-2}, \cdots, n^0$:
+be the value at $t$ that the chosen rule gives to readings $v_0,\cdots,v_{n-1}$ taken at the nodes $t_0,\cdots,t_{n-1}$ of one variable. The rule may be [[Piecewise_linear_interpolation|piecewise linear]], a cubic spline with whatever end condition ([[Cubic_spline_interpolation|cubic spline interpolation]]), a monotone or shape-preserving scheme, or a single polynomial through the whole line. Everything below holds for any of them.
+
+'''Two variables.''' With readings $y_{i_1,i_2}$ on $n$ nodes per axis, the first pass holds $x_1$ at each of its nodes in turn and interpolates the $n$ readings of that line in $x_2$:
+
+$$
+y^*_{i_1}=\mathcal{I}\big[\{y_{i_1,i_2}\}_{i_2=0}^{n-1}\big](x_2^*),\qquad \forall i_1\in [0,n-1],\, i_1 \in \mathbb{N}
+$$
+
+The $n$ values $y^*_{i_1}$ are the interpolant at $(x_{1,i_1},x_2^*)$: the grid's lines, crossed at the target $x_2^*$. They are readings on a single line of the other direction, so one more pass finishes:
+
+$$
+f(x_1^*,x_2^*)\approx\mathcal{I}\big[\{y^*_{i_1}\}_{i_1=0}^{n-1}\big](x_1^*)
+$$
+
+The first pass costs $n$ one-dimensional interpolations and the second costs $1$.
+
+'''$m$ variables.''' Each pass removes one variable: the first leaves $n^{m-1}$ values, one per combination of the remaining nodes, the next $n^{m-2}$, and so on down to one, so the passes cost $n^{m-1}, n^{m-2}, \cdots, n^0$ interpolations whatever the rule:
 
 $$
 \sum_{k=0}^{m-1}n^{k}=\frac{n^{m}-1}{n-1}
 $$
 
-and the passes are exactly the nested form
-
-$$
-f(x_1^*,\cdots,x_m^*)=\sum_{i_m=0}^{n-1}L^{(m)}_{i_m}(x_m^*)\sum_{i_{m-1}=0}^{n-1}L^{(m-1)}_{i_{m-1}}(x_{m-1}^*)\cdots\sum_{i_1=0}^{n-1}L^{(1)}_{i_1}(x_1^*)\,y_{i_1,\cdots,i_m}
-$$
-
-Each of those weighted sums costs $n$ multiplications, so the nested passes cost $n(n^{m}-1)/(n-1)$ in all. That is fewer than the $m\,n^m$ multiplications needed to sum the $n^m$ terms of [[#Grid_interpolation|grid interpolation]] term by term, because each pass collapses one variable: the first pass does range over the $n^{m-1}$ combinations of known nodes, as a direct sum does, but afterwards one variable is pinned at the target $x_j^*$ and contributes one position instead of $n$. Nothing is thrown away: the same $n^m$ terms are summed either way, and the two counts answer different questions, the value at one point and the whole surface.
-
-The order of the passes does not matter. Collapsing $x_1$ first and then $x_2$ gives the same result as collapsing $x_2$ first and then $x_1$, because the tensor product sum can be regrouped; every ordering evaluates the same polynomial as [[#Grid_interpolation|grid interpolation]]<ref>{{#cite:Q2391}}</ref>.
-
 {| class="wikitable"
-|+ Multiplications at one query point, for $n=4$ nodes per axis
-! $m$ !! grid interpolation, direct sum, $m\,n^m$ !! pointwise, nested, $n\sum_{k=0}^{m-1}n^{k}$
+|+ One-dimensional interpolations for one query point, with $n=4$ nodes per axis
+! $m$ !! first pass !! second pass !! third pass !! fourth pass !! total
 |-
 ! 2
-| 32 || 20
+| 4 || 1 || – || – || 5
 |-
 ! 3
-| 192 || 84
+| 16 || 4 || 1 || – || 21
 |-
 ! 4
-| 1024 || 340
+| 64 || 16 || 4 || 1 || 85
 |}
 
-For a general number of variables the passes are most conveniently written as contractions, one per variable:
+'''What the rule changes, and what it does not.''' The passes run the same way for every rule, but what each pass has to read, and how smooth the result is, are the rule's doing:
+
+* a '''local''' rule, such as piecewise linear, reads only the two nodes bracketing the target on its line. Only the lines that bracket the target then need interpolating, so the work follows the stencil and not the grid: two lines in the first pass of the station example below, and two readings on each of them;
+* a '''global''' rule, such as a cubic spline or a single polynomial through the whole line, draws on every node of its line, so every line of every pass is interpolated. What is saved is then not the count of interpolations but everything that is never built: the coefficient form of the surface, and with it the cancellation that [[#Grid_interpolation|grid interpolation]] pays for;
+* whichever the rule, each line interpolation reproduces the readings at its own nodes, so the composed value at a datapoint is exactly the reading there;
+* smoothness is inherited: piecewise linear passes give a surface that is continuous but creased along the lines between cells, whereas spline passes give one that is smooth in each variable.
+
+'''Rules linear in the readings.''' Nearly every rule computes its value as a weighted sum
+
+$$
+\mathcal{I}\big[\{v_k\}_{k=0}^{n-1}\big](t)=\sum_{k=0}^{n-1}\varphi_k(t)\,v_k
+$$
+
+whose weights $\varphi_k$ are fixed by the nodes and by $t$, but not by the readings: the hats of the two neighbouring nodes for a piecewise linear rule, the cardinal splines for a spline rule. Two passes with such a rule give
+
+$$
+f(x_1^*,x_2^*)=\sum_{i_1=0}^{n-1}\sum_{i_2=0}^{n-1}\varphi^{(1)}_{i_1}(x_1^*)\,\varphi^{(2)}_{i_2}(x_2^*)\,y_{i_1,i_2}
+$$
+
+in which the weights of the two directions multiply. The $n^2$ products are the same under either nesting of the two sums, and in $m$ variables under any order of the $m$ passes, so the order in which the variables are collapsed changes nothing<ref>{{#cite:Q2391}}</ref>. A rule that is not linear in its readings, such as a monotone or shape-preserving one, offers no such weights, and the passes may then answer differently in different orders.
+
+'''The station grid again.''' Applied to the sixteen readings of [[#Grid_interpolation|grid interpolation]], the passes at $1.4^\circ$E, $51.6^\circ$N give, for three rules:
+
+{| class="wikitable"
+|+ Value at $1.4^\circ$E, $51.6^\circ$N, from the same sixteen readings and three one-dimensional rules
+! rule !! value ($^\circ$C)
+|-
+! piecewise linear
+| 22.1000
+|-
+! natural cubic spline
+| 22.1157
+|-
+! not-a-knot cubic spline
+| 22.1162
+|}
+
+The last entry is the number that [[#Grid_interpolation|grid interpolation]] reaches by summing its 16 monomials, and not by accident: a line of four nodes has a single cubic piece, so on such a line the not-a-knot spline is the one cubic through its four readings, and the composed surface is the one that section builds. A longer line, or the natural end condition, departs from it; on these nearly planar readings the natural spline already differs in the fourth decimal, and on readings less nearly planar it would differ more.
+
+The passes in code, with the rule passed in as an argument:
 
 <syntaxhighlight lang="python" copy>
 import numpy as np
+from scipy.interpolate import CubicSpline
 
-temperature = [[22.8, 23.6, 24.9, 26.1],
-               [21.7, 22.5, 23.9, 25.0],
-               [20.1, 20.9, 22.3, 23.5],
-               [18.4, 19.1, 20.6, 21.8]]   # row = latitude, column = longitude
+temperature = np.array([[22.8, 23.6, 24.9, 26.1],
+                        [21.7, 22.5, 23.9, 25.0],
+                        [20.1, 20.9, 22.3, 23.5],
+                        [18.4, 19.1, 20.6, 21.8]])   # row = latitude, column = longitude
 
-def grid_interpolate_point(nodes, values, point):
-    """Interpolated value at `point` from an n_1 x ... x n_m grid.
+def passes(nodes, values, point, rule):
+    """Value at `point` of the grid interpolant, one one-dimensional pass per variable.
 
-    nodes  -- one 1-D array of node coordinates per variable, in the same order
-              as the axes of `values`
-    values -- m-dimensional array, values[i_1, ..., i_m]
-    point  -- the m query coordinates
+    nodes  -- node coordinates of each variable, in the order of the axes of `values`
+    values -- m-dimensional array of readings, values[i_1, ..., i_m]
+    rule   -- rule(nodes, readings, t), the one-dimensional rule evaluated at t
     """
     data = np.asarray(values, dtype=float)
-    for axis in range(len(nodes) - 1, -1, -1):       # collapse one variable per pass
-        w = [np.prod([(point[axis] - k) / (i - k) for k in nodes[axis] if k != i])
-             for i in nodes[axis]]
-        data = np.tensordot(data, w, axes=([axis], [0]))
+    for axis, target in enumerate(point):         # one pass per variable, first axis first
+        data = np.apply_along_axis(
+            lambda line: rule(np.asarray(nodes[axis], dtype=float), line, target), 0, data)
     return float(data)
 
-print(grid_interpolate_point([np.arange(50.0, 54.0), np.arange(0.0, 4.0)],
-                             temperature, [51.6, 1.4]))
+linear  = lambda nodes, line, t: float(np.interp(t, nodes, line))
+spline  = lambda nodes, line, t: float(CubicSpline(nodes, line)(t))
+natural = lambda nodes, line, t: float(CubicSpline(nodes, line, bc_type="natural")(t))
+
+latitude, longitude = np.arange(50.0, 54.0), np.arange(0.0, 4.0)
+for name, rule in [("piecewise linear", linear), ("natural cubic spline", natural),
+                   ("not-a-knot cubic spline", spline)]:
+    print(name, passes([latitude, longitude], temperature, [51.6, 1.4], rule))
 </syntaxhighlight>
 
-For the station grid that call returns `22.1162048...`, the same number the example above reaches by summing its 16 terms. It gets there by touching the data in two passes: four longitude interpolations give $24.0936$, $23.0384$, $21.4328$, and $19.6656\ ^\circ$C on the rows at $50$, $51$, $52$, and $53^\circ$N, and one latitude interpolation of those four gives the reading at the query point.
+Swapping the two variables in <code>nodes</code> and in <code>point</code> alike, and transposing the array of readings, returns the same three values, the two nestings differing only in the last bits of the floating-point sum.
+
+With the spline rule the passes touch the data twice: four longitude interpolations give $24.0936$, $23.0384$, $21.4328$, and $19.6656\ ^\circ$C on the rows at $50$, $51$, $52$, and $53^\circ$N, and one latitude interpolation of those four gives the reading at the query point. The piecewise linear rule touches four readings in all, which is the whole of its work.
 
 <blockquote>
-Because these readings happen to be close to planar, bilinear interpolation of the four stations surrounding the query point gives $22.100\ ^\circ$C, only $0.02\ ^\circ$C away from the grid interpolant. The two are not interchangeable, however: the bilinear interpolant is merely continuous where cells meet, whereas the grid interpolant is a single polynomial and therefore smooth everywhere.
+The piecewise scheme described above reads four readings instead of sixteen, and because these readings happen to be close to planar it also lands close: bilinear interpolation of the four stations surrounding the query point gives $22.100\ ^\circ$C, only $0.02\ ^\circ$C away from the grid interpolant. The two are not interchangeable, however: the bilinear interpolant is merely continuous where cells meet, whereas the grid interpolant is a single polynomial and therefore smooth everywhere.
 </blockquote>
 
 == References ==

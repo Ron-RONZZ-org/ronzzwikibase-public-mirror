@@ -1274,9 +1274,9 @@
     },
     "Multidimensional interpolation": {
       "path": "Main/Multidimensional interpolation.wiki",
-      "revid": 11451,
-      "sha256": "225c33ad7536dc058083d63b34f1902ce926e6a1a74ac2255e8b0a699ae15e02",
-      "synced_at": "2026-10-27T14:45:57+00:00"
+      "revid": 11467,
+      "sha256": "028b4c3a5a0cb1b1a0393e5704a11f1d33d6110f5fa2ed57e59a72050c7d865a",
+      "synced_at": "2026-10-27T15:16:10+00:00"
     },
     "Natural number": {
       "path": "Main/Natural number.wiki",
@@ -2585,6 +2585,12 @@
       "revid": 11150,
       "sha256": "2af43709df498b11706a7c7204e689eb22927f55a46154419e626f33a5a99eba",
       "synced_at": "2026-10-22T18:44:57+00:00"
+    },
+    "Source:5.4: Multidimensional Interpolation (Webpage)": {
+      "path": "Source/5.4_ Multidimensional Interpolation (Webpage).wiki",
+      "revid": 11464,
+      "sha256": "5c78a5fe16b86491fde55d1cb0be32633eacf867bcbcca45474ac91f735da47b",
+      "synced_at": "2026-10-27T15:16:10+00:00"
     },
     "Source:6.11: Noble Gases (Webpage)": {
       "path": "Source/6.11_ Noble Gases (Webpage).wiki",
@@ -4177,6 +4183,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-27T14:45:57+00:00",
+  "updated": "2026-10-27T15:16:10+00:00",
   "version": 1
 }

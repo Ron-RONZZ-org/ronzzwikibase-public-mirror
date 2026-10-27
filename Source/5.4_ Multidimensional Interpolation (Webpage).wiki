@@ -1,0 +1,5 @@
+{{Webpage}}
+
+== Overview ==
+
+Section of the open textbook Numerical Methods which gives interpolation on a grid as one-dimensional interpolations performed one variable at a time
