@@ -1,29 +1,43 @@
 '''Multidimensional interpolation''' is the process of finding a multivariable function $f(x_1,\cdots,x_m)$ that for a definite set of datapoints $\{(x_{1,i},\cdots,x_{m,i},y_i)\mid i\in [0,n], i \in \mathbb{N}\}$ satisfies $f(x_{1,i},\cdots,x_{m,i})=y_i$.
 
-== Methods ==
+== Grid interpolation ==
 
-=== Grid interpolation ===
+=== via Lagrange polynomial in multiple variables ===
 
-If a "grid" of $n^m$ datapoints is known, one on each combination of $n$ nodes in each of the $m$ variables:
+If a "grid" of $n^m$ datapoints, i.e., values of $y$ at all possible combinations of $n$ particular values in each of the $m$ variables
 
 $$
 \{(x_{1,i_1},\cdots,x_{m,i_m},y_{i_1,\cdots,i_m})\mid i_1,\cdots,i_m \in [0,n-1],\, i_1,\cdots,i_m \in \mathbb{N}\}
 $$
 
-then the interpolant is the multivariable Lagrange polynomial
+is known, then a multivariable-version of the Lagrange polynomial can be used to interpolate for $y$.
 
 $$
-f(x_1,\cdots,x_m)=\sum_{i_1=0}^{n-1}\cdots\sum_{i_m=0}^{n-1}y_{i_1,\cdots,i_m}\prod_{j=1}^{m}L^{(j)}_{i_j}(x_j),\qquad L^{(j)}_{i}(x_j)=\prod_{\substack{k=0\\k\neq i}}^{n-1}\frac{x_j-x_{j,k}}{x_{j,i}-x_{j,k}}
+P(x_1,\cdots,x_m)=\sum_{i_1=0}^{n-1}\cdots\sum_{i_m=0}^{n-1}y_{i_1,\cdots,i_m}\prod_{j=1}^{m}L^{(x_j)}_{i_j}(x_j),\qquad L^{(x_j)}_{i_j}(x_j)=\prod_{\substack{k=0\\k\neq i_j}}^{n-1}\frac{x_j-x_{j,k}}{x_{j,i_j}-x_{j,k}}
 $$
 
-where $L^{(j)}_i$ is the [[Polynomial_interpolation#Lagrange_polynomial|Lagrange basis polynomial]] of the variable $x_j$, built on that variable's $n$ nodes.
+which is a multi-variable polynomial of degree at most $n-1$ in each variable unique for each set of datapoints.
 
-Each factor $L^{(j)}_{i_j}(x_j)$ equals one at the node $x_{j,i_j}$ and zero at the other $n-1$ nodes of $x_j$. The product of the $m$ factors is therefore one at the single datapoint $(x_{1,i_1},\cdots,x_{m,i_m})$ and zero at every other datapoint, so each of the $n^m$ terms carries exactly its own reading and vanishes at all the rest, and the sum passes through all $n^m$ datapoints.
+Similar to in the [[Polynomial_interpolation#Lagrange_polynomial|one-dimensional Lagrange polynomial]],
 
-The result is the '''tensor product''' interpolant, and it is unique among polynomials of degree at most $n-1$ in each variable: a difference of two of them vanishes at all $n^m$ nodes, and such a difference, read as a polynomial of degree at most $n-1$ in $x_1$, has $n$ roots for every fixed choice of the other variables, so each of its coefficients vanishes at those choices, one variable at a time<ref>{{#cite:Q2392}}</ref>. In the Lagrange basis the coefficients are the readings themselves, so nothing is solved for: the $n^m$ coefficients and the $n^m$ datapoints are the same numbers.
+$$
+L^{(x_j)}_{i_j}(x_j)=
+\begin{cases}
+1, & x_j=x_{j,i_j},\\
+0, & x_j=x_{j,i_k},\, i_k \in  [0,n-1],\, i_k \neq i_j,\, i_k \in \mathbb{N}
+\end{cases}
+$$
+
+which guarantees that $P(x_1,\cdots,x_m)=y(x_1,\cdots,x_m)$ passes through all datapoints.<ref>{{#cite:Q2392}}</ref>
+
+<blockquote>
+$P(x_1,\cdots,x_m)$ is also known as the '''tensor product Lagrange interpolant'''.
+</blockquote>
 
 {{Hidden example}}
-'''Surface temperature over a square of weather stations.''' Sixteen stations sit on a $4\times4$ grid, spaced $1^\circ$ of longitude apart from west to east and $1^\circ$ of latitude apart from south to north. The readings are synthetic, constructed for this example:
+'''Surface temperature over a square of weather stations.''' 
+
+Sixteen weather stations sitting in a $4^\circ \times 4^\circ$ grid measure surface temperature at various latitudes and longitudes.
 
 {| class="wikitable"
 |+ Temperature ($^\circ$C) at each station
@@ -42,81 +56,82 @@ The result is the '''tensor product''' interpolant, and it is unique among polyn
 | 22.8 || 23.6 || 24.9 || 26.1
 |}
 
-With $m=2$ and $n=4$ the sum has $n^m=16$ terms, one per station. Number the longitude nodes $x_{1,1}=0$, $x_{1,2}=1$, $x_{1,3}=2$, $x_{1,4}=3$ and the latitude nodes $x_{2,1}=50$, $x_{2,2}=51$, $x_{2,3}=52$, $x_{2,4}=53$, so that $i_1=1$ is the column at $0^\circ$E and $i_2=1$ the row at $50^\circ$N, the bottom row of the table:
+What is the interpolated temperature at $51.6^\circ \textbf{N}, 1.4^\circ \textbf{E}$?
+
+'''Algebraic solution''':
+
+Let $x_1$ represent the latitude, $x_2$ represent the longitude, and denote the surface temperature reading at row $i_1$, column $i_2$ by $y_{i_1,i_2}$.
+
 
 $$
-f(x_1,x_2)=\sum_{i_1=1}^{4}\sum_{i_2=1}^{4}y_{i_1,i_2}\,L_{1i_1}(x_1)\,L_{2i_2}(x_2)
+f(x_1,x_2)=\sum_{i_1=1}^{4}\sum_{i_2=1}^{4}y_{i_1,i_2}\,L^{(x_1)}_{i_1}(x_1)\,L^{(x_2)}_{i_2}(x_2)
 $$
 
-where $y_{i_1,i_2}$ is the reading in column $i_1$ and row $i_2$, and $L_{ji_j}$ is the general $L^{(j)}_{i_j}$ with the node index counted from $1$ rather than from $0$.
-
-'''The eight basis polynomials.''' Four are built on the longitude nodes $0,1,2,3$ and are functions of $x_1$; four are built on the latitude nodes $50,51,52,53$ and are functions of $x_2$:
+where
 
 $$
-L_{11}(x_1)=-\frac{(x_1-1)(x_1-2)(x_1-3)}{6}=-\frac{1}{6}x_1^3+x_1^2-\frac{11}{6}x_1+1,\qquad L_{12}(x_1)=\frac{x_1(x_1-2)(x_1-3)}{2}=\frac{1}{2}x_1^3-\frac{5}{2}x_1^2+3x_1
-$$
-
-$$
-L_{13}(x_1)=-\frac{x_1(x_1-1)(x_1-3)}{2}=-\frac{1}{2}x_1^3+2x_1^2-\frac{3}{2}x_1,\qquad L_{14}(x_1)=\frac{x_1(x_1-1)(x_1-2)}{6}=\frac{1}{6}x_1^3-\frac{1}{2}x_1^2+\frac{1}{3}x_1
-$$
-
-$$
-L_{21}(x_2)=-\frac{(x_2-51)(x_2-52)(x_2-53)}{6}=-\frac{1}{6}x_2^3+26x_2^2-\frac{8111}{6}x_2+23426,\qquad L_{22}(x_2)=\frac{(x_2-50)(x_2-52)(x_2-53)}{2}=\frac{1}{2}x_2^3-\frac{155}{2}x_2^2+4003x_2-68900
+L^{(x_1)}_{1}(x_1)=-\frac{(x_1-51)(x_1-52)(x_1-53)}{6}=-\frac{1}{6}x_1^3+26x_1^2-\frac{8111}{6}x_1+23426,\qquad L^{(x_1)}_{2}(x_1)=\frac{(x_1-50)(x_1-52)(x_1-53)}{2}=\frac{1}{2}x_1^3-\frac{155}{2}x_1^2+4003x_1-68900
 $$
 
 $$
-L_{23}(x_2)=-\frac{(x_2-50)(x_2-51)(x_2-53)}{2}=-\frac{1}{2}x_2^3+77x_2^2-\frac{7903}{2}x_2+67575,\qquad L_{24}(x_2)=\frac{(x_2-50)(x_2-51)(x_2-52)}{6}=\frac{1}{6}x_2^3-\frac{51}{2}x_2^2+\frac{3901}{3}x_2-22100
-$$
-
-'''The polynomial in $x_1$ and $x_2$.''' Substituting the eight polynomials above leaves one term per station, 16 in all, four on each parallel:
-
-$$
-f(x_1,x_2)=22.8\,L_{11}(x_1)L_{21}(x_2)+23.6\,L_{12}(x_1)L_{21}(x_2)+24.9\,L_{13}(x_1)L_{21}(x_2)+26.1\,L_{14}(x_1)L_{21}(x_2)
+L^{(x_1)}_{3}(x_1)=-\frac{(x_1-50)(x_1-51)(x_1-53)}{2}=-\frac{1}{2}x_1^3+77x_1^2-\frac{7903}{2}x_1+67575,\qquad L^{(x_1)}_{4}(x_1)=\frac{(x_1-50)(x_1-51)(x_1-52)}{6}=\frac{1}{6}x_1^3-\frac{51}{2}x_1^2+\frac{3901}{3}x_1-22100
 $$
 
 $$
-{}+21.7\,L_{11}(x_1)L_{22}(x_2)+22.5\,L_{12}(x_1)L_{22}(x_2)+23.9\,L_{13}(x_1)L_{22}(x_2)+25.0\,L_{14}(x_1)L_{22}(x_2)
+L^{(x_2)}_{1}(x_2)=-\frac{(x_2-1)(x_2-2)(x_2-3)}{6}=-\frac{1}{6}x_2^3+x_2^2-\frac{11}{6}x_2+1,\qquad L^{(x_2)}_{2}(x_2)=\frac{x_2(x_2-2)(x_2-3)}{2}=\frac{1}{2}x_2^3-\frac{5}{2}x_2^2+3x_2
 $$
 
 $$
-{}+20.1\,L_{11}(x_1)L_{23}(x_2)+20.9\,L_{12}(x_1)L_{23}(x_2)+22.3\,L_{13}(x_1)L_{23}(x_2)+23.5\,L_{14}(x_1)L_{23}(x_2)
+L^{(x_2)}_{3}(x_2)=-\frac{x_2(x_2-1)(x_2-3)}{2}=-\frac{1}{2}x_2^3+2x_2^2-\frac{3}{2}x_2,\qquad L^{(x_2)}_{4}(x_2)=\frac{x_2(x_2-1)(x_2-2)}{6}=\frac{1}{6}x_2^3-\frac{1}{2}x_2^2+\frac{1}{3}x_2
+$$
+
+Hence 
+
+$$
+f(x_1,x_2)=22.8\,L^{(x_1)}_{1}(x_1)L^{(x_2)}_{1}(x_2)+23.6\,L^{(x_1)}_{1}(x_1)L^{(x_2)}_{2}(x_2)+24.9\,L^{(x_1)}_{1}(x_1)L^{(x_2)}_{3}(x_2)+26.1\,L^{(x_1)}_{1}(x_1)L^{(x_2)}_{4}(x_2)
 $$
 
 $$
-{}+18.4\,L_{11}(x_1)L_{24}(x_2)+19.1\,L_{12}(x_1)L_{24}(x_2)+20.6\,L_{13}(x_1)L_{24}(x_2)+21.8\,L_{14}(x_1)L_{24}(x_2)
-$$
-
-Collecting like powers reduces this to 16 monomials, of degree at most 3 in each variable; the large coefficients come from the latitude nodes sitting at 50 to 53 rather than at 0 to 3:
-
-$$
-f(x_1,x_2)=-\tfrac{1}{45}x_1^3x_2^3+\tfrac{103}{30}x_1^3x_2^2-\tfrac{31823}{180}x_1^3x_2+\tfrac{45511}{15}x_1^3+\tfrac{11}{120}x_1^2x_2^3-\tfrac{283}{20}x_1^2x_2^2+\tfrac{87361}{120}x_1^2x_2-\tfrac{62416}{5}x_1^2
+{}+21.7\,L^{(x_1)}_{2}(x_1)L^{(x_2)}_{1}(x_2)+22.5\,L^{(x_1)}_{2}(x_1)L^{(x_2)}_{2}(x_2)+23.9\,L^{(x_1)}_{2}(x_1)L^{(x_2)}_{3}(x_2)+25.0\,L^{(x_1)}_{2}(x_1)L^{(x_2)}_{4}(x_2)
 $$
 
 $$
-{}-\tfrac{31}{360}x_1x_2^3+\tfrac{199}{15}x_1x_2^2-\tfrac{245249}{360}x_1x_2+\tfrac{174899}{15}x_1+\tfrac{1}{15}x_2^3-\tfrac{209}{20}x_2^2+\tfrac{32657}{60}x_2-\tfrac{93997}{10}
-$$
-
-'''Evaluating at $1.4^\circ$E, $51.6^\circ$N.''' The point goes into the developed form as it stands, one coordinate for each of $x_1$ and $x_2$:
-
-$$
-f(1.4,51.6)=-\tfrac{1}{45}(1.4)^3(51.6)^3+\tfrac{103}{30}(1.4)^3(51.6)^2-\tfrac{31823}{180}(1.4)^3(51.6)+\tfrac{45511}{15}(1.4)^3
+{}+20.1\,L^{(x_1)}_{3}(x_1)L^{(x_2)}_{1}(x_2)+20.9\,L^{(x_1)}_{3}(x_1)L^{(x_2)}_{2}(x_2)+22.3\,L^{(x_1)}_{3}(x_1)L^{(x_2)}_{3}(x_2)+23.5\,L^{(x_1)}_{3}(x_1)L^{(x_2)}_{4}(x_2)
 $$
 
 $$
-{}+\tfrac{11}{120}(1.4)^2(51.6)^3-\tfrac{283}{20}(1.4)^2(51.6)^2+\tfrac{87361}{120}(1.4)^2(51.6)-\tfrac{62416}{5}(1.4)^2
+{}+18.4\,L^{(x_1)}_{4}(x_1)L^{(x_2)}_{1}(x_2)+19.1\,L^{(x_1)}_{4}(x_1)L^{(x_2)}_{2}(x_2)+20.6\,L^{(x_1)}_{4}(x_1)L^{(x_2)}_{3}(x_2)+21.8\,L^{(x_1)}_{4}(x_1)L^{(x_2)}_{4}(x_2)
+$$
+
+On simplification:
+
+$$
+f(x_1,x_2)=-\tfrac{1}{45}x_1^3x_2^3+\tfrac{11}{120}x_1^3x_2^2-\tfrac{31}{360}x_1^3x_2+\tfrac{1}{15}x_1^3+\tfrac{103}{30}x_1^2x_2^3-\tfrac{283}{20}x_1^2x_2^2+\tfrac{199}{15}x_1^2x_2-\tfrac{209}{20}x_1^2
 $$
 
 $$
-{}-\tfrac{31}{360}(1.4)(51.6)^3+\tfrac{199}{15}(1.4)(51.6)^2-\tfrac{245249}{360}(1.4)(51.6)+\tfrac{174899}{15}(1.4)
+{}-\tfrac{31823}{180}x_1x_2^3+\tfrac{87361}{120}x_1x_2^2-\tfrac{245249}{360}x_1x_2+\tfrac{32657}{60}x_1+\tfrac{45511}{15}x_2^3-\tfrac{62416}{5}x_2^2+\tfrac{174899}{15}x_2-\tfrac{93997}{10}
+$$
+
+Substitute in $x_1=51.6,x_2=1.4$,
+
+$$
+f(51.6,1.4)=-\tfrac{1}{45}(51.6)^3(1.4)^3+\tfrac{11}{120}(51.6)^3(1.4)^2-\tfrac{31}{360}(51.6)^3(1.4)+\tfrac{1}{15}(51.6)^3
 $$
 
 $$
-{}+\tfrac{1}{15}(51.6)^3-\tfrac{209}{20}(51.6)^2+\tfrac{32657}{60}(51.6)-\tfrac{93997}{10}=22.1162
+{}+\tfrac{103}{30}(51.6)^2(1.4)^3-\tfrac{283}{20}(51.6)^2(1.4)^2+\tfrac{199}{15}(51.6)^2(1.4)-\tfrac{209}{20}(51.6)^2
 $$
 
-The individual terms are of order $10^4$ and cancel down to $22$, so several digits are lost and the sum has to be taken exactly; the code below does that. The nested route of [[#Pointwise_interpolation|pointwise interpolation]] regroups these same 16 terms into two passes, with numbers no larger than the readings, and reaches the same result with nothing to cancel; the developed form is the harder of the two routes to evaluate, not the easier.
+$$
+{}-\tfrac{31823}{180}(51.6)(1.4)^3+\tfrac{87361}{120}(51.6)(1.4)^2-\tfrac{245249}{360}(51.6)(1.4)+\tfrac{32657}{60}(51.6)
+$$
 
-The same arithmetic in code:
+$$
+{}+\tfrac{45511}{15}(1.4)^3-\tfrac{62416}{5}(1.4)^2+\tfrac{174899}{15}(1.4)-\tfrac{93997}{10}=22.1162
+$$
+
+'''Numerical solution''':
 
 <syntaxhighlight lang="python" copy>
 import sympy as sp
@@ -134,10 +149,10 @@ def lagrange_basis(nodes, x):
         basis.append(sp.expand(p))
     return basis
 
-longitude = [0, 1, 2, 3]                    # nodes of x1
-latitude = [50, 51, 52, 53]                 # nodes of x2
-L1 = lagrange_basis(longitude, x1)          # L11 .. L14
-L2 = lagrange_basis(latitude, x2)           # L21 .. L24
+latitude = [50, 51, 52, 53]                 # nodes of x1
+longitude = [0, 1, 2, 3]                    # nodes of x2
+L1 = lagrange_basis(latitude, x1)           # L^(x1)_1 .. L^(x1)_4
+L2 = lagrange_basis(longitude, x2)          # L^(x2)_1 .. L^(x2)_4
 print(L1)
 print(L2)
 
@@ -147,11 +162,11 @@ temperature = [[22.8, 23.6, 24.9, 26.1],
                [18.4, 19.1, 20.6, 21.8]]    # row = latitude 50, 51, 52, 53; column = longitude 0, 1, 2, 3
 
 # one term per station: reading times its x1 polynomial times its x2 polynomial
-f = sp.expand(sum(sp.Rational(str(temperature[j][i])) * L1[i] * L2[j]
+f = sp.expand(sum(sp.Rational(str(temperature[j][i])) * L1[j] * L2[i]
                   for j in range(4) for i in range(4)))
 print(f)
 
-value = f.subs({x1: sp.Rational('1.4'), x2: sp.Rational('51.6')})   # 1.4 E, 51.6 N, exact
+value = f.subs({x1: sp.Rational('51.6'), x2: sp.Rational('1.4')})   # 51.6 N, 1.4 E, exact
 print(value)
 print(float(value))
 </syntaxhighlight>
@@ -164,8 +179,8 @@ Plotting the surface needs the sum evaluated on a mesh of arguments. This snippe
 import numpy as np
 import matplotlib.pyplot as plt
 
-longitude = np.array([0.0, 1.0, 2.0, 3.0])           # nodes of x1
-latitude = np.array([50.0, 51.0, 52.0, 53.0])        # nodes of x2
+latitude = np.array([50.0, 51.0, 52.0, 53.0])        # nodes of x1
+longitude = np.array([0.0, 1.0, 2.0, 3.0])           # nodes of x2
 temperature = np.array([[22.8, 23.6, 24.9, 26.1],
                         [21.7, 22.5, 23.9, 25.0],
                         [20.1, 20.9, 22.3, 23.5],
@@ -177,11 +192,11 @@ def basis_at(nodes, x):
 
 def f(x1, x2):
     """The 16-term sum: one term per station."""
-    return (temperature * np.outer(basis_at(latitude, x2), basis_at(longitude, x1))).sum()
+    return (temperature * np.outer(basis_at(latitude, x1), basis_at(longitude, x2))).sum()
 
 lon_plot = np.linspace(0.0, 3.0, 121)
 lat_plot = np.linspace(50.0, 53.0, 121)
-surface = np.array([[f(x, y) for x in lon_plot] for y in lat_plot])
+surface = np.array([[f(x, y) for y in lon_plot] for x in lat_plot])
 
 fig = plt.figure(figsize=(9.0, 6.8))
 ax = fig.add_subplot(111, projection="3d")
@@ -192,7 +207,7 @@ surf = ax.plot_surface(mesh_lon, mesh_lat, surface, cmap="RdYlBu_r", linewidth=0
 ax.scatter(np.tile(longitude, 4), np.repeat(latitude, 4), temperature.ravel(),
            s=70, color="#c0392b", edgecolor="black", linewidth=0.9,
            depthshade=False, label="16 weather stations")
-ax.scatter([1.4], [51.6], [f(1.4, 51.6)], s=170, color="black", marker="X",
+ax.scatter([1.4], [51.6], [f(51.6, 1.4)], s=170, color="black", marker="X",
            depthshade=False, label=r"query point (1.4$^\circ$E, 51.6$^\circ$N)")
 ax.set_xlabel(r"longitude ($^\circ$E)", labelpad=10)
 ax.set_ylabel(r"latitude ($^\circ$N)", labelpad=10)
@@ -208,12 +223,12 @@ plt.tight_layout()
 plt.show()
 </syntaxhighlight>
 
-[[File:Bicubic grid interpolation temperature.png|thumb|none|560px|alt=Three-dimensional plot of a gently curving temperature surface over a longitude-latitude grid, with the sixteen station readings marked as red dots and one query point marked with a cross|The interpolating surface through the sixteen station readings, the tensor product of four longitude and four latitude basis polynomials. The query point at $1.4^\circ$E, $51.6^\circ$N is marked with a cross.]]
+[[File:Bicubic grid interpolation temperature.png|thumb|none|560px|alt=Three-dimensional plot of a gently curving temperature surface over a longitude-latitude grid, with the sixteen station readings marked as red dots and one query point marked with a cross|The interpolating surface through the sixteen station readings constructed via Lagrange polynomials in two variables. $1.4^\circ$E, $51.6^\circ$N is marked with a cross.]]
 
-The temperature falls from about $26\ ^\circ$C in the south-east to about $18\ ^\circ$C in the north-west, so the surface is dominated by a plane tilted towards the north-west, with a gentler curvature across it.
+As observed, the surface is dominated by a plane tilted gently downwards from the south-east towards the north-west, predicting a gentle decrease in temperature along the direction.
 {{End hidden}}
 
-=== Pointwise interpolation ===
+== Pointwise interpolation ==
 
 Pointwise interpolation (or '''point evaluation''') asks only for the value of $f$ at one new point $(x_1^*,\cdots,x_m^*)$ inside the data range, without constructing $f$ anywhere else. It fixes what is to be computed, not how $f$ is defined: the rule of interpolation is free, and only one number is wanted out of it.
 
