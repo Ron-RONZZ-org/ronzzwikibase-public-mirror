@@ -62,9 +62,9 @@ What is the interpolated temperature at $51.6^\circ \textbf{N}, 1.4^\circ \textb
 
 Let $x_1$ represent the latitude, $x_2$ represent the longitude, and denote the surface temperature reading at row $i_1$, column $i_2$ by $y_{i_1,i_2}$.
 
-
+Then the interpolating multi-variable Lagrange polynomial is 
 $$
-f(x_1,x_2)=\sum_{i_1=1}^{4}\sum_{i_2=1}^{4}y_{i_1,i_2}\,L^{(x_1)}_{i_1}(x_1)\,L^{(x_2)}_{i_2}(x_2)
+P(x_1,x_2)=\sum_{i_1=1}^{4}\sum_{i_2=1}^{4}y_{i_1,i_2}\,L^{(x_1)}_{i_1}(x_1)\,L^{(x_2)}_{i_2}(x_2)
 $$
 
 where
@@ -90,7 +90,7 @@ $$
 Hence 
 
 $$
-f(x_1,x_2)=22.8\,L^{(x_1)}_{1}(x_1)L^{(x_2)}_{1}(x_2)+23.6\,L^{(x_1)}_{1}(x_1)L^{(x_2)}_{2}(x_2)+24.9\,L^{(x_1)}_{1}(x_1)L^{(x_2)}_{3}(x_2)+26.1\,L^{(x_1)}_{1}(x_1)L^{(x_2)}_{4}(x_2)
+P(x_1,x_2)=22.8\,L^{(x_1)}_{1}(x_1)L^{(x_2)}_{1}(x_2)+23.6\,L^{(x_1)}_{1}(x_1)L^{(x_2)}_{2}(x_2)+24.9\,L^{(x_1)}_{1}(x_1)L^{(x_2)}_{3}(x_2)+26.1\,L^{(x_1)}_{1}(x_1)L^{(x_2)}_{4}(x_2)
 $$
 
 $$
@@ -108,7 +108,7 @@ $$
 On simplification:
 
 $$
-f(x_1,x_2)=-\tfrac{1}{45}x_1^3x_2^3+\tfrac{11}{120}x_1^3x_2^2-\tfrac{31}{360}x_1^3x_2+\tfrac{1}{15}x_1^3+\tfrac{103}{30}x_1^2x_2^3-\tfrac{283}{20}x_1^2x_2^2+\tfrac{199}{15}x_1^2x_2-\tfrac{209}{20}x_1^2
+P(x_1,x_2)=-\tfrac{1}{45}x_1^3x_2^3+\tfrac{11}{120}x_1^3x_2^2-\tfrac{31}{360}x_1^3x_2+\tfrac{1}{15}x_1^3+\tfrac{103}{30}x_1^2x_2^3-\tfrac{283}{20}x_1^2x_2^2+\tfrac{199}{15}x_1^2x_2-\tfrac{209}{20}x_1^2
 $$
 
 $$
@@ -118,7 +118,7 @@ $$
 Substitute in $x_1=51.6,x_2=1.4$,
 
 $$
-f(51.6,1.4)=-\tfrac{1}{45}(51.6)^3(1.4)^3+\tfrac{11}{120}(51.6)^3(1.4)^2-\tfrac{31}{360}(51.6)^3(1.4)+\tfrac{1}{15}(51.6)^3
+P(51.6,1.4)=-\tfrac{1}{45}(51.6)^3(1.4)^3+\tfrac{11}{120}(51.6)^3(1.4)^2-\tfrac{31}{360}(51.6)^3(1.4)+\tfrac{1}{15}(51.6)^3
 $$
 
 $$
@@ -164,11 +164,11 @@ temperature = [[22.8, 23.6, 24.9, 26.1],
                [18.4, 19.1, 20.6, 21.8]]    # row = latitude 50, 51, 52, 53; column = longitude 0, 1, 2, 3
 
 # one term per station: reading times its x1 polynomial times its x2 polynomial
-f = sp.expand(sum(sp.Rational(str(temperature[j][i])) * L1[j] * L2[i]
+p = sp.expand(sum(sp.Rational(str(temperature[j][i])) * L1[j] * L2[i]
                   for j in range(4) for i in range(4)))
-print(f)
+print(p)
 
-value = f.subs({x1: sp.Rational('51.6'), x2: sp.Rational('1.4')})   # 51.6 N, 1.4 E
+value = p.subs({x1: sp.Rational('51.6'), x2: sp.Rational('1.4')})   # 51.6 N, 1.4 E
 print(value)
 print(float(value))
 </syntaxhighlight>
@@ -186,17 +186,17 @@ temperature = np.array([[22.8, 23.6, 24.9, 26.1],
                         [20.1, 20.9, 22.3, 23.5],
                         [18.4, 19.1, 20.6, 21.8]])   # row = latitude, column = longitude
 
-def basis_at(nodes, x):
+def L(nodes, x):
     """The Lagrange basis polynomials on `nodes`, evaluated at x."""
     return np.array([np.prod([(x - k) / (i - k) for k in nodes if k != i]) for i in nodes])
 
-def f(x1, x2):
-    """The 16-term sum: one term per station."""
-    return (temperature * np.outer(basis_at(latitude, x1), basis_at(longitude, x2))).sum()
+def p(x1, x2):
+    """2-variable Lagrange polynomial"""
+    return (temperature * np.outer(basis_at(latitude, x1), L(longitude, x2))).sum()
 
 lon_plot = np.linspace(0.0, 3.0, 121)
 lat_plot = np.linspace(50.0, 53.0, 121)
-surface = np.array([[f(x, y) for y in lon_plot] for x in lat_plot])
+surface = np.array([[p(x, y) for y in lon_plot] for x in lat_plot])
 
 fig = plt.figure(figsize=(9.0, 6.8))
 ax = fig.add_subplot(111, projection="3d")
