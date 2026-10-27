@@ -1,0 +1,24 @@
+A Dedekind cut is a downward-closed, non-empty proper subset of $\mathbb{Q}$ with no greatest element.
+
+== Formal definition ==
+
+{{#content:Q2400}}
+
+== Properties ==
+
+=== $A \subset \mathbb{Q},\, A \ne \emptyset$ (Non-empty proper subset of rational numbers) ===
+
+from definition.
+
+=== $q \in A, q_1\lt q \Rightarrow q_1 \in A$ (Downward-complete) ===
+
+from order of rational numbers.
+
+=== $\forall q \in A: \exists q_1 \in A,\, q_1>q$ (No greatest element) ===
+
+{{Hidden proof}}
+If $q \in \mathbb{Q}$, $\exists a,b \in \mathbb{N}, q = \frac{a}{b}$.
+
+Let $q_1=\frac{a+1}{b}$, then $q_1 \in \mathbb{Q},\, q_1>q$.
+
+{{End hidden}}

@@ -88,3 +88,34 @@ n \in \mathbb{N}, n>r
 $$
 
 {{End hidden}}
+
+=== $\forall a,b \in \mathbb{R},\, a \lt b: \exists q \in \mathbb{Q},\, a\lt q \lt b$ (Rational numbers are dense in $\mathbb{R}$) ===
+which means that any real number can be arbitrarily-closely approximated by a rational number.
+
+{{Hidden proof}}
+
+If $a<0, b>0$, trivially $0 \in \mathbb{Q}, a<0<b$.
+
+Elsewise, by the [[real number#Properties|Archimedean property]], 
+
+$$
+\exists n \in \mathbb{N}, n>\frac{1}{b-a}
+\Rightarrow \frac{1}{n} < b-a \tag{1}
+$$
+
+Let $m=\lfloor na \rfloor +1$, then
+
+$$
+na<m \\
+a<\frac{m}{n}
+$$
+
+and
+
+$$
+m \le na+1 \\
+\frac{m}{n} \le \frac{na+1}{n} = a+\frac{1}{n}< a+(b-a) = b
+$$
+
+by 1.
+{{End hidden}}

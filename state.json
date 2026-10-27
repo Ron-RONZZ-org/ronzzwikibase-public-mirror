@@ -780,6 +780,12 @@
       "sha256": "530f537517cfc424faded3be62d0cf4feac813de38bd8e421f50e41145872467",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Dedekind cut": {
+      "path": "Main/Dedekind cut.wiki",
+      "revid": 11401,
+      "sha256": "bb28b3edaf8f91c3f9850a0ded7d8735ca7d6f553c12d49380db36561de077fb",
+      "synced_at": "2026-10-27T12:23:01+00:00"
+    },
     "Degree (angle)": {
       "path": "Main/Degree (angle).wiki",
       "revid": 10846,
@@ -2210,9 +2216,9 @@
     },
     "Real number": {
       "path": "Main/Real number.wiki",
-      "revid": 11314,
-      "sha256": "b0b298bbaa4053d039949b7f089d0948c3cf39117fb2c03ae2f914cf135008ac",
-      "synced_at": "2026-10-26T17:40:19+00:00"
+      "revid": 11400,
+      "sha256": "b5e506995890366e17d8d315bbed4cee686cca97adca6ce8cbae2cbb720f414c",
+      "synced_at": "2026-10-27T12:23:01+00:00"
     },
     "Real vector space": {
       "path": "Main/Real vector space.wiki",
@@ -4171,6 +4177,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-27T11:31:52+00:00",
+  "updated": "2026-10-27T12:23:01+00:00",
   "version": 1
 }
