@@ -68,43 +68,25 @@ $$
 L_{23}(x_2)=-\frac{(x_2-50)(x_2-51)(x_2-53)}{2}=-\frac{1}{2}x_2^3+77x_2^2-\frac{7903}{2}x_2+67575,\qquad L_{24}(x_2)=\frac{(x_2-50)(x_2-51)(x_2-52)}{6}=\frac{1}{6}x_2^3-\frac{51}{2}x_2^2+\frac{3901}{3}x_2-22100
 $$
 
-'''The polynomial, developed along each parallel.''' Collecting the terms of one latitude row turns $f$ into a cubic in $x_1$ whose four coefficients are the $x_2$ polynomials:
+'''The polynomial in $x_1$ and $x_2$.''' Substituting the eight polynomials above leaves one term per station, 16 in all, four on each parallel:
 
 $$
-f(x_1,x_2)=Q_1(x_1)L_{21}(x_2)+Q_2(x_1)L_{22}(x_2)+Q_3(x_1)L_{23}(x_2)+Q_4(x_1)L_{24}(x_2),\qquad Q_{i_2}(x_1)=\sum_{i_1=1}^{4}y_{i_1,i_2}L_{1i_1}(x_1)
-$$
-
-so $Q_{i_2}$ is the cubic through the four readings of the parallel at $x_{2,i_2}$. Carrying out the four sums:
-
-$$
-Q_1(x_1)=-\frac{1}{10}x_1^3+\frac{11}{20}x_1^2+\frac{7}{20}x_1+\frac{114}{5}\ \ (50^\circ\mathrm{N}),\qquad Q_2(x_1)=-\frac{3}{20}x_1^3+\frac{3}{4}x_1^2+\frac{1}{5}x_1+\frac{217}{10}\ \ (51^\circ\mathrm{N})
+f(x_1,x_2)=22.8\,L_{11}(x_1)L_{21}(x_2)+23.6\,L_{12}(x_1)L_{21}(x_2)+24.9\,L_{13}(x_1)L_{21}(x_2)+26.1\,L_{14}(x_1)L_{21}(x_2)
 $$
 
 $$
-Q_3(x_1)=-\frac{2}{15}x_1^3+\frac{7}{10}x_1^2+\frac{7}{30}x_1+\frac{201}{10}\ \ (52^\circ\mathrm{N}),\qquad Q_4(x_1)=-\frac{11}{60}x_1^3+\frac{19}{20}x_1^2-\frac{1}{15}x_1+\frac{92}{5}\ \ (53^\circ\mathrm{N})
-$$
-
-Each constant term is that parallel's reading at $0^\circ$E, as it must be.
-
-'''The polynomial in $x_1$ and $x_2$.''' With every factor written out, the interpolant is
-
-$$
-f(x_1,x_2)=\left(-\frac{1}{10}x_1^3+\frac{11}{20}x_1^2+\frac{7}{20}x_1+\frac{114}{5}\right)\left(-\frac{(x_2-51)(x_2-52)(x_2-53)}{6}\right)
+{}+21.7\,L_{11}(x_1)L_{22}(x_2)+22.5\,L_{12}(x_1)L_{22}(x_2)+23.9\,L_{13}(x_1)L_{22}(x_2)+25.0\,L_{14}(x_1)L_{22}(x_2)
 $$
 
 $$
-{}+\left(-\frac{3}{20}x_1^3+\frac{3}{4}x_1^2+\frac{1}{5}x_1+\frac{217}{10}\right)\frac{(x_2-50)(x_2-52)(x_2-53)}{2}
+{}+20.1\,L_{11}(x_1)L_{23}(x_2)+20.9\,L_{12}(x_1)L_{23}(x_2)+22.3\,L_{13}(x_1)L_{23}(x_2)+23.5\,L_{14}(x_1)L_{23}(x_2)
 $$
 
 $$
-{}+\left(-\frac{2}{15}x_1^3+\frac{7}{10}x_1^2+\frac{7}{30}x_1+\frac{201}{10}\right)\left(-\frac{(x_2-50)(x_2-51)(x_2-53)}{2}\right)
+{}+18.4\,L_{11}(x_1)L_{24}(x_2)+19.1\,L_{12}(x_1)L_{24}(x_2)+20.6\,L_{13}(x_1)L_{24}(x_2)+21.8\,L_{14}(x_1)L_{24}(x_2)
 $$
 
-$$
-{}+\left(-\frac{11}{60}x_1^3+\frac{19}{20}x_1^2-\frac{1}{15}x_1+\frac{92}{5}\right)\frac{(x_2-50)(x_2-51)(x_2-52)}{6}
-$$
-
-Multiplied out, it has 16 terms and degree at most 3 in each variable; the large coefficients come from the latitude nodes sitting at 50 to 53 rather than at 0 to 3:
+Collecting like powers reduces this to 16 monomials, of degree at most 3 in each variable; the large coefficients come from the latitude nodes sitting at 50 to 53 rather than at 0 to 3:
 
 $$
 f(x_1,x_2)=-\tfrac{1}{45}x_1^3x_2^3+\tfrac{103}{30}x_1^3x_2^2-\tfrac{31823}{180}x_1^3x_2+\tfrac{45511}{15}x_1^3+\tfrac{11}{120}x_1^2x_2^3-\tfrac{283}{20}x_1^2x_2^2+\tfrac{87361}{120}x_1^2x_2-\tfrac{62416}{5}x_1^2
@@ -114,117 +96,92 @@ $$
 {}-\tfrac{31}{360}x_1x_2^3+\tfrac{199}{15}x_1x_2^2-\tfrac{245249}{360}x_1x_2+\tfrac{174899}{15}x_1+\tfrac{1}{15}x_2^3-\tfrac{209}{20}x_2^2+\tfrac{32657}{60}x_2-\tfrac{93997}{10}
 $$
 
-'''Evaluating at $1.4^\circ$E, $51.6^\circ$N.''' Substitute the point into the polynomial, one variable at a time. The longitude argument first: $x_1=1.4$ needs the four $x_1$ polynomials at that one argument. For instance
+'''Evaluating at $1.4^\circ$E, $51.6^\circ$N.''' The point goes into the developed form, whose powers there are $x_1=1.4$, $x_1^2=1.96$, $x_1^3=2.744$ and $x_2=51.6$, $x_2^2=2662.56$, $x_2^3=137388.096$:
 
 $$
-L_{12}(1.4)=\frac{1.4\,(1.4-2)(1.4-3)}{(1-0)(1-2)(1-3)}=\frac{1.4\cdot(-0.6)\cdot(-1.6)}{1\cdot(-1)\cdot(-2)}=\frac{1.344}{2}=0.672
-$$
-
-and the four of them, beside the four $x_2$ polynomials at the latitude of the query point, are
-
-{| class="wikitable"
-|+ The basis polynomials at the two arguments
-! $i$ !! $L_{1i}(1.4)$ !! $L_{2i}(51.6)$
-|-
-! 1
-| $-0.064$ || $-0.056$
-|-
-! 2
-| $0.672$ || $0.448$
-|-
-! 3
-| $0.448$ || $0.672$
-|-
-! 4
-| $-0.056$ || $-0.064$
-|}
-
-Each column sums to $1$, as it must, since the basis reproduces a constant exactly. Substituting the first column into the four parallels gives the values on the parallels at $1.4^\circ$E. For the row at $50^\circ$N the expanded form and the basis values agree:
-
-$$
-Q_1(1.4)=-\tfrac{1}{10}(2.744)+\tfrac{11}{20}(1.96)+\tfrac{7}{20}(1.4)+22.8=-0.2744+1.078+0.49+22.8=24.0936
+f(1.4,51.6)=-\tfrac{1}{45}(2.744)(137388.096)+\tfrac{103}{30}(2.744)(2662.56)-\tfrac{31823}{180}(2.744)(51.6)+\tfrac{45511}{15}(2.744)
 $$
 
 $$
-Q_1(1.4)=-0.064\cdot22.8+0.672\cdot23.6+0.448\cdot24.9-0.056\cdot26.1=24.0936
-$$
-
-and the basis values are the quicker route for the other three rows:
-
-$$
-Q_2(1.4)=-0.064\cdot21.7+0.672\cdot22.5+0.448\cdot23.9-0.056\cdot25.0=23.0384
+{}+\tfrac{11}{120}(1.96)(137388.096)-\tfrac{283}{20}(1.96)(2662.56)+\tfrac{87361}{120}(1.96)(51.6)-\tfrac{62416}{5}(1.96)
 $$
 
 $$
-Q_3(1.4)=-0.064\cdot20.1+0.672\cdot20.9+0.448\cdot22.3-0.056\cdot23.5=21.4328
+{}-\tfrac{31}{360}(1.4)(137388.096)+\tfrac{199}{15}(1.4)(2662.56)-\tfrac{245249}{360}(1.4)(51.6)+\tfrac{174899}{15}(1.4)
 $$
 
 $$
-Q_4(1.4)=-0.064\cdot18.4+0.672\cdot19.1+0.448\cdot20.6-0.056\cdot21.8=19.6656
+{}+\tfrac{1}{15}(137388.096)-\tfrac{209}{20}(2662.56)+\tfrac{32657}{60}(51.6)-\tfrac{93997}{10}=22.1162
 $$
 
-The latitude argument is $x_2=51.6$, whose four values are the second column above; for instance
-
-$$
-L_{22}(51.6)=\frac{(51.6-50)(51.6-52)(51.6-53)}{(51-50)(51-52)(51-53)}=\frac{1.6\cdot(-0.4)\cdot(-1.4)}{1\cdot(-1)\cdot(-2)}=\frac{0.896}{2}=0.448
-$$
-
-Substituting both columns into the polynomial:
-
-$$
-f(1.4,51.6)=24.0936(-0.056)+23.0384(0.448)+21.4328(0.672)+19.6656(-0.064)=22.1162
-$$
+The single terms reach $7\times10^4$ and cancel down to $22$, so more than three digits are lost and the sum has to be taken exactly; the code below does that. Going through the product form instead, with the eight basis values at the point, reaches the same number without any cancellation to lose, since those values are all below $1$. The developed form is the harder of the two routes to evaluate, not the easier.
 
 The same arithmetic in code:
 
 <syntaxhighlight lang="python" copy>
-import numpy as np
+import sympy as sp
 
-def lagrange_basis(nodes):
-    """Lagrange basis polynomials on `nodes`, as coefficient vectors, highest power first."""
+x1, x2 = sp.symbols('x1 x2')
+
+def lagrange_basis(nodes, x):
+    """The Lagrange basis polynomials on `nodes`, from the product formula."""
     basis = []
     for i in nodes:
-        p = np.array([1.0])
+        p = sp.Integer(1)
         for k in nodes:
             if k != i:
-                p = np.polymul(p, [1.0, -k]) / (i - k)
-        basis.append(p)
+                p *= (x - k) / (i - k)
+        basis.append(sp.expand(p))
     return basis
 
-def basis_at(basis, x):
-    """The basis polynomials evaluated at x."""
-    return np.array([np.polyval(p, x) for p in basis])
+longitude = [0, 1, 2, 3]                    # nodes of x1
+latitude = [50, 51, 52, 53]                 # nodes of x2
+L1 = lagrange_basis(longitude, x1)          # L11 .. L14
+L2 = lagrange_basis(latitude, x2)           # L21 .. L24
+print(L1)
+print(L2)
+
+temperature = [[22.8, 23.6, 24.9, 26.1],
+               [21.7, 22.5, 23.9, 25.0],
+               [20.1, 20.9, 22.3, 23.5],
+               [18.4, 19.1, 20.6, 21.8]]    # row = latitude 50, 51, 52, 53; column = longitude 0, 1, 2, 3
+
+# one term per station: reading times its x1 polynomial times its x2 polynomial
+f = sp.expand(sum(sp.Rational(str(temperature[j][i])) * L1[i] * L2[j]
+                  for j in range(4) for i in range(4)))
+print(f)
+
+value = f.subs({x1: sp.Rational('1.4'), x2: sp.Rational('51.6')})   # 1.4 E, 51.6 N, exact
+print(value)
+print(float(value))
+</syntaxhighlight>
+
+The two coordinates go in as the decimals they are, and `sp.Rational` reads a decimal string exactly, so nothing is rounded: `value` is the exact $\tfrac{3455657}{156250}$, which prints as `22.1162048`, the number the developed form gave above.
+
+Plotting the surface needs the sum evaluated on a mesh of arguments. This snippet stands on its own:
+
+<syntaxhighlight lang="python" copy>
+import numpy as np
+import matplotlib.pyplot as plt
 
 longitude = np.array([0.0, 1.0, 2.0, 3.0])           # nodes of x1
 latitude = np.array([50.0, 51.0, 52.0, 53.0])        # nodes of x2
-L1 = lagrange_basis(longitude)                      # L11 .. L14
-L2 = lagrange_basis(latitude)                       # L21 .. L24
-
 temperature = np.array([[22.8, 23.6, 24.9, 26.1],
                         [21.7, 22.5, 23.9, 25.0],
                         [20.1, 20.9, 22.3, 23.5],
-                        [18.4, 19.1, 20.6, 21.8]])   # row = latitude 50, 51, 52, 53; column = longitude 0, 1, 2, 3
+                        [18.4, 19.1, 20.6, 21.8]])   # row = latitude, column = longitude
 
-print(np.round(L1, 4))                               # L11 .. L14, highest power first
-print(np.round(L2, 4))                               # L21 .. L24, highest power first
-print(np.round(temperature @ np.array(L1), 4))       # Q1 .. Q4, row by row
-print(basis_at(L1, 1.4))                             # [-0.064  0.672  0.448 -0.056]
-print(basis_at(L2, 51.6))                            # [-0.056  0.448  0.672 -0.064]
+def basis_at(nodes, x):
+    """The Lagrange basis polynomials on `nodes`, evaluated at x."""
+    return np.array([np.prod([(x - k) / (i - k) for k in nodes if k != i]) for i in nodes])
 
-parallel = temperature @ basis_at(L1, 1.4)           # Q1 .. Q4 at 1.4 E
-print(parallel)                                      # [24.0936 23.0384 21.4328 19.6656]
-print(parallel @ basis_at(L2, 51.6))                 # 22.1162048
-</syntaxhighlight>
-
-Plotting the whole surface only needs the same basis evaluated on a mesh of arguments:
-
-<syntaxhighlight lang="python" copy>
-import matplotlib.pyplot as plt
+def f(x1, x2):
+    """The 16-term sum: one term per station."""
+    return (temperature * np.outer(basis_at(latitude, x2), basis_at(longitude, x1))).sum()
 
 lon_plot = np.linspace(0.0, 3.0, 121)
 lat_plot = np.linspace(50.0, 53.0, 121)
-surface = np.array([[basis_at(L2, y) @ temperature @ basis_at(L1, x)
-                     for x in lon_plot] for y in lat_plot])
+surface = np.array([[f(x, y) for x in lon_plot] for y in lat_plot])
 
 fig = plt.figure(figsize=(9.0, 6.8))
 ax = fig.add_subplot(111, projection="3d")
@@ -235,7 +192,7 @@ surf = ax.plot_surface(mesh_lon, mesh_lat, surface, cmap="RdYlBu_r", linewidth=0
 ax.scatter(np.tile(longitude, 4), np.repeat(latitude, 4), temperature.ravel(),
            s=70, color="#c0392b", edgecolor="black", linewidth=0.9,
            depthshade=False, label="16 weather stations")
-ax.scatter([1.4], [51.6], [22.116], s=170, color="black", marker="X",
+ax.scatter([1.4], [51.6], [f(1.4, 51.6)], s=170, color="black", marker="X",
            depthshade=False, label=r"query point (1.4$^\circ$E, 51.6$^\circ$N)")
 ax.set_xlabel(r"longitude ($^\circ$E)", labelpad=10)
 ax.set_ylabel(r"latitude ($^\circ$N)", labelpad=10)
@@ -305,6 +262,13 @@ The order of the passes does not matter. Collapsing $x_1$ first and then $x_2$ g
 For a general number of variables the passes are most conveniently written as contractions, one per variable:
 
 <syntaxhighlight lang="python" copy>
+import numpy as np
+
+temperature = [[22.8, 23.6, 24.9, 26.1],
+               [21.7, 22.5, 23.9, 25.0],
+               [20.1, 20.9, 22.3, 23.5],
+               [18.4, 19.1, 20.6, 21.8]]   # row = latitude, column = longitude
+
 def grid_interpolate_point(nodes, values, point):
     """Interpolated value at `point` from an n_1 x ... x n_m grid.
 
@@ -315,12 +279,16 @@ def grid_interpolate_point(nodes, values, point):
     """
     data = np.asarray(values, dtype=float)
     for axis in range(len(nodes) - 1, -1, -1):       # collapse one variable per pass
-        w = basis_at(lagrange_basis(nodes[axis]), point[axis])
+        w = [np.prod([(point[axis] - k) / (i - k) for k in nodes[axis] if k != i])
+             for i in nodes[axis]]
         data = np.tensordot(data, w, axes=([axis], [0]))
     return float(data)
+
+print(grid_interpolate_point([np.arange(50.0, 54.0), np.arange(0.0, 4.0)],
+                             temperature, [51.6, 1.4]))
 </syntaxhighlight>
 
-For the station grid, `grid_interpolate_point([np.arange(50.0, 54.0), np.arange(0.0, 4.0)], temperature, [51.6, 1.4])` returns `22.1162048...`, which is the two-pass calculation of the example above: four longitude interpolations give $24.0936$, $23.0384$, $21.4328$, and $19.6656\ ^\circ$C on the rows at $50$, $51$, $52$, and $53^\circ$N, and one latitude interpolation of those four values gives the reading at the query point.
+For the station grid that call returns `22.1162048...`, the same number the example above reaches by summing its 16 terms. It gets there by touching the data in two passes: four longitude interpolations give $24.0936$, $23.0384$, $21.4328$, and $19.6656\ ^\circ$C on the rows at $50$, $51$, $52$, and $53^\circ$N, and one latitude interpolation of those four gives the reading at the query point.
 
 <blockquote>
 Because these readings happen to be close to planar, bilinear interpolation of the four stations surrounding the query point gives $22.100\ ^\circ$C, only $0.02\ ^\circ$C away from the grid interpolant. The two are not interchangeable, however: the bilinear interpolant is merely continuous where cells meet, whereas the grid interpolant is a single polynomial and therefore smooth everywhere.
