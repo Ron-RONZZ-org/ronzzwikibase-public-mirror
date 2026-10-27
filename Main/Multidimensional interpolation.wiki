@@ -18,7 +18,7 @@ $$
 
 which is a multi-variable polynomial of degree at most $n-1$ in each variable unique for each set of datapoints.
 
-Similar to in the [[Polynomial_interpolation#Lagrange_polynomial|one-dimensional Lagrange polynomial]],
+Similar to the [[Polynomial_interpolation#Lagrange_polynomial|one-dimensional Lagrange polynomial]]s,
 
 $$
 L^{(x_j)}_{i_j}(x_j)=
@@ -28,7 +28,7 @@ L^{(x_j)}_{i_j}(x_j)=
 \end{cases}
 $$
 
-which guarantees that $P(x_1,\cdots,x_m)=y(x_1,\cdots,x_m)$ passes through all datapoints.<ref>{{#cite:Q2392}}</ref>
+which guarantees that $P(x_1,\cdots,x_m)=y(x_1,\cdots,x_m)$ at all datapoints.<ref>{{#cite:Q2392}}</ref>
 
 <blockquote>
 $P(x_1,\cdots,x_m)$ is also known as the '''tensor product Lagrange interpolant'''.
@@ -70,11 +70,13 @@ $$
 where
 
 $$
-L^{(x_1)}_{1}(x_1)=-\frac{(x_1-51)(x_1-52)(x_1-53)}{6}=-\frac{1}{6}x_1^3+26x_1^2-\frac{8111}{6}x_1+23426,\qquad L^{(x_1)}_{2}(x_1)=\frac{(x_1-50)(x_1-52)(x_1-53)}{2}=\frac{1}{2}x_1^3-\frac{155}{2}x_1^2+4003x_1-68900
+L^{(x_1)}_{1}(x_1)=-\frac{(x_1-51)(x_1-52)(x_1-53)}{6}=-\frac{1}{6}x_1^3+26x_1^2-\frac{8111}{6}x_1+23426,\\ 
+L^{(x_1)}_{2}(x_1)=\frac{(x_1-50)(x_1-52)(x_1-53)}{2}=\frac{1}{2}x_1^3-\frac{155}{2}x_1^2+4003x_1-68900
 $$
 
 $$
-L^{(x_1)}_{3}(x_1)=-\frac{(x_1-50)(x_1-51)(x_1-53)}{2}=-\frac{1}{2}x_1^3+77x_1^2-\frac{7903}{2}x_1+67575,\qquad L^{(x_1)}_{4}(x_1)=\frac{(x_1-50)(x_1-51)(x_1-52)}{6}=\frac{1}{6}x_1^3-\frac{51}{2}x_1^2+\frac{3901}{3}x_1-22100
+L^{(x_1)}_{3}(x_1)=-\frac{(x_1-50)(x_1-51)(x_1-53)}{2}=-\frac{1}{2}x_1^3+77x_1^2-\frac{7903}{2}x_1+67575,\\
+L^{(x_1)}_{4}(x_1)=\frac{(x_1-50)(x_1-51)(x_1-52)}{6}=\frac{1}{6}x_1^3-\frac{51}{2}x_1^2+\frac{3901}{3}x_1-22100
 $$
 
 $$
@@ -166,14 +168,12 @@ f = sp.expand(sum(sp.Rational(str(temperature[j][i])) * L1[j] * L2[i]
                   for j in range(4) for i in range(4)))
 print(f)
 
-value = f.subs({x1: sp.Rational('51.6'), x2: sp.Rational('1.4')})   # 51.6 N, 1.4 E, exact
+value = f.subs({x1: sp.Rational('51.6'), x2: sp.Rational('1.4')})   # 51.6 N, 1.4 E
 print(value)
 print(float(value))
 </syntaxhighlight>
 
-The two coordinates go in as the decimals they are, and <code>sp.Rational</code> reads a decimal string exactly, so nothing is rounded: <code>value</code> is the exact $\tfrac{3455657}{156250}$, which prints as <code>22.1162048</code>, the number the developed form gave above.
-
-Plotting the surface needs the sum evaluated on a mesh of arguments. This snippet stands on its own:
+'''Extra''': To plot the interpolating surface
 
 <syntaxhighlight lang="python" copy>
 import numpy as np
