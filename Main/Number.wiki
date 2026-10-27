@@ -4,9 +4,9 @@
 
 [[File:Types-of-numbers-1-1.svg|500px]]
 
-* '''Natural numbers $\mathbb{N}$''': those used to count discrete objects like bananas or dogs
+* '''[[Natural number]]s $\mathbb{N}$''': those used to count discrete objects like bananas or dogs
 ** e.g., $0,1,2,3\cdots$
-* '''Integers $\mathbb{Z}$''': extension of natural numbers to their negative counterparts, used to measure quantities that can be less than 0, like temperature
+* '''[[Integer]]s $\mathbb{Z}$''': extension of natural numbers to their negative counterparts, used to measure quantities that can be less than 0, like temperature
 ** e.g., $-10,-5,5,10\cdots$
 * '''[[Rational number]]s''' $\mathbb{Q}$: extension of integers to their fractions, used to count discrete objects that can be divided, like $\frac{1}{2}$ cup of a water, $\frac{2}{3}$ of a cucumber pie
 ** e.g., $2,2.5,-\frac{8847}{8848}\cdots$

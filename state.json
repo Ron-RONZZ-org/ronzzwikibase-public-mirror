@@ -1272,6 +1272,12 @@
       "sha256": "b5f529a665e001cca2e781f6cd61ee3ebc5ccf16ab3053859ce20ac92a1f613d",
       "synced_at": "2026-10-25T15:26:48+00:00"
     },
+    "Natural number": {
+      "path": "Main/Natural number.wiki",
+      "revid": 11396,
+      "sha256": "b8cddda2df671016af819e5a16da2997d70a06e8aee83351f359afa36a80afb3",
+      "synced_at": "2026-10-27T11:31:52+00:00"
+    },
     "Norm": {
       "path": "Main/Norm.wiki",
       "revid": 10326,
@@ -1286,9 +1292,9 @@
     },
     "Number": {
       "path": "Main/Number.wiki",
-      "revid": 11299,
-      "sha256": "79e25e8222c45c67042a28a97ad77e12e68ab07fc67de99864b2b8cb78dcdc9e",
-      "synced_at": "2026-10-26T15:18:48+00:00"
+      "revid": 11399,
+      "sha256": "8c702eb9d2b03b1b9f4ff79a0762ea8f7ab4007831e47623d5e78cfe332a9c9b",
+      "synced_at": "2026-10-27T11:31:52+00:00"
     },
     "Ordinary differential equation": {
       "path": "Main/Ordinary differential equation.wiki",
@@ -4165,6 +4171,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-27T11:14:31+00:00",
+  "updated": "2026-10-27T11:31:52+00:00",
   "version": 1
 }

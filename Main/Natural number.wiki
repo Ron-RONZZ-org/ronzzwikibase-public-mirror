@@ -1,0 +1,41 @@
+Natural numbers are [[number]]s used to count discrete objects, like bananas or dogs.
+
+{{Hidden example}}
+$0,1,2,3\cdots$
+{{End hidden}}
+
+== Formal definition ==
+
+=== Via Von Neumann ordinals ===
+
+Define
+
+$$
+0=\varnothing,
+$$
+
+then if $n$ is a natural number, the next natural number
+$$
+n+1=n\cup\{n\}
+$$
+
+Concretely,
+
+$$
+1=\varnothing \cup \{\varnothing\}=\{0\},\\
+2= 1 \cup \{1\}=\{0\} \cup \{1\}=\{0,1\},\\
+3= 2 \cup \{2\}=\{0,1\} \cup \{2\}=\{0,1,2\},\\
+\cdots \\
+n+1=n \cup \{n\}=\{0,1,\cdots,n-1\} \cup \{n\}=\{0,1,\cdots,n\}\\
+\Rightarrow \\
+\mathbb N
+=
+\bigcap
+\left\{
+A \;:\;
+\varnothing\in A
+\ \land \
+\forall x\,(x\in A\Rightarrow x\cup\{x\}\in A)
+\right\}.
+$$
+<ref>{{#cite:Q2418}}</ref>
