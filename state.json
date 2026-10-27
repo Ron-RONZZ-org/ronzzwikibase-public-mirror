@@ -1274,9 +1274,9 @@
     },
     "Multidimensional interpolation": {
       "path": "Main/Multidimensional interpolation.wiki",
-      "revid": 11274,
-      "sha256": "b5f529a665e001cca2e781f6cd61ee3ebc5ccf16ab3053859ce20ac92a1f613d",
-      "synced_at": "2026-10-25T15:26:48+00:00"
+      "revid": 11419,
+      "sha256": "c26bea0bf17e4f2cd0490b5a746c652dfa9cc42e3af6140afe705ece04be20a6",
+      "synced_at": "2026-10-27T13:45:24+00:00"
     },
     "Natural number": {
       "path": "Main/Natural number.wiki",
@@ -4177,6 +4177,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-27T12:23:01+00:00",
+  "updated": "2026-10-27T13:45:24+00:00",
   "version": 1
 }

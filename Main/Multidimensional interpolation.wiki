@@ -4,23 +4,23 @@
 
 === Grid interpolation ===
 
-If a "grid" of $n^m$ datapoints is known:
+If a "grid" of $n^m$ datapoints is known, one on each combination of $n$ nodes in each of the $m$ variables:
 
 $$
 \{(x_{1,i_1},\cdots,x_{m,i_m},y_{i_1,\cdots,i_m})\mid i_1,\cdots,i_m \in [0,n-1],\, i_1,\cdots,i_m \in \mathbb{N}\}
 $$
 
-Then an $m$-dimensional interpolation can be obtained via $n^{m-1}$ one-dimensional interpolations on each variable, fixing all other variables at all possible combinations of known constant values.
-
-Each of those interpolations runs along one axis-parallel line of the grid. Along $x_j$ there are $n^{m-1}$ such lines, one for each combination of the other $m-1$ indices, so the construction uses $m\,n^{m-1}$ one-dimensional interpolations in all, one per line, each independent of the others.
-
-The line interpolants on their own do not single out $f$; they are combined multiplicatively, by requiring $f$ to be a polynomial of degree at most $n-1$ in each variable separately:
+then the interpolant is the multivariable Lagrange polynomial
 
 $$
-f(x_1,\cdots,x_m)=\sum_{i_1=0}^{n-1}\cdots\sum_{i_m=0}^{n-1}y_{i_1,\cdots,i_m}\prod_{j=1}^{m}L^{(j)}_{i_j}(x_j),\qquad L^{(j)}_{i}(x)=\prod_{\substack{k=0\\k\neq i}}^{n-1}\frac{x-x_{j,k}}{x_{j,i}-x_{j,k}}
+f(x_1,\cdots,x_m)=\sum_{i_1=0}^{n-1}\cdots\sum_{i_m=0}^{n-1}y_{i_1,\cdots,i_m}\prod_{j=1}^{m}L^{(j)}_{i_j}(x_j),\qquad L^{(j)}_{i}(x_j)=\prod_{\substack{k=0\\k\neq i}}^{n-1}\frac{x_j-x_{j,k}}{x_{j,i}-x_{j,k}}
 $$
 
-where $L^{(j)}_i$ is the [[Polynomial_interpolation#Lagrange_polynomial|Lagrange basis polynomial]] of the variable $x_j$. The result is the '''tensor product''' interpolant, and it is the unique polynomial of degree at most $n-1$ in each variable that reproduces the $n^m$ datapoints<ref>{{#cite:Q2392}}</ref>.
+where $L^{(j)}_i$ is the [[Polynomial_interpolation#Lagrange_polynomial|Lagrange basis polynomial]] of the variable $x_j$, built on that variable's $n$ nodes.
+
+Each factor $L^{(j)}_{i_j}(x_j)$ equals one at the node $x_{j,i_j}$ and zero at the other $n-1$ nodes of $x_j$. The product of the $m$ factors is therefore one at the single datapoint $(x_{1,i_1},\cdots,x_{m,i_m})$ and zero at every other datapoint, so each of the $n^m$ terms carries exactly its own reading and vanishes at all the rest, and the sum passes through all $n^m$ datapoints.
+
+The result is the '''tensor product''' interpolant, and it is unique among polynomials of degree at most $n-1$ in each variable: a difference of two of them vanishes at all $n^m$ nodes, and such a difference, read as a polynomial of degree at most $n-1$ in $x_1$, has $n$ roots for every fixed choice of the other variables, so each of its coefficients vanishes at those choices, one variable at a time<ref>{{#cite:Q2392}}</ref>. In the Lagrange basis the coefficients are the readings themselves, so nothing is solved for: the $n^m$ coefficients and the $n^m$ datapoints are the same numbers.
 
 {{Hidden example}}
 '''Surface temperature over a square of weather stations.''' Sixteen stations sit on a $4\times4$ grid, spaced $1^\circ$ of longitude apart from west to east and $1^\circ$ of latitude apart from south to north. The readings are synthetic, constructed for this example:
@@ -42,7 +42,55 @@ where $L^{(j)}_i$ is the [[Polynomial_interpolation#Lagrange_polynomial|Lagrange
 | 22.8 || 23.6 || 24.9 || 26.1
 |}
 
-With $m=2$ and $n=4$, the whole surface takes $m\,n^{m-1}=2\cdot4=8$ one-dimensional interpolations: one along each of the four longitude lines, and one along each of the four latitude lines.
+With $m=2$ and $n=4$, the sum has $n^m=16$ terms, one per station, each one station reading times one longitude basis polynomial times one latitude basis polynomial. Writing $x_1$ for longitude and $x_2$ for latitude, and keeping the table's order with the latitude row first, so that $i_2=0$ is the row at $50^\circ$N and $i_1=0$ the column at $0^\circ$E:
+
+$$
+f(x_1,x_2)=\sum_{i_1=0}^{3}\sum_{i_2=0}^{3}y_{i_2,i_1}\,L^{(1)}_{i_1}(x_1)\,L^{(2)}_{i_2}(x_2)
+$$
+
+'''A manual evaluation at $1.4^\circ$E, $51.6^\circ$N.''' The longitude nodes are $0,1,2,3$ and the latitude nodes $50,51,52,53$, so evaluating $f$ needs only the basis polynomials at two fixed arguments. For the second longitude node:
+
+$$
+L^{(1)}_1(1.4)=\frac{(1.4-0)(1.4-2)(1.4-3)}{(1-0)(1-2)(1-3)}=\frac{1.4\cdot(-0.6)\cdot(-1.6)}{1\cdot(-1)\cdot(-2)}=\frac{1.344}{2}=\frac{84}{125}=0.672
+$$
+
+and the four longitude weights are
+
+$$
+\left(L^{(1)}_0,\ L^{(1)}_1,\ L^{(1)}_2,\ L^{(1)}_3\right)(1.4)=\tfrac{1}{125}\left(-8,\ 84,\ 56,\ -7\right)
+$$
+
+They sum to $1$, as they must, since the constant function is reproduced exactly. The latitude weights are the same four numbers in reverse order, $51.6$ lying as far above $51$ as $1.4$ lies below $2$:
+
+$$
+\left(L^{(2)}_0,\ L^{(2)}_1,\ L^{(2)}_2,\ L^{(2)}_3\right)(51.6)=\tfrac{1}{125}\left(-7,\ 56,\ 84,\ -8\right)
+$$
+
+Multiplying the readings of each latitude row by the longitude weights gives the value of the interpolant at $1.4^\circ$E on that row:
+
+$$
+\tfrac{1}{125}\left(-8\cdot22.8+84\cdot23.6+56\cdot24.9-7\cdot26.1\right)=\tfrac{3011.7}{125}=24.0936
+$$
+
+$$
+\tfrac{1}{125}\left(-8\cdot21.7+84\cdot22.5+56\cdot23.9-7\cdot25.0\right)=\tfrac{2879.8}{125}=23.0384
+$$
+
+$$
+\tfrac{1}{125}\left(-8\cdot20.1+84\cdot20.9+56\cdot22.3-7\cdot23.5\right)=\tfrac{2679.1}{125}=21.4328
+$$
+
+$$
+\tfrac{1}{125}\left(-8\cdot18.4+84\cdot19.1+56\cdot20.6-7\cdot21.8\right)=\tfrac{2458.2}{125}=19.6656
+$$
+
+for the rows at $50$, $51$, $52$, and $53^\circ$N. Multiplying those four results by the latitude weights gives the reading at the query point:
+
+$$
+f(1.4,51.6)=\tfrac{1}{125}\left(-7\cdot24.0936+56\cdot23.0384+84\cdot21.4328-8\cdot19.6656\right)=\tfrac{2764.5256}{125}=22.1162
+$$
+
+The same arithmetic in code:
 
 <syntaxhighlight lang="python" copy>
 import numpy as np
@@ -64,10 +112,11 @@ temperature = np.array([[22.8, 23.6, 24.9, 26.1],
                         [20.1, 20.9, 22.3, 23.5],
                         [18.4, 19.1, 20.6, 21.8]])   # row = latitude, column = longitude
 
-# along each longitude line, at 1.4 E
-rows = np.array([lagrange_weights(longitude, 1.4) @ temperature[i] for i in range(4)])
+print(lagrange_weights(longitude, 1.4) * 125)        # [-8. 84. 56. -7.]
+print(lagrange_weights(latitude, 51.6) * 125)        # [-7. 56. 84. -8.]
 
-# then along the latitude line through those four values, at 51.6 N
+rows = np.array([lagrange_weights(longitude, 1.4) @ temperature[i] for i in range(4)])
+print(rows)                                          # [24.0936 23.0384 21.4328 19.6656]
 print(lagrange_weights(latitude, 51.6) @ rows)       # 22.1162...
 </syntaxhighlight>
 
@@ -106,14 +155,14 @@ plt.tight_layout()
 plt.show()
 </syntaxhighlight>
 
-[[File:Bicubic grid interpolation temperature.png|thumb|none|560px|alt=Three-dimensional plot of a gently curving temperature surface over a longitude-latitude grid, with the sixteen station readings marked as red dots and one query point marked with a cross|The interpolating surface through the sixteen station readings. Each of the four longitude and four latitude directions contributes one line interpolant; the surface is their tensor product. The query point at $1.4^\circ$E, $51.6^\circ$N is marked with a cross.]]
+[[File:Bicubic grid interpolation temperature.png|thumb|none|560px|alt=Three-dimensional plot of a gently curving temperature surface over a longitude-latitude grid, with the sixteen station readings marked as red dots and one query point marked with a cross|The interpolating surface through the sixteen station readings, the tensor product of four longitude and four latitude basis polynomials. The query point at $1.4^\circ$E, $51.6^\circ$N is marked with a cross.]]
 
 The temperature falls from about $26\ ^\circ$C in the south-east to about $18\ ^\circ$C in the north-west, so the surface is dominated by a plane tilted towards the north-west, with a gentler curvature across it.
 {{End hidden}}
 
 === Pointwise interpolation ===
 
-Pointwise interpolation (or '''point evaluation''') asks only for the value of $f$ at one new point $(x_1^*,\cdots,x_m^*)$ inside the data range, without constructing $f$ anywhere else. It uses the same grid of $n^m$ datapoints and the same one-dimensional interpolations, but chains them instead of laying them out side by side.
+Pointwise interpolation (or '''point evaluation''') asks only for the value of $f$ at one new point $(x_1^*,\cdots,x_m^*)$ inside the data range, without constructing $f$ anywhere else. It uses the same grid of $n^m$ datapoints and the same basis polynomials, but regroups the sum one variable at a time instead of writing out its $n^m$ terms.
 
 In two dimensions, the first pass interpolates along $x_1$ inside each row $x_2=x_{2,i_2}$, at the target $x_1^*$:
 
@@ -133,28 +182,28 @@ $$
 \sum_{k=0}^{m-1}n^{k}=\frac{n^{m}-1}{n-1}
 $$
 
-which is the nested form
+and the passes are exactly the nested form
 
 $$
 f(x_1^*,\cdots,x_m^*)=\sum_{i_m=0}^{n-1}L^{(m)}_{i_m}(x_m^*)\sum_{i_{m-1}=0}^{n-1}L^{(m-1)}_{i_{m-1}}(x_{m-1}^*)\cdots\sum_{i_1=0}^{n-1}L^{(1)}_{i_1}(x_1^*)\,y_{i_1,\cdots,i_m}
 $$
 
-This count is smaller than the $m\,n^{m-1}$ of [[#Grid_interpolation|grid interpolation]], because the passes are not symmetric. In the first pass "all other variables" do range over $n^{m-1}$ combinations of known values, as in the grid case; afterwards one variable is pinned at the target $x_j^*$, which contributes one position instead of $n$. Nothing is thrown away: the two counts answer different questions, the value at one point and the whole surface.
+Each of those weighted sums costs $n$ multiplications, so the nested passes cost $n(n^{m}-1)/(n-1)$ in all. That is fewer than the $m\,n^m$ multiplications needed to sum the $n^m$ terms of [[#Grid_interpolation|grid interpolation]] term by term, because each pass collapses one variable: the first pass does range over the $n^{m-1}$ combinations of known nodes, as a direct sum does, but afterwards one variable is pinned at the target $x_j^*$ and contributes one position instead of $n$. Nothing is thrown away: the same $n^m$ terms are summed either way, and the two counts answer different questions, the value at one point and the whole surface.
 
-The order of the passes does not matter. Collapsing $x_1$ first and then $x_2$ gives the same number as collapsing $x_2$ first and then $x_1$, because the tensor product sum can be regrouped; every ordering evaluates the same polynomial of [[#Grid_interpolation|grid interpolation]]<ref>{{#cite:Q2391}}</ref>.
+The order of the passes does not matter. Collapsing $x_1$ first and then $x_2$ gives the same result as collapsing $x_2$ first and then $x_1$, because the tensor product sum can be regrouped; every ordering evaluates the same polynomial as [[#Grid_interpolation|grid interpolation]]<ref>{{#cite:Q2391}}</ref>.
 
 {| class="wikitable"
-|+ One-dimensional interpolations needed, for $n=4$ stations per axis
-! $m$ !! grid interpolation, $m\,n^{m-1}$ !! pointwise, $\sum_{k=0}^{m-1}n^{k}$
+|+ Multiplications at one query point, for $n=4$ nodes per axis
+! $m$ !! grid interpolation, direct sum, $m\,n^m$ !! pointwise, nested, $n\sum_{k=0}^{m-1}n^{k}$
 |-
 ! 2
-| 8 || 5
+| 32 || 20
 |-
 ! 3
-| 48 || 21
+| 192 || 84
 |-
 ! 4
-| 256 || 85
+| 1024 || 340
 |}
 
 For a general number of variables the passes are most conveniently written as contractions, one per variable:
