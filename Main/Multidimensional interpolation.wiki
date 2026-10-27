@@ -42,52 +42,137 @@ The result is the '''tensor product''' interpolant, and it is unique among polyn
 | 22.8 || 23.6 || 24.9 || 26.1
 |}
 
-With $m=2$ and $n=4$, the sum has $n^m=16$ terms, one per station, each one station reading times one longitude basis polynomial times one latitude basis polynomial. Writing $x_1$ for longitude and $x_2$ for latitude, and keeping the table's order with the latitude row first, so that $i_2=0$ is the row at $50^\circ$N and $i_1=0$ the column at $0^\circ$E:
+With $m=2$ and $n=4$ the sum has $n^m=16$ terms, one per station. Number the longitude nodes $x_{1,1}=0$, $x_{1,2}=1$, $x_{1,3}=2$, $x_{1,4}=3$ and the latitude nodes $x_{2,1}=50$, $x_{2,2}=51$, $x_{2,3}=52$, $x_{2,4}=53$, so that $i_1=1$ is the column at $0^\circ$E and $i_2=1$ the row at $50^\circ$N, the bottom row of the table:
 
 $$
-f(x_1,x_2)=\sum_{i_1=0}^{3}\sum_{i_2=0}^{3}y_{i_2,i_1}\,L^{(1)}_{i_1}(x_1)\,L^{(2)}_{i_2}(x_2)
+f(x_1,x_2)=\sum_{i_1=1}^{4}\sum_{i_2=1}^{4}y_{i_1,i_2}\,L_{1i_1}(x_1)\,L_{2i_2}(x_2)
 $$
 
-'''A manual evaluation at $1.4^\circ$E, $51.6^\circ$N.''' The longitude nodes are $0,1,2,3$ and the latitude nodes $50,51,52,53$, so evaluating $f$ needs only the basis polynomials at two fixed arguments. For the second longitude node:
+where $y_{i_1,i_2}$ is the reading in column $i_1$ and row $i_2$, and $L_{ji_j}$ is the general $L^{(j)}_{i_j}$ with the node index counted from $1$ rather than from $0$.
+
+'''The eight basis polynomials.''' Four are built on the longitude nodes $0,1,2,3$ and are functions of $x_1$; four are built on the latitude nodes $50,51,52,53$ and are functions of $x_2$:
 
 $$
-L^{(1)}_1(1.4)=\frac{(1.4-0)(1.4-2)(1.4-3)}{(1-0)(1-2)(1-3)}=\frac{1.4\cdot(-0.6)\cdot(-1.6)}{1\cdot(-1)\cdot(-2)}=\frac{1.344}{2}=\frac{84}{125}=0.672
-$$
-
-and the four longitude weights are
-
-$$
-\left(L^{(1)}_0,\ L^{(1)}_1,\ L^{(1)}_2,\ L^{(1)}_3\right)(1.4)=\tfrac{1}{125}\left(-8,\ 84,\ 56,\ -7\right)
-$$
-
-They sum to $1$, as they must, since the constant function is reproduced exactly. The latitude weights are the same four numbers in reverse order, $51.6$ lying as far above $51$ as $1.4$ lies below $2$:
-
-$$
-\left(L^{(2)}_0,\ L^{(2)}_1,\ L^{(2)}_2,\ L^{(2)}_3\right)(51.6)=\tfrac{1}{125}\left(-7,\ 56,\ 84,\ -8\right)
-$$
-
-Multiplying the readings of each latitude row by the longitude weights gives the value of the interpolant at $1.4^\circ$E on that row:
-
-$$
-\tfrac{1}{125}\left(-8\cdot22.8+84\cdot23.6+56\cdot24.9-7\cdot26.1\right)=\tfrac{3011.7}{125}=24.0936
+L_{11}(x_1)=-\frac{(x_1-1)(x_1-2)(x_1-3)}{6}=-\frac{1}{6}x_1^3+x_1^2-\frac{11}{6}x_1+1,\qquad L_{12}(x_1)=\frac{x_1(x_1-2)(x_1-3)}{2}=\frac{1}{2}x_1^3-\frac{5}{2}x_1^2+3x_1
 $$
 
 $$
-\tfrac{1}{125}\left(-8\cdot21.7+84\cdot22.5+56\cdot23.9-7\cdot25.0\right)=\tfrac{2879.8}{125}=23.0384
+L_{13}(x_1)=-\frac{x_1(x_1-1)(x_1-3)}{2}=-\frac{1}{2}x_1^3+2x_1^2-\frac{3}{2}x_1,\qquad L_{14}(x_1)=\frac{x_1(x_1-1)(x_1-2)}{6}=\frac{1}{6}x_1^3-\frac{1}{2}x_1^2+\frac{1}{3}x_1
 $$
 
 $$
-\tfrac{1}{125}\left(-8\cdot20.1+84\cdot20.9+56\cdot22.3-7\cdot23.5\right)=\tfrac{2679.1}{125}=21.4328
+L_{21}(x_2)=-\frac{(x_2-51)(x_2-52)(x_2-53)}{6}=-\frac{1}{6}x_2^3+26x_2^2-\frac{8111}{6}x_2+23426,\qquad L_{22}(x_2)=\frac{(x_2-50)(x_2-52)(x_2-53)}{2}=\frac{1}{2}x_2^3-\frac{155}{2}x_2^2+4003x_2-68900
 $$
 
 $$
-\tfrac{1}{125}\left(-8\cdot18.4+84\cdot19.1+56\cdot20.6-7\cdot21.8\right)=\tfrac{2458.2}{125}=19.6656
+L_{23}(x_2)=-\frac{(x_2-50)(x_2-51)(x_2-53)}{2}=-\frac{1}{2}x_2^3+77x_2^2-\frac{7903}{2}x_2+67575,\qquad L_{24}(x_2)=\frac{(x_2-50)(x_2-51)(x_2-52)}{6}=\frac{1}{6}x_2^3-\frac{51}{2}x_2^2+\frac{3901}{3}x_2-22100
 $$
 
-for the rows at $50$, $51$, $52$, and $53^\circ$N. Multiplying those four results by the latitude weights gives the reading at the query point:
+'''The polynomial, developed along each parallel.''' Collecting the terms of one latitude row turns $f$ into a cubic in $x_1$ whose four coefficients are the $x_2$ polynomials:
 
 $$
-f(1.4,51.6)=\tfrac{1}{125}\left(-7\cdot24.0936+56\cdot23.0384+84\cdot21.4328-8\cdot19.6656\right)=\tfrac{2764.5256}{125}=22.1162
+f(x_1,x_2)=Q_1(x_1)L_{21}(x_2)+Q_2(x_1)L_{22}(x_2)+Q_3(x_1)L_{23}(x_2)+Q_4(x_1)L_{24}(x_2),\qquad Q_{i_2}(x_1)=\sum_{i_1=1}^{4}y_{i_1,i_2}L_{1i_1}(x_1)
+$$
+
+so $Q_{i_2}$ is the cubic through the four readings of the parallel at $x_{2,i_2}$. Carrying out the four sums:
+
+$$
+Q_1(x_1)=-\frac{1}{10}x_1^3+\frac{11}{20}x_1^2+\frac{7}{20}x_1+\frac{114}{5}\ \ (50^\circ\mathrm{N}),\qquad Q_2(x_1)=-\frac{3}{20}x_1^3+\frac{3}{4}x_1^2+\frac{1}{5}x_1+\frac{217}{10}\ \ (51^\circ\mathrm{N})
+$$
+
+$$
+Q_3(x_1)=-\frac{2}{15}x_1^3+\frac{7}{10}x_1^2+\frac{7}{30}x_1+\frac{201}{10}\ \ (52^\circ\mathrm{N}),\qquad Q_4(x_1)=-\frac{11}{60}x_1^3+\frac{19}{20}x_1^2-\frac{1}{15}x_1+\frac{92}{5}\ \ (53^\circ\mathrm{N})
+$$
+
+Each constant term is that parallel's reading at $0^\circ$E, as it must be.
+
+'''The polynomial in $x_1$ and $x_2$.''' With every factor written out, the interpolant is
+
+$$
+f(x_1,x_2)=\left(-\frac{1}{10}x_1^3+\frac{11}{20}x_1^2+\frac{7}{20}x_1+\frac{114}{5}\right)\left(-\frac{(x_2-51)(x_2-52)(x_2-53)}{6}\right)
+$$
+
+$$
+{}+\left(-\frac{3}{20}x_1^3+\frac{3}{4}x_1^2+\frac{1}{5}x_1+\frac{217}{10}\right)\frac{(x_2-50)(x_2-52)(x_2-53)}{2}
+$$
+
+$$
+{}+\left(-\frac{2}{15}x_1^3+\frac{7}{10}x_1^2+\frac{7}{30}x_1+\frac{201}{10}\right)\left(-\frac{(x_2-50)(x_2-51)(x_2-53)}{2}\right)
+$$
+
+$$
+{}+\left(-\frac{11}{60}x_1^3+\frac{19}{20}x_1^2-\frac{1}{15}x_1+\frac{92}{5}\right)\frac{(x_2-50)(x_2-51)(x_2-52)}{6}
+$$
+
+Multiplied out, it has 16 terms and degree at most 3 in each variable; the large coefficients come from the latitude nodes sitting at 50 to 53 rather than at 0 to 3:
+
+$$
+f(x_1,x_2)=-\tfrac{1}{45}x_1^3x_2^3+\tfrac{103}{30}x_1^3x_2^2-\tfrac{31823}{180}x_1^3x_2+\tfrac{45511}{15}x_1^3+\tfrac{11}{120}x_1^2x_2^3-\tfrac{283}{20}x_1^2x_2^2+\tfrac{87361}{120}x_1^2x_2-\tfrac{62416}{5}x_1^2
+$$
+
+$$
+{}-\tfrac{31}{360}x_1x_2^3+\tfrac{199}{15}x_1x_2^2-\tfrac{245249}{360}x_1x_2+\tfrac{174899}{15}x_1+\tfrac{1}{15}x_2^3-\tfrac{209}{20}x_2^2+\tfrac{32657}{60}x_2-\tfrac{93997}{10}
+$$
+
+'''Evaluating at $1.4^\circ$E, $51.6^\circ$N.''' Substitute the point into the polynomial, one variable at a time. The longitude argument first: $x_1=1.4$ needs the four $x_1$ polynomials at that one argument. For instance
+
+$$
+L_{12}(1.4)=\frac{1.4\,(1.4-2)(1.4-3)}{(1-0)(1-2)(1-3)}=\frac{1.4\cdot(-0.6)\cdot(-1.6)}{1\cdot(-1)\cdot(-2)}=\frac{1.344}{2}=0.672
+$$
+
+and the four of them, beside the four $x_2$ polynomials at the latitude of the query point, are
+
+{| class="wikitable"
+|+ The basis polynomials at the two arguments
+! $i$ !! $L_{1i}(1.4)$ !! $L_{2i}(51.6)$
+|-
+! 1
+| $-0.064$ || $-0.056$
+|-
+! 2
+| $0.672$ || $0.448$
+|-
+! 3
+| $0.448$ || $0.672$
+|-
+! 4
+| $-0.056$ || $-0.064$
+|}
+
+Each column sums to $1$, as it must, since the basis reproduces a constant exactly. Substituting the first column into the four parallels gives the values on the parallels at $1.4^\circ$E. For the row at $50^\circ$N the expanded form and the basis values agree:
+
+$$
+Q_1(1.4)=-\tfrac{1}{10}(2.744)+\tfrac{11}{20}(1.96)+\tfrac{7}{20}(1.4)+22.8=-0.2744+1.078+0.49+22.8=24.0936
+$$
+
+$$
+Q_1(1.4)=-0.064\cdot22.8+0.672\cdot23.6+0.448\cdot24.9-0.056\cdot26.1=24.0936
+$$
+
+and the basis values are the quicker route for the other three rows:
+
+$$
+Q_2(1.4)=-0.064\cdot21.7+0.672\cdot22.5+0.448\cdot23.9-0.056\cdot25.0=23.0384
+$$
+
+$$
+Q_3(1.4)=-0.064\cdot20.1+0.672\cdot20.9+0.448\cdot22.3-0.056\cdot23.5=21.4328
+$$
+
+$$
+Q_4(1.4)=-0.064\cdot18.4+0.672\cdot19.1+0.448\cdot20.6-0.056\cdot21.8=19.6656
+$$
+
+The latitude argument is $x_2=51.6$, whose four values are the second column above; for instance
+
+$$
+L_{22}(51.6)=\frac{(51.6-50)(51.6-52)(51.6-53)}{(51-50)(51-52)(51-53)}=\frac{1.6\cdot(-0.4)\cdot(-1.4)}{1\cdot(-1)\cdot(-2)}=\frac{0.896}{2}=0.448
+$$
+
+Substituting both columns into the polynomial:
+
+$$
+f(1.4,51.6)=24.0936(-0.056)+23.0384(0.448)+21.4328(0.672)+19.6656(-0.064)=22.1162
 $$
 
 The same arithmetic in code:
@@ -95,39 +180,50 @@ The same arithmetic in code:
 <syntaxhighlight lang="python" copy>
 import numpy as np
 
-def lagrange_weights(x_nodes, x):
-    """Weights w_i such that sum(w_i * f(x_i)) interpolates f at x."""
-    x_nodes = np.asarray(x_nodes, dtype=float)
-    w = np.ones_like(x_nodes)
-    for i in range(x_nodes.size):
-        for j in range(x_nodes.size):
-            if i != j:
-                w[i] *= (x - x_nodes[j]) / (x_nodes[i] - x_nodes[j])
-    return w
+def lagrange_basis(nodes):
+    """Lagrange basis polynomials on `nodes`, as coefficient vectors, highest power first."""
+    basis = []
+    for i in nodes:
+        p = np.array([1.0])
+        for k in nodes:
+            if k != i:
+                p = np.polymul(p, [1.0, -k]) / (i - k)
+        basis.append(p)
+    return basis
 
-longitude = np.array([0.0, 1.0, 2.0, 3.0])           # degrees east
-latitude = np.array([50.0, 51.0, 52.0, 53.0])        # degrees north
+def basis_at(basis, x):
+    """The basis polynomials evaluated at x."""
+    return np.array([np.polyval(p, x) for p in basis])
+
+longitude = np.array([0.0, 1.0, 2.0, 3.0])           # nodes of x1
+latitude = np.array([50.0, 51.0, 52.0, 53.0])        # nodes of x2
+L1 = lagrange_basis(longitude)                      # L11 .. L14
+L2 = lagrange_basis(latitude)                       # L21 .. L24
+
 temperature = np.array([[22.8, 23.6, 24.9, 26.1],
                         [21.7, 22.5, 23.9, 25.0],
                         [20.1, 20.9, 22.3, 23.5],
-                        [18.4, 19.1, 20.6, 21.8]])   # row = latitude, column = longitude
+                        [18.4, 19.1, 20.6, 21.8]])   # row = latitude 50, 51, 52, 53; column = longitude 0, 1, 2, 3
 
-print(lagrange_weights(longitude, 1.4) * 125)        # [-8. 84. 56. -7.]
-print(lagrange_weights(latitude, 51.6) * 125)        # [-7. 56. 84. -8.]
+print(np.round(L1, 4))                               # L11 .. L14, highest power first
+print(np.round(L2, 4))                               # L21 .. L24, highest power first
+print(np.round(temperature @ np.array(L1), 4))       # Q1 .. Q4, row by row
+print(basis_at(L1, 1.4))                             # [-0.064  0.672  0.448 -0.056]
+print(basis_at(L2, 51.6))                            # [-0.056  0.448  0.672 -0.064]
 
-rows = np.array([lagrange_weights(longitude, 1.4) @ temperature[i] for i in range(4)])
-print(rows)                                          # [24.0936 23.0384 21.4328 19.6656]
-print(lagrange_weights(latitude, 51.6) @ rows)       # 22.1162...
+parallel = temperature @ basis_at(L1, 1.4)           # Q1 .. Q4 at 1.4 E
+print(parallel)                                      # [24.0936 23.0384 21.4328 19.6656]
+print(parallel @ basis_at(L2, 51.6))                 # 22.1162048
 </syntaxhighlight>
 
-Plotting the whole surface only needs the same weights, taken in pairs:
+Plotting the whole surface only needs the same basis evaluated on a mesh of arguments:
 
 <syntaxhighlight lang="python" copy>
 import matplotlib.pyplot as plt
 
 lon_plot = np.linspace(0.0, 3.0, 121)
 lat_plot = np.linspace(50.0, 53.0, 121)
-surface = np.array([[lagrange_weights(latitude, y) @ temperature @ lagrange_weights(longitude, x)
+surface = np.array([[basis_at(L2, y) @ temperature @ basis_at(L1, x)
                      for x in lon_plot] for y in lat_plot])
 
 fig = plt.figure(figsize=(9.0, 6.8))
@@ -209,22 +305,22 @@ The order of the passes does not matter. Collapsing $x_1$ first and then $x_2$ g
 For a general number of variables the passes are most conveniently written as contractions, one per variable:
 
 <syntaxhighlight lang="python" copy>
-def grid_interpolate_point(axes, values, point):
+def grid_interpolate_point(nodes, values, point):
     """Interpolated value at `point` from an n_1 x ... x n_m grid.
 
-    axes   -- one 1-D array of node coordinates per variable, in the same order
+    nodes  -- one 1-D array of node coordinates per variable, in the same order
               as the axes of `values`
     values -- m-dimensional array, values[i_1, ..., i_m]
     point  -- the m query coordinates
     """
     data = np.asarray(values, dtype=float)
-    for axis in range(len(axes) - 1, -1, -1):        # collapse one variable per pass
-        data = np.tensordot(data, lagrange_weights(axes[axis], point[axis]),
-                            axes=([axis], [0]))
+    for axis in range(len(nodes) - 1, -1, -1):       # collapse one variable per pass
+        w = basis_at(lagrange_basis(nodes[axis]), point[axis])
+        data = np.tensordot(data, w, axes=([axis], [0]))
     return float(data)
 </syntaxhighlight>
 
-For the station grid, `grid_interpolate_point([latitude, longitude], temperature, [51.6, 1.4])` returns `22.1162048...`, which is the two-pass calculation of the example above: four longitude interpolations give $24.094$, $23.038$, $21.433$, and $19.666\ ^\circ$C on the rows at $50$, $51$, $52$, and $53^\circ$N, and one latitude interpolation of those four values gives the reading at the query point.
+For the station grid, `grid_interpolate_point([np.arange(50.0, 54.0), np.arange(0.0, 4.0)], temperature, [51.6, 1.4])` returns `22.1162048...`, which is the two-pass calculation of the example above: four longitude interpolations give $24.0936$, $23.0384$, $21.4328$, and $19.6656\ ^\circ$C on the rows at $50$, $51$, $52$, and $53^\circ$N, and one latitude interpolation of those four values gives the reading at the query point.
 
 <blockquote>
 Because these readings happen to be close to planar, bilinear interpolation of the four stations surrounding the query point gives $22.100\ ^\circ$C, only $0.02\ ^\circ$C away from the grid interpolant. The two are not interchangeable, however: the bilinear interpolant is merely continuous where cells meet, whereas the grid interpolant is a single polynomial and therefore smooth everywhere.

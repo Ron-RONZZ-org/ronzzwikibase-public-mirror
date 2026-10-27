@@ -740,9 +740,9 @@
     },
     "Complex number": {
       "path": "Main/Complex number.wiki",
-      "revid": 11213,
-      "sha256": "607267f7ce924fdb2e786569c9bcdf308a163e7a28011e47dcce0b5c5534bc5c",
-      "synced_at": "2026-10-25T09:52:23+00:00"
+      "revid": 11420,
+      "sha256": "0b5c0e2ef5fb30540e27bdfd1b373b00e75f0b131749c21592aff98574ed93f4",
+      "synced_at": "2026-10-27T14:24:16+00:00"
     },
     "Complex plane": {
       "path": "Main/Complex plane.wiki",
@@ -1274,9 +1274,9 @@
     },
     "Multidimensional interpolation": {
       "path": "Main/Multidimensional interpolation.wiki",
-      "revid": 11419,
-      "sha256": "c26bea0bf17e4f2cd0490b5a746c652dfa9cc42e3af6140afe705ece04be20a6",
-      "synced_at": "2026-10-27T13:45:24+00:00"
+      "revid": 11440,
+      "sha256": "e88549c2ccc52fc5ff8761ea4ef31d93552a912f6b1dd83b43829d00f1b4ffa3",
+      "synced_at": "2026-10-27T14:24:16+00:00"
     },
     "Natural number": {
       "path": "Main/Natural number.wiki",
@@ -2300,9 +2300,9 @@
     },
     "Set": {
       "path": "Main/Set.wiki",
-      "revid": 11215,
-      "sha256": "4bbbc3bf426d354598bb95126f88d58e300e84e66aff3c3ebb96fa07c1f62534",
-      "synced_at": "2026-10-25T10:40:43+00:00"
+      "revid": 11434,
+      "sha256": "6e26f7d7cd500141d70541f6883430c226796be8ced247590fb5ad411c3e2e3b",
+      "synced_at": "2026-10-27T14:24:16+00:00"
     },
     "Shell theorem": {
       "path": "Main/Shell theorem.wiki",
@@ -4177,6 +4177,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-27T13:45:24+00:00",
+  "updated": "2026-10-27T14:24:16+00:00",
   "version": 1
 }

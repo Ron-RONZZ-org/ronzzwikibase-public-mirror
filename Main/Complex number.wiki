@@ -16,6 +16,7 @@ See [[complex plane]].
 
 == Polar form ==
 
+[[File:Complex-numbers-trigonometric-form-1.svg|thumbnail|The same complex number can be written either in standard algebraic form $a+bi$ (algebraic coordinates $(a,b)$) or polar form $\cos\theta+i\sin\theta$ (polar coordinates $(r,\theta)$ on the complex plane ]]
 All complex numbers $z=a+bi$ can be written in polar form $r\operatorname{cis}(\theta)$, where
 
 $$

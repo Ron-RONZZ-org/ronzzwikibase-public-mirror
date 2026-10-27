@@ -82,6 +82,7 @@ The '''cardinality''' of a set $S$, denoted $|S|$, is its number of elements.
 | $\{0,2,4,6,8,\cdots\}$
 | $\infty$
 |}
+{{End hidden}}
 
 <blockquote>
 In everyday language, "size" is often used as an alternative term for cardinality.
@@ -96,7 +97,6 @@ All finite sets are countable. Infinite sets may be either countable (e.g., $\ma
 </blockquote>
 
 <ref>{{#cite:Q2196}}</ref>
-{{End hidden}}
 
 == Set relationships ==
 
