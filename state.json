@@ -1748,9 +1748,9 @@
     },
     "Person:Joseph Angus Corneli": {
       "path": "Person/Joseph Angus Corneli.wiki",
-      "revid": 11328,
-      "sha256": "d922344b4da088900c691ac6574908afb529885f2904f8dca5acecf2ea37fcaa",
-      "synced_at": "2026-10-27T08:48:13+00:00"
+      "revid": 11383,
+      "sha256": "2c9fe9f7ae96101cbe01649520313dc52939b9e23a868c3b134f708d1501acc7",
+      "synced_at": "2026-10-27T10:54:39+00:00"
     },
     "Person:Joseph Fourier": {
       "path": "Person/Joseph Fourier.wiki",
@@ -3138,6 +3138,12 @@
       "sha256": "ea9405ef12e776c9154497efd875ea6829e69afd23c602c4777af25dd7068ec7",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Joe Corneli(Website) (Website)": {
+      "path": "Source/Joe Corneli(Website) (Website).wiki",
+      "revid": 11382,
+      "sha256": "e2b7187d629382df8b9f02b6b54374c5a84fdb39963ab2449f3e8f851adc3211",
+      "synced_at": "2026-10-27T10:54:39+00:00"
+    },
     "Source:Kristina Kallas (Webpage)": {
       "path": "Source/Kristina Kallas (Webpage).wiki",
       "revid": 9099,
@@ -3672,6 +3678,12 @@
       "sha256": "ec1982e54613f4844c772c09d2d63250d0a7f46f2c7747e8a1e6062d29a7a281",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Peer Produced Peer Learning: A Mathematics Case Study (Thesis)": {
+      "path": "Source/Peer Produced Peer Learning_ A Mathematics Case Study (Thesis).wiki",
+      "revid": 11373,
+      "sha256": "ef05416342b2f4e535cf3efdc3041ca532826a33f64e3fff6e6143412d2f9a74",
+      "synced_at": "2026-10-27T10:54:39+00:00"
+    },
     "Source:Physique : Tome 2, Electricité et magnétisme (Book)": {
       "path": "Source/Physique _ Tome 2, Electricité et magnétisme (Book).wiki",
       "revid": 8667,
@@ -4141,6 +4153,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-27T09:44:41+00:00",
+  "updated": "2026-10-27T10:54:39+00:00",
   "version": 1
 }

@@ -1,5 +1,28 @@
 {{Person}}
+Joseph Angus Corneli, who calls himself "Joe Corneli" for short, lives in the UK and focuses his career on research into collaborative knowledge production.
 
-== Overview ==
+== Academic education ==
 
-researches into collaborative knowledge production
+Corneli earned his doctorate at [[Collective:The Open University|The Open University]] in Milton Keynes, UK in 2014. His thesis focused on peer production and peer learning in mathematics.<ref>{{#cite:Q2414}}</ref>
+
+He previously studied at [[Collective:New College of Florida|New College of Florida]] and was awarded with a Bachelors with honours degree in mathematics in 2002. He also studied at [[Collective:University of Texas System|University of Texas]] at the post-graduate level between 2002 and 2004 but ultimately left without a degree.<ref>{{#cite:Q2413}}</ref>
+
+== Career ==
+
+After earning his doctorates, Corneli worked as a research/teaching associate at various universities across the UK and briefly as a software engineer in the private sector, before ultimately landing the position of Open Research Project Manager at [[Collective:Oxford Brookes University|Oxford Brookes University]].
+
+He founded his own company [[Collective:Hyperreal Enterprises LTD|Hyperreal Enterprises LTD]] in 2019. Its primary activities include AI-workflow consulting and system design.
+
+<ref>{{#cite:Q2413}}</ref>
+
+== Academic research ==
+
+During the 2000s, Corneli co-authored a series of academic papers on double bubbles in gauss space and spheres. 
+
+Since the 2010s, his research focus has shifted and he co-authored a series of papers on active documents, argumentation theory, collaborative mathematics, and ethics.
+
+<ref>{{#cite:Q2413}}</ref>
+
+== Music ==
+
+Corneli plays upright bass and other instruments in an Oxford-based band ''X’ed Road of Dreams''.<ref>{{#cite:Q2416}}</ref>
