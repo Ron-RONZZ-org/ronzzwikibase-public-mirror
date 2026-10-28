@@ -192,7 +192,7 @@ def L(nodes, x):
 
 def p(x1, x2):
     """2-variable Lagrange polynomial"""
-    return (temperature * np.outer(basis_at(latitude, x1), L(longitude, x2))).sum()
+    return (temperature * np.outer(L(latitude, x1), L(longitude, x2))).sum()
 
 lon_plot = np.linspace(0.0, 3.0, 121)
 lat_plot = np.linspace(50.0, 53.0, 121)
@@ -207,7 +207,7 @@ surf = ax.plot_surface(mesh_lon, mesh_lat, surface, cmap="RdYlBu_r", linewidth=0
 ax.scatter(np.tile(longitude, 4), np.repeat(latitude, 4), temperature.ravel(),
            s=70, color="#c0392b", edgecolor="black", linewidth=0.9,
            depthshade=False, label="16 weather stations")
-ax.scatter([1.4], [51.6], [f(51.6, 1.4)], s=170, color="black", marker="X",
+ax.scatter([1.4], [51.6], [p(51.6, 1.4)], s=170, color="black", marker="X",
            depthshade=False, label=r"query point (1.4$^\circ$E, 51.6$^\circ$N)")
 ax.set_xlabel(r"longitude ($^\circ$E)", labelpad=10)
 ax.set_ylabel(r"latitude ($^\circ$N)", labelpad=10)
@@ -225,7 +225,7 @@ plt.show()
 
 [[File:Bicubic grid interpolation temperature.png|thumb|none|560px|alt=Three-dimensional plot of a gently curving temperature surface over a longitude-latitude grid, with the sixteen station readings marked as red dots and one query point marked with a cross|The interpolating surface through the sixteen station readings constructed via Lagrange polynomials in two variables. $1.4^\circ$E, $51.6^\circ$N is marked with a cross.]]
 
-As observed, the surface is dominated by a plane tilted gently downwards from the south-east towards the north-west, predicting a gentle decrease in temperature along the direction.
+As observed, the surface is dominated by a plane tilted gently downwards from the south-east towards the north-west, predicting a gentle decrease in temperature along that direction.
 {{End hidden}}
 
 == Pointwise interpolation ==
@@ -240,7 +240,7 @@ $$
 \{(x_{1,i_1},\cdots,x_{m,i_m},y_{i_1,\cdots,i_m})\mid i_1,\cdots,i_m \in [0,n-1],\, i_1,\cdots,i_m \in \mathbb{N}\}
 $$
 
-is known, then first perform $n^{m-1}$ 1D interpolation in $x_1$, fixing $x_2,\cdots,x_m$ at all known values, obtaining $n^{m-1}$ interpolating functions $f^{(x_1)}_{i_2,i_3,\cdots,i_m}(x_1)$
+is known, then first perform $n^{m-1}$ 1D interpolations in $x_1$, fixing $x_2,\cdots,x_m$ at all known values, obtaining $n^{m-1}$ interpolating functions $f^{(x_1)}_{i_2,i_3,\cdots,i_m}(x_1)$
 
 Now evaluate each $f^{(x_1)}$ at $x_1=x_1^*$ to obtain $n^{m-1}$ interpolated datapoints
 
@@ -248,7 +248,7 @@ $$
 \{(x_1^*,x_{2,i_2},\cdots,x_{m,i_m},y_{x_1^*,i_2,\cdots,i_m})\mid i_2,\cdots,i_m \in [0,n-1],\, i_2,\cdots,i_m \in \mathbb{N}\}
 $$
 
-Then perform $n^{m-2}$ 1D interpolation in $x_2$, fixing $x_3,\cdots,x_m$ at all known values, obtaining $n^{m-2}$ interpolating functions $f^{(x_2)}_{i_3,\cdots,i_m}(x_2)$
+Then perform $n^{m-2}$ 1D interpolations in $x_2$, fixing $x_3,\cdots,x_m$ at all known values, obtaining $n^{m-2}$ interpolating functions $f^{(x_2)}_{i_3,\cdots,i_m}(x_2)$
 
 Now evaluate each $f^{(x_2)}$ at $x_2=x_2^*$ to obtain $n^{m-2}$ interpolated datapoints
 
@@ -256,7 +256,7 @@ $$
 \{(x_1^*,x_2^*,x_{3,i_3}, \cdots,x_{m,i_m},y_{x_1^*,x_2^*,i_3,\cdots,i_m})\mid i_3,\cdots,i_m \in [0,n-1],\, i_3,\cdots,i_m \in \mathbb{N}\}
 $$
 
-Then perform $n^{m-3}$ 1D interpolation in $x_3$, $n^{m-4}$ 1D interpolation in $x_4$... $n$ 1D interpolation in $x_{m-1}$, and finally $1$ 1D interpolation in $x_m$ to obtain one interpolating function $f^{(x_m)}$.
+Then perform $n^{m-3}$ 1D interpolations in $x_3$, $n^{m-4}$ 1D interpolations in $x_4$, $\ldots$, $n$ 1D interpolations in $x_{m-1}$, and finally $1$ 1D interpolation in $x_m$ to obtain one interpolating function $f^{(x_m)}$.
 
 Then the estimate of $y$ at $(x_1^*,\cdots,x_m^*)$ is $f^{(x_m)}(x_m^*)$.<ref>{{#cite:Q2421}}</ref>
 

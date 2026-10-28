@@ -1280,9 +1280,9 @@
     },
     "Multidimensional interpolation": {
       "path": "Main/Multidimensional interpolation.wiki",
-      "revid": 11515,
-      "sha256": "6278ea82805be817951e5d1316eb87888326c8de4185f5b34e35d19bd7d60f58",
-      "synced_at": "2026-10-27T19:36:05+00:00"
+      "revid": 11521,
+      "sha256": "160163611b4a8fc58d77472dab243922914836cd10feb18bb0643e6da672bf99",
+      "synced_at": "2026-10-28T12:40:49+00:00"
     },
     "Natural number": {
       "path": "Main/Natural number.wiki",
@@ -1307,6 +1307,12 @@
       "revid": 11399,
       "sha256": "8c702eb9d2b03b1b9f4ff79a0762ea8f7ab4007831e47623d5e78cfe332a9c9b",
       "synced_at": "2026-10-27T11:31:52+00:00"
+    },
+    "Objectivity": {
+      "path": "Main/Objectivity.wiki",
+      "revid": 11534,
+      "sha256": "28c12d3867dede66e7a5a0e7f3df2792c02427d0d0e1f54e7be9325456319619",
+      "synced_at": "2026-10-28T12:40:49+00:00"
     },
     "Ordinary differential equation": {
       "path": "Main/Ordinary differential equation.wiki",
@@ -3114,6 +3120,12 @@
       "sha256": "96428db4a305749b71d1dc1b29b25b1a5c03fd65deea52736ed9714aab131200",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Idiots Are Everywhere. Here’s How to Cope - Joshua Johnson - TED (YouTube video)": {
+      "path": "Source/Idiots Are Everywhere. Here’s How to Cope - Joshua Johnson - TED (YouTube video).wiki",
+      "revid": 11526,
+      "sha256": "3ee9729cc624b10e07246258d304504e26b11dcf090a0dfa819fc5f76c97c767",
+      "synced_at": "2026-10-28T12:40:49+00:00"
+    },
     "Source:Industrial manufacturers embrace industry 4.0 to boost productivity (Webpage)": {
       "path": "Source/Industrial manufacturers embrace industry 4.0 to boost productivity (Webpage).wiki",
       "revid": 11054,
@@ -4195,6 +4207,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-27T19:36:05+00:00",
+  "updated": "2026-10-28T12:40:49+00:00",
   "version": 1
 }
