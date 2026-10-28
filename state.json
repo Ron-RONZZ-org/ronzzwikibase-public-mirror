@@ -56,9 +56,9 @@
     },
     "Cantor pairing function": {
       "path": "Main/Cantor pairing function.wiki",
-      "revid": 11541,
-      "sha256": "16944797d960b66931b1b312fb7239bda91692744ca836622444b67e81f3b69e",
-      "synced_at": "2026-10-28T13:11:36+00:00"
+      "revid": 11576,
+      "sha256": "dee820cbcaaeb8a60cfbc341820e41728e8b47c136bc59adb16870fabcb762dd",
+      "synced_at": "2026-10-28T15:50:21+00:00"
     },
     "Cauchy-Schwarz inequality": {
       "path": "Main/Cauchy-Schwarz inequality.wiki",
@@ -215,6 +215,12 @@
       "revid": 9182,
       "sha256": "0421bd3161450828afb2710254eff13db3912aacf717ce6e7e73a8dd932a3c59",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Coding function": {
+      "path": "Main/Coding function.wiki",
+      "revid": 11577,
+      "sha256": "223ba9977e84eb253e0454bf782b02e15fd39c4bdf266bec9fc1e48418101790",
+      "synced_at": "2026-10-28T15:50:21+00:00"
     },
     "Collaborative robot": {
       "path": "Main/Collaborative robot.wiki",
@@ -1116,6 +1122,12 @@
       "sha256": "161c4b8b4308749cbfc1bffd631f02ccdf06cfb646eee4f044cabe00b4cd3f21",
       "synced_at": "2026-10-21T11:14:33+00:00"
     },
+    "Indicator function": {
+      "path": "Main/Indicator function.wiki",
+      "revid": 11580,
+      "sha256": "5e067f62cdccfc8d7d28bdd04f6c05f7369bce421d1f75ffdc3d1fb11ca7d299",
+      "synced_at": "2026-10-28T15:50:21+00:00"
+    },
     "Inertia": {
       "path": "Main/Inertia.wiki",
       "revid": 9189,
@@ -1160,9 +1172,9 @@
     },
     "Kronecker delta function": {
       "path": "Main/Kronecker delta function.wiki",
-      "revid": 8549,
-      "sha256": "a92b277c85cb4b06fd11676556245f5fe073461fcae44761c47b5a86c9285b8d",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "revid": 11579,
+      "sha256": "dd0d2ccb424d225c0adc56c1dd6c686878814ca18f6bf797815c4cc436e9a530",
+      "synced_at": "2026-10-28T15:50:21+00:00"
     },
     "LLM": {
       "path": "Main/LLM.wiki",
@@ -2330,9 +2342,9 @@
     },
     "Set": {
       "path": "Main/Set.wiki",
-      "revid": 11434,
-      "sha256": "6e26f7d7cd500141d70541f6883430c226796be8ced247590fb5ad411c3e2e3b",
-      "synced_at": "2026-10-27T14:24:16+00:00"
+      "revid": 11582,
+      "sha256": "dba5c0f0a06f87c3434e42fb430f8214319c5322bc2826d20f6ce5a8903d78e7",
+      "synced_at": "2026-10-28T15:50:21+00:00"
     },
     "Shell theorem": {
       "path": "Main/Shell theorem.wiki",
@@ -4231,6 +4243,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-28T14:11:58+00:00",
+  "updated": "2026-10-28T15:50:21+00:00",
   "version": 1
 }

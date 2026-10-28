@@ -1,0 +1,11 @@
+A coding function encodes and decodes data into a specific format.
+
+$$
+c: x \mapsto y \\
+c^{-1}: y \mapsto x \\
+(x \in X,\, y \in Y)
+$$
+
+== Examples ==
+
+* [[Cantor pairing function]]

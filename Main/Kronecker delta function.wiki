@@ -1,4 +1,5 @@
-A mathematical operation used to select or compare indices.
+[[Category:Proper name]]
+An [[indicator function]] used to select or compare indices.
 
 == Mathematical definition ==
 

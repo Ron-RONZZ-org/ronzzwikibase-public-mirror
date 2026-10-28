@@ -88,12 +88,12 @@ The '''cardinality''' of a set $S$, denoted $|S|$, is its number of elements.
 In everyday language, "size" is often used as an alternative term for cardinality.
 </blockquote>
 
-If $|S|$ is finite, $S$ is known as an '''infinite set'''.
+If $|S|=\infty$, $S$ is known as an '''infinite set'''.
 
-If $\exists f:\mathbb{Z} \to S$, $S$ is said to be '''countable'''.
+If $\exists f:\mathbb{N} \to S$, $S$ is said to be '''countable'''.
 
 <blockquote>
-All finite sets are countable. Infinite sets may be either countable (e.g., $\mathbb{N}$) or uncountable (e.g., $\mathbb{R}$).
+All finite sets are countable. Infinite sets may be either countable (e.g., [[integer|$\mathbb{Z}$]]) or uncountable (e.g., [[real number|$\mathbb{R}$]]).
 </blockquote>
 
 <ref>{{#cite:Q2196}}</ref>
