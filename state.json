@@ -30,6 +30,12 @@
       "sha256": "e71a1480a6ef6ea8843d57336e619eb0766f6cc63682f1d8402e26aa5be0ba54",
       "synced_at": "2026-10-19T14:54:35+00:00"
     },
+    "Arithmetic sequence": {
+      "path": "Main/Arithmetic sequence.wiki",
+      "revid": 11595,
+      "sha256": "86f612cfe18bf16f22b19103c22cb03137f612706e4d13a04162a5822ca62ab7",
+      "synced_at": "2026-10-28T20:49:45+00:00"
+    },
     "Atom": {
       "path": "Main/Atom.wiki",
       "revid": 8075,
@@ -1043,6 +1049,12 @@
       "revid": 10336,
       "sha256": "13935779acd3d1f3f7958ad0e0ed0e41d261216a8d239e413ccdc00a1b2ee6a6",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Geometric sequence": {
+      "path": "Main/Geometric sequence.wiki",
+      "revid": 11594,
+      "sha256": "bac15f7dd3c95c6ff2979a13bb58f2ffcd72224663fe5b0227be7cc12439f4f5",
+      "synced_at": "2026-10-28T20:49:45+00:00"
     },
     "Gravitational potential energy": {
       "path": "Main/Gravitational potential energy.wiki",
@@ -4255,6 +4267,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-28T20:24:13+00:00",
+  "updated": "2026-10-28T20:49:45+00:00",
   "version": 1
 }

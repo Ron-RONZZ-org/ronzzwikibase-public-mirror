@@ -1,0 +1,38 @@
+An '''arithmetic sequence''' is a [[number sequence]] where each term after the first is a fixed amount larger or smaller than the previous one.
+
+== Formal definition ==
+
+$(a_n)$ is an '''arithmetic sequence''' if:
+
+$$
+a_n=a_0+nd
+$$
+
+$d=a_{n}-a_{n-1},\, \forall n \ge 1$ is known as the '''common difference''' of the sequence.
+
+== Properties ==
+
+=== Partial sum: $S_m$ ===
+
+The sum of first $m$ terms of a geometric sequence is known as its '''partial sum''' up to the $m$th term, denoted by $S_n$.
+
+$$
+S_n=\frac{a_1+a_n}{2}n
+$$
+
+=== Limit behaviour: $\lim_{m \to \infty}a_m$ ===
+
+{| class="wikitable"
+|-
+! $d$
+! $\lim_{m \to \infty}a_m$
+|-
+| $>0$
+| $\infty$
+|-
+| $<0$
+| $-\infty$
+|-
+| $=0$
+| $a_0$
+|}

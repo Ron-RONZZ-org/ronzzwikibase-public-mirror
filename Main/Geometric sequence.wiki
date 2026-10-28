@@ -1,0 +1,50 @@
+A '''geometric sequence''' is a [[number sequence]] where each term after the first is a fixed multiple of the previous one.
+
+== Formal definition ==
+
+$(a_n)$ is a '''geometric sequence''' if:
+
+$$
+a_n=a_0q^n
+$$
+
+$q=\frac{a_{n}}{a_{n-1}},\, \forall n \ge 1$ is known as the '''common ratio''' of the sequence.
+
+== Properties ==
+
+=== Partial sum: $S_m$ ===
+
+The sum of first $m$ terms of a geometric sequence is known as its '''partial sum''' up to the $m$th term, denoted by $S_n$.
+
+$$
+S_n=\frac{a^{m+1}-a_0}{q-1}
+$$
+
+=== Limit behaviour: $\lim_{m \to \infty}a_m$ ===
+
+{| class="wikitable"
+|-
+! $q$
+! $a_0$
+! $\lim_{m \to \infty}a_m$
+|-
+| any
+| $0$
+| $0$
+|-
+| $>1$
+| $>0$
+| $\infty$
+|-
+| $>1$
+| $<0$
+| $-\infty$
+|-
+| | $|q|<1$
+| any
+| $0$, strictly decreasing/increasing if $q>0$, oscillating with decreasing amplitude if $q<0$
+|-
+| $q <-1$
+| $\ne 0$
+| $\pm \infty$, oscillating with increasing amplitude
+|}
