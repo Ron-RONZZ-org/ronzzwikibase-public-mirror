@@ -261,15 +261,44 @@ Then perform $n^{m-3}$ 1D interpolations in $x_3$, $n^{m-4}$ 1D interpolations i
 Then the estimate of $y$ at $(x_1^*,\cdots,x_m^*)$ is $f^{(x_m)}(x_m^*)$.<ref>{{#cite:Q2421}}</ref>
 
 {{Hidden example}}
-'''Surface temperature over a square of weather stations, by successive 1D interpolation.'''
+'''Surface temperature over a grid of weather stations (particular value by successive 1D interpolations)'''
 
-Take the same sixteen weather stations as above.
+Retake the same example as in [[#grid interpolation]]:
+
+Sixteen weather stations sitting in a $4^\circ \times 4^\circ$ grid measure surface temperature at various latitudes and longitudes.
+
+{| class="wikitable"
+|+ Temperature ($^\circ$C) at each station
+! latitude $\downarrow$ / longitude $\rightarrow$ !! $0^\circ$E !! $1^\circ$E !! $2^\circ$E !! $3^\circ$E
+|-
+! $53^\circ$N
+| 18.4 || 19.1 || 20.6 || 21.8
+|-
+! $52^\circ$N
+| 20.1 || 20.9 || 22.3 || 23.5
+|-
+! $51^\circ$N
+| 21.7 || 22.5 || 23.9 || 25.0
+|-
+! $50^\circ$N
+| 22.8 || 23.6 || 24.9 || 26.1
+|}
 
 What is the interpolated temperature at $51.6^\circ \textbf{N}, 1.4^\circ \textbf{E}$?
 
 '''Algebraic solution''':
 
-'''Step 1: interpolate in $x_1$ (latitude).''' Fix the longitude at each of its four known values, and interpolate the four readings along latitude with the one-dimensional Lagrange polynomial, evaluated at $x_1^*=51.6$:
+'''Step 1: interpolate in $x_1$ (latitude).''' Interpolate the four readings of different latitudes with the one-dimensional Lagrange polynomial at each of the four known longitudes, then evaluate the interpolating functions at $x_1^*=51.6$. The four Lagrange basis polynomials in $x_1$, built on the latitude nodes $50,51,52,53$, are the same at every longitude:
+
+$$
+L^{(x_1)}_{1}(x_1)=-\frac{(x_1-51)(x_1-52)(x_1-53)}{6},\qquad L^{(x_1)}_{2}(x_1)=\frac{(x_1-50)(x_1-52)(x_1-53)}{2}
+$$
+
+$$
+L^{(x_1)}_{3}(x_1)=-\frac{(x_1-50)(x_1-51)(x_1-53)}{2},\qquad L^{(x_1)}_{4}(x_1)=\frac{(x_1-50)(x_1-51)(x_1-52)}{6}
+$$
+
+so that, at $x_1^*=51.6$,
 
 $$
 L^{(x_1)}_{1}(51.6)=-0.056,\qquad L^{(x_1)}_{2}(51.6)=0.448,\qquad L^{(x_1)}_{3}(51.6)=0.672,\qquad L^{(x_1)}_{4}(51.6)=-0.064
@@ -289,7 +318,17 @@ $$
 | 20.7744 || 21.5808 || 22.9800 || 24.1352
 |}
 
-'''Step 2: interpolate in $x_2$ (longitude).''' Interpolate these four readings along longitude with the one-dimensional Lagrange polynomial in $x_2$, evaluated at $x_2^*=1.4$:
+'''Step 2: interpolate in $x_2$ (longitude).''' Only one interpolation in $x_2$ is needed, since $m=2$: the four interpolated readings $y_{x_1^*,i_2}$ are interpolated along longitude with the one-dimensional Lagrange polynomial in $x_2$, and the resulting polynomial is then evaluated at $x_2^*=1.4$. Its Lagrange basis polynomials, built on the longitude nodes $0,1,2,3$, are
+
+$$
+L^{(x_2)}_{1}(x_2)=-\frac{(x_2-1)(x_2-2)(x_2-3)}{6},\qquad L^{(x_2)}_{2}(x_2)=\frac{x_2(x_2-2)(x_2-3)}{2}
+$$
+
+$$
+L^{(x_2)}_{3}(x_2)=-\frac{x_2(x_2-1)(x_2-3)}{2},\qquad L^{(x_2)}_{4}(x_2)=\frac{x_2(x_2-1)(x_2-2)}{6}
+$$
+
+so that, at $x_2^*=1.4$,
 
 $$
 L^{(x_2)}_{1}(1.4)=-0.064,\qquad L^{(x_2)}_{2}(1.4)=0.672,\qquad L^{(x_2)}_{3}(1.4)=0.448,\qquad L^{(x_2)}_{4}(1.4)=-0.056
@@ -303,7 +342,7 @@ $$
 {}=22.1162
 $$
 
-which agrees with the value obtained above from the full two-variable polynomial, without ever forming that polynomial: $4$ one-dimensional interpolations in latitude, followed by $1$ in longitude, sufficed.
+which agrees with the value obtained in [[#grid interpolation]]
 {{End hidden}}
 
 == References ==
