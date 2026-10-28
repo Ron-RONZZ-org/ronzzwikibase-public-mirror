@@ -1,0 +1,93 @@
+A '''number sequence''' is a [[sequence]] of [[number]]s.
+
+== Formal definition ==
+
+Let $\mathbb{F}$ be a [[field (mathematical concept)|field]].
+
+Any function
+
+$$
+A:\mathbb{N} \to \mathbb{F}
+$$
+
+is a number sequence in $\mathbb{F}$.
+
+== Description ==
+
+The $n^{th}$ term of a sequence is often denoted by $a_n$. The sequence is then denoted by $(a_n)$.
+
+=== Direct definition ===
+
+The terms of certain number sequences can be described by a direct formula:
+
+$$
+a_n=f(n)
+$$
+
+where $f(n)$ is a well-defined function.
+
+{{Hidden example}}
+
+$$
+a_n=\frac{1}{n}\\
+\Rightarrow (a_n)_{n \ge 1}=1,\frac{1}{2},\frac{1}{3},\cdots
+$$
+{{End hidden}}
+
+=== Recursive definition ===
+
+The terms of some number sequences can only be described recursively relative to previous terms:
+
+$$
+a_n=f(a_{n-1},a_{n-2},\cdots)
+$$
+
+{{Hidden example}}
+
+One of the most famous recursive sequences is the Fibonacci sequence:
+
+{{#content:Q2441}}
+
+{{End hidden}}
+
+== Classification ==
+
+Number sequences are often described by the evolution of their terms as $n$ grows.
+
+{| class="wikitable"
+|-
+! Name
+! Characteristic
+|-
+| Constant
+| $a_n = a_{n+1} \quad \forall n \in \mathbb{N}$
+|-
+| Increasing
+| $a_n < a_{n+1} \quad \forall n \in \mathbb{N}$
+|-
+| Decreasing
+| $a_n > a_{n+1} \quad \forall n \in \mathbb{N}$
+|-
+| Non-decreasing
+| $a_n \le a_{n+1} \quad \forall n \in \mathbb{N}$
+|-
+| Non-increasing
+| $a_n \ge a_{n+1} \quad \forall n \in \mathbb{N}$
+|-
+| Convergent
+| $\lim_{n \to +\infty} a_n = \ell \quad \text{or} \quad a_n \to \ell \quad \text{as } n \to +\infty$
+|-
+| Bounded
+| | $|a_n| \leq M \quad \forall n \in \mathbb{N}$
+|-
+| Upper-bounded
+| $a_n \leq M \quad \forall n \in \mathbb{N}$
+|-
+| Lower-bounded
+| $a_n \geq M \quad \forall n \in \mathbb{N}$
+|}
+
+== Special number sequences ==
+
+* [[Geometric sequence]]
+* [[Arithmetic sequence]]
