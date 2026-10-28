@@ -4140,6 +4140,12 @@
       "sha256": "b08ffcbb9ffb1cb5494a216b542e1d967c2a133b484a371ab566a329ec61dbbb",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Special function": {
+      "path": "Main/Special function.wiki",
+      "revid": 11554,
+      "sha256": "6b0bf7ab7a67dcb5e389d71c112eade31f9327b98db4c151197e246771bd81e5",
+      "synced_at": "2026-10-28T13:49:51+00:00"
+    },
     "Stream of consciousness": {
       "path": "Main/Stream of consciousness.wiki",
       "revid": 8731,
@@ -4213,6 +4219,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-28T13:36:26+00:00",
+  "updated": "2026-10-28T13:49:51+00:00",
   "version": 1
 }
