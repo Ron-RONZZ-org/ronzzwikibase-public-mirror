@@ -1,0 +1,31 @@
+The '''Cantor pairing function''' [[function#Formal_definition|bijectively]] maps ordered pairs of natural numbers to natural numbers.
+
+$$
+\langle \ \rangle: \mathbb{N} \times \mathbb{N} \to \mathbb{N}
+$$
+
+{{#content:Q2422}}
+
+<ref>{{#cite:Q2425}}</ref>
+
+== Graphical intuition ==
+
+The results of the Cantor pairing function fit into a 2-dimensional array.
+
+[[File:Modified Cantor function.png]]
+
+As can be observed, there is a steady increase with a step of 1 along each diagonal and between the last element of a diagonal and the 1st of the successive diagonal. Therefore, each natural number should appear only once in the results, corresponding to exactly one ordered pair of natural numbers (bijectivity).
+
+<ref>{{#cite:Q2425}}</ref>
+
+== Recursivity ==
+
+A recursive composite of '''Cantor pairing functions''' maps an ordered array of natural numbers of any length $n\ge 2$ to natural numbers.
+
+$$
+\langle \ \rangle: \mathbb{N}^n \to \mathbb{N}\\
+\langle x_1,x_2 \rangle =  (\sum_{i=0}^{x_1+x_2} i) + x_1 +1 \\
+\langle x_1,x_2,\cdots,x_n \rangle= \langle x_1, \langle x_2, \cdots, x_n \rangle \rangle
+$$
+
+<ref>{{#cite:Q2425}}</ref>

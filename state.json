@@ -54,6 +54,12 @@
       "sha256": "404ad75f4a529928493c24c0d5ce884aa702a6d595733db0f9d1f87e0739d6cc",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Cantor pairing function": {
+      "path": "Main/Cantor pairing function.wiki",
+      "revid": 11541,
+      "sha256": "16944797d960b66931b1b312fb7239bda91692744ca836622444b67e81f3b69e",
+      "synced_at": "2026-10-28T13:11:36+00:00"
+    },
     "Cauchy-Schwarz inequality": {
       "path": "Main/Cauchy-Schwarz inequality.wiki",
       "revid": 8532,
@@ -1280,9 +1286,9 @@
     },
     "Multidimensional interpolation": {
       "path": "Main/Multidimensional interpolation.wiki",
-      "revid": 11540,
-      "sha256": "03eef7b1b54526d705eafd24c8d2b7d02b4bc7054b0f39a2aaa47d86575482f0",
-      "synced_at": "2026-10-28T12:50:13+00:00"
+      "revid": 11550,
+      "sha256": "50e1441fb05c1c72c4e14a79c247ef81c0207d37561ee2723c23d9d4457bfcdc",
+      "synced_at": "2026-10-28T13:11:36+00:00"
     },
     "Natural number": {
       "path": "Main/Natural number.wiki",
@@ -4207,6 +4213,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-28T12:50:13+00:00",
+  "updated": "2026-10-28T13:11:36+00:00",
   "version": 1
 }

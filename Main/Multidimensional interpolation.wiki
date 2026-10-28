@@ -43,17 +43,17 @@ Sixteen weather stations sitting in a $4^\circ \times 4^\circ$ grid measure surf
 |+ Temperature ($^\circ$C) at each station
 ! latitude $\downarrow$ / longitude $\rightarrow$ !! $0^\circ$E !! $1^\circ$E !! $2^\circ$E !! $3^\circ$E
 |-
-! $53^\circ$N
-| 18.4 || 19.1 || 20.6 || 21.8
-|-
-! $52^\circ$N
-| 20.1 || 20.9 || 22.3 || 23.5
+! $50^\circ$N
+| 22.8 || 23.6 || 24.9 || 26.1
 |-
 ! $51^\circ$N
 | 21.7 || 22.5 || 23.9 || 25.0
 |-
-! $50^\circ$N
-| 22.8 || 23.6 || 24.9 || 26.1
+! $52^\circ$N
+| 20.1 || 20.9 || 22.3 || 23.5
+|-
+! $53^\circ$N
+| 18.4 || 19.1 || 20.6 || 21.8
 |}
 
 What is the interpolated temperature at $51.6^\circ \textbf{N}, 1.4^\circ \textbf{E}$?
@@ -70,21 +70,21 @@ $$
 where
 
 $$
-L^{(x_1)}_{1}(x_1)=-\frac{(x_1-51)(x_1-52)(x_1-53)}{6}=-\frac{1}{6}x_1^3+26x_1^2-\frac{8111}{6}x_1+23426,\\ 
-L^{(x_1)}_{2}(x_1)=\frac{(x_1-50)(x_1-52)(x_1-53)}{2}=\frac{1}{2}x_1^3-\frac{155}{2}x_1^2+4003x_1-68900
+L^{(x_1)}_{1}(x_1)=\frac{(x_1-51)(x_1-52)(x_1-53)}{(50-51)(50-52)(50-53)}=-\frac{1}{6}x_1^3+26x_1^2-\frac{8111}{6}x_1+23426,\\ 
+L^{(x_1)}_{2}(x_1)=\frac{(x_1-50)(x_1-52)(x_1-53)}{(51-50)(51-52)(51-53)}=\frac{1}{2}x_1^3-\frac{155}{2}x_1^2+4003x_1-68900
 $$
 
 $$
-L^{(x_1)}_{3}(x_1)=-\frac{(x_1-50)(x_1-51)(x_1-53)}{2}=-\frac{1}{2}x_1^3+77x_1^2-\frac{7903}{2}x_1+67575,\\
-L^{(x_1)}_{4}(x_1)=\frac{(x_1-50)(x_1-51)(x_1-52)}{6}=\frac{1}{6}x_1^3-\frac{51}{2}x_1^2+\frac{3901}{3}x_1-22100
+L^{(x_1)}_{3}(x_1)=\frac{(x_1-50)(x_1-51)(x_1-53)}{(52-50)(52-51)(52-53)}=-\frac{1}{2}x_1^3+77x_1^2-\frac{7903}{2}x_1+67575,\\
+L^{(x_1)}_{4}(x_1)=\frac{(x_1-50)(x_1-51)(x_1-52)}{(53-50)(53-51)(53-52)}=\frac{1}{6}x_1^3-\frac{51}{2}x_1^2+\frac{3901}{3}x_1-22100
 $$
 
 $$
-L^{(x_2)}_{1}(x_2)=-\frac{(x_2-1)(x_2-2)(x_2-3)}{6}=-\frac{1}{6}x_2^3+x_2^2-\frac{11}{6}x_2+1,\qquad L^{(x_2)}_{2}(x_2)=\frac{x_2(x_2-2)(x_2-3)}{2}=\frac{1}{2}x_2^3-\frac{5}{2}x_2^2+3x_2
+L^{(x_2)}_{1}(x_2)=\frac{(x_2-1)(x_2-2)(x_2-3)}{(0-1)(0-2)(0-3)}=-\frac{1}{6}x_2^3+x_2^2-\frac{11}{6}x_2+1,\qquad L^{(x_2)}_{2}(x_2)=\frac{x_2(x_2-2)(x_2-3)}{(1-0)(1-2)(1-3)}=\frac{1}{2}x_2^3-\frac{5}{2}x_2^2+3x_2
 $$
 
 $$
-L^{(x_2)}_{3}(x_2)=-\frac{x_2(x_2-1)(x_2-3)}{2}=-\frac{1}{2}x_2^3+2x_2^2-\frac{3}{2}x_2,\qquad L^{(x_2)}_{4}(x_2)=\frac{x_2(x_2-1)(x_2-2)}{6}=\frac{1}{6}x_2^3-\frac{1}{2}x_2^2+\frac{1}{3}x_2
+L^{(x_2)}_{3}(x_2)=\frac{x_2(x_2-1)(x_2-3)}{(2-0)(2-1)(2-3)}=-\frac{1}{2}x_2^3+2x_2^2-\frac{3}{2}x_2,\qquad L^{(x_2)}_{4}(x_2)=\frac{x_2(x_2-1)(x_2-2)}{(3-0)(3-1)(3-2)}=\frac{1}{6}x_2^3-\frac{1}{2}x_2^2+\frac{1}{3}x_2
 $$
 
 Hence 
@@ -118,7 +118,7 @@ $$
 Substitute in $x_1=51.6,x_2=1.4$,
 
 $$
-P(51.6,1.4)=-\tfrac{1}{45}(51.6)^3(1.4)^3+\tfrac{11}{120}(51.6)^3(1.4)^2-\tfrac{31}{360}(51.6)^3(1.4)+\tfrac{1}{15}(51.6)^3
+y(51.6,1.4)=P(51.6,1.4)=-\tfrac{1}{45}(51.6)^3(1.4)^3+\tfrac{11}{120}(51.6)^3(1.4)^2-\tfrac{31}{360}(51.6)^3(1.4)+\tfrac{1}{15}(51.6)^3
 $$
 
 $$
@@ -263,7 +263,7 @@ Then the estimate of $y$ at $(x_1^*,\cdots,x_m^*)$ is $f^{(x_m)}(x_m^*)$.<ref>{{
 {{Hidden example}}
 '''Surface temperature over a grid of weather stations (particular value by successive 1D interpolations)'''
 
-Retake the same example as in [[#grid interpolation]]:
+Retake the same example as in [[#Grid interpolation]]:
 
 Sixteen weather stations sitting in a $4^\circ \times 4^\circ$ grid measure surface temperature at various latitudes and longitudes.
 
@@ -271,17 +271,17 @@ Sixteen weather stations sitting in a $4^\circ \times 4^\circ$ grid measure surf
 |+ Temperature ($^\circ$C) at each station
 ! latitude $\downarrow$ / longitude $\rightarrow$ !! $0^\circ$E !! $1^\circ$E !! $2^\circ$E !! $3^\circ$E
 |-
-! $53^\circ$N
-| 18.4 || 19.1 || 20.6 || 21.8
-|-
-! $52^\circ$N
-| 20.1 || 20.9 || 22.3 || 23.5
+! $50^\circ$N
+| 22.8 || 23.6 || 24.9 || 26.1
 |-
 ! $51^\circ$N
 | 21.7 || 22.5 || 23.9 || 25.0
 |-
-! $50^\circ$N
-| 22.8 || 23.6 || 24.9 || 26.1
+! $52^\circ$N
+| 20.1 || 20.9 || 22.3 || 23.5
+|-
+! $53^\circ$N
+| 18.4 || 19.1 || 20.6 || 21.8
 |}
 
 What is the interpolated temperature at $51.6^\circ \textbf{N}, 1.4^\circ \textbf{E}$?
@@ -291,11 +291,11 @@ What is the interpolated temperature at $51.6^\circ \textbf{N}, 1.4^\circ \textb
 '''Step 1: interpolate in $x_1$ (latitude).''' Interpolate the four readings of different latitudes with the one-dimensional Lagrange polynomial at each of the four known longitudes, then evaluate the interpolating functions at $x_1^*=51.6$. The four Lagrange basis polynomials in $x_1$, built on the latitude nodes $50,51,52,53$, are the same at every longitude:
 
 $$
-L^{(x_1)}_{1}(x_1)=-\frac{(x_1-51)(x_1-52)(x_1-53)}{6},\qquad L^{(x_1)}_{2}(x_1)=\frac{(x_1-50)(x_1-52)(x_1-53)}{2}
+L^{(x_1)}_{1}(x_1)=\frac{(x_1-51)(x_1-52)(x_1-53)}{(50-51)(50-52)(50-53)},\qquad L^{(x_1)}_{2}(x_1)=\frac{(x_1-50)(x_1-52)(x_1-53)}{(51-50)(51-52)(51-53)}
 $$
 
 $$
-L^{(x_1)}_{3}(x_1)=-\frac{(x_1-50)(x_1-51)(x_1-53)}{2},\qquad L^{(x_1)}_{4}(x_1)=\frac{(x_1-50)(x_1-51)(x_1-52)}{6}
+L^{(x_1)}_{3}(x_1)=\frac{(x_1-50)(x_1-51)(x_1-53)}{(52-50)(52-51)(52-53)},\qquad L^{(x_1)}_{4}(x_1)=\frac{(x_1-50)(x_1-51)(x_1-52)}{(53-50)(53-51)(53-52)}
 $$
 
 so that, at $x_1^*=51.6$,
@@ -310,6 +310,15 @@ $$
 y_{x_1^*,i_2}=\sum_{i_1=1}^{4}y_{i_1,i_2}\,L^{(x_1)}_{i_1}(51.6),\qquad i_2=1,2,3,4
 $$
 
+Substituting at each of the four longitudes, with the rows $i_1=1,2,3,4$ running from $50^\circ$N to $53^\circ$N:
+
+$$
+y_{x_1^*,1}=-0.056(22.8)+0.448(21.7)+0.672(20.1)-0.064(18.4)=20.7744,\\
+y_{x_1^*,2}=-0.056(23.6)+0.448(22.5)+0.672(20.9)-0.064(19.1)=21.5808,\\
+y_{x_1^*,3}=-0.056(24.9)+0.448(23.9)+0.672(22.3)-0.064(20.6)=22.9800,\\
+y_{x_1^*,4}=-0.056(26.1)+0.448(25.0)+0.672(23.5)-0.064(21.8)=24.1352
+$$
+
 {| class="wikitable"
 |+ Interpolated temperature ($^\circ$C) at $51.6^\circ$N
 ! longitude $x_{2,i_2}$ !! $0^\circ$E !! $1^\circ$E !! $2^\circ$E !! $3^\circ$E
@@ -318,14 +327,14 @@ $$
 | 20.7744 || 21.5808 || 22.9800 || 24.1352
 |}
 
-'''Step 2: interpolate in $x_2$ (longitude).''' Only one interpolation in $x_2$ is needed, since $m=2$: the four interpolated readings $y_{x_1^*,i_2}$ are interpolated along longitude with the one-dimensional Lagrange polynomial in $x_2$, and the resulting polynomial is then evaluated at $x_2^*=1.4$. Its Lagrange basis polynomials, built on the longitude nodes $0,1,2,3$, are
+'''Step 2: interpolate in $x_2$ (longitude).''' Only one interpolation in $x_2$ is needed, since $m=2$: the four interpolated readings $y_{x_1^*,i_2}$ are interpolated along longitude with the one-dimensional Lagrange polynomial in $x_2$, giving the interpolating function $f^{(x_2)}(x_2)$, which is then evaluated at $x_2^*=1.4$. Its Lagrange basis polynomials, built on the longitude nodes $0,1,2,3$, are
 
 $$
-L^{(x_2)}_{1}(x_2)=-\frac{(x_2-1)(x_2-2)(x_2-3)}{6},\qquad L^{(x_2)}_{2}(x_2)=\frac{x_2(x_2-2)(x_2-3)}{2}
+L^{(x_2)}_{1}(x_2)=\frac{(x_2-1)(x_2-2)(x_2-3)}{(0-1)(0-2)(0-3)},\qquad L^{(x_2)}_{2}(x_2)=\frac{x_2(x_2-2)(x_2-3)}{(1-0)(1-2)(1-3)}
 $$
 
 $$
-L^{(x_2)}_{3}(x_2)=-\frac{x_2(x_2-1)(x_2-3)}{2},\qquad L^{(x_2)}_{4}(x_2)=\frac{x_2(x_2-1)(x_2-2)}{6}
+L^{(x_2)}_{3}(x_2)=\frac{x_2(x_2-1)(x_2-3)}{(2-0)(2-1)(2-3)},\qquad L^{(x_2)}_{4}(x_2)=\frac{x_2(x_2-1)(x_2-2)}{(3-0)(3-1)(3-2)}
 $$
 
 so that, at $x_2^*=1.4$,
@@ -335,14 +344,14 @@ L^{(x_2)}_{1}(1.4)=-0.064,\qquad L^{(x_2)}_{2}(1.4)=0.672,\qquad L^{(x_2)}_{3}(1
 $$
 
 $$
-P(51.6,1.4)=\sum_{i_2=1}^{4}y_{x_1^*,i_2}\,L^{(x_2)}_{i_2}(1.4)=-0.064(20.7744)+0.672(21.5808)+0.448(22.9800)-0.056(24.1352)
+y(51.6,1.4)=f^{(x_2)}(1.4)=\sum_{i_2=1}^{4}y_{x_1^*,i_2}\,L^{(x_2)}_{i_2}(1.4)=-0.064(20.7744)+0.672(21.5808)+0.448(22.9800)-0.056(24.1352)
 $$
 
 $$
 {}=22.1162
 $$
 
-which agrees with the value obtained in [[#grid interpolation]]
+which agrees with the value obtained in [[#Grid interpolation]]
 {{End hidden}}
 
 == References ==
