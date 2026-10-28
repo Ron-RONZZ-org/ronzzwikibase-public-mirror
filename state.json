@@ -1160,9 +1160,9 @@
     },
     "Integer": {
       "path": "Main/Integer.wiki",
-      "revid": 11316,
-      "sha256": "41f0ccc5d6377341b9cb4e3c2fb4df292b9377c23675737646b84c75e88572a0",
-      "synced_at": "2026-10-26T17:40:19+00:00"
+      "revid": 11583,
+      "sha256": "c7874bc984e55fd37717fd7b8a41ad8754264d9686acc4ba7d9d69940c7c72fc",
+      "synced_at": "2026-10-28T16:13:20+00:00"
     },
     "Interval": {
       "path": "Main/Interval.wiki",
@@ -4243,6 +4243,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-28T15:50:21+00:00",
+  "updated": "2026-10-28T16:13:20+00:00",
   "version": 1
 }

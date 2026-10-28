@@ -13,3 +13,26 @@ $$
 $$
 
 where $\sim: \forall a,b,c,d \in \mathbb{N},\, (a,b) \sim (c,d) \iff a-b = c-d$.
+
+== Properties ==
+
+=== [[set#Cardinality|Countability]] ===
+
+{{Hidden proof}}
+Let
+
+$$
+f(n)=
+\begin{cases}
+\dfrac{n}{2}, & n \text{ even},\\[6pt]
+-\dfrac{n+1}{2}, & n \text{ odd}.
+\end{cases}
+$$
+
+then
+
+$$
+f(\mathbb{N})=\mathbb{Z}
+$$
+
+{{End hidden}}
