@@ -1674,6 +1674,12 @@
       "sha256": "ed9da64cf404c4db8d958950aeebbf92c7ab39aa8c3bfa1c56bca8cec040247b",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Hartmut Rosa": {
+      "path": "Person/Hartmut Rosa.wiki",
+      "revid": 11562,
+      "sha256": "d4273369e0b259e107008efe78a10f2074246e12aefffd662f0cfcd299897b23",
+      "synced_at": "2026-10-28T14:11:58+00:00"
+    },
     "Person:Heinrich Magnus Manske": {
       "path": "Person/Heinrich Magnus Manske.wiki",
       "revid": 4381,
@@ -1967,6 +1973,12 @@
       "revid": 7198,
       "sha256": "13ca8e8ae93125747f9d055233c0bc718459660f450205e418c8c2714fae7001",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Rasmus Rosa": {
+      "path": "Person/Rasmus Rosa.wiki",
+      "revid": 11563,
+      "sha256": "6ff7d530d3d066e40346b2887ea2f006033f6d73c54739e2fe287c8cff06a8dd",
+      "synced_at": "2026-10-28T14:11:58+00:00"
     },
     "Person:Richard C. DiPrima": {
       "path": "Person/Richard C. DiPrima.wiki",
@@ -4219,6 +4231,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-28T13:49:51+00:00",
+  "updated": "2026-10-28T14:11:58+00:00",
   "version": 1
 }

@@ -1,0 +1,7 @@
+{{Person}}
+
+== Biography ==
+
+''from Wikipedia (CC BY-SA 4.0):''
+
+Hartmut Rosa is a German sociologist and political scientist who is best known for his theory of resonance and temporal sociology of social acceleration.
