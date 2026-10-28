@@ -776,9 +776,9 @@
     },
     "Cubic spline interpolation": {
       "path": "Main/Cubic spline interpolation.wiki",
-      "revid": 11198,
-      "sha256": "8c37e9c9765cfe5df93f3a037adf2e05dbcbf0356fb682565682620dc030cf64",
-      "synced_at": "2026-10-25T09:30:07+00:00"
+      "revid": 11553,
+      "sha256": "daecdc5b914e0bb2cce2bcc43c046e20c5b6e27f1d14d557a6c9a0e76125e8de",
+      "synced_at": "2026-10-28T13:36:26+00:00"
     },
     "Dark energy": {
       "path": "Main/Dark energy.wiki",
@@ -1286,9 +1286,9 @@
     },
     "Multidimensional interpolation": {
       "path": "Main/Multidimensional interpolation.wiki",
-      "revid": 11550,
-      "sha256": "50e1441fb05c1c72c4e14a79c247ef81c0207d37561ee2723c23d9d4457bfcdc",
-      "synced_at": "2026-10-28T13:11:36+00:00"
+      "revid": 11552,
+      "sha256": "be3bbd9653e0218696a6000d6094ee820600da841b00b99ac4297acae48df2bf",
+      "synced_at": "2026-10-28T13:36:26+00:00"
     },
     "Natural number": {
       "path": "Main/Natural number.wiki",
@@ -4213,6 +4213,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-28T13:23:48+00:00",
+  "updated": "2026-10-28T13:36:26+00:00",
   "version": 1
 }

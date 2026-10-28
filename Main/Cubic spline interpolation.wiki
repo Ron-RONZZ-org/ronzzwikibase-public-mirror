@@ -191,7 +191,7 @@ def spline_integral(spline, lower_boundary, higher_boundary):
 'Not-a-knot' is far from the only pair of possible additional conditions. As seen, two other pairs are implemented in the code:
 
 * Natural: $b_0=0,\, b_n=0$, i.e., zero curvature at both ends
-* Clamped, or end-slopes: if $\dot C(x_0),\, \dot C(x_n)$ can be known by other methods, and are passed as the tuple `(alpha, beta)`
+* Clamped, or end-slopes: if $\dot C(x_0),\, \dot C(x_n)$ can be known by other methods. (Passed as the tuple `(alpha, beta)` in the code)
 </blockquote>
 
 {{Hidden example}}
@@ -281,7 +281,7 @@ The cubic interpolant is compared with the piecewise and the natural cubic inter
 | 392.07 || 29.67 || 2936.88
 |}
 
-The velocity agrees between the three methods to within $1.6\ \mathrm{m/s}$, i.e., $0.4\%$. The integrated quantity is more sensitive: the displacement since launch varies by $51\ \mathrm{m}$ ($1.7\%$), so the choice of additional conditions must be made with care when a derivative or an integral of the interpolant is the quantity of interest.
+The velocity agrees between the three methods to within $1.6\ \mathrm{m/s}$, i.e., $0.4\%$. The integrated quantity is more sensitive: the displacement since launch varies by $51\ \mathrm{m}$ ($1.7\%$), so the choice of additional conditions must be made with care when an integral of the interpolant is the quantity of interest.
 
 {{End hidden}}
 
