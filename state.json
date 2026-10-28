@@ -2340,6 +2340,12 @@
       "sha256": "9b38675e8c839918f1e85a4b591f2509c94116eb788353b6960bd5c21922968c",
       "synced_at": "2026-10-20T13:42:09+00:00"
     },
+    "Sequence": {
+      "path": "Main/Sequence.wiki",
+      "revid": 11586,
+      "sha256": "22f878fdef3d93f32856d77241e2bea50ccfbd12f3c6750a087bccdbc6bb6fde",
+      "synced_at": "2026-10-28T20:12:00+00:00"
+    },
     "Set": {
       "path": "Main/Set.wiki",
       "revid": 11585,
@@ -4243,6 +4249,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-28T19:49:09+00:00",
+  "updated": "2026-10-28T20:12:00+00:00",
   "version": 1
 }

@@ -1,0 +1,19 @@
+A '''sequence''' is an ordered collection of distinct '''elements'''.
+
+An unordered collection of distinct elements is referred to as a [[set]].
+
+== Formal definition ==
+
+Let $S\ne \emptyset$ be a [[set]].
+
+Any function 
+
+$$
+A:\mathbb{N} \to S
+$$
+
+is a '''sequence'''.
+
+== Number sequence ==
+
+See [[number sequence]].
