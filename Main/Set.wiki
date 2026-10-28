@@ -93,10 +93,25 @@ If $|S|=\infty$, $S$ is known as an '''infinite set'''.
 If $\exists f:\mathbb{N} \to S$, $S$ is said to be '''countable'''.
 
 <blockquote>
-All finite sets are countable. Infinite sets may be either countable (e.g., [[integer|$\mathbb{Z}$]]) or uncountable (e.g., [[real number|$\mathbb{R}$]]).
+All finite sets are countable. Infinite sets may be either countable (e.g., [[integer#Countability|$\mathbb{Z}$]]) or uncountable (e.g., [[real number|$\mathbb{R}$]]).
 </blockquote>
 
+If $|A|=|B|$, set $A,B$ are said to be '''equipotent''', denoted by $A\sim B$.
 <ref>{{#cite:Q2196}}</ref>
+
+==== Cardinality of union of sets ====
+
+$$
+\left|\bigcup_{i=1}^{n} A_i\right|
+= \sum_{k=1}^{n} (-1)^{k+1}S_k
+$$
+
+where
+
+$$
+S_k = \sum_{1 \leq i_1 < \cdots < i_k \leq n}
+|A_{i_1} \cap \cdots \cap A_{i_k}|
+$$
 
 == Set relationships ==
 

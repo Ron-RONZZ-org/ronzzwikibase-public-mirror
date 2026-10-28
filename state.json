@@ -2342,9 +2342,9 @@
     },
     "Set": {
       "path": "Main/Set.wiki",
-      "revid": 11582,
-      "sha256": "dba5c0f0a06f87c3434e42fb430f8214319c5322bc2826d20f6ce5a8903d78e7",
-      "synced_at": "2026-10-28T15:50:21+00:00"
+      "revid": 11584,
+      "sha256": "93dfdbc5e3c2bacdd57c51c86f146621b845725f9fb6ccdeb82a1b28b9df0ef6",
+      "synced_at": "2026-10-28T19:36:27+00:00"
     },
     "Shell theorem": {
       "path": "Main/Shell theorem.wiki",
@@ -4243,6 +4243,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-28T16:13:20+00:00",
+  "updated": "2026-10-28T19:36:27+00:00",
   "version": 1
 }
