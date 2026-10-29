@@ -1440,6 +1440,12 @@
       "sha256": "1383179e4158029f8d6674a3d99c4b2493a155a99024291c0b1518cf0f0fb805",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Partial derivative": {
+      "path": "Main/Partial derivative.wiki",
+      "revid": 11715,
+      "sha256": "bfe412c6dfd1f561057fa051c94cedbe77197becc85a9f9b99989a199bcf636d",
+      "synced_at": "2026-10-29T18:40:50+00:00"
+    },
     "Periodic table": {
       "path": "Main/Periodic table.wiki",
       "revid": 8074,
@@ -4399,6 +4405,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-29T18:29:25+00:00",
+  "updated": "2026-10-29T18:40:50+00:00",
   "version": 1
 }

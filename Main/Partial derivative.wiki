@@ -1,0 +1,13 @@
+A '''partial derivative''' is a [[derivative]] that describes the rate of change in the output value of a [[function]] $f:\mathbb{R}^n \to \mathbb{R}$ as one of the inputs approach a certain value.
+
+== Formal definition ==
+
+Let $f:\mathbb{R}^n \to \mathbb{R}$ be a [[function]].
+
+The '''partial derivative''' of $f$ at a point $\vec x=(x_1,\cdots,x_n) \in \mathbb{R}^n$ in dimension $x_i, i \in \{1,\cdots,n\}$
+
+$$
+\frac{\partial f}{\partial x_i} = \lim_{h \to 0} \frac{f(\vec x+h \hat x_i) - f(\vec x)}{h}
+$$
+
+where $h \in \mathbb{R}$, given $\exists \lim_{h \to 0} \frac{f(\vec x+h \hat x_i) - f(\vec x)}{h}$.
