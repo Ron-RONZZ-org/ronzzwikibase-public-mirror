@@ -1340,9 +1340,9 @@
     },
     "Number sequence": {
       "path": "Main/Number sequence.wiki",
-      "revid": 11612,
-      "sha256": "bb672a51d185262fd499cbead5a0467736df42c7ca69394d19e7e2d5085eb20b",
-      "synced_at": "2026-10-29T09:49:47+00:00"
+      "revid": 11619,
+      "sha256": "8134a38b9239596f490eccfceec119293af0ec1d22584205a326df475cf952f9",
+      "synced_at": "2026-10-29T10:11:32+00:00"
     },
     "Objectivity": {
       "path": "Main/Objectivity.wiki",
@@ -3936,6 +3936,12 @@
       "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Superior and Inferior Limits of a Sequence - Algebrica (Webpage)": {
+      "path": "Source/Superior and Inferior Limits of a Sequence - Algebrica (Webpage).wiki",
+      "revid": 11618,
+      "sha256": "78aaaec9d90210e9114d60dc89df2c3f56367f26ba1c28520f062812a5c28838",
+      "synced_at": "2026-10-29T10:11:32+00:00"
+    },
     "Source:Supported Standards (Webpage)": {
       "path": "Source/Supported Standards (Webpage).wiki",
       "revid": 6710,
@@ -4279,6 +4285,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-29T09:49:47+00:00",
+  "updated": "2026-10-29T10:11:32+00:00",
   "version": 1
 }

@@ -1,0 +1,5 @@
+{{Webpage}}
+
+== Overview ==
+
+The superior and inferior limits of a sequence describe the largest and smallest values around which the terms continue to accumulate asymptotically.

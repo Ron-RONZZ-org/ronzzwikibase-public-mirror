@@ -87,6 +87,34 @@ Number sequences are often described by the evolution of their terms as $n$ grow
 | $a_n \geq M \quad \forall n \in \mathbb{N}$
 |}
 
+== Behaviour ==
+
+=== Convergence ===
+
+As discussed in [[#Classification]], 
+
+$$
+\lim_{n \to +\infty} a_n = \ell \iff (a_n) \text{ converges to } \ell
+$$
+
+In addition,
+
+$$
+\lim_{n \to +\infty} a_n = \ell \iff \limsup_{n \to \infty} a_n = \ell = \liminf_{n \to \infty} a_n
+$$
+
+by the definition of the [[Limit (mathematical concept)|limit]].
+
+<ref>{{#cite:Q2447}}</ref>
+
+==== Squeeze theorem ====
+
+See [[Squeeze theorem]].
+
+==== Root test ====
+
+See [[Root test (convergence of number sequence)]].
+
 == Special number sequences ==
 
 * [[Geometric sequence]]
