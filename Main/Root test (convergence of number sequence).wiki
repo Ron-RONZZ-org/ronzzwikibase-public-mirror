@@ -1,0 +1,75 @@
+The '''root test''' tests the convergence of the [[number sequence#Partial_sum|partial sum sequence]] of an infinite [[number sequence]].
+
+$$
+\limsup_{n \to \infty} \sqrt[n]{|a_n|}
+\begin{cases}
+>1 \Rightarrow (S_n) \text{ diverges,}\\
+< 1 \Rightarrow (S_n) \text{ converges,}\\
+=1 \Rightarrow (S_n) \text{ diverges or converges (test inconclusive).}\\
+\end{cases}
+$$
+<ref>{{#cite:Q2449}}</ref>
+
+{{Hidden example}}
+
+$$
+a_n=
+\begin{cases}
+2^{-n}, & n \text{ even},\\
+3^{-n}, & n \text{ odd}.
+\end{cases}
+$$
+
+'''Q''': Does $(S_n)$ converge?
+
+'''Solution''':
+
+$n \to \infty$, $\sqrt[n]{a_n}$ alternates between $1/2$ and $1/3$.
+
+Hence $\nexists \lim\sqrt[n]{a_n}$, but
+
+$$
+\limsup_{n\to\infty}\sqrt[n]{|a_n|}=\frac{1}{2}<1,
+$$
+
+So by the root test, $(S_n)$ does converge.
+
+{{End hidden}}
+
+{{Hidden proof}}
+
+'''When''' $\limsup_{n \to \infty} \sqrt[n]{|a_n|}>1$:
+
+Choose arbitrary $q \in \mathbb{R}$ s.t.
+
+$$
+\limsup_{n \to \infty} \sqrt[n]{|a_n|}>q>1 \\
+\Rightarrow
+\limsup_{n \to \infty} |a_n|>\lim_{n \to \infty} q^n>1 \\
+\because \lim_{n \to \infty} q^n = \infty \\
+\therefore  \limsup_{n \to \infty} |a_n| = \infty
+$$
+
+so $(S_n)$ must diverge.
+
+'''When''' $\limsup_{n \to \infty} \sqrt[n]{|a_n|}<1$:
+
+Choose arbitrary $q \in \mathbb{R}$ s.t.
+
+$$
+\limsup_{n \to \infty} \sqrt[n]{[a_n]} < q < 1
+$$
+
+then
+
+$$
+\limsup_{n \to \infty} |a_n| < \lim_{n \to \infty} q^n \\
+\Rightarrow \lim_{n \to \infty} -(q^n) < \limsup_{n \to \infty} a_n < \lim_{n \to \infty} q^n \\
+\because \limsup_{n \to \infty} (-q^n) = 0 = \lim_{n \to \infty} q^n \\
+\therefore  \limsup_{n \to \infty} a_n = 0
+$$
+by [[squeeze theorem]].
+
+so $(S_n)$ must converge.
+
+{{End hidden}}

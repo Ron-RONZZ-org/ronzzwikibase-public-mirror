@@ -2304,6 +2304,12 @@
       "sha256": "6e10c24f23e2714e7567ed301929dfd0caa8335f3bc849c01b3fd604398b19c5",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Root test (convergence of number sequence)": {
+      "path": "Main/Root test (convergence of number sequence).wiki",
+      "revid": 11636,
+      "sha256": "bd2fb7edd242ee67ac83161cf400df6aeafc3d1ce8d4addbc3d50872fafbffe0",
+      "synced_at": "2026-10-29T14:25:45+00:00"
+    },
     "Rotational motion": {
       "path": "Main/Rotational motion.wiki",
       "revid": 9202,
@@ -4297,6 +4303,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-29T13:49:58+00:00",
+  "updated": "2026-10-29T14:25:45+00:00",
   "version": 1
 }
