@@ -14,7 +14,7 @@ is a number sequence in $\mathbb{F}$.
 
 == Description ==
 
-The $n^{th}$ term of a sequence is often denoted by $a_n$. The sequence is then denoted by $(a_n)$.
+The first term of a sequence is often denoted by $a_0$, and the $(n+1)^{th}$ term by $a_n$. The sequence is then denoted by $(a_n)$.
 
 === Direct definition ===
 
@@ -49,6 +49,12 @@ One of the most famous recursive sequences is the Fibonacci sequence:
 {{#content:Q2441}}
 
 {{End hidden}}
+
+== Partial sum $(S_n)$ ==
+
+The sum of the first $n+1$ terms of a series, $\sum^n_{i=0} a_i$, known as the '''partial sum''' up to $a_n$, is often denoted by $S_n$.
+
+$S_1,S_2,\cdots,S_n$ form themselves a number sequence $(S_n)$, known as the '''partial sum sequence''' of $a_n$.
 
 == Classification ==
 
