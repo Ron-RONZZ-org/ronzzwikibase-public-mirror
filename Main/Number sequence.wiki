@@ -119,6 +119,14 @@ See [[Squeeze theorem]].
 
 === Convergence of $(S_n)$ ===
 
+If 
+
+$$
+\lim_{n \to \infty} a_n = 0
+$$
+
+then $(S_n)$ converges, else it diverges.
+
 ==== Root test ====
 
 See [[Root test (convergence of number sequence)]].
