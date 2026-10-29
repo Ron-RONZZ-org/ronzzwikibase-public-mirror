@@ -75,7 +75,7 @@ Number sequences are often described by the evolution of their terms as $n$ grow
 | $a_n \ge a_{n+1} \quad \forall n \in \mathbb{N}$
 |-
 | Convergent
-| $\lim_{n \to +\infty} a_n = \ell \quad \text{or} \quad a_n \to \ell \quad \text{as } n \to +\infty$
+| $\lim_{n \to +\infty} a_n = \ell$
 |-
 | Bounded
 | | $|a_n| \leq M \quad \forall n \in \mathbb{N}$

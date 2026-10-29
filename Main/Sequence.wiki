@@ -14,6 +14,16 @@ $$
 
 is a '''sequence'''.
 
+== Subsequence ==
+
+If $a_{n_i} \in (a_n)$, then
+
+$$
+(a_{n_i}) \subset (a_n)
+$$
+
+$(a_{n_i})$ is hence known as a subsequence of $(a_n)$.
+
 == Number sequence ==
 
 See [[number sequence]].

@@ -1340,9 +1340,9 @@
     },
     "Number sequence": {
       "path": "Main/Number sequence.wiki",
-      "revid": 11590,
-      "sha256": "32c3b5bca54e38a168d19acabf9d13a0b0416181b60d84077760c853b0198fd5",
-      "synced_at": "2026-10-28T20:24:13+00:00"
+      "revid": 11612,
+      "sha256": "bb672a51d185262fd499cbead5a0467736df42c7ca69394d19e7e2d5085eb20b",
+      "synced_at": "2026-10-29T09:49:47+00:00"
     },
     "Objectivity": {
       "path": "Main/Objectivity.wiki",
@@ -2360,9 +2360,9 @@
     },
     "Sequence": {
       "path": "Main/Sequence.wiki",
-      "revid": 11586,
-      "sha256": "22f878fdef3d93f32856d77241e2bea50ccfbd12f3c6750a087bccdbc6bb6fde",
-      "synced_at": "2026-10-28T20:12:00+00:00"
+      "revid": 11613,
+      "sha256": "af25e468c7a75529ccef2ab38e47c66a456c0f133d8af7706c73aceb23d92e7b",
+      "synced_at": "2026-10-29T09:49:47+00:00"
     },
     "Set": {
       "path": "Main/Set.wiki",
@@ -4279,6 +4279,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-29T09:37:08+00:00",
+  "updated": "2026-10-29T09:49:47+00:00",
   "version": 1
 }
