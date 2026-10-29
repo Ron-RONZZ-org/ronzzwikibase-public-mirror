@@ -1086,6 +1086,12 @@
       "sha256": "2e943d9e27a116507096ae475c637fc8e18c317f3743c5af8e04f09ff86aab26",
       "synced_at": "2026-10-29T15:50:24+00:00"
     },
+    "Gâteaux derivative": {
+      "path": "Main/Gâteaux derivative.wiki",
+      "revid": 11720,
+      "sha256": "85bec85aa2173e729a5eea379d98fce411782b5a6df8916fc9f0540e699adfd4",
+      "synced_at": "2026-10-29T19:36:43+00:00"
+    },
     "Half line": {
       "path": "Main/Half line.wiki",
       "revid": 10839,
@@ -2438,9 +2444,9 @@
     },
     "Sequence": {
       "path": "Main/Sequence.wiki",
-      "revid": 11613,
-      "sha256": "af25e468c7a75529ccef2ab38e47c66a456c0f133d8af7706c73aceb23d92e7b",
-      "synced_at": "2026-10-29T09:49:47+00:00"
+      "revid": 11723,
+      "sha256": "80894c388ddfedc75479e14ab621ba60641dd741acc84d2956442eff3ae6a65d",
+      "synced_at": "2026-10-29T19:36:43+00:00"
     },
     "Set": {
       "path": "Main/Set.wiki",
@@ -4411,6 +4417,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-29T19:19:58+00:00",
+  "updated": "2026-10-29T19:36:43+00:00",
   "version": 1
 }

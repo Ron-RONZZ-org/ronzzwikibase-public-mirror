@@ -1,0 +1,14 @@
+The '''Gâteaux derivative''' is a [[derivative]] that describes the rate of change in the output value of a [[function]] $f:\mathbb{F}^m \to \mathbb{F}^n$ approaching a given point from one particular direction.
+
+== Formal definition ==
+
+Let $X,Y$ be [[vector space]]s over $\mathbb{C}$, $f:X \to Y$ be a [[function]].
+
+
+The '''Gâteaux derivative''' at $\vec x_0 \in X$ in the direction of $\vec v \in X$
+
+$$
+\delta f(\vec x_0;\vec v)= \lim_{\vec v \to \vec 0}\frac{f(\vec x_0+\vec v)-f(\vec x_0)}{\|\vec v\|},
+$$
+
+given $\exists \lim_{\vec v \to \vec 0}\frac{f(x_0+\vec v)-f(x_0)}{\|\vec v\|}$.
