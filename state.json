@@ -3204,6 +3204,12 @@
       "sha256": "b1c072ee2e74145649f7fa598f5fc1af7fc9704e0792a2bf6ff8a9a3eec83bf5",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:How to Build a Universe That Doesn’t Fall Apart Two Days Later (Text)": {
+      "path": "Source/How to Build a Universe That Doesn’t Fall Apart Two Days Later (Text).wiki",
+      "revid": 11673,
+      "sha256": "edf959bcb3c5898e53bee1688bd742f43df36ce2f4af1b490fcaa7c897740aa0",
+      "synced_at": "2026-10-29T15:23:39+00:00"
+    },
     "Source:IEEE Technology Navigator (Website)": {
       "path": "Source/IEEE Technology Navigator (Website).wiki",
       "revid": 8275,
@@ -4339,6 +4345,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-29T15:11:28+00:00",
+  "updated": "2026-10-29T15:23:39+00:00",
   "version": 1
 }
