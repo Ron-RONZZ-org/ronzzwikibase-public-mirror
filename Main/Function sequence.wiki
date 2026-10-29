@@ -1,0 +1,23 @@
+A '''function sequence''' is a [[sequence]] of [[function]]s.
+
+== Formal definition ==
+
+Let $S=\{f_i(D)\}$ be a [[set]] of [[function]]s with the same [[function#Formal_definition|domain]] $D$.
+
+Any function
+
+$$
+A: \mathbb{N} \to S
+$$
+
+is a '''function sequence'''.
+
+{{Hidden example}}
+if
+
+$$
+\forall n \in \mathbb{N}, \forall x \in \mathbb{R}: f_n(x)=x^n
+$$
+
+then $(f_n)$ is a function sequence.
+{{End hidden}}

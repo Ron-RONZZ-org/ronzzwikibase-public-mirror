@@ -1056,6 +1056,12 @@
       "sha256": "20c38dddedefc5db542504cb22d5ada4bf1db1630389a67aca9bcb6167fa89fb",
       "synced_at": "2026-10-18T18:15:41+00:00"
     },
+    "Function sequence": {
+      "path": "Main/Function sequence.wiki",
+      "revid": 11724,
+      "sha256": "48ab6cedf7051eec6a20ec56972314dba431b3664a6501314fd9cc731da36a29",
+      "synced_at": "2026-10-29T19:49:51+00:00"
+    },
     "Fundamental particle": {
       "path": "Main/Fundamental particle.wiki",
       "revid": 8636,
@@ -4417,6 +4423,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-29T19:36:43+00:00",
+  "updated": "2026-10-29T19:49:51+00:00",
   "version": 1
 }
