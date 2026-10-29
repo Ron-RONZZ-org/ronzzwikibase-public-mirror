@@ -1,0 +1,13 @@
+An '''ordinary derivative''' is a [[derivative]] that describes the rate of change in the output value of a [[function]] $f:\mathbb{R} \to \mathbb{R}$ as the input approaches a certain value.
+
+== Formal definition ==
+
+Let $f:\mathbb{R} \to \mathbb{R}$ be a [[function]].
+
+The '''derivative''' of $f$ at a point $c \in \mathbb{R}$
+
+$$
+f'(c) = \lim_{h \to 0} \frac{f(c+h) - f(c)}{h}
+$$
+
+where $h \in \mathbb{R}$, given $\exists \lim_{h \to 0} \frac{f(c+h) - f(c)}{h}$.

@@ -1,0 +1,8 @@
+In [[mathematics]], a '''derivative''' describes the behaviour of a [[function]] as the input(s) approach a certain value.
+
+Different definitions of derivatives were developed for different functions:
+
+* [[Ordinary derivative]], for $f:\mathbb{R} \to \mathbb{R}$
+* [[Partial derivative]], for $f: \mathbb{R}^n \to \mathbb{R}$
+* [[Gâteaux derivative]], for $f: \mathbb{F}^m \to \mathbb{F}^n$ given compatible topology
+* [[Fréchet derivative]], for $f: \mathbb{C}^m \to \mathbb{C}^n$

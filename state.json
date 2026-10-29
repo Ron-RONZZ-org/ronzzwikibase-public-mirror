@@ -822,6 +822,12 @@
       "sha256": "2f3b496122d70081a66c0a22637ce7d3d2296ba2ee044b96463d15b911479fa1",
       "synced_at": "2026-10-21T08:46:09+00:00"
     },
+    "Derivative": {
+      "path": "Main/Derivative.wiki",
+      "revid": 11714,
+      "sha256": "2c1574cc2dffef629578b062f3c27b662a076cc8164f6055318d393aff94849a",
+      "synced_at": "2026-10-29T18:29:25+00:00"
+    },
     "Differential equation": {
       "path": "Main/Differential equation.wiki",
       "revid": 9727,
@@ -1391,6 +1397,12 @@
       "revid": 11534,
       "sha256": "28c12d3867dede66e7a5a0e7f3df2792c02427d0d0e1f54e7be9325456319619",
       "synced_at": "2026-10-28T12:40:49+00:00"
+    },
+    "Ordinary derivative": {
+      "path": "Main/Ordinary derivative.wiki",
+      "revid": 11712,
+      "sha256": "44ba6dcae81ceb8e3cc18eb07ec412c84caa4d6b2aa5b37387f1eb05878ded77",
+      "synced_at": "2026-10-29T18:29:25+00:00"
     },
     "Ordinary differential equation": {
       "path": "Main/Ordinary differential equation.wiki",
@@ -4387,6 +4399,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-29T17:10:54+00:00",
+  "updated": "2026-10-29T18:29:25+00:00",
   "version": 1
 }
