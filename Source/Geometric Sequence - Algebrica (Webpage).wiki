@@ -1,0 +1,5 @@
+{{Webpage}}
+
+== Overview ==
+
+A geometric sequence consists of numbers arranged in such a way that the ratio between any term and the one before it is constant.

@@ -10,6 +10,8 @@ $$
 
 $q=\frac{a_{n}}{a_{n-1}},\, \forall n \ge 1$ is known as the '''common ratio''' of the sequence.
 
+<ref>{{#cite:Q2446}}</ref>
+
 == Properties ==
 
 === Partial sum: $S_m$ ===
@@ -19,6 +21,8 @@ The sum of first $m$ terms of a geometric sequence is known as its '''partial su
 $$
 S_n=\frac{a^{m+1}-a_0}{q-1}
 $$
+
+<ref>{{#cite:Q2446}}</ref>
 
 === Limit behaviour: $\lim_{m \to \infty}a_m$ ===
 
@@ -48,3 +52,5 @@ $$
 | $\ne 0$
 | $\pm \infty$, oscillating with increasing amplitude
 |}
+
+<ref>{{#cite:Q2446}}</ref>

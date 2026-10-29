@@ -32,9 +32,9 @@
     },
     "Arithmetic sequence": {
       "path": "Main/Arithmetic sequence.wiki",
-      "revid": 11595,
-      "sha256": "86f612cfe18bf16f22b19103c22cb03137f612706e4d13a04162a5822ca62ab7",
-      "synced_at": "2026-10-28T20:49:45+00:00"
+      "revid": 11603,
+      "sha256": "34806dab2ea627bcbba4fb7bbfd42bdb4a37dd196222cdebd96bd60ff77fd462",
+      "synced_at": "2026-10-29T09:37:08+00:00"
     },
     "Atom": {
       "path": "Main/Atom.wiki",
@@ -1052,9 +1052,9 @@
     },
     "Geometric sequence": {
       "path": "Main/Geometric sequence.wiki",
-      "revid": 11594,
-      "sha256": "bac15f7dd3c95c6ff2979a13bb58f2ffcd72224663fe5b0227be7cc12439f4f5",
-      "synced_at": "2026-10-28T20:49:45+00:00"
+      "revid": 11611,
+      "sha256": "176922fb98a9de94f6e56fb37169be43fac2343f52f0324a653dd2b7e6ba6788",
+      "synced_at": "2026-10-29T09:37:08+00:00"
     },
     "Gravitational potential energy": {
       "path": "Main/Gravitational potential energy.wiki",
@@ -2802,6 +2802,12 @@
       "sha256": "582f432705b7c8a92d065b84f85315581a464a8521b68f4c3cd812e1cc899b4f",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Arithmetic Sequence - Algebrica (Webpage)": {
+      "path": "Source/Arithmetic Sequence - Algebrica (Webpage).wiki",
+      "revid": 11601,
+      "sha256": "cfc2392fe71a503cb1a7cd9d388030212c00cd2d8bb3b05ce95182dc2e31f4d2",
+      "synced_at": "2026-10-29T09:37:08+00:00"
+    },
     "Source:As Open Source Docker Grows DotCloud Changes Name, Business Model - Linux.com (Webpage)": {
       "path": "Source/As Open Source Docker Grows DotCloud Changes Name, Business Model - Linux.com (Webpage).wiki",
       "revid": 6213,
@@ -3107,6 +3113,12 @@
       "revid": 10000,
       "sha256": "0311d90e243f3be68c13d2082783458de88a2149eb53d4dd209d37db3d2db9bd",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:Geometric Sequence - Algebrica (Webpage)": {
+      "path": "Source/Geometric Sequence - Algebrica (Webpage).wiki",
+      "revid": 11608,
+      "sha256": "b6e09b0c6d88031771c7d269ea6bdcd2d0f05cd2edfb2eaf42bd1f369a18cbb0",
+      "synced_at": "2026-10-29T09:37:08+00:00"
     },
     "Source:Git (Website)": {
       "path": "Source/Git (Website).wiki",
@@ -4267,6 +4279,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-28T20:49:45+00:00",
+  "updated": "2026-10-29T09:37:08+00:00",
   "version": 1
 }

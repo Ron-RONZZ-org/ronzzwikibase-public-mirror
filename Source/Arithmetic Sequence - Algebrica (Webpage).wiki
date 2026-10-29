@@ -1,0 +1,5 @@
+{{Webpage}}
+
+== Overview ==
+
+An arithmetic sequence is a sequence in which each term differs from the previous one by a constant amount.
