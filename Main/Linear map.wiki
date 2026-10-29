@@ -1,0 +1,19 @@
+A '''linear map''', also known as a '''linear transformation''', is a [[function]] that maps one [[vector space]] to another, preserving addition and scalar multiplication.
+
+== Formal definition ==
+
+Let $V$ and $W$ be [[vector space]]s over the same [[field (mathematical concept)|field]] $\mathbb{F}$.
+
+$$
+T:V\to W
+$$
+
+is a '''linear map''' of $V$ to $W$ if
+
+$$
+T(\alpha \vec u+\beta \vec v)=\alpha T(\vec u)+\beta T(\vec v)
+\qquad
+\forall \vec u,\vec v\in V,\forall \alpha,\beta\in\mathbb{F}.
+$$
+
+When $W=V$, $T$ is called a '''linear operator''' of $V$.

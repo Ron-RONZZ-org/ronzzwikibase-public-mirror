@@ -1236,6 +1236,12 @@
       "sha256": "4a08ba46dfae4b90aa066c252fa7b66a64f5f1363d303706528ce0e10913983f",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Linear map": {
+      "path": "Main/Linear map.wiki",
+      "revid": 11701,
+      "sha256": "bfa40de2576eb931cba383f31e6adb8fd97b617ec95576607d305f5e9cd26b46",
+      "synced_at": "2026-10-29T16:49:54+00:00"
+    },
     "Linear system": {
       "path": "Main/Linear system.wiki",
       "revid": 8798,
@@ -4369,6 +4375,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-29T16:38:39+00:00",
+  "updated": "2026-10-29T16:49:54+00:00",
   "version": 1
 }
