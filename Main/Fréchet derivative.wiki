@@ -1,0 +1,23 @@
+The '''Fréchet derivative''' is a [[derivative]] that finds a [[linear map|linear operator]] that approximates a [[function]] $f:\mathbb{C}^m \to \mathbb{C}^n$ near a given point.
+
+== Formal definition ==
+
+Let $X,Y$ be [[vector space]]s over $\mathbb{C}$, $f:X \to Y$ be a [[function]].
+
+If
+
+$$
+\exists L\in \mathcal{B}(X,Y) \text{(bounded linear operator)}, \\
+f(\vec{x}_0+\vec{h})=f(\vec{x}_0)+L(\vec{h})+o(\|\vec{h}\|)
+\qquad (\vec{h}\to 0),
+$$
+where $\vec x_0, \vec h \in X$, $o(\|\vec{h}\|)$ is a [[o(x) and o(x)|small-o]] function of $\|\vec h\|$,
+
+then $L$ is the '''Fréchet derivative''' of $f$ at $\vec x_0$.
+
+Equivalently,
+
+$$
+\lim_{\|\vec{h}\|_X\to 0}
+\frac{\|f(\vec{x}_0+\vec{h})-f(\vec{x}_0)-L(\vec{h})\|_Y}{\|\vec{h}\|_X}=0.
+$$
