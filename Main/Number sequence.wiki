@@ -89,7 +89,7 @@ Number sequences are often described by the evolution of their terms as $n$ grow
 
 == Behaviour ==
 
-=== Convergence ===
+=== Convergence of $(a_n)$ ===
 
 As discussed in [[#Classification]], 
 
@@ -110,6 +110,8 @@ by the definition of the [[Limit (mathematical concept)|limit]].
 ==== Squeeze theorem ====
 
 See [[Squeeze theorem]].
+
+=== Convergence of $(S_n)$ ===
 
 ==== Root test ====
 
