@@ -1,0 +1,10 @@
+The '''big-O''' notation designates [[function]]s that grow at most a finite times as rapid as a reference function near some point, while the '''small-O''' designates [[function]]s of negligible value compared to value of a reference function near some point.
+
+== Formal definition ==
+
+$$
+O_{x_0}(g) = \{\ f : A \to \mathbb{R} \mid \limsup_{\substack{x \to x_0 \\ x \in A}} \left|\frac{f(x)}{g(x)}\right| < +\infty \ \}\\ 
+o_{x_0}(g) = \{\ f : A \to \mathbb{R} \mid \limsup_{\substack{x \to x_0 \\ x \in A}} \left|\frac{f(x)}{g(x)}\right| = 0 \ \}
+$$
+
+<ref>{{#cite:Q2455}}</ref><ref>{{#cite:Q2456}}</ref>

@@ -1,0 +1,5 @@
+{{Webpage}}
+
+== Overview ==
+
+The symbol o(x), pronounced “little-o of x”, is one of the Landau symbols and is used to describe the asymptotic behavior of a given function.

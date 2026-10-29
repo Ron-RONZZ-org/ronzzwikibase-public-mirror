@@ -1350,6 +1350,12 @@
       "sha256": "38a2c04cfcca256ba002c21a6f29d0463dac2b95ec60f271f31b2b3bcbc72b99",
       "synced_at": "2026-10-29T13:49:58+00:00"
     },
+    "O(x) and o(x)": {
+      "path": "Main/O(x) and o(x).wiki",
+      "revid": 11662,
+      "sha256": "3777d005fc7329d850c726c747b31dfa5e6c60877b51e912929e1a397b3f36c4",
+      "synced_at": "2026-10-29T15:11:28+00:00"
+    },
     "Objectivity": {
       "path": "Main/Objectivity.wiki",
       "revid": 11534,
@@ -1991,6 +1997,12 @@
       "revid": 7274,
       "sha256": "0a25bc7dd207bd00f9342dc8059c287afc2585838990fbfc03d878ed7a68ec8f",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Philip K. Dick": {
+      "path": "Person/Philip K. Dick.wiki",
+      "revid": 11667,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-10-29T15:11:28+00:00"
     },
     "Person:Philipp Kewisch": {
       "path": "Person/Philipp Kewisch.wiki",
@@ -2874,6 +2886,12 @@
       "sha256": "4197adb159e1ac20a0810d8c24b94cc1f17d11c726371ff8a2829840c7971f00",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Big O Notation - Algebrica (Webpage)": {
+      "path": "Source/Big O Notation - Algebrica (Webpage).wiki",
+      "revid": 11656,
+      "sha256": "3ca6f01eefa882f812a176a12afb680e0e4a78df59515f77f3815d49acc48165",
+      "synced_at": "2026-10-29T15:11:28+00:00"
+    },
     "Source:Build context (Webpage)": {
       "path": "Source/Build context (Webpage).wiki",
       "revid": 6320,
@@ -3593,6 +3611,12 @@
       "revid": 8705,
       "sha256": "e2b7187d629382df8b9f02b6b54374c5a84fdb39963ab2449f3e8f851adc3211",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:Little-o Notation - Algebrica (Webpage)": {
+      "path": "Source/Little-o Notation - Algebrica (Webpage).wiki",
+      "revid": 11661,
+      "sha256": "83346d392660024aabf1821abdd8b56fd6f26327e12a6907ab4632d2718ff126",
+      "synced_at": "2026-10-29T15:11:28+00:00"
     },
     "Source:Légifrance - Le service public de la diffusion du droit (Website)": {
       "path": "Source/Légifrance - Le service public de la diffusion du droit (Website).wiki",
@@ -4315,6 +4339,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-29T14:37:04+00:00",
+  "updated": "2026-10-29T15:11:28+00:00",
   "version": 1
 }

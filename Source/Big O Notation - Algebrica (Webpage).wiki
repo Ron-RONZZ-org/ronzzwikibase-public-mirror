@@ -1,0 +1,5 @@
+{{Webpage}}
+
+== Overview ==
+
+Big O notation characterises the upper bound of functions in mathematics and computer science. It facilitates the analysis of growth rates, enables comparison of functions, and is illustrated through formal definitions and representative examples.
