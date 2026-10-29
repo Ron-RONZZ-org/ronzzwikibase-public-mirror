@@ -1,0 +1,10 @@
+[[File:Principle-of-mathematical-induction-1.svg|thumbnail]]
+
+'''Mathematical induction''' is a method to prove general propositions by proving one '''base case''', and proving that all other cases follow from the '''base case''' directly or indirectly.
+
+Concretely, to prove $p(n),\, \forall n\in \mathbb{N}$, prove:
+
+* $p(0)$,
+* $p(n) \to p(n+1),\, forall n \in \mathbb{N}$
+
+<ref>{{#cite:Q2453}}</ref>
