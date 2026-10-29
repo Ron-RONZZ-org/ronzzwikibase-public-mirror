@@ -1188,6 +1188,12 @@
       "sha256": "9e6ad914f6521f2d0e17cc44046c2281458d45bf253528402156e8bdde5ef71f",
       "synced_at": "2026-10-26T14:18:30+00:00"
     },
+    "Jacobian matrix": {
+      "path": "Main/Jacobian matrix.wiki",
+      "revid": 11703,
+      "sha256": "eee061450945be38e608a4a9222eb945cecbf30dc8a83454ddc472baf8cf32fe",
+      "synced_at": "2026-10-29T17:10:54+00:00"
+    },
     "Kronecker delta function": {
       "path": "Main/Kronecker delta function.wiki",
       "revid": 11579,
@@ -1277,6 +1283,12 @@
       "revid": 10591,
       "sha256": "7dee6d9fc20a96c756b482d55297480a907e3fac56e016373c224535a4ae03c9",
       "synced_at": "2026-10-19T12:24:06+00:00"
+    },
+    "Map function": {
+      "path": "Main/Map function.wiki",
+      "revid": 11705,
+      "sha256": "232fbec7d5f06ab7d1b0cd8fec528e528c5ac9df46294cd19c1729c8b30c4ca2",
+      "synced_at": "2026-10-29T17:10:54+00:00"
     },
     "Mathematical induction": {
       "path": "Main/Mathematical induction.wiki",
@@ -4375,6 +4387,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-29T16:49:54+00:00",
+  "updated": "2026-10-29T17:10:54+00:00",
   "version": 1
 }

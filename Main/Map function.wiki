@@ -1,0 +1,13 @@
+A '''map function''' maps vectors in one [[vector space]] to another.
+
+== Formal definition ==
+
+Let $V,W$ be [[vector space]]s.
+
+Any function
+
+$$
+f:V \to W
+$$
+
+is a '''map function''' from $V$ to $W$.

@@ -1,0 +1,31 @@
+The '''Jacobian matrix''' assembles all first [[partial derivative]]s of a [[map function]] between two [[vector space]]s.
+
+== Formal definition ==
+
+Let $V \subset \mathbb{F}^n, W \subset \mathbb{F}^m$ be [[vector space]]s.
+
+Define $f:V \to W$
+
+$$
+\forall \vec x= (x_1,\dots,x_n) \in V:
+f(\vec x)=\bigl(f_1(x_1,\dots,x_n),\dots,f_m(x_1,\dots,x_n)\bigr).
+$$
+
+If all first partial derivatives of $f_i$ exist at point $\vec x$, the '''Jacobian matrix''' of $f$ at $\vec x$
+
+$$
+\mathbf{J}_f(\vec x)=
+\begin{pmatrix}
+\dfrac{\partial f_1}{\partial x_1}(\vec x) & \cdots & \dfrac{\partial f_1}{\partial x_n}(\vec x)\\[8pt]
+\vdots & \ddots & \vdots\\[8pt]
+\dfrac{\partial f_m}{\partial x_1}(\vec x) & \cdots & \dfrac{\partial f_m}{\partial x_n}(\vec x)
+\end{pmatrix}.
+$$
+
+== Properties ==
+
+The gradient of $f_i$
+
+$$
+\nabla f_i(\vec x)= (\text{row}_i)^T
+$$
