@@ -1,0 +1,10 @@
+Let $A,B$ be sets, $A^c$ denotes the [[set#Complement|complement]] of $A$, then by '''De Morgan's laws''':
+
+$$ \tag{1}
+\begin{align}
+(A \cup B)^c &= A^c \cap B^c \\[6pt]
+(A \cap B)^c &= A^c \cup B^c
+\end{align}
+$$
+
+<ref>{{#cite:Q2462}}</ref>

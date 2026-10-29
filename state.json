@@ -804,6 +804,12 @@
       "sha256": "530f537517cfc424faded3be62d0cf4feac813de38bd8e421f50e41145872467",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "De Morgan's laws": {
+      "path": "Main/De Morgan's laws.wiki",
+      "revid": 11688,
+      "sha256": "72447e79f1883cefba785fe2b6867536133c95f7591e40f879b456f120262561",
+      "synced_at": "2026-10-29T15:50:24+00:00"
+    },
     "Dedekind cut": {
       "path": "Main/Dedekind cut.wiki",
       "revid": 11401,
@@ -1064,9 +1070,9 @@
     },
     "Group (mathematical concept)": {
       "path": "Main/Group (mathematical concept).wiki",
-      "revid": 10288,
-      "sha256": "fe015943f09cafcdd221b28d506e79ecc4d013a9c8d70e8bb0c7cd4d01058dc7",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "revid": 11690,
+      "sha256": "2e943d9e27a116507096ae475c637fc8e18c317f3743c5af8e04f09ff86aab26",
+      "synced_at": "2026-10-29T15:50:24+00:00"
     },
     "Half line": {
       "path": "Main/Half line.wiki",
@@ -2390,9 +2396,9 @@
     },
     "Set": {
       "path": "Main/Set.wiki",
-      "revid": 11585,
-      "sha256": "a8537340760c52b5c50db9e5402a595564d4bb11052646c8aceeef599b1e98fc",
-      "synced_at": "2026-10-28T19:49:09+00:00"
+      "revid": 11682,
+      "sha256": "7204b8c5808c3ee8e5fe616516ccd7926ed4aa537cb8d7a0ebd10d089df59992",
+      "synced_at": "2026-10-29T15:50:24+00:00"
     },
     "Shell theorem": {
       "path": "Main/Shell theorem.wiki",
@@ -3029,6 +3035,12 @@
       "revid": 6955,
       "sha256": "ab56bf8d02e89eb7cbf2351e80d816fb5bb47a199838f043236dd93190c77af8",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:De Morgan's Laws - Algebrica (Webpage)": {
+      "path": "Source/De Morgan's Laws - Algebrica (Webpage).wiki",
+      "revid": 11687,
+      "sha256": "f0f18ab330c283e2776439f0d6d314d5c22e3f3f6e72be29b3e050ca26887804",
+      "synced_at": "2026-10-29T15:50:24+00:00"
     },
     "Source:Demystifying Collaborative Industrial Robots (Document)": {
       "path": "Source/Demystifying Collaborative Industrial Robots (Document).wiki",
@@ -4345,6 +4357,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-29T15:23:39+00:00",
+  "updated": "2026-10-29T15:50:24+00:00",
   "version": 1
 }

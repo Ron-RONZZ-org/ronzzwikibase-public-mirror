@@ -23,14 +23,12 @@ The smallest group is $(\{id\},*)$, where $*$ can be e.g., $\cdot$.
 
 == Examples ==
 
-For each of the $G$ below, $(G,\cdot)$, where $\cdot$ takes its usual definition, is a group:
-
 {| class="wikitable"
 |-
 ! $(G,*)$
 ! Note
 |-
-|| $(\mathbb{Q}\setminus\{0\},\cdot)$
+|| $(\mathbb{Q}\setminus\{0\}, +)$
 | Abelian group of rational numbers with addition, $id=1$
 |-
 || $(\mathbb{Q}\setminus\{0\},\cdot)$
@@ -42,6 +40,10 @@ For each of the $G$ below, $(G,\cdot)$, where $\cdot$ takes its usual definition
 | | $\{(a,b)|a,b \in \mathbb{R},\, a,b \neq 0\}$
 | Abelian group of non-zero real 2D vectors with vector multiplication, $id=(1,1)$
 |}
+
+<blockquote>
+$+, \cdot$ take their usual definitions.
+</blockquote>
 
 '''Counterexamples''':
 
