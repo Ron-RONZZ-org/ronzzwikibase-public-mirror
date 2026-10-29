@@ -1,0 +1,5 @@
+{{Webpage}}
+
+== Overview ==
+
+In mathematical analysis, limits describe the behavior of functions as their inputs approach specific points or infinity, revealing their tendency even when the function is undefined at that point.

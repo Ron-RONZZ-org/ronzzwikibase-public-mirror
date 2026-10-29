@@ -1,0 +1,26 @@
+In [[mathematics]], a '''limit''' describes the behaviour of a [[function]] as the input approaches a certain value.
+
+== Formal definition ==
+
+Let $A,B$ be [[set]]s, and $d_A,d_B$ be the [[metric space#Formal_definition|metric functions]] of $A,B$.
+
+Define [[function]]
+
+$$
+f: A \to B
+$$
+
+Then if
+
+$$
+\forall \epsilon > 0: \exists \delta \in \mathbb{R}, \ell \in B ,\, \\
+\forall x \in A: d_A(x,x_0) < \delta \Rightarrow d_B(f(x),\ell) < \epsilon
+$$
+
+then
+
+$$
+\lim_{x \to x_0} = \ell
+$$
+
+<ref>{{#cite:Q2464}}</ref>

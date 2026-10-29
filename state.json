@@ -1212,6 +1212,12 @@
       "sha256": "a64153ee05000271f3c4efb6a9024dcb5c7fc6ee3472be6e473b143f6907046d",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Limit (mathematical concept)": {
+      "path": "Main/Limit (mathematical concept).wiki",
+      "revid": 11698,
+      "sha256": "1f620e18c457026444c539828800fe1394f2900c85a58b03e9841d9477883ccb",
+      "synced_at": "2026-10-29T16:13:28+00:00"
+    },
     "Line": {
       "path": "Main/Line.wiki",
       "revid": 10768,
@@ -3618,6 +3624,12 @@
       "sha256": "f386497220eb95503c79c4c524c452571aee08ec10e601d30e7f1baa9f5631ae",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Limits - Algebrica (Webpage)": {
+      "path": "Source/Limits - Algebrica (Webpage).wiki",
+      "revid": 11695,
+      "sha256": "021345eff6a8ef39ccd75628a52aa190abaddb8e52dd33d6c2f92ea3cfe887f7",
+      "synced_at": "2026-10-29T16:13:28+00:00"
+    },
     "Source:Linux.com - News For Open Source Professionals (Website)": {
       "path": "Source/Linux.com - News For Open Source Professionals (Website).wiki",
       "revid": 6209,
@@ -4357,6 +4369,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-29T15:50:24+00:00",
+  "updated": "2026-10-29T16:13:28+00:00",
   "version": 1
 }
