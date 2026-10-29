@@ -1226,9 +1226,9 @@
     },
     "Limit (mathematical concept)": {
       "path": "Main/Limit (mathematical concept).wiki",
-      "revid": 11698,
-      "sha256": "1f620e18c457026444c539828800fe1394f2900c85a58b03e9841d9477883ccb",
-      "synced_at": "2026-10-29T16:13:28+00:00"
+      "revid": 11717,
+      "sha256": "ee743d5d31cece09b24d3f9271f4029cae5e6482770628862636ed3fc2e9773b",
+      "synced_at": "2026-10-29T19:09:43+00:00"
     },
     "Line": {
       "path": "Main/Line.wiki",
@@ -4405,6 +4405,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-29T18:40:50+00:00",
+  "updated": "2026-10-29T19:09:43+00:00",
   "version": 1
 }

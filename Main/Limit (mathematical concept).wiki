@@ -1,4 +1,4 @@
-In [[mathematics]], a '''limit''' describes the behaviour of a [[function]] as the input approaches a certain value.
+In [[mathematics]], a '''limit''' describes the tendency in the output value of a [[function]] as the input approaches a certain value.
 
 == Formal definition ==
 
