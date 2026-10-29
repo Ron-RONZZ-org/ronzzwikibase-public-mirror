@@ -2,17 +2,22 @@ An inner product space is a [[vector space]] over $\mathbb{F}$ together with an 
 
 == Example ==
 
-Let $V = \mathbb{F}^n$, $u = (u_1, \ldots, u_n), v = (v_1, \ldots, v_n) \in \mathbb{F}^n$. Then $V$ with
+Let $V = \mathbb{F}^n$, $u = (u_1, \ldots, u_n), v = (v_1, \ldots, v_n) \in \mathbb{F}^n$.
 
+Define
 $$
-\langle u, v \rangle = \sum_{i=1}^n u_i \overline{v}_i.
+\langle u, v \rangle = \sum_{i=1}^n u_i \overline{v}_i
 $$
 
+Then $(V, \langle \cdot, \cdot \rangle)$ is an '''inner product space'''.
+
+<blockquote>
 For $\mathbb{F} = \mathbb{R}$, $\overline{v}_i=v_i$
 
 $$
-u \cdot v = u_1 v_1 + \cdots + u_n v_n.
+\langle u,v \rangle = u \cdot v = u_1 v_1 + \cdots + u_n v_n.
 $$
+</blockquote>
 
 == Properties ==
 

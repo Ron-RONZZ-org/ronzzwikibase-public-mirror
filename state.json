@@ -1172,9 +1172,9 @@
     },
     "Inner product space": {
       "path": "Main/Inner product space.wiki",
-      "revid": 8538,
-      "sha256": "1ec0df4841ca396b6a98a9510a68d57bbd2d38e24fa3b435121a931044e15037",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "revid": 11700,
+      "sha256": "053c7443fc70d821c05deeaaaaa496fad76848a40ac20a682fbfe82d904df73d",
+      "synced_at": "2026-10-29T16:38:39+00:00"
     },
     "Integer": {
       "path": "Main/Integer.wiki",
@@ -4369,6 +4369,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-29T16:13:28+00:00",
+  "updated": "2026-10-29T16:38:39+00:00",
   "version": 1
 }
