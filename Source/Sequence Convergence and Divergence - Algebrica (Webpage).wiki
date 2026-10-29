@@ -1,0 +1,5 @@
+{{Webpage}}
+
+== Overview ==
+
+A sequence converges when its terms approach a fixed limit as the index increases; otherwise it diverges, oscillates, or grows without bound.

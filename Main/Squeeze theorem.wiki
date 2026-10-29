@@ -1,0 +1,53 @@
+The '''Squeeze theorem''' states:
+
+Let $(a_n)$, $(b_n)$, $(c_n)$ be three [[number sequence]]s.
+
+If
+
+$$
+\exists n_1: \forall n>n_1,\,  a_n \leq b_n \leq c_n,
+$$
+
+'''and'''
+
+$$
+\lim_{n \to \infty} a_n = \ell = \lim_{n \to \infty} c_n,
+$$
+
+then 
+
+$$
+\lim_{n \to \infty} b_n = \ell
+$$
+
+<ref>{{#cite:Q2449}}</ref>
+
+== Application ==
+
+The convergence of [[number sequence]]s of complexity can be tested via two simpler number sequences that bound it above and below.
+
+{{Hidden example}}
+
+'''Q''': If $b_n=\frac{\sin(n)}{n}$, does $(b_n)$ converge?
+
+'''Solution''':
+
+Let $a_n=\frac{-1}{n}$, $c_n=\frac{1}{n}$,
+
+then
+
+$$
+\forall n: a_n \le b_n \le c_n
+$$
+
+Since
+
+$$
+\lim_{n \to \infty} a_n=0=\lim_{n \to \infty} c_n
+$$
+
+$$
+\lim_{n \to \infty} b_n=0 \iff b_n \text{ converges}
+$$
+
+{{End hidden}}
