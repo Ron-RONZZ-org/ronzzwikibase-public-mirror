@@ -414,6 +414,12 @@
       "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
       "synced_at": "2026-10-22T11:51:38+00:00"
     },
+    "Collective:Federal Government of the United States": {
+      "path": "Collective/Federal Government of the United States.wiki",
+      "revid": 11809,
+      "sha256": "ab75f334796ed9630d350eab636ebed1cc32fc557ccfb3e811b346323ce6ac58",
+      "synced_at": "2026-10-30T21:08:41+00:00"
+    },
     "Collective:Fondation pour la mémoire de l'esclavage": {
       "path": "Collective/Fondation pour la mémoire de l'esclavage.wiki",
       "revid": 8878,
@@ -713,6 +719,12 @@
       "revid": 8057,
       "sha256": "91f8c4c1826e92ae9ebbd6f912cf48e96f041b6e7dd6dd87fa8a2062fe6cc934",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Collective:United States Department of Energy": {
+      "path": "Collective/United States Department of Energy.wiki",
+      "revid": 11814,
+      "sha256": "39c3c05775fef2639103f08403975b53eff2507627d14b17e3c86ddecb5530d9",
+      "synced_at": "2026-10-30T21:08:41+00:00"
     },
     "Collective:University of California": {
       "path": "Collective/University of California.wiki",
@@ -1907,6 +1919,12 @@
       "revid": 7206,
       "sha256": "0b7c2903899ee88b78b8ef60827f7d3c31ccfd496d90d9007ba5b2bc51d5606c",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:John Dalton": {
+      "path": "Person/John Dalton.wiki",
+      "revid": 11824,
+      "sha256": "c53df6b84ea6520d600ebe3b079129d9f53153d69ee45d8b97780c4429f2fdf0",
+      "synced_at": "2026-10-30T21:08:41+00:00"
     },
     "Person:John L. Kelly": {
       "path": "Person/John L. Kelly.wiki",
@@ -4170,6 +4188,12 @@
       "sha256": "6a1bc9ca2267e577ea71c989405b5fbfb13a9b49ed04ce91bf0cbb18b0cf8238",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:The particle adventure (Website)": {
+      "path": "Source/The particle adventure (Website).wiki",
+      "revid": 11819,
+      "sha256": "e2b7187d629382df8b9f02b6b54374c5a84fdb39963ab2449f3e8f851adc3211",
+      "synced_at": "2026-10-30T21:08:41+00:00"
+    },
     "Source:The screw calculus and its applications in mechanics (Book)": {
       "path": "Source/The screw calculus and its applications in mechanics (Book).wiki",
       "revid": 8219,
@@ -4459,6 +4483,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-30T20:49:40+00:00",
+  "updated": "2026-10-30T21:08:41+00:00",
   "version": 1
 }

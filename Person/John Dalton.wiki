@@ -1,0 +1,7 @@
+{{Person}}
+
+== Biography ==
+
+''from Wikipedia (CC BY-SA 4.0):''
+
+John Dalton was an English chemist, physicist, and meteorologist whose work laid the foundations of modern atomic theory and stoichiometric chemistry. Building on earlier ideas about the indivisibility of matter and his own precise measurements of combining ratios, Dalton proposed that each chemical element consists of identical atoms of characteristic weight, and that compounds are formed when atoms of different elements combine in fixed whole-number proportions. His A New System of Chemical Philosophy (1808) presented a coherent atomic model, supplied relative atomic weights and symbolic notation, and established the quantitative framework that shaped nineteenth-century chemistry and remains the basis of modern chemical thought.
