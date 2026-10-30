@@ -66,6 +66,12 @@
       "sha256": "500ae40445b605f56e163e16c4df8a0ab537ddd27837949a8c469061f6e5d5b6",
       "synced_at": "2026-10-19T20:15:43+00:00"
     },
+    "Baryon": {
+      "path": "Main/Baryon.wiki",
+      "revid": 11802,
+      "sha256": "4168eff89cc7d1bc2a5c6c999bee6a084ad15ad7fea981a6665389d8bc75ffd1",
+      "synced_at": "2026-10-30T20:49:40+00:00"
+    },
     "Binary operation": {
       "path": "Main/Binary operation.wiki",
       "revid": 10083,
@@ -1074,6 +1080,12 @@
       "sha256": "48ab6cedf7051eec6a20ec56972314dba431b3664a6501314fd9cc731da36a29",
       "synced_at": "2026-10-29T19:49:51+00:00"
     },
+    "Fundamental forces": {
+      "path": "Main/Fundamental forces.wiki",
+      "revid": 11798,
+      "sha256": "5c288a32dd3a6d48f221b64af215fe84dd81c9ed31499ba5bb4287e7ef409204",
+      "synced_at": "2026-10-30T20:49:40+00:00"
+    },
     "Fundamental particle": {
       "path": "Main/Fundamental particle.wiki",
       "revid": 11774,
@@ -1361,6 +1373,12 @@
       "revid": 7557,
       "sha256": "495b849058d20ba3538dfcc1767dde6e2af353a03ad88c64cbfc9974ca189fc9",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Meson": {
+      "path": "Main/Meson.wiki",
+      "revid": 11803,
+      "sha256": "90ee945ea9673523bc024187755e4db74a62b5a6a74074f000390d06a9a74800",
+      "synced_at": "2026-10-30T20:49:40+00:00"
     },
     "Metaphysics": {
       "path": "Main/Metaphysics.wiki",
@@ -2342,9 +2360,9 @@
     },
     "Quark": {
       "path": "Main/Quark.wiki",
-      "revid": 11795,
-      "sha256": "488c48f5b9610107d0aa15084d7c600fdfdb7f3f02c6779a5a33ca54befbbee6",
-      "synced_at": "2026-10-30T20:35:57+00:00"
+      "revid": 11799,
+      "sha256": "9e795a54b87d6c9f1bb16a86d6b8d920d754f0a165083a2938e29106cd602c81",
+      "synced_at": "2026-10-30T20:49:40+00:00"
     },
     "Radian": {
       "path": "Main/Radian.wiki",
@@ -4441,6 +4459,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-30T20:35:57+00:00",
+  "updated": "2026-10-30T20:49:40+00:00",
   "version": 1
 }

@@ -32,10 +32,10 @@ A series of experiments performed at the Stanford Linear Accelerator Center (SLA
 
 == Quark confinement ==
 
-To date (2022), no experiment has successfully produced an isolated quark. In current particle interaction models, this is explained by '''quark confinement''', which stipulates that quarks are always confined to a small region of space in groups of two, forming '''mesons''', or in groups of three, forming '''baryons''' (like the familiar [[proton]] or [[neutron]]). Each quark is completely free to move around in this small space, but cannot simply "stray off" due to the presence of the strong force. A macroscopic analogy is a bola:
+To date (2022), no experiment has successfully produced an isolated quark. In current particle interaction models, this is explained by '''quark confinement''', which stipulates that quarks are always confined to a small region of space in groups of two, forming '''[[meson]]s''', or in groups of three, forming '''[[baryon]]s''' (like the familiar [[proton]] or [[neutron]]). Each quark is completely free to move around in this small space, but cannot simply "stray off" due to the presence of the strong force. A macroscopic analogy is a bola:
 
 [[File:Bola.jpeg|300px|center]]
 
 <blockquote>
-'''Mesons''' and '''baryons''' are together known as '''Hadrons'''.
+'''[[Meson]]s''' and '''[[baryon]]s''' are together known as '''Hadrons'''.
 </blockquote>
