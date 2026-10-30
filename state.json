@@ -50,9 +50,9 @@
     },
     "Atom": {
       "path": "Main/Atom.wiki",
-      "revid": 11835,
-      "sha256": "4ef1439b15addcb66f4639f380e81acdfb9d62d42b42fc00ec03fac313cf9bb3",
-      "synced_at": "2026-10-30T21:49:55+00:00"
+      "revid": 11836,
+      "sha256": "2e18e47a49322b1aa044231b36b386f879025f5ea6a233c97cefe8eb9278fac1",
+      "synced_at": "2026-10-30T22:08:36+00:00"
     },
     "Atomic mass unit": {
       "path": "Main/Atomic mass unit.wiki",
@@ -4489,6 +4489,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-30T21:49:55+00:00",
+  "updated": "2026-10-30T22:08:36+00:00",
   "version": 1
 }

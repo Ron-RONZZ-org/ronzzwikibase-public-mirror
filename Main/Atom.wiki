@@ -1,10 +1,18 @@
-An atom is an extremely small particle. All known matter in the universe are a combination of atoms.
+An atom is an extremely small particle. All known [[ordinary matter]] in the universe are a combination of atoms.
 
 It is made of a small atomic nucleus containing 99.9% of the mass of the atom, and electrons that orbit around the nucleus, behaving as [[quantum particles]].
 
 [[File:Atom.png|center|400px]]
 
-A typical atom has a radius of $30-300 pm$ at 95% probability of electron confinement.<ref>{{#cite:Q1791}}</ref>($1pm=10^{-12}m$). This means, if we consider the boundary of the atom as where the electron has a 95% chance of being found within, the size of an atom compared to a human is like the size of a human compared to the sun.<ref>{{#cite:Q1761}}</ref>
+A typical atom has a radius of $30-300 pm$ at 95% probability of electron confinement*.<ref>{{#cite:Q1791}}</ref>($1pm=10^{-12}m$).
+
+<blockquote>
+<nowiki/>*:'''95% probability of electron confinement''' delimits the physical space in which electrons of the atom are found 95% of the time.
+</blockquote>
+
+<blockquote>
+The size of an atom compared to a human is like the size of a human compared to the sun.<ref>{{#cite:Q1761}}</ref>
+</blockquote>
 
 == History ==
 
@@ -38,7 +46,7 @@ An atom is made of three type of subatomic particles: positively charged protons
 <blockquote>
 The atomic nucleus is extremely small and extremely dense in mass. 
 
-If an atom has the size of a stadium, its atomic nucleus would have the size of a pea ($r=10^{-6}R$).<ref>{{#cite:Q1793}}</ref>.
+If an atom has the size of a stadium, its atomic nucleus would have the size of a pea ($r=10^{-5}R$).<ref>{{#cite:Q1793}}</ref>.
 
 Despite its negligible size, the atomic nucleus holds nearly all of the mass of an atom. Expectedly, the atomic nucleus is incredibly dense ($\rho \approx 2.3 \times 10^{17} kg\ m^{-3}$).<ref>{{#cite:Q1797}}</ref>. If one manages to capture a plastic water bottle full of atomic nuclei ($500 ml$), then the mass of the water bottle would be comparable to all water in [https://en.wikipedia.org/wiki/Qinghai_Lake Qinghai Lake], the largest lake in China!
 
@@ -80,9 +88,9 @@ The chemical and physical properties of atoms depends on the number of protons (
 
 Each class of atoms with the same number of protons ($p+$) is known as an '''element'''. To date, scientists have identified more than 100 elements.<ref>{{#cite:Q1761}}</ref>
 
-Through experiments, scientists have observed certain periodicity in the property of elements, i.e., certain elements have similar properties despite the difference in the number of protons. To illustrate this periodicity, German chemist [[Person:Julius Lothar Meyer|Julius Lothar Meyer]] and Russian chemist [[Person:Dmitri Mendeleev|Dmitri Mendeleev]] pioneered the [[periodic table]] in the late 19th century.
+[[File:Periodic-table.png|thumbnail|A modern periodic table]]
 
-[[File:Periodic-table.png]]
+Through experiments, scientists have observed certain periodicity in the property of elements, i.e., certain elements have similar properties despite the difference in the number of protons. To illustrate this periodicity, German chemist [[Person:Julius Lothar Meyer|Julius Lothar Meyer]] and Russian chemist [[Person:Dmitri Mendeleev|Dmitri Mendeleev]] pioneered the [[periodic table]] in the late 19th century.
 
 === Notation ===
 
