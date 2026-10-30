@@ -18,6 +18,12 @@
       "sha256": "05aa048c1b12877bbea81fd54e3b9b027af83ab0b4e487c46e2f49754ac6bc76",
       "synced_at": "2026-10-20T14:52:47+00:00"
     },
+    "Antiparticle": {
+      "path": "Main/Antiparticle.wiki",
+      "revid": 11787,
+      "sha256": "1e531bfc94f467ea67a5de1113137f3e6b9a9162c1fe0c46af57f5d0d0952e9a",
+      "synced_at": "2026-10-30T20:09:45+00:00"
+    },
     "Area moments of inertia": {
       "path": "Main/Area moments of inertia.wiki",
       "revid": 10668,
@@ -2586,6 +2592,12 @@
       "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
       "synced_at": "2026-10-21T09:16:35+00:00"
     },
+    "Source:11.2: Introduction to Particle Physics (Webpage)": {
+      "path": "Source/11.2_ Introduction to Particle Physics (Webpage).wiki",
+      "revid": 11783,
+      "sha256": "328b8b90a84bef3b2cbaa50c93f206a475c279a52704b2d4b27c2e60a8c5861a",
+      "synced_at": "2026-10-30T20:09:45+00:00"
+    },
     "Source:17.5: Area Moments of Inertia via Integration (Webpage)": {
       "path": "Source/17.5_ Area Moments of Inertia via Integration (Webpage).wiki",
       "revid": 9829,
@@ -4423,6 +4435,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-30T19:49:50+00:00",
+  "updated": "2026-10-30T20:09:45+00:00",
   "version": 1
 }

@@ -1,0 +1,64 @@
+Every particle in nature has a corresponding '''antiparticle'''.<ref>{{#cite:Q2489}}</ref>
+
+== Properties ==
+
+Compared to its associated particle, an antiparticle has
+
+* the same mass and lifetime
+* the opposite electric charge
+
+<ref>{{#cite:Q2489}}</ref>
+
+== List of antiparticles ==
+
+{| class="wikitable"
+|+ <ref>{{#cite:Q2489}}</ref>
+|-
+! Type !! Particle name !! Symbol !! Antiparticle !! Mass $(MeV/c^2)$ !! Average lifetime $(s)$
+|-
+| Lepton || Electron || $e^-$ || $e^+$ || $0.511$ || Stable
+|-
+| Lepton || Electron neutrino || $\nu_e$ || $\overline{\nu}_e$ || $\approx 0$ || Stable
+|-
+| Lepton || Muon || $\mu^-$ || $\mu^+$ || $105.7$ || $2.20 \times 10^{-6}$
+|-
+| Lepton || Muon neutrino || $\nu_{\mu}$ || $\overline{\nu}_{\mu}$ || $\approx 0$ || Stable
+|-
+| Lepton || Tau || $\tau^-$ || $\tau^+$ || $1784$ || $<4 \times 10^{-13}$
+|-
+| Lepton || Tau neutrino || $\nu_{\tau}$ || $\overline{\nu}_{\tau}$ || $\approx 0$ || Stable
+|-
+| Hadron (baryon) || Proton || $p$ || $\overline{p}$ || $938.3$ || Stable
+|-
+| Hadron (baryon) || Neutron || $n$ || $\overline{n}$ || $939.6$ || $920$
+|-
+| Hadron (baryon) || Lambda || $\Lambda^0$ || $\overline{\Lambda^0}$ || $1115.6$ || $2.6 \times 10^{-10}$
+|-
+| Hadron (baryon) || Sigma || $\Sigma^+$ || $\Sigma^-$ || $1189.4$ || $0.80 \times 10^{-10}$
+|-
+| Hadron (baryon) || Xi || $\Xi^+$ || $\Xi^-$ || $1315$ || $2.9 \times 10^{-10}$
+|-
+| Hadron (baryon) || Omega || $\Omega^+$ || $\Omega^-$ || $1672$ || $0.82 \times 10^{-10}$
+|-
+| Hadron (meson) || Pion || $\pi^+$ || $\pi^-$ || $139.6$ || $2.60 \times 10^{-8}$
+|-
+| Hadron (meson) || $\pi$-Zero || $\pi^0$ || $\pi^0$ || $135.0$ || $0.83 \times 10^{-16}$
+|-
+| Hadron (meson) || Kaon || $K^+$ || $K^-$ || $493.7$ || $1.24 \times 10^{-8}$
+|-
+| Hadron (meson) || $k$-Short || $K_S^0$ || $\overline{K_S^0}$ || $497.6$ || $0.89 \times 10^{-10}$
+|-
+| Hadron (meson) || $k$-Long || $K_L^0$ || $\overline{K_L^0}$ || $497.6$ || $5.2 \times 10^{-8}$
+|-
+| Hadron (meson) || J/$\psi$ || $J/\psi$ || $J/\psi$ || $3100$ || $7.1 \times 10^{-21}$
+|-
+| Hadron (meson) || Upsilon || $\Upsilon$ || $\Upsilon$ || $9460$ || $1.2 \times 10^{-20}$
+|}
+
+== Annihilation ==
+
+See [[Annihilation]].
+
+== See also ==
+
+[[Antiatom]]
