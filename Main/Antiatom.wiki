@@ -1,0 +1,5 @@
+'''Antiatoms''' are formed by [[antiparticle]]s.
+
+Whereas in atoms negatively charged electrons ($e^-$) orbit a positively charged nucleus consisting protons ($p^+$) and neutrons ($n$), in antiatoms, positrons ($e^+$) orbit a negatively charged nucleus consisting antiprotons ($\overline{p}$) and antineutrons ($\overline{n}$).
+
+[[File:Antiatoms.jpg|500px|center]]

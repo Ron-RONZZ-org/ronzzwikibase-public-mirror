@@ -18,6 +18,12 @@
       "sha256": "05aa048c1b12877bbea81fd54e3b9b027af83ab0b4e487c46e2f49754ac6bc76",
       "synced_at": "2026-10-20T14:52:47+00:00"
     },
+    "Antiatom": {
+      "path": "Main/Antiatom.wiki",
+      "revid": 11793,
+      "sha256": "77d76bd4801c8ea995bd2961cdfff28d43c8c589fa0063c3c8879c2ea40d3f39",
+      "synced_at": "2026-10-30T20:35:57+00:00"
+    },
     "Antiparticle": {
       "path": "Main/Antiparticle.wiki",
       "revid": 11788,
@@ -2336,9 +2342,9 @@
     },
     "Quark": {
       "path": "Main/Quark.wiki",
-      "revid": 11777,
-      "sha256": "deb1fbfa135088959971a70c5ebf283974f4a460a46a40bb65fdbcb451f9358b",
-      "synced_at": "2026-10-30T19:49:50+00:00"
+      "revid": 11795,
+      "sha256": "488c48f5b9610107d0aa15084d7c600fdfdb7f3f02c6779a5a33ca54befbbee6",
+      "synced_at": "2026-10-30T20:35:57+00:00"
     },
     "Radian": {
       "path": "Main/Radian.wiki",
@@ -4435,6 +4441,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-30T20:20:02+00:00",
+  "updated": "2026-10-30T20:35:57+00:00",
   "version": 1
 }
