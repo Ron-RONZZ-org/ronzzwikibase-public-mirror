@@ -1,4 +1,4 @@
-A quark is a [[fundamental particle]].
+'''Quarks''' are one type of [[fundamental particle]]s.
 
 == Types ==
 
@@ -7,7 +7,7 @@ In the current standard model of particle physics (2022), there are 6 pairs of q
 {| class="wikitable"
 |+Quarks and Antiquarks
 |-
-! Name !! Symbol !! Antiparticle !! Spin !! Charge !! B !! S !! c !! b !! t !! Mass $(GeV/c^2)$
+! Name !! Symbol !! [[Antiparticle]] !! Spin !! Charge !! B !! S !! c !! b !! t !! Mass $(GeV/c^2)$
 |-
 | Up || $u$ || $\bar{u}$ || $1/2$ || $\pm\frac{2}{3}e$ || $\pm\frac{1}{3}$ || $0$ || $0$ || $0$ || $0$ || $0.005$
 |-
@@ -26,7 +26,7 @@ In the current standard model of particle physics (2022), there are 6 pairs of q
 
 The existence of quarks were first hypothesised in the 1960s. The term 'quark' itself was coined by [[Person:Murray Gell-Mann|Murray Gell-Mann]], inspired by [[Person:James Joyce|James Joyce]]'s novel ''Finnegans Wake''.<ref>{{#cite:Q1942}}</ref>
 
-A series of experiments performed at the Stanford Linear Accelerator Center (SLAC) and at CERN around 1970 collided high-energy electrons or neutrinos with protons. Scattering distribution from those experiments is consistent with the existence of small scattering centers in protons with charges $\frac{2}{3}e$ or $-\frac{1}{3}$ and spin $\frac{1}{2}$ , consistent with the hypothesis developed a decade ago.<ref>{{#cite:Q1942}}</ref>
+A series of experiments performed at the Stanford Linear Accelerator Center (SLAC) and at CERN around 1970 collided high-energy electrons or neutrinos with protons. Scattering distribution from those experiments is consistent with the existence of small scattering centers in protons with charges of $\frac{2}{3}e$ or $-\frac{1}{3}e$ and spin of $\frac{1}{2}$ , consistent with the hypothesis developed a decade ago.<ref>{{#cite:Q1942}}</ref>
 
 [[File:Proton-electron-scattering-experiment.jpeg|300px|center]]
 
