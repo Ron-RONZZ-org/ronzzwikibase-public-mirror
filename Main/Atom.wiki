@@ -24,7 +24,7 @@ Since then, scientific understanding of the atom has been updated multiple times
 An atom is made of three type of subatomic particles: positively charged protons and electrically neutral neutrons, which make up the atomic nucleus (plural: nuclei), and electrons, which orbit the nucleus in probablistic "quantic clouds".
 
 {| class="wikitable"
-! Particle !! Symbol !! Mass (amu) !! Mass (kg) !! Relative Charge !! Absolute Charge (coulombs) !! Location
+! Particle !! Symbol !! Mass ([[atomic mass unit|amu]]) !! Mass (kg) !! Relative Charge !! Absolute Charge (coulombs) !! Location
 |-
 | proton || $p^+$ || $1.007206$ ||  $1.673 \times 10^{-27}$ || +1 || $+1.602 \times 10^{-19}$ || inside the nucleus
 |-
@@ -36,15 +36,17 @@ An atom is made of three type of subatomic particles: positively charged protons
 <ref>{{#cite:Q1791}}</ref><ref>{{#cite:Q1793}}</ref>
 
 <blockquote>
-The atomic mass unit (amu) is defined as exactly $\frac{1}{12}$ of the mass of a carbon atom:<ref>{{#cite:Q1793}}</ref>
-$$1\ amu=\frac{1}{12}m_{\text{carbon-12 atom}}$$
+The atomic nucleus is extremely small and extremely dense in mass. 
+
+If an atom has the size of a stadium, its atomic nucleus would have the size of a pea ($r=10^{-6}R$).<ref>{{#cite:Q1793}}</ref>.
+
+Despite its negligible size, the atomic nucleus holds nearly all of the mass of an atom. Expectedly, the atomic nucleus is incredibly dense ($\rho \approx 2.3 \times 10^{17} kg\ m^{-3}$).<ref>{{#cite:Q1797}}</ref>. If one manages to capture a plastic water bottle full of atomic nuclei ($500 ml$), then the mass of the water bottle would be comparable to all water in [https://en.wikipedia.org/wiki/Qinghai_Lake Qinghai Lake], the largest lake in China!
+
+[[File:Qinghai-lake.jpg|400px|center]]
 </blockquote>
 
-The atomic nucleus is extremely small. If the atom has the size of a stadium, it would have the size of a pea ($r=10^{-6}R$).<ref>{{#cite:Q1793}}</ref> However, it holds nearly all of the mass of the atom. Therefore, it is incredibly dense, with a density of about $2.3 \times 10^{17} kg\ m^{-3}$.<ref>{{#cite:Q1797}}</ref>. If one manages to capture a plastic water bottle full of atomic nuclei ($500 ml$), then the mass of the water bottle would be that about [https://en.wikipedia.org/wiki/Qinghai_Lake Qinghai Lake], the largest lake in China!
 
-[[File:Qinghai-lake.jpg]]
-
-The atomic nuclei is held together by the [[strong nuclear force]].<ref>{{#cite:Q1793}}</ref>
+Atomic nuclei are held together by the [[strong nuclear force]].<ref>{{#cite:Q1793}}</ref>
 
 == Classification ==
 

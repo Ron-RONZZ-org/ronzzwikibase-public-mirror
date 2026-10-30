@@ -50,9 +50,15 @@
     },
     "Atom": {
       "path": "Main/Atom.wiki",
-      "revid": 11832,
-      "sha256": "18a491fd42cd8286da58ad80a5b42644b109c4048de26faba69a910bb446de2d",
-      "synced_at": "2026-10-30T21:35:54+00:00"
+      "revid": 11835,
+      "sha256": "4ef1439b15addcb66f4639f380e81acdfb9d62d42b42fc00ec03fac313cf9bb3",
+      "synced_at": "2026-10-30T21:49:55+00:00"
+    },
+    "Atomic mass unit": {
+      "path": "Main/Atomic mass unit.wiki",
+      "revid": 11833,
+      "sha256": "9370753fb3145fcab426e794fb4f6f9aca3ea29cb1c695a31172dd437eb99f01",
+      "synced_at": "2026-10-30T21:49:55+00:00"
     },
     "Autism": {
       "path": "Main/Autism.wiki",
@@ -4483,6 +4489,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-30T21:35:54+00:00",
+  "updated": "2026-10-30T21:49:55+00:00",
   "version": 1
 }

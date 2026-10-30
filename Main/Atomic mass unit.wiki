@@ -1,0 +1,5 @@
+The atomic mass unit (amu) is a unit of mass for [[atom|atomic]] and subatomic particles.
+
+== Formal definition ==
+
+$$1\ amu=\frac{1}{12}m_{\text{carbon-12 atom}}$$<ref>{{#cite:Q1793}}</ref>
