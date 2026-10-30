@@ -20,9 +20,9 @@
     },
     "Antiparticle": {
       "path": "Main/Antiparticle.wiki",
-      "revid": 11787,
-      "sha256": "1e531bfc94f467ea67a5de1113137f3e6b9a9162c1fe0c46af57f5d0d0952e9a",
-      "synced_at": "2026-10-30T20:09:45+00:00"
+      "revid": 11788,
+      "sha256": "39e13964db89aace336a61b1fc6bb86478ad71daba0554caa06bf8d274d1a7e6",
+      "synced_at": "2026-10-30T20:20:02+00:00"
     },
     "Area moments of inertia": {
       "path": "Main/Area moments of inertia.wiki",
@@ -4435,6 +4435,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-30T20:09:45+00:00",
+  "updated": "2026-10-30T20:20:02+00:00",
   "version": 1
 }

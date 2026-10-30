@@ -4,7 +4,7 @@ Every particle in nature has a corresponding '''antiparticle'''.<ref>{{#cite:Q24
 
 Compared to its associated particle, an antiparticle has
 
-* the same mass and lifetime
+* the same mass, spin and lifetime
 * the opposite electric charge
 
 <ref>{{#cite:Q2489}}</ref>
