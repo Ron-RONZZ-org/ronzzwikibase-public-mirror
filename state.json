@@ -846,6 +846,12 @@
       "sha256": "daecdc5b914e0bb2cce2bcc43c046e20c5b6e27f1d14d557a6c9a0e76125e8de",
       "synced_at": "2026-10-28T13:36:26+00:00"
     },
+    "Cyclotron": {
+      "path": "Main/Cyclotron.wiki",
+      "revid": 11984,
+      "sha256": "6a1ebe476a1865cbd03987da72ee397574a48da25cad5708625728e08680843f",
+      "synced_at": "2026-10-31T15:08:39+00:00"
+    },
     "Dark energy": {
       "path": "Main/Dark energy.wiki",
       "revid": 6927,
@@ -1334,9 +1340,9 @@
     },
     "Linear accelerator (linac)": {
       "path": "Main/Linear accelerator (linac).wiki",
-      "revid": 11975,
-      "sha256": "d3f007762510e90c2184721c894740d14a887a4c1c48c899bfad392f1be5e0e9",
-      "synced_at": "2026-10-31T14:34:56+00:00"
+      "revid": 11985,
+      "sha256": "47775722ec0db61d7a7391df51cffb927701b6d2e3577edd7490eab0baee2249",
+      "synced_at": "2026-10-31T15:08:39+00:00"
     },
     "Linear differential equation": {
       "path": "Main/Linear differential equation.wiki",
@@ -1553,6 +1559,12 @@
       "revid": 11715,
       "sha256": "bfe412c6dfd1f561057fa051c94cedbe77197becc85a9f9b99989a199bcf636d",
       "synced_at": "2026-10-29T18:40:50+00:00"
+    },
+    "Particle accelerator": {
+      "path": "Main/Particle accelerator.wiki",
+      "revid": 11982,
+      "sha256": "5e9dad1d7b14f52c53225f8ac5752b05fef03edbc73a9393be628a9f0846289e",
+      "synced_at": "2026-10-31T15:08:39+00:00"
     },
     "Periodic table": {
       "path": "Main/Periodic table.wiki",
@@ -4615,6 +4627,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-31T14:34:56+00:00",
+  "updated": "2026-10-31T15:08:39+00:00",
   "version": 1
 }

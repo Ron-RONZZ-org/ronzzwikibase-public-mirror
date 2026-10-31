@@ -1,0 +1,26 @@
+'''Cyclotrons''' are a type of [[particle accelerator]]s accelerating charged particles via an alternating electric field between two fixed, hollow magnets.
+
+[[File:Cyclotron.jpg|thumbnail|A cyclotron consists of two 'D'-shaped magnets with a gap in between. The particles to be accelerated by a cyclotron enter via the gap, and are immediately accelerated by an electric field generated between the two 'D's into one of them. Under the magnetic field of the 'D', the particles experience a [[Lorentz force]] and move in a spiral trajectory, soon returning to the gap. The electric field is then reversed to accelerate the particle again into the other 'D', so on so forth, until the particles spiral out enough to reach exits at the perimeter of the 'D's with the desired momentum]]
+
+== Capacity ==
+
+Assuming no energy loss, the momentum of the accelerated particle $p$ is proportional to the magnetic field strength $B$ and radius of curvature $r$.
+
+$$
+p=0.3Br
+$$
+
+{| class="wikitable"
+|-
+! Quantity
+! Unit
+|-
+| $p$
+| $\mathrm{GeV}/c$
+|-
+| $B$
+| $\mathrm{T}$
+|-
+| $r$
+| $\mathrm{m}$
+|}

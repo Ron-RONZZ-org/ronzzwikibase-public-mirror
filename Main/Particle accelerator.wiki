@@ -1,0 +1,6 @@
+A '''particle accelerator''' is a machine designed to accelerate charged particles, usually via strong electric/magnetic fields or both.
+
+Common designs include:
+
+* [[Linear accelerator (linac)|Linear accelerators (linac)]]
+* [[cyclotron]]s
