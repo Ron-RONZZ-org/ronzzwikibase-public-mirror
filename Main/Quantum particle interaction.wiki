@@ -1,1 +1,14 @@
 '''Quantum particle interaction''' is the interaction between two or more [[quantum particle]]s.
+
+== Conservation ==
+
+The following properties are conserved:
+
+* Before and after '''any''' quantum particle interaction
+** $\sum \mathrm{B}$, the total [[baryon number]],
+** $\sum L_e,\sum L_\mu, \sum L_\tau$, the total [[lepton numbers]],
+
+* If the interaction does '''not''' involve the [[weak force]]
+** $\sum \mathrm{S}$, the total [[strangeness]]
+
+<ref>{{#cite:Q2527}}</ref>

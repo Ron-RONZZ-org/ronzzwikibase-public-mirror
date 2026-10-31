@@ -1,0 +1,40 @@
+The '''lepton numbers''', denoted by $\mathrm{L_e, L_\mu, L_\tau}$, is a [[conserved property]] in [[quantum particle interaction]]s.<ref>{{#cite:Q2527}}</ref>
+
+There are three lepton numbers:<ref>{{#cite:Q2527}}</ref>
+
+* $L_e$, the electron-lepton number,
+* $L_\mu$, the muon-lepton number,
+* $L_\tau$, the tau-lepton number.
+
+== Assignment ==
+
+{| class="wikitable"
+|-
+! Particle
+! $L_e$
+! $L_\mu$
+! $L_\tau$
+|-
+| [[Electron]] and [[neutrino|electron neutrinos]]
+| $1$
+| $0$
+| $0$
+|-
+| [[Muon]] and [[neutrino|muon neutrinos]]
+| $0$
+| $1$
+| $0$
+|-
+| [[Tau]] and [[neutrino|tau neutrinos]]
+| $0$
+| $0$
+| $1$
+|-
+| All other
+| $0$
+| $0$
+| $0$
+|-
+|}
+
+<ref>{{#cite:Q2527}}</ref>

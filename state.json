@@ -1308,6 +1308,18 @@
       "sha256": "a64153ee05000271f3c4efb6a9024dcb5c7fc6ee3472be6e473b143f6907046d",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Lepton number": {
+      "path": "Main/Lepton number.wiki",
+      "revid": 11963,
+      "sha256": "97d1a7784de137a0ba18d53ff2f3e80ae8f1e99b8a425b3d4178dece402ecbbc",
+      "synced_at": "2026-10-31T14:08:39+00:00"
+    },
+    "Lepton numbers": {
+      "path": "Main/Lepton numbers.wiki",
+      "revid": 11962,
+      "sha256": "5fa10ef6a6810136269a1c0bcbfb79c240705e8b926f7b82d241863de6dfaea6",
+      "synced_at": "2026-10-31T14:08:39+00:00"
+    },
     "Limit (mathematical concept)": {
       "path": "Main/Limit (mathematical concept).wiki",
       "revid": 11717,
@@ -2444,9 +2456,9 @@
     },
     "Quantum particle interaction": {
       "path": "Main/Quantum particle interaction.wiki",
-      "revid": 11950,
-      "sha256": "fadda23fb862eb67ca3ac3c4d1da2830204530e5c9d310e01a65a41f79bd0d1c",
-      "synced_at": "2026-10-31T13:49:41+00:00"
+      "revid": 11964,
+      "sha256": "2ec58ac1ae73dbf9b1844cca0580accbcd35ff741e1ff3b04bfaa2fadf252903",
+      "synced_at": "2026-10-31T14:08:39+00:00"
     },
     "Quark": {
       "path": "Main/Quark.wiki",
@@ -4512,6 +4524,12 @@
       "sha256": "2e71ac046eafdb39341a00b3b8afa12dc7057b770de3edab4c4145dfc7ddb77c",
       "synced_at": "2026-10-31T13:35:08+00:00"
     },
+    "Strangeness": {
+      "path": "Main/Strangeness.wiki",
+      "revid": 11960,
+      "sha256": "26b573e3fec7911c18ac7e2dac06343c5aedc1818ea95790f438f95f5cf01a30",
+      "synced_at": "2026-10-31T14:08:39+00:00"
+    },
     "Stream of consciousness": {
       "path": "Main/Stream of consciousness.wiki",
       "revid": 8731,
@@ -4585,6 +4603,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-31T13:49:41+00:00",
+  "updated": "2026-10-31T14:08:39+00:00",
   "version": 1
 }

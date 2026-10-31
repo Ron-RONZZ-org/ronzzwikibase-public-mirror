@@ -1,0 +1,11 @@
+The '''strangeness''', denoted by $\mathrm{S}$, is a partially-[[conserved property]] in [[quantum particle interaction]]s.
+
+== Assignment ==
+
+The strangeness of a [[quantum particle]] depends on the number of strange [[quark]]s and strange [[antiquark]]s it contains.
+
+$$
+\mathrm{S} = -(n_{\text{s}} - n_{\bar{\text{s}}})
+$$
+
+where $n_{\text{s}}$ is the number of strange quarks and $n_{\bar{\text{s}}}$ the number of strange antiquarks contained in the particle.
