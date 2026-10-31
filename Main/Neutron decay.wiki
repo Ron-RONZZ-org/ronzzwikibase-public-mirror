@@ -1,0 +1,5 @@
+'''Neutron decay''', also known as '''beta-decay ($\beta$-decay)''', is a [[weak nuclear interaction]].
+
+== Process ==
+
+{{#content:Q2550}}

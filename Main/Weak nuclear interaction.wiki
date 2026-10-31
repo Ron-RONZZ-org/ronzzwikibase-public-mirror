@@ -20,24 +20,31 @@ The '''weak nuclear interaction''' is one of the four [[fundamental interactions
 
 === Neutron decay ===
 
+{{#content:Q2550}}
+
+=== Proton-electron scattering ===
+
 $$
-n \rightarrow p + e^- + \overline{\nu}_e
+e^- + p \rightarrow n + \nu_e
 $$
+
 <div class="center">
 {| class="wikitable"
-|-
-| $n$
-| [[Neutron]]
-|-
-| $p^+$
-| [[Proton]]
 |-
 | $e^-$
 | [[Electron]]
 |-
-| $\overline{\nu}_e$
+| $p^+$
+| [[Proton]]
+|-
+| $n$
+| [[Neutron]]
+|-
+| $\nu_e$
 | Electron [[neutrino]]
 |}
 </div>
+
+[[File:Feynman diagram neutron decay proton-electron scattering.jpg|thumbnail|center|[[Feynman diagram]]s describing<br/> a) Neutron decay, also known as [[neutron decay|beta-decay]] <br/> b) proton-electron scattering]]
 
 <ref>{{#cite:Q2545}}</ref>

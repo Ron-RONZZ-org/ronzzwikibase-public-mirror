@@ -1,0 +1,27 @@
+The '''strong nuclear interaction''' is one of the four [[fundamental interactions]] between [[quantum particle]]s.
+
+== Properties ==
+
+{| class="wikitable"
+|-
+| Carrier particle
+| $g$ [[gluon]]
+|-
+| Participants
+| [[quark]]s
+|-
+| Effective range
+| $10^{-15} \mathrm{m}$
+|}
+
+<ref>{{#cite:Q2545}}</ref>
+
+== Example interactions ==
+
+=== proton-neutron strong nuclear interaction ===
+
+[[File:Feynman diagram proton-neutron strong nuclear interaction.jpg|400px|center]]
+
+As seen in the [[Feynman diagram]], the proton converts into a neutron and the neutron converts into a proton during the interaction.
+
+<ref>{{#cite:Q2545}}</ref>
