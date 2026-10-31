@@ -1400,9 +1400,9 @@
     },
     "Meson": {
       "path": "Main/Meson.wiki",
-      "revid": 11803,
-      "sha256": "90ee945ea9673523bc024187755e4db74a62b5a6a74074f000390d06a9a74800",
-      "synced_at": "2026-10-30T20:49:40+00:00"
+      "revid": 11931,
+      "sha256": "6bfdfd6b402fcf6ce8af9d2ed19af6b90b891cf0d9905697a40d21588aa6b39e",
+      "synced_at": "2026-10-31T12:35:52+00:00"
     },
     "Metaphysics": {
       "path": "Main/Metaphysics.wiki",
@@ -2420,9 +2420,9 @@
     },
     "Quark": {
       "path": "Main/Quark.wiki",
-      "revid": 11920,
-      "sha256": "2f5d9034ac0eca08342f6780bcfcf09d7d6b1e50cd873290c23b0540b2f471ff",
-      "synced_at": "2026-10-31T12:24:53+00:00"
+      "revid": 11930,
+      "sha256": "ee713a7fb8e03251c76806e4a2d595739a65a4c650c18daf0e7d1db982b33e63",
+      "synced_at": "2026-10-31T12:35:52+00:00"
     },
     "Radian": {
       "path": "Main/Radian.wiki",
@@ -4543,6 +4543,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-31T12:24:53+00:00",
+  "updated": "2026-10-31T12:35:52+00:00",
   "version": 1
 }
