@@ -1572,6 +1572,12 @@
       "sha256": "11b4c78e95ebcc38e544dfbdb8562309ced006191691e80e8f462c1816835a5b",
       "synced_at": "2026-10-31T15:19:38+00:00"
     },
+    "Particle detector": {
+      "path": "Main/Particle detector.wiki",
+      "revid": 12002,
+      "sha256": "de74bd0584406d5c6f9a9528f982ed93af68be802f344a683d70ce414b0c5742",
+      "synced_at": "2026-10-31T15:49:39+00:00"
+    },
     "Periodic table": {
       "path": "Main/Periodic table.wiki",
       "revid": 8074,
@@ -4633,6 +4639,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-31T15:35:08+00:00",
+  "updated": "2026-10-31T15:49:39+00:00",
   "version": 1
 }

@@ -1,0 +1,13 @@
+A '''particle detector''' detects [[quantum particle]]s travelling through it.
+
+== Mechanism ==
+
+[[File:Compact Muon Solenoid detector.jpg|thumbnail|Cross-section of a compact muon solenoid detector]]
+
+Modern particle detectors are split into '''subdectors''', each designed to measure specific properties of certain types of particles.
+
+* '''Tracking devices''' determine the path of particles and thereby their momentum (e.g., a [[silicon tracking system]]);
+* '''Calorimeters''' measure the particles' energy (e.g., an [[electromagnetic calorimeter]]);
+* '''Particle identification detectors''' measure usually the particles' mass
+
+<ref>{{#cite:Q2531}}</ref>
