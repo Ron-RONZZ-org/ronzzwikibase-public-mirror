@@ -26,9 +26,9 @@
     },
     "Antiparticle": {
       "path": "Main/Antiparticle.wiki",
-      "revid": 11788,
-      "sha256": "39e13964db89aace336a61b1fc6bb86478ad71daba0554caa06bf8d274d1a7e6",
-      "synced_at": "2026-10-30T20:20:02+00:00"
+      "revid": 11844,
+      "sha256": "3e07fafd25428832903530a26e162741edaca581cd910b3ddd7b56c307bfae38",
+      "synced_at": "2026-10-31T09:35:24+00:00"
     },
     "Area moments of inertia": {
       "path": "Main/Area moments of inertia.wiki",
@@ -1721,6 +1721,12 @@
       "revid": 8710,
       "sha256": "7e61806c7549290d5e0d79a923bd8524dd1dc9ec9e9a6522750591e52aace98b",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Person:Enrico Fermi": {
+      "path": "Person/Enrico Fermi.wiki",
+      "revid": 11841,
+      "sha256": "b8b8bc3559742aff88d21a4b6c6afc80f4d7229da7d93e0579577a9fd67db684",
+      "synced_at": "2026-10-31T09:35:24+00:00"
     },
     "Person:Eric Schopler": {
       "path": "Person/Eric Schopler.wiki",
@@ -4489,6 +4495,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-30T22:08:36+00:00",
+  "updated": "2026-10-31T09:35:24+00:00",
   "version": 1
 }
