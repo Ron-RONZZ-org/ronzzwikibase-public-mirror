@@ -1394,9 +1394,9 @@
     },
     "Mechanics": {
       "path": "Main/Mechanics.wiki",
-      "revid": 7791,
-      "sha256": "fd0e27c564454dadd77a14369841c7dc8f093797d4eeae25136128a337528f98",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "revid": 11940,
+      "sha256": "556242921a16b94e86ecda092f330d5ed4bfa921baf595b49f14ed3306c3446a",
+      "synced_at": "2026-10-31T13:35:08+00:00"
     },
     "Mental disorder": {
       "path": "Main/Mental disorder.wiki",
@@ -2423,6 +2423,12 @@
       "revid": 7381,
       "sha256": "430b1dd521a2039c093c22d045d01f7a8481997978b0656ef4288d92fcfeb00e",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Quantum mechanics": {
+      "path": "Main/Quantum mechanics.wiki",
+      "revid": 11943,
+      "sha256": "dc795b0797f2c7143c03af656adc37fd73a3daf93cb8956356354fdb1c04718c",
+      "synced_at": "2026-10-31T13:35:08+00:00"
     },
     "Quark": {
       "path": "Main/Quark.wiki",
@@ -4476,6 +4482,12 @@
       "sha256": "316b59df00b9e96ce3815868fa2f0646019e2ba4c9146b13a0904d5b2273f31b",
       "synced_at": "2026-10-31T13:08:29+00:00"
     },
+    "Stern-Gerlach experiment": {
+      "path": "Main/Stern-Gerlach experiment.wiki",
+      "revid": 11945,
+      "sha256": "2e71ac046eafdb39341a00b3b8afa12dc7057b770de3edab4c4145dfc7ddb77c",
+      "synced_at": "2026-10-31T13:35:08+00:00"
+    },
     "Stream of consciousness": {
       "path": "Main/Stream of consciousness.wiki",
       "revid": 8731,
@@ -4549,6 +4561,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-31T13:08:29+00:00",
+  "updated": "2026-10-31T13:35:08+00:00",
   "version": 1
 }

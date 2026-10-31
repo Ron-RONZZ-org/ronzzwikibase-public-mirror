@@ -1,0 +1,12 @@
+[[Category:Proper name]]
+The '''Stern-Gerlach Experiment''' measured the [[z-spin]] of an [[electron]] by sending silver atoms through an inhomogeneous magnetic field, demonstrating the concept of [[space quantisation]].
+
+== Schema ==
+
+[[File:Stern-gerlach-experiment.svg|500px|center]]
+
+# furnace
+# beam of silver atoms
+# inhomogeneous magnetic field
+# expected result under [[classical mechanics]]: a continuous spectrum of different degrees of deflection depending on the orientation of the angular momentum of each electron
+# observed experimental result: uniform deflection suggesting an angular momentum in the $z$-direction of $\pm \ -5.27 \times 10^{-35} \mathrm{~kg} \mathrm{~m}^{2} \mathrm{~s}^{-1}$, magnitude equal to half of the [[Planck constant]] ($\hbar / 2$)

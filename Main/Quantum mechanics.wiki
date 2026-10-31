@@ -1,0 +1,3 @@
+'''Quantum mechanics''' is one framework to the study of [[mechanics]]. It provides a more accurate description of the behaviour of subatomic-scale particles than [[classical mechanics]].
+
+[[Stern-Gerlach experiment]]

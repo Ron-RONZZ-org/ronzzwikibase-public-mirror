@@ -7,4 +7,5 @@ Different models have been developed throughout history to explain phenomenons i
 At the time of writing, the most popular scientific frameworks of mechanics are:
 
 * [[Classical mechanics]], valid for everyday objects travelling at ordinary speed
-* [[Relativistic mechanism]], more accurate for very large objects (planets, stars, galaxies) and objects travelling at high speeds
+* [[Relativistic mechanics]], more accurate for very large objects (planets, stars, galaxies) and objects travelling at high speeds
+* [[Quantum mechanics]], valid for subatomic-scale particles
