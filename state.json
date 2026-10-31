@@ -1086,6 +1086,12 @@
       "sha256": "a7a824f6b838cce602df042f6cb11dd263088dcd8295b7622b7feb667e5464c5",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Feynman diagram": {
+      "path": "Main/Feynman diagram.wiki",
+      "revid": 12038,
+      "sha256": "1faab51be2913e24c7bc9d192820513f010193e8bbcc0d4a8f5699faeeb61c52",
+      "synced_at": "2026-10-31T18:35:36+00:00"
+    },
     "Field (mathematical concept)": {
       "path": "Main/Field (mathematical concept).wiki",
       "revid": 11304,
@@ -2268,6 +2274,12 @@
       "sha256": "22293e41f4331d1a46cbba76357d4eca2c7064b0bfcb4dda2f5186e05a2a4a92",
       "synced_at": "2026-10-25T15:26:48+00:00"
     },
+    "Person:Richard Feynman": {
+      "path": "Person/Richard Feynman.wiki",
+      "revid": 12033,
+      "sha256": "f4c20f167cfe9f910ad5e3621e8211f0bb9cc293ef4ea5650f9d2da76440cde2",
+      "synced_at": "2026-10-31T18:35:36+00:00"
+    },
     "Person:Richard Seroter": {
       "path": "Person/Richard Seroter.wiki",
       "revid": 6229,
@@ -2783,6 +2795,12 @@
       "revid": 11974,
       "sha256": "5fbcb227aaa765f49a70f52301863610125a08deb75385729be9300949110a6c",
       "synced_at": "2026-10-31T14:34:56+00:00"
+    },
+    "Source:11.6: The Standard Model (Webpage)": {
+      "path": "Source/11.6_ The Standard Model (Webpage).wiki",
+      "revid": 12043,
+      "sha256": "9a5ed1e489a39bb8b78c6e63122e7da91289002b860328453f6e2289df2a3bb0",
+      "synced_at": "2026-10-31T18:35:36+00:00"
     },
     "Source:17.5: Area Moments of Inertia via Integration (Webpage)": {
       "path": "Source/17.5_ Area Moments of Inertia via Integration (Webpage).wiki",
@@ -4657,6 +4675,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-31T18:20:24+00:00",
+  "updated": "2026-10-31T18:35:36+00:00",
   "version": 1
 }

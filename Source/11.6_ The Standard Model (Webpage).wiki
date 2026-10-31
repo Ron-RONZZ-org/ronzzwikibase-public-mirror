@@ -1,0 +1,5 @@
+{{Webpage}}
+
+== Overview ==
+
+The Standard Model describes interactions between particles through the strong nuclear, electromagnetic, and weak nuclear forces. Particle interactions are represented by Feynman diagrams. A Feynman …

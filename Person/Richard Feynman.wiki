@@ -1,0 +1,8 @@
+{{Person}}
+
+== Biography ==
+
+''from Wikipedia (CC BY-SA 4.0):''
+
+Richard Phillips Feynman was an American theoretical physicist. He shared the 1965 Nobel Prize in Physics with Julian Schwinger and Shin'ichirō Tomonaga "for their fundamental work in quantum electrodynamics (QED), with deep-ploughing consequences for the physics of elementary particles".
+He is also known for his work in the path integral formulation of quantum mechanics, the theory of the physics of the superfluidity of supercooled liquid helium, and the parton model. Feynman developed a pictorial representation scheme for the mathematical expressions describing the behavior of subatomic particles, which later became known as Feynman diagrams and remains widely used.
