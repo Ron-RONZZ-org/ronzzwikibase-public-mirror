@@ -1154,9 +1154,9 @@
     },
     "Fundamental interactions": {
       "path": "Main/Fundamental interactions.wiki",
-      "revid": 12083,
-      "sha256": "89c1dcbc2c03b0777f4251887e7f5d6657b800aab1fe6140eb63a62c7618f6ef",
-      "synced_at": "2026-10-31T20:09:04+00:00"
+      "revid": 12088,
+      "sha256": "8a263fbbbc852a33ea118c15989ce50cdc77448bbf09133b4f5a4e68704676f2",
+      "synced_at": "2026-10-31T20:49:44+00:00"
     },
     "Fundamental particle": {
       "path": "Main/Fundamental particle.wiki",
@@ -4699,6 +4699,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-10-31T20:09:04+00:00",
+  "updated": "2026-10-31T20:49:44+00:00",
   "version": 1
 }

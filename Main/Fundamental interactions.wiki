@@ -2,6 +2,7 @@ In [[physics]], '''fundamental interactions''', sometimes known as '''fundamenta
 
 == Four fundamental interactions ==
 
+[[File:Fundamental interactions.svg|thumbnail|400px]]
 As of 2025, scientists have identified four fundamental interactions:<ref>{{#cite:Q2489}}</ref>
 
 * [[Strong nuclear interaction]]
