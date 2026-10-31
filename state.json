@@ -26,9 +26,9 @@
     },
     "Antiparticle": {
       "path": "Main/Antiparticle.wiki",
-      "revid": 11844,
-      "sha256": "3e07fafd25428832903530a26e162741edaca581cd910b3ddd7b56c307bfae38",
-      "synced_at": "2026-10-31T09:35:24+00:00"
+      "revid": 11915,
+      "sha256": "d22b2bd235446ca607fb909af7b9e54bd8d5a79a53fbd9c5721ba59cb376375c",
+      "synced_at": "2026-10-31T12:12:49+00:00"
     },
     "Area moments of inertia": {
       "path": "Main/Area moments of inertia.wiki",
@@ -245,6 +245,12 @@
       "revid": 9182,
       "sha256": "0421bd3161450828afb2710254eff13db3912aacf717ce6e7e73a8dd932a3c59",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Cloud chamber": {
+      "path": "Main/Cloud chamber.wiki",
+      "revid": 11902,
+      "sha256": "ae35d2029bef612518cf7ee999da57028575a467c0dfe6fbff070e0b5d816dc9",
+      "synced_at": "2026-10-31T12:12:49+00:00"
     },
     "Coding function": {
       "path": "Main/Coding function.wiki",
@@ -2135,6 +2141,12 @@
       "revid": 1647,
       "sha256": "d3c99797d0c2e8b2e7d0a0b7920eb0a5c80a71bd1163f35dca9b7972afa2dad8",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Pauline Comini": {
+      "path": "Person/Pauline Comini.wiki",
+      "revid": 11908,
+      "sha256": "3ec5ecf622f3003559d2578512b629e7fcb55dfc9d6ab45cb393ce49b9699b7c",
+      "synced_at": "2026-10-31T12:12:49+00:00"
     },
     "Person:Peter G. Roll": {
       "path": "Person/Peter G. Roll.wiki",
@@ -4152,6 +4164,12 @@
       "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Study of the antihydrogen atom and ion formation in the collisions antiproton-positronium (Scholarly article)": {
+      "path": "Source/Study of the antihydrogen atom and ion formation in the collisions antiproton-positronium (Scholarly article).wiki",
+      "revid": 11914,
+      "sha256": "b92462e0234a8bfb11e23bded9845bd3f91045f1bca920eb2bf685902b43a2a1",
+      "synced_at": "2026-10-31T12:12:49+00:00"
+    },
     "Source:Superior and Inferior Limits of a Sequence - Algebrica (Webpage)": {
       "path": "Source/Superior and Inferior Limits of a Sequence - Algebrica (Webpage).wiki",
       "revid": 11618,
@@ -4519,6 +4537,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-31T10:49:32+00:00",
+  "updated": "2026-10-31T12:12:49+00:00",
   "version": 1
 }

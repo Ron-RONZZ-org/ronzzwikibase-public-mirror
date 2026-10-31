@@ -1,0 +1,7 @@
+{{ScholarlyArticle}}
+
+== Abstract ==
+
+''from OpenAlex:''
+
+Étude de la formation d'antihydrogène neutre et ionisé dans les collisions antiproton-positronium L’expérience GBAR propose de mesurer, au CERN, l’accélération de la pesanteur terrestre sur l’antimatière grâce à des atomes froids (neV) d’antihydrogène soumis à une chute libre. Ceux-ci sont obtenus en refroidissant d’abord des ions positifs d’antihydrogène, obtenus grâce à deux réactions consécutives se produisant lors de la collision d’un faisceau d’antiprotons avec un nuage dense de positronium.Le travail de thèse porte sur l'étude de ces réactions dans le but d’optimiser la production des ions d’antihydrogène. Pour cela, les sections efficaces des deux réactions ont été calculées dans le cadre d’un modèle de théorie des perturbations (Continuum Distorted Wave – Final State) pour des antiprotons ayant une énergie comprise entre 0 et 30 keV; différents états excités du positronium ont été examinés. Ces sections efficaces ont ensuite été intégrées à une simulation de la zone d’interaction entre positronium et antiprotons afin de définir les paramètres expérimentaux optimaux pour GBAR. Les résultats suggèrent d’utiliser les états 2P, 3D ou, dans une moindre mesure, 1S du positronium, respectivement pour des antiprotons de 2, moins de 1 ou 6 keV. L’importance de compresser les impulsions temporelles d’antiprotons est soulignée; le positronium devra être confiné dans un tube de 20 mm de long pour 1 mm de diamètre.Un laser en impulsion à 410 nm permettant d’exciter la transition …

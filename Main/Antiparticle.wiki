@@ -1,5 +1,17 @@
 Every particle in nature has a corresponding '''antiparticle'''.<ref>{{#cite:Q2489}}</ref>
 
+== History ==
+
+The existence of antiparticles was first predicted in 1928, by [[Person:Paul Dirac|Paul Dirac]]'s relativistic version of the [[Schrödinger equation]] applied on electron motion. The equation, now known as the [[Dirac equation]], allowed for solutions describing a particle with the exact same mass of an electron, but of a positive charge and negative energy.
+
+[[File:Cloud chamber positron electron scatter.png|thumbnail|A photo of a cloud chamber showing positrons and electrons deflecting in opposite directions.]]
+
+The existence of this electron of positive charge, now know as a [[positron]], was experimentally confirmed by [[Person:Carl David Anderson|Carl David Anderson]] in 1932, when he observed in a [[cloud chamber]] certain particles part of a [[cosmic-ray air shower]] leaving droplet tracks similar to electrons, but with opposite deflections under a strong [[magnetic field]].
+
+In 1955, Emilio Segré and Owen Chamberlain first observed anti-protons $\overline p$ while conducting high-energy proton collision experiments, and over subsequent years an increasing number of antiparticles were progressively observed, primarily in [[cosmic-ray air shower]]s and particle-accelerators.
+
+<ref>{{#cite:Q2516}}</ref>
+
 == Properties ==
 
 Compared to its associated particle, an antiparticle has
