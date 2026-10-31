@@ -1,0 +1,7 @@
+{{Person}}
+
+== Biography ==
+
+''from Wikipedia (CC BY-SA 4.0):''
+
+Paul Adrien Maurice Dirac was an English theoretical physicist who is considered to be one of the founders of quantum mechanics. Dirac laid the foundations for both quantum electrodynamics and quantum field theory, coining the former term. He was Lucasian Professor of Mathematics at the University of Cambridge from 1932 to 1969, and a professor of physics at Florida State University from 1970 to 1984. Dirac shared the 1933 Nobel Prize in Physics with Erwin Schrödinger "for the discovery of new productive forms of atomic theory."

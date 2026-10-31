@@ -2106,6 +2106,12 @@
       "sha256": "1ebd5eee8c8ded087fb2eec8226f20b4c7e156ecb3fee99669406d94f880a8fd",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:Paul Dirac": {
+      "path": "Person/Paul Dirac.wiki",
+      "revid": 11888,
+      "sha256": "92bf6971be69236e536ee798e9b953273ba4c3dba4a37e647af0bca579e02f66",
+      "synced_at": "2026-10-31T10:35:11+00:00"
+    },
     "Person:Paul Hewitt": {
       "path": "Person/Paul Hewitt.wiki",
       "revid": 7771,
@@ -4501,6 +4507,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-31T10:19:25+00:00",
+  "updated": "2026-10-31T10:35:11+00:00",
   "version": 1
 }
