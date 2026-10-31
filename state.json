@@ -1088,9 +1088,9 @@
     },
     "Feynman diagram": {
       "path": "Main/Feynman diagram.wiki",
-      "revid": 12038,
-      "sha256": "1faab51be2913e24c7bc9d192820513f010193e8bbcc0d4a8f5699faeeb61c52",
-      "synced_at": "2026-10-31T18:35:36+00:00"
+      "revid": 12044,
+      "sha256": "53d2badaa062818ab111a35966b0c82723fff3f91415ce7c1f10136cafd7510b",
+      "synced_at": "2026-10-31T18:49:44+00:00"
     },
     "Field (mathematical concept)": {
       "path": "Main/Field (mathematical concept).wiki",
@@ -1148,9 +1148,9 @@
     },
     "Fundamental interactions": {
       "path": "Main/Fundamental interactions.wiki",
-      "revid": 12025,
-      "sha256": "ee3a1c96baaff91c6edbfe521b47f3281553393d94ee0ee983f5f1eb4d593b13",
-      "synced_at": "2026-10-31T18:10:52+00:00"
+      "revid": 12046,
+      "sha256": "789dab289d714e385943392d7defd8b23b02bb75661554d7232b71384d1ca745",
+      "synced_at": "2026-10-31T18:49:44+00:00"
     },
     "Fundamental particle": {
       "path": "Main/Fundamental particle.wiki",
@@ -4675,6 +4675,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-31T18:35:36+00:00",
+  "updated": "2026-10-31T18:49:44+00:00",
   "version": 1
 }

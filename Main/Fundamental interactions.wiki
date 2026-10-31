@@ -8,3 +8,7 @@ As of 2025, scientists have identified four fundamental interactions:<ref>{{#cit
 * [[Electromagnetic interaction]]
 * [[Weak nuclear interaction]]
 * [[Gravitational interaction]]
+
+== Mechanism ==
+
+According to the [[standard model of particle physics]], fundamental interactions happen via the exchange of '''[[boson]]s''', also known as '''carrier particles'''.<ref>{{#cite:Q2545}}</ref>
