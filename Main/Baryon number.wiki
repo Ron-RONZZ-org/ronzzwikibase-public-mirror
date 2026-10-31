@@ -1,0 +1,20 @@
+The '''baryon number''', denoted by $\mathrm{B}$, is a [[conserved property]] in [[quantum particle interaction]]s.<ref>{{#cite:Q2527}}</ref>
+
+== Assignment ==
+
+{| class="wikitable"
+|-
+! Particle
+! Baryon number
+|-
+| [[Baryon]]
+| $+1$
+|-
+| [[Antibaryon]]
+| $-1$
+|-
+| All else
+| $0$
+|}
+
+<ref>{{#cite:Q2527}}</ref>

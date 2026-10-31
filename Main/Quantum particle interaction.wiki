@@ -1,0 +1,1 @@
+'''Quantum particle interaction''' is the interaction between two or more [[quantum particle]]s.
