@@ -1,5 +1,9 @@
 '''Quantum particle interaction''' is the interaction between two or more [[quantum particle]]s.
 
+== Experimental study ==
+
+Many quantum particles have short life span on the scale of nanoseconds or less, and can only be produced in extremely high-energy processes. Therefore, scientists rely often on [[particle accelerator]]s and [[colliding beam machine]]s to create different quantum particles and study their interactions and decay.<ref>{{#cite:Q2531}}</ref>
+
 == Conservation ==
 
 The following properties are conserved:
