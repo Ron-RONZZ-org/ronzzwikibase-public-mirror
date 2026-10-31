@@ -812,9 +812,9 @@
     },
     "Colliding beam machine": {
       "path": "Main/Colliding beam machine.wiki",
-      "revid": 11993,
-      "sha256": "38ef3994f157598f5845cf70e30c722192217f4d81499442375b5efa04ddeee0",
-      "synced_at": "2026-10-31T15:19:38+00:00"
+      "revid": 11997,
+      "sha256": "2a263291f72a68f378af926c94d380e690b1ced707c1f09674c6eb3e18df7fbf",
+      "synced_at": "2026-10-31T15:35:08+00:00"
     },
     "Complex number": {
       "path": "Main/Complex number.wiki",
@@ -2480,9 +2480,9 @@
     },
     "Quantum particle interaction": {
       "path": "Main/Quantum particle interaction.wiki",
-      "revid": 11964,
-      "sha256": "2ec58ac1ae73dbf9b1844cca0580accbcd35ff741e1ff3b04bfaa2fadf252903",
-      "synced_at": "2026-10-31T14:08:39+00:00"
+      "revid": 11995,
+      "sha256": "51c4bf98fa4926bbfa2a72d936f7020900bb59610e624b51fc035fc19a0e95b8",
+      "synced_at": "2026-10-31T15:35:08+00:00"
     },
     "Quark": {
       "path": "Main/Quark.wiki",
@@ -4633,6 +4633,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-31T15:19:38+00:00",
+  "updated": "2026-10-31T15:35:08+00:00",
   "version": 1
 }

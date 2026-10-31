@@ -12,3 +12,28 @@ The following properties are conserved:
 ** $\sum \mathrm{S}$, the total [[strangeness]]
 
 <ref>{{#cite:Q2527}}</ref>
+
+== Description ==
+
+=== Centre-of-mass energy ===
+
+The '''centre-of-mass''' energy of a collision between two particles $W$ satisfies
+
+$$
+W^2 = 2[E_1E_2 + (p_1c)(p_2c)] + (m_1c^2)^2 + (m_2c^2)^2, \nonumber
+$$
+
+{| class="wikitable"
+|-
+! Notation
+! Quantity of the two particles
+|-
+| $E_1,E_2$
+| Total energies
+|-
+| $p_1,p_2$
+| Scalar magnitudes of momentum
+|-
+| $m_1,m_2$
+| Rest mass
+|}

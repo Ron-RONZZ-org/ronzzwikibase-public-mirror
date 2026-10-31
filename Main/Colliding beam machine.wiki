@@ -5,3 +5,19 @@ A '''colliding beam machine''' collide [[quantum particle]]s at high-speeds.
 
 [[File:Cornell_electron_storage_ring.jpg|thumbnail|The Cornell Electron Storage Ring accelerates electrons and positrons to 4.5–6 GeV via a linear accelerator and a synchrotron, hold them in the outer storage ring at that energy, then collide them in a particle detector]]
 Most colliding beam machines accelerate particles via [[particle accelerator]]s to create two counter-rotating beams of '''collision candidate particles''', then focus them onto one another at the center of a [[particle detector]] at the desired moment.<ref>{{#cite:Q2531}}</ref>
+
+== Capacity ==
+
+The [[quantum particle interaction#Centre-of-mass_energy|centre-of-mass energy]] of the collisions produced in a colliding beam machine $W$ is directly proportional to the beam energy $E_{beam}$.
+
+In general,
+
+$$
+W\approx \frac{E_{beam}}{2}
+$$
+
+<ref>{{#cite:Q2531}}</ref>
+
+<blockquote>
+Particles must be accelerated to higher speeds to produce higher beam energies, which requires larger [[particle accelerator]]s. Modern colliding beam machines can be quite large: e.g., the [[Large Hadron Collider (LHC)]], capable of producing beam energies in excess of $6\mathrm{TeV}$ and currently the largest in the world, is 27-kilometers long. In the 1940s, Italian-American physicist [[Person:Enrico Fermi|Enrico Fermi]] even envisioned a colliding beam machine encircling the earth!
+</blockquote>
