@@ -1650,6 +1650,18 @@
       "sha256": "d3c99797d0c2e8b2e7d0a0b7920eb0a5c80a71bd1163f35dca9b7972afa2dad8",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Carl Anderson": {
+      "path": "Person/Carl Anderson.wiki",
+      "revid": 11896,
+      "sha256": "06337414899b61d2ff769aa3377feda7b07f25d20f3b6c6edc468e4704755a47",
+      "synced_at": "2026-10-31T10:49:32+00:00"
+    },
+    "Person:Carl David Anderson": {
+      "path": "Person/Carl David Anderson.wiki",
+      "revid": 11895,
+      "sha256": "b84ea2133ba64c5cf1d90710ae3a8af535dad9cd02cf487cae1531cf402d1e73",
+      "synced_at": "2026-10-31T10:49:32+00:00"
+    },
     "Person:Carl Runge": {
       "path": "Person/Carl Runge.wiki",
       "revid": 7323,
@@ -4507,6 +4519,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-31T10:35:11+00:00",
+  "updated": "2026-10-31T10:49:32+00:00",
   "version": 1
 }

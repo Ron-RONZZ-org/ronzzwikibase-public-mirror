@@ -1,0 +1,7 @@
+{{Person}}
+
+== Biography ==
+
+''from Wikipedia (CC BY-SA 4.0):''
+
+Carl David Anderson was an American experimental physicist who shared the 1936 Nobel Prize in Physics with Victor Hess for his discovery of the positron, which confirmed the existence of antimatter.
