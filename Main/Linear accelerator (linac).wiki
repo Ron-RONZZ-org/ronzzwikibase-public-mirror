@@ -4,4 +4,4 @@
 
 == Capacity ==
 
-Linear accelerators can accelerate electrons up to $100 \mathrm{MeV}$.
+Linear accelerators can accelerate electrons up to $100 \mathrm{MeV}$.<ref>{{#cite:Q2531}}</ref>

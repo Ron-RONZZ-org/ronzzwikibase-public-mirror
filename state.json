@@ -810,6 +810,12 @@
       "sha256": "43a74030b6fa6a69d27f3b2a57297d15a8359067af4cdee430be6c067f2440e6",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Colliding beam machine": {
+      "path": "Main/Colliding beam machine.wiki",
+      "revid": 11993,
+      "sha256": "38ef3994f157598f5845cf70e30c722192217f4d81499442375b5efa04ddeee0",
+      "synced_at": "2026-10-31T15:19:38+00:00"
+    },
     "Complex number": {
       "path": "Main/Complex number.wiki",
       "revid": 11420,
@@ -1340,9 +1346,9 @@
     },
     "Linear accelerator (linac)": {
       "path": "Main/Linear accelerator (linac).wiki",
-      "revid": 11985,
-      "sha256": "47775722ec0db61d7a7391df51cffb927701b6d2e3577edd7490eab0baee2249",
-      "synced_at": "2026-10-31T15:08:39+00:00"
+      "revid": 11994,
+      "sha256": "4e949700dcc1e1ba94573b7daa177843c68800a75eadb1defebca30b17ff068a",
+      "synced_at": "2026-10-31T15:19:38+00:00"
     },
     "Linear differential equation": {
       "path": "Main/Linear differential equation.wiki",
@@ -1562,9 +1568,9 @@
     },
     "Particle accelerator": {
       "path": "Main/Particle accelerator.wiki",
-      "revid": 11982,
-      "sha256": "5e9dad1d7b14f52c53225f8ac5752b05fef03edbc73a9393be628a9f0846289e",
-      "synced_at": "2026-10-31T15:08:39+00:00"
+      "revid": 11992,
+      "sha256": "11b4c78e95ebcc38e544dfbdb8562309ced006191691e80e8f462c1816835a5b",
+      "synced_at": "2026-10-31T15:19:38+00:00"
     },
     "Periodic table": {
       "path": "Main/Periodic table.wiki",
@@ -4627,6 +4633,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-31T15:08:39+00:00",
+  "updated": "2026-10-31T15:19:38+00:00",
   "version": 1
 }
