@@ -954,6 +954,12 @@
       "sha256": "a6ff39f52f30e3ff0d3ff0cfcba480ba1b32b5653f7a3730faa3805d06283c9b",
       "synced_at": "2026-10-31T16:19:54+00:00"
     },
+    "Electromagnetic interaction": {
+      "path": "Main/Electromagnetic interaction.wiki",
+      "revid": 12053,
+      "sha256": "bd54f07cccecb0add0a9dd0c2335c5321fd59f7b38d24cb356cd7b2c76e2657b",
+      "synced_at": "2026-10-31T19:07:45+00:00"
+    },
     "Electrostatic equilibrium": {
       "path": "Main/Electrostatic equilibrium.wiki",
       "revid": 8654,
@@ -4673,8 +4679,14 @@
       "revid": 10989,
       "sha256": "248333ebd5f32fad3b1e67940eea8b45a9ab75c11439ef4485380a14965e5ee6",
       "synced_at": "2026-10-21T14:16:28+00:00"
+    },
+    "Weak nuclear interaction": {
+      "path": "Main/Weak nuclear interaction.wiki",
+      "revid": 12056,
+      "sha256": "c2e4e5de54c33206ed28b5f09810ccfe80d9c2d6fb799ad196987d483f35402f",
+      "synced_at": "2026-10-31T19:07:45+00:00"
     }
   },
-  "updated": "2026-10-31T18:49:44+00:00",
+  "updated": "2026-10-31T19:07:45+00:00",
   "version": 1
 }

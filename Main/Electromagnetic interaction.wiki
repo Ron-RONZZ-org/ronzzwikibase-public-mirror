@@ -1,0 +1,16 @@
+[[File:Feynman diagram electromagnetic interaction.jpg|thumbnail|[[Feynman diagram]] describing the electromagnetic interaction between two electrons]]
+The '''electromagnetic interaction''' is one of the four [[fundamental interactions]] between [[quantum particle]]s.
+
+== Properties ==
+
+{| class="wikitable"
+|-
+| Carrier particle
+| $\gamma$ ([[photon]]s)
+|-
+| Participants
+| All charged particles
+|-
+| Effective range
+| $\infty$
+|}

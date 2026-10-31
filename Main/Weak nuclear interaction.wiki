@@ -1,0 +1,43 @@
+The '''weak nuclear interaction''' is one of the four [[fundamental interactions]] between [[quantum particle]]s.
+
+== Properties ==
+
+{| class="wikitable"
+|-
+| Carrier particle
+| $W^+,W^-,Z^0$ [[boson]]s
+|-
+| Participants
+| Radioactive particles
+|-
+| Effective range
+| $10^{-18} \mathrm{m}$
+|}
+
+<ref>{{#cite:Q2545}}</ref>
+
+== Example interactions ==
+
+=== Neutron decay ===
+
+$$
+n \rightarrow p + e^- + \overline{\nu}_e
+$$
+<div class="center">
+{| class="wikitable"
+|-
+| $n$
+| [[Neutron]]
+|-
+| $p^+$
+| [[Proton]]
+|-
+| $e^-$
+| [[Electron]]
+|-
+| $\overline{\nu}_e$
+| Electron [[neutrino]]
+|}
+</div>
+
+<ref>{{#cite:Q2545}}</ref>
