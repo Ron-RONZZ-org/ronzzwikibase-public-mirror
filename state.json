@@ -4568,9 +4568,9 @@
     },
     "Standard model of particle physics": {
       "path": "Main/Standard model of particle physics.wiki",
-      "revid": 11935,
-      "sha256": "316b59df00b9e96ce3815868fa2f0646019e2ba4c9146b13a0904d5b2273f31b",
-      "synced_at": "2026-10-31T13:08:29+00:00"
+      "revid": 12027,
+      "sha256": "98b634b81338d918ea72c48debc83cb2b7c20e35b338f936cc8dc2f8c9dc38c6",
+      "synced_at": "2026-10-31T18:20:24+00:00"
     },
     "Stern-Gerlach experiment": {
       "path": "Main/Stern-Gerlach experiment.wiki",
@@ -4657,6 +4657,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-31T18:10:52+00:00",
+  "updated": "2026-10-31T18:20:24+00:00",
   "version": 1
 }

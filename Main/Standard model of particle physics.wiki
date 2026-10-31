@@ -2,12 +2,28 @@ The '''standard model of particle physics''' explains the hundreds of [[quantum 
 
 == Current model ==
 
-[[File:Reality stew.png|thumbnail]]
+[[File:Reality stew.png|thumbnail|A food-loving physicist's impression of the standard model]]
+
+=== Fundamental particles ===
 
 As of 2026, the current standard model of particle physics include 17 [[fundamental particle]]s and their corresponding [[antiparticle]]s confirmed to exist:
 
 * 6 [[lepton]]s and their antileptons,
 * 6 [[quark]]s and their antiquarks,
-* 5 [[boson]]s and their antibosons.
+* 5 [[boson]]s.
 
-All known matter particles are composites of quarks and leptons, and they interact by exchanging bosons.
+<blockquote>
+All fundamental particles have a corresponding antiparticle. The [[antiparticle]] of a boson is also a boson.
+</blockquote>
+
+=== Composition ===
+
+All known [[ordinary matter]] particles are composites of quarks and/or leptons.
+
+All known [[antimatter]] particles are composites of antiquarks and/or antileptons.
+
+[[Meson]]s are half matter and half antimatter.
+
+=== Interaction ===
+
+Matter and antimatter particles interact with each other via [[boson]]s. Interactions between all particles, fundamental or composite, can be described by four [[fundamental interactions]].
