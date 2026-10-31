@@ -1,0 +1,12 @@
+A '''hadron''' is a composite particle made up of [[quark]]s and/or [[antiquark]]s.
+
+Hadrons fall into two main categories:
+
+* '''[[Baryon]]s''' and '''[[Antibaryon]]s''', made up of three quarks/antiquarks.
+* '''[[Meson]]s and [[antimeson]]s''', made up of a quark and an antiquark.
+
+== Properties ==
+
+=== $Q=Ne$ (Integer charge) ===
+
+While quarks and antiquarks have fractional charges of $\pm\frac{2}{3}e$ or $\pm\frac{1}{3}e$, the charges of hadrons must be integer multiples of $e$.<ref>{{#cite:Q2498}}</ref>

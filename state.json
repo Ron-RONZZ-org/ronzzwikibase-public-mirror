@@ -1112,9 +1112,9 @@
     },
     "Fundamental particle": {
       "path": "Main/Fundamental particle.wiki",
-      "revid": 11881,
-      "sha256": "c7500b16357c86eec12926ad92c39b1da87071f1d738ab2efd3e4c345bfb2668",
-      "synced_at": "2026-10-31T10:19:25+00:00"
+      "revid": 11932,
+      "sha256": "4671fa55d3ba33f2656657691d1a344cb669e4e0fc5bb5c2c458af179a7d4c0e",
+      "synced_at": "2026-10-31T12:49:40+00:00"
     },
     "Fundamental theorem of algebra": {
       "path": "Main/Fundamental theorem of algebra.wiki",
@@ -1145,6 +1145,12 @@
       "revid": 11720,
       "sha256": "85bec85aa2173e729a5eea379d98fce411782b5a6df8916fc9f0540e699adfd4",
       "synced_at": "2026-10-29T19:36:43+00:00"
+    },
+    "Hadron": {
+      "path": "Main/Hadron.wiki",
+      "revid": 11933,
+      "sha256": "0affcbdb536836f5c8531cdc5aeeb87ff9a623bf21a2c63b93a2b2ceb5890adb",
+      "synced_at": "2026-10-31T12:49:40+00:00"
     },
     "Half line": {
       "path": "Main/Half line.wiki",
@@ -4543,6 +4549,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-31T12:35:52+00:00",
+  "updated": "2026-10-31T12:49:40+00:00",
   "version": 1
 }
