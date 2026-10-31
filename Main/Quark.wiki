@@ -2,7 +2,7 @@
 
 == Types ==
 
-In the current standard model of particle physics (2022), there are 6 pairs of quarks and anti-quarks:
+In the current [[standard model of particle physics]] (2022), there are 6 pairs of quarks and anti-quarks:
 
 {| class="wikitable"
 |+Quarks and Antiquarks

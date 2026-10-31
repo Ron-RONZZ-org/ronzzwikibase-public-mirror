@@ -4,9 +4,15 @@ In physics, a '''fundamental''' particle<ref>{{#cite:Q1942}}</ref>
 ** i.e., is not made of other particles
 * has no finite size other than its wavelength $\lambda$
 
+== History ==
+
+[[File:Are you a fundamental particle.png|thumbnail]]
+
+In the 19th century, scientists believed [[atom]]s to be fundamental particles.<ref>{{#cite:Q1793}}</ref> The name atom, from Greek ''ἄτομος'', literally means 'indivisible'. It was not until the beginning This belief was idely-held until [[quark]]s, whose existence was first hypothesised in the 1960s, were experimentally discovered in the 1970s.<ref>{{#cite:Q1942}}</ref>
+
 == Types ==
 
-According to the standard model of particle physics, there are three types of fundamental particles: '''[[Lepton]]s, [[quark]]s''', and '''[[boson]]s'''. Each type can be further roughly divided into three families, of which the first is normal matter, containing stable particles.
+According to the [[standard model of particle physics]], there are three types of fundamental particles: '''[[Lepton]]s, [[quark]]s''', and '''[[boson]]s'''. Each type can be further roughly divided into three families, of which the first is normal matter, containing stable particles.
 
 [[File:Fundamental particles.jpeg|500px|center]]
 

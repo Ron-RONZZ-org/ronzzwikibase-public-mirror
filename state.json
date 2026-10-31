@@ -1106,9 +1106,9 @@
     },
     "Fundamental particle": {
       "path": "Main/Fundamental particle.wiki",
-      "revid": 11774,
-      "sha256": "dab89b4c5dd1be2d965449100e5f7f03e4f8d51064e82e361bfa8d5c13e9f2ff",
-      "synced_at": "2026-10-30T19:49:50+00:00"
+      "revid": 11852,
+      "sha256": "7febbfd901f58b3185c9c0830d757edf49fe09e7f61980e45017f04579fdb8d7",
+      "synced_at": "2026-10-31T10:08:47+00:00"
     },
     "Fundamental theorem of algebra": {
       "path": "Main/Fundamental theorem of algebra.wiki",
@@ -2390,9 +2390,9 @@
     },
     "Quark": {
       "path": "Main/Quark.wiki",
-      "revid": 11799,
-      "sha256": "9e795a54b87d6c9f1bb16a86d6b8d920d754f0a165083a2938e29106cd602c81",
-      "synced_at": "2026-10-30T20:49:40+00:00"
+      "revid": 11851,
+      "sha256": "afd8a79deee673765d27afec44526728745de3d41636f8305862bcdcb5b33c4a",
+      "synced_at": "2026-10-31T10:08:47+00:00"
     },
     "Radian": {
       "path": "Main/Radian.wiki",
@@ -4495,6 +4495,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-31T09:49:57+00:00",
+  "updated": "2026-10-31T10:08:47+00:00",
   "version": 1
 }
