@@ -1142,9 +1142,9 @@
     },
     "Fundamental particle": {
       "path": "Main/Fundamental particle.wiki",
-      "revid": 11932,
-      "sha256": "4671fa55d3ba33f2656657691d1a344cb669e4e0fc5bb5c2c458af179a7d4c0e",
-      "synced_at": "2026-10-31T12:49:40+00:00"
+      "revid": 12023,
+      "sha256": "bedfcb3ac38931d0fe7649af5901931438744fed67571fc4a19f42f7045d0e8e",
+      "synced_at": "2026-10-31T17:49:25+00:00"
     },
     "Fundamental theorem of algebra": {
       "path": "Main/Fundamental theorem of algebra.wiki",
@@ -4651,6 +4651,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-31T16:35:43+00:00",
+  "updated": "2026-10-31T17:49:25+00:00",
   "version": 1
 }

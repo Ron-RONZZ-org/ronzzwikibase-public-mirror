@@ -12,9 +12,13 @@ In the 19th century, scientists believed [[atom]]s to be fundamental particles.<
 
 == Types ==
 
-According to the [[standard model of particle physics]], there are three types of fundamental particles: '''[[Lepton]]s''' and '''[[quark]]s''', which form '''[[matter]]''', and '''[[boson]]s''', which are carrier particles of the four [[fundamental forces]] through which the leptons and quarks interact with each other.
+According to the [[standard model of particle physics]], there are three types of fundamental particles: 
 
-Each fundamental particle also has a corresponding [[antiparticle]], forming [[antimatter]] and facilitating their interactions.
+* '''[[Lepton]]s'''
+* '''[[Quark]]s'''
+* '''[[Boson]]s'''
+
+Each fundamental particle has a corresponding [[antiparticle]].
 
 Each of the three types of fundamental particles can be further divided into roughly three families, of which the first is normal matter, containing stable particles.
 
