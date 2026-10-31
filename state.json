@@ -1332,6 +1332,12 @@
       "sha256": "cc41f1647931aea7ec7d27088fd1266235447233948ecb8df49c31ac838c3f52",
       "synced_at": "2026-10-20T13:53:22+00:00"
     },
+    "Linear accelerator (linac)": {
+      "path": "Main/Linear accelerator (linac).wiki",
+      "revid": 11975,
+      "sha256": "d3f007762510e90c2184721c894740d14a887a4c1c48c899bfad392f1be5e0e9",
+      "synced_at": "2026-10-31T14:34:56+00:00"
+    },
     "Linear differential equation": {
       "path": "Main/Linear differential equation.wiki",
       "revid": 9721,
@@ -2729,6 +2735,12 @@
       "revid": 11956,
       "sha256": "daa5e4e9cb29cf40b35888652198d1bafc5d9efab92dac3789e47b249a3bcf57",
       "synced_at": "2026-10-31T13:49:41+00:00"
+    },
+    "Source:11.5: Particle Accelerators and Detectors (Webpage)": {
+      "path": "Source/11.5_ Particle Accelerators and Detectors (Webpage).wiki",
+      "revid": 11974,
+      "sha256": "5fbcb227aaa765f49a70f52301863610125a08deb75385729be9300949110a6c",
+      "synced_at": "2026-10-31T14:34:56+00:00"
     },
     "Source:17.5: Area Moments of Inertia via Integration (Webpage)": {
       "path": "Source/17.5_ Area Moments of Inertia via Integration (Webpage).wiki",
@@ -4603,6 +4615,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-31T14:08:39+00:00",
+  "updated": "2026-10-31T14:34:56+00:00",
   "version": 1
 }

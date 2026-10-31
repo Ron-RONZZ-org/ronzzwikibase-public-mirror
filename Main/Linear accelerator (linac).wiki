@@ -1,0 +1,7 @@
+'''Linear accelerators''' are a type of [[partical accelerator]]s accelerating charged particles through a series of straight, hollow tubes in variable electromagnetic fields, usually at radio-frequency (RF) in modern versions.<ref>{{#cite:Q2531}}</ref>
+
+[[File:Linac.jpg|thumbnail|A good analogy of lina acceleration would be surfing. The "surfer particle" surfs over electromagnetic waves.]]
+
+== Capacity ==
+
+Linear accelerators can accelerate electrons up to $100 \mathrm{MeV}$.
