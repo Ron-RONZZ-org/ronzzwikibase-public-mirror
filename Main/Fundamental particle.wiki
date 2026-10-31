@@ -28,7 +28,7 @@ Quarks and leptons in family 2 and 3 are observed to decay into stable particles
 
 Various known fundamental particles are listed below:
 
-[[File:Fundamental-particles.jpg|500px|center]]
+[[File:Standard-model-of-elementary-particles.svg|500px|center]]
 
 <blockquote>
 Quarks and leptons are together known as '''fermions''', whereas bosons are also known as '''carrier particles'''.

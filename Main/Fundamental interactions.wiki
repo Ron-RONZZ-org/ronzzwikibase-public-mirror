@@ -9,6 +9,18 @@ As of 2025, scientists have identified four fundamental interactions:<ref>{{#cit
 * [[Weak nuclear interaction]]
 * [[Gravitational interaction]]
 
+== Unification theories ==
+
+[[File:Unification theories of fundamental interactions.jpg|thumbnail|Hypothesised grand unification of fundamental interactions at higher energies]]
+
+The [[Glashow–Weinberg–Salam (GWS) model]] developped in the 1960s unified the descriptions of electromagnetic and weak nuclear interactions into the electroweak interaction above the unification energy threshold of about $246 \mathrm{GeV}$.
+
+It is further hypothesised that all four fundamental interactions can be described in terms of one unified interaction at high energies.
+
+'''Grand unified theories (GUT)''' attempt to unify the description of electroweak interaction with the strong nuclear interaction, while '''theories of everything (TOE)''' attempt to unify all four fundamental interactions into one unified description.
+
+<ref>{{#cite:Q2545}}</ref>
+
 == Mechanism ==
 
 According to the [[standard model of particle physics]], fundamental interactions happen via the exchange of '''[[boson]]s''', also known as '''carrier particles'''.<ref>{{#cite:Q2545}}</ref>
