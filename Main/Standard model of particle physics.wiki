@@ -1,0 +1,13 @@
+The '''standard model of particle physics''' explains the hundreds of [[quantum particle]]s known to human and their various simple and complex interactions by less than 20 [[fundamental particle]]s.
+
+== Current model ==
+
+[[File:Reality stew.png|thumbnail]]
+
+As of 2026, the current standard model of particle physics include 17 [[fundamental particles]] and their corresponding [[antiparticle]]s confirmed to exist:
+
+* 6 [[lepton]]s and their antileptons,
+* 6 [[quark]]s and their antiquarks,
+* 5 [[boson]]s and their antibosons.
+
+All known matter particles are composites of quarks and leptons, and they interact by exchanging bosons.

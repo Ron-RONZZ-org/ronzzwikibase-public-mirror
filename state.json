@@ -1106,9 +1106,9 @@
     },
     "Fundamental particle": {
       "path": "Main/Fundamental particle.wiki",
-      "revid": 11852,
-      "sha256": "7febbfd901f58b3185c9c0830d757edf49fe09e7f61980e45017f04579fdb8d7",
-      "synced_at": "2026-10-31T10:08:47+00:00"
+      "revid": 11881,
+      "sha256": "c7500b16357c86eec12926ad92c39b1da87071f1d738ab2efd3e4c345bfb2668",
+      "synced_at": "2026-10-31T10:19:25+00:00"
     },
     "Fundamental theorem of algebra": {
       "path": "Main/Fundamental theorem of algebra.wiki",
@@ -4422,6 +4422,12 @@
       "sha256": "b2862cf9cfb50180e960fb7ed1f88d9e83ee28b7f9801355722c20eff71b9d88",
       "synced_at": "2026-10-29T11:36:24+00:00"
     },
+    "Standard model of particle physics": {
+      "path": "Main/Standard model of particle physics.wiki",
+      "revid": 11873,
+      "sha256": "f5fc3e8ec5b2e41879a9153a1ca7cba4cdb313525b9472573a9eb6bf58648ec8",
+      "synced_at": "2026-10-31T10:19:25+00:00"
+    },
     "Stream of consciousness": {
       "path": "Main/Stream of consciousness.wiki",
       "revid": 8731,
@@ -4495,6 +4501,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-31T10:08:47+00:00",
+  "updated": "2026-10-31T10:19:25+00:00",
   "version": 1
 }
