@@ -14,6 +14,14 @@ A typical atom has a radius of $30-300 pm$ at 95% probability of electron confin
 The size of an atom compared to a human is like the size of a human compared to the sun.<ref>{{#cite:Q1761}}</ref>
 </blockquote>
 
+== Etymology ==
+
+The English word atom comes from Greek ''ἄτομος (atomos)'', meaning indivisible.
+
+<blockquote>
+In Greek, ''ἄ'' is the negation prefix, similar to ''non-'' in English, and ''τομος'' means a cutting.
+</blockquote>
+
 == History ==
 
 [[File:Fire-air-water-earth.png|thumbnail]]
