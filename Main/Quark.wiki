@@ -2,6 +2,7 @@
 
 == Types ==
 
+[[File:Quarks and corks.png|thumbnail|A wine-loving particle physicist's impression of quarks ("quantic corks") ]]
 In the current [[standard model of particle physics]] (2022), there are 6 pairs of quarks and anti-quarks:
 
 {| class="wikitable"
@@ -21,6 +22,10 @@ In the current [[standard model of particle physics]] (2022), there are 6 pairs 
 |-
 | Top || $t$ || $\bar{t}$ || $1/2$ || $\pm\frac{2}{3}e$ || $\pm\frac{1}{3}$ || $0$ || $0$ || $0$ || $\pm1$ || $173$
 |}
+
+<blockquote>
+The most elusive quark, the top quark, was discovered in 1995, 20 years after its existence had been theorised.<ref>{{#cite:Q2498}}</ref>
+</blockquote>
 
 == Discovery ==
 

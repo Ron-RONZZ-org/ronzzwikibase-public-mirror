@@ -2420,9 +2420,9 @@
     },
     "Quark": {
       "path": "Main/Quark.wiki",
-      "revid": 11851,
-      "sha256": "afd8a79deee673765d27afec44526728745de3d41636f8305862bcdcb5b33c4a",
-      "synced_at": "2026-10-31T10:08:47+00:00"
+      "revid": 11920,
+      "sha256": "2f5d9034ac0eca08342f6780bcfcf09d7d6b1e50cd873290c23b0540b2f471ff",
+      "synced_at": "2026-10-31T12:24:53+00:00"
     },
     "Radian": {
       "path": "Main/Radian.wiki",
@@ -3281,6 +3281,12 @@
       "revid": 2455,
       "sha256": "b5e9ecaeedaac7b5d865a15bcb911c8780f90a338371bbc93dd3d42cb13f1f7e",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:Finnegans Wake (Book)": {
+      "path": "Source/Finnegans Wake (Book).wiki",
+      "revid": 11925,
+      "sha256": "0311d90e243f3be68c13d2082783458de88a2149eb53d4dd209d37db3d2db9bd",
+      "synced_at": "2026-10-31T12:24:53+00:00"
     },
     "Source:Fondation pour la memoire de l'esclavage (Website)": {
       "path": "Source/Fondation pour la memoire de l'esclavage (Website).wiki",
@@ -4537,6 +4543,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-31T12:12:49+00:00",
+  "updated": "2026-10-31T12:24:53+00:00",
   "version": 1
 }
