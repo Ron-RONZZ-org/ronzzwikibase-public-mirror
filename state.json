@@ -4472,9 +4472,9 @@
     },
     "Standard model of particle physics": {
       "path": "Main/Standard model of particle physics.wiki",
-      "revid": 11873,
-      "sha256": "f5fc3e8ec5b2e41879a9153a1ca7cba4cdb313525b9472573a9eb6bf58648ec8",
-      "synced_at": "2026-10-31T10:19:25+00:00"
+      "revid": 11935,
+      "sha256": "316b59df00b9e96ce3815868fa2f0646019e2ba4c9146b13a0904d5b2273f31b",
+      "synced_at": "2026-10-31T13:08:29+00:00"
     },
     "Stream of consciousness": {
       "path": "Main/Stream of consciousness.wiki",
@@ -4549,6 +4549,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-31T12:49:40+00:00",
+  "updated": "2026-10-31T13:08:29+00:00",
   "version": 1
 }

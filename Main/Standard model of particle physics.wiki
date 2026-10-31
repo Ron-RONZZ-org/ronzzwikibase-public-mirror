@@ -4,7 +4,7 @@ The '''standard model of particle physics''' explains the hundreds of [[quantum 
 
 [[File:Reality stew.png|thumbnail]]
 
-As of 2026, the current standard model of particle physics include 17 [[fundamental particles]] and their corresponding [[antiparticle]]s confirmed to exist:
+As of 2026, the current standard model of particle physics include 17 [[fundamental particle]]s and their corresponding [[antiparticle]]s confirmed to exist:
 
 * 6 [[lepton]]s and their antileptons,
 * 6 [[quark]]s and their antiquarks,
