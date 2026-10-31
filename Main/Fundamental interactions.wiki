@@ -1,0 +1,10 @@
+In [[physics]], '''fundamental interactions''', sometimes known as '''fundamental forces''', describe interactions between [[quantum particle]]s.<ref>{{#cite:Q2489}}</ref>
+
+== Four fundamental interactions ==
+
+As of 2025, scientists have identified four fundamental interactions:<ref>{{#cite:Q2489}}</ref>
+
+* [[Strong nuclear interaction]]
+* [[Electromagnetic interaction]]
+* [[Weak nuclear interaction]]
+* [[Gravitational interaction]]

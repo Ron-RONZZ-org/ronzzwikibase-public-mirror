@@ -1136,9 +1136,15 @@
     },
     "Fundamental forces": {
       "path": "Main/Fundamental forces.wiki",
-      "revid": 11798,
-      "sha256": "5c288a32dd3a6d48f221b64af215fe84dd81c9ed31499ba5bb4287e7ef409204",
-      "synced_at": "2026-10-30T20:49:40+00:00"
+      "revid": 12026,
+      "sha256": "bea5a3fa18f7f20aba3bfc68c6c76893c9d3bc41dae4bf10decdbbcb8e09a28f",
+      "synced_at": "2026-10-31T18:10:52+00:00"
+    },
+    "Fundamental interactions": {
+      "path": "Main/Fundamental interactions.wiki",
+      "revid": 12025,
+      "sha256": "ee3a1c96baaff91c6edbfe521b47f3281553393d94ee0ee983f5f1eb4d593b13",
+      "synced_at": "2026-10-31T18:10:52+00:00"
     },
     "Fundamental particle": {
       "path": "Main/Fundamental particle.wiki",
@@ -4651,6 +4657,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-31T17:49:25+00:00",
+  "updated": "2026-10-31T18:10:52+00:00",
   "version": 1
 }
