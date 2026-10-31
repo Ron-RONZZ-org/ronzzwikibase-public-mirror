@@ -21,3 +21,23 @@ $$
 <blockquote>
 Particles must be accelerated to higher speeds to produce higher beam energies, which requires larger [[particle accelerator]]s. Modern colliding beam machines can be quite large: e.g., the [[Large Hadron Collider (LHC)]], capable of producing beam energies in excess of $6\mathrm{TeV}$ and currently the largest in the world, is 27-kilometers long. In the 1940s, Italian-American physicist [[Person:Enrico Fermi|Enrico Fermi]] even envisioned a colliding beam machine encircling the earth!
 </blockquote>
+
+== Measurement ==
+
+Colliding beam machines include a [[particle detector]] to measure the momentum, energy, and mass of the particles produced by the collision of the beams.
+
+As energy is a [[conserved property]] over collision between quantum particles, the total energy of the product particles is equal to the [[colliding beam machine#Capacity|centre-of-mass energy]] of the collision:
+
+$$
+E_{total}=W
+$$
+
+In practice, however, the [[particle detector#Energy|total energy of all particles detected in the particle detector]]
+
+$$
+E_{\text{total detected}} \lt W
+$$
+
+as some particles (e.g., [[neutrino]]s), are difficult to detect.
+
+<ref>{{#cite:Q2531}}</ref>

@@ -812,9 +812,9 @@
     },
     "Colliding beam machine": {
       "path": "Main/Colliding beam machine.wiki",
-      "revid": 11997,
-      "sha256": "2a263291f72a68f378af926c94d380e690b1ced707c1f09674c6eb3e18df7fbf",
-      "synced_at": "2026-10-31T15:35:08+00:00"
+      "revid": 12021,
+      "sha256": "6768476ebfdd87fd2e08dc882a135e75023538e741228c6afcee743c991b9a3a",
+      "synced_at": "2026-10-31T16:35:43+00:00"
     },
     "Complex number": {
       "path": "Main/Complex number.wiki",
@@ -1580,9 +1580,9 @@
     },
     "Particle detector": {
       "path": "Main/Particle detector.wiki",
-      "revid": 12002,
-      "sha256": "de74bd0584406d5c6f9a9528f982ed93af68be802f344a683d70ce414b0c5742",
-      "synced_at": "2026-10-31T15:49:39+00:00"
+      "revid": 12022,
+      "sha256": "fe77d77791705f3dd38481a63a428532bfb10850bba50f18a8821059124d4e20",
+      "synced_at": "2026-10-31T16:35:43+00:00"
     },
     "Periodic table": {
       "path": "Main/Periodic table.wiki",
@@ -4651,6 +4651,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-31T16:19:54+00:00",
+  "updated": "2026-10-31T16:35:43+00:00",
   "version": 1
 }

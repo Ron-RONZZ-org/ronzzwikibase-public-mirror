@@ -1,4 +1,4 @@
-A '''particle detector''' detects [[quantum particle]]s travelling through it.
+A '''particle detector''' detects [[quantum particle]]s travelling through it.<ref>{{#cite:Q2531}}</ref>
 
 == Mechanism ==
 
@@ -9,5 +9,15 @@ Modern particle detectors are split into '''subdectors''', each designed to meas
 * '''Tracking devices''' determine the path of particles and thereby their momentum (e.g., a [[silicon tracking system]]);
 * '''Calorimeters''' measure the particles' energy (e.g., an [[electromagnetic calorimeter]]);
 * '''Particle identification detectors''' measure usually the particles' mass
+
+<ref>{{#cite:Q2531}}</ref>
+
+== Energy ==
+
+The total energy of all particles (P) detected in a particle detector
+
+$$
+E_{\text{total detected}} = \sum_{i \in P} E_i = \sum_{i \in P} \sqrt{(p_ic)^2 + (m_ic^2)^2}
+$$
 
 <ref>{{#cite:Q2531}}</ref>
