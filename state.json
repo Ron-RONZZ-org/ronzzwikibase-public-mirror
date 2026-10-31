@@ -948,6 +948,12 @@
       "sha256": "48003f8a23dc44219667e76a8eb865089c5680159afc1927d890606fcd9d3e0f",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Electromagnetic calorimeter": {
+      "path": "Main/Electromagnetic calorimeter.wiki",
+      "revid": 12016,
+      "sha256": "a6ff39f52f30e3ff0d3ff0cfcba480ba1b32b5653f7a3730faa3805d06283c9b",
+      "synced_at": "2026-10-31T16:19:54+00:00"
+    },
     "Electrostatic equilibrium": {
       "path": "Main/Electrostatic equilibrium.wiki",
       "revid": 8654,
@@ -4645,6 +4651,6 @@
       "synced_at": "2026-10-21T14:16:28+00:00"
     }
   },
-  "updated": "2026-10-31T16:09:35+00:00",
+  "updated": "2026-10-31T16:19:54+00:00",
   "version": 1
 }

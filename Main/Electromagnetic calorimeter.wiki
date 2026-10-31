@@ -1,0 +1,11 @@
+The '''electromagnetic calorimeter''' is a common subdetector found in modern [[particle detector]]s. It measures the energy of particles.
+
+== Mechanism ==
+
+[[File:Crystal calorimeter particle shower.jpg|thumbnail|(a) A particle shower produced in a crystal calorimeter (b) A diagram showing a typical sequence of reactions in a particle shower]]
+
+Electromagnetic calorimeters are often made of clear, lead-based crystals.
+
+When electrons interact with the crystals, they radiate high-energy photons. The photons interact with the crystal to produce electron-positron pairs, which themselves interact with the crystal and radiate more photons. The process repeats, producing a '''particle shower'''. (the crystal “glows”).
+
+As the number of particles increase with each radiation event, the energy per particle decreases, eventually dropping below threshold values, at which point the particle shower stops. The total energy of the incoming particle is hence absorbed and converted into electrical signals.
