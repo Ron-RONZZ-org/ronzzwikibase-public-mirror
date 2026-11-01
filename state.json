@@ -1292,9 +1292,9 @@
     },
     "Hubble-Lemaître law": {
       "path": "Main/Hubble-Lemaître law.wiki",
-      "revid": 12163,
-      "sha256": "e212399993cbe75fd927778a0bfa5fb847593e05c15d452992587865a6b5cc5e",
-      "synced_at": "2026-11-01T12:13:17+00:00"
+      "revid": 12230,
+      "sha256": "d5d23ec45735f957df0c8d7e96d8bda22d8be6a8f76a8b7bbc3dd19af7dbca36",
+      "synced_at": "2026-11-01T18:35:35+00:00"
     },
     "Hubble-Lemaître's law": {
       "path": "Main/Hubble-Lemaître's law.wiki",
@@ -4778,9 +4778,9 @@
     },
     "The Cosmological Principle": {
       "path": "Main/The Cosmological Principle.wiki",
-      "revid": 12179,
-      "sha256": "af4732343438c9c97d9577083f0670044de819737992d1ca2e8c644be76fff07",
-      "synced_at": "2026-11-01T15:08:23+00:00"
+      "revid": 12226,
+      "sha256": "d5fd086e561db8ed6c978a6322d403377589d7a52925f466924bcc2ffe3bf990",
+      "synced_at": "2026-11-01T18:35:35+00:00"
     },
     "Transformer": {
       "path": "Main/Transformer.wiki",
@@ -4843,6 +4843,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-01T18:20:24+00:00",
+  "updated": "2026-11-01T18:35:35+00:00",
   "version": 1
 }

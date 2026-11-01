@@ -1,3 +1,4 @@
+[[File:Smoothing radius.png|thumbnail|The spatial homogeneity and isotropy assumptions on large scales does not exclude local density variations (e.g., galaxies). As illustrated in this 2D vector field analogy, something can be homogeneous and isotropic given a large smoothing radius (observation scale) even if extensive local variations exist.]]
 '''The Cosmological Principle''', which extends the [[Copernican principle]], is an assumption in the [[standard cosmology model]].
 
-It maintains that the [[Universe]] is spatially homogeneous and isotropic.<ref>{{#cite:Q2568}}</ref>
+It maintains that the [[Universe]] is spatially homogeneous and isotropic on large scales.<ref>{{#cite:Q2568}}</ref>
