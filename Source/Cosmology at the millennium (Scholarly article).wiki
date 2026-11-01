@@ -1,0 +1,7 @@
+{{ScholarlyArticle}}
+
+== Abstract ==
+
+''from OpenAlex:''
+
+One hundred years ago we did not know how stars generate energy, the age of the Universe was thought to be only millions of years, and our Milky Way galaxy was the only galaxy known. Today, we know that we live in an evolving and expanding universe comprising billions of galaxies, all held together by dark matter. With the hot big-bang model we can trace the evolution of the Universe from the hot soup of quarks and leptons that existed a fraction of a second after the beginning, to the formation of galaxies a few billion years later, and finally to the Universe we see today 13 billion years after the big bang, with its clusters of galaxies, superclusters, voids, and great walls. The attractive force of gravity acting on tiny primeval inhomogeneities in the distribution of matter gave rise to all the structure seen today. A paradigm based upon deep connections between cosmology and elementary particle physics---inflation+cold dark matter---holds the promise of extending our understanding to an even more fundamental level and much earlier times, as well as shedding light on the unification of the forces and particles of Nature. As we enter the 21st century, a flood of observations is testing this paradigm.

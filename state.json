@@ -594,6 +594,12 @@
       "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Michael S. Turner and J. Anthony Tyson": {
+      "path": "Collective/Michael S. Turner and J. Anthony Tyson.wiki",
+      "revid": 12157,
+      "sha256": "dca9cd5225f40c59441f3f21fded4dcdce049028e8c673af5f2fcab9b542c906",
+      "synced_at": "2026-11-01T12:13:17+00:00"
+    },
     "Collective:Microsoft": {
       "path": "Collective/Microsoft.wiki",
       "revid": 6245,
@@ -1256,9 +1262,9 @@
     },
     "Hubble-Lemaître law": {
       "path": "Main/Hubble-Lemaître law.wiki",
-      "revid": 12130,
-      "sha256": "7854a528d4dfa7c35c3f6cd9d57e6d2c11af4bd88557756c34b69fcd9408b925",
-      "synced_at": "2026-11-01T11:20:05+00:00"
+      "revid": 12163,
+      "sha256": "e212399993cbe75fd927778a0bfa5fb847593e05c15d452992587865a6b5cc5e",
+      "synced_at": "2026-11-01T12:13:17+00:00"
     },
     "Hubble-Lemaître's law": {
       "path": "Main/Hubble-Lemaître's law.wiki",
@@ -3348,6 +3354,12 @@
       "sha256": "22e5e2e03adeabbca0809c494acf66b36515ead1a0772d8a8b17240eb04c5fdb",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Cosmology at the millennium (Scholarly article)": {
+      "path": "Source/Cosmology at the millennium (Scholarly article).wiki",
+      "revid": 12162,
+      "sha256": "46d9200516b43e78aa532d49160098fbe63ca04c48806275eb5fb580dac9e6bf",
+      "synced_at": "2026-11-01T12:13:17+00:00"
+    },
     "Source:Cours de Cinématique(L1 SPI) (Document)": {
       "path": "Source/Cours de Cinématique(L1 SPI) (Document).wiki",
       "revid": 8248,
@@ -4777,6 +4789,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-01T11:35:36+00:00",
+  "updated": "2026-11-01T12:13:17+00:00",
   "version": 1
 }
