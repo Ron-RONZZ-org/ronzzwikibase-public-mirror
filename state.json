@@ -932,9 +932,9 @@
     },
     "Doppler effect": {
       "path": "Main/Doppler effect.wiki",
-      "revid": 12196,
-      "sha256": "27aba04e104817ff58e0b502b2f9323c5185df4e5b69099f54e6c5acf9eb49ae",
-      "synced_at": "2026-11-01T17:08:02+00:00"
+      "revid": 12202,
+      "sha256": "876ad9e4498732cb9a3112c6ae2a821d9493dc9f8513969fba43103cf2bc93de",
+      "synced_at": "2026-11-01T17:19:31+00:00"
     },
     "Dot product": {
       "path": "Main/Dot product.wiki",
@@ -4819,6 +4819,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-01T17:08:02+00:00",
+  "updated": "2026-11-01T17:19:31+00:00",
   "version": 1
 }

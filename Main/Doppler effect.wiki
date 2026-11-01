@@ -3,6 +3,7 @@ The '''Doppler effect''' describes the difference between original [[wavelength]
 
 == Formula ==
 
+[[File:Doppler-effect.svg|thumbnail]]
 {{#content:Q2581}}
 
 <ref>{{#cite:Q2580}}</ref>
