@@ -1356,6 +1356,12 @@
       "sha256": "5fa10ef6a6810136269a1c0bcbfb79c240705e8b926f7b82d241863de6dfaea6",
       "synced_at": "2026-10-31T14:08:39+00:00"
     },
+    "Light-year": {
+      "path": "Main/Light-year.wiki",
+      "revid": 12107,
+      "sha256": "dd8470239aa0bb7b5f7aaaa2490dd7f93ecb0da29388072e9ef47e605d23e21c",
+      "synced_at": "2026-11-01T10:08:54+00:00"
+    },
     "Limit (mathematical concept)": {
       "path": "Main/Limit (mathematical concept).wiki",
       "revid": 11717,
@@ -1592,9 +1598,9 @@
     },
     "Parsec": {
       "path": "Main/Parsec.wiki",
-      "revid": 12099,
-      "sha256": "0ee4a30036a303d4fa3b51bdca6d69e31a9d063304b82b688873fa99475182fe",
-      "synced_at": "2026-11-01T09:49:23+00:00"
+      "revid": 12106,
+      "sha256": "51cc9778d2fa4949157052be9095bb6431225cbc923b3bf4066916b52463cd46",
+      "synced_at": "2026-11-01T10:08:54+00:00"
     },
     "Partial derivative": {
       "path": "Main/Partial derivative.wiki",
@@ -2861,6 +2867,12 @@
       "revid": 10892,
       "sha256": "865b2013defb516669b9916b1f48d73b01ca1632f6338a8a5fec2781d5268136",
       "synced_at": "2026-10-21T10:32:44+00:00"
+    },
+    "Source:2.6.2.5: Light-Years (Webpage)": {
+      "path": "Source/2.6.2.5_ Light-Years (Webpage).wiki",
+      "revid": 12105,
+      "sha256": "acfbd9fb7b8337c8bd95b8369ff6af25a0cf005db3607009813f4ae109fe2a1e",
+      "synced_at": "2026-11-01T10:08:54+00:00"
     },
     "Source:2.6.2.6: Parsec Vs. Light-Year Measurement (Webpage)": {
       "path": "Source/2.6.2.6_ Parsec Vs. Light-Year Measurement (Webpage).wiki",
@@ -4717,6 +4729,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-01T09:49:23+00:00",
+  "updated": "2026-11-01T10:08:54+00:00",
   "version": 1
 }

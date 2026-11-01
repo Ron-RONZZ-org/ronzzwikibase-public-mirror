@@ -1,0 +1,13 @@
+'''Light-year (ly)''' is a unit of distance used in [[astronomy]].
+
+1 '''light-year''' is defined as the distance [[light]] travels in [[vacuum]] in 1 year.
+
+<ref>{{#cite:Q2560}}</ref>
+
+== Conversion ==
+
+$$
+1 \mathrm{ly}=9.46 \cdot 10^{12} \mathrm{km}
+$$
+
+<ref>{{#cite:Q2560}}</ref>
