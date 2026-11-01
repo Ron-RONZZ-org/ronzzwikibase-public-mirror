@@ -2130,6 +2130,12 @@
       "sha256": "271c88935d000e546970faf8425ec9ba15766ae2d754198adb901afbd70c07e2",
       "synced_at": "2026-10-25T18:16:09+00:00"
     },
+    "Person:Julien Lesgourgues": {
+      "path": "Person/Julien Lesgourgues.wiki",
+      "revid": 12184,
+      "sha256": "3c7404f559289df5de7b79079a810d21c6111045d63752ee41d67636e2d1c3ab",
+      "synced_at": "2026-11-01T16:19:56+00:00"
+    },
     "Person:Junio Hamano": {
       "path": "Person/Junio Hamano.wiki",
       "revid": 6434,
@@ -3197,6 +3203,12 @@
       "revid": 1657,
       "sha256": "582f432705b7c8a92d065b84f85315581a464a8521b68f4c3cd812e1cc899b4f",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:An overview of cosmology: Summer Student Lectures 2002-2004 (Book)": {
+      "path": "Source/An overview of cosmology_ Summer Student Lectures 2002-2004 (Book).wiki",
+      "revid": 12190,
+      "sha256": "0311d90e243f3be68c13d2082783458de88a2149eb53d4dd209d37db3d2db9bd",
+      "synced_at": "2026-11-01T16:19:56+00:00"
     },
     "Source:Arithmetic Sequence - Algebrica (Webpage)": {
       "path": "Source/Arithmetic Sequence - Algebrica (Webpage).wiki",
@@ -4801,6 +4813,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-01T15:08:23+00:00",
+  "updated": "2026-11-01T16:19:56+00:00",
   "version": 1
 }

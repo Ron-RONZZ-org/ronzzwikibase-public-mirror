@@ -1,0 +1,8 @@
+{{Person}}
+
+== Biography ==
+
+''from Wikipedia (CC BY-SA 4.0):''
+
+Julien Lesgourgues is a cosmologist and theoretical physicist. He is a professor in theoretical physics at the Institute for Theoretical Particle Physics and Cosmology (TTK) at RWTH Aachen University. He is known for his work on the cosmic microwave background (CMB), the large-scale structure (LSS) of the Universe and the properties of neutrinos. During his career, he has been part of the Planck and Euclid collaborations. He is the main author of CLASS
+(Cosmic Linear Anisotropy Solving System), one of the two currently most used Einstein-Boltzmann solvers, a type of software package used for computing CMB and LSS observables. He is currently a PI of a project funded by the European Research Council (ERC) dedicated to solving the Hubble tension of modern cosmology.
