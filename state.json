@@ -860,9 +860,9 @@
     },
     "Copernican principle": {
       "path": "Main/Copernican principle.wiki",
-      "revid": 12178,
-      "sha256": "4a4e4016f0a63f14ea86589bde96118f6a927bcfb2b94da1e81808c824c389a1",
-      "synced_at": "2026-11-01T15:08:23+00:00"
+      "revid": 12221,
+      "sha256": "8d0eb64aff92347ea2163486d37422da30fcb7a159256e160b4827dafb3426d1",
+      "synced_at": "2026-11-01T18:20:24+00:00"
     },
     "Cosmic microwave background": {
       "path": "Main/Cosmic microwave background.wiki",
@@ -4843,6 +4843,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-01T18:10:52+00:00",
+  "updated": "2026-11-01T18:20:24+00:00",
   "version": 1
 }
