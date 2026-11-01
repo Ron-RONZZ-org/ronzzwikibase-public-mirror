@@ -1,18 +1,1 @@
-[[File:Hubble s law.jpg|thumbnail|As can be seen, galaxies appear to move away from earth at a velocity roughly proportional to their distance from earth]]
-The '''Hubble-Lemaître's law''' states:
-
-# Galaxies appear to move away from earth,
-# The velocity of recession ($v$) is roughly proportional to distance ($d$) from earth, i.e.,
-
-$$
-v=H_0d
-$$
-where $H_0$ is the '''Hubble's constant'''. Its value varies with the rate of expansion of the universe over time. Today, $H_0 \approx 70 \mathrm{km\ s^{-1}\ Mpc^{-1}}$, where $\mathrm{Mpc}$ denotes megaparsec ( $10^6$ [[parsec]]).
-
-<ref>{{#cite:Q2563}}</ref>
-
-== History ==
-
-The Hubble-Lemaître's law was first predicted by Belgium astrophysicist and priest [[Person:Georges Lemaître|Georges Lemaître]] towards 1927 and experimentally verified by [[Person:Edwin Hubble|Edwin Hubble]] in 1929. The exact value of the '''Hubble constant($H_0$)''' has been subjected to much scientific debate ever since.
-
-<ref>{{#cite:Q2563}}</ref>
+#REDIRECT [[Hubble-Lemaître law]]

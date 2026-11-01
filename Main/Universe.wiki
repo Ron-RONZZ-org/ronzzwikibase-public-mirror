@@ -23,9 +23,7 @@ The early universe can be observed today via the [[cosmic microwave background]]
 
 === The universe is constanly expanding ===
 
-On the largest scales, the distances between galaxies grow with time, and the more distant two galaxies are, the faster they recedes from each other.<ref>{{#cite:Q1527}}</ref> 
-
-The rate of expansion of the universe is described by the [[Hubble-Lemaître]] law.<ref>{{#cite:Q1232}}</ref>
+On the largest scales, the distances between galaxies grow with time, and the more distant two galaxies are, the faster they recedes from each other.<ref>{{#cite:Q1527}}</ref>, as described by the [[Hubble-Lemaître law]].<ref>{{#cite:Q1232}}</ref>
 
 === The majority of matter and energy in the universe is invisible to us ===
 
@@ -37,7 +35,7 @@ According to the standard model, the universe today consists of:<ref>{{#cite:Q12
 
 === The universe is organised into large-scale structures ===
 
-Matter in our universe is far from spread uniformly: gravity has gathered it into galaxies, groups, and clusters, which in turn form superclusters, walls, and filaments. On the very largest scales these structures arrange themselves into the [[cosmic web]], a pattern of filaments and walls surrounding vast, nearly empty voids, formed as gravitational attraction draws matter into ever larger concentrations.<ref>{{#cite:Q1532}}</ref> 
+Matter in our universe is far from spread uniformly: gravity has gathered it into galaxies, groups, and clusters, which in turn form superclusters, walls, and filaments. On the very largest scales these structures arrange themselves into the [[cosmic web]], a pattern of filaments and walls surrounding vast, nearly empty voids, formed as gravitational attraction draws matter into ever larger concentrations.<ref>{{#cite:Q1532}}</ref>
 
 == References ==
 

@@ -1248,11 +1248,17 @@
       "sha256": "c23e9ec911fed87ec79a06455c8815f8a9ffa3be44468b0aab2cc15847e87ca7",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Hubble-Lemaître law": {
+      "path": "Main/Hubble-Lemaître law.wiki",
+      "revid": 12130,
+      "sha256": "7854a528d4dfa7c35c3f6cd9d57e6d2c11af4bd88557756c34b69fcd9408b925",
+      "synced_at": "2026-11-01T11:20:05+00:00"
+    },
     "Hubble-Lemaître's law": {
       "path": "Main/Hubble-Lemaître's law.wiki",
-      "revid": 12118,
-      "sha256": "79a7344edb6375475509a5d1283f66bbb81aaa735b340c63a0bf31540448ab39",
-      "synced_at": "2026-11-01T10:19:54+00:00"
+      "revid": 12131,
+      "sha256": "b04d8e072cd3253c96ba8ff94ade1a7fef7fc35483ec4d1fe2057ad7c0daaeac",
+      "synced_at": "2026-11-01T11:20:05+00:00"
     },
     "Humanities": {
       "path": "Main/Humanities.wiki",
@@ -4712,9 +4718,9 @@
     },
     "Universe": {
       "path": "Main/Universe.wiki",
-      "revid": 6854,
-      "sha256": "b43ca3bf82dfaab76664d390ef955425f19f797ac8be2e15e3b53f46dfa92060",
-      "synced_at": "2026-10-18T07:12:56+00:00"
+      "revid": 12128,
+      "sha256": "12bff1308dac4e11f8060710297ff676964ec418c1bd83eba8e61697e8589411",
+      "synced_at": "2026-11-01T11:20:05+00:00"
     },
     "Vector space": {
       "path": "Main/Vector space.wiki",
@@ -4741,6 +4747,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-01T10:19:54+00:00",
+  "updated": "2026-11-01T11:20:05+00:00",
   "version": 1
 }
