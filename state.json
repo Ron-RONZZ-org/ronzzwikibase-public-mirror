@@ -834,6 +834,12 @@
       "sha256": "1f9d7633a6d8d137e95116bf894f1a992da37c56a799fd584acffe61191f360c",
       "synced_at": "2026-10-31T13:49:41+00:00"
     },
+    "Copernican principle": {
+      "path": "Main/Copernican principle.wiki",
+      "revid": 12144,
+      "sha256": "094b9232fd43b0d8fb1781b075dffb98a250dc4037ead8f4092f67b8d9956d81",
+      "synced_at": "2026-11-01T11:35:36+00:00"
+    },
     "Cosmic microwave background": {
       "path": "Main/Cosmic microwave background.wiki",
       "revid": 7284,
@@ -2093,6 +2099,12 @@
       "revid": 7454,
       "sha256": "6060cda800e5ece12487e1d7eec770aa5e66258ea498a2925ce2e4682abae507",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Joshua Frieman": {
+      "path": "Person/Joshua Frieman.wiki",
+      "revid": 12137,
+      "sha256": "1fc7d5b891e1eb625f60b15593b4ca4573f66a0616e2770f8358a4862d8fd50f",
+      "synced_at": "2026-11-01T11:35:36+00:00"
     },
     "Person:Joshua Johnson": {
       "path": "Person/Joshua Johnson.wiki",
@@ -4416,6 +4428,12 @@
       "sha256": "35814b8b3ec7710d55e97b563c2dae8b9a9dfe004bb01f55028141c6c9ee8b77",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:The Standard Cosmology (Book)": {
+      "path": "Source/The Standard Cosmology (Book).wiki",
+      "revid": 12143,
+      "sha256": "d1aeecf043377dab7dea792919f99e4e70750689a5c3f9bc5b8788cea1905d45",
+      "synced_at": "2026-11-01T11:35:36+00:00"
+    },
     "Source:The latest on Git updates (Webpage)": {
       "path": "Source/The latest on Git updates (Webpage).wiki",
       "revid": 6476,
@@ -4644,6 +4662,12 @@
       "sha256": "b2862cf9cfb50180e960fb7ed1f88d9e83ee28b7f9801355722c20eff71b9d88",
       "synced_at": "2026-10-29T11:36:24+00:00"
     },
+    "Standard cosmology model": {
+      "path": "Main/Standard cosmology model.wiki",
+      "revid": 12150,
+      "sha256": "4f1c750c2b77095e03bacbf3779bf2feade8830c977206066065f965f98fe242",
+      "synced_at": "2026-11-01T11:35:36+00:00"
+    },
     "Standard model of particle physics": {
       "path": "Main/Standard model of particle physics.wiki",
       "revid": 12027,
@@ -4686,6 +4710,12 @@
       "sha256": "6800a71740e7ba417ddd9a6259ddec7218b075f08e19aa479cf1e1d63499abee",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "The Cosmological Principle": {
+      "path": "Main/The Cosmological Principle.wiki",
+      "revid": 12151,
+      "sha256": "7afd425e969b0279489e4ecafbfebd117074d1e55de2146d449647e41d12af3c",
+      "synced_at": "2026-11-01T11:35:36+00:00"
+    },
     "Transformer": {
       "path": "Main/Transformer.wiki",
       "revid": 1493,
@@ -4718,9 +4748,9 @@
     },
     "Universe": {
       "path": "Main/Universe.wiki",
-      "revid": 12128,
-      "sha256": "12bff1308dac4e11f8060710297ff676964ec418c1bd83eba8e61697e8589411",
-      "synced_at": "2026-11-01T11:20:05+00:00"
+      "revid": 12147,
+      "sha256": "c5e3c5671b662d4cdedb5397cfd98feeb98c9c5199d7883b2ac68175ce6e3566",
+      "synced_at": "2026-11-01T11:35:36+00:00"
     },
     "Vector space": {
       "path": "Main/Vector space.wiki",
@@ -4747,6 +4777,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-01T11:20:05+00:00",
+  "updated": "2026-11-01T11:35:36+00:00",
   "version": 1
 }

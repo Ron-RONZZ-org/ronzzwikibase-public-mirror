@@ -1,0 +1,7 @@
+{{Person}}
+
+== Biography ==
+
+''from Wikipedia (CC BY-SA 4.0):''
+
+Joshua A. Frieman is a theoretical astrophysicist who lives and works in the United States. He is Associate Lab Director of the Fundamental Physics Directorate at SLAC, formerly a senior scientist at Fermilab, and a professor of astronomy and astrophysics at the University of Chicago. Frieman is known for his work studying dark energy and cosmology, and he co-founded the Dark Energy Survey experiment. He was elected a member of the National Academy of Sciences in 2022.
