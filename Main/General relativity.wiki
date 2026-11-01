@@ -1,0 +1,9 @@
+'''General relativity''' is a [[scientific model]] of gravitation.
+
+It
+
+* abandons conceptually the Newtonian idea of a gravitational potential related to distribution of mass,
+* maintains that [[spacetime]] itself is curved by the presence of [[matter]],
+* imposes that free-falling objects describe [[geodesic]]s in [[spacetime]].
+
+<ref>{{#cite:Q2580}}</ref>

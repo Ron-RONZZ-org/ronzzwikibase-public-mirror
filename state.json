@@ -1212,6 +1212,12 @@
       "sha256": "13935779acd3d1f3f7958ad0e0ed0e41d261216a8d239e413ccdc00a1b2ee6a6",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "General relativity": {
+      "path": "Main/General relativity.wiki",
+      "revid": 12259,
+      "sha256": "a03e842fc1127de9fed54142d6a8e4dc86652419e80cd3c96684d2093f30a1b0",
+      "synced_at": "2026-11-01T19:19:48+00:00"
+    },
     "Geometric sequence": {
       "path": "Main/Geometric sequence.wiki",
       "revid": 11611,
@@ -4849,6 +4855,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-01T18:50:10+00:00",
+  "updated": "2026-11-01T19:19:48+00:00",
   "version": 1
 }
