@@ -1,0 +1,5 @@
+In [[physics]], '''luminosity''', denoted by $L$, is the amount of [[energy]] emitted by a radiating object (e.g., a [[star]]) per unit time.
+
+== Unit ==
+
+Luminosity is often measured in [[Watt ($W$)|watts ($W$)]] or [[Solar luminosity ($L_\odot$)|solar luminosities ($L_\odot$)]].

@@ -1,0 +1,23 @@
+'''Redshift''', often denoted by $z$, describes the shift in wavelength of light emitted by [[celestial object]]s when observed from elsewhere because of [[cosmic expansion]].<ref>{{#cite:Q2580}}</ref>
+
+== Non-relativistic description  ==
+
+The non-relativistic standard [[Doppler effect]] description is valid for galaxies adequately close to each other to ignore spacetime geometry ($z \ll 1$):
+
+$$
+z\equiv \frac{\Delta \lambda}{\lambda}=\frac{v_r}{c}
+$$
+
+where $v_r$ is the relative speed of separation (negative in case of approach) between the observer and the light source.
+
+<ref>{{#cite:Q2580}}</ref>
+
+== Relativistic description ==
+
+For [[comoving]] source and observer,
+
+$$
+z=\frac{a(t_2)}{a(t_1)}-1,
+$$
+
+where $t_1,t_2$ are the time of emission and reception of the light signal respectively, and $a(t)$ designates the [[cosmological scale factor]]s at those times.

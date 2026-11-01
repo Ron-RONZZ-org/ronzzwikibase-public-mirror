@@ -1470,6 +1470,12 @@
       "sha256": "f521f5086677b07738c910dbc295eee702d4f00c1dd4cfcbee309023f389d17f",
       "synced_at": "2026-10-25T19:21:48+00:00"
     },
+    "Luminosity": {
+      "path": "Main/Luminosity.wiki",
+      "revid": 12205,
+      "sha256": "a6e3a6d72b06dfeabc6b5911128b31c15c5246cc48e379a1132b335986773b10",
+      "synced_at": "2026-11-01T17:35:05+00:00"
+    },
     "Main Page": {
       "path": "Main/Main Page.wiki",
       "revid": 10591,
@@ -2639,6 +2645,12 @@
       "revid": 10331,
       "sha256": "cf40638d1fa53ade063d26ec9ed183b91e3bffe19931e8d242e4784bf5600104",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Redshift": {
+      "path": "Main/Redshift.wiki",
+      "revid": 12203,
+      "sha256": "e12e1e861f4c4804af89dd42b69ea907dabf3d5a8c03d90627c9628222855a9c",
+      "synced_at": "2026-11-01T17:35:05+00:00"
     },
     "Right-handed coordinate system": {
       "path": "Main/Right-handed coordinate system.wiki",
@@ -4819,6 +4831,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-01T17:19:31+00:00",
+  "updated": "2026-11-01T17:35:05+00:00",
   "version": 1
 }
