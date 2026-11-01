@@ -3,3 +3,7 @@ The '''standard cosmology model''' is a scientific model of the [[Universe]].
 == Assumptions ==
 
 * [[The Cosmological Principle]]
+
+== Large scale geometry ==
+
+* [[Friedmann-Lemaître-Robertson-Walker Metric (FLRW)]]

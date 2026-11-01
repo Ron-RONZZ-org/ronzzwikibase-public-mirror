@@ -848,9 +848,9 @@
     },
     "Copernican principle": {
       "path": "Main/Copernican principle.wiki",
-      "revid": 12144,
-      "sha256": "094b9232fd43b0d8fb1781b075dffb98a250dc4037ead8f4092f67b8d9956d81",
-      "synced_at": "2026-11-01T11:35:36+00:00"
+      "revid": 12178,
+      "sha256": "4a4e4016f0a63f14ea86589bde96118f6a927bcfb2b94da1e81808c824c389a1",
+      "synced_at": "2026-11-01T15:08:23+00:00"
     },
     "Cosmic microwave background": {
       "path": "Main/Cosmic microwave background.wiki",
@@ -1148,9 +1148,9 @@
     },
     "Friedmann-Lemaître-Robertson-Walker Metric (FLRW)": {
       "path": "Main/Friedmann-Lemaître-Robertson-Walker Metric (FLRW).wiki",
-      "revid": 12171,
-      "sha256": "2f08c4f033a4a198fe8aca83b46426ed587c3df9025fb2f428717c0acfdcfa78",
-      "synced_at": "2026-11-01T14:08:43+00:00"
+      "revid": 12176,
+      "sha256": "a2af22b4c9035c5b8a3b158f36a4692f221fbc7339e2d42019731f7f947e7bed",
+      "synced_at": "2026-11-01T15:08:23+00:00"
     },
     "Fréchet derivative": {
       "path": "Main/Fréchet derivative.wiki",
@@ -4688,9 +4688,9 @@
     },
     "Standard cosmology model": {
       "path": "Main/Standard cosmology model.wiki",
-      "revid": 12150,
-      "sha256": "4f1c750c2b77095e03bacbf3779bf2feade8830c977206066065f965f98fe242",
-      "synced_at": "2026-11-01T11:35:36+00:00"
+      "revid": 12177,
+      "sha256": "c4fa0910745470f760b0989b9eea0ae468d4da060b6a703cc4be3971ee9fe4f9",
+      "synced_at": "2026-11-01T15:08:23+00:00"
     },
     "Standard model of particle physics": {
       "path": "Main/Standard model of particle physics.wiki",
@@ -4736,9 +4736,9 @@
     },
     "The Cosmological Principle": {
       "path": "Main/The Cosmological Principle.wiki",
-      "revid": 12151,
-      "sha256": "7afd425e969b0279489e4ecafbfebd117074d1e55de2146d449647e41d12af3c",
-      "synced_at": "2026-11-01T11:35:36+00:00"
+      "revid": 12179,
+      "sha256": "af4732343438c9c97d9577083f0670044de819737992d1ca2e8c644be76fff07",
+      "synced_at": "2026-11-01T15:08:23+00:00"
     },
     "Transformer": {
       "path": "Main/Transformer.wiki",
@@ -4801,6 +4801,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-01T14:08:43+00:00",
+  "updated": "2026-11-01T15:08:23+00:00",
   "version": 1
 }

@@ -1,3 +1,4 @@
+[[Category:Proper name]]
 The '''Friedmann-Lemaître-Robertson-Walker Metric (FLRW)''' is a [[metric space#Formal_definition|metric function]] describing the average [[spacetime]] geometry of a homogeneous, isotropic, expanding universe conforming to [[the Cosmological Principle]].
 
 {{#content:Q2576}}
