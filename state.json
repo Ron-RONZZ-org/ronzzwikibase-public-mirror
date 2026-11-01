@@ -36,6 +36,12 @@
       "sha256": "d22b2bd235446ca607fb909af7b9e54bd8d5a79a53fbd9c5721ba59cb376375c",
       "synced_at": "2026-10-31T12:12:49+00:00"
     },
+    "Apparent brightness": {
+      "path": "Main/Apparent brightness.wiki",
+      "revid": 12209,
+      "sha256": "cd61a7e651653c882fc0c0fed86d9442c1b10f38144eeb6a5ffc038517d127de",
+      "synced_at": "2026-11-01T17:49:18+00:00"
+    },
     "Area moments of inertia": {
       "path": "Main/Area moments of inertia.wiki",
       "revid": 10668,
@@ -4831,6 +4837,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-01T17:35:05+00:00",
+  "updated": "2026-11-01T17:49:18+00:00",
   "version": 1
 }

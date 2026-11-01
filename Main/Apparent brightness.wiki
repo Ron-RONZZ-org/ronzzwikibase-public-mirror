@@ -1,0 +1,5 @@
+In [[physics]], the '''apparent brightness''', also called '''observed flux''', denoted by $F_\mathrm{obs}$, is the amount of radiation [[energy]] per unit area and per unit time that reaches an observer.
+
+== Classic description ==
+
+{{#content:Q2586}}
