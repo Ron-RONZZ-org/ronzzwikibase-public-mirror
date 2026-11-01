@@ -1,0 +1,11 @@
+The '''Doppler effect''' describes the difference between original [[wavelength]] and observed [[wavelength]] by an observer in relative motion according to the wave source.
+
+== Formula ==
+
+{{#content:Q2581}}
+
+<ref>{{#cite:Q2580}}</ref>
+
+== Examples ==
+
+* [[Redshift]]
