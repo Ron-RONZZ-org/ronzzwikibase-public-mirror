@@ -1,0 +1,21 @@
+[[Category:Proper name]]
+The '''Hubble radius ($R_H$)''' denotes the scale around which [[classical mechanics]] ceases to be valid.
+
+At any given instance in time,
+$$
+R_H=cH^{-1}
+$$
+
+where $H$ is the [[Hubble parameter]] at that time.
+
+== Intuition ==
+
+Relativistic effects become relevant when relative speed between objects $|v| \to c$.
+
+At $R_H$, by [[Hubble-Lemaître law]],
+
+$$
+v=HR_H=c.
+$$
+
+Therefore, at scale near the Hubble radius, even stationary objects can no longer be modelled with [[classical mechanics]] because of [[cosmic expansion]].

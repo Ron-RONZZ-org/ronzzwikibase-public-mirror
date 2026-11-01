@@ -1,13 +1,7 @@
-[[File:Hubble s law.jpg|thumbnail|As can be seen, galaxies appear to move away from earth at a velocity roughly proportional to their distance from earth]]
-The '''Hubble-Lemaître law''' states:
+[[Category:Proper name]]
+<big>Big text</big>[[File:Hubble s law.jpg|thumbnail|As can be seen, galaxies appear to move away from earth at a velocity roughly proportional to their distance from earth]]
 
-# Galaxies appear to move away from earth,
-# The velocity of recession ($v$) is roughly proportional to distance ($d$) from earth, i.e.,
-
-$$
-v=Hd
-$$
-where $H$ is the '''[[Hubble parameter]]'''. Its value varies with the rate of expansion of the universe over time. Its value today $H_0 \approx 70 \mathrm{km\ s^{-1}\ Mpc^{-1}}$, where $\mathrm{Mpc}$ denotes megaparsec ( $10^6$ [[parsec]]).
+{{#content:Q2592}}
 
 The Hubble parameter can be calculated via the [[1st Friedmann equation]].
 
