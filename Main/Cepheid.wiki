@@ -1,0 +1,24 @@
+[[File:Cepheid-animation-1.gif|thumbnail]]
+'''Cepheids''' are stars whose [[luminosity|luminosities]] vary periodically over time.
+
+== Properties ==
+
+=== $T \propto L$ ===
+
+First demonstrated by Leavitt and Shapley in the 1920s, the pulsating [[period]] of a cepheid is generally proportional to its [[luminosity]].<ref>{{#cite:Q2580}}</ref>
+
+== Significance ==
+
+As $T \propto L$, the [[luminosity]] ($L$) of a Cepheid can be estimated by observing its pulsating [[period]]. Hence, by additionally measuring its [[apparent brightness]] ($F_\mathrm{obs}$) as observed from earth and using the formula
+
+{{#content:Q2586}}
+
+its distance to earth $d$ can be estimated.
+
+Using this technique, [[Person:Edwin Hubble|Edwin Hubble]] was able to estimate the distance to [[Andromeda]] from earth to be about $9 \cdot 10^{5} \mathrm{ly}$ baed on observations made via the $2.50 \mathrm{m}$ [[Mount Wilson telescope]], providing a hint to the vastness of the [[Universe]] to humanity.
+
+<ref>{{#cite:Q2580}}</ref>
+
+<blockquote>
+The modern accepted distance from earth to Andromeda is about $2\cdot 10^{6}\mathrm{ly}$.<ref>{{#cite:Q2580}}</ref>
+</blockquote>
