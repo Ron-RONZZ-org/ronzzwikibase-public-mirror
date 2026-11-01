@@ -1590,6 +1590,12 @@
       "sha256": "1383179e4158029f8d6674a3d99c4b2493a155a99024291c0b1518cf0f0fb805",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Parsec": {
+      "path": "Main/Parsec.wiki",
+      "revid": 12099,
+      "sha256": "0ee4a30036a303d4fa3b51bdca6d69e31a9d063304b82b688873fa99475182fe",
+      "synced_at": "2026-11-01T09:49:23+00:00"
+    },
     "Partial derivative": {
       "path": "Main/Partial derivative.wiki",
       "revid": 11715,
@@ -2129,6 +2135,12 @@
       "revid": 6430,
       "sha256": "e72bc8c2e0a078922c1117d4cab620a772824d8373483acee43f6bba8d09a6f9",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Machele Kindle": {
+      "path": "Person/Machele Kindle.wiki",
+      "revid": 12093,
+      "sha256": "2a57d5dd60a10d421663e4e14ad73612a5aaf3ba23bab89917e1e75ef7ea30b7",
+      "synced_at": "2026-11-01T09:49:23+00:00"
     },
     "Person:Main": {
       "path": "Person/Main.wiki",
@@ -2849,6 +2861,12 @@
       "revid": 10892,
       "sha256": "865b2013defb516669b9916b1f48d73b01ca1632f6338a8a5fec2781d5268136",
       "synced_at": "2026-10-21T10:32:44+00:00"
+    },
+    "Source:2.6.2.6: Parsec Vs. Light-Year Measurement (Webpage)": {
+      "path": "Source/2.6.2.6_ Parsec Vs. Light-Year Measurement (Webpage).wiki",
+      "revid": 12098,
+      "sha256": "8ee046a175a6f7f058b0ed3315b497bfdee03aeabf79a5fe819ade5964a4f7e4",
+      "synced_at": "2026-11-01T09:49:23+00:00"
     },
     "Source:2.7: The Periodic Table (Webpage)": {
       "path": "Source/2.7_ The Periodic Table (Webpage).wiki",
@@ -4699,6 +4717,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-10-31T20:49:44+00:00",
+  "updated": "2026-11-01T09:49:23+00:00",
   "version": 1
 }

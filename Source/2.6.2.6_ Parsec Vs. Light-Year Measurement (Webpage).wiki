@@ -1,0 +1,5 @@
+{{Webpage}}
+
+== Overview ==
+
+This page explains the parsec (pc) as a distance measurement in astronomy, defined by a parallax angle of 1 arcsecond, equating to roughly 3.261 light years or 1.9174 trillion miles. The term derives …

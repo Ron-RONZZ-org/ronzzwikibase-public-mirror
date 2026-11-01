@@ -1,0 +1,13 @@
+'''Parsec''' is a unit of distance used in [[astronomy]].
+
+1 '''parsec''' is defined as the distance to an object with a '''par'''allax angle of 1 arc'''sec'''ond.
+
+<ref>{{#cite:Q2558}}</ref>
+
+== Conversion ==
+
+$$
+1 \mathrm{parsec}=3.261 \mathrm{ly}
+$$
+
+<ref>{{#cite:Q2558}}</ref>
