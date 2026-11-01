@@ -1146,6 +1146,12 @@
       "sha256": "d6b9c9c69a96ae860a808e862812ab3328aeca453f723202a5c54be9ccae9b5c",
       "synced_at": "2026-10-19T12:24:06+00:00"
     },
+    "Friedmann-Lemaître-Robertson-Walker Metric (FLRW)": {
+      "path": "Main/Friedmann-Lemaître-Robertson-Walker Metric (FLRW).wiki",
+      "revid": 12171,
+      "sha256": "2f08c4f033a4a198fe8aca83b46426ed587c3df9025fb2f428717c0acfdcfa78",
+      "synced_at": "2026-11-01T14:08:43+00:00"
+    },
     "Fréchet derivative": {
       "path": "Main/Fréchet derivative.wiki",
       "revid": 11718,
@@ -4795,6 +4801,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-01T12:49:28+00:00",
+  "updated": "2026-11-01T14:08:43+00:00",
   "version": 1
 }
