@@ -1248,6 +1248,12 @@
       "sha256": "c23e9ec911fed87ec79a06455c8815f8a9ffa3be44468b0aab2cc15847e87ca7",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Hubble-Lemaître's law": {
+      "path": "Main/Hubble-Lemaître's law.wiki",
+      "revid": 12118,
+      "sha256": "79a7344edb6375475509a5d1283f66bbb81aaa735b340c63a0bf31540448ab39",
+      "synced_at": "2026-11-01T10:19:54+00:00"
+    },
     "Humanities": {
       "path": "Main/Humanities.wiki",
       "revid": 8089,
@@ -2831,6 +2837,12 @@
       "revid": 12043,
       "sha256": "9a5ed1e489a39bb8b78c6e63122e7da91289002b860328453f6e2289df2a3bb0",
       "synced_at": "2026-10-31T18:35:36+00:00"
+    },
+    "Source:11.7: The Big Bang (Webpage)": {
+      "path": "Source/11.7_ The Big Bang (Webpage).wiki",
+      "revid": 12117,
+      "sha256": "fd98e8d96ee4725910d4c487b2d6746aa7c9ae676d65acb2f36c610467908602",
+      "synced_at": "2026-11-01T10:19:54+00:00"
     },
     "Source:17.5: Area Moments of Inertia via Integration (Webpage)": {
       "path": "Source/17.5_ Area Moments of Inertia via Integration (Webpage).wiki",
@@ -4729,6 +4741,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-01T10:08:54+00:00",
+  "updated": "2026-11-01T10:19:54+00:00",
   "version": 1
 }
