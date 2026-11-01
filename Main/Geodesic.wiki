@@ -1,0 +1,13 @@
+In [[general relativity]], '''geodesic''' is a trajectory of a free-falling object in curved [[spacetime]].
+
+== Properties ==
+
+=== $d(A,B)=[A,B]$ ===
+
+where $[A,B]$ is a segment of a '''geodesic''' between points $A,B$ in [[spacetime]] and $d$ is the [[metric space#Formal_definition|metric function]]. 
+
+<blockquote>
+Intuitively, this means that the shortest distance in [[spacetime]] between two points is the length of the geodesic segment between them.
+</blockquote>
+
+<ref>{{#cite:Q2580}}</ref>
