@@ -630,6 +630,12 @@
       "sha256": "072a09244b8f093a758868eedeca00f26dafe80a9b180d16ad641c5a145f68ea",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Myriam Saadé and Olivier Jolliet": {
+      "path": "Collective/Myriam Saadé and Olivier Jolliet.wiki",
+      "revid": 12391,
+      "sha256": "f41749e2136bf2d702e02da37f7016cba28b457f91857310752be0ec5f87b12a",
+      "synced_at": "2026-11-02T20:49:15+00:00"
+    },
     "Collective:National Aeronautics and Space Administration": {
       "path": "Collective/National Aeronautics and Space Administration.wiki",
       "revid": 6838,
@@ -4987,6 +4993,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-02T19:08:44+00:00",
+  "updated": "2026-11-02T20:49:15+00:00",
   "version": 1
 }
