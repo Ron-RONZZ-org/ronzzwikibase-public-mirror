@@ -1,0 +1,5 @@
+The '''total energy''' of an object is the sum of its [[rest energy]] and momentum energy.
+
+{{#content:Q2617}}
+
+<ref>{{#cite:Q2615}}</ref>

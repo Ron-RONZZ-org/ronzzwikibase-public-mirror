@@ -4872,6 +4872,12 @@
       "sha256": "eddb7dfaf30955627ff47f184b68c66294a4abdbc0fc525eee1de52403ae19e7",
       "synced_at": "2026-11-02T12:16:00+00:00"
     },
+    "Total energy": {
+      "path": "Main/Total energy.wiki",
+      "revid": 12333,
+      "sha256": "1bf3f5f82a9a1dadcd4272b8b73314cbdeacb01a3d0a29b649268ed9973916bb",
+      "synced_at": "2026-11-02T12:49:50+00:00"
+    },
     "Transformer": {
       "path": "Main/Transformer.wiki",
       "revid": 1493,
@@ -4933,6 +4939,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-02T12:36:46+00:00",
+  "updated": "2026-11-02T12:49:50+00:00",
   "version": 1
 }
