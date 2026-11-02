@@ -24,3 +24,8 @@ The '''1st Friedmann equation''' relates the rate of expansion of the [[Universe
 | Vacuum energy
 |}
 <ref>{{#cite:Q2580}}</ref>
+
+== Derived properties ==
+
+* [[Matter budget equation]]
+* [[Critical density of the Universe]]
