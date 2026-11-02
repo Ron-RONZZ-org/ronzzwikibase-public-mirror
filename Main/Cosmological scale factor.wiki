@@ -18,6 +18,7 @@ Intuitively, if at given times $t_1,t_2$, $a(t_1)=0.5,\, a(t_2)=0.25$, then the 
 
 === Matter-dominated expansion: $a(t) \propto t^\frac{2}{3}$ ===
 
+In this scenario, the universe expands at a decreasing rate.
 {{Hidden proof}}
 
 According to the [[1st Friedmann equation]] (1),
@@ -60,6 +61,8 @@ $$
 
 === Radiation-dominated expansion: $a(t) \propto t^\frac{1}{2}$ ===
 
+In this scenario, the universe expands at a decreasing rate, similar to in matter-dominated expansion.
+
 {{Hidden proof}}
 
 Proved similar to for [[cosmological scale factor#Matter-dominated_expansion:|matter-dominated expansion]].
@@ -67,6 +70,8 @@ Proved similar to for [[cosmological scale factor#Matter-dominated_expansion:|ma
 {{End hidden}}
 
 === Negative-curvature-dominated expansion ($k<0$: $a(t) \propto t$) ===
+
+In this scenario, the universe expands at a constant rate.
 
 {{Hidden proof}}
 Again consider the [[1st Friedmann equation]] and the [[matter budget equation]], similar to in proof for [[cosmological scale factor#Matter-dominated_expansion:|matter-dominated expansion]],
