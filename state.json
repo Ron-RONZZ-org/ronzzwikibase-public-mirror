@@ -890,9 +890,9 @@
     },
     "Cosmological fluid": {
       "path": "Main/Cosmological fluid.wiki",
-      "revid": 12370,
-      "sha256": "6b7d0993c0ee6895e9d09065f08afbf32dd1e13e92c921d2b88c59e846543556",
-      "synced_at": "2026-11-02T15:49:51+00:00"
+      "revid": 12385,
+      "sha256": "d4852bccb5a3a52afca03c3709fd474e7188a63c4fcf1d055b445d4397cf2a23",
+      "synced_at": "2026-11-02T18:49:56+00:00"
     },
     "Cosmological parameter": {
       "path": "Main/Cosmological parameter.wiki",
@@ -4987,6 +4987,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-02T18:35:41+00:00",
+  "updated": "2026-11-02T18:49:56+00:00",
   "version": 1
 }

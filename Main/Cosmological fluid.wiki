@@ -27,8 +27,8 @@ It applies [[the Cosmological Principle]] and describes the Universe on large sc
 |-
 | Vacuum energy
 | 
-| $p_V=-\rho$
-| $\rho_V=\text{constant}$
+| $p_\Lambda=-\rho_\Lambda$
+| $\rho_\Lambda=\text{constant}$
 |}
 
 Since each component is independent,
