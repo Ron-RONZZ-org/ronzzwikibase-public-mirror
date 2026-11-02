@@ -3360,6 +3360,12 @@
       "sha256": "0311d90e243f3be68c13d2082783458de88a2149eb53d4dd209d37db3d2db9bd",
       "synced_at": "2026-11-01T16:19:56+00:00"
     },
+    "Source:Analyse du cycle de vie: Comprendre et réaliser un écobilan (Book)": {
+      "path": "Source/Analyse du cycle de vie_ Comprendre et réaliser un écobilan (Book).wiki",
+      "revid": 12396,
+      "sha256": "0311d90e243f3be68c13d2082783458de88a2149eb53d4dd209d37db3d2db9bd",
+      "synced_at": "2026-11-02T21:09:13+00:00"
+    },
     "Source:Arithmetic Sequence - Algebrica (Webpage)": {
       "path": "Source/Arithmetic Sequence - Algebrica (Webpage).wiki",
       "revid": 11601,
@@ -4993,6 +4999,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-02T20:49:15+00:00",
+  "updated": "2026-11-02T21:09:13+00:00",
   "version": 1
 }
