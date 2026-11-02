@@ -900,6 +900,12 @@
       "sha256": "d1688d9ecf04dced1db2db63916853845a320378596f609384a112114eab1f0f",
       "synced_at": "2026-11-02T14:12:35+00:00"
     },
+    "Critical density of the Universe": {
+      "path": "Main/Critical density of the Universe.wiki",
+      "revid": 12363,
+      "sha256": "84343959720a6f2578fa3d0a2da1812d080cac5ff00bfb7fd995a786d35febcd",
+      "synced_at": "2026-11-02T15:22:39+00:00"
+    },
     "Cross product": {
       "path": "Main/Cross product.wiki",
       "revid": 11011,
@@ -4963,6 +4969,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-02T15:11:26+00:00",
+  "updated": "2026-11-02T15:22:39+00:00",
   "version": 1
 }

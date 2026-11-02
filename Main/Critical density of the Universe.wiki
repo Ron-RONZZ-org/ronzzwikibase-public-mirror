@@ -1,0 +1,30 @@
+In [[cosmology]], the '''critical density''' of the universe is the total [[cosmological fluid]] density $\rho_\text{total}$ corresponding to a spatially-flat [[Universe]] ([[spatial curvature parameter]] $k=0$) according to the [[1st Friedmann equation]].
+
+{{#content:Q2625}}
+
+{{Hidden proof}}
+
+The '''1st Friedmann equation''':
+
+{{#content:Q2574}}
+
+Substitute in the definition of the [[cosmological parameter]]
+
+{{#content:Q2623|noPreNote}}
+
+$$
+H^2 \equiv \left(\frac{\dot{a}}{a}\right)^2 = \frac{8\pi G}{3c^2}(\rho_M+\rho_R) - \frac{k c^2}{a^2} + \frac{8\pi G}{3c^2}\rho_\Lambda
+$$
+
+Let $k=0$ and manipuate algebraically, then
+
+{{#content:Q2625|noNote}}
+
+where
+
+$$
+\rho_c=rho_M+\rho_R+\rho_\Lambda
+$$
+
+as expected by the independence of the three species of the [[cosmological fluid]].
+{{End hidden}}
