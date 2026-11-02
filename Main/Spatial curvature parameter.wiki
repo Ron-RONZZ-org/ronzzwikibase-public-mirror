@@ -4,8 +4,27 @@ The '''spatial curvature parameter''', often denoted by $k$, models the spatial 
 
 Assuming [[the Cosmological Principle]], the [[Universe]] must be maximally symmetric, hence:
 
-* $k=0$, the Universe is '''spatially flat''' and modelled correctly by a 3D [[Euclidean space]];
-* $k<0$, the Universe can be modelled by a '''[[3-hyperboloid]]''';
-* $k>0$, the Universe can be modelled by a '''[[3-sphere]] with finite volume'''.
+{| class="wikitable center"
+|-
+! Spatial curvature parameter ($k$)
+! Shape of Universe
+! [[Spatial curvature radius]] ($R_c$)
+! Geometric model of space
+|-
+| $k=0$
+| '''Spatially flat'''
+| $R_c=\infty$
+| 3D [[Euclidean space]]
+|-
+| $k<0$
+| '''Open'''
+| $R_c>0$
+| 3-hyperboloid
+|-
+| $k>0$
+| '''Closed'''
+| $R_c>0$
+| 3-sphere with finite volume
+|}
 
 <ref>{{#cite:Q2580}}</ref>

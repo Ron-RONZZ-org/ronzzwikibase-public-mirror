@@ -15,13 +15,7 @@ In this coordinate system, the spatial coordinates of stationary objects are tim
 
 === [[metric space#Formal_definition|Metric function]] ===
 
-The proper distance $dl$ between two infinitesimally close objects with coordinates $(r,\theta,\phi)$ and $(r+dr,\theta+d\theta,\phi+d\phi)$ satisfies
-
-$$
-dl^2=a(t)^2\left[\frac{dr^2}{1-kr^2}+r^2\left(d\theta^2+\sin^2\theta\,d\phi^2\right)\right]
-$$
-
-where $a(t)$ is the [[cosmological scale factor]] at current [[cosmic time]] $t$ and $k$ is the [[spatial curvature parameter]].
+{{#content:Q2604}}
 
 ==== Special case: Spatially-flat Universe ==== 
 

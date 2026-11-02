@@ -842,9 +842,9 @@
     },
     "Comoving coordinates": {
       "path": "Main/Comoving coordinates.wiki",
-      "revid": 12270,
-      "sha256": "c2395a0851dfd6852926a29ebaa1ba0815611b3f7d4e07f8bf947b4c5bd8457c",
-      "synced_at": "2026-11-02T08:50:01+00:00"
+      "revid": 12282,
+      "sha256": "dea89f667d8345bd633ca215f928238e90b41e1ee79a904a73c6db713cd4e079",
+      "synced_at": "2026-11-02T09:27:07+00:00"
     },
     "Complex number": {
       "path": "Main/Complex number.wiki",
@@ -4748,15 +4748,15 @@
     },
     "Spatial curvature parameter": {
       "path": "Main/Spatial curvature parameter.wiki",
-      "revid": 12274,
-      "sha256": "fb263ca61d1f89f552e70355a30a620301a7a149a291771bb1faeaba68abc770",
-      "synced_at": "2026-11-02T09:14:06+00:00"
+      "revid": 12279,
+      "sha256": "5e52c04207106602d7785dd610ca45aeb5e9245f9942254cd8a39aeec38b49c0",
+      "synced_at": "2026-11-02T09:27:07+00:00"
     },
     "Spatial curvature radius": {
       "path": "Main/Spatial curvature radius.wiki",
-      "revid": 12277,
-      "sha256": "dde735c8c44701dbbe5b03c0036221273da2b20cf3afe47a6b468e18243950c0",
-      "synced_at": "2026-11-02T09:14:06+00:00"
+      "revid": 12278,
+      "sha256": "47b7d9a4db0716b80d808ffef54edd6257d916a71c4c7b7f7b4a4f59a2d836a8",
+      "synced_at": "2026-11-02T09:27:07+00:00"
     },
     "Special function": {
       "path": "Main/Special function.wiki",
@@ -4885,6 +4885,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-02T09:14:06+00:00",
+  "updated": "2026-11-02T09:27:07+00:00",
   "version": 1
 }

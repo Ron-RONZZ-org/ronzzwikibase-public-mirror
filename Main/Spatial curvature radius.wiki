@@ -6,3 +6,5 @@ $$
 R_c(t)=\frac{a(t)}{\sqrt{|k|}},
 $$
 where $a(t)$ is the [[cosmological scale factor]].
+
+<ref>{{#cite:Q2580}}</ref>
