@@ -888,6 +888,12 @@
       "sha256": "6dd77728b90424dc52d0835dd2755cedcefcc9d381dee578187af4f15ae4f9ba",
       "synced_at": "2026-11-02T14:12:35+00:00"
     },
+    "Cosmological parameter": {
+      "path": "Main/Cosmological parameter.wiki",
+      "revid": 12357,
+      "sha256": "db8495b08b9fd2960e92cd47f5bfe8a2f3c1c9e4ac73a3b5e33551b9bd32158a",
+      "synced_at": "2026-11-02T14:23:40+00:00"
+    },
     "Cosmological scale factor": {
       "path": "Main/Cosmological scale factor.wiki",
       "revid": 12344,
@@ -4957,6 +4963,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-02T14:12:35+00:00",
+  "updated": "2026-11-02T14:23:40+00:00",
   "version": 1
 }
