@@ -1,0 +1,9 @@
+The '''rest energy''', often denoted by $E_0$, is the amount of energy embodied in [[mass]].
+
+{{#content:Q2614}}
+
+<blockquote>
+The above equation, known as the '''mass-energy equivalence formula''' and first formulated by [[Person:Albert Einstein]], is arguably the most famous equation in [[physics]], loved for its ground-breaking simplicity.
+</blockquote>
+
+<ref>{{#cite:Q2615}}</ref>

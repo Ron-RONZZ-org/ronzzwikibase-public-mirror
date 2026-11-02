@@ -1758,6 +1758,12 @@
       "sha256": "d3c99797d0c2e8b2e7d0a0b7920eb0a5c80a71bd1163f35dca9b7972afa2dad8",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Albert Einstein": {
+      "path": "Person/Albert Einstein.wiki",
+      "revid": 12328,
+      "sha256": "1a61f4e95658db1e6b234d3b22752dd23dfa0d52ee32561a5250b0e8559fff6b",
+      "synced_at": "2026-11-02T12:36:46+00:00"
+    },
     "Person:Alejandro Díaz Aldana": {
       "path": "Person/Alejandro Díaz Aldana.wiki",
       "revid": 1848,
@@ -2712,6 +2718,12 @@
       "sha256": "e101f005b86f374806d8529ea076173b1da93442523f412a1c84eb4cd52e5f9c",
       "synced_at": "2026-11-02T12:16:00+00:00"
     },
+    "Rest energy": {
+      "path": "Main/Rest energy.wiki",
+      "revid": 12329,
+      "sha256": "5e7394406adbe57918365c2c4254ea12ba053d64c25d91986375ed421c352c8c",
+      "synced_at": "2026-11-02T12:36:46+00:00"
+    },
     "Right-handed coordinate system": {
       "path": "Main/Right-handed coordinate system.wiki",
       "revid": 11232,
@@ -3041,6 +3053,12 @@
       "revid": 8043,
       "sha256": "dad2f72825632cb5a4c633ea5676a125107bc047a3f38eaf31a7c656f806fd0d",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:28.6: Relativistic Energy (Webpage)": {
+      "path": "Source/28.6_ Relativistic Energy (Webpage).wiki",
+      "revid": 12323,
+      "sha256": "c2b275416b9872de9ca63c70ce0994f29c316e007b5638dd485b7fb00200e6a2",
+      "synced_at": "2026-11-02T12:36:46+00:00"
     },
     "Source:3.2: Polynomial Interpolation (Webpage)": {
       "path": "Source/3.2_ Polynomial Interpolation (Webpage).wiki",
@@ -4915,6 +4933,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-02T12:16:00+00:00",
+  "updated": "2026-11-02T12:36:46+00:00",
   "version": 1
 }
