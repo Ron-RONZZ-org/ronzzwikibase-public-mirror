@@ -902,9 +902,9 @@
     },
     "Cosmological scale factor": {
       "path": "Main/Cosmological scale factor.wiki",
-      "revid": 12382,
-      "sha256": "1bd4ec19c0a7fd97225bd229a42e21dffc541b48ebd60602f8a89f66dd2cc8d9",
-      "synced_at": "2026-11-02T17:09:22+00:00"
+      "revid": 12383,
+      "sha256": "fbfde6a8718934a8a3e1af5c5d4eb3be9def101123f105de84718e2b59827d87",
+      "synced_at": "2026-11-02T17:20:12+00:00"
     },
     "Critical density of the Universe": {
       "path": "Main/Critical density of the Universe.wiki",
@@ -4987,6 +4987,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-02T17:09:22+00:00",
+  "updated": "2026-11-02T17:20:12+00:00",
   "version": 1
 }

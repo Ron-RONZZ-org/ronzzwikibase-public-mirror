@@ -77,7 +77,7 @@ $$
 \left(\frac{\dot{a}}{a}\right)^2 \simeq -\frac{kc^2}{a^2} \\
 \Rightarrow \left(\frac{\dot{a}}{a}\right)^2 \propto -ka^2 \\
 \Rightarrow \dot{a} \propto -k \\
-\because k>0 \Rightarrow -k < 0
+\because k<0 \Rightarrow -k > 0
 \Rightarrow \dot{a} \propto 1 \\
 $$
 
