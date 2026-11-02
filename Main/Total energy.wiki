@@ -1,4 +1,8 @@
-The '''total energy''' of an object is the sum of its [[rest energy]] and momentum energy.
+The '''total energy''', often denoted by $E$ of an object is the sum of its [[rest energy]] and momentum energy.
+
+{{#content:Q2619}}
+
+== Special case: regular mass ==
 
 {{#content:Q2617}}
 
