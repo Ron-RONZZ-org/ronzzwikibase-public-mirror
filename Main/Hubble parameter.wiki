@@ -1,0 +1,56 @@
+[[Category:Proper name]]
+The '''Hubble parameter''', denoted by $H(t)$, describes the rate of the [[cosmic expansion]] in the [[standard cosmology model]] at any given instance in the [[Universe]]'s history.
+
+== Formal definition ==
+
+In the [[standard cosmology model]],
+
+$$
+H(t)\equiv \frac{\dot{a}(t)}{a(t)},
+$$
+
+<blockquote>
+This definition is consistent with the experimental obversations of [[Person:Edwin Hubble|Edwin Hubble]] described in [[Hubble-Lemaître law]].
+
+{{Hidden proof}}
+
+Let $l$ denote physical distance, $c$ speed of light, $t$ time.
+
+Since Newtonian approximations are valid below [[the cosmological scale]]:
+
+$$
+dl \simeq c\,dt \Rightarrow  dt=\frac{dl}{c} \tag{1}
+$$
+
+By [[redshift#Relativistic_description|the relativistic description of redshift]],
+
+{{#content:Q2609|noPreNote}}
+
+Let the present time be $t_o$.
+
+For a nearby galaxy within [[the cosmological scale]], $t_e=t_o-dt$
+
+Hence,
+
+$$
+z=\frac{a(t_o)}{a(t_o-dt)}-1=\frac{1}{1-\frac{\dot{a}(t_0)}{a(t_0)}dt}-1=\frac{\dot{a}(t_0)}{a(t_0)}dt \tag{2}
+$$
+
+Combine 1,2
+
+$$
+z=\frac{\dot{a}(t_0)}{a(t_0)}\frac{dl}{c} \tag{2}
+$$
+
+Recall the non-relativistic [[Doppler effect]] approximation of redshift
+
+{{#content:Q2611|noPreNote}}
+
+$$
+\therefore \frac{v_r}{c} = \frac{\dot{a}(t_0)}{a(t_0)}\frac{dl}{c} \\
+\therefore v_r=\frac{\dot{a}(t_0)}{a(t_0)}\,dl
+\therefore v_r=H\,dl
+$$
+
+{{End hidden}}
+</blockquote>

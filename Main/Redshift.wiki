@@ -6,13 +6,7 @@ By definition,
 
 == Non-relativistic description  ==
 
-The non-relativistic standard [[Doppler effect]] description is valid for galaxies adequately close to each other to ignore spacetime geometry ($z \ll 1$):
-
-$$
-z =\frac{v_r}{c}
-$$
-
-where $v_r$ is the relative speed of separation (negative in case of approach) between the observer and the light source.
+{{#content:Q2611}}
 
 <ref>{{#cite:Q2580}}</ref>
 

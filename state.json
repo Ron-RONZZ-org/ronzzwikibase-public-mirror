@@ -1320,6 +1320,12 @@
       "sha256": "4111aadd7b6c2261ad45c0bdbd999f5767a104e8639fb7c459d83ab872888c61",
       "synced_at": "2026-11-02T08:15:24+00:00"
     },
+    "Hubble parameter": {
+      "path": "Main/Hubble parameter.wiki",
+      "revid": 12306,
+      "sha256": "e43bd8b0c7010fa34466f8f978efdd5a58b250b7a0efd8c57c6a26c37e21d147",
+      "synced_at": "2026-11-02T11:49:38+00:00"
+    },
     "Hubble radius": {
       "path": "Main/Hubble radius.wiki",
       "revid": 12285,
@@ -2696,9 +2702,9 @@
     },
     "Redshift": {
       "path": "Main/Redshift.wiki",
-      "revid": 12297,
-      "sha256": "fdce8a617cd53085b3f0b1cbc4547deb417edd5a64674f4d8bdb9557f3d9546f",
-      "synced_at": "2026-11-02T10:36:16+00:00"
+      "revid": 12305,
+      "sha256": "6c2b3e340da2b68e710d1b86469b5e289d123d723a1e970df656959f156bf919",
+      "synced_at": "2026-11-02T11:49:38+00:00"
     },
     "Relativistic propagation equation of light": {
       "path": "Main/Relativistic propagation equation of light.wiki",
@@ -4903,6 +4909,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-02T10:36:16+00:00",
+  "updated": "2026-11-02T11:49:38+00:00",
   "version": 1
 }
