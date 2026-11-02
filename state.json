@@ -876,6 +876,12 @@
       "sha256": "8d0eb64aff92347ea2163486d37422da30fcb7a159256e160b4827dafb3426d1",
       "synced_at": "2026-11-01T18:20:24+00:00"
     },
+    "Cosmic expansion": {
+      "path": "Main/Cosmic expansion.wiki",
+      "revid": 12376,
+      "sha256": "78a916375b694cd6187c5aafb191a5ca260eaff7950da089af4127d6cb1fef60",
+      "synced_at": "2026-11-02T16:23:38+00:00"
+    },
     "Cosmic microwave background": {
       "path": "Main/Cosmic microwave background.wiki",
       "revid": 7284,
@@ -4981,6 +4987,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-02T16:11:50+00:00",
+  "updated": "2026-11-02T16:23:38+00:00",
   "version": 1
 }

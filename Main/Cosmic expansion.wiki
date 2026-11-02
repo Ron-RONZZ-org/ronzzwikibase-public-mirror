@@ -1,0 +1,12 @@
+The '''cosmic expansion''' is the physical expansion of [[spacetime]] itself in our [[Universe]].
+
+== Significance ==
+
+=== Nothing is truly stationary ===
+
+[[File:Big bang balloon.jpg|thumbnail|As seen in this balloon analogy, even when the points on the balloon are obviously stationary, the distances between them grow over time as the "[[spacetime]] gird" itself expands]]
+Under cosmic expansion, the physical distances between objects located apart from each other grow larger over time, even if they do not have any proper motion.
+
+== Modelling ==
+
+Cosmic expansion is modelled by the [[cosmological scale factor]].
