@@ -2,9 +2,9 @@
   "pages": {
     "1st Friedmann equation": {
       "path": "Main/1st Friedmann equation.wiki",
-      "revid": 12352,
-      "sha256": "4f263ed2c22de299c19fbb7b0553dc06f8bbf94b150ecfd0466953e5dff8d8e2",
-      "synced_at": "2026-11-02T14:12:35+00:00"
+      "revid": 12359,
+      "sha256": "336e7e298669938730d263842e9c4e692bc7ee0650a6c18c9ebff3804d3005e0",
+      "synced_at": "2026-11-02T14:50:04+00:00"
     },
     "1st order ODE": {
       "path": "Main/1st order ODE.wiki",
@@ -4963,6 +4963,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-02T14:23:40+00:00",
+  "updated": "2026-11-02T14:50:04+00:00",
   "version": 1
 }
