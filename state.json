@@ -1028,9 +1028,9 @@
     },
     "Euclidean space": {
       "path": "Main/Euclidean space.wiki",
-      "revid": 10748,
-      "sha256": "75c4d08d6d9ec4bc01662c6c362aa96a29ae4c65fe14a8b679c9796097c80f9b",
-      "synced_at": "2026-10-20T11:50:52+00:00"
+      "revid": 12271,
+      "sha256": "0b1ffd6383100849f83ccd48407820bcb0fb00fac9e741abba915ab49e2d902d",
+      "synced_at": "2026-11-02T09:14:06+00:00"
     },
     "Euler's formula": {
       "path": "Main/Euler's formula.wiki",
@@ -4746,6 +4746,18 @@
       "sha256": "b08ffcbb9ffb1cb5494a216b542e1d967c2a133b484a371ab566a329ec61dbbb",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Spatial curvature parameter": {
+      "path": "Main/Spatial curvature parameter.wiki",
+      "revid": 12274,
+      "sha256": "fb263ca61d1f89f552e70355a30a620301a7a149a291771bb1faeaba68abc770",
+      "synced_at": "2026-11-02T09:14:06+00:00"
+    },
+    "Spatial curvature radius": {
+      "path": "Main/Spatial curvature radius.wiki",
+      "revid": 12277,
+      "sha256": "dde735c8c44701dbbe5b03c0036221273da2b20cf3afe47a6b468e18243950c0",
+      "synced_at": "2026-11-02T09:14:06+00:00"
+    },
     "Special function": {
       "path": "Main/Special function.wiki",
       "revid": 11554,
@@ -4873,6 +4885,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-02T08:50:01+00:00",
+  "updated": "2026-11-02T09:14:06+00:00",
   "version": 1
 }

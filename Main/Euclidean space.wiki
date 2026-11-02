@@ -1,6 +1,5 @@
-An Euclidean space is a [[metric space]] of real vectors with the Euclidean metric function.
-
 [[Category:Proper name]]
+An Euclidean space is a [[metric space]] of real vectors with the Euclidean metric function.
 
 == Formal definition ==
 

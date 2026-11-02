@@ -1,0 +1,11 @@
+The '''spatial curvature parameter''', often denoted by $k$, models the spatial part of the [[spacetime]] curvature of the relativistic model of our [[Universe]]. It appears in various equations in [[cosmology]].<ref>{{#cite:Q2580}}</ref>
+
+== Significance ==
+
+Assuming [[the Cosmological Principle]], the [[Universe]] must be maximally symmetric, hence:
+
+* $k=0$, the Universe is '''spatially flat''' and modelled correctly by a 3D [[Euclidean space]];
+* $k<0$, the Universe can be modelled by a '''[[3-hyperboloid]]''';
+* $k>0$, the Universe can be modelled by a '''[[3-sphere]] with finite volume'''.
+
+<ref>{{#cite:Q2580}}</ref>
