@@ -1,0 +1,14 @@
+[[Category:Proper name]]
+'''Hubble flow''' is the generalisation of [[Hubble-Lemaître law]] to the entire universe assuming [[the Cosmological Principle]].
+
+It describes a smooth, homogeneous expansion of the [[Universe]], in which, choosing arbitrary origin $O$, the velocity field $\vec v$ of any given point in space in '''the close vincinity*''' with position vector $\vec r$ satisfies:
+
+$$
+\vec v = H\vec r
+$$
+
+where $H$ is the [[Hubble parameter]].
+
+<blockquote>
+<nowiki/>*: In general, the close vincinity is any scale below the [[Hubble radius]], where relativistic effects can be ignored.
+</blockquote>

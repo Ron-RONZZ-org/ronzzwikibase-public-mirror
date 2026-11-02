@@ -12,3 +12,7 @@ The Hubble parameter can be calculated via the [[1st Friedmann equation]].
 The Hubble-Lemaître law was first predicted by Belgium astrophysicist and priest [[Person:Georges Lemaître|Georges Lemaître]] towards 1927 and experimentally verified by [[Person:Edwin Hubble|Edwin Hubble]] in 1929. The exact value of the '''[[Hubble parameter]] ($H$)''' over time has been subjected to much scientific debate ever since.
 
 <ref>{{#cite:Q2563}}</ref>
+
+== Generalisation ==
+
+Although the Hubble-Lemaître law was originally formulated only concerning observations made from earth, scientists have generalised it to all observers in the universe via the [[Hubble flow]].

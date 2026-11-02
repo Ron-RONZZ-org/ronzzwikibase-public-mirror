@@ -1302,6 +1302,12 @@
       "sha256": "c23e9ec911fed87ec79a06455c8815f8a9ffa3be44468b0aab2cc15847e87ca7",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Hubble flow": {
+      "path": "Main/Hubble flow.wiki",
+      "revid": 12265,
+      "sha256": "4111aadd7b6c2261ad45c0bdbd999f5767a104e8639fb7c459d83ab872888c61",
+      "synced_at": "2026-11-02T08:15:24+00:00"
+    },
     "Hubble radius": {
       "path": "Main/Hubble radius.wiki",
       "revid": 12236,
@@ -1310,9 +1316,9 @@
     },
     "Hubble-Lemaître law": {
       "path": "Main/Hubble-Lemaître law.wiki",
-      "revid": 12235,
-      "sha256": "f5b1772353614f73bb6ef3f9751ac1dea88cd47cafa42f4b12b7ec24ff0cd139",
-      "synced_at": "2026-11-01T18:50:10+00:00"
+      "revid": 12266,
+      "sha256": "f6cc8f026071abd40cccb24dc3027f324250eedd8c187e1efe419b5bb8f19b98",
+      "synced_at": "2026-11-02T08:15:24+00:00"
     },
     "Hubble-Lemaître's law": {
       "path": "Main/Hubble-Lemaître's law.wiki",
@@ -4861,6 +4867,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-01T19:35:03+00:00",
+  "updated": "2026-11-02T08:15:24+00:00",
   "version": 1
 }
