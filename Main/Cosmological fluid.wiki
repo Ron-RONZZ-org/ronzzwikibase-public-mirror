@@ -39,3 +39,7 @@ p_\text{total}=\sum_x p.
 $$
 
 <ref>{{#cite:Q2580}}</ref>
+
+== See also ==
+
+* [[Density parameters of the cosmological fluid]]

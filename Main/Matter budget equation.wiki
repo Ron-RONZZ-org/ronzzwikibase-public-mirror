@@ -1,0 +1,11 @@
+The '''matter budget equation''' is a direct result of the [[1st Friedmann equation]]:
+
+{{#content:Q2629}}
+
+<blockquote>
+The definition of $\Omega_K$ is somewhat arbitrary and mostly for the neat presentation of the matter budget equation. It does not correspond to any well-known physical reality of the [[Universe]]. 
+</blockquote>
+
+{{Hidden proof}}
+Algebraically manipulate the [[1st Friedmann equation]] substituting in the definitions of the [[cosmological parameter]], [[spatial curvature parameter]], and [[critical density of the Universe]].
+{{End hidden}}

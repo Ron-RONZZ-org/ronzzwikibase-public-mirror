@@ -884,9 +884,9 @@
     },
     "Cosmological fluid": {
       "path": "Main/Cosmological fluid.wiki",
-      "revid": 12348,
-      "sha256": "6dd77728b90424dc52d0835dd2755cedcefcc9d381dee578187af4f15ae4f9ba",
-      "synced_at": "2026-11-02T14:12:35+00:00"
+      "revid": 12370,
+      "sha256": "6b7d0993c0ee6895e9d09065f08afbf32dd1e13e92c921d2b88c59e846543556",
+      "synced_at": "2026-11-02T15:49:51+00:00"
     },
     "Cosmological parameter": {
       "path": "Main/Cosmological parameter.wiki",
@@ -1595,6 +1595,12 @@
       "revid": 9939,
       "sha256": "4f56fbf3670cf3d3af0b650d30660f9c0f9afb7a67fd18358ce46227f7598df2",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Matter budget equation": {
+      "path": "Main/Matter budget equation.wiki",
+      "revid": 12373,
+      "sha256": "7971903bb503392688017e15ce2cf4c0c0a291b32540ada33eefa6eebe744d4f",
+      "synced_at": "2026-11-02T15:49:51+00:00"
     },
     "Maximum and minimum": {
       "path": "Main/Maximum and minimum.wiki",
@@ -4975,6 +4981,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-02T15:36:29+00:00",
+  "updated": "2026-11-02T15:49:51+00:00",
   "version": 1
 }
