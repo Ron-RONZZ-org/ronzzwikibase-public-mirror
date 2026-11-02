@@ -1,0 +1,41 @@
+The '''cosmological fluid''' is a large-scale model of the [[Universe]]'s content.
+
+It applies [[the Cosmological Principle]] and describes the Universe on large scales as a perfect fluid of '''energy density''' $\rho(t)$ and pressure $p(t)$.
+
+<ref>{{#cite:Q2580}}</ref>
+
+== Three species ==
+
+{{#content:Q2620}}
+
+{| class="wikitable"
+|-
+! Species
+! Content
+! $p,\rho$
+! $\rho,a$
+|-
+| Non-relativistic matter
+| Galaxies, baryons, and cold dark matter
+| $p_M=0$
+| $\rho_M\propto a^{-3}$
+|-
+| Radiation
+| Photons and ultra-relativistic particles 
+| $p_R=\rho_R/3$
+| $\rho_R\propto a^{-4}$
+|-
+| Vacuum energy
+| 
+| $p_V=-\rho$
+| $\rho_V=\text{constant}$
+|}
+
+Since each component is independent,
+
+$$
+\rho_\text{total}=\sum \rho,\, 
+p_\text{total}=\sum_x p.
+$$
+
+<ref>{{#cite:Q2580}}</ref>

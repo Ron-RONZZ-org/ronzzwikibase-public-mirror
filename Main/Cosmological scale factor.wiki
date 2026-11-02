@@ -1,0 +1,13 @@
+The '''cosmological scale factor''', often denoted by $a(t)$, describes the history of the [[cosmic expansion]] over time in the [[standard cosmology model]].
+
+By convention, at current [[cosmic time]],
+
+$$
+a(t_0)=1.
+$$
+
+<blockquote>
+Intuitively, if at given times $t_1,t_2$, $a(t_1)=0.5,\, a(t_2)=0.25$, then the [[Universe]] was half/one-fourth of its size today.
+</blockquote>
+
+<ref>{{#cite:Q2580}}</ref>

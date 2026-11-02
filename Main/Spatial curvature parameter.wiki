@@ -1,4 +1,4 @@
-The '''spatial curvature parameter''', often denoted by $k$, models the spatial part of the [[spacetime]] curvature of the relativistic model of our [[Universe]]. It appears in various equations in [[cosmology]].<ref>{{#cite:Q2580}}</ref>
+The '''spatial curvature parameter''', often denoted by $k$, models the spatial part of the [[spacetime]] curvature in the relativistic model of our [[Universe]]. It appears in various equations in [[cosmology]].<ref>{{#cite:Q2580}}</ref>
 
 == Significance ==
 

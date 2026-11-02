@@ -2,9 +2,9 @@
   "pages": {
     "1st Friedmann equation": {
       "path": "Main/1st Friedmann equation.wiki",
-      "revid": 12167,
-      "sha256": "94835b48d381349c025bcf4da5f43619654effd0e1bb0d1cf21c1095fa8be57f",
-      "synced_at": "2026-11-01T12:49:28+00:00"
+      "revid": 12352,
+      "sha256": "4f263ed2c22de299c19fbb7b0553dc06f8bbf94b150ecfd0466953e5dff8d8e2",
+      "synced_at": "2026-11-02T14:12:35+00:00"
     },
     "1st order ODE": {
       "path": "Main/1st order ODE.wiki",
@@ -882,6 +882,18 @@
       "sha256": "2905de72d6b8a317145a86edde48a9fa1f9fce9c7346979c201533b7e9cc27e5",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Cosmological fluid": {
+      "path": "Main/Cosmological fluid.wiki",
+      "revid": 12348,
+      "sha256": "6dd77728b90424dc52d0835dd2755cedcefcc9d381dee578187af4f15ae4f9ba",
+      "synced_at": "2026-11-02T14:12:35+00:00"
+    },
+    "Cosmological scale factor": {
+      "path": "Main/Cosmological scale factor.wiki",
+      "revid": 12344,
+      "sha256": "d1688d9ecf04dced1db2db63916853845a320378596f609384a112114eab1f0f",
+      "synced_at": "2026-11-02T14:12:35+00:00"
+    },
     "Cross product": {
       "path": "Main/Cross product.wiki",
       "revid": 11011,
@@ -1283,6 +1295,12 @@
       "revid": 886,
       "sha256": "227fd7e752411cf75d9f63d3de55666c778564340c9dc46eb6b302b8c1490713",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Homogeneous energy density of non-vacuum cosmic components of the Universe": {
+      "path": "Main/Homogeneous energy density of non-vacuum cosmic components of the Universe.wiki",
+      "revid": 12347,
+      "sha256": "a6fcf1b5cfa88e7f9582cff0dc024fb797e51168c471333334f723ba08f688c6",
+      "synced_at": "2026-11-02T14:12:35+00:00"
     },
     "HowItWorks:Docker": {
       "path": "HowItWorks/Docker.wiki",
@@ -4784,9 +4802,9 @@
     },
     "Spatial curvature parameter": {
       "path": "Main/Spatial curvature parameter.wiki",
-      "revid": 12279,
-      "sha256": "5e52c04207106602d7785dd610ca45aeb5e9245f9942254cd8a39aeec38b49c0",
-      "synced_at": "2026-11-02T09:27:07+00:00"
+      "revid": 12353,
+      "sha256": "0c24fde88b5f1fe09d4c8e14264051c14e7e7b04a79edbd7cc200e4a8053e582",
+      "synced_at": "2026-11-02T14:12:35+00:00"
     },
     "Spatial curvature radius": {
       "path": "Main/Spatial curvature radius.wiki",
@@ -4939,6 +4957,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-02T13:12:14+00:00",
+  "updated": "2026-11-02T14:12:35+00:00",
   "version": 1
 }
