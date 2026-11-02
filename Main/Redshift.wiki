@@ -18,10 +18,4 @@ where $v_r$ is the relative speed of separation (negative in case of approach) b
 
 == Relativistic description ==
 
-For [[comoving]] source and observer,
-
-$$
-z=\frac{a(t_2)}{a(t_1)}-1,
-$$
-
-where $t_1,t_2$ are the time of emission and reception of the light signal respectively, and $a(t)$ designates the [[cosmological scale factor]]s at those times.
+{{#content:Q2609}}

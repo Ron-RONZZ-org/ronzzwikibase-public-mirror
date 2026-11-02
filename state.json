@@ -2696,9 +2696,9 @@
     },
     "Redshift": {
       "path": "Main/Redshift.wiki",
-      "revid": 12292,
-      "sha256": "d270bae6141d5e2467450e779937e818f9e743a3f5dec1d3fd48094b94ae1c69",
-      "synced_at": "2026-11-02T10:10:47+00:00"
+      "revid": 12297,
+      "sha256": "fdce8a617cd53085b3f0b1cbc4547deb417edd5a64674f4d8bdb9557f3d9546f",
+      "synced_at": "2026-11-02T10:36:16+00:00"
     },
     "Relativistic propagation equation of light": {
       "path": "Main/Relativistic propagation equation of light.wiki",
@@ -4903,6 +4903,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-02T10:10:47+00:00",
+  "updated": "2026-11-02T10:36:16+00:00",
   "version": 1
 }
