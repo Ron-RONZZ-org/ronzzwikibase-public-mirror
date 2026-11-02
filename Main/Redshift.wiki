@@ -1,5 +1,9 @@
 '''Redshift''', often denoted by $z$, describes the shift in wavelength of light emitted by [[celestial object]]s when observed from elsewhere because of [[cosmic expansion]].<ref>{{#cite:Q2580}}</ref>
 
+By definition,
+
+{{#content:Q2607}}
+
 == Non-relativistic description  ==
 
 The non-relativistic standard [[Doppler effect]] description is valid for galaxies adequately close to each other to ignore spacetime geometry ($z \ll 1$):

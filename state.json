@@ -840,6 +840,12 @@
       "sha256": "6768476ebfdd87fd2e08dc882a135e75023538e741228c6afcee743c991b9a3a",
       "synced_at": "2026-10-31T16:35:43+00:00"
     },
+    "Comoving": {
+      "path": "Main/Comoving.wiki",
+      "revid": 12293,
+      "sha256": "f35836517ceacac86481e6e5d0c0653f8b5ca7d65b5f40ddd295d356df208478",
+      "synced_at": "2026-11-02T10:10:47+00:00"
+    },
     "Comoving coordinates": {
       "path": "Main/Comoving coordinates.wiki",
       "revid": 12288,
@@ -2690,9 +2696,9 @@
     },
     "Redshift": {
       "path": "Main/Redshift.wiki",
-      "revid": 12289,
-      "sha256": "e46710511fa305405a0f43ede1157c22f62f38082d1457e4dd053b8bf3a74d9c",
-      "synced_at": "2026-11-02T09:49:47+00:00"
+      "revid": 12292,
+      "sha256": "d270bae6141d5e2467450e779937e818f9e743a3f5dec1d3fd48094b94ae1c69",
+      "synced_at": "2026-11-02T10:10:47+00:00"
     },
     "Relativistic propagation equation of light": {
       "path": "Main/Relativistic propagation equation of light.wiki",
@@ -4897,6 +4903,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-02T09:49:47+00:00",
+  "updated": "2026-11-02T10:10:47+00:00",
   "version": 1
 }

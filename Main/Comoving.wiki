@@ -1,0 +1,14 @@
+In [[cosmology]], two objects that have no relative motions to each other except from [[cosmic expansion]] are said to be '''comoving'''.
+
+== Modelling in [[comoving coordinates]] ==
+
+If points $A,B$ in space have coordinates $(r(t),\theta(t),\phi(t)),\, (r'(t),\theta'(t),\phi'(t))$, then
+
+$$
+\forall t:
+\begin{cases}
+r(t)-r'(t) = r(t_0)-r'(t_0) \\
+\theta(t)-\theta'(t) = \theta(t_0)-\theta'(t_0) \\
+\phi(t)-\phi'(t) = \phi(t_0)-\phi'(t_0)
+\end{cases}
+$$
