@@ -954,6 +954,12 @@
       "sha256": "2f3b496122d70081a66c0a22637ce7d3d2296ba2ee044b96463d15b911479fa1",
       "synced_at": "2026-10-21T08:46:09+00:00"
     },
+    "Density parameters of the cosmological fluid": {
+      "path": "Main/Density parameters of the cosmological fluid.wiki",
+      "revid": 12368,
+      "sha256": "38571d651532acea0153bc5a650af8ce635c35c00161c96acff9747c81c2875e",
+      "synced_at": "2026-11-02T15:36:29+00:00"
+    },
     "Derivative": {
       "path": "Main/Derivative.wiki",
       "revid": 11714,
@@ -4969,6 +4975,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-02T15:22:39+00:00",
+  "updated": "2026-11-02T15:36:29+00:00",
   "version": 1
 }

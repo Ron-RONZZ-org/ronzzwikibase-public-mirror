@@ -1,0 +1,5 @@
+The '''density parameters of the [[cosmological fluid]]''', denoted by $\Omega x$, is the ratio between the density of a given species of the [[cosmological fluid]] to the [[critical density of the Universe]].
+
+i.e.,
+
+{{#content:Q2627}}
