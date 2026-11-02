@@ -95,3 +95,67 @@ $$
 $$
 
 {{End hidden}}
+
+=== Positive-curvature-dominated expansion ($k>0$: $a(t) \propto -t$) ===
+
+In this scenario, the universe contracts.
+
+{{Hidden proof}}
+Same process as proof for [[cosmological scale factor#Negative-curvature-dominated_expansion_(:_)|negative-curvature-dominated expansion]].
+
+The only difference is
+
+$$
+\because k>0 \Rightarrow -k < 0
+\Rightarrow \dot{a} \propto -1 \\
+$$
+{{End hidden}}
+
+=== Cosmological-constant-dominated expansion ($k>0$: $a(t) \propto e^\sqrt{\frac{\Lambda t}{3}}$) ===
+
+In this scenario, the universe expands with exponential acceleration.
+
+{{Hidden proof}}
+Again consider the [[1st Friedmann equation]] and the [[matter budget equation]], similar to in proof for [[cosmological scale factor#Matter-dominated_expansion:|matter-dominated expansion]],
+
+When $\Omega_\Lambda \gg \Omega_M, \Omega_R,\Omega_k$:
+
+$$
+\left(\frac{\dot{a}}{a}\right)^2 \simeq \frac{\Lambda}{3} \\
+\Rightarrow \left(\frac{\dot{a}}{a}\right)^2 \propto \frac{\Lambda}{3} \\
+\Rightarrow \frac{\dot{a}}{a} \propto \sqrt{\frac{\Lambda}{3}} \\
+$$
+
+By definition of the [[cosmological parameter]],
+
+$$
+\Lambda \propto \rho_\Lambda
+$$
+
+Since $\dot a = \frac{da}{dt}$
+
+$$
+\frac{da}{a\,dt} \propto \sqrt{\frac{\Lambda}{3}} \\
+\Rightarrow \frac{1}{a} da \propto \sqrt{\frac{\Lambda}{3}} dt \\
+\Rightarrow \int \frac{1}{a} da \propto \int \sqrt{\frac{\Lambda}{3}} dt \\
+$$
+
+By [[cosmological fluid#Three_species|the conservation equation of the cosmological fluid]]
+
+$$
+\rho_\Lambda=\text{constant} \Rightarrow \Lambda=\text{constant}, \\
+$$
+
+hence
+
+$$
+\ln a \propto \sqrt{\frac{\Lambda}{3}} t\\
+a \propto e^\sqrt{\frac{\Lambda}{3}} t
+$$
+
+<blockquote>
+If you happen to read ''[[Source:An overview of cosmology: Summer Student Lectures 2002-2004 (Book)|An overview of cosmology: Summer Student Lectures 2002-2004]]'' (one of the sources consulted to construct this page), note their equation 2.6 contains a typographic error, wrongly omitting the square root.
+
+PS: despite this small error, that book is a marvelous introduction to modern cosmology.
+</blockquote>
+{{End hidden}}
