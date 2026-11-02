@@ -840,6 +840,12 @@
       "sha256": "6768476ebfdd87fd2e08dc882a135e75023538e741228c6afcee743c991b9a3a",
       "synced_at": "2026-10-31T16:35:43+00:00"
     },
+    "Comoving coordinates": {
+      "path": "Main/Comoving coordinates.wiki",
+      "revid": 12270,
+      "sha256": "c2395a0851dfd6852926a29ebaa1ba0815611b3f7d4e07f8bf947b4c5bd8457c",
+      "synced_at": "2026-11-02T08:50:01+00:00"
+    },
     "Complex number": {
       "path": "Main/Complex number.wiki",
       "revid": 11420,
@@ -4867,6 +4873,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-02T08:15:24+00:00",
+  "updated": "2026-11-02T08:50:01+00:00",
   "version": 1
 }
