@@ -1,5 +1,7 @@
 The '''cosmological scale factor''', often denoted by $a(t)$, describes the history of the [[cosmic expansion]] over time in the [[standard cosmology model]].
 
+It is described by the [[1st Friedmann equation]]. 
+
 By convention, at current [[cosmic time]],
 
 $$
