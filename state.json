@@ -1322,9 +1322,9 @@
     },
     "Hubble parameter": {
       "path": "Main/Hubble parameter.wiki",
-      "revid": 12306,
-      "sha256": "e43bd8b0c7010fa34466f8f978efdd5a58b250b7a0efd8c57c6a26c37e21d147",
-      "synced_at": "2026-11-02T11:49:38+00:00"
+      "revid": 12308,
+      "sha256": "af5605a94cc617f0440c3585f7177a98996d93e952f0cad449188512f506aebd",
+      "synced_at": "2026-11-02T12:16:00+00:00"
     },
     "Hubble radius": {
       "path": "Main/Hubble radius.wiki",
@@ -2708,9 +2708,9 @@
     },
     "Relativistic propagation equation of light": {
       "path": "Main/Relativistic propagation equation of light.wiki",
-      "revid": 12283,
-      "sha256": "440d83072e089f638077964ab52e844a7044fa3a030847c1aeadc68e844e35c0",
-      "synced_at": "2026-11-02T09:49:47+00:00"
+      "revid": 12314,
+      "sha256": "e101f005b86f374806d8529ea076173b1da93442523f412a1c84eb4cd52e5f9c",
+      "synced_at": "2026-11-02T12:16:00+00:00"
     },
     "Right-handed coordinate system": {
       "path": "Main/Right-handed coordinate system.wiki",
@@ -4848,6 +4848,12 @@
       "sha256": "7a6ef7f48f93120472f32b9c1122c2904a08fb1c76628fe3ee1633a5c14779f7",
       "synced_at": "2026-11-02T09:49:47+00:00"
     },
+    "The past light cone": {
+      "path": "Main/The past light cone.wiki",
+      "revid": 12315,
+      "sha256": "eddb7dfaf30955627ff47f184b68c66294a4abdbc0fc525eee1de52403ae19e7",
+      "synced_at": "2026-11-02T12:16:00+00:00"
+    },
     "Transformer": {
       "path": "Main/Transformer.wiki",
       "revid": 1493,
@@ -4909,6 +4915,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-02T11:49:38+00:00",
+  "updated": "2026-11-02T12:16:00+00:00",
   "version": 1
 }

@@ -54,3 +54,13 @@ $$
 
 {{End hidden}}
 </blockquote>
+
+== Modern day value $H_0$ ==
+
+The value of $H(t_0)$, where $t_0$ is the current [[cosmic time]], often denoted simply by $H_0$, is approximately 
+
+$$
+70 \mathrm{km\ s^{-1}\ Mpc^{-1}}
+$$
+
+where $\mathrm{Mpc}$ denotes megaparsec ( $10^6$ [[parsec]]s).

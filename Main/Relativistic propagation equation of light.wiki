@@ -53,3 +53,13 @@ $$
 hence 2.
 
 {{End hidden}}
+
+== Special case: local scale ==
+
+Below [[the cosmological scale]], Newtonian approximation
+
+$$
+dr=c\,dt
+$$
+
+is valid.

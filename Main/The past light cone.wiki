@@ -1,0 +1,14 @@
+
+[[File:Past light cone.png|thumbnail|Projected into 2D space + 1D time, past light cones resemble a cone with outward curvature. As seen, the tip of the cone can be approximated by a linear cone despite visible overall curvature.]]
+In cosmology, the '''past light cone''' of an observer is the [[set]] of all possible light trajectories crossing the observer at present time.
+
+Geometrically, it is shaped as a 3D hypersurface inside 4D spacetime.
+
+<ref>{{#cite:Q2580}}</ref>
+== Newtonian approximation ==
+
+Taking into account of relativistic effects, light trajectories in our [[Universe]] are governed by the [[relativistic propagation equation of light]], which admits a Newtonian approximation below [[the cosmological scale]].
+
+Hence, at small scale, a linear conic surface satisfying $dr=c\,dt$ approximates the past light cone.
+
+<ref>{{#cite:Q2580}}</ref>
