@@ -842,9 +842,9 @@
     },
     "Comoving coordinates": {
       "path": "Main/Comoving coordinates.wiki",
-      "revid": 12282,
-      "sha256": "dea89f667d8345bd633ca215f928238e90b41e1ee79a904a73c6db713cd4e079",
-      "synced_at": "2026-11-02T09:27:07+00:00"
+      "revid": 12288,
+      "sha256": "bf5939ecd164b5e9dbb72d1b6daa90bbbdc287e198efc46955522e84eab8abd7",
+      "synced_at": "2026-11-02T09:49:47+00:00"
     },
     "Complex number": {
       "path": "Main/Complex number.wiki",
@@ -1316,9 +1316,9 @@
     },
     "Hubble radius": {
       "path": "Main/Hubble radius.wiki",
-      "revid": 12236,
-      "sha256": "ccafd2e529d9db7476a7122303c614651b40468fad7624a3f99fd8f44277b785",
-      "synced_at": "2026-11-01T18:50:10+00:00"
+      "revid": 12285,
+      "sha256": "4650b22e40b42911e876b2f72f58611611edb5f93bb22e52f17720fffeb587f9",
+      "synced_at": "2026-11-02T09:49:47+00:00"
     },
     "Hubble-Lemaître law": {
       "path": "Main/Hubble-Lemaître law.wiki",
@@ -2690,9 +2690,15 @@
     },
     "Redshift": {
       "path": "Main/Redshift.wiki",
-      "revid": 12203,
-      "sha256": "e12e1e861f4c4804af89dd42b69ea907dabf3d5a8c03d90627c9628222855a9c",
-      "synced_at": "2026-11-01T17:35:05+00:00"
+      "revid": 12289,
+      "sha256": "e46710511fa305405a0f43ede1157c22f62f38082d1457e4dd053b8bf3a74d9c",
+      "synced_at": "2026-11-02T09:49:47+00:00"
+    },
+    "Relativistic propagation equation of light": {
+      "path": "Main/Relativistic propagation equation of light.wiki",
+      "revid": 12283,
+      "sha256": "440d83072e089f638077964ab52e844a7044fa3a030847c1aeadc68e844e35c0",
+      "synced_at": "2026-11-02T09:49:47+00:00"
     },
     "Right-handed coordinate system": {
       "path": "Main/Right-handed coordinate system.wiki",
@@ -4824,6 +4830,12 @@
       "sha256": "d5fd086e561db8ed6c978a6322d403377589d7a52925f466924bcc2ffe3bf990",
       "synced_at": "2026-11-01T18:35:35+00:00"
     },
+    "The cosmological scale": {
+      "path": "Main/The cosmological scale.wiki",
+      "revid": 12286,
+      "sha256": "7a6ef7f48f93120472f32b9c1122c2904a08fb1c76628fe3ee1633a5c14779f7",
+      "synced_at": "2026-11-02T09:49:47+00:00"
+    },
     "Transformer": {
       "path": "Main/Transformer.wiki",
       "revid": 1493,
@@ -4885,6 +4897,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-02T09:27:07+00:00",
+  "updated": "2026-11-02T09:49:47+00:00",
   "version": 1
 }

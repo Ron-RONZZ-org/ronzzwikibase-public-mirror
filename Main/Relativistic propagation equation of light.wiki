@@ -1,0 +1,55 @@
+The '''relativistic propagation equation of [[light]]''' models the trajectory of [[photon]]s on [[the cosmological scale]]:
+
+$$
+c^2dt^2
+=
+a^2(t)\left[
+\frac{dr^2}{1-kr^2}
++
+r^2(d\theta^2+\sin^2\theta\,d\phi^2)
+\right]. \tag{1}
+$$
+
+<ref>{{#cite:Q2580}}</ref>
+
+== Derivation ==
+
+{{Hidden proof}}
+Let $l$ denote length, $t$ time, and $c$ the speed of light.
+
+On local scale, Newtonian mechanics is valid, hence
+
+$$
+dl=cdt
+$$
+
+By the [[comoving coordinates#Metric_function|defining metric function]] of comoving coordinates,
+
+{{#content:Q2604|noNote}}
+
+Hence 1.
+{{End hidden}}
+
+== Special case: Along radial trajectory ==
+
+Choosing [[comoving coordinates]] s.t. the $\theta,\phi$ coordinates of the [[photon]] stay constant ($d\theta,d\phi=0$), then
+
+$$
+\int_{r_1}^{r_2}\frac{dr}{\sqrt{1-kr^2}}
+=
+\int_{t_1}^{t_2}\frac{c}{a(t)}\,dt. \tag{2}
+$$
+
+<ref>{{#cite:Q2580}}</ref>
+
+{{Hidden proof}}
+$$
+\because d\theta,d\phi=0 \\
+\therefore r^2(d\theta^2+\sin^2\theta\,d\phi^2)=0 \\
+\therefore c^2dt^2 = a^2(t) \frac{dr^2}{1-kr^2}
+\therefore cdt = a(t) \frac{dr}{\sqrt{1-kr^2}},
+$$
+
+hence 2.
+
+{{End hidden}}

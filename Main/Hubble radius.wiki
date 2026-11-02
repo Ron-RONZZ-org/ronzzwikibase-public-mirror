@@ -8,7 +8,7 @@ $$
 
 where $H$ is the [[Hubble parameter]] at that time.
 
-== Intuition ==
+== Significance ==
 
 Relativistic effects become relevant when relative speed between objects $|v| \to c$.
 

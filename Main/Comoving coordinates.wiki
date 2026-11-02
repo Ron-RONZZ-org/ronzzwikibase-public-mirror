@@ -28,3 +28,7 @@ dl^2=a^2(t)(dx^2+dy^2+dz^2)
 $$
 
 <ref>{{#cite:Q2580}}</ref>
+
+=== Galaxies are approximately at rest in comoving coordinates ===
+
+Any residual change in comoving coordinates over time can be modelled by a [[peculiar velocity]].

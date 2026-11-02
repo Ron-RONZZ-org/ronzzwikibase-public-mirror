@@ -1,0 +1,3 @@
+The '''cosmological scale''' is the scale at which relativistic effects become significant because of [[cosmic expansion]].
+
+The [[Hubble radius]] provides an approximation of the cosmological scale.
