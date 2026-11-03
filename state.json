@@ -2934,6 +2934,12 @@
       "sha256": "6e10c24f23e2714e7567ed301929dfd0caa8335f3bc849c01b3fd604398b19c5",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Rolling planning": {
+      "path": "Main/Rolling planning.wiki",
+      "revid": 12588,
+      "sha256": "21c4ecbcf712f9a9adb261e5619eb0f8ef3a92e68690cbd416ed07573fbd64fe",
+      "synced_at": "2026-11-03T17:35:27+00:00"
+    },
     "Root test (convergence of number sequence)": {
       "path": "Main/Root test (convergence of number sequence).wiki",
       "revid": 11636,
@@ -3630,6 +3636,12 @@
       "sha256": "93156946543a8b0ebd8e9bfa357e6b1779aa94e3434f24fed3a0dd24912e11e2",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Club of Rome - Global equity for a peaceful and healthy planet (Website)": {
+      "path": "Source/Club of Rome - Global equity for a peaceful and healthy planet (Website).wiki",
+      "revid": 12595,
+      "sha256": "3e12a0507af9183d35e1646462a659d7350cc0529ed48f5f87ee2696255bdb30",
+      "synced_at": "2026-11-03T17:35:27+00:00"
+    },
     "Source:CoBot Robots - CORAL, CMU (Webpage)": {
       "path": "Source/CoBot Robots - CORAL, CMU (Webpage).wiki",
       "revid": 11074,
@@ -3894,6 +3906,12 @@
       "sha256": "87c105f13fa3282c27e0be0b6ebb27097d6e9c3cf1039265a32504dd59ef9136",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Governance - Club of Rome (Webpage)": {
+      "path": "Source/Governance - Club of Rome (Webpage).wiki",
+      "revid": 12600,
+      "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
+      "synced_at": "2026-11-03T17:35:27+00:00"
+    },
     "Source:Histoire de la littérature française du XIXe siècle (Book)": {
       "path": "Source/Histoire de la littérature française du XIXe siècle (Book).wiki",
       "revid": 7500,
@@ -3911,6 +3929,12 @@
       "revid": 7119,
       "sha256": "b1c072ee2e74145649f7fa598f5fc1af7fc9704e0792a2bf6ff8a9a3eec83bf5",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:History of the Club of Rome - Club of Rome (Webpage)": {
+      "path": "Source/History of the Club of Rome - Club of Rome (Webpage).wiki",
+      "revid": 12605,
+      "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
+      "synced_at": "2026-11-03T17:35:27+00:00"
     },
     "Source:How to Build a Universe That Doesn’t Fall Apart Two Days Later (Text)": {
       "path": "Source/How to Build a Universe That Doesn’t Fall Apart Two Days Later (Text).wiki",
@@ -5179,6 +5203,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-03T17:19:55+00:00",
+  "updated": "2026-11-03T17:35:27+00:00",
   "version": 1
 }

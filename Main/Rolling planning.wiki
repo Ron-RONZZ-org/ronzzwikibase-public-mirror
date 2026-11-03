@@ -1,0 +1,1 @@
+'''Rolling planning''' refers to the practice of continuously advising a plan during its execution in light of new situation or improved understanding of the situation.
