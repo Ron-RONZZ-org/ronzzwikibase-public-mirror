@@ -1,5 +1,83 @@
 {{Collective|logo=[[File:Club-of-Rome-logo.png|frameless|220px|Logo]]}}
 
-== Overview ==
+The '''Club of Rome''' is an international think tank registered as a [[not-for-profit organization]] in Switzerland focusing on sustainable development on the global scale.
 
-Think tank
+== History ==
+
+=== 1968: Foundation ===
+
+The Club of Rome was founded in 1968 following a two-day meeting of European scientists and economists in Rome, convened by Aurelio Peccei, Italian industrialist and humanist and Alexander King, then Head of Science at the OECD.
+
+In the early years of the club, funding was scarce and the club is largely unknown outside the scientific community. As such, the founding members of the club called themselves the "invisible college". 
+
+<ref>{{#cite:Q2658}}</ref>
+
+=== 1970s: ''[[Source:The Limits to Growth (Book)|The Limits to Growth]]'' ===
+
+In 1970, a $200,000 grant from the Volkswagen Foundation was secured by Edward Pestel, and a core team at the club were able to begin a two-year computer-model-enhanced study on humanity’s complex and interrelated problems under the supervision of Jay Forrester, then professor at MIT.
+
+The final report of the study, titled ''[[Source:The Limits to Growth (Book)|The Limits to Growth]]'', stipulated that at the growth rate current to that time, the natural resources present on earth cannot sustain humanity beyond year 2100. After being presented during the 1972 UN Stockholm Conference, the book sold hundreds of thousands of copies in 30 different languages, and became subject of a global conversation. Some judged the report as alarmist, while others hailed the radical stipulation as visionary.
+
+In all cases, the report earned the Club unprecedented attention. Annual meetings of the club drew policy makers, including multiple heads of state throughout the 1970s.
+
+<ref>{{#cite:Q2654}}</ref>
+
+=== 1980s: Cold War Tensions and ''[[Source:No Limits to Learning (Book)|No Limits to Learning]]'' ===
+
+Fearful that the absorption of public attention by [[the Cold War]] in the 1980s would overshadow the long-term, collaborationist message of the organisation, the organisation published ''[[Source:No Limits to Learning (Book)|No Limits to Learning]]'' under the encouragement of Peccei to emphasise the potential and importance of immediate collective action in response to pressing global challenges.
+
+In 1984, Peccei died while serving as president of the Club. This sudden loss of leadership prompted the Club to clarify its structure, creating a permanent Secretariat and national associations to ensure the continuity of the organisation beyond its founders.
+
+<ref>{{#cite:Q2658}}</ref><ref>{{#cite:Q2681}}</ref>
+
+=== 1990s: Surviving the 'new world order' ===
+
+The end of the Cold War brought by the disintegration of the USSR did not liberate public attention to focus on the long-term existential risks identified by the Rome Club. Instead, a new wave of optimism in market solutions saw further decline of the visibility of the Club.
+
+<ref>{{#cite:Q2681}}</ref>
+
+=== 2000s: Attempts at institutional rejuvenation ===
+
+Significant efforts were undertaken in attempts to renew public interest in the Club of Rome and its ideas, including:
+
+* participation in EXPO 2000 in Hanover;
+* publication of ''The 30-Year Update'' to the original ''[[Source:The Limits to Growth (Book)|The Limits to Growth]]''
+
+<ref>{{#cite:Q2681}}</ref>
+
+=== 2010s: Struggle for survival ===
+
+The rejuvenation attempts made in the 2000s were not able to immediately turn the organisation around as hoped.
+
+Due to a severe lack of funding, the club of Rome was at one point unable to pay out the salary of the General Secretary, and had to convert it into a voluntary position without pay.
+
+The Club of Rome nevertheless survived through its most difficult years with the 'unexpected support of a Chinese entrepreneur' and significant effort from two of its members, Wijkman and von Weisacker.
+
+<ref>{{#cite:Q2681}}</ref>
+
+=== 2020s: Fight for continuity and relevance ===
+
+A handful of Club of Rome members eventually managed to secure sufficient funding for a new research and communications project, culminating in the publishing of ''[[Source:Executive summary of Earth for All: A Survival Guide for All (Book)|Earth for All: A Survival Guide for All]]'' in 2022, which was endorsed by the 8th General Secretary of the UN Ban Ki-moon and then deputy prime minister and minister for the ecological transition of Spain Teresa Ribera.
+
+Today, the Club of Rome has about 150 active members across 35 national associations.
+
+<ref>{{#cite:Q2682}}</ref>
+
+== Principles ==
+
+Three principles were defined at the founding of the Club of Rome, which are always active today:<ref>{{#cite:Q2681}}</ref>
+
+* a global perspective,
+* a long-term view,
+* and the recognition of the ‘Problematique’, the complex web of interlinked economic, environmental, political and social challenges facing humanity
+
+== Governance ==
+
+The Club of Rome has the following formal governance structure:
+
+* A President/Co-presidents
+* A Secretariat, led by a secretary general, in charge of day-to-day activities
+* A Board of 12 elected members for ongoing oversight and guidance
+* The General Assembly of all members, which validates important strategical decisions collectively.
+
+<ref>{{#cite:Q2680}}</ref>

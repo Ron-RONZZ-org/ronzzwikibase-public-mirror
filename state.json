@@ -398,9 +398,9 @@
     },
     "Collective:Club of Rome": {
       "path": "Collective/Club of Rome.wiki",
-      "revid": 12524,
-      "sha256": "bd3ee4b27cfa2dba139bbd114990b0be67493ec35c155f8fbb59b59cddc13b8a",
-      "synced_at": "2026-11-03T15:36:26+00:00"
+      "revid": 12613,
+      "sha256": "b808e9b2c2bad1cd59c5c3426fb9a94889ae7820b7fb1d7b0f0e7465cd43fbcc",
+      "synced_at": "2026-11-03T20:36:45+00:00"
     },
     "Collective:Collective:UFR-SciFA (Université de Lorraine)/fr": {
       "path": "Collective/Collective_UFR-SciFA (Université de Lorraine)/fr.wiki",
@@ -3828,6 +3828,12 @@
       "sha256": "b5e9ecaeedaac7b5d865a15bcb911c8780f90a338371bbc93dd3d42cb13f1f7e",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Executive summary of Earth for All: A Survival Guide for All (Book)": {
+      "path": "Source/Executive summary of Earth for All_ A Survival Guide for All (Book).wiki",
+      "revid": 12611,
+      "sha256": "0311d90e243f3be68c13d2082783458de88a2149eb53d4dd209d37db3d2db9bd",
+      "synced_at": "2026-11-03T20:36:45+00:00"
+    },
     "Source:Finnegans Wake (Book)": {
       "path": "Source/Finnegans Wake (Book).wiki",
       "revid": 11925,
@@ -5203,6 +5209,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-03T17:35:27+00:00",
+  "updated": "2026-11-03T20:36:45+00:00",
   "version": 1
 }
