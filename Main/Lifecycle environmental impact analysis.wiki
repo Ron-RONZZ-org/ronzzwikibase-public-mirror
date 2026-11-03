@@ -2,6 +2,9 @@
 
 == History ==
 
+The concept of environmental impact analysis emerged in the 1970s. At first, most proposed methods focused on energy consumption during the manufacturing process. Inclusion of environmental impact from raw material consumption and later life stages of the product became progressively standard. 
+
+The analytical and reporting procedure were internationally standardised in the early 2000s with the publication of a series of ISO standards.
 
 == ISO standards ==
 
