@@ -1,0 +1,7 @@
+{{Book}}
+
+== Summary ==
+
+''from Wikipedia (CC BY-SA 4.0):''
+
+The Limits to Growth (LTG) is a 1972 report that discussed the possibility of exponential economic and population growth with a finite supply of resources, studied by computer simulation. The study used the World3 computer model to simulate the consequence of interactions between the Earth and human systems.

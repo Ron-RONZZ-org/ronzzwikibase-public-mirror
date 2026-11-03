@@ -414,6 +414,12 @@
       "sha256": "18103fd2489b2e37e4c8762194f2eaddfd83053c3d6f7451db3102ac76702e35",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Dennis L. Meadows, Donella H. Meadows, Jørgen Randers, William W. Behrens III, Alison A. Anderson, et al": {
+      "path": "Collective/Dennis L. Meadows, Donella H. Meadows, Jørgen Randers, William W. Behrens III, Alison A. Anderson, et al.wiki",
+      "revid": 12482,
+      "sha256": "aeb946def9e5c7122b1a0a859ee25cca215af1c75ebe6cd1ac3f524e673a2249",
+      "synced_at": "2026-11-03T13:36:23+00:00"
+    },
     "Collective:Docker, Inc.": {
       "path": "Collective/Docker, Inc.wiki",
       "revid": 6125,
@@ -4680,6 +4686,12 @@
       "sha256": "cfc0a1b54046c3fab435d3a884bc47cd647371d11244ce51615e9ce9ecb24eca",
       "synced_at": "2026-10-20T15:31:19+00:00"
     },
+    "Source:The Limits to Growth (Book)": {
+      "path": "Source/The Limits to Growth (Book).wiki",
+      "revid": 12488,
+      "sha256": "02a4d09454b861bf4d463535caf1d3576f86c48f7e686942ee903af87908e911",
+      "synced_at": "2026-11-03T13:36:23+00:00"
+    },
     "Source:The Origin of the Universe Without a Big Bang Singularity: The Bilobular Collision Model as a Cyclic Anisotropic Alternative to ΛCDM": {
       "path": "Source/The Origin of the Universe Without a Big Bang Singularity_ The Bilobular Collision Model as a Cyclic Anisotropic Alternative to ΛCDM.wiki",
       "revid": 1854,
@@ -5071,6 +5083,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-03T13:10:55+00:00",
+  "updated": "2026-11-03T13:36:23+00:00",
   "version": 1
 }
