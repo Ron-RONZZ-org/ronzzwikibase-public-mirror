@@ -78,6 +78,12 @@
       "sha256": "77200623b1aa6fdff3256fb7c049de45aed0b2c7a41023221cb2a351af00d34a",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Autonomy": {
+      "path": "Main/Autonomy.wiki",
+      "revid": 12575,
+      "sha256": "845075f83f5e0488f309533c9a95521dd04be98e43d9f862cc52d9c2d9214f75",
+      "synced_at": "2026-11-03T16:36:03+00:00"
+    },
     "Axiomatic system": {
       "path": "Main/Axiomatic system.wiki",
       "revid": 10706,
@@ -5155,6 +5161,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-03T16:21:50+00:00",
+  "updated": "2026-11-03T16:36:03+00:00",
   "version": 1
 }
