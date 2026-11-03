@@ -2,21 +2,4 @@ The '''Cold Big Bang''' hypothesis is an attempt to explain the origin of the [[
 
 == The early Universe according to Cold Big Bang ==
 
-<!-- illustration draft -->
-Beginning of the Cold Big Bang hypothesis:
-Early Universe of a gas of [[nucleon]]s and [[electron]]s of tremendous density
-- Universe expands > 
-density fall below critical value
-- nuclear reactions>
-nuclei form ('''Nuclear synthesis''')
-- Universe continues to expand >
-Only the lightest nuclei had time to form in significant amount:
-Universe is a gas of light nuclei and electrons
-- Universe continues to expand >
-matter density falls further, atoms form from electromagnetic interactions between nuclei and electrons ('''Recombination''')
--  >
-Small inhomogeneity
-- Gravitational interactions >
-Accumulation of inhomogeneity into stars, then entire galaxies
-
-<!-- end illustration draft -->
+[[File:Cold-Big-Bang-Early-Universe-Sequence.svg|center]]

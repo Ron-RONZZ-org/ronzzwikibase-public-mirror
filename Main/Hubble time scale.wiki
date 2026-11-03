@@ -1,0 +1,29 @@
+The '''Hubble time-scale''', denoted by $t_H$, is a measurement of the '''characteristic time-scale''' of '''[[cosmic expansion]]'''.
+
+It is defined:
+
+$$
+t_H(t) \equiv H^{-1}(t) \equiv ( \left(\frac{\dot{a}(t)}{a(t)}\right)^{-1}).
+$$
+
+where $H\equiv\dot{a}/a$ is the [[Hubble parameter]].
+
+<ref>{{#cite:Q2580}}</ref>
+
+== Significance ==
+
+=== $t_\Gamma \ll t_H \Rightarrow $ Efficient reaction ===
+
+A physical process with rate $\Gamma$ remains efficient while
+
+$$
+\Gamma\gg H,
+$$
+
+and freezes out when
+
+$$
+\Gamma\sim H \Rightarrow t_{\text{reaction}}\sim t_H.
+$$
+
+<ref>{{#cite:Q2580}}</ref>

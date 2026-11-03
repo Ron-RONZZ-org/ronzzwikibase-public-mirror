@@ -290,9 +290,9 @@
     },
     "Cold Big Bang": {
       "path": "Main/Cold Big Bang.wiki",
-      "revid": 12435,
-      "sha256": "b376c8bcd85b3a2d3fce0fe2423f0e20970ba8e02abb551e2845c80a93958246",
-      "synced_at": "2026-11-03T08:37:04+00:00"
+      "revid": 12443,
+      "sha256": "3d4524d2bc4d69855d8eb59d9535d9a5fd210b052d9c08aae33e7fdb59b7ddc6",
+      "synced_at": "2026-11-03T12:14:30+00:00"
     },
     "Collaborative robot": {
       "path": "Main/Collaborative robot.wiki",
@@ -902,9 +902,9 @@
     },
     "Cosmic microwave background": {
       "path": "Main/Cosmic microwave background.wiki",
-      "revid": 7284,
-      "sha256": "2905de72d6b8a317145a86edde48a9fa1f9fce9c7346979c201533b7e9cc27e5",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "revid": 12438,
+      "sha256": "1c53522584935fe6ff10c2872a3a4715f224d8e339bfe0fac31767d0708ea2b7",
+      "synced_at": "2026-11-03T12:14:30+00:00"
     },
     "Cosmological fluid": {
       "path": "Main/Cosmological fluid.wiki",
@@ -1391,6 +1391,12 @@
       "revid": 12285,
       "sha256": "4650b22e40b42911e876b2f72f58611611edb5f93bb22e52f17720fffeb587f9",
       "synced_at": "2026-11-02T09:49:47+00:00"
+    },
+    "Hubble time scale": {
+      "path": "Main/Hubble time scale.wiki",
+      "revid": 12448,
+      "sha256": "d72269b5b01ef2e717ef65fefccc99448f5514c9512eb1a59b6617f367270ff2",
+      "synced_at": "2026-11-03T12:14:30+00:00"
     },
     "Hubble-Lemaître law": {
       "path": "Main/Hubble-Lemaître law.wiki",
@@ -5035,6 +5041,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-03T08:37:04+00:00",
+  "updated": "2026-11-03T12:14:30+00:00",
   "version": 1
 }
