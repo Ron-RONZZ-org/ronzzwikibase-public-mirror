@@ -1650,6 +1650,12 @@
       "sha256": "7dee6d9fc20a96c756b482d55297480a907e3fac56e016373c224535a4ae03c9",
       "synced_at": "2026-10-19T12:24:06+00:00"
     },
+    "Maintenance learning": {
+      "path": "Main/Maintenance learning.wiki",
+      "revid": 12522,
+      "sha256": "b7bc16b92d558b18d675173ebe0d78d515caf3ba7fa2aee4da56b941ef7a23e8",
+      "synced_at": "2026-11-03T15:09:27+00:00"
+    },
     "Map function": {
       "path": "Main/Map function.wiki",
       "revid": 11705,
@@ -5107,6 +5113,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-03T14:36:26+00:00",
+  "updated": "2026-11-03T15:09:27+00:00",
   "version": 1
 }
