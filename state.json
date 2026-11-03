@@ -918,6 +918,12 @@
       "sha256": "1f9d7633a6d8d137e95116bf894f1a992da37c56a799fd584acffe61191f360c",
       "synced_at": "2026-10-31T13:49:41+00:00"
     },
+    "Constructive anticipation": {
+      "path": "Main/Constructive anticipation.wiki",
+      "revid": 12545,
+      "sha256": "f133aa76054f13a67c60cee6de234067fcbeeaae7ace763bcfba5e58baafd2f9",
+      "synced_at": "2026-11-03T16:11:15+00:00"
+    },
     "Copernican principle": {
       "path": "Main/Copernican principle.wiki",
       "revid": 12221,
@@ -1052,9 +1058,9 @@
     },
     "Education": {
       "path": "Main/Education.wiki",
-      "revid": 9645,
-      "sha256": "337eedfb193d05eee6ddb77dc43b270adf5bcbb9d9ace766d8e22d8bb14218f6",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "revid": 12564,
+      "sha256": "40f0b4e24a261d012b02c58e36a79af6df76141d45ed9f7361a81aa7a4b0c6ae",
+      "synced_at": "2026-11-03T16:11:15+00:00"
     },
     "Education system": {
       "path": "Main/Education system.wiki",
@@ -1506,6 +1512,12 @@
       "sha256": "053c7443fc70d821c05deeaaaaa496fad76848a40ac20a682fbfe82d904df73d",
       "synced_at": "2026-10-29T16:38:39+00:00"
     },
+    "Innovative learning": {
+      "path": "Main/Innovative learning.wiki",
+      "revid": 12565,
+      "sha256": "94d49ba9dfe92aacfc5380db981d37a34438b2fdd059d0751b8eec21252ab738",
+      "synced_at": "2026-11-03T16:11:15+00:00"
+    },
     "Integer": {
       "path": "Main/Integer.wiki",
       "revid": 11583,
@@ -1547,6 +1559,12 @@
       "revid": 8586,
       "sha256": "a64153ee05000271f3c4efb6a9024dcb5c7fc6ee3472be6e473b143f6907046d",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Learning": {
+      "path": "Main/Learning.wiki",
+      "revid": 12558,
+      "sha256": "f9cd302ee60bb3a3035ffedbe41fd935e7cb879348eb6498cc96b6e52ea69b73",
+      "synced_at": "2026-11-03T16:11:15+00:00"
     },
     "Lepton number": {
       "path": "Main/Lepton number.wiki",
@@ -1835,6 +1853,18 @@
       "revid": 11715,
       "sha256": "bfe412c6dfd1f561057fa051c94cedbe77197becc85a9f9b99989a199bcf636d",
       "synced_at": "2026-10-29T18:40:50+00:00"
+    },
+    "Participative learning": {
+      "path": "Main/Participative learning.wiki",
+      "revid": 12553,
+      "sha256": "6bc89decc9fa86a409686ef526d147454ad2d3efe7f7bb86a7226a56381f7f8d",
+      "synced_at": "2026-11-03T16:11:15+00:00"
+    },
+    "Participatory learning": {
+      "path": "Main/Participatory learning.wiki",
+      "revid": 12554,
+      "sha256": "101fcd6f918e62255956df5480266c3e48ec5dccbc6fb365eedbb8f779d17351",
+      "synced_at": "2026-11-03T16:11:15+00:00"
     },
     "Particle accelerator": {
       "path": "Main/Particle accelerator.wiki",
@@ -5119,6 +5149,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-03T15:49:56+00:00",
+  "updated": "2026-11-03T16:11:15+00:00",
   "version": 1
 }
