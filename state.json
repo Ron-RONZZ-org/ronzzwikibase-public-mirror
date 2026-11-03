@@ -102,6 +102,12 @@
       "sha256": "404ad75f4a529928493c24c0d5ce884aa702a6d595733db0f9d1f87e0739d6cc",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Bohr atomic model": {
+      "path": "Main/Bohr atomic model.wiki",
+      "revid": 12433,
+      "sha256": "ea40bcc7b36a9d6b73b1923925d1dd6aeeef9eefdd84a296f92cf867e937a273",
+      "synced_at": "2026-11-03T08:13:38+00:00"
+    },
     "Cantor pairing function": {
       "path": "Main/Cantor pairing function.wiki",
       "revid": 11576,
@@ -3000,6 +3006,12 @@
       "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:10.4: The Bohr Model (Webpage)": {
+      "path": "Source/10.4_ The Bohr Model (Webpage).wiki",
+      "revid": 12432,
+      "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
+      "synced_at": "2026-11-03T08:13:38+00:00"
+    },
     "Source:10.7: Products of Inertia (Webpage)": {
       "path": "Source/10.7_ Products of Inertia (Webpage).wiki",
       "revid": 10655,
@@ -5017,6 +5029,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-03T07:11:15+00:00",
+  "updated": "2026-11-03T08:13:38+00:00",
   "version": 1
 }

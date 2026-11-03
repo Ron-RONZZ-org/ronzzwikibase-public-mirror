@@ -1,0 +1,35 @@
+[[File:Bohr model artistic.jpg|thumbnail|An artist's impression of the Bohr model]]
+The '''Bohr atomic model''' is a simplified model of the structure of an [[atom]].
+
+It is arguably the most iconic model in chemistry.
+
+== Electron orbits ==
+
+[[File:Carbon-atom-bohr-model.png|thumbnail|Bohr model of a carbon-12 atom]]
+According to the Bohr model, [[atom#Structure|electron]]s orbit the [[atom#Structure|atomic nucleus]] in orbits of distinct, fixed energy levels. Electrons can jump from one fixed energy level to another, but not to arbitrary enery levels.
+
+[[File:Electron-energy-level Bohr model.png|thumbnail|As illustrated, electrons can jump from one fixed energy level to another, but not to arbitrary enery levels.]]
+
+As energy is conserved, when electrons jump from lower energy levels (closer to the atomic nucleus) to higher energy levels (further away from the atomic nucleus), energy must be absorbed by the electron; reversely when electrons return from higher energy levels to lower energy levels , energy must be lost by the electron.
+
+[[File:Bohr-atom-animation.gif|thumbnail|An artistic impression of the excitation of an electron to a higher energy state by photon absorption and its return to its ground state by photon emission]]
+
+Possible paths of the energy transfer allowed by the Bohr model are:
+
+* atomic collision
+* [[photon]] absorption/emission (since $E_\gamma=h\nu$)
+
+Energy is conserved in this process, hence the amount of energy transferred to/from the electron must be exactly
+
+$$
+E_\text{destination level}-E_\text{source level}.
+$$
+
+<ref>{{#cite:Q2635}}</ref><ref>{{#cite:Q2641}}</ref>
+== Limitations ==
+
+Although the Bohr model correctly portrays the [[quantic]] nature of electron energy levels in an atom, and is sufficiently accurate for explaining many chemical properties of different [[atom]]s, it does not account for electron-electron interaction and fails to explain magnetic properties of the atom caused by specific [[electron orbital]]s.
+
+More deeply, the application of [[classical mechanics]] on a [[quantum particle]] in the Bohr model is fundamentally problematic. The [[quantic]] nature of electron energy levels is assumed, but not justified by a coherent framework. Allowed energy levels of atoms can be experimentally measured, but not explained.
+
+<ref>{{#cite:Q2641}}</ref>
