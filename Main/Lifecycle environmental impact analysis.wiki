@@ -1,0 +1,28 @@
+'''Lifecycle environmental impact analysis''', sometimes called '''lifecycle analysis''' for short, is a systematic method for analysing the environmental impact of a product.
+
+== History ==
+
+
+== ISO standards ==
+
+The ISO-14000 series specify international standards for managing environmental impact.<ref>{{#cite:Q2632}}</ref>
+
+Among those, ISO-14040,14044,14046,14048,14049 specify the procedure and report format of lifecycle analysis.<ref>{{#cite:Q2632}}</ref>
+
+== Limitations ==
+
+Assumptions are often made during lifecyle analysis, especially in the consumption and end-of-life phase, where representative quantitative data is not always available.
+
+<blockquote>
+'''Example assumption''': Consumers will recycle the packaging, as it is clearly marked as recyclable.
+
+'''Reality''': Some people will nevertheless dispose it with household waste out of convenience. 
+
+'''Challenge''': It may be extremely difficult to quantitatively determine exactly what proportion of consumers do not follow recycle instructions.
+</blockquote>
+
+Depending on the assumptions made, one may arrive at an overly optimistic or pessimistic conclusion. The independence and critical judgement of analysts are therefore essential to a sound analysis.<ref>{{#cite:Q2632}}</ref>
+
+<blockquote>
+Manufacturer-comissioned lifecycle analysis and third-party lifecycle analysis can sometimes paint quite different pictures on the environmental impact of the same product. No one is necessarily dishonest, but different assumptions can always lead to quite different conclusions.
+</blockquote>
