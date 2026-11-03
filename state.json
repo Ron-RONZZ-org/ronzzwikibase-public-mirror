@@ -384,6 +384,12 @@
       "sha256": "01bbe8f2e32bcf10e0699fb4108a2551ce5141140371fe27f94b4c826e7fe840",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Club of Rome": {
+      "path": "Collective/Club of Rome.wiki",
+      "revid": 12494,
+      "sha256": "dfb12e7587542b9e394fb4a91ee361df02b1796b93b915e8696c47e04ac846a9",
+      "synced_at": "2026-11-03T13:50:09+00:00"
+    },
     "Collective:Collective:UFR-SciFA (Université de Lorraine)/fr": {
       "path": "Collective/Collective_UFR-SciFA (Université de Lorraine)/fr.wiki",
       "revid": 6805,
@@ -5083,6 +5089,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-03T13:36:23+00:00",
+  "updated": "2026-11-03T13:50:09+00:00",
   "version": 1
 }
