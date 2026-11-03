@@ -5040,6 +5040,12 @@
       "sha256": "eddb7dfaf30955627ff47f184b68c66294a4abdbc0fc525eee1de52403ae19e7",
       "synced_at": "2026-11-02T12:16:00+00:00"
     },
+    "The widening context": {
+      "path": "Main/The widening context.wiki",
+      "revid": 12537,
+      "sha256": "32815a4ea7dc492781c7d09b82f4aeacbd54950f724f3f5ea42c4caf1dfc2e81",
+      "synced_at": "2026-11-03T15:49:56+00:00"
+    },
     "Think tank": {
       "path": "Main/Think tank.wiki",
       "revid": 12476,
@@ -5113,6 +5119,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-03T15:36:26+00:00",
+  "updated": "2026-11-03T15:49:56+00:00",
   "version": 1
 }
