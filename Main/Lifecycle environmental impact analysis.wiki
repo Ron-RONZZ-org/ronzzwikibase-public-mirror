@@ -41,6 +41,8 @@ $$
 |}
 </div>
 
+Pre-quantised impact data for representative products can be accessed through the [https://knowledge-for-policy.ec.europa.eu/life-cycle-data-network-lcdn_en Life Cycle Data Network (LCDN)].
+
 == Software ==
 
 Many commercial and [[FOSS]] software have been published for performing LCA.
