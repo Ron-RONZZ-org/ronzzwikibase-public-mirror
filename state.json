@@ -80,9 +80,9 @@
     },
     "Autonomy": {
       "path": "Main/Autonomy.wiki",
-      "revid": 12575,
-      "sha256": "845075f83f5e0488f309533c9a95521dd04be98e43d9f862cc52d9c2d9214f75",
-      "synced_at": "2026-11-03T16:36:03+00:00"
+      "revid": 12580,
+      "sha256": "e4e5e2d7aa05712adcf2ecbf490ec636e86418fed947d3fc17e4ff7d6f57acf4",
+      "synced_at": "2026-11-03T16:49:51+00:00"
     },
     "Axiomatic system": {
       "path": "Main/Axiomatic system.wiki",
@@ -305,6 +305,12 @@
       "revid": 11128,
       "sha256": "4e5c96cbf8dacb16b5401f1bcbf88d46226510264073fad11915f00f17a68ca7",
       "synced_at": "2026-10-22T12:22:56+00:00"
+    },
+    "Collective autonomy": {
+      "path": "Main/Collective autonomy.wiki",
+      "revid": 12579,
+      "sha256": "655c5b8ab526be2625b989b0c235ed2f976bb5bda1b9112b9c51155017ff7c2b",
+      "synced_at": "2026-11-03T16:49:51+00:00"
     },
     "Collective:Agence Nationale de la Recherche": {
       "path": "Collective/Agence Nationale de la Recherche.wiki",
@@ -1487,6 +1493,12 @@
       "revid": 11580,
       "sha256": "5e067f62cdccfc8d7d28bdd04f6c05f7369bce421d1f75ffdc3d1fb11ca7d299",
       "synced_at": "2026-10-28T15:50:21+00:00"
+    },
+    "Individual autonomy": {
+      "path": "Main/Individual autonomy.wiki",
+      "revid": 12581,
+      "sha256": "7ea389348486a43cc197c2dec0ecd0873eb54c8d8fba400e18a4f14f4dbd3ce5",
+      "synced_at": "2026-11-03T16:49:51+00:00"
     },
     "Inertia": {
       "path": "Main/Inertia.wiki",
@@ -5161,6 +5173,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-03T16:36:03+00:00",
+  "updated": "2026-11-03T16:49:51+00:00",
   "version": 1
 }
