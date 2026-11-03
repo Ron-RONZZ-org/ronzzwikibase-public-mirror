@@ -2358,6 +2358,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-10-21T09:42:51+00:00"
     },
+    "Person:Michael Richmond": {
+      "path": "Person/Michael Richmond.wiki",
+      "revid": 12403,
+      "sha256": "e368fdce1156026de39f96aabe879782aa54bb85c819d41845779aa0103a61eb",
+      "synced_at": "2026-11-03T07:11:15+00:00"
+    },
     "Person:Michel Chasles": {
       "path": "Person/Michel Chasles.wiki",
       "revid": 8256,
@@ -3113,6 +3119,12 @@
       "revid": 8043,
       "sha256": "dad2f72825632cb5a4c633ea5676a125107bc047a3f38eaf31a7c656f806fd0d",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:22: The Boltzmann Equation (Webpage)": {
+      "path": "Source/22_ The Boltzmann Equation (Webpage).wiki",
+      "revid": 12408,
+      "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
+      "synced_at": "2026-11-03T07:11:15+00:00"
     },
     "Source:28.6: Relativistic Energy (Webpage)": {
       "path": "Source/28.6_ Relativistic Energy (Webpage).wiki",
@@ -5005,6 +5017,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-03T06:49:46+00:00",
+  "updated": "2026-11-03T07:11:15+00:00",
   "version": 1
 }
