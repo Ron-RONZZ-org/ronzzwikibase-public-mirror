@@ -1532,15 +1532,21 @@
     },
     "Innovative learning": {
       "path": "Main/Innovative learning.wiki",
-      "revid": 12565,
-      "sha256": "94d49ba9dfe92aacfc5380db981d37a34438b2fdd059d0751b8eec21252ab738",
-      "synced_at": "2026-11-03T16:11:15+00:00"
+      "revid": 12585,
+      "sha256": "77df581c9037c9b830c6b0bb59c194a68dd436de2fbe8a796d1e48667644b75a",
+      "synced_at": "2026-11-03T17:19:55+00:00"
     },
     "Integer": {
       "path": "Main/Integer.wiki",
       "revid": 11583,
       "sha256": "c7874bc984e55fd37717fd7b8a41ad8754264d9686acc4ba7d9d69940c7c72fc",
       "synced_at": "2026-10-28T16:13:20+00:00"
+    },
+    "Integrative thinking": {
+      "path": "Main/Integrative thinking.wiki",
+      "revid": 12583,
+      "sha256": "94cf7f5062f7e9abddc41c103a699e4cd488efa1bdad20e0d9def69e953d1dd5",
+      "synced_at": "2026-11-03T17:19:55+00:00"
     },
     "Interval": {
       "path": "Main/Interval.wiki",
@@ -5173,6 +5179,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-03T16:49:51+00:00",
+  "updated": "2026-11-03T17:19:55+00:00",
   "version": 1
 }
