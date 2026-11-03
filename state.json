@@ -1446,6 +1446,12 @@
       "sha256": "b04d8e072cd3253c96ba8ff94ade1a7fef7fc35483ec4d1fe2057ad7c0daaeac",
       "synced_at": "2026-11-01T11:20:05+00:00"
     },
+    "Human gap": {
+      "path": "Main/Human gap.wiki",
+      "revid": 12514,
+      "sha256": "9da288caea9e96b4caf81e92e07f9edc888c129068665dd025bd9acef112cc91",
+      "synced_at": "2026-11-03T14:36:26+00:00"
+    },
     "Humanities": {
       "path": "Main/Humanities.wiki",
       "revid": 8089,
@@ -5101,6 +5107,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-03T14:10:47+00:00",
+  "updated": "2026-11-03T14:36:26+00:00",
   "version": 1
 }
