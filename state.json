@@ -1856,9 +1856,9 @@
     },
     "Participative learning": {
       "path": "Main/Participative learning.wiki",
-      "revid": 12553,
-      "sha256": "6bc89decc9fa86a409686ef526d147454ad2d3efe7f7bb86a7226a56381f7f8d",
-      "synced_at": "2026-11-03T16:11:15+00:00"
+      "revid": 12574,
+      "sha256": "e7e7ec7f0f4dc834ee8db4c3d0911dbc189a569980f7d4d28692d7af1b828880",
+      "synced_at": "2026-11-03T16:21:50+00:00"
     },
     "Participatory learning": {
       "path": "Main/Participatory learning.wiki",
@@ -1877,6 +1877,12 @@
       "revid": 12022,
       "sha256": "fe77d77791705f3dd38481a63a428532bfb10850bba50f18a8821059124d4e20",
       "synced_at": "2026-10-31T16:35:43+00:00"
+    },
+    "Passive learning": {
+      "path": "Main/Passive learning.wiki",
+      "revid": 12571,
+      "sha256": "f5333eb5799bbcc531f2af777006db231ed3235b27dcbbff293bba1d47c60ce2",
+      "synced_at": "2026-11-03T16:21:50+00:00"
     },
     "Periodic table": {
       "path": "Main/Periodic table.wiki",
@@ -5149,6 +5155,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-03T16:11:15+00:00",
+  "updated": "2026-11-03T16:21:50+00:00",
   "version": 1
 }
