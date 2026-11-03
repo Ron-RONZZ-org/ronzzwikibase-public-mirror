@@ -480,6 +480,12 @@
       "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
       "synced_at": "2026-10-22T11:14:03+00:00"
     },
+    "Collective:French Institute of International Relations": {
+      "path": "Collective/French Institute of International Relations.wiki",
+      "revid": 12460,
+      "sha256": "8057f80368f54b91bc0248648b5aeb1132096bf809be1fbb5daaaa66e371f5c1",
+      "synced_at": "2026-11-03T13:10:55+00:00"
+    },
     "Collective:French national government": {
       "path": "Collective/French national government.wiki",
       "revid": 9054,
@@ -755,6 +761,12 @@
       "revid": 11346,
       "sha256": "0b99adfee3fb2f89040cab7533c8ee3ff4b970464914dc171e7e417d1328934f",
       "synced_at": "2026-10-27T09:17:43+00:00"
+    },
+    "Collective:Thierry DE MONTBRIAL and Thomas GOMART": {
+      "path": "Collective/Thierry DE MONTBRIAL and Thomas GOMART.wiki",
+      "revid": 12465,
+      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
+      "synced_at": "2026-11-03T13:10:55+00:00"
     },
     "Collective:Thomas F. Banchoff, Davide Cervone, Nicholas Thompson, Jeff Achter, and Matthew Stone, et al.": {
       "path": "Collective/Thomas F. Banchoff, Davide Cervone, Nicholas Thompson, Jeff Achter, and Matthew Stone, et al.wiki",
@@ -4518,6 +4530,12 @@
       "sha256": "7df57b12f16403cb92bdd5e7aa43ff83a0ffd88da84cffa907ceb0f4dcee36eb",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Qu’est-ce qu’un think tank ? Une perspective française (Scholarly article)": {
+      "path": "Source/Qu’est-ce qu’un think tank _ Une perspective française (Scholarly article).wiki",
+      "revid": 12471,
+      "sha256": "a59be86f667782459b41082bd9bf5c79380b43e9f50fe8e6a296eacda99591c5",
+      "synced_at": "2026-11-03T13:10:55+00:00"
+    },
     "Source:Radius and Density of Atomic Nucleus (Webpage)": {
       "path": "Source/Radius and Density of Atomic Nucleus (Webpage).wiki",
       "revid": 7933,
@@ -4980,6 +4998,12 @@
       "sha256": "eddb7dfaf30955627ff47f184b68c66294a4abdbc0fc525eee1de52403ae19e7",
       "synced_at": "2026-11-02T12:16:00+00:00"
     },
+    "Think tank": {
+      "path": "Main/Think tank.wiki",
+      "revid": 12476,
+      "sha256": "10681a31877877c0bbbc9def9ea45b78d845af0472aa5ff353601d58c23e61aa",
+      "synced_at": "2026-11-03T13:10:55+00:00"
+    },
     "Total energy": {
       "path": "Main/Total energy.wiki",
       "revid": 12339,
@@ -5047,6 +5071,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-03T12:28:43+00:00",
+  "updated": "2026-11-03T13:10:55+00:00",
   "version": 1
 }
