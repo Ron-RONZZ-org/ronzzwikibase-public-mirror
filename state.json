@@ -386,9 +386,9 @@
     },
     "Collective:Club of Rome": {
       "path": "Collective/Club of Rome.wiki",
-      "revid": 12494,
-      "sha256": "dfb12e7587542b9e394fb4a91ee361df02b1796b93b915e8696c47e04ac846a9",
-      "synced_at": "2026-11-03T13:50:09+00:00"
+      "revid": 12524,
+      "sha256": "bd3ee4b27cfa2dba139bbd114990b0be67493ec35c155f8fbb59b59cddc13b8a",
+      "synced_at": "2026-11-03T15:36:26+00:00"
     },
     "Collective:Collective:UFR-SciFA (Université de Lorraine)/fr": {
       "path": "Collective/Collective_UFR-SciFA (Université de Lorraine)/fr.wiki",
@@ -1652,9 +1652,9 @@
     },
     "Maintenance learning": {
       "path": "Main/Maintenance learning.wiki",
-      "revid": 12522,
-      "sha256": "b7bc16b92d558b18d675173ebe0d78d515caf3ba7fa2aee4da56b941ef7a23e8",
-      "synced_at": "2026-11-03T15:09:27+00:00"
+      "revid": 12532,
+      "sha256": "7d2d4470fea020625616271df52646e4c4cf56cfbf37e4069a764e091df19eda",
+      "synced_at": "2026-11-03T15:36:26+00:00"
     },
     "Map function": {
       "path": "Main/Map function.wiki",
@@ -5113,6 +5113,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-03T15:09:27+00:00",
+  "updated": "2026-11-03T15:36:26+00:00",
   "version": 1
 }

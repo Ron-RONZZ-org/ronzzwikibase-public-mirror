@@ -3,6 +3,3 @@
 == Overview ==
 
 Think tank
-
-
-<!-- __EXTERNAL_LINK_PENDING__ -->
