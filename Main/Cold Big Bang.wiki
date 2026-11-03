@@ -3,3 +3,23 @@ The '''Cold Big Bang''' hypothesis is an attempt to explain the origin of the [[
 == The early Universe according to Cold Big Bang ==
 
 [[File:Cold-Big-Bang-Early-Universe-Sequence.svg|center]]
+
+== Problems with the Cold Bang Hypothesis ==
+
+Four independent groups of scientists investigated the Cold Bang hypothesis between the 1940s and the 1960s:
+
+* Gamow (1940s)
+* Zel’dovitch (1964)
+* Hoyle and Tayler (1964)
+* Peebles (1965) 
+
+Similar negative conclusions were reached:
+
+* Nucleosynthesis in a dense nucleon–electron gas predicts hydrogen formation to be strongly suppressed relative to heavier elements, and
+* this prediction contradicts a large primordial hydrogen abundance observed in our Universe.
+
+<ref>{{#cite:Q2580}}</ref>
+
+== Subsequent proposals ==
+
+The [[Hot Big Bang Model]], in which the early Universe was dominated by radiation instead of matter, was proposed to replace the Cold Big Bang model.<ref>{{#cite:Q2580}}</ref>

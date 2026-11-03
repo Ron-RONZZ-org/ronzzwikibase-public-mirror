@@ -290,9 +290,9 @@
     },
     "Cold Big Bang": {
       "path": "Main/Cold Big Bang.wiki",
-      "revid": 12443,
-      "sha256": "3d4524d2bc4d69855d8eb59d9535d9a5fd210b052d9c08aae33e7fdb59b7ddc6",
-      "synced_at": "2026-11-03T12:14:30+00:00"
+      "revid": 12455,
+      "sha256": "baeb0c276f1f84aa9ecca4de5f1e16e3b8d85edccad48bf187c928ceaaf78f60",
+      "synced_at": "2026-11-03T12:28:43+00:00"
     },
     "Collaborative robot": {
       "path": "Main/Collaborative robot.wiki",
@@ -1343,6 +1343,12 @@
       "revid": 12347,
       "sha256": "a6fcf1b5cfa88e7f9582cff0dc024fb797e51168c471333334f723ba08f688c6",
       "synced_at": "2026-11-02T14:12:35+00:00"
+    },
+    "Hot Big Bang Model": {
+      "path": "Main/Hot Big Bang Model.wiki",
+      "revid": 12453,
+      "sha256": "6a2ab44de281e55a19625acc4929efb85fd892d44e9775135c9b0671607dfd8a",
+      "synced_at": "2026-11-03T12:28:43+00:00"
     },
     "HowItWorks:Docker": {
       "path": "HowItWorks/Docker.wiki",
@@ -5041,6 +5047,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-03T12:14:30+00:00",
+  "updated": "2026-11-03T12:28:43+00:00",
   "version": 1
 }
