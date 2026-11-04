@@ -1158,6 +1158,12 @@
       "sha256": "051f140b325802ddf1c437c4d8686066a10f6d960b60929fdcb9df4ed1b578b9",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Existential risk": {
+      "path": "Main/Existential risk.wiki",
+      "revid": 12645,
+      "sha256": "fdfdfb177df7267e7abde5639799677444c00736d805b5881a645a349a2f9a12",
+      "synced_at": "2026-11-04T08:25:56+00:00"
+    },
     "FOSS:BuildKit": {
       "path": "FOSS/BuildKit.wiki",
       "revid": 6139,
@@ -5221,6 +5227,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-04T07:50:04+00:00",
+  "updated": "2026-11-04T08:25:56+00:00",
   "version": 1
 }
