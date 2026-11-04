@@ -84,6 +84,12 @@
       "sha256": "e4e5e2d7aa05712adcf2ecbf490ec636e86418fed947d3fc17e4ff7d6f57acf4",
       "synced_at": "2026-11-03T16:49:51+00:00"
     },
+    "Availability heuristic": {
+      "path": "Main/Availability heuristic.wiki",
+      "revid": 12741,
+      "sha256": "e1da5796c28ecb46de23c03c4d1ea72af5f8b6dd7026427426a8f88e841f66d6",
+      "synced_at": "2026-11-04T14:22:11+00:00"
+    },
     "Axiomatic system": {
       "path": "Main/Axiomatic system.wiki",
       "revid": 10706,
@@ -5311,6 +5317,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-04T14:11:43+00:00",
+  "updated": "2026-11-04T14:22:11+00:00",
   "version": 1
 }
