@@ -852,6 +852,12 @@
       "sha256": "b387da59d4a0361589360cfe32abde937f4906b75e8bbd0c632f6ee24ff136ca",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:University of Oxford": {
+      "path": "Collective/University of Oxford.wiki",
+      "revid": 12635,
+      "sha256": "3c6020a8751c3e5bc84136d518d752592c782b81adb8128a4fdb37611ecfb763",
+      "synced_at": "2026-11-04T07:35:51+00:00"
+    },
     "Collective:University of Texas System": {
       "path": "Collective/University of Texas System.wiki",
       "revid": 11351,
@@ -5209,6 +5215,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-03T22:20:10+00:00",
+  "updated": "2026-11-04T07:35:51+00:00",
   "version": 1
 }
