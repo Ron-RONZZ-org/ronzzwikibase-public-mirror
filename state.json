@@ -606,6 +606,12 @@
       "sha256": "6debf1d9a9aa58d0fad52d24e57945853f8d0f0142467ce510d8e2797f790a31",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Kahneman, Daniel ; Tversky, Amos": {
+      "path": "Collective/Kahneman, Daniel ; Tversky, Amos.wiki",
+      "revid": 12709,
+      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
+      "synced_at": "2026-11-04T13:09:53+00:00"
+    },
     "Collective:Kevin Cheung, Mathieu Lemire": {
       "path": "Collective/Kevin Cheung, Mathieu Lemire.wiki",
       "revid": 10906,
@@ -4818,6 +4824,12 @@
       "sha256": "b92462e0234a8bfb11e23bded9845bd3f91045f1bca920eb2bf685902b43a2a1",
       "synced_at": "2026-10-31T12:12:49+00:00"
     },
+    "Source:Subjective probability: A judgment of representativeness (Scholarly article)": {
+      "path": "Source/Subjective probability_ A judgment of representativeness (Scholarly article).wiki",
+      "revid": 12714,
+      "sha256": "a59be86f667782459b41082bd9bf5c79380b43e9f50fe8e6a296eacda99591c5",
+      "synced_at": "2026-11-04T13:09:53+00:00"
+    },
     "Source:Superior and Inferior Limits of a Sequence - Algebrica (Webpage)": {
       "path": "Source/Superior and Inferior Limits of a Sequence - Algebrica (Webpage).wiki",
       "revid": 11618,
@@ -5281,6 +5293,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-04T11:10:51+00:00",
+  "updated": "2026-11-04T13:09:53+00:00",
   "version": 1
 }
