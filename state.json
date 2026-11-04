@@ -4602,6 +4602,18 @@
       "sha256": "520f46701528c144b90dcb82286a741292da5530023254f427d0ca2af53c16aa",
       "synced_at": "2026-11-04T07:50:04+00:00"
     },
+    "Source:Oxford reference (Webpage)": {
+      "path": "Source/Oxford reference (Webpage).wiki",
+      "revid": 12666,
+      "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
+      "synced_at": "2026-11-04T09:11:19+00:00"
+    },
+    "Source:Oxford reference (Website)": {
+      "path": "Source/Oxford reference (Website).wiki",
+      "revid": 12661,
+      "sha256": "e2b7187d629382df8b9f02b6b54374c5a84fdb39963ab2449f3e8f851adc3211",
+      "synced_at": "2026-11-04T09:11:19+00:00"
+    },
     "Source:Partial Differential Equations: An Introduction (Book)": {
       "path": "Source/Partial Differential Equations_ An Introduction (Book).wiki",
       "revid": 7051,
@@ -5239,6 +5251,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-04T08:36:39+00:00",
+  "updated": "2026-11-04T09:11:19+00:00",
   "version": 1
 }
