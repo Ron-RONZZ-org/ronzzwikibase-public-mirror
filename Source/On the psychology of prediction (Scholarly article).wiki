@@ -1,0 +1,7 @@
+{{ScholarlyArticle}}
+
+== Abstract ==
+
+''from OpenAlex:''
+
+Intuitive predictions follow a judgmental heuristic—representativeness. By this heuristic, people predict the outcome that appears most representative of the evidence. Consequently, intuitive predictions are insensitive to the reliability of the evidence or to the prior probability of the outcome, in violation of the logic of statistical prediction. The hypothesis that people predict by representativeness is supported in a series of studies with both naive and sophisticated subjects. It is shown that the ranking of outcomes by likelihood coincides with their ranking by representativeness and that people erroneously predict rare events and extreme values if these happen to be representative. The experience of unjustified confidence in predictions and the prevalence of fallacious intuitions concerning statistical regression are traced to the representativeness heuristic. In this paper, we explore the rules that determine intuitive predictions and judgments of confidence and contrast these rules to the normative principles of statistical prediction. Two classes of prediction are discussed: category prediction and numerical prediction. In a categorical case, the prediction is given in nominal form, for example, the winner in an election,

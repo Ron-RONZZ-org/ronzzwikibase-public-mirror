@@ -4620,6 +4620,12 @@
       "sha256": "fd3061be7ef1c967e0311e8766ab2f8c4dfde5b1870e24aba48d0758bfa2ce36",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:On the psychology of prediction (Scholarly article)": {
+      "path": "Source/On the psychology of prediction (Scholarly article).wiki",
+      "revid": 12767,
+      "sha256": "8ee727ae1437cf0fa4ab9986174b600fac16a4f29ede0110548a5765e9d61038",
+      "synced_at": "2026-11-04T16:10:22+00:00"
+    },
     "Source:Online Portfolios for Journalists, Bloggers and Writers (Website)": {
       "path": "Source/Online Portfolios for Journalists, Bloggers and Writers (Website).wiki",
       "revid": 8922,
@@ -5335,6 +5341,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-04T15:20:39+00:00",
+  "updated": "2026-11-04T16:10:22+00:00",
   "version": 1
 }
