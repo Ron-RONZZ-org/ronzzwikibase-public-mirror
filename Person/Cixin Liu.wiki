@@ -1,0 +1,7 @@
+{{Person}}
+
+== Biography ==
+
+''from Wikipedia (CC BY-SA 4.0):''
+
+Liu Cixin is a Chinese computer engineer and science fiction writer. In English translations of his works, his name is given as Cixin Liu. He is sometimes called "Da Liu" by his fellow science fiction writers in China.

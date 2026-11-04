@@ -2100,6 +2100,12 @@
       "sha256": "d3c99797d0c2e8b2e7d0a0b7920eb0a5c80a71bd1163f35dca9b7972afa2dad8",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Cixin Liu": {
+      "path": "Person/Cixin Liu.wiki",
+      "revid": 12681,
+      "sha256": "368ec82b50dea7019445eac40d79a49213d034f455cbffd95311049b941c02d5",
+      "synced_at": "2026-11-04T10:12:17+00:00"
+    },
     "Person:Dan Hooper": {
       "path": "Person/Dan Hooper.wiki",
       "revid": 7103,
@@ -4890,6 +4896,12 @@
       "sha256": "0311d90e243f3be68c13d2082783458de88a2149eb53d4dd209d37db3d2db9bd",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:The three body problem (Book)": {
+      "path": "Source/The three body problem (Book).wiki",
+      "revid": 12686,
+      "sha256": "0311d90e243f3be68c13d2082783458de88a2149eb53d4dd209d37db3d2db9bd",
+      "synced_at": "2026-11-04T10:12:17+00:00"
+    },
     "Source:This bold theory says the Big Bang wasn't our beginning": {
       "path": "Source/This bold theory says the Big Bang wasn't our beginning.wiki",
       "revid": 1679,
@@ -5257,6 +5269,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-04T09:36:32+00:00",
+  "updated": "2026-11-04T10:12:17+00:00",
   "version": 1
 }
