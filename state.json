@@ -780,6 +780,12 @@
       "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
       "synced_at": "2026-11-04T11:10:51+00:00"
     },
+    "Collective:Shinkichi Sugimori, Satoshi Watanabe (杉 森 伸 吉, 渡 辺 聡)": {
+      "path": "Collective/Shinkichi Sugimori, Satoshi Watanabe (杉 森 伸 吉, 渡 辺 聡).wiki",
+      "revid": 12728,
+      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
+      "synced_at": "2026-11-04T14:11:43+00:00"
+    },
     "Collective:The Astronomical Journal": {
       "path": "Collective/The Astronomical Journal.wiki",
       "revid": 6874,
@@ -4920,6 +4926,12 @@
       "sha256": "e2b7187d629382df8b9f02b6b54374c5a84fdb39963ab2449f3e8f851adc3211",
       "synced_at": "2026-10-30T21:08:41+00:00"
     },
+    "Source:The role of accident size in the risk-overestimation phenomenon. (Scholarly article)": {
+      "path": "Source/The role of accident size in the risk-overestimation phenomenon. (Scholarly article).wiki",
+      "revid": 12734,
+      "sha256": "104c9e8819851d83509d0da09f0952409f9d3c119a2b12ea0845c79cc36bf408",
+      "synced_at": "2026-11-04T14:11:43+00:00"
+    },
     "Source:The screw calculus and its applications in mechanics (Book)": {
       "path": "Source/The screw calculus and its applications in mechanics (Book).wiki",
       "revid": 8219,
@@ -5299,6 +5311,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-04T13:36:04+00:00",
+  "updated": "2026-11-04T14:11:43+00:00",
   "version": 1
 }

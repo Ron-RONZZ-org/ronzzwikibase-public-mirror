@@ -1,0 +1,7 @@
+{{ScholarlyArticle}}
+
+== Abstract ==
+
+''from OpenAlex:''
+
+This experiment tested the hypothesis that the larger the size of aircraft accidents, the more overestimated the frequency of the accidents, as well as their associated risk. Ten descriptions of fatal accidents in which everyone died, and 30 of non-fatal ones in which several were injured, some seriously, were used as experimental stimuli. The independent variable was the size of fatal accidents. An average of 250 passengers were killed in the large disaster condition, while only 40 were killed in the small one, but the likelihood of death was kept constant across the size conditions. Subjects judged the frequencies of fatal and non-fatal accidents as well as the ratio of the former to the latter, rated risks associated with the airlines, and estimated as a manipulation check the average number of passengers in the stimulus descriptions. Results strongly supported the hypothesis. Subjects in the large disaster condition overestimated the frequency and risk of both fatal and non-fatal accidents. It was concluded that the stronger fear aroused in the large disaster condition heightened the availability of accident information, and resulted in the illusory correlation between the accident size and its associated risk.
