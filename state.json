@@ -2532,6 +2532,12 @@
       "sha256": "6ae8e7724a314bdc90242f95369df9d639c0d7fd5444d336b26c762695bb586e",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:Nick Bostrom": {
+      "path": "Person/Nick Bostrom.wiki",
+      "revid": 12651,
+      "sha256": "850aad5aa95f96d424f043629c627a02bd8dd262c110809ba07ba7d2b10ddb75",
+      "synced_at": "2026-11-04T08:36:39+00:00"
+    },
     "Person:Norbert Thonnard": {
       "path": "Person/Norbert Thonnard.wiki",
       "revid": 6943,
@@ -3845,6 +3851,12 @@
       "revid": 12611,
       "sha256": "0311d90e243f3be68c13d2082783458de88a2149eb53d4dd209d37db3d2db9bd",
       "synced_at": "2026-11-03T20:36:45+00:00"
+    },
+    "Source:Existential Risk Prevention as Global Priority (Scholarly article)": {
+      "path": "Source/Existential Risk Prevention as Global Priority (Scholarly article).wiki",
+      "revid": 12656,
+      "sha256": "bf5fb89bf6a9d8eff8283f542985bb6d01d0773072976a27213b445c7d271d85",
+      "synced_at": "2026-11-04T08:36:39+00:00"
     },
     "Source:Finnegans Wake (Book)": {
       "path": "Source/Finnegans Wake (Book).wiki",
@@ -5227,6 +5239,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-04T08:25:56+00:00",
+  "updated": "2026-11-04T08:36:39+00:00",
   "version": 1
 }

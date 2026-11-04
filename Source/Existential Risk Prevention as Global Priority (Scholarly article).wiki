@@ -1,0 +1,7 @@
+{{ScholarlyArticle}}
+
+== Abstract ==
+
+''from OpenAlex:''
+
+Abstract Existential risks are those that threaten the entire future of humanity. Many theories of value imply that even relatively small reductions in net existential risk have enormous expected value. Despite their importance, issues surrounding human‐extinction risks and related hazards remain poorly understood. In this article, I clarify the concept of existential risk and develop an improved classification scheme. I discuss the relation between existential risks and basic issues in axiology, and show how existential risk reduction (via the maxipok rule) can serve as a strongly action‐guiding principle for utilitarian concerns. I also show how the notion of existential risk suggests a new way of thinking about the ideal of sustainability. Policy Implications Existential risk is a concept that can focus long‐term global efforts and sustainability concerns. The biggest existential risks are anthropogenic and related to potential future technologies. A moral case can be made that existential risk reduction is strictly more important than any other global public good. Sustainability should be reconceptualised in dynamic terms, as aiming for a sustainable trajectory rather than a sustainable state. Some small existential risks can be mitigated today directly (e.g. asteroids) or indirectly (by building resilience and reserves to increase survivability in a range of extreme scenarios) but it is more important to build capacity to improve humanity’s ability to deal with the larg…
