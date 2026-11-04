@@ -1488,6 +1488,12 @@
       "sha256": "166b915fac4ce1661038df3d081ade32199ed0bf504a7789db0615e60285ccae",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Humanity": {
+      "path": "Main/Humanity.wiki",
+      "revid": 12671,
+      "sha256": "bb702d7400a17f42c7b0484d2601a6a508ab8adcabdbda7c5d0ca294cae9a9b1",
+      "synced_at": "2026-11-04T09:36:32+00:00"
+    },
     "Hyperplane": {
       "path": "Main/Hyperplane.wiki",
       "revid": 9796,
@@ -5251,6 +5257,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-04T09:11:19+00:00",
+  "updated": "2026-11-04T09:36:32+00:00",
   "version": 1
 }
