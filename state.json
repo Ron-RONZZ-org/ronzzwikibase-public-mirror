@@ -86,9 +86,9 @@
     },
     "Availability heuristic": {
       "path": "Main/Availability heuristic.wiki",
-      "revid": 12741,
-      "sha256": "e1da5796c28ecb46de23c03c4d1ea72af5f8b6dd7026427426a8f88e841f66d6",
-      "synced_at": "2026-11-04T14:22:11+00:00"
+      "revid": 12743,
+      "sha256": "bdb5b866cd732525d88ed0fa0f899c7252bb18a772a9dc737798679f19a40550",
+      "synced_at": "2026-11-04T14:36:29+00:00"
     },
     "Axiomatic system": {
       "path": "Main/Axiomatic system.wiki",
@@ -2022,6 +2022,12 @@
       "sha256": "2e6e27de3983b51aaa1c484bb9448813ebe81b8e52bc59104d343612575f7460",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Andrew Lavin": {
+      "path": "Person/Andrew Lavin.wiki",
+      "revid": 12748,
+      "sha256": "05b2ab898620827b0e5c21a252a34071b211155256921168e6581147ee343366",
+      "synced_at": "2026-11-04T14:36:29+00:00"
+    },
     "Person:Anton Petrunin": {
       "path": "Person/Anton Petrunin.wiki",
       "revid": 10727,
@@ -3203,6 +3209,12 @@
       "revid": 10866,
       "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
       "synced_at": "2026-10-21T09:16:35+00:00"
+    },
+    "Source:11.2: Heuristics (Webpage)": {
+      "path": "Source/11.2_ Heuristics (Webpage).wiki",
+      "revid": 12753,
+      "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
+      "synced_at": "2026-11-04T14:36:29+00:00"
     },
     "Source:11.2: Introduction to Particle Physics (Webpage)": {
       "path": "Source/11.2_ Introduction to Particle Physics (Webpage).wiki",
@@ -5317,6 +5329,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-04T14:22:11+00:00",
+  "updated": "2026-11-04T14:36:29+00:00",
   "version": 1
 }
