@@ -3582,6 +3582,12 @@
       "sha256": "3e2404aae49ba40c22c5d4e2a2297f6512c76204a4b2254b6c2e486a9c31f416",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Availability: A heuristic for judging frequency and probability (Scholarly article)": {
+      "path": "Source/Availability_ A heuristic for judging frequency and probability (Scholarly article).wiki",
+      "revid": 12719,
+      "sha256": "a59be86f667782459b41082bd9bf5c79380b43e9f50fe8e6a296eacda99591c5",
+      "synced_at": "2026-11-04T13:36:04+00:00"
+    },
     "Source:Avaleht - Eesti Vabariigi Valitsus (Website)": {
       "path": "Source/Avaleht - Eesti Vabariigi Valitsus (Website).wiki",
       "revid": 9094,
@@ -5293,6 +5299,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-04T13:09:53+00:00",
+  "updated": "2026-11-04T13:36:04+00:00",
   "version": 1
 }
