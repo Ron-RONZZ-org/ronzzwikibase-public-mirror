@@ -768,6 +768,12 @@
       "sha256": "43a74030b6fa6a69d27f3b2a57297d15a8359067af4cdee430be6c067f2440e6",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Schroeder, Juliana ; Caruso, Eugene M. ; Epley, Nicholas": {
+      "path": "Collective/Schroeder, Juliana ; Caruso, Eugene M. ; Epley, Nicholas.wiki",
+      "revid": 12695,
+      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
+      "synced_at": "2026-11-04T11:10:51+00:00"
+    },
     "Collective:The Astronomical Journal": {
       "path": "Collective/The Astronomical Journal.wiki",
       "revid": 6874,
@@ -4428,6 +4434,12 @@
       "sha256": "8263510df42e3a5e2f9f6cdeb8376cdbbe9d4212923f7eabc228a1f46b0d8c09",
       "synced_at": "2026-10-22T06:56:09+00:00"
     },
+    "Source:Many hands make overlooked work: Over-claiming of responsibility increases with group size. (Scholarly article)": {
+      "path": "Source/Many hands make overlooked work_ Over-claiming of responsibility increases with group size. (Scholarly article).wiki",
+      "revid": 12700,
+      "sha256": "5cf6e5b94ff674a9851c59e37dc7500de2b0322d58cfeb693398343dbdaab76d",
+      "synced_at": "2026-11-04T11:10:51+00:00"
+    },
     "Source:Matrix manipulation in Python - GeeksforGeeks (Webpage)": {
       "path": "Source/Matrix manipulation in Python - GeeksforGeeks (Webpage).wiki",
       "revid": 9987,
@@ -5269,6 +5281,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-04T10:12:17+00:00",
+  "updated": "2026-11-04T11:10:51+00:00",
   "version": 1
 }

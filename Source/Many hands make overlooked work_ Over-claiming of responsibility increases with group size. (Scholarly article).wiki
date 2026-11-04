@@ -1,0 +1,7 @@
+{{ScholarlyArticle}}
+
+== Abstract ==
+
+''from OpenAlex:''
+
+Logically, group members cannot be responsible for more than 100% of the group's output, yet claims of responsibility routinely sum to more than 100%. This "over-claiming" occurs partly because of egocentrism: People focus on their own contributions, as focal members of the group, more than on others' contributions. Therefore, we predicted that over-claiming would increase with group size because larger groups leave more contributions from others to overlook. In 2 field studies, participants claimed more responsibility as the number of academic authors per article and the number of MBA students per study group increased. As predicted by our theoretical account, this over-claiming bias was reduced when group members considered others' contributions explicitly. Two experiments that directly manipulated group size replicated these results. Members of larger groups may be particularly well advised to consider other members' contributions before considering their own. (PsycINFO Database Record
