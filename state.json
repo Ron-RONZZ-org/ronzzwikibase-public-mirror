@@ -18,6 +18,12 @@
       "sha256": "9679b43dd5ab32154cc228116e0722804c14b659e805db5152f94d107b3ad160",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Anchor and adjust": {
+      "path": "Main/Anchor and adjust.wiki",
+      "revid": 13041,
+      "sha256": "fb253b48e83a03d12e7c1416c99645565e67d8b9fb15d652b222f093f3385fbf",
+      "synced_at": "2026-11-05T17:09:55+00:00"
+    },
     "Angle": {
       "path": "Main/Angle.wiki",
       "revid": 10784,
@@ -5593,6 +5599,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-05T16:50:13+00:00",
+  "updated": "2026-11-05T17:09:55+00:00",
   "version": 1
 }

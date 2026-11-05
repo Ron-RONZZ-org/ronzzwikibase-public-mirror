@@ -1,0 +1,27 @@
+'''Anchor and adjust''' refers to the [[heuristic]] via which one estimates the scale of quantity based on a prior-known base scale.
+
+== Experimental observations ==
+
+''[[Source:Judgement under Uncertainty: Heuristics and Biases (Scholarly article)|Tversky-Kahneman (1978)]]'' described two demonstrations of anchoring and adjustment.
+
+In the 1st one, subjects were asked to estimate:
+
+# Are there more than 10 (group I)/65 (group II) member countries to the UN located in Africa?
+# How many exactly are there?
+
+The median estimate provided by group II subjects (45) is more than twice as group I (25).
+
+In the 2nd one, subjects were asked to estimate:
+
+# GROUP I: product $8\times 7 \times 6 \cdots \times 1$
+# GROUP II: product $1\times 2 \times 3 \cdots \times 1$
+
+The estimate given by group II was 4 times higher than the first, but those answers were a magnitude lower than correct. The attributed reason was that participants estimated the final answer by performing the first few multiplications for an '''anchor value''' and then estimated by '''adjusting''' up from that value, which tend to underestimate as many people lack an accurate intuition on exponential growth and do not adjust adequately.
+
+<ref>{{#cite:Q2710}}</ref>
+
+== Consequences ==
+
+=== Misjudgement of risks ===
+
+''[[Source:On the subjective probability of compound events (Scholarly article)|Bar-Hillel (1973)]]'' concludes that people estimate multi-event probability with single-event probability as anchor and adjust inadequately, resulting in overestimation of [[conjunctive possibility]] and underestimation of [[disjunctive possibility]], which are significantly lower/higher than typical single-trial probability for large conjunctions/disjunctions respectively, following an experiment in which subjects were asked to choose between three probabilistic games of simple, conjunctive, and disjunctive probabilities.<ref>{{#cite:Q2765}}</ref>
