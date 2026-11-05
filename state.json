@@ -1454,9 +1454,9 @@
     },
     "Functional MRI (fMRI)": {
       "path": "Main/Functional MRI (fMRI).wiki",
-      "revid": 13019,
-      "sha256": "64630c2be0cf0fb75cc8cdda8dbc4c2a9c167b1379e7ad84134c02e5df27b85f",
-      "synced_at": "2026-11-05T12:14:24+00:00"
+      "revid": 13039,
+      "sha256": "77b2c0017d419e0f832e8889635c4b63c3080b4ac20d75847e0ad3c1d3367816",
+      "synced_at": "2026-11-05T16:50:13+00:00"
     },
     "Fundamental forces": {
       "path": "Main/Fundamental forces.wiki",
@@ -4848,6 +4848,12 @@
       "sha256": "8ee727ae1437cf0fa4ab9986174b600fac16a4f29ede0110548a5765e9d61038",
       "synced_at": "2026-11-04T16:10:22+00:00"
     },
+    "Source:On the subjective probability of compound events (Scholarly article)": {
+      "path": "Source/On the subjective probability of compound events (Scholarly article).wiki",
+      "revid": 13038,
+      "sha256": "a59be86f667782459b41082bd9bf5c79380b43e9f50fe8e6a296eacda99591c5",
+      "synced_at": "2026-11-05T16:50:13+00:00"
+    },
     "Source:Online Portfolios for Journalists, Bloggers and Writers (Website)": {
       "path": "Source/Online Portfolios for Journalists, Bloggers and Writers (Website).wiki",
       "revid": 8922,
@@ -5587,6 +5593,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-05T16:36:12+00:00",
+  "updated": "2026-11-05T16:50:13+00:00",
   "version": 1
 }

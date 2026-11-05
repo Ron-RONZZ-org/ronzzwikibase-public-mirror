@@ -1,3 +1,4 @@
+[[Category:MRI]]
 [[File:FMRI scan.png|thumbnail|A computer-corrected and coloured fMRI scan of a human brain suffering from a recurrent left temporal glioblastoma multiforme tumour (green)]]
 '''Functional MRI''' is a [[magnetic resonance imaging]] technique capable of detecting local tissue oxygen levels, a surrogate marker for neural activity level.<ref>{{#cite:Q2755}}</ref>
 
