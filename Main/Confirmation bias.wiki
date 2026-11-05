@@ -1,0 +1,11 @@
+[[Category:Cognitive bias]]
+[[File:Selection bias.png|thumbnail|In the age of internet, information is more available than ever for many. The liberty of choice on one's sources, described as [[the widening context]], may contribute to confirmation bias, when one consciously/subconsciously choose to read overwhelmingly sources favourable to one's opinion.]]
+
+'''Confirmation bias''' is a form of [[cognitive bias]].
+
+It describes the human tendency to
+
+* Accept more readily and assign more importance to arguments and facts supportive of one's opinion,
+* Ignore arguments or facts that undermines one's [[statement]], or minimise their significance.
+
+<ref>{{#cite:Q2747}}</ref>
