@@ -720,6 +720,12 @@
       "sha256": "d824fe2a1ceedcd5afdb68e024859d5ce22beec8c9726903ffe9dfb8bfccd68d",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:National Institute of Standards and Technology": {
+      "path": "Collective/National Institute of Standards and Technology.wiki",
+      "revid": 12793,
+      "sha256": "491dbeecfe04d0a574eb052856871691c50f0c6c4c5f795e41f36d8ee452cee9",
+      "synced_at": "2026-11-05T03:12:33+00:00"
+    },
     "Collective:New College of Florida": {
       "path": "Collective/New College of Florida.wiki",
       "revid": 11341,
@@ -851,6 +857,12 @@
       "revid": 8057,
       "sha256": "91f8c4c1826e92ae9ebbd6f912cf48e96f041b6e7dd6dd87fa8a2062fe6cc934",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Collective:United States Department of Commerce": {
+      "path": "Collective/United States Department of Commerce.wiki",
+      "revid": 12788,
+      "sha256": "0e5c9db9d4b398433a906937277210f2cead8023c212de07d90a678e004cf63a",
+      "synced_at": "2026-11-05T03:12:33+00:00"
     },
     "Collective:United States Department of Energy": {
       "path": "Collective/United States Department of Energy.wiki",
@@ -1199,6 +1211,12 @@
       "revid": 6139,
       "sha256": "9237826a6b9037409d0c465d44a0575960d3d59dbc2d168160c5df3891a91ff7",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "FOSS:Cloudflare One (Formerly WARP)": {
+      "path": "FOSS/Cloudflare One (Formerly WARP).wiki",
+      "revid": 12823,
+      "sha256": "b89fc7ca9f94e85175f815660f793da52c87cf4c26ca6bff550765118d3740dc",
+      "synced_at": "2026-11-05T03:12:33+00:00"
     },
     "FOSS:Containerd": {
       "path": "FOSS/Containerd.wiki",
@@ -1736,9 +1754,9 @@
     },
     "Main Page": {
       "path": "Main/Main Page.wiki",
-      "revid": 10591,
-      "sha256": "7dee6d9fc20a96c756b482d55297480a907e3fac56e016373c224535a4ae03c9",
-      "synced_at": "2026-10-19T12:24:06+00:00"
+      "revid": 12811,
+      "sha256": "4bfbe9486d2011e24638b8a5b326057f648a6ba79423e7ca50ea6d5107113733",
+      "synced_at": "2026-11-05T03:12:33+00:00"
     },
     "Maintenance learning": {
       "path": "Main/Maintenance learning.wiki",
@@ -1829,6 +1847,12 @@
       "revid": 11396,
       "sha256": "b8cddda2df671016af819e5a16da2997d70a06e8aee83351f359afa36a80afb3",
       "synced_at": "2026-10-27T11:31:52+00:00"
+    },
+    "Network proxy": {
+      "path": "Main/Network proxy.wiki",
+      "revid": 12817,
+      "sha256": "911ed845fec4e32c020b1353ca6630c45287c7d960eb96e25947b4a5bf774cd1",
+      "synced_at": "2026-11-05T03:12:33+00:00"
     },
     "Neutron decay": {
       "path": "Main/Neutron decay.wiki",
@@ -4578,6 +4602,12 @@
       "sha256": "5d0afc6091ec7833892e49760a2bca592fff0eb607617066c8449fe89bbd8597",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:NIST Computer Security Resource Center - CSRC (Website)": {
+      "path": "Source/NIST Computer Security Resource Center - CSRC (Website).wiki",
+      "revid": 12798,
+      "sha256": "34e11399982c710a9bd9cba5463cf078e20b144eda2ea0599bc9ae562b65fc92",
+      "synced_at": "2026-11-05T03:12:33+00:00"
+    },
     "Source:Narrative CV of Joseph Angus Corneli (Document)": {
       "path": "Source/Narrative CV of Joseph Angus Corneli (Document).wiki",
       "revid": 11367,
@@ -4769,6 +4799,12 @@
       "revid": 10385,
       "sha256": "c6d9cceaf9b187e8d48ab02ab5b8ed04e593d9d6d15ef06b279a43352cba88e2",
       "synced_at": "2026-10-18T11:24:20+00:00"
+    },
+    "Source:Proxy - Glossary - CSRC (Webpage)": {
+      "path": "Source/Proxy - Glossary - CSRC (Webpage).wiki",
+      "revid": 12803,
+      "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
+      "synced_at": "2026-11-05T03:12:33+00:00"
     },
     "Source:Prufrock and Other Observations (Book)": {
       "path": "Source/Prufrock and Other Observations (Book).wiki",
@@ -5365,6 +5401,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-05T02:49:33+00:00",
+  "updated": "2026-11-05T03:12:33+00:00",
   "version": 1
 }

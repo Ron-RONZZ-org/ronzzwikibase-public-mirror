@@ -1,0 +1,10 @@
+[[Category:Network]]
+[[File:Proxy-concept-en.svg|thumbnail|]]
+In [[applied computing]], a '''proxy''' relays [[network traffic]] between [[requester]] and destination [[server]], which may
+
+* Encrypt the traffic,
+* Perform validation/authentification of requester/server
+* Scan and filter content,
+* Mask requester/server details to server/requester
+
+<ref>{{#cite:Q2718}}</ref>
