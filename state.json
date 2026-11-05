@@ -110,9 +110,9 @@
     },
     "Bias": {
       "path": "Main/Bias.wiki",
-      "revid": 12926,
-      "sha256": "cb7313df62409ef0d0bed01a189bb84f5092732d60a410a6608e613b96cd6a5a",
-      "synced_at": "2026-11-05T08:27:25+00:00"
+      "revid": 12932,
+      "sha256": "66885e0965497081325e27f0a360ca4b1b4eb50ea898d8829120ca72e0eaff7f",
+      "synced_at": "2026-11-05T08:37:40+00:00"
     },
     "Binary operation": {
       "path": "Main/Binary operation.wiki",
@@ -455,6 +455,12 @@
       "revid": 12482,
       "sha256": "aeb946def9e5c7122b1a0a859ee25cca215af1c75ebe6cd1ac3f524e673a2249",
       "synced_at": "2026-11-03T13:36:23+00:00"
+    },
+    "Collective:Diana Daly and Kainan Jarrette": {
+      "path": "Collective/Diana Daly and Kainan Jarrette.wiki",
+      "revid": 12942,
+      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
+      "synced_at": "2026-11-05T08:37:40+00:00"
     },
     "Collective:Docker, Inc.": {
       "path": "Collective/Docker, Inc.wiki",
@@ -875,6 +881,12 @@
       "revid": 11814,
       "sha256": "39c3c05775fef2639103f08403975b53eff2507627d14b17e3c86ddecb5530d9",
       "synced_at": "2026-10-30T21:08:41+00:00"
+    },
+    "Collective:University of Arizona": {
+      "path": "Collective/University of Arizona.wiki",
+      "revid": 12937,
+      "sha256": "213fecbc5909e93f7db49deeb1723a4853fcb3c884883be5cffde72996cad7fd",
+      "synced_at": "2026-11-05T08:37:40+00:00"
     },
     "Collective:University of California": {
       "path": "Collective/University of California.wiki",
@@ -3234,6 +3246,12 @@
       "sha256": "f9ed137d4baaae6e411fa7e7ec4dfdc30e37fe646667c5b52806cc891f245c8b",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:1.3: Cognitive Bias (Webpage)": {
+      "path": "Source/1.3_ Cognitive Bias (Webpage).wiki",
+      "revid": 12947,
+      "sha256": "5a9ab215450945e1210e99824540f1bf4a1491b7022eab86b3bb1ded9679e5f0",
+      "synced_at": "2026-11-05T08:37:40+00:00"
+    },
     "Source:1.3: Dot Product (Webpage)": {
       "path": "Source/1.3_ Dot Product (Webpage).wiki",
       "revid": 10883,
@@ -5479,6 +5497,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-05T08:27:25+00:00",
+  "updated": "2026-11-05T08:37:40+00:00",
   "version": 1
 }

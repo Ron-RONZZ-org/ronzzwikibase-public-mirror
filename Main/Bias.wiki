@@ -2,5 +2,4 @@ Bias is the deviation of judgement from available facts.
 
 == Forms ==
 
-* [[Selection bias]]
-* [[Language bias]]
+* [[Cognitive bias]]
