@@ -1,3 +1,4 @@
+[[Category:Heuristic]]
 '''Availability heuristic''' is an observed [[cognitive heuristic]] through which the frequency of events are estimated by the number of of instances one can readily bring to mind, based on the unreliable assumption that the two are proportional, i.e.,
 
 $$
@@ -38,7 +39,7 @@ The participants were then asked to estiamte the frequency of appearance of each
 
 == Significance ==
 
-Via availability heuristics, one is likely to overestimate the frequency of '''extremities'''. 
+Via availability heuristics, one is likely to overestimate the frequency of '''extremities''', as those tend to be more memorable and more available to the human mind.
 
 [[File:Airplane accident size frequency illusory correlation.png|thumbnail|As seen, despite being read accident records where numbers of fatalities were the only difference, the estimations on accident frequency given by the group read higher fatality numbers were significantly higher, even for non-fatal accidents for which both groups had the exact same accident descriptions with the same number of injuries.]]
 For instance, people often overestimate the frequency of extreme accidents. In ''[[Source:The role of accident size in the risk-overestimation phenomenon. (Scholarly article)|Sugimori-Watanabe (1994)]]'', participants were divided in to two groups. Each participant read the profile of a fictious airline and listened to the accidents record of the airline over the last 50,000 flights without taking notes. In the version read to group A (small-condition), the average number of fatality per accident was 40, while in the version read to group B, it was 250 (large-condition). When participants were later asked to estimate the frequency of fatal and non-fatal accidents over the last 50,000 flights, the estimation given by group B was about 2 times as high as group A, despite both having been read an accident record describing 10 non-fatal accidents and 30 fatal accidents where only the numbers of fatalities in fatal accidents were different.<ref>{{#cite:Q2705}}</ref>

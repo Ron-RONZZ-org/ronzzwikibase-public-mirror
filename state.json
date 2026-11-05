@@ -86,9 +86,9 @@
     },
     "Availability heuristic": {
       "path": "Main/Availability heuristic.wiki",
-      "revid": 12743,
-      "sha256": "bdb5b866cd732525d88ed0fa0f899c7252bb18a772a9dc737798679f19a40550",
-      "synced_at": "2026-11-04T14:36:29+00:00"
+      "revid": 12924,
+      "sha256": "614fe4ab11bf8104260f0c1aa5b57f291b8bb47c60711676af3f47228f1112b3",
+      "synced_at": "2026-11-05T08:14:14+00:00"
     },
     "Axiomatic system": {
       "path": "Main/Axiomatic system.wiki",
@@ -917,6 +917,12 @@
       "revid": 9396,
       "sha256": "28492ac6ce60fdaebc39a3f4ea035cc45609f580b774b154b8052d1c38961f1e",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Collective:Ward Edwards, Paul J. Hoffman, and Raymond B. Cattell": {
+      "path": "Collective/Ward Edwards, Paul J. Hoffman, and Raymond B. Cattell.wiki",
+      "revid": 12911,
+      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
+      "synced_at": "2026-11-05T08:14:14+00:00"
     },
     "Collective:Westview Press": {
       "path": "Collective/Westview Press.wiki",
@@ -3044,9 +3050,9 @@
     },
     "Representativeness heuristic": {
       "path": "Main/Representativeness heuristic.wiki",
-      "revid": 12768,
-      "sha256": "889730773f0a4d7ca9cf6fd048beab6fd8b6c8995f2e9d43237e19d3f5745726",
-      "synced_at": "2026-11-04T21:49:31+00:00"
+      "revid": 12922,
+      "sha256": "7eb430f030c60685f7acb9866bfcb61947f624c2a0280674a81653710005dfda",
+      "synced_at": "2026-11-05T08:14:14+00:00"
     },
     "Rest energy": {
       "path": "Main/Rest energy.wiki",
@@ -4007,6 +4013,18 @@
       "revid": 8883,
       "sha256": "2ec058f873a909ffb0cf385e14b710db31939535a32ae3bb0fd27d24399c3d6f",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:Formal representation of human judgement (Scholarly article)": {
+      "path": "Source/Formal representation of human judgement (Scholarly article).wiki",
+      "revid": 12918,
+      "sha256": "a59be86f667782459b41082bd9bf5c79380b43e9f50fe8e6a296eacda99591c5",
+      "synced_at": "2026-11-05T08:14:14+00:00"
+    },
+    "Source:Formal representation of human judgment (Scholarly article)": {
+      "path": "Source/Formal representation of human judgment (Scholarly article).wiki",
+      "revid": 12919,
+      "sha256": "5a81926dd362d9b6b4dab459ffebdb7e1db2aa01624d0a833b559bbf4a62c0dd",
+      "synced_at": "2026-11-05T08:14:14+00:00"
     },
     "Source:From AI foundations to Large Language Models: A survey on challenges and opportunities in collaborative robotics (Scholarly article)": {
       "path": "Source/From AI foundations to Large Language Models_ A survey on challenges and opportunities in collaborative robotics (Scholarly article).wiki",
@@ -5455,6 +5473,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-05T07:49:52+00:00",
+  "updated": "2026-11-05T08:14:14+00:00",
   "version": 1
 }

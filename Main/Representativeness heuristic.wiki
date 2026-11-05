@@ -1,3 +1,4 @@
+[[Category:Heuristic]]
 '''Representativeness heuristic''' is a [[heuristic]] via which one
 
 * Estimates the probabilities of outcomes based on their levels of similarity to expected typical value, or
@@ -26,6 +27,10 @@ Although statistically there are many more farmers than librarians in most locat
 [[File:Representative heuristic v base rate heuristic.png|thumbnail| The solid line represents the expected outcome if oarticipants to ''[[Source:On the psychology of prediction (Scholarly article)|Kahneman-Tversky (1973-2)]]'' fully considered base-rate probabilities under [[Baye's rule]]. Surprisingly, the experimental results were instead close to the identity line (dashed), the expected outcome if participants completely ignored base-rate]]
 
 ''[[Source:On the psychology of prediction (Scholarly article)|Kahneman-Tversky (1973-2)]]'' further empirically suggests that people favour [[availability heuristic]] to [[base-rate heuristic]] Researchers divided about 170 participants into two groups, and presented one group with a 100-people pool in which 30% are engineers and 70 % are lawyers ('low prior probability group (LP)'), and the other with a 100-people pool in which 70% are engineers and 30% lawyers (high prior probability group (HP)'). In both cases, when asked to estimate the probability each of 5 hypothetical profiles are engineers, the average estimations given by the two groups were comparable (LP 50%, HP 55%).<ref>{{#cite:Q2712}}</ref>
+
+=== Ignorance to sample size ===
+
+In ''[[Source:Formal representation of human judgement (Scholarly article)|Edwards-Hoffman-Cartell (1968)]]'', researchers asked participants to estimate that knowing an urn contained $\frac{2}{3}$ of balls in one colour and $\frac{1}{3}$ of balls in another, whether someone who drew 4 red and one white ball or someone who drew 12 red and 8 white are more sure whether the red balls or white balls accounted for the $\frac{2}{3}$ of the balls. The majority of the participants answered the former, despite statistically the second being twice-as-strong evidence that red balls accounted for $\frac{2}{3}$ of the balls in the urn due to its significantly larger sample size.<ref>{{#cite:Q2742}}</ref>
 
 === Rapid reaction ===
 
