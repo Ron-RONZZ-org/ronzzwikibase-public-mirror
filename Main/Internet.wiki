@@ -1,0 +1,9 @@
+[[Category:Network]]
+[[File:Internet-map-1024.jpg|thumbnail|An artistic illustration of the major nodes and connections between them on the internet as of 2005]]
+The Internet is a global [[computer network]].
+
+It connects organisations, public and private, as well as individuals across the world via protocols specified by '''the Internet Architecture Board (IAB)'''. 
+
+'''The Internet Corporation for Assigned Names and Numbers (ICANN)''' coordinates address and namespace assignment.
+
+<ref>{{#cite:Q2722}}</ref>
