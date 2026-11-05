@@ -2682,6 +2682,12 @@
       "sha256": "d3c99797d0c2e8b2e7d0a0b7920eb0a5c80a71bd1163f35dca9b7972afa2dad8",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:Maya Bar-Hillel": {
+      "path": "Person/Maya Bar-Hillel.wiki",
+      "revid": 13033,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-05T16:36:12+00:00"
+    },
     "Person:Michael Corral": {
       "path": "Person/Michael Corral.wiki",
       "revid": 10878,
@@ -5581,6 +5587,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-05T12:29:44+00:00",
+  "updated": "2026-11-05T16:36:12+00:00",
   "version": 1
 }
