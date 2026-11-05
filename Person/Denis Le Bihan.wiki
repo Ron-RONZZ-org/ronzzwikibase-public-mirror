@@ -1,0 +1,7 @@
+{{Person}}
+
+== Biography ==
+
+''from Wikipedia (CC BY-SA 4.0):''
+
+Denis Le Bihan is a medical doctor, physicist, member of the Institut de France, member of the French Academy of Technologies and director since 2007 of NeuroSpin, an institution of the Atomic Energy and Alternative Energy Commission (CEA) in Saclay, dedicated to the study of the brain by magnetic resonance imaging (MRI) with a very high magnetic field. Denis Le Bihan has received international recognition for his outstanding work, introducing new imaging methods, particularly for the study of the human brain, as evidenced by the many international awards he has received, such as the Gold Medal of the International Society of Magnetic Resonance in Medicine (2001), the coveted Lounsbery Prize, the Louis D. Prize from the Institut de France, the prestigious Honda Prize (2012), the Louis-Jeantet Prize (2014), the Rhein Foundation Award (2021). His work has focused on the introduction, development and application of highly innovative methods, notably diffusion MRI.

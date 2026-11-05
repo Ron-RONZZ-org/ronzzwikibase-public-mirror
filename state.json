@@ -2286,6 +2286,12 @@
       "sha256": "a50a2e5c4b1fb5a5b04030814bffa82ff834931328df02197ad9ea575f7d5a10",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Denis Le Bihan": {
+      "path": "Person/Denis Le Bihan.wiki",
+      "revid": 12997,
+      "sha256": "eab47ff4c7e6347be4d9d003808c51bcc3d1136dd62d8556d25696afde5b9da6",
+      "synced_at": "2026-11-05T10:20:43+00:00"
+    },
     "Person:Douglas Clowe": {
       "path": "Person/Douglas Clowe.wiki",
       "revid": 6947,
@@ -4632,6 +4638,12 @@
       "sha256": "83346d392660024aabf1821abdd8b56fd6f26327e12a6907ab4632d2718ff126",
       "synced_at": "2026-10-29T15:11:28+00:00"
     },
+    "Source:Looking into the functional architecture of the brain with diffusion MRI (Scholarly article)": {
+      "path": "Source/Looking into the functional architecture of the brain with diffusion MRI (Scholarly article).wiki",
+      "revid": 13006,
+      "sha256": "a59be86f667782459b41082bd9bf5c79380b43e9f50fe8e6a296eacda99591c5",
+      "synced_at": "2026-11-05T10:20:43+00:00"
+    },
     "Source:Légifrance - Le service public de la diffusion du droit (Website)": {
       "path": "Source/Légifrance - Le service public de la diffusion du droit (Website).wiki",
       "revid": 9060,
@@ -5551,6 +5563,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-05T10:10:38+00:00",
+  "updated": "2026-11-05T10:20:43+00:00",
   "version": 1
 }
