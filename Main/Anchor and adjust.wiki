@@ -25,3 +25,7 @@ The estimate given by group II was 4 times higher than the first, but those answ
 === Misjudgement of risks ===
 
 ''[[Source:On the subjective probability of compound events (Scholarly article)|Bar-Hillel (1973)]]'' concludes that people estimate multi-event probability with single-event probability as anchor and adjust inadequately, resulting in overestimation of [[conjunctive possibility]] and underestimation of [[disjunctive possibility]], which are significantly lower/higher than typical single-trial probability for large conjunctions/disjunctions respectively, following an experiment in which subjects were asked to choose between three probabilistic games of simple, conjunctive, and disjunctive probabilities.<ref>{{#cite:Q2765}}</ref>
+
+=== Quantitative overconfidence ===
+
+Inadequate adjusting from anchor can cause overconfidence in mean-value estimations. The [[subjective probability distribution]]s most subjects constructed in ''[[Source:A progress report on the training of probability assessors (Scholarly article)|Alpert-Haiffa (1968/1982)]]'' had an overly narrow 98% confidence interval: corresponding to on average, a 70% confidence interval in reality.<ref>{{#cite:Q2768}}</ref>

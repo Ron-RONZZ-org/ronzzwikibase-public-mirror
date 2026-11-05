@@ -20,9 +20,9 @@
     },
     "Anchor and adjust": {
       "path": "Main/Anchor and adjust.wiki",
-      "revid": 13041,
-      "sha256": "fb253b48e83a03d12e7c1416c99645565e67d8b9fb15d652b222f093f3385fbf",
-      "synced_at": "2026-11-05T17:09:55+00:00"
+      "revid": 13058,
+      "sha256": "da826c93cc82840081e4e5af71e45e5c768794d0a22889b673c78f052b8aa2d0",
+      "synced_at": "2026-11-05T18:49:57+00:00"
     },
     "Angle": {
       "path": "Main/Angle.wiki",
@@ -695,6 +695,18 @@
       "revid": 3504,
       "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Collective:M. Alpert and H.": {
+      "path": "Collective/M. Alpert and H.wiki",
+      "revid": 13050,
+      "sha256": "1066258fc780e7213e38e2ab3c27a560d5ac3b1e2dc2c6d566c11079604ad3a8",
+      "synced_at": "2026-11-05T18:49:57+00:00"
+    },
+    "Collective:M. Alpert and H. Raiffa": {
+      "path": "Collective/M. Alpert and H. Raiffa.wiki",
+      "revid": 13049,
+      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
+      "synced_at": "2026-11-05T18:49:57+00:00"
     },
     "Collective:MZLA Technologies Corporation": {
       "path": "Collective/MZLA Technologies Corporation.wiki",
@@ -3696,6 +3708,12 @@
       "sha256": "d71d7e07a856c4a714dc2c04297928c41eaf0bb759f83e5c6477bc14e3a9c44c",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:A progress report on the training of probability assessors (Scholarly article)": {
+      "path": "Source/A progress report on the training of probability assessors (Scholarly article).wiki",
+      "revid": 13056,
+      "sha256": "4f2511b6c7dc003565a1538e7c976f631097097156614fd7b152061de980abc0",
+      "synced_at": "2026-11-05T18:49:57+00:00"
+    },
     "Source:ANR (Website)": {
       "path": "Source/ANR (Website).wiki",
       "revid": 11090,
@@ -5599,6 +5617,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-05T17:09:55+00:00",
+  "updated": "2026-11-05T18:49:57+00:00",
   "version": 1
 }

@@ -1,0 +1,7 @@
+{{ScholarlyArticle}}
+
+== Abstract ==
+
+''from OpenAlex:''
+
+In prescriptive analyses of decisions under uncertainty, decision makers and their expert advisors are often called upon to assess judgmental probability distributions of quantities whose values are unknown to them. This chapter discusses some empirical findings addressed to such questions as: How well can untrained individuals perform such assessments? Do they manifest certain recurrent biases? How can assessors be calibrated? How can they be taught to become better assessors? This chapter deals only with assessments of uncertain quantities that can be thought of as taking on a continuum of possible values. Hence we shall work exclusively with univariate density functions and their cumulative distribution functions. Several different procedures are available for assessing probability distributions of continuous, univariate random variables, but we shall consider only one particular procedure that we and our colleagues have often used in practice. It is called the method of direct fractile assessments.
