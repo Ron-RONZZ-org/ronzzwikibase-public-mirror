@@ -5406,6 +5406,12 @@
       "sha256": "2e71ac046eafdb39341a00b3b8afa12dc7057b770de3edab4c4145dfc7ddb77c",
       "synced_at": "2026-10-31T13:35:08+00:00"
     },
+    "Stimulus generalisation bias": {
+      "path": "Main/Stimulus generalisation bias.wiki",
+      "revid": 12982,
+      "sha256": "bf41ca62c936dcb7bc79fbcd50c06f131958507ed060ac601b15a2b99224b4a4",
+      "synced_at": "2026-11-05T09:49:46+00:00"
+    },
     "Strangeness": {
       "path": "Main/Strangeness.wiki",
       "revid": 11960,
@@ -5533,6 +5539,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-05T09:36:05+00:00",
+  "updated": "2026-11-05T09:49:46+00:00",
   "version": 1
 }

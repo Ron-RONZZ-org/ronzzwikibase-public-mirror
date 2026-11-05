@@ -1,0 +1,11 @@
+[[Category:Cognitive bias]]
+'''Stimulus generalisation bias''' describes the human [[cognitive bias]] to over-generalise previously made mental associations.
+
+== Examples ==
+
+=== Similar faces bring trust ===
+
+[[File:Stimulus generalisation bias.png|thumbnail|When 91 subjects were asked whether they would trust a new collaborator in a game of trust, new collaborators whose faces resemble a previously trust-worthy collaborator were favoured, whereas new collaborators whose faces resemble a collaborator who previously cheated were penalised.]]
+[[File:Stimulus generalisation bias brain activity.png|thumbnail|[[Blood‑oxygen‑level‑dependent signal (BOLD)|BOLD]] from [[fMRI]] scans revealed physiological underlying of this phenomenon.]]
+
+Experimental results from ''[[Source:Stimulus generalization as a mechanism for learning to trust (Scholarly article)|FeldmanHall et al. (2018)]]'' suggests that people tend to trust more readily strangers who resembles a known person of trust, due to mental association previously made between trust-worthiness and facial features of the person of trust.
