@@ -86,9 +86,9 @@
     },
     "Availability heuristic": {
       "path": "Main/Availability heuristic.wiki",
-      "revid": 12924,
-      "sha256": "614fe4ab11bf8104260f0c1aa5b57f291b8bb47c60711676af3f47228f1112b3",
-      "synced_at": "2026-11-05T08:14:14+00:00"
+      "revid": 13024,
+      "sha256": "c68e9908d8919b623c7decbfbd3ca09fd50d34ae6d43731c4f75ed352ca8a3a4",
+      "synced_at": "2026-11-05T12:14:24+00:00"
     },
     "Axiomatic system": {
       "path": "Main/Axiomatic system.wiki",
@@ -1452,6 +1452,12 @@
       "sha256": "48ab6cedf7051eec6a20ec56972314dba431b3664a6501314fd9cc731da36a29",
       "synced_at": "2026-10-29T19:49:51+00:00"
     },
+    "Functional MRI (fMRI)": {
+      "path": "Main/Functional MRI (fMRI).wiki",
+      "revid": 13019,
+      "sha256": "64630c2be0cf0fb75cc8cdda8dbc4c2a9c167b1379e7ad84134c02e5df27b85f",
+      "synced_at": "2026-11-05T12:14:24+00:00"
+    },
     "Fundamental forces": {
       "path": "Main/Fundamental forces.wiki",
       "revid": 12026,
@@ -1931,6 +1937,12 @@
       "revid": 9247,
       "sha256": "800d3c71c79a22cba18bb118ce89b422eee52c1f22e5825e48702a0cb7b7161c",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Motivated reasoning": {
+      "path": "Main/Motivated reasoning.wiki",
+      "revid": 13025,
+      "sha256": "26c6fe82be490f4c6f9651b1a1d1294d8d9c7952336fd870cdc1ba2d1d2d8205",
+      "synced_at": "2026-11-05T12:14:24+00:00"
     },
     "Multidimensional interpolation": {
       "path": "Main/Multidimensional interpolation.wiki",
@@ -5438,9 +5450,9 @@
     },
     "Stimulus generalisation bias": {
       "path": "Main/Stimulus generalisation bias.wiki",
-      "revid": 12982,
-      "sha256": "bf41ca62c936dcb7bc79fbcd50c06f131958507ed060ac601b15a2b99224b4a4",
-      "synced_at": "2026-11-05T09:49:46+00:00"
+      "revid": 13023,
+      "sha256": "5945fa3d1edfb7b60576f08e12cb882ac6dad8447e05233062e2f63143f63292",
+      "synced_at": "2026-11-05T12:14:24+00:00"
     },
     "Strangeness": {
       "path": "Main/Strangeness.wiki",
@@ -5569,6 +5581,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-05T11:49:08+00:00",
+  "updated": "2026-11-05T12:14:24+00:00",
   "version": 1
 }

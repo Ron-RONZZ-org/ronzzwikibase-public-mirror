@@ -1,5 +1,5 @@
 [[Category:Heuristic]]
-'''Availability heuristic''' is an observed [[cognitive heuristic]] through which the frequency of events are estimated by the number of of instances one can readily bring to mind, based on the unreliable assumption that the two are proportional, i.e.,
+'''Availability heuristic''' is a [[heuristic]] via which the frequency of events are estimated by the number of of instances one can readily bring to mind, based on the unreliable assumption that the two are proportional, i.e.,
 
 $$
 p(X) \propto |\{x \in X|x \text{ is known}\}|

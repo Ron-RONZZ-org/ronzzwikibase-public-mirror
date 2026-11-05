@@ -1,0 +1,6 @@
+[[File:FMRI scan.png|thumbnail|A computer-corrected and coloured fMRI scan of a human brain suffering from a recurrent left temporal glioblastoma multiforme tumour (green)]]
+'''Functional MRI''' is a [[magnetic resonance imaging]] technique capable of detecting local tissue oxygen levels, a surrogate marker for neural activity level.<ref>{{#cite:Q2755}}</ref>
+
+== mw-fMRI ==
+
+'''mw-fMRI''', or movie-watching-fMRI, employs naturalistic and ecologically valid stimuli to mimic real-life experience during the scan, allowing the probing of neural activity involving emotion and cognition.<ref>{{#cite:Q2755}}</ref>

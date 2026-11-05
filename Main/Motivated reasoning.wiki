@@ -1,0 +1,8 @@
+'''Motivated-reasoning''' is a form of [[cognitive bias]]. 
+
+It describes the human tendency to interpret phenomenons and attribute causes based on personal desire.<ref>{{#cite:Q2747}}</ref>
+
+== Example ==
+
+[[File:Test failure.png|thumbnail]]
+''[[Source:1.3: Cognitive Bias (Webpage)|Daly-Jarrette (2026)]] remarks that students often attribute unsatisfactory performance on exams to external factors (e.g., condition of the exam room, the topics that the exam was concentrated on), instead of internal factor, such as their lack of preparation or limited capacity, as the latter is detrimental to their [[self-image]].<ref>{{#cite:Q2747}}</ref>
