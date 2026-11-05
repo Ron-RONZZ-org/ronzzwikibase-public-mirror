@@ -1,0 +1,7 @@
+{{ScholarlyArticle}}
+
+== Abstract ==
+
+''from OpenAlex:''
+
+Advances in computational neuroimaging techniques have expanded the armamentarium of imaging tools available for clinical applications in clinical neuroscience. Non-invasive, in vivo brain MRI structural and functional network mapping has been used to identify therapeutic targets, define eloquent brain regions to preserve, and gain insight into pathological processes and treatments as well as prognostic biomarkers. These tools have the real potential to inform patient-specific treatment strategies. Nevertheless, a realistic appraisal of clinical utility is needed that balances the growing excitement and interest in the field with important limitations associated with these techniques. Quality of the raw data, minutiae of the processing methodology, and the statistical models applied can all impact on the results and their interpretation. A lack of standardization in data acquisition and processing has also resulted in issues with reproducibility. This limitation has had a direct impact on the reliability of these tools and ultimately, confidence in their clinical use. Advances in MRI technology and computational power as well as automation and standardization of processing methods, including machine learning approaches, may help address some of these issues and make these tools more reliable in clinical use. In this review, we will highlight the current clinical uses of MRI connectomics in the diagnosis and treatment of neurological disorders; balancing emerging applications…
