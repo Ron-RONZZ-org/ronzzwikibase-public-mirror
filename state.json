@@ -5034,6 +5034,12 @@
       "sha256": "881980564e0758dfc9c8a811ca544320f0ba7c77c3b41d7d74c7db960072e5ee",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Stimulus generalization as a mechanism for learning to trust (Scholarly article)": {
+      "path": "Source/Stimulus generalization as a mechanism for learning to trust (Scholarly article).wiki",
+      "revid": 12971,
+      "sha256": "c127f5c93f371ef30730feb8f57fb1cbfe3f65ed09cafc1b6764c12fcb406bfc",
+      "synced_at": "2026-11-05T09:36:05+00:00"
+    },
     "Source:Stream of Consciousness (Webpage)": {
       "path": "Source/Stream of Consciousness (Webpage).wiki",
       "revid": 8715,
@@ -5527,6 +5533,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-05T09:22:44+00:00",
+  "updated": "2026-11-05T09:36:05+00:00",
   "version": 1
 }

@@ -1,0 +1,7 @@
+{{ScholarlyArticle}}
+
+== Abstract ==
+
+''from OpenAlex:''
+
+How do humans learn to trust unfamiliar others? Decisions in the absence of direct knowledge rely on our ability to generalize from past experiences and are often shaped by the degree of similarity between prior experience and novel situations. Here, we leverage a stimulus generalization framework to examine how perceptual similarity between known individuals and unfamiliar strangers shapes social learning. In a behavioral study, subjects play an iterative trust game with three partners who exhibit highly trustworthy, somewhat trustworthy, or highly untrustworthy behavior. After learning who can be trusted, subjects select new partners for a second game. Unbeknownst to subjects, each potential new partner was parametrically morphed with one of the three original players. Results reveal that subjects prefer to play with strangers who implicitly resemble the original player they previously learned was trustworthy and avoid playing with strangers resembling the untrustworthy player. These decisions to trust or distrust strangers formed a generalization gradient that converged toward baseline as perceptual similarity to the original player diminished. In a second imaging experiment we replicate these behavioral gradients and leverage multivariate pattern similarity analyses to reveal that a tuning profile of activation patterns in the amygdala selectively captures increasing perceptions of untrustworthiness. We additionally observe that within the caudate adaptive choices to tru…
