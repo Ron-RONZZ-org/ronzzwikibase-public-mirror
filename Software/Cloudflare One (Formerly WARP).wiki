@@ -1,5 +1,43 @@
-{{FOSS}}
-
+{{software}}
 == Overview ==
 
-Cloudflare's internet proxy desktop client, free for individual use
+Cloudflare's internet proxy desktop client, free for individual use.
+
+[https://developers.cloudflare.com/cloudflare-one/team-and-resources/devices/cloudflare-one-client/ Official presentation]
+
+== Installation ==
+
+See [https://developers.cloudflare.com/cloudflare-one/team-and-resources/devices/cloudflare-one-client/download/ official instruction].
+
+=== Linux ===
+
+See [https://pkg.cloudflareclient.com/ official repo].
+
+<blockquote>
+Possible error: 
+
+<pre>
+E: The repository 'https://pkg.cloudflareclient.com xxx Release' does not have a Release file.
+</pre>
+
+Cloudflare's repository is configured differently for each distro. For some derivative distros, it may be necessary to set target distro to an supported upstream codename. 
+
+For instance, for `Linux Mint Xia`, one would set to `Ubuntu Noble`.
+
+<syntaxhighlight lang=bash copy>
+sudo nano /etc/apt/sources.list.d/cloudflare-client.list
+</syntaxhighlight>
+
+Replace content with:
+
+<syntaxhighlight lang=bash copy>
+deb [signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ noble main
+</syntaxhighlight>
+
+Then rerun
+
+<syntaxhighlight lang=bash copy>
+sudo apt update && sudo apt install cloudflare-warp
+</syntaxhighlight>
+
+</blockquote>

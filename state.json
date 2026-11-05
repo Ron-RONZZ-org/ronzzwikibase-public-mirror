@@ -1850,9 +1850,9 @@
     },
     "Network proxy": {
       "path": "Main/Network proxy.wiki",
-      "revid": 12817,
-      "sha256": "911ed845fec4e32c020b1353ca6630c45287c7d960eb96e25947b4a5bf774cd1",
-      "synced_at": "2026-11-05T03:12:33+00:00"
+      "revid": 12839,
+      "sha256": "b965b422a32bb48ccbc30a0f3f1451c3c5427dbd1e7db99f0ecb6cf625055c4e",
+      "synced_at": "2026-11-05T03:49:55+00:00"
     },
     "Neutron decay": {
       "path": "Main/Neutron decay.wiki",
@@ -3122,9 +3122,9 @@
     },
     "Software:Cloudflare One (Formerly WARP)": {
       "path": "Software/Cloudflare One (Formerly WARP).wiki",
-      "revid": 12825,
-      "sha256": "b89fc7ca9f94e85175f815660f793da52c87cf4c26ca6bff550765118d3740dc",
-      "synced_at": "2026-11-05T03:24:57+00:00"
+      "revid": 12830,
+      "sha256": "ac2b2108e8a9ea16ae0d6989571b0a24a3c40b33efa326a8a7602e9ea4a5e325",
+      "synced_at": "2026-11-05T03:49:55+00:00"
     },
     "Software:Main": {
       "path": "Software/Main.wiki",
@@ -4031,6 +4031,12 @@
       "revid": 6251,
       "sha256": "87c105f13fa3282c27e0be0b6ebb27097d6e9c3cf1039265a32504dd59ef9136",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:Glossary - CSRC (Webpage)": {
+      "path": "Source/Glossary - CSRC (Webpage).wiki",
+      "revid": 12835,
+      "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
+      "synced_at": "2026-11-05T03:49:55+00:00"
     },
     "Source:Governance - Club of Rome (Webpage)": {
       "path": "Source/Governance - Club of Rome (Webpage).wiki",
@@ -5407,6 +5413,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-05T03:24:57+00:00",
+  "updated": "2026-11-05T03:49:55+00:00",
   "version": 1
 }

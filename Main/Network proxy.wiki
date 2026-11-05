@@ -1,6 +1,6 @@
 [[Category:Network]]
-[[File:Proxy-concept-en.svg|thumbnail|]]
-In [[applied computing]], a '''proxy''' relays [[network traffic]] between [[requester]] and destination [[server]], which may
+[[File:Proxy-concept-en.svg|thumbnail|In this case, the proxy concealed the identity of Alice to server (it did not specify that the question came from Alice). Not every proxy is built for anonymising the requester, some are built to protect servers instead.]]
+In [[applied computing]], a '''network proxy''' relays [[network traffic]] between [[requester]] and destination [[server]], which may
 
 * Encrypt the traffic,
 * Perform validation/authentification of requester/server
