@@ -1,0 +1,7 @@
+'''Diffusion MRI (dMRI)''' is a [[magnetic resonance imaging (MRI)]] technique measuring the [[Brownian motion]] of $H_2O$ molecules in a medium, including human tissue.
+
+== Application ==
+
+[[File:DMRI water diffusion and tissue structure.png|thumbnail|As explained in ''[[Source:Looking into the functional architecture of the brain with diffusion MRI (Scholarly article)|Le Bihan (2003)]], biological tissues modulate free diffusion, so dMRI results detect tissue microstructure.]]
+
+'''dMRI''' can be employed to model the microstructure of [[biological tissues]].<ref>{{#cite:Q2758}}</ref>
