@@ -522,6 +522,18 @@
       "sha256": "ab75f334796ed9630d350eab636ebed1cc32fc557ccfb3e811b346323ce6ac58",
       "synced_at": "2026-10-30T21:08:41+00:00"
     },
+    "Collective:FeldmanHall, Oriel ; Dunsmoor, Joseph E.; Tompary, Alexa; Hunter, Lindsay E.; Todorov, Alexander ; Phelps, Elizabeth A.": {
+      "path": "Collective/FeldmanHall, Oriel ; Dunsmoor, Joseph E.; Tompary, Alexa; Hunter, Lindsay E.; Todorov, Alexander ; Phelps, Elizabeth A.wiki",
+      "revid": 12963,
+      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
+      "synced_at": "2026-11-05T09:22:44+00:00"
+    },
+    "Collective:FeldmanHall, Oriel Dunsmoor, Joseph E. Tompary, Alexa Hunter, Lindsay E. Todorov, and Alexander Phelps, Elizabeth A.": {
+      "path": "Collective/FeldmanHall, Oriel Dunsmoor, Joseph E. Tompary, Alexa Hunter, Lindsay E. Todorov, and Alexander Phelps, Elizabeth A.wiki",
+      "revid": 12964,
+      "sha256": "7e1bad2e00837fa8305cd9e11540358a69a0650b144675a79991b8fad233750f",
+      "synced_at": "2026-11-05T09:22:44+00:00"
+    },
     "Collective:Fondation pour la mémoire de l'esclavage": {
       "path": "Collective/Fondation pour la mémoire de l'esclavage.wiki",
       "revid": 8878,
@@ -5515,6 +5527,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-05T08:49:52+00:00",
+  "updated": "2026-11-05T09:22:44+00:00",
   "version": 1
 }
