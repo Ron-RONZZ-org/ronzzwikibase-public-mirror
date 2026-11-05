@@ -1,0 +1,10 @@
+[[Category:Network]]
+A '''computer network''' is a system of computers connected to send and receive [[data]] from each other.
+
+The largest computer network on [[Earth]] is the [[internet]].
+
+== Measurement ==
+
+[[Network traffic]]
+
+<ref>{{#cite:Q2722}}</ref>

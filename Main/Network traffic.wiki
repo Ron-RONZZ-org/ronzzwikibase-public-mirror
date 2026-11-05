@@ -1,0 +1,9 @@
+[[File:Bankok car traffic.png|thumbnail|Analogy: road traffic - people/goods/vehicles transferred over a road network ]]
+Data transferred over a [[computer network]]. 
+
+Common measurement units include:
+
+* Bits per second (bps)
+* Bytes per second (Bps)
+
+<ref>{{#cite:Q2722}}</ref>

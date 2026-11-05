@@ -972,6 +972,12 @@
       "sha256": "7a3104cb4769d376673c6bc57fb85319df10a64b4fb67d6a78db53a2082f9cf9",
       "synced_at": "2026-10-21T15:32:57+00:00"
     },
+    "Computer network": {
+      "path": "Main/Computer network.wiki",
+      "revid": 12849,
+      "sha256": "df6852ed083cb26bafbb8c70988e9d92c849860c71c1b5b839d204206cccb598",
+      "synced_at": "2026-11-05T04:11:50+00:00"
+    },
     "Conserved property": {
       "path": "Main/Conserved property.wiki",
       "revid": 11948,
@@ -1853,6 +1859,12 @@
       "revid": 12839,
       "sha256": "b965b422a32bb48ccbc30a0f3f1451c3c5427dbd1e7db99f0ecb6cf625055c4e",
       "synced_at": "2026-11-05T03:49:55+00:00"
+    },
+    "Network traffic": {
+      "path": "Main/Network traffic.wiki",
+      "revid": 12844,
+      "sha256": "a91915cfd767802f3fdb568f1c707bdfa6bd9a36741453d9eada81797f06e6ad",
+      "synced_at": "2026-11-05T04:11:50+00:00"
     },
     "Neutron decay": {
       "path": "Main/Neutron decay.wiki",
@@ -5413,6 +5425,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-05T03:49:55+00:00",
+  "updated": "2026-11-05T04:11:50+00:00",
   "version": 1
 }
