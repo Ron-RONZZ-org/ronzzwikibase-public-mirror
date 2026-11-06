@@ -1,1 +1,6 @@
-#REDIRECT [[Confirmation bias]]
+'''Selection bias''' is a form of statistical bias caused by unrepresentative [[sampling]].<ref>{{#cite:Q2771}}</ref>
+
+== Example ==
+
+* A study would like to determine the efficacy of a new [[antibiotics]] against [[urinary tract infection]]s. The researchers contact multiple nursing homes and recruits 90 participants.
+** The validity of the clinical trial results are undermined by the  '''selection bias'''. Although [[urinary tract infections]] are prevalent in [[elderly care facility|elderly care facilities]], other demographics are also susceptible of contracting them. The sample chosen by the researchers, potentially out of convenience, is '''not''' representative of the general population.

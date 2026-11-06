@@ -1,0 +1,7 @@
+{{ScholarlyArticle}}
+
+== Abstract ==
+
+''from OpenAlex:''
+
+Urinary Tract Infections (UTIs) as a type of bacterial infection are the most common infections in older people. The present study was conducted with the aim of combining, summarizing, unifying, resolving inconsistencies in the results of preliminary studies, investigating the effect of potential factors and estimating the global prevalence of UTIs in the older persons through a systematic review and meta-analysis. In this systematic review and meta-analysis, the articles published in the period of 1982–2022 were analyzed. The articles were searched in Iranian databases of SID and MagIran, as well as international databases including PubMed, Embase, Scopus, Web of Science (WoS), and Google Scholar through the relevant and validated keywords using MeSH/Emtree. Thirty-six articles with a sample size of 4,207,470 people met the inclusion criteria for meta-analysis. Global prevalence of UTIs in the older persons was 23.6% (95% Confidence Interval: 19.4–28.4). The highest prevalence of UTIs in the older persons was in the following sub-groups: Africa (30%; 95% CI: 12.7–55.8), women (30%; 95% CI: 14.6–51.7), diagnosis with urine culture (25.3%; 95% CI: 18.3–33.8), and residents in the nursing home (47.2%; 95% CI: 24.2–71.5). The results of the present study showed that the prevalence of UTIs was high in the older persons, especially in women and residents of nursing homes. Therefore, it is recommended that health officials and policymakers pay more attention to the prevention and …

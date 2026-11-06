@@ -840,6 +840,12 @@
       "sha256": "6aed4120edf222474b52b06533445d1b8a732fabb9c3f13b50e9f74c9e3ab212",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Reza Pourmirza Kalhori, Azam Faraji, Mohadeseh Yari, Maryam Ganjabi & Mohsen Kazeminia": {
+      "path": "Collective/Reza Pourmirza Kalhori, Azam Faraji, Mohadeseh Yari, Maryam Ganjabi & Mohsen Kazeminia.wiki",
+      "revid": 13091,
+      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
+      "synced_at": "2026-11-06T09:12:04+00:00"
+    },
     "Collective:République des lettres": {
       "path": "Collective/République des lettres.wiki",
       "revid": 8789,
@@ -3248,9 +3254,9 @@
     },
     "Selection bias": {
       "path": "Main/Selection bias.wiki",
-      "revid": 12952,
-      "sha256": "0e31cebb12024bc6187be3ad96cf811ef0f58db9890748587fffdb1fbc28938c",
-      "synced_at": "2026-11-05T08:49:52+00:00"
+      "revid": 13086,
+      "sha256": "79581f7ffea51c313f16357f5df9dd5f7ed89002476bb2565530defdf9db6144",
+      "synced_at": "2026-11-06T09:12:04+00:00"
     },
     "Sequence": {
       "path": "Main/Sequence.wiki",
@@ -4223,6 +4229,12 @@
       "revid": 6251,
       "sha256": "87c105f13fa3282c27e0be0b6ebb27097d6e9c3cf1039265a32504dd59ef9136",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:Global Prevalence of Urinary Tract Infections in the Older Persons: A Systematic Review and Meta-Analysis (Scholarly article)": {
+      "path": "Source/Global Prevalence of Urinary Tract Infections in the Older Persons_ A Systematic Review and Meta-Analysis (Scholarly article).wiki",
+      "revid": 13097,
+      "sha256": "b5eff236f42fe80623df5f18f48cc6d2dbe9d52d4db3d5013337aeeba7cc6acc",
+      "synced_at": "2026-11-06T09:12:04+00:00"
     },
     "Source:Glossary - CSRC (Webpage)": {
       "path": "Source/Glossary - CSRC (Webpage).wiki",
@@ -5635,6 +5647,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-06T08:50:01+00:00",
+  "updated": "2026-11-06T09:12:04+00:00",
   "version": 1
 }
