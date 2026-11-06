@@ -1,0 +1,6 @@
+[[Category:Bias]]
+'''Statistical bias''' refers to practices in the acquisition or interpretation of statistics that undermines its validity.
+
+== Types ==
+
+* [[Selection bias]]

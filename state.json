@@ -2670,6 +2670,12 @@
       "sha256": "e72bc8c2e0a078922c1117d4cab620a772824d8373483acee43f6bba8d09a6f9",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:Lyric Ripley": {
+      "path": "Person/Lyric Ripley.wiki",
+      "revid": 13068,
+      "sha256": "2cfd299172cae483c0a2b251be56440b093bc74141913bc049cd4164e2f2188b",
+      "synced_at": "2026-11-06T08:50:01+00:00"
+    },
     "Person:Machele Kindle": {
       "path": "Person/Machele Kindle.wiki",
       "revid": 12093,
@@ -3635,6 +3641,12 @@
       "revid": 8024,
       "sha256": "78412176a0f5efc8d1d4cdc34375736caae3f25b6499dc4aa6d2157172566acb",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:6.8: Identifying Bias (Webpage)": {
+      "path": "Source/6.8_ Identifying Bias (Webpage).wiki",
+      "revid": 13073,
+      "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
+      "synced_at": "2026-11-06T08:50:01+00:00"
     },
     "Source:7.8: Solving Systems with Cramer's Rule (Webpage)": {
       "path": "Source/7.8_ Solving Systems with Cramer's Rule (Webpage).wiki",
@@ -5478,6 +5490,12 @@
       "sha256": "98b634b81338d918ea72c48debc83cb2b7c20e35b338f936cc8dc2f8c9dc38c6",
       "synced_at": "2026-10-31T18:20:24+00:00"
     },
+    "Statistical bias": {
+      "path": "Main/Statistical bias.wiki",
+      "revid": 13063,
+      "sha256": "e4b4cbcc85f5620e20348ca7e6ce39a27811b710a1883758f1fb0270e0e54865",
+      "synced_at": "2026-11-06T08:50:01+00:00"
+    },
     "Stern-Gerlach experiment": {
       "path": "Main/Stern-Gerlach experiment.wiki",
       "revid": 11945,
@@ -5617,6 +5635,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-06T08:36:44+00:00",
+  "updated": "2026-11-06T08:50:01+00:00",
   "version": 1
 }
