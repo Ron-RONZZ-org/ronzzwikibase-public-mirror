@@ -1,0 +1,7 @@
+{{ScholarlyArticle}}
+
+== Abstract ==
+
+''from OpenAlex:''
+
+The major goal of this conference was to review new advances in our undertaking of the pathogenesis of urinary tract infections (UTIs) from the perspective of both the pathogen and the host. This initial presentation provided an appropriate context for subsequent discussion by providing an overview of the etiology and epidemiology of UTI, diagnostic and therapeutic approaches, current management strategies, evolution of antimicrobial resistance, and current approaches to prevention It is estimated that 150 million UTIs occur yearly on a global basis, resulting in more than 6 billion dollars in direct health care expenditures [1]. Infections are rare in boys except in association with anatomic or functional abnormalities in the first year of life [2]. Infections are also infrequent among 2- to 13-year-old girls, but some young girls experience multiple repeated episodes of recurrent cystitis or pyelonephritis [2]. The incidence of UTIs markedly increases among young women during adolescence, with an estimated 7 million acute uncomplicated infections occurring annually in the United States, as determined on the basis of data extrapolated from surveys of physicians [3]. In a recent prospective study of acute UTIs in young women, the incidence was 0.5–0.7 per year [4]. Recurrent infections become a problem in 25%–30% of women who experience an initial infection. Most uncomplicated infections in women do not result in long-term sequelae or renal damage. However, such infections t…
