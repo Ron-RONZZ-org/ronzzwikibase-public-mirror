@@ -1,0 +1,7 @@
+{{ScholarlyArticle}}
+
+== Abstract ==
+
+''from OpenAlex:''
+
+BACKGROUND AND OBJECTIVE: With over 50% of women suffering from at least one episode of urinary tract infection (UTI) throughout their lifetime and an increasing prevalence of antimicrobial resistance, efforts need to be made to clearly identify the evidence supporting potential non-drug interventions. This study aims to compare the effects of cranberry juice, cranberry tablets, and increased liquids for the management of UTIs. METHODS: PubMed, Embase, and Cochrane CENTRAL were searched for randomised controlled trials. The primary outcome was the number of UTIs, and the secondary outcomes were UTI symptoms and antimicrobial consumption. A risk of bias assessment was performed using the Cochrane risk of bias tool, and the certainty of evidence was assessed using Grading of Recommendations Assessment, Development and Evaluation. KEY FINDINGS AND LIMITATIONS: A total of 20 trials (3091 participants) were included, with 18 studies highlighting a 54% lower rate of UTIs with cranberry juice consumption than no treatment and a 27% lower rate than placebo liquid. Cranberry juice also resulted in a 49% lower rate of antibiotic use than placebo liquid and a 59% lower rate than no treatment, based on a network meta-analysis of six studies. The use of cranberry compounds also reduced the prevalence of symptoms associated with UTIs. CONCLUSIONS AND CLINICAL IMPLICATIONS: With moderate to low certainty, the evidence supports the use of cranberry juice for the prevention of UTIs. While in…

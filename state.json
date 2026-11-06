@@ -750,6 +750,12 @@
       "sha256": "72dc7cadb9d32cb408dbe2d0f39deb7749998fb603f5d8097f933772a1590518",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Moro, Christian ; Phelps, Charlotte ; Veer, Vineesha ; Jones, Mark ; Glasziou, Paul ; Clark, Justin ; Tikkinen, Kari A.O. ; Scott, Anna Mae": {
+      "path": "Collective/Moro, Christian ; Phelps, Charlotte ; Veer, Vineesha ; Jones, Mark ; Glasziou, Paul ; Clark, Justin ; Tikkinen, Kari A.O. ; Scott, Anna Mae.wiki",
+      "revid": 13123,
+      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
+      "synced_at": "2026-11-06T10:10:31+00:00"
+    },
     "Collective:Mozilla Foundation": {
       "path": "Collective/Mozilla Foundation.wiki",
       "revid": 6530,
@@ -4026,6 +4032,12 @@
       "sha256": "cfc0a1b54046c3fab435d3a884bc47cd647371d11244ce51615e9ce9ecb24eca",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Cranberry Juice, Cranberry Tablets, or Liquid Therapies for Urinary Tract Infection: A Systematic Review and Network Meta-analysis (Scholarly article)": {
+      "path": "Source/Cranberry Juice, Cranberry Tablets, or Liquid Therapies for Urinary Tract Infection_ A Systematic Review and Network Meta-analysis (Scholarly article).wiki",
+      "revid": 13128,
+      "sha256": "58a6e39eff1b09ba543620cb505220036a7ecc08fb0ee5a97a4d1303ecdb2a7c",
+      "synced_at": "2026-11-06T10:10:31+00:00"
+    },
     "Source:CrashCourse (YouTube channel)": {
       "path": "Source/CrashCourse (YouTube channel).wiki",
       "revid": 8114,
@@ -5677,6 +5689,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-06T09:49:39+00:00",
+  "updated": "2026-11-06T10:10:31+00:00",
   "version": 1
 }
