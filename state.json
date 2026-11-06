@@ -116,9 +116,9 @@
     },
     "Bias": {
       "path": "Main/Bias.wiki",
-      "revid": 12932,
-      "sha256": "66885e0965497081325e27f0a360ca4b1b4eb50ea898d8829120ca72e0eaff7f",
-      "synced_at": "2026-11-05T08:37:40+00:00"
+      "revid": 13060,
+      "sha256": "90c9f769d4d02d340019137de4932a2c249317daf9f808191a70ab80a528564f",
+      "synced_at": "2026-11-06T08:36:44+00:00"
     },
     "Binary operation": {
       "path": "Main/Binary operation.wiki",
@@ -5617,6 +5617,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-05T18:49:57+00:00",
+  "updated": "2026-11-06T08:36:44+00:00",
   "version": 1
 }
