@@ -348,6 +348,12 @@
       "sha256": "02ac4d439ab3b587cc7435372cea8953ac4d934dc297c2648b67f5d04cee7e47",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Ana L. Flores-Mireles, Jennifer N. Walker, Michael Caparon & Scott J. Hultgren": {
+      "path": "Collective/Ana L. Flores-Mireles, Jennifer N. Walker, Michael Caparon & Scott J. Hultgren.wiki",
+      "revid": 13103,
+      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
+      "synced_at": "2026-11-06T09:36:05+00:00"
+    },
     "Collective:Annales de la Société scientifique de Bruxelles": {
       "path": "Collective/Annales de la Société scientifique de Bruxelles.wiki",
       "revid": 6832,
@@ -5406,6 +5412,12 @@
       "sha256": "9234002fd531cc44cb994a546e7372a9d842f0a6121fada77db6a1f0f65e4954",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Urinary tract infections: epidemiology, mechanisms of infection and treatment options (Scholarly article)": {
+      "path": "Source/Urinary tract infections_ epidemiology, mechanisms of infection and treatment options (Scholarly article).wiki",
+      "revid": 13108,
+      "sha256": "a59be86f667782459b41082bd9bf5c79380b43e9f50fe8e6a296eacda99591c5",
+      "synced_at": "2026-11-06T09:36:05+00:00"
+    },
     "Source:Vivest (Website)": {
       "path": "Source/Vivest (Website).wiki",
       "revid": 9401,
@@ -5653,6 +5665,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-06T09:22:17+00:00",
+  "updated": "2026-11-06T09:36:05+00:00",
   "version": 1
 }
