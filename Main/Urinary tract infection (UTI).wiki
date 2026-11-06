@@ -1,0 +1,33 @@
+[[Category:Pathology]]
+Urinary Tract Infections (UTIs) are [[bacterial infection|bacterial]] or [[fungi infection]]s of the [[urinary tract]].<ref>{{#cite:Q2775}}</ref>
+
+== Prevalence ==
+
+An estimated 150 million UTIs occur yearly, incurring a cost of about $6\cdot 10^{9}$ USD in direct healthcare expenditure globally.<ref>{{#cite:Q2777}}</ref>
+
+=== Elderly population ===
+
+''[[Source:Global Prevalence of Urinary Tract Infections in the Older Persons: A Systematic Review and Meta-Analysis (Scholarly article)|Kalhori et al. (2024)]]'' estimates with 95% [[confidence level]] at least 19.4% of elderly individuals suffered at least one UTI. The percentage rises to 24% for residents in [[elderly care facilities]]. <ref>{{#cite:Q2773}}</ref>
+
+== Treatment ==
+
+According to ''[[Source:Urinary Tract Infections: Disease Panorama and Challenges (Scholarly article)|Stamm-Norrby (2001)]]'', the global trend since the 1990s is to favor shorter regimens (including single dose therapy) in outpatient setting.<ref>{{#cite:Q2777}}</ref>
+
+== Prevention ==
+
+Measures proposed by health professionals include:
+
+* refrain from using [[spermicide]]s during sexual intercourse<ref>{{#cite:Q2777}}</ref>
+* low-dose [[antimicrobial prophylaxis]] in clinical settings<ref>{{#cite:Q2777}}</ref>
+
+In addition, there is some medical evidence that ingestion of cranberry juice or derivatives (e.g., tablets) may reduce occurrence of UTI¹.<ref>{{#cite:Q2779}}</ref>
+
+<blockquote>
+1: [[Meta-analysis]] by ''[[Source:Cranberry Juice, Cranberry Tablets, or Liquid Therapies for Urinary Tract Infection: A Systematic Review and Network Meta-analysis (Scholarly article)|Moro et al. (2024)]] pooled data from 20 clinical trials and drawn a nuanced-conclusion. Although some studies constituted convincing statistical evidence on the preventive effects of cranberry juice against UTI, other studies were not so positive.
+
+[[File:Metaanalysis clinical trials cranberry juice UTI prevention.png|400px|center]]
+
+As seen, when pooled together, findings of studies are contradictory. Studies comparing cranberry tablet to placebo liquid or no treatment has a CI including values suggesting a strongly adverse effect from cranberry tablets (3.17;2.08) compared to placebos, and the CI for cranberry juice compared to no treatment also included values (1-1.02) suggesting no effect.
+
+<ref>{{#cite:Q2779}}</ref>
+</blockquote>

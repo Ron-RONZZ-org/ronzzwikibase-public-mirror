@@ -5664,6 +5664,12 @@
       "sha256": "f3d6ed22910be6d4812f7e521d9b88db6740fd4a875ceb2ddd609e5655a4ed68",
       "synced_at": "2026-11-01T12:25:20+00:00"
     },
+    "Urinary tract infection (UTI)": {
+      "path": "Main/Urinary tract infection (UTI).wiki",
+      "revid": 13150,
+      "sha256": "233f90fcda41f686ecb9bf6b1d8cc9517252a44688342ec69f91d7d20f59f798",
+      "synced_at": "2026-11-06T13:20:12+00:00"
+    },
     "Vector space": {
       "path": "Main/Vector space.wiki",
       "revid": 11010,
@@ -5689,6 +5695,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-06T10:10:31+00:00",
+  "updated": "2026-11-06T13:20:12+00:00",
   "version": 1
 }
