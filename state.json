@@ -1248,6 +1248,12 @@
       "sha256": "4d7f5217b7a7caaf055719c004c4aa5842e576d711e784768549ce1f7daa9281",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Elderly care facilities": {
+      "path": "Main/Elderly care facilities.wiki",
+      "revid": 13098,
+      "sha256": "78a868a27ea784e304e51c19f06c4934defc6d0cbcba54ad759ceb475e837f5e",
+      "synced_at": "2026-11-06T09:22:17+00:00"
+    },
     "Electric charge": {
       "path": "Main/Electric charge.wiki",
       "revid": 8655,
@@ -5647,6 +5653,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-06T09:12:04+00:00",
+  "updated": "2026-11-06T09:22:17+00:00",
   "version": 1
 }
