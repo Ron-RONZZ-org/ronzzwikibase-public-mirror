@@ -1134,6 +1134,12 @@
       "sha256": "84343959720a6f2578fa3d0a2da1812d080cac5ff00bfb7fd995a786d35febcd",
       "synced_at": "2026-11-02T15:22:39+00:00"
     },
+    "Critical thinking": {
+      "path": "Main/Critical thinking.wiki",
+      "revid": 13218,
+      "sha256": "0bd7d4263e3770c603bac21dd37242fc368090f3854024d90e36560a9eecc149",
+      "synced_at": "2026-11-07T16:09:43+00:00"
+    },
     "Cross product": {
       "path": "Main/Cross product.wiki",
       "revid": 11011,
@@ -1595,6 +1601,12 @@
       "revid": 10838,
       "sha256": "9b5f8589d3a6b4d7bd09c125fbe02da12417444f971ff5931f850ba353026c71",
       "synced_at": "2026-10-20T21:14:14+00:00"
+    },
+    "Heuristic": {
+      "path": "Main/Heuristic.wiki",
+      "revid": 13207,
+      "sha256": "62a5a10c23ee806b7ef65d0479e7f8ec8a2c2f3a2cb6893ed09f34e4bb98ac6f",
+      "synced_at": "2026-11-07T16:09:43+00:00"
     },
     "Historiography": {
       "path": "Main/Historiography.wiki",
@@ -3359,6 +3371,12 @@
       "revid": 7977,
       "sha256": "f71ddfdff02a0f578cd40a4f8054479e43d929004652efdbee80331855fd09b9",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:1.1: Introduction to Critical Thinking (Webpage)": {
+      "path": "Source/1.1_ Introduction to Critical Thinking (Webpage).wiki",
+      "revid": 13213,
+      "sha256": "bafb9f705dfdb200f4dc3d16709bf8a860c8e9011d31beab5cc850f1316f2c32",
+      "synced_at": "2026-11-07T16:09:43+00:00"
     },
     "Source:1.1: Sets (Webpage)": {
       "path": "Source/1.1_ Sets (Webpage).wiki",
@@ -5749,6 +5767,6 @@
       "synced_at": "2026-11-07T15:19:42+00:00"
     }
   },
-  "updated": "2026-11-07T15:49:17+00:00",
+  "updated": "2026-11-07T16:09:43+00:00",
   "version": 1
 }
