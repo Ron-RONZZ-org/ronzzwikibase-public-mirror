@@ -1,5 +1,1 @@
-{{Collective}}
-
-== Overview ==
-
-UC Davis
+#REDIRECT [[Collective:David Cherney, Tom Denton, Andrew Waldron]]

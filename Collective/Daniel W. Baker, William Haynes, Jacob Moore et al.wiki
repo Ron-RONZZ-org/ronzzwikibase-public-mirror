@@ -1,5 +1,1 @@
-{{Collective}}
-
-== Overview ==
-
-Engineeringstatics, Colorado State University
+#REDIRECT [[Collective:Daniel W. Baker, William Haynes, Jacob Moore]]

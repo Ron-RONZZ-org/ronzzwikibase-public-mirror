@@ -462,17 +462,29 @@
       "sha256": "eaf798d7fb06641e066a65c2dc3e8e681e0d07b5bd4e0aca3d39afe8ffcdebdf",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Daniel W. Baker, William Haynes, Jacob Moore": {
+      "path": "Collective/Daniel W. Baker, William Haynes, Jacob Moore.wiki",
+      "revid": 13523,
+      "sha256": "a3ecf8784f61fd9fc3cefa5fcb17af64980564803b4a4ddd05e399ea003ce93f",
+      "synced_at": "2026-11-07T19:19:42+00:00"
+    },
     "Collective:Daniel W. Baker, William Haynes, Jacob Moore et al.": {
       "path": "Collective/Daniel W. Baker, William Haynes, Jacob Moore et al.wiki",
-      "revid": 10650,
-      "sha256": "a3ecf8784f61fd9fc3cefa5fcb17af64980564803b4a4ddd05e399ea003ce93f",
-      "synced_at": "2026-10-19T14:54:35+00:00"
+      "revid": 13524,
+      "sha256": "c0b620f6bb3a3af7227939008ddbb944514830527e19862ef5367d065e6e0b21",
+      "synced_at": "2026-11-07T19:19:42+00:00"
+    },
+    "Collective:David Cherney, Tom Denton, Andrew Waldron": {
+      "path": "Collective/David Cherney, Tom Denton, Andrew Waldron.wiki",
+      "revid": 13476,
+      "sha256": "d9b23a9fde4fda150af85893cd0bdaff48fef16ebff41e0a7457ae9c404a061f",
+      "synced_at": "2026-11-07T19:19:42+00:00"
     },
     "Collective:David Cherney, Tom Denton, and Andrew Waldron": {
       "path": "Collective/David Cherney, Tom Denton, and Andrew Waldron.wiki",
-      "revid": 9790,
-      "sha256": "d9b23a9fde4fda150af85893cd0bdaff48fef16ebff41e0a7457ae9c404a061f",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "revid": 13477,
+      "sha256": "b7f1f517e21107d4e5cd7dda3359870308ff3e2b5b0c01ef65c10153726b5a41",
+      "synced_at": "2026-11-07T19:19:42+00:00"
     },
     "Collective:De Boeck Supérieur": {
       "path": "Collective/De Boeck Supérieur.wiki",
@@ -506,9 +518,9 @@
     },
     "Collective:Eric Lehman, F. Thomson Leighton, and Alberty R. Meyer": {
       "path": "Collective/Eric Lehman, F. Thomson Leighton, and Alberty R. Meyer.wiki",
-      "revid": 10700,
-      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
-      "synced_at": "2026-10-19T20:15:43+00:00"
+      "revid": 13576,
+      "sha256": "92ca03694725d442c59d43b37bdb2a134ce2c7b0e7bded04f73ba83265a6bf46",
+      "synced_at": "2026-11-07T19:19:42+00:00"
     },
     "Collective:Estonian national government": {
       "path": "Collective/Estonian national government.wiki",
@@ -648,11 +660,17 @@
       "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Jacob Moore": {
+      "path": "Collective/Jacob Moore.wiki",
+      "revid": 13486,
+      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
+      "synced_at": "2026-11-07T19:19:42+00:00"
+    },
     "Collective:Jacob Moore and Contributors": {
       "path": "Collective/Jacob Moore and Contributors.wiki",
-      "revid": 9824,
-      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "revid": 13487,
+      "sha256": "2fe921d45e64585387bb972b783f20205670ce4512c6094f1d38f0bd18577bd7",
+      "synced_at": "2026-11-07T19:19:42+00:00"
     },
     "Collective:James W. Botkin, Mahdi Elmandjra, Mircea Malitza, Aurelio Peccei, Romesh Thapar, Ervin Laszlo, Carlos Mallmann": {
       "path": "Collective/James W. Botkin, Mahdi Elmandjra, Mircea Malitza, Aurelio Peccei, Romesh Thapar, Ervin Laszlo, Carlos Mallmann.wiki",
@@ -740,9 +758,15 @@
     },
     "Collective:Michael Janssen and Melissa Lindsey": {
       "path": "Collective/Michael Janssen and Melissa Lindsey.wiki",
-      "revid": 10089,
+      "revid": 13506,
+      "sha256": "322abcb90c87123bcada725982f210229fb8970a2ee98ef107819c053c4cb647",
+      "synced_at": "2026-11-07T19:19:42+00:00"
+    },
+    "Collective:Michael Janssen, Melissa Lindsey": {
+      "path": "Collective/Michael Janssen, Melissa Lindsey.wiki",
+      "revid": 13505,
       "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "synced_at": "2026-11-07T19:19:42+00:00"
     },
     "Collective:Michael S. Turner and J. Anthony Tyson": {
       "path": "Collective/Michael S. Turner and J. Anthony Tyson.wiki",
@@ -918,11 +942,17 @@
       "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
       "synced_at": "2026-11-03T13:10:55+00:00"
     },
+    "Collective:Thomas F. Banchoff, Davide Cervone, Nicholas Thompson, Jeff Achter, Matthew Stone": {
+      "path": "Collective/Thomas F. Banchoff, Davide Cervone, Nicholas Thompson, Jeff Achter, Matthew Stone.wiki",
+      "revid": 13553,
+      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
+      "synced_at": "2026-11-07T19:19:42+00:00"
+    },
     "Collective:Thomas F. Banchoff, Davide Cervone, Nicholas Thompson, Jeff Achter, and Matthew Stone, et al.": {
       "path": "Collective/Thomas F. Banchoff, Davide Cervone, Nicholas Thompson, Jeff Achter, and Matthew Stone, et al.wiki",
-      "revid": 10684,
-      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
-      "synced_at": "2026-10-19T19:39:31+00:00"
+      "revid": 13554,
+      "sha256": "7a4a3e5a81987288e8ac5697929c8b6fb49b80379f9456711cfeb4384bc65ed9",
+      "synced_at": "2026-11-07T19:19:42+00:00"
     },
     "Collective:UFR-SciFA (Université de Lorraine)": {
       "path": "Collective/UFR-SciFA (Université de Lorraine).wiki",
@@ -2262,6 +2292,12 @@
       "sha256": "05b2ab898620827b0e5c21a252a34071b211155256921168e6581147ee343366",
       "synced_at": "2026-11-04T14:36:29+00:00"
     },
+    "Person:Andrew Waldron": {
+      "path": "Person/Andrew Waldron.wiki",
+      "revid": 13468,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:19:42+00:00"
+    },
     "Person:Anton Petrunin": {
       "path": "Person/Anton Petrunin.wiki",
       "revid": 10727,
@@ -2388,6 +2424,18 @@
       "sha256": "0b7b40a4b9822f3bed217adaa1bddc8923e002d3a4a86e5727bf8c7f5953514e",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Daniel W. Baker": {
+      "path": "Person/Daniel W. Baker.wiki",
+      "revid": 13511,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:19:42+00:00"
+    },
+    "Person:David Cherney": {
+      "path": "Person/David Cherney.wiki",
+      "revid": 13460,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:19:42+00:00"
+    },
     "Person:David Lippman": {
       "path": "Person/David Lippman.wiki",
       "revid": 10029,
@@ -2399,6 +2447,12 @@
       "revid": 7278,
       "sha256": "a50a2e5c4b1fb5a5b04030814bffa82ff834931328df02197ad9ea575f7d5a10",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Person:Davide Cervone": {
+      "path": "Person/Davide Cervone.wiki",
+      "revid": 13529,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:19:42+00:00"
     },
     "Person:Denis Le Bihan": {
       "path": "Person/Denis Le Bihan.wiki",
@@ -2574,6 +2628,12 @@
       "sha256": "df97885111edaba5b49a944dfab0a9697754d5bf84d19607bf18deba8fb05ff4",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Jacob Moore": {
+      "path": "Person/Jacob Moore.wiki",
+      "revid": 13482,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:19:42+00:00"
+    },
     "Person:Jacques HOCHMANN": {
       "path": "Person/Jacques HOCHMANN.wiki",
       "revid": 9272,
@@ -2615,6 +2675,12 @@
       "revid": 7650,
       "sha256": "8b9802a45f6652c0a25e88d5fb318e464091fb4cf83c424805b368986920b15a",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Person:Jeff Achter": {
+      "path": "Person/Jeff Achter.wiki",
+      "revid": 13537,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:19:42+00:00"
     },
     "Person:Jeffrey R. Chasnov": {
       "path": "Person/Jeffrey R. Chasnov.wiki",
@@ -2784,17 +2850,35 @@
       "sha256": "d3c99797d0c2e8b2e7d0a0b7920eb0a5c80a71bd1163f35dca9b7972afa2dad8",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:Matthew Stone": {
+      "path": "Person/Matthew Stone.wiki",
+      "revid": 13541,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:19:42+00:00"
+    },
     "Person:Maya Bar-Hillel": {
       "path": "Person/Maya Bar-Hillel.wiki",
       "revid": 13033,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-05T16:36:12+00:00"
     },
+    "Person:Melissa Lindsey": {
+      "path": "Person/Melissa Lindsey.wiki",
+      "revid": 13496,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:19:42+00:00"
+    },
     "Person:Michael Corral": {
       "path": "Person/Michael Corral.wiki",
       "revid": 10878,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-10-21T09:42:51+00:00"
+    },
+    "Person:Michael Janssen": {
+      "path": "Person/Michael Janssen.wiki",
+      "revid": 13492,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:19:42+00:00"
     },
     "Person:Michael Richmond": {
       "path": "Person/Michael Richmond.wiki",
@@ -2837,6 +2921,12 @@
       "revid": 13170,
       "sha256": "36230adc29beea3de828c9bf5cdcc80d63cb241dd59523cceabfb4018ff8d2f9",
       "synced_at": "2026-11-07T13:35:13+00:00"
+    },
+    "Person:Nicholas Thompson": {
+      "path": "Person/Nicholas Thompson.wiki",
+      "revid": 13533,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:19:42+00:00"
     },
     "Person:Nick Bostrom": {
       "path": "Person/Nick Bostrom.wiki",
@@ -3084,6 +3174,12 @@
       "sha256": "1dd9f28ab1dbd4c9d0853cfca6785fdecc914508455c431685b77bd4a4618357",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:Tom Denton": {
+      "path": "Person/Tom Denton.wiki",
+      "revid": 13464,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:19:42+00:00"
+    },
     "Person:Toni Morrison": {
       "path": "Person/Toni Morrison.wiki",
       "revid": 8737,
@@ -3119,6 +3215,12 @@
       "revid": 8828,
       "sha256": "53b360f8aaadece7bc38806b624e249fc110928559fbd0aa6a8f9d765fe513dc",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:William Haynes": {
+      "path": "Person/William Haynes.wiki",
+      "revid": 13515,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:19:42+00:00"
     },
     "Personal identity": {
       "path": "Main/Personal identity.wiki",
@@ -5791,6 +5893,6 @@
       "synced_at": "2026-11-07T15:19:42+00:00"
     }
   },
-  "updated": "2026-11-07T18:49:40+00:00",
+  "updated": "2026-11-07T19:19:42+00:00",
   "version": 1
 }
