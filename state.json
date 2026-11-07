@@ -1742,9 +1742,9 @@
     },
     "Information and communications technology (ICT)": {
       "path": "Main/Information and communications technology (ICT).wiki",
-      "revid": 13205,
-      "sha256": "404275ac95a30d39d0d3b7b73bf0f1f59a8acb20b149ca302bb44a9c80c2d360",
-      "synced_at": "2026-11-07T15:35:26+00:00"
+      "revid": 13206,
+      "sha256": "bf1ad62b84b7d907a3d2d0f426c0bb532192467026a4c1bda90f4ea5c307026b",
+      "synced_at": "2026-11-07T15:49:17+00:00"
     },
     "Inner product": {
       "path": "Main/Inner product.wiki",
@@ -5749,6 +5749,6 @@
       "synced_at": "2026-11-07T15:19:42+00:00"
     }
   },
-  "updated": "2026-11-07T15:35:26+00:00",
+  "updated": "2026-11-07T15:49:17+00:00",
   "version": 1
 }
