@@ -342,6 +342,12 @@
       "sha256": "fbbd17f4db6e58187037fe846ca95ff99e32017f9189fafba45e1833314b3e20",
       "synced_at": "2026-10-22T11:14:03+00:00"
     },
+    "Collective:American Physical Society": {
+      "path": "Collective/American Physical Society.wiki",
+      "revid": 13174,
+      "sha256": "b8720f38f99fd909c89ccfb80e55ae67c7d4c0881122a046050beeaf25675917",
+      "synced_at": "2026-11-07T13:35:13+00:00"
+    },
     "Collective:American Psychiatric Association": {
       "path": "Collective/American Psychiatric Association.wiki",
       "revid": 7547,
@@ -2280,6 +2286,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Boris Podolsky": {
+      "path": "Person/Boris Podolsky.wiki",
+      "revid": 13166,
+      "sha256": "f18a08d03284da733a1c346ba4b47879c386aa89c91aa9505445d17e311eeec3",
+      "synced_at": "2026-11-07T13:35:13+00:00"
+    },
     "Person:Brian Schmidt": {
       "path": "Person/Brian Schmidt.wiki",
       "revid": 6866,
@@ -2783,6 +2795,12 @@
       "revid": 6546,
       "sha256": "6ae8e7724a314bdc90242f95369df9d639c0d7fd5444d336b26c762695bb586e",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Nathan Rosen": {
+      "path": "Person/Nathan Rosen.wiki",
+      "revid": 13170,
+      "sha256": "36230adc29beea3de828c9bf5cdcc80d63cb241dd59523cceabfb4018ff8d2f9",
+      "synced_at": "2026-11-07T13:35:13+00:00"
     },
     "Person:Nick Bostrom": {
       "path": "Person/Nick Bostrom.wiki",
@@ -3941,6 +3959,12 @@
       "revid": 8832,
       "sha256": "bba6a2fc9421700420b343ddc75a6177ffbdea9f5415386e2b1b1e9092c61343",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:Can Quantum-Mechanical Description of Physical Reality Be Considered Complete? (Scholarly article)": {
+      "path": "Source/Can Quantum-Mechanical Description of Physical Reality Be Considered Complete_ (Scholarly article).wiki",
+      "revid": 13178,
+      "sha256": "af51c7b495c9cbe86f940407ac45924409d1e625edc2a3a0cb187b0d41813641",
+      "synced_at": "2026-11-07T13:35:13+00:00"
     },
     "Source:Carnegie Mellon University - CMU (Website)": {
       "path": "Source/Carnegie Mellon University - CMU (Website).wiki",
@@ -5695,6 +5719,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-07T13:19:41+00:00",
+  "updated": "2026-11-07T13:35:13+00:00",
   "version": 1
 }
