@@ -1,5 +1,1 @@
-{{Collective}}
-
-== Overview ==
-
-Dennis L. Meadows, Donella H. Meadows, Jørgen Randers, William W. Behrens III, Alison A. Anderson, Jay M. Anderson, Ilyas Bayar, Farhad Hakimzadeh, Steffen Harbordt, Judith A. Machen, Peter Milling, Nirmala S. Murthy, Roger F. Naill, Stephen Shantzis, John A. Seeger, Marilyn Williams, Erich K. O. Zahn, Jay W. Forrester, Aurelio Peccei, Carroll L. Wilson, Eduard Pestel, Gordon Brown, John B. Wyon, Carl Gotsch, and Walter Pawley
+#REDIRECT [[Collective:Dennis L. Meadows, Donella H. Meadows, Jørgen Randers, William W. Behrens III, Alison A. Anderson]]

@@ -356,9 +356,15 @@
     },
     "Collective:Ana L. Flores-Mireles, Jennifer N. Walker, Michael Caparon & Scott J. Hultgren": {
       "path": "Collective/Ana L. Flores-Mireles, Jennifer N. Walker, Michael Caparon & Scott J. Hultgren.wiki",
-      "revid": 13103,
+      "revid": 14134,
+      "sha256": "699194c6497e6c53f32412de205f554789542e3c9c589bbe63df07bf6560007c",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Collective:Ana L. Flores-Mireles, Jennifer N. Walker, Michael Caparon, Scott J. Hultgren": {
+      "path": "Collective/Ana L. Flores-Mireles, Jennifer N. Walker, Michael Caparon, Scott J. Hultgren.wiki",
+      "revid": 14133,
       "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
-      "synced_at": "2026-11-06T09:36:05+00:00"
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Collective:Annales de la Société scientifique de Bruxelles": {
       "path": "Collective/Annales de la Société scientifique de Bruxelles.wiki",
@@ -432,6 +438,12 @@
       "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
       "synced_at": "2026-11-05T10:10:38+00:00"
     },
+    "Collective:Christian Moro, Charlotte Phelps, Vineesha Veer, Mark Jones, Paul Glasziou, Justin Clark, Kari A.O. Tikkinen, Anna Mae Scott": {
+      "path": "Collective/Christian Moro, Charlotte Phelps, Vineesha Veer, Mark Jones, Paul Glasziou, Justin Clark, Kari A.O. Tikkinen, Anna Mae Scott.wiki",
+      "revid": 14198,
+      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
     "Collective:Cloud Native Computing Foundation": {
       "path": "Collective/Cloud Native Computing Foundation.wiki",
       "revid": 6317,
@@ -461,6 +473,12 @@
       "revid": 8109,
       "sha256": "eaf798d7fb06641e066a65c2dc3e8e681e0d07b5bd4e0aca3d39afe8ffcdebdf",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Collective:Daniel Kahneman, Amos Tversky": {
+      "path": "Collective/Daniel Kahneman, Amos Tversky.wiki",
+      "revid": 13861,
+      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Collective:Daniel W. Baker, William Haynes, Jacob Moore": {
       "path": "Collective/Daniel W. Baker, William Haynes, Jacob Moore.wiki",
@@ -492,17 +510,29 @@
       "sha256": "18103fd2489b2e37e4c8762194f2eaddfd83053c3d6f7451db3102ac76702e35",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Dennis L. Meadows, Donella H. Meadows, Jørgen Randers, William W. Behrens III, Alison A. Anderson": {
+      "path": "Collective/Dennis L. Meadows, Donella H. Meadows, Jørgen Randers, William W. Behrens III, Alison A. Anderson.wiki",
+      "revid": 13763,
+      "sha256": "aeb946def9e5c7122b1a0a859ee25cca215af1c75ebe6cd1ac3f524e673a2249",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
     "Collective:Dennis L. Meadows, Donella H. Meadows, Jørgen Randers, William W. Behrens III, Alison A. Anderson, et al": {
       "path": "Collective/Dennis L. Meadows, Donella H. Meadows, Jørgen Randers, William W. Behrens III, Alison A. Anderson, et al.wiki",
-      "revid": 12482,
-      "sha256": "aeb946def9e5c7122b1a0a859ee25cca215af1c75ebe6cd1ac3f524e673a2249",
-      "synced_at": "2026-11-03T13:36:23+00:00"
+      "revid": 13764,
+      "sha256": "d2b4c3b45a8e350a525ff8fd0a6e6de70b19a5d5b7a089e9e2644cd2acd9d200",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Collective:Diana Daly and Kainan Jarrette": {
       "path": "Collective/Diana Daly and Kainan Jarrette.wiki",
-      "revid": 12942,
+      "revid": 13931,
+      "sha256": "dfbe1ad519592216f13f471e0c37200c651eebe46cc6bc14c718cb99214c5e56",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Collective:Diana Daly, Kainan Jarrette": {
+      "path": "Collective/Diana Daly, Kainan Jarrette.wiki",
+      "revid": 13930,
       "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
-      "synced_at": "2026-11-05T08:37:40+00:00"
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Collective:Docker, Inc.": {
       "path": "Collective/Docker, Inc.wiki",
@@ -515,6 +545,12 @@
       "revid": 7031,
       "sha256": "f55afed78f880a29f637583fcd8929642772c82d5bbd5dabc9809e9f819e9ace",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Collective:Eric Lehman, F. Thomson Leighton, Alberty R. Meyer": {
+      "path": "Collective/Eric Lehman, F. Thomson Leighton, Alberty R. Meyer.wiki",
+      "revid": 13575,
+      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Collective:Eric Lehman, F. Thomson Leighton, and Alberty R. Meyer": {
       "path": "Collective/Eric Lehman, F. Thomson Leighton, and Alberty R. Meyer.wiki",
@@ -548,9 +584,15 @@
     },
     "Collective:Ezirim Kelechi ThankGod, Sani Abubakar Muhammed, Okoronkwo Iheanyi Chinedu, Aniugo Victor Onyekachi, Obi Obichukwu Immanuel, Nwaokolo Ikechukwu Frank, & Ezekiel Mayaki Asuku": {
       "path": "Collective/Ezirim Kelechi ThankGod, Sani Abubakar Muhammed, Okoronkwo Iheanyi Chinedu, Aniugo Victor Onyekachi, Obi Obichukwu Immanuel, Nwaokolo Ikechukwu Frank, & Ezekiel Mayaki Asuku.wiki",
-      "revid": 11118,
+      "revid": 13660,
+      "sha256": "9403a3cd9bd06ed6d41c11e20471acaa04476a66b3b8e8aea79f7e847dae2d05",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Collective:Ezirim Kelechi ThankGod, Sani Abubakar Muhammed, Okoronkwo Iheanyi Chinedu, Aniugo Victor Onyekachi, Obi Obichukwu Immanuel, Nwaokolo Ikechukwu Frank, Ezekiel Mayaki Asuku": {
+      "path": "Collective/Ezirim Kelechi ThankGod, Sani Abubakar Muhammed, Okoronkwo Iheanyi Chinedu, Aniugo Victor Onyekachi, Obi Obichukwu Immanuel, Nwaokolo Ikechukwu Frank, Ezekiel Mayaki Asuku.wiki",
+      "revid": 13659,
       "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
-      "synced_at": "2026-10-22T11:51:38+00:00"
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Collective:Federal Government of the United States": {
       "path": "Collective/Federal Government of the United States.wiki",
@@ -560,9 +602,9 @@
     },
     "Collective:FeldmanHall, Oriel ; Dunsmoor, Joseph E.; Tompary, Alexa; Hunter, Lindsay E.; Todorov, Alexander ; Phelps, Elizabeth A.": {
       "path": "Collective/FeldmanHall, Oriel ; Dunsmoor, Joseph E.; Tompary, Alexa; Hunter, Lindsay E.; Todorov, Alexander ; Phelps, Elizabeth A.wiki",
-      "revid": 12963,
-      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
-      "synced_at": "2026-11-05T09:22:44+00:00"
+      "revid": 13971,
+      "sha256": "5412264055a39bc8199532f8b450301c8418976357d4e8bafbad2b39f29d5b6e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Collective:FeldmanHall, Oriel Dunsmoor, Joseph E. Tompary, Alexa Hunter, Lindsay E. Todorov, and Alexander Phelps, Elizabeth A.": {
       "path": "Collective/FeldmanHall, Oriel Dunsmoor, Joseph E. Tompary, Alexa Hunter, Lindsay E. Todorov, and Alexander Phelps, Elizabeth A.wiki",
@@ -680,9 +722,15 @@
     },
     "Collective:Jan Komara and Paul J. Voda": {
       "path": "Collective/Jan Komara and Paul J. Voda.wiki",
-      "revid": 11482,
+      "revid": 13676,
+      "sha256": "894f1e3d0206f42eaa68a063dbeaa27c7de8c18bfa3e3ec1ffd15594cdb1b656",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Collective:Jan Komara, Paul J. Voda": {
+      "path": "Collective/Jan Komara, Paul J. Voda.wiki",
+      "revid": 13675,
       "sha256": "5e4d21f3ad0ced63022fc0fdee40e04fbe8b5407b750a54c7b416b24574ee32b",
-      "synced_at": "2026-10-27T16:13:35+00:00"
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Collective:John Wiley & Sons": {
       "path": "Collective/John Wiley & Sons.wiki",
@@ -690,11 +738,17 @@
       "sha256": "6debf1d9a9aa58d0fad52d24e57945853f8d0f0142467ce510d8e2797f790a31",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Juliana Schroeder, Eugene M. Caruso, Nicholas Epley": {
+      "path": "Collective/Juliana Schroeder, Eugene M. Caruso, Nicholas Epley.wiki",
+      "revid": 13836,
+      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
     "Collective:Kahneman, Daniel ; Tversky, Amos": {
       "path": "Collective/Kahneman, Daniel ; Tversky, Amos.wiki",
-      "revid": 12709,
-      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
-      "synced_at": "2026-11-04T13:09:53+00:00"
+      "revid": 13862,
+      "sha256": "c50a1de776309769ebe038927f5930b1c099d732dbb4cee713a92f2ea6f490b3",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Collective:Kevin Cheung, Mathieu Lemire": {
       "path": "Collective/Kevin Cheung, Mathieu Lemire.wiki",
@@ -734,9 +788,15 @@
     },
     "Collective:M. Alpert and H. Raiffa": {
       "path": "Collective/M. Alpert and H. Raiffa.wiki",
-      "revid": 13049,
+      "revid": 14072,
+      "sha256": "24c069ee20b47188dede1a87fa00d441259d4e94242078a11c7e060da3517fa4",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Collective:M. Alpert, H. Raiffa": {
+      "path": "Collective/M. Alpert, H. Raiffa.wiki",
+      "revid": 14071,
       "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
-      "synced_at": "2026-11-05T18:49:57+00:00"
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Collective:MZLA Technologies Corporation": {
       "path": "Collective/MZLA Technologies Corporation.wiki",
@@ -770,9 +830,15 @@
     },
     "Collective:Michael S. Turner and J. Anthony Tyson": {
       "path": "Collective/Michael S. Turner and J. Anthony Tyson.wiki",
-      "revid": 12157,
+      "revid": 13692,
+      "sha256": "cb9da8a23c37db414ccdfc00acde88c6a2c702da0240c8c3e12e0ec0c2ccc04c",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Collective:Michael S. Turner, J. Anthony Tyson": {
+      "path": "Collective/Michael S. Turner, J. Anthony Tyson.wiki",
+      "revid": 13691,
       "sha256": "dca9cd5225f40c59441f3f21fded4dcdce049028e8c673af5f2fcab9b542c906",
-      "synced_at": "2026-11-01T12:13:17+00:00"
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Collective:Microsoft": {
       "path": "Collective/Microsoft.wiki",
@@ -782,9 +848,9 @@
     },
     "Collective:Moro, Christian ; Phelps, Charlotte ; Veer, Vineesha ; Jones, Mark ; Glasziou, Paul ; Clark, Justin ; Tikkinen, Kari A.O. ; Scott, Anna Mae": {
       "path": "Collective/Moro, Christian ; Phelps, Charlotte ; Veer, Vineesha ; Jones, Mark ; Glasziou, Paul ; Clark, Justin ; Tikkinen, Kari A.O. ; Scott, Anna Mae.wiki",
-      "revid": 13123,
-      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
-      "synced_at": "2026-11-06T10:10:31+00:00"
+      "revid": 14199,
+      "sha256": "d51135c5beb24ac27201c86a1dedc802fce7da3fc53845df7cc7de7ac8dd3b17",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Collective:Mozilla Foundation": {
       "path": "Collective/Mozilla Foundation.wiki",
@@ -794,9 +860,15 @@
     },
     "Collective:Myriam Saadé and Olivier Jolliet": {
       "path": "Collective/Myriam Saadé and Olivier Jolliet.wiki",
-      "revid": 12391,
+      "revid": 13708,
+      "sha256": "42db5c7e418cadb7351d23ba0ba5950ffd028b4be8d62e61d14996944181a627",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Collective:Myriam Saadé, Olivier Jolliet": {
+      "path": "Collective/Myriam Saadé, Olivier Jolliet.wiki",
+      "revid": 13707,
       "sha256": "f41749e2136bf2d702e02da37f7016cba28b457f91857310752be0ec5f87b12a",
-      "synced_at": "2026-11-02T20:49:15+00:00"
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Collective:National Aeronautics and Space Administration": {
       "path": "Collective/National Aeronautics and Space Administration.wiki",
@@ -846,6 +918,12 @@
       "sha256": "f431b4c8a9a40621e056f051d513df59c29930856f4d01eeccbfee46093d9b8d",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Oriel FeldmanHall, Joseph E. Dunsmoor, Alexa Tompary, Lindsay E. Hunter, Alexander Todorov, Elizabeth A. Phelps": {
+      "path": "Collective/Oriel FeldmanHall, Joseph E. Dunsmoor, Alexa Tompary, Lindsay E. Hunter, Alexander Todorov, Elizabeth A. Phelps.wiki",
+      "revid": 13970,
+      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
     "Collective:Oxford Brookes University": {
       "path": "Collective/Oxford Brookes University.wiki",
       "revid": 11356,
@@ -884,9 +962,15 @@
     },
     "Collective:Reza Pourmirza Kalhori, Azam Faraji, Mohadeseh Yari, Maryam Ganjabi & Mohsen Kazeminia": {
       "path": "Collective/Reza Pourmirza Kalhori, Azam Faraji, Mohadeseh Yari, Maryam Ganjabi & Mohsen Kazeminia.wiki",
-      "revid": 13091,
+      "revid": 14106,
+      "sha256": "90866ef759168dde17e4385bcebcc3868f7886bc680c4e5375512248d69aa99e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Collective:Reza Pourmirza Kalhori, Azam Faraji, Mohadeseh Yari, Maryam Ganjabi, Mohsen Kazeminia": {
+      "path": "Collective/Reza Pourmirza Kalhori, Azam Faraji, Mohadeseh Yari, Maryam Ganjabi, Mohsen Kazeminia.wiki",
+      "revid": 14105,
       "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
-      "synced_at": "2026-11-06T09:12:04+00:00"
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Collective:République des lettres": {
       "path": "Collective/République des lettres.wiki",
@@ -896,9 +980,9 @@
     },
     "Collective:Schroeder, Juliana ; Caruso, Eugene M. ; Epley, Nicholas": {
       "path": "Collective/Schroeder, Juliana ; Caruso, Eugene M. ; Epley, Nicholas.wiki",
-      "revid": 12695,
-      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
-      "synced_at": "2026-11-04T11:10:51+00:00"
+      "revid": 13837,
+      "sha256": "d3955299ec1a9750ea46f572d0d704469e618d8906ba764ec5e6fb6ef73ffbed",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Collective:Science Feedback": {
       "path": "Collective/Science Feedback.wiki",
@@ -906,11 +990,17 @@
       "sha256": "2b5b5e5c976f40d8284b05582b68522943201d406f630a00de05bef3802b3d74",
       "synced_at": "2026-11-07T17:08:07+00:00"
     },
+    "Collective:Shinkichi Sugimori, Satoshi Watanabe": {
+      "path": "Collective/Shinkichi Sugimori, Satoshi Watanabe.wiki",
+      "revid": 13877,
+      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
     "Collective:Shinkichi Sugimori, Satoshi Watanabe (杉 森 伸 吉, 渡 辺 聡)": {
       "path": "Collective/Shinkichi Sugimori, Satoshi Watanabe (杉 森 伸 吉, 渡 辺 聡).wiki",
-      "revid": 12728,
-      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
-      "synced_at": "2026-11-04T14:11:43+00:00"
+      "revid": 13878,
+      "sha256": "78cd2bbe247d2e4cd93bc1e229554adaf827ce6b5298478eb99cc4733556b478",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Collective:The Astronomical Journal": {
       "path": "Collective/The Astronomical Journal.wiki",
@@ -938,9 +1028,15 @@
     },
     "Collective:Thierry DE MONTBRIAL and Thomas GOMART": {
       "path": "Collective/Thierry DE MONTBRIAL and Thomas GOMART.wiki",
-      "revid": 12465,
+      "revid": 13730,
+      "sha256": "a4c77f67462be4862b936bff13865ac22eb905a8179ad1a2fef46c442e17310f",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Collective:Thierry DE MONTBRIAL, Thomas GOMART": {
+      "path": "Collective/Thierry DE MONTBRIAL, Thomas GOMART.wiki",
+      "revid": 13729,
       "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
-      "synced_at": "2026-11-03T13:10:55+00:00"
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Collective:Thomas F. Banchoff, Davide Cervone, Nicholas Thompson, Jeff Achter, Matthew Stone": {
       "path": "Collective/Thomas F. Banchoff, Davide Cervone, Nicholas Thompson, Jeff Achter, Matthew Stone.wiki",
@@ -1044,11 +1140,17 @@
       "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
       "synced_at": "2026-11-06T09:49:39+00:00"
     },
+    "Collective:Ward Edwards, Paul J. Hoffman, Raymond B. Cattell": {
+      "path": "Collective/Ward Edwards, Paul J. Hoffman, Raymond B. Cattell.wiki",
+      "revid": 13899,
+      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
     "Collective:Ward Edwards, Paul J. Hoffman, and Raymond B. Cattell": {
       "path": "Collective/Ward Edwards, Paul J. Hoffman, and Raymond B. Cattell.wiki",
-      "revid": 12911,
-      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
-      "synced_at": "2026-11-05T08:14:14+00:00"
+      "revid": 13900,
+      "sha256": "0a71002752b337a4b4d078917d8e3dbc1e6cdac97201d47fb107c131aaf3e444",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Collective:Westview Press": {
       "path": "Collective/Westview Press.wiki",
@@ -2256,6 +2358,12 @@
       "sha256": "1a61f4e95658db1e6b234d3b22752dd23dfa0d52ee32561a5250b0e8559fff6b",
       "synced_at": "2026-11-02T12:36:46+00:00"
     },
+    "Person:Alberty R. Meyer": {
+      "path": "Person/Alberty R. Meyer.wiki",
+      "revid": 13567,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
     "Person:Alejandro Díaz Aldana": {
       "path": "Person/Alejandro Díaz Aldana.wiki",
       "revid": 1848,
@@ -2274,17 +2382,53 @@
       "sha256": "a0aff9fd8e6754f1572e43c7804a158ba4f600590b480e1fe76442aa19c8ae54",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Alexa Tompary": {
+      "path": "Person/Alexa Tompary.wiki",
+      "revid": 13944,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Alexander Todorov": {
+      "path": "Person/Alexander Todorov.wiki",
+      "revid": 13952,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Alison A. Anderson": {
+      "path": "Person/Alison A. Anderson.wiki",
+      "revid": 13751,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
     "Person:Alphonse de Lamartine": {
       "path": "Person/Alphonse de Lamartine.wiki",
       "revid": 8891,
       "sha256": "f375c23f569433643d7f50377997ea59f3cc358afc933a48765ee583a9a94447",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Amos Tversky": {
+      "path": "Person/Amos Tversky.wiki",
+      "revid": 13846,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
     "Person:Amy Bruckman": {
       "path": "Person/Amy Bruckman.wiki",
       "revid": 9528,
       "sha256": "2e6e27de3983b51aaa1c484bb9448813ebe81b8e52bc59104d343612575f7460",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Person:Ana L. Flores-Mireles": {
+      "path": "Person/Ana L. Flores-Mireles.wiki",
+      "revid": 14111,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Andreas Horn": {
+      "path": "Person/Andreas Horn.wiki",
+      "revid": 13996,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Person:Andrew Lavin": {
       "path": "Person/Andrew Lavin.wiki",
@@ -2297,6 +2441,18 @@
       "revid": 13468,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:19:42+00:00"
+    },
+    "Person:Aniugo Victor Onyekachi": {
+      "path": "Person/Aniugo Victor Onyekachi.wiki",
+      "revid": 13631,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Anna Mae Scott": {
+      "path": "Person/Anna Mae Scott.wiki",
+      "revid": 14180,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Person:Anton Petrunin": {
       "path": "Person/Anton Petrunin.wiki",
@@ -2316,17 +2472,41 @@
       "sha256": "771cddba6cf95ba32b8c508a7edc8945d917440dda3413ff9ef3c216f02b1aaa",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Ashwini Oswal": {
+      "path": "Person/Ashwini Oswal.wiki",
+      "revid": 14008,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
     "Person:Augustin-Louis Cauchy": {
       "path": "Person/Augustin-Louis Cauchy.wiki",
       "revid": 6999,
       "sha256": "b3945e13093cfadcfe0e13bc63f92b0a5d913e90f3c56118bdc1035f60d401e8",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Aurelio Peccei": {
+      "path": "Person/Aurelio Peccei.wiki",
+      "revid": 13781,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
     "Person:Autar Kaw": {
       "path": "Person/Autar Kaw.wiki",
       "revid": 11146,
       "sha256": "4b8f3b650b25fe0261b75b6eddfc8abab80b0cc4225d5331e7e9658f6ef54122",
       "synced_at": "2026-10-22T18:44:57+00:00"
+    },
+    "Person:Azam Faraji": {
+      "path": "Person/Azam Faraji.wiki",
+      "revid": 14081,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Beatrice Portelli": {
+      "path": "Person/Beatrice Portelli.wiki",
+      "revid": 13598,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Person:Ben Bucksch": {
       "path": "Person/Ben Bucksch.wiki",
@@ -2394,17 +2574,41 @@
       "sha256": "6945adee4c674cc78f4fa12850f0d537d47d9282d6fd9e1302a90d934f99349a",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Carlos Mallmann": {
+      "path": "Person/Carlos Mallmann.wiki",
+      "revid": 13793,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
     "Person:Carrie Beckwith-Fellows": {
       "path": "Person/Carrie Beckwith-Fellows.wiki",
       "revid": 11329,
       "sha256": "7c6dd00f95256e148a2c2f147f76a058ff8559e4738b2396e1fcf41d041481b9",
       "synced_at": "2026-10-27T09:17:43+00:00"
     },
+    "Person:Charlotte Phelps": {
+      "path": "Person/Charlotte Phelps.wiki",
+      "revid": 14156,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Chengyuan Wu": {
+      "path": "Person/Chengyuan Wu.wiki",
+      "revid": 13976,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
     "Person:Chris Johnson": {
       "path": "Person/Chris Johnson.wiki",
       "revid": 1637,
       "sha256": "d3c99797d0c2e8b2e7d0a0b7920eb0a5c80a71bd1163f35dca9b7972afa2dad8",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Person:Christian Moro": {
+      "path": "Person/Christian Moro.wiki",
+      "revid": 14152,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Person:Cixin Liu": {
       "path": "Person/Cixin Liu.wiki",
@@ -2417,6 +2621,12 @@
       "revid": 7103,
       "sha256": "8b5e142c458958bc0acd980522f85d6cad171af8e7698577724b55fb4bbefe06",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Person:Daniel Kahneman": {
+      "path": "Person/Daniel Kahneman.wiki",
+      "revid": 13842,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Person:Daniel Mayer": {
       "path": "Person/Daniel Mayer.wiki",
@@ -2460,6 +2670,24 @@
       "sha256": "eab47ff4c7e6347be4d9d003808c51bcc3d1136dd62d8556d25696afde5b9da6",
       "synced_at": "2026-11-05T10:20:43+00:00"
     },
+    "Person:Dennis L. Meadows": {
+      "path": "Person/Dennis L. Meadows.wiki",
+      "revid": 13735,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Diana Daly": {
+      "path": "Person/Diana Daly.wiki",
+      "revid": 13905,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Donella H. Meadows": {
+      "path": "Person/Donella H. Meadows.wiki",
+      "revid": 13739,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
     "Person:Douglas Clowe": {
       "path": "Person/Douglas Clowe.wiki",
       "revid": 6947,
@@ -2484,6 +2712,12 @@
       "sha256": "89eff82f6aca990ecefab700e2cf11a66c2d6cf6d93f31e48c8b4a95ec2f6827",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Elizabeth A. Phelps": {
+      "path": "Person/Elizabeth A. Phelps.wiki",
+      "revid": 13956,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
     "Person:Emily Frisella": {
       "path": "Person/Emily Frisella.wiki",
       "revid": 8710,
@@ -2496,6 +2730,12 @@
       "sha256": "b8b8bc3559742aff88d21a4b6c6afc80f4d7229da7d93e0579577a9fd67db684",
       "synced_at": "2026-10-31T09:35:24+00:00"
     },
+    "Person:Eric Lehman": {
+      "path": "Person/Eric Lehman.wiki",
+      "revid": 13559,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
     "Person:Eric Schopler": {
       "path": "Person/Eric Schopler.wiki",
       "revid": 9750,
@@ -2507,6 +2747,36 @@
       "revid": 8742,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Person:Ervin Laszlo": {
+      "path": "Person/Ervin Laszlo.wiki",
+      "revid": 13789,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Eugene M. Caruso": {
+      "path": "Person/Eugene M. Caruso.wiki",
+      "revid": 13824,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Ezekiel Mayaki Asuku": {
+      "path": "Person/Ezekiel Mayaki Asuku.wiki",
+      "revid": 13643,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Ezirim Kelechi ThankGod": {
+      "path": "Person/Ezirim Kelechi ThankGod.wiki",
+      "revid": 13619,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:F. Thomson Leighton": {
+      "path": "Person/F. Thomson Leighton.wiki",
+      "revid": 13563,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Person:Fabian TRÉCOURT": {
       "path": "Person/Fabian TRÉCOURT.wiki",
@@ -2525,6 +2795,18 @@
       "revid": 7319,
       "sha256": "61b7aa1ccb1d06940defe94098a2ef8f2f0e46ca521fe7b1bc7ecc731ff76a5e",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Person:Franci Rrapi": {
+      "path": "Person/Franci Rrapi.wiki",
+      "revid": 13594,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Francisca Ferreira": {
+      "path": "Person/Francisca Ferreira.wiki",
+      "revid": 13980,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Person:Franck Ramus": {
       "path": "Person/Franck Ramus.wiki",
@@ -2592,11 +2874,29 @@
       "sha256": "f520de9ba5ff1cdcb931a44955e3c7f91b2b257e102b7c996cc10d7b268f3af5",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Giuseppe Serra": {
+      "path": "Person/Giuseppe Serra.wiki",
+      "revid": 13602,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
     "Person:Gottfried Wilhelm Leibniz": {
       "path": "Person/Gottfried Wilhelm Leibniz.wiki",
       "revid": 6991,
       "sha256": "253d7018df41c5cc100e3dfa5d56a13fc83877293063242377b30d4ba09e0e00",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Person:H. Raiffa": {
+      "path": "Person/H. Raiffa.wiki",
+      "revid": 14065,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Harith Akram": {
+      "path": "Person/Harith Akram.wiki",
+      "revid": 14028,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Person:Harry Pollard": {
       "path": "Person/Harry Pollard.wiki",
@@ -2628,6 +2928,12 @@
       "sha256": "df97885111edaba5b49a944dfab0a9697754d5bf84d19607bf18deba8fb05ff4",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:J. Anthony Tyson": {
+      "path": "Person/J. Anthony Tyson.wiki",
+      "revid": 13685,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
     "Person:Jacob Moore": {
       "path": "Person/Jacob Moore.wiki",
       "revid": 13482,
@@ -2645,6 +2951,18 @@
       "revid": 8683,
       "sha256": "9af10da973b39c542f68aa64231c998b6b49424b36e1ba665b79a8a0e6d1bbeb",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Person:James W. Botkin": {
+      "path": "Person/James W. Botkin.wiki",
+      "revid": 13769,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Jan Komara": {
+      "path": "Person/Jan Komara.wiki",
+      "revid": 13665,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Person:Jason Evangelho": {
       "path": "Person/Jason Evangelho.wiki",
@@ -2688,6 +3006,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Jennifer N. Walker": {
+      "path": "Person/Jennifer N. Walker.wiki",
+      "revid": 14115,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
     "Person:Jeremy Sylvestre": {
       "path": "Person/Jeremy Sylvestre.wiki",
       "revid": 8147,
@@ -2724,6 +3048,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:Jona Hattangadi-Gluth": {
+      "path": "Person/Jona Hattangadi-Gluth.wiki",
+      "revid": 13992,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
     "Person:Jonas Salk": {
       "path": "Person/Jonas Salk.wiki",
       "revid": 9128,
@@ -2735,6 +3065,12 @@
       "revid": 11383,
       "sha256": "2c9fe9f7ae96101cbe01649520313dc52939b9e23a868c3b134f708d1501acc7",
       "synced_at": "2026-10-27T10:54:39+00:00"
+    },
+    "Person:Joseph E. Dunsmoor": {
+      "path": "Person/Joseph E. Dunsmoor.wiki",
+      "revid": 13940,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Person:Joseph Fourier": {
       "path": "Person/Joseph Fourier.wiki",
@@ -2754,6 +3090,18 @@
       "sha256": "271c88935d000e546970faf8425ec9ba15766ae2d754198adb901afbd70c07e2",
       "synced_at": "2026-10-25T18:16:09+00:00"
     },
+    "Person:Joshua Kahan": {
+      "path": "Person/Joshua Kahan.wiki",
+      "revid": 14004,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Juliana Schroeder": {
+      "path": "Person/Juliana Schroeder.wiki",
+      "revid": 13820,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
     "Person:Julien Lesgourgues": {
       "path": "Person/Julien Lesgourgues.wiki",
       "revid": 12184,
@@ -2765,6 +3113,30 @@
       "revid": 6434,
       "sha256": "aa04b115cdc93b7d77fe0723d430f1a4c2000eefd667489e81a6ba5de8041fff",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Justin Clark": {
+      "path": "Person/Justin Clark.wiki",
+      "revid": 14172,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Jørgen Randers": {
+      "path": "Person/Jørgen Randers.wiki",
+      "revid": 13743,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Kainan Jarrette": {
+      "path": "Person/Kainan Jarrette.wiki",
+      "revid": 13909,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Kari A.O. Tikkinen": {
+      "path": "Person/Kari A.O. Tikkinen.wiki",
+      "revid": 14176,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Person:Ken Kuttler": {
       "path": "Person/Ken Kuttler.wiki",
@@ -2783,6 +3155,12 @@
       "revid": 6572,
       "sha256": "9d2db081d48cd09f3681c7923a37b5ec8801121b9462092749a9ad11ade94d85",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Kevin Cheung": {
+      "path": "Person/Kevin Cheung.wiki",
+      "revid": 13581,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Person:Kristina Kallas": {
       "path": "Person/Kristina Kallas.wiki",
@@ -2808,11 +3186,29 @@
       "sha256": "15cb83742bc23167e9a33d0d5c989bde680020c77e0090ff4e5b8f69af96285f",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:Lindsay E. Hunter": {
+      "path": "Person/Lindsay E. Hunter.wiki",
+      "revid": 13948,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
     "Person:Linus Torvalds": {
       "path": "Person/Linus Torvalds.wiki",
       "revid": 6430,
       "sha256": "e72bc8c2e0a078922c1117d4cab620a772824d8373483acee43f6bba8d09a6f9",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Lorenzo Scalera": {
+      "path": "Person/Lorenzo Scalera.wiki",
+      "revid": 13606,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Ludvic Zrinzo": {
+      "path": "Person/Ludvic Zrinzo.wiki",
+      "revid": 14024,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Person:Lyric Ripley": {
       "path": "Person/Lyric Ripley.wiki",
@@ -2820,11 +3216,23 @@
       "sha256": "2cfd299172cae483c0a2b251be56440b093bc74141913bc049cd4164e2f2188b",
       "synced_at": "2026-11-06T08:50:01+00:00"
     },
+    "Person:M. Alpert": {
+      "path": "Person/M. Alpert.wiki",
+      "revid": 14061,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
     "Person:Machele Kindle": {
       "path": "Person/Machele Kindle.wiki",
       "revid": 12093,
       "sha256": "2a57d5dd60a10d421663e4e14ad73612a5aaf3ba23bab89917e1e75ef7ea30b7",
       "synced_at": "2026-11-01T09:49:23+00:00"
+    },
+    "Person:Mahdi Elmandjra": {
+      "path": "Person/Mahdi Elmandjra.wiki",
+      "revid": 13773,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Person:Main": {
       "path": "Person/Main.wiki",
@@ -2838,11 +3246,29 @@
       "sha256": "e59595d699f028aead97163bcfbb816915fb1a34c9ce29cb135f291cc998e0b6",
       "synced_at": "2026-10-25T15:26:48+00:00"
     },
+    "Person:Mark Jones": {
+      "path": "Person/Mark Jones.wiki",
+      "revid": 14164,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
     "Person:Martin Kutta": {
       "path": "Person/Martin Kutta.wiki",
       "revid": 7327,
       "sha256": "61b7aa1ccb1d06940defe94098a2ef8f2f0e46ca521fe7b1bc7ecc731ff76a5e",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Maryam Ganjabi": {
+      "path": "Person/Maryam Ganjabi.wiki",
+      "revid": 14089,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Mathieu Lemire": {
+      "path": "Person/Mathieu Lemire.wiki",
+      "revid": 13585,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Person:Matthew D. Affolter": {
       "path": "Person/Matthew D. Affolter.wiki",
@@ -2868,11 +3294,23 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:19:42+00:00"
     },
+    "Person:Michael Caparon": {
+      "path": "Person/Michael Caparon.wiki",
+      "revid": 14119,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
     "Person:Michael Corral": {
       "path": "Person/Michael Corral.wiki",
       "revid": 10878,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-10-21T09:42:51+00:00"
+    },
+    "Person:Michael Fox": {
+      "path": "Person/Michael Fox.wiki",
+      "revid": 13984,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Person:Michael Janssen": {
       "path": "Person/Michael Janssen.wiki",
@@ -2886,17 +3324,41 @@
       "sha256": "e368fdce1156026de39f96aabe879782aa54bb85c819d41845779aa0103a61eb",
       "synced_at": "2026-11-03T07:11:15+00:00"
     },
+    "Person:Michael S. Turner": {
+      "path": "Person/Michael S. Turner.wiki",
+      "revid": 13681,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
     "Person:Michel Chasles": {
       "path": "Person/Michel Chasles.wiki",
       "revid": 8256,
       "sha256": "dbfd71f895a8c60407e5e808a3ca084f9cb5965a9080b6cfa7afef9691df7c0e",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:Mircea Malitza": {
+      "path": "Person/Mircea Malitza.wiki",
+      "revid": 13777,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
     "Person:Mitchell Baker": {
       "path": "Person/Mitchell Baker.wiki",
       "revid": 6560,
       "sha256": "d63630b4b70e48419a1c104624684a4c9fd977c521fca9d5ca49470d0a0489a4",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Mohadeseh Yari": {
+      "path": "Person/Mohadeseh Yari.wiki",
+      "revid": 14085,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Mohsen Kazeminia": {
+      "path": "Person/Mohsen Kazeminia.wiki",
+      "revid": 14093,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Person:Monica Ayhens-Madon": {
       "path": "Person/Monica Ayhens-Madon.wiki",
@@ -2910,6 +3372,12 @@
       "sha256": "ed9da64cf404c4db8d958950aeebbf92c7ab39aa8c3bfa1c56bca8cec040247b",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:Myriam Saadé": {
+      "path": "Person/Myriam Saadé.wiki",
+      "revid": 13697,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
     "Person:Natalie Ivanova": {
       "path": "Person/Natalie Ivanova.wiki",
       "revid": 6546,
@@ -2921,6 +3389,12 @@
       "revid": 13170,
       "sha256": "36230adc29beea3de828c9bf5cdcc80d63cb241dd59523cceabfb4018ff8d2f9",
       "synced_at": "2026-11-07T13:35:13+00:00"
+    },
+    "Person:Nicholas Epley": {
+      "path": "Person/Nicholas Epley.wiki",
+      "revid": 13828,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Person:Nicholas Thompson": {
       "path": "Person/Nicholas Thompson.wiki",
@@ -2934,11 +3408,47 @@
       "sha256": "850aad5aa95f96d424f043629c627a02bd8dd262c110809ba07ba7d2b10ddb75",
       "synced_at": "2026-11-04T08:36:39+00:00"
     },
+    "Person:Noam Harel": {
+      "path": "Person/Noam Harel.wiki",
+      "revid": 13988,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
     "Person:Norbert Thonnard": {
       "path": "Person/Norbert Thonnard.wiki",
       "revid": 6943,
       "sha256": "c1507ca637f71b55095343a409dfe42ae92f0d68c32960022631a1c835ba165e",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Nwaokolo Ikechukwu Frank": {
+      "path": "Person/Nwaokolo Ikechukwu Frank.wiki",
+      "revid": 13639,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Obi Obichukwu Immanuel": {
+      "path": "Person/Obi Obichukwu Immanuel.wiki",
+      "revid": 13635,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Okoronkwo Iheanyi Chinedu": {
+      "path": "Person/Okoronkwo Iheanyi Chinedu.wiki",
+      "revid": 13627,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Olivier Jolliet": {
+      "path": "Person/Olivier Jolliet.wiki",
+      "revid": 13701,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Oriel FeldmanHall": {
+      "path": "Person/Oriel FeldmanHall.wiki",
+      "revid": 13936,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Person:Oscar Levin": {
       "path": "Person/Oscar Levin.wiki",
@@ -2964,6 +3474,12 @@
       "sha256": "92bf6971be69236e536ee798e9b953273ba4c3dba4a37e647af0bca579e02f66",
       "synced_at": "2026-10-31T10:35:11+00:00"
     },
+    "Person:Paul Glasziou": {
+      "path": "Person/Paul Glasziou.wiki",
+      "revid": 14168,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
     "Person:Paul Hewitt": {
       "path": "Person/Paul Hewitt.wiki",
       "revid": 7771,
@@ -2975,6 +3491,18 @@
       "revid": 1647,
       "sha256": "d3c99797d0c2e8b2e7d0a0b7920eb0a5c80a71bd1163f35dca9b7972afa2dad8",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Paul J. Hoffman": {
+      "path": "Person/Paul J. Hoffman.wiki",
+      "revid": 13887,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Paul J. Voda": {
+      "path": "Person/Paul J. Voda.wiki",
+      "revid": 13669,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Person:Pauline Comini": {
       "path": "Person/Pauline Comini.wiki",
@@ -3017,6 +3545,18 @@
       "revid": 11563,
       "sha256": "6ff7d530d3d066e40346b2887ea2f006033f6d73c54739e2fe287c8cff06a8dd",
       "synced_at": "2026-10-28T14:11:58+00:00"
+    },
+    "Person:Raymond B. Cattell": {
+      "path": "Person/Raymond B. Cattell.wiki",
+      "revid": 13891,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Reza Pourmirza Kalhori": {
+      "path": "Person/Reza Pourmirza Kalhori.wiki",
+      "revid": 14077,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Person:Richard C. DiPrima": {
       "path": "Person/Richard C. DiPrima.wiki",
@@ -3066,11 +3606,47 @@
       "sha256": "1ef7fb9ea96415944f42773c403daadebdeed7da16ef37731c582a995614f0a6",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:Romesh Thapar": {
+      "path": "Person/Romesh Thapar.wiki",
+      "revid": 13785,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
     "Person:Ryan Sipes": {
       "path": "Person/Ryan Sipes.wiki",
       "revid": 6534,
       "sha256": "a348d051d08d029a18cd949088a5314299f675cfa7de7bf73b46697309000193",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:S. Ragnar Norrby": {
+      "path": "Person/S. Ragnar Norrby.wiki",
+      "revid": 14143,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Saad Jbabdi": {
+      "path": "Person/Saad Jbabdi.wiki",
+      "revid": 14000,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Sameer A. Sheth": {
+      "path": "Person/Sameer A. Sheth.wiki",
+      "revid": 14012,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Sani Abubakar Muhammed": {
+      "path": "Person/Sani Abubakar Muhammed.wiki",
+      "revid": 13623,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Satoshi Watanabe": {
+      "path": "Person/Satoshi Watanabe.wiki",
+      "revid": 13871,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Person:Saul Perlmutter": {
       "path": "Person/Saul Perlmutter.wiki",
@@ -3096,6 +3672,12 @@
       "sha256": "1b390915fd61ad35d51dda7c98006e5b771ea5abec519a4c2bb6d4885274ae83",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:Scott J. Hultgren": {
+      "path": "Person/Scott J. Hultgren.wiki",
+      "revid": 14123,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
     "Person:Scott MacGregor": {
       "path": "Person/Scott MacGregor.wiki",
       "revid": 6568,
@@ -3107,6 +3689,12 @@
       "revid": 6870,
       "sha256": "68bb38d6839727d4b1b64ea67ac05444364268df2dab23fcb04e336fe79463df",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Shinkichi Sugimori": {
+      "path": "Person/Shinkichi Sugimori.wiki",
+      "revid": 13867,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Person:Solomon Hykes": {
       "path": "Person/Solomon Hykes.wiki",
@@ -3144,6 +3732,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:Thierry DE MONTBRIAL": {
+      "path": "Person/Thierry DE MONTBRIAL.wiki",
+      "revid": 13713,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
     "Person:Thomas DE ZAN": {
       "path": "Person/Thomas DE ZAN.wiki",
       "revid": 9372,
@@ -3161,6 +3755,12 @@
       "revid": 10679,
       "sha256": "75be0d1138ec7b67b044efe0f7eb6cb9bed6f08ba8edc43af93968fa072f8058",
       "synced_at": "2026-10-19T19:39:31+00:00"
+    },
+    "Person:Thomas GOMART": {
+      "path": "Person/Thomas GOMART.wiki",
+      "revid": 13717,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Person:Thomas Sauer": {
       "path": "Person/Thomas Sauer.wiki",
@@ -3186,11 +3786,23 @@
       "sha256": "afe9010599fcc82cf7c207e9237d229aab4ab335523534ab97189f30a48201e8",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:Vejay Vakharia": {
+      "path": "Person/Vejay Vakharia.wiki",
+      "revid": 14020,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
     "Person:Vera Rubin": {
       "path": "Person/Vera Rubin.wiki",
       "revid": 6935,
       "sha256": "43a9c19ec21ec950150125989d0a16570fae3230a1c8e2360fc2c34727eefaab",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Vineesha Veer": {
+      "path": "Person/Vineesha Veer.wiki",
+      "revid": 14160,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Person:W. Kent Ford": {
       "path": "Person/W. Kent Ford.wiki",
@@ -3203,6 +3815,18 @@
       "revid": 7023,
       "sha256": "d2dc3e7adb2045a8e1df18154a889379f143364ee00b49600b535c1f8cd4ce6f",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Walter E. Stamm": {
+      "path": "Person/Walter E. Stamm.wiki",
+      "revid": 14139,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Ward Edwards": {
+      "path": "Person/Ward Edwards.wiki",
+      "revid": 13883,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Person:William E. Boyce": {
       "path": "Person/William E. Boyce.wiki",
@@ -3221,6 +3845,18 @@
       "revid": 13515,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:19:42+00:00"
+    },
+    "Person:William W. Behrens III": {
+      "path": "Person/William W. Behrens III.wiki",
+      "revid": 13747,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Yanmei Tie": {
+      "path": "Person/Yanmei Tie.wiki",
+      "revid": 14016,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T19:35:16+00:00"
     },
     "Personal identity": {
       "path": "Main/Personal identity.wiki",
@@ -5893,6 +6529,6 @@
       "synced_at": "2026-11-07T15:19:42+00:00"
     }
   },
-  "updated": "2026-11-07T19:19:42+00:00",
+  "updated": "2026-11-07T19:35:16+00:00",
   "version": 1
 }

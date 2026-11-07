@@ -1,5 +1,1 @@
-{{Collective}}
-
-== Overview ==
-
-Institute of Informatics, Comenius University
+#REDIRECT [[Collective:Jan Komara, Paul J. Voda]]
