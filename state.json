@@ -1542,6 +1542,12 @@
       "sha256": "13935779acd3d1f3f7958ad0e0ed0e41d261216a8d239e413ccdc00a1b2ee6a6",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Gambler's fallacy": {
+      "path": "Main/Gambler's fallacy.wiki",
+      "revid": 13240,
+      "sha256": "13a99762d3fb31fb49eca8c71be3700d79531768fb2260b8f294d507ac93d884",
+      "synced_at": "2026-11-07T16:49:04+00:00"
+    },
     "General relativity": {
       "path": "Main/General relativity.wiki",
       "revid": 12259,
@@ -5779,6 +5785,6 @@
       "synced_at": "2026-11-07T15:19:42+00:00"
     }
   },
-  "updated": "2026-11-07T16:35:26+00:00",
+  "updated": "2026-11-07T16:49:04+00:00",
   "version": 1
 }
