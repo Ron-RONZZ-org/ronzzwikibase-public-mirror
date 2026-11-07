@@ -5648,9 +5648,9 @@
     },
     "The widening context": {
       "path": "Main/The widening context.wiki",
-      "revid": 12537,
-      "sha256": "32815a4ea7dc492781c7d09b82f4aeacbd54950f724f3f5ea42c4caf1dfc2e81",
-      "synced_at": "2026-11-03T15:49:56+00:00"
+      "revid": 13192,
+      "sha256": "dabc86634c531df63206a4533d65eab469a1bb533298666d10bb279db4eb24b4",
+      "synced_at": "2026-11-07T15:19:42+00:00"
     },
     "Think tank": {
       "path": "Main/Think tank.wiki",
@@ -5729,8 +5729,14 @@
       "revid": 12065,
       "sha256": "4a3dfe7523f56ede4b2d57deb55d1c1c9a30db97d3580b01d433ba05f7b69984",
       "synced_at": "2026-10-31T19:35:59+00:00"
+    },
+    "Widening context": {
+      "path": "Main/Widening context.wiki",
+      "revid": 13190,
+      "sha256": "e4366cf824d4857ac33174a3f749dafc15a05ac442d7f8830c9141f3d9cc844c",
+      "synced_at": "2026-11-07T15:19:42+00:00"
     }
   },
-  "updated": "2026-11-07T15:08:12+00:00",
+  "updated": "2026-11-07T15:19:42+00:00",
   "version": 1
 }
