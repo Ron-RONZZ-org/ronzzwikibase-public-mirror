@@ -1,3 +1,4 @@
+[[Category:Logic fallacy]]
 The '''gambler's fallacy''' is the mistaken [[belief]] that past outcomes can influence futures ones in repeated occurrences of independent random events.<ref>{{#cite:Q2796}}</ref>
 
 == Example ==
