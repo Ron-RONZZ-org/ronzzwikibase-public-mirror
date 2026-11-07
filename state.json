@@ -5610,6 +5610,12 @@
       "sha256": "98b634b81338d918ea72c48debc83cb2b7c20e35b338f936cc8dc2f8c9dc38c6",
       "synced_at": "2026-10-31T18:20:24+00:00"
     },
+    "Statement": {
+      "path": "Main/Statement.wiki",
+      "revid": 13227,
+      "sha256": "7251fc572a752e6b5c3bc37cb45c6cbf35408ff6da7fbed335e270ff4c4079cd",
+      "synced_at": "2026-11-07T16:19:46+00:00"
+    },
     "Statistical bias": {
       "path": "Main/Statistical bias.wiki",
       "revid": 13063,
@@ -5767,6 +5773,6 @@
       "synced_at": "2026-11-07T15:19:42+00:00"
     }
   },
-  "updated": "2026-11-07T16:09:43+00:00",
+  "updated": "2026-11-07T16:19:46+00:00",
   "version": 1
 }

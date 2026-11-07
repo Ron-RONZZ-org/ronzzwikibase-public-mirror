@@ -1,0 +1,32 @@
+[[Category:Logic]]
+[[File:Intuition Good feeling.png|thumbnail|Is this a '''statement'''?]]
+In [[logic]], a '''statement''' is a sentence that is either true or false.<ref>{{#cite:Q1841}}</ref>
+
+== Examples ==
+
+* All prime numbers are odd
+* Curry is the national dish of the UK
+* If you are French, you must like baguette
+
+== Counterexamples ==
+
+* Will it rain today? (question)
+* $f$ is a differentiable function (incomplete : whether $f$ is differentiable depends on the definition of $f$)
+
+== Coherence ==
+
+A set of statements is said to be '''coherent''' if it is possible for all of them to be simultaneously true.<ref>{{#cite:Q1837}}</ref>
+
+=== Coherent set example ===
+
+* I have eaten lunch at 3pm today
+* I am going to dinner soon
+
+=== Incoherent set example ===
+
+* I have eaten lunch at 3pm today
+* I have had dinner at 2pm today
+
+<blockquote>
+If the definition of lunch is the 2nd meal of the day, and dinner is the 3rd meal of the day, there is no way that dinner happened before lunch. Therefore, those two statements '''cannot''' be simultaneously true.
+</blockquote>
