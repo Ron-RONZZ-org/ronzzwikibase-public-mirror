@@ -1,3 +1,4 @@
+[[Category:Philosophy]]
 Philosophy, from Greek ''philosophia'', meaning the love of wisdom, is a discipline of [[humanities]] that seeks to understand the world via rational thinking.
 
 == Branches ==
@@ -6,7 +7,7 @@ The main branches of philosophy includes:<ref>{{#cite:Q1834}}</ref>
 
 * [[Metaphysics]], which studies the nature of reality,
 * [[Epistemology]], which studies the nature and scope of knowledge
-* Value thoeries, including
+* Value theories, including
 ** [[Ethics]], which studies and evaluates human behaviour
 ** [[Aesthetics]], which studies the nature of beauty
 

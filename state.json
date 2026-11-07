@@ -1566,6 +1566,12 @@
       "sha256": "2e943d9e27a116507096ae475c637fc8e18c317f3743c5af8e04f09ff86aab26",
       "synced_at": "2026-10-29T15:50:24+00:00"
     },
+    "Group identity": {
+      "path": "Main/Group identity.wiki",
+      "revid": 13187,
+      "sha256": "632113263d09b76eaf58f9e48842c4204c8c50409385b717c30e4e927d44a656",
+      "synced_at": "2026-11-07T15:08:12+00:00"
+    },
     "Gâteaux derivative": {
       "path": "Main/Gâteaux derivative.wiki",
       "revid": 11720,
@@ -1994,9 +2000,9 @@
     },
     "Motivated reasoning": {
       "path": "Main/Motivated reasoning.wiki",
-      "revid": 13162,
-      "sha256": "a30c904586002e5a1b2801b56f8f621f5c1d12dd0156cc095b2bd030bb5e603d",
-      "synced_at": "2026-11-07T13:19:41+00:00"
+      "revid": 13183,
+      "sha256": "a8ac20684b3a64b0d5809a97efc02a0e93d0be4946c995cfd560aaab293c6c0f",
+      "synced_at": "2026-11-07T15:08:12+00:00"
     },
     "Multidimensional interpolation": {
       "path": "Main/Multidimensional interpolation.wiki",
@@ -3084,11 +3090,17 @@
       "sha256": "53b360f8aaadece7bc38806b624e249fc110928559fbd0aa6a8f9d765fe513dc",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Personal identity": {
+      "path": "Main/Personal identity.wiki",
+      "revid": 13184,
+      "sha256": "a5ea75774c07d35cd1ca4f14688f420c38aacd407988b35a492cec372606820a",
+      "synced_at": "2026-11-07T15:08:12+00:00"
+    },
     "Philosophy": {
       "path": "Main/Philosophy.wiki",
-      "revid": 8158,
-      "sha256": "b40b48c97181264ade93e62758db79446860054855232a0027e2583ee5a014ce",
-      "synced_at": "2026-10-18T07:12:56+00:00"
+      "revid": 13189,
+      "sha256": "a4815481c3d4c57eb463ac84560313c5d4fe2f5cd03ef9279f357a1c2e3a82d6",
+      "synced_at": "2026-11-07T15:08:12+00:00"
     },
     "Physics": {
       "path": "Main/Physics.wiki",
@@ -5719,6 +5731,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-07T13:35:13+00:00",
+  "updated": "2026-11-07T15:08:12+00:00",
   "version": 1
 }
