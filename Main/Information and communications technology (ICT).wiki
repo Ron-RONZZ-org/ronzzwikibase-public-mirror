@@ -1,0 +1,20 @@
+[[Technology]] used for
+
+* gathering
+* storing
+* transmitting
+* retrieving
+* processing
+
+of information.
+
+<ref>{{#cite:Q2789}}</ref>
+
+== Subdomains ==
+
+* [[Computing]]
+** [[Microelectronics]]
+** [[Computer software]]
+** [[Mobile telephony]]
+** [[Satellite communication]]
+** [[Computer network]]

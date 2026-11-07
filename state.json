@@ -1310,9 +1310,9 @@
     },
     "Epistemology": {
       "path": "Main/Epistemology.wiki",
-      "revid": 8121,
-      "sha256": "1a473d6bec2c5c5b9d58c76461e0d0b0f6e015310eb769d94668a5d95c2a4247",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "revid": 13199,
+      "sha256": "2dedfb703a455c0817fa21fd410575c619a045761b5c8fcc4fed5b6d1c3ce8f1",
+      "synced_at": "2026-11-07T15:35:26+00:00"
     },
     "Ethics": {
       "path": "Main/Ethics.wiki",
@@ -1739,6 +1739,12 @@
       "revid": 9214,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Information and communications technology (ICT)": {
+      "path": "Main/Information and communications technology (ICT).wiki",
+      "revid": 13205,
+      "sha256": "404275ac95a30d39d0d3b7b73bf0f1f59a8acb20b149ca302bb44a9c80c2d360",
+      "synced_at": "2026-11-07T15:35:26+00:00"
     },
     "Inner product": {
       "path": "Main/Inner product.wiki",
@@ -4374,6 +4380,12 @@
       "sha256": "3e678c5c55bfca74c4168df2770f23b983abc3b17ea944e7bde789f8aa109baf",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Information and communications technology (ICT) - Glossary - CSRC (Webpage)": {
+      "path": "Source/Information and communications technology (ICT) - Glossary - CSRC (Webpage).wiki",
+      "revid": 13204,
+      "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
+      "synced_at": "2026-11-07T15:35:26+00:00"
+    },
     "Source:Initial revision of \"git\", the information manager from hell (Webpage)": {
       "path": "Source/Initial revision of _git_, the information manager from hell (Webpage).wiki",
       "revid": 6490,
@@ -5648,9 +5660,9 @@
     },
     "The widening context": {
       "path": "Main/The widening context.wiki",
-      "revid": 13192,
-      "sha256": "dabc86634c531df63206a4533d65eab469a1bb533298666d10bb279db4eb24b4",
-      "synced_at": "2026-11-07T15:19:42+00:00"
+      "revid": 13198,
+      "sha256": "f939a02eebeba0f71eb73f01d303119a436ad8b2880f9cc4287bf762e8095ed8",
+      "synced_at": "2026-11-07T15:35:26+00:00"
     },
     "Think tank": {
       "path": "Main/Think tank.wiki",
@@ -5737,6 +5749,6 @@
       "synced_at": "2026-11-07T15:19:42+00:00"
     }
   },
-  "updated": "2026-11-07T15:19:42+00:00",
+  "updated": "2026-11-07T15:35:26+00:00",
   "version": 1
 }
