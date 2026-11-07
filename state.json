@@ -662,9 +662,9 @@
     },
     "Collective:Hass et al.": {
       "path": "Collective/Hass et al.wiki",
-      "revid": 10861,
-      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
-      "synced_at": "2026-10-21T09:16:35+00:00"
+      "revid": 14254,
+      "sha256": "5200157b83e55cf8fd148227c7d9b7611bff8323793ccbdaf69f052fc27d749a",
+      "synced_at": "2026-11-07T20:35:26+00:00"
     },
     "Collective:Helvetica Physica Acta": {
       "path": "Collective/Helvetica Physica Acta.wiki",
@@ -731,6 +731,12 @@
       "revid": 13675,
       "sha256": "5e4d21f3ad0ced63022fc0fdee40e04fbe8b5407b750a54c7b416b24574ee32b",
       "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Collective:Joel R. Hass, Maurice D. Weir, George B. Thomas": {
+      "path": "Collective/Joel R. Hass, Maurice D. Weir, George B. Thomas.wiki",
+      "revid": 14253,
+      "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
+      "synced_at": "2026-11-07T20:35:26+00:00"
     },
     "Collective:John Wiley & Sons": {
       "path": "Collective/John Wiley & Sons.wiki",
@@ -2838,6 +2844,12 @@
       "sha256": "bb9ad2b93e59e324ba1e01706ce2bcc5369fd88e383f2e989bdaee95b7616032",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:George B. Thomas": {
+      "path": "Person/George B. Thomas.wiki",
+      "revid": 14245,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T20:35:26+00:00"
+    },
     "Person:George Biddell Airy": {
       "path": "Person/George Biddell Airy.wiki",
       "revid": 7315,
@@ -3029,6 +3041,12 @@
       "revid": 6336,
       "sha256": "efcdb215cba3afa3c9443f882f8b54861a43287f8aaa249d5e387997fe4c0955",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Person:Joel R. Hass": {
+      "path": "Person/Joel R. Hass.wiki",
+      "revid": 14237,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T20:35:26+00:00"
     },
     "Person:John C. Mather": {
       "path": "Person/John C. Mather.wiki",
@@ -3281,6 +3299,12 @@
       "revid": 13541,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:19:42+00:00"
+    },
+    "Person:Maurice D. Weir": {
+      "path": "Person/Maurice D. Weir.wiki",
+      "revid": 14241,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-07T20:35:26+00:00"
     },
     "Person:Maya Bar-Hillel": {
       "path": "Person/Maya Bar-Hillel.wiki",
@@ -6529,6 +6553,6 @@
       "synced_at": "2026-11-07T15:19:42+00:00"
     }
   },
-  "updated": "2026-11-07T19:35:16+00:00",
+  "updated": "2026-11-07T20:35:26+00:00",
   "version": 1
 }
