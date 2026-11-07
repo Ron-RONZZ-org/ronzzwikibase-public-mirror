@@ -16,7 +16,7 @@ In ''[[Source:Subjective probability: A judgement of representativeness (Scholar
 
 One of the most important consequence of representative heuristic is '''stereotypical judgement'''.
 
-To illustrate, ''[[Source:Judgement under Uncertainty: Heuristics and Biases (Scholarly article)|Tversky-Kahneman (1978)]] gave the description of a Steve described by a former neighbour as shy, reserved, with little interest in people but invariably helpful, and asked readers to estimate whether Steve is more likely to be a librarian or a farmer. 
+To illustrate, ''[[Source:Judgement under Uncertainty: Heuristics and Biases (Scholarly article)|Tversky-Kahneman (1978)]]'' gave the description of a Steve described by a former neighbour as shy, reserved, with little interest in people but invariably helpful, and asked readers to estimate whether Steve is more likely to be a librarian or a farmer. 
 
 <blockquote>
 What do you think?
@@ -24,7 +24,7 @@ What do you think?
 
 Although statistically there are many more farmers than librarians in most locations and nothing prevents a farmer from being kind but reserved, many people instinctually consider Steve more likely to be a librarian than farmer, as he fits better into the stereotypical impression of a librarian.<ref>{{#cite:Q2710}}</ref>
 
-[[File:Representative heuristic v base rate heuristic.png|thumbnail| The solid line represents the expected outcome if oarticipants to ''[[Source:On the psychology of prediction (Scholarly article)|Kahneman-Tversky (1973-2)]]'' fully considered base-rate probabilities under [[Baye's rule]]. Surprisingly, the experimental results were instead close to the identity line (dashed), the expected outcome if participants completely ignored base-rate]]
+[[File:Representative heuristic v base rate heuristic.png|thumbnail| The solid line represents the expected outcome if oarticipants to ''[[Source:On the psychology of prediction (Scholarly article)|Kahneman-Tversky (1973-2)]]'' fully considered base-rate probabilities under [[Bayes law]]. Surprisingly, the experimental results were instead close to the identity line (dashed), the expected outcome if participants completely ignored base-rate]]
 
 ''[[Source:On the psychology of prediction (Scholarly article)|Kahneman-Tversky (1973-2)]]'' further empirically suggests that people favour [[availability heuristic]] to [[base-rate heuristic]] Researchers divided about 170 participants into two groups, and presented one group with a 100-people pool in which 30% are engineers and 70 % are lawyers ('low prior probability group (LP)'), and the other with a 100-people pool in which 70% are engineers and 30% lawyers (high prior probability group (HP)'). In both cases, when asked to estimate the probability each of 5 hypothetical profiles are engineers, the average estimations given by the two groups were comparable (LP 50%, HP 55%).<ref>{{#cite:Q2712}}</ref>
 
@@ -34,7 +34,7 @@ In ''[[Source:Formal representation of human judgement (Scholarly article)|Edwar
 
 === Rapid reaction ===
 
-Despite the inherent inaccuracy of stereotypical judgements, ''[[Source:11.2: Heuristics (Webpage)|Lavin (2024)]] emphasises that '''representativeness heuristics''' can be a valuable tool when rapid decisions are required despite inadequate information.<ref>{{#cite:Q2709}}</ref>.
+Despite the inherent inaccuracy of stereotypical judgements, ''[[Source:11.2: Heuristics (Webpage)|Lavin (2024)]]'' emphasises that '''representativeness heuristics''' can be a valuable tool when rapid decisions are required despite inadequate information.<ref>{{#cite:Q2709}}</ref>.
 
 To understand the author's argument, consider a surprise encounter with someone wearing a ski mask in a narrow alley on a cold winter night. Many people instinctively associate the ski mask with stereotypical villains in cartoons and movies, and may therefore decide to turn around instead of crossing path with the individual. Applying [[base-rate heuristics]] and reasonably assuming that the overwhelming majority of people one meets in the street, even at night, are not aggresive, it is possible towards plausible that the person is wearing the ski mask simply for comfort in the cold. It is however in all cases prudent to stay away from the person as a precaution.
 

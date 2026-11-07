@@ -3230,9 +3230,9 @@
     },
     "Representativeness heuristic": {
       "path": "Main/Representativeness heuristic.wiki",
-      "revid": 12922,
-      "sha256": "7eb430f030c60685f7acb9866bfcb61947f624c2a0280674a81653710005dfda",
-      "synced_at": "2026-11-05T08:14:14+00:00"
+      "revid": 13230,
+      "sha256": "ef9e1c801ba568b43305a323d6a62dd10fbef0705b5b064c28be29682b5941de",
+      "synced_at": "2026-11-07T16:35:26+00:00"
     },
     "Rest energy": {
       "path": "Main/Rest energy.wiki",
@@ -3449,6 +3449,12 @@
       "revid": 10888,
       "sha256": "96a190e1b1470505830994ebcf3d2d9f508a927fd8064c39c69df1ffab3133a4",
       "synced_at": "2026-10-21T10:32:44+00:00"
+    },
+    "Source:1.4: Logic and Intuition (Webpage)": {
+      "path": "Source/1.4_ Logic and Intuition (Webpage).wiki",
+      "revid": 13235,
+      "sha256": "3d7fb6e18b15d034872bf183e3f1bf450d6e5dcc1b105cd6278702b092e99324",
+      "synced_at": "2026-11-07T16:35:26+00:00"
     },
     "Source:1.4: The Earth's crust (Webpage)": {
       "path": "Source/1.4_ The Earth's crust (Webpage).wiki",
@@ -5773,6 +5779,6 @@
       "synced_at": "2026-11-07T15:19:42+00:00"
     }
   },
-  "updated": "2026-11-07T16:19:46+00:00",
+  "updated": "2026-11-07T16:35:26+00:00",
   "version": 1
 }
