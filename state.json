@@ -1988,9 +1988,9 @@
     },
     "Motivated reasoning": {
       "path": "Main/Motivated reasoning.wiki",
-      "revid": 13028,
-      "sha256": "e2bbdfb54c23570e68d4fc833fc8223ebeb50c27bfe647bd1330f7f7d584bba2",
-      "synced_at": "2026-11-05T12:29:44+00:00"
+      "revid": 13162,
+      "sha256": "a30c904586002e5a1b2801b56f8f621f5c1d12dd0156cc095b2bd030bb5e603d",
+      "synced_at": "2026-11-07T13:19:41+00:00"
     },
     "Multidimensional interpolation": {
       "path": "Main/Multidimensional interpolation.wiki",
@@ -5695,6 +5695,6 @@
       "synced_at": "2026-10-31T19:35:59+00:00"
     }
   },
-  "updated": "2026-11-06T13:20:12+00:00",
+  "updated": "2026-11-07T13:19:41+00:00",
   "version": 1
 }
