@@ -4428,6 +4428,18 @@
       "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
       "synced_at": "2026-10-20T11:14:49+00:00"
     },
+    "Source:1.5: Media Literacy (Webpage)": {
+      "path": "Source/1.5_ Media Literacy (Webpage).wiki",
+      "revid": 14472,
+      "sha256": "c39959d564f8e58316f14414a5477bd3e8260d3847a7de315512066dfec171e7",
+      "synced_at": "2026-11-08T13:49:28+00:00"
+    },
+    "Source:1.5: Media Literacy (Webpage)/archivedText": {
+      "path": "Source/1.5_ Media Literacy (Webpage)/archivedText.wiki",
+      "revid": 14471,
+      "sha256": "8153605cea7db6d3948be1e7c074dc7d361a4bca8100239740828a622a224724",
+      "synced_at": "2026-11-08T13:49:28+00:00"
+    },
     "Source:1.6: Half-lines and segments (Webpage)": {
       "path": "Source/1.6_ Half-lines and segments (Webpage).wiki",
       "revid": 10762,
@@ -6787,6 +6799,6 @@
       "synced_at": "2026-11-07T15:19:42+00:00"
     }
   },
-  "updated": "2026-11-08T13:35:30+00:00",
+  "updated": "2026-11-08T13:49:28+00:00",
   "version": 1
 }

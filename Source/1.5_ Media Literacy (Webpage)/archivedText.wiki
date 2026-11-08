@@ -1,0 +1,975 @@
+Skip to main content
+<div class="elm-skin-container" role="main" ga-category="Anonymous | page">
+
+<div class="elm-header">
+
+<div class="elm-header-custom">
+
+<div id="readerview_wrapper" style="display:none;">
+
+<div id="readerview" class="readerOn">
+
+<div class="header-left-control">
+
+<div class="header-menu">
+
+<span id="toc-btn-label" hidden="hidden">Table of Contents</span> <span class="material-symbols-outlined" aria-hidden="true" focusable="false">menu</span>
+
+</div>
+<div class="header-branding">
+
+[https://human.libretexts.org/ ([https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01%3A_Critical_Thinking/1.05%3A_Media_Literacy Media content: view on original URL]) Library homepage]
+
+</div>
+
+</div>
+<div class="header-title">
+
+ 
+
+</div>
+<div class="header-end">
+
+<span class="material-symbols-outlined" aria-hidden="true" focusable="false">search</span> <span class="visually-hidden">Search</span>
+<span class="material-symbols-outlined" aria-hidden="true" focusable="false">build_circle </span> <span class="visually-hidden">Toolbar</span>
+<span class="material-symbols-outlined" aria-hidden="true" focusable="false">fact_check</span> <span class="visually-hidden">Homework</span>
+<span class="material-symbols-outlined" aria-hidden="true" focusable="false">cancel</span> <span>Exit Reader Mode</span>
+
+</div>
+
+</div>
+<div id="offcanvas-menu">
+
+<div id="toc" class="hidden">
+
+ 
+
+</div>
+<div id="siteMenu">
+
+* [https://human.libretexts.org/Courses <span class="material-symbols-outlined" aria-hidden="true" focusable="false">school</span> <span class="menu-label">Campus Bookshelves</span>]
+* [https://human.libretexts.org/Bookshelves <span class="material-symbols-outlined" aria-hidden="true" focusable="false">menu_book</span> <span class="menu-label">Bookshelves</span>]
+* <span class="mt-disabled" rel="broken"><span class="material-symbols-outlined" aria-hidden="true" focusable="false">perm_media</span> <span class="menu-label">Learning Objects</span></span>
+
+* [https://human.libretexts.org/Special:Userlogin?readerView#tab=login <span class="material-symbols-outlined" aria-hidden="true" focusable="false">login</span> <span class="menu-label">Login</span>]
+* [https://register.libretexts.org/ <span class="material-symbols-outlined" aria-hidden="true" focusable="false">how_to_reg</span> <span class="menu-label">Request Instructor Account</span>]
+* [https://commons.libretexts.org/ <span class="material-symbols-outlined" aria-hidden="true" focusable="false">hub</span> <span class="menu-label">Instructor Commons</span>]
+
+</div>
+
+</div>
+<div id="search">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel">
+
+<span id="search"></span>
+== Search ==
+
+<div class="form-item">
+
+Search this book
+
+</div>
+<div class="form-action">
+
+Submit Search
+
+</div>
+<div id="search_results">
+
+ 
+
+</div>
+
+</div>
+
+</div>
+<div id="readability">
+
+x
+
+<div id="beeline" class="settings-section">
+
+<div class="setting">
+
+<div class="setting-title">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel/Readability">
+
+<span id="text-color"></span>
+==== Text Color ====
+
+Reset
+
+</div>
+
+</div>
+<div class="setting-control text_color">
+
+<span class="bee-btn-render"> </span><span class="bee-btn-label">Bright</span>
+<span class="bee-btn-render"> </span><span class="bee-btn-label">Blues</span>
+<span class="bee-btn-render"> </span><span class="bee-btn-label">Gray</span>
+<span class="bee-btn-render"> </span><span class="bee-btn-label">Inverted</span>
+
+</div>
+
+</div>
+
+</div>
+<div id="textSize" class="settings-section">
+
+<div class="setting">
+
+<div class="setting-title">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel/Readability">
+
+<span id="text-size"></span>
+==== Text Size ====
+
+Reset
+
+</div>
+
+</div>
+<div class="font-adjuster">
+
++
+-
+<div id="range_bs" class="range_base" type="input" value="18">
+
+ 
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div id="textSize" class="settings-section">
+
+<div class="setting">
+
+<div class="setting-title">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel/Readability">
+
+<span id="margin-size"></span>
+==== Margin Size ====
+
+Reset
+
+</div>
+
+</div>
+<div class="margin-adjuster">
+
++
+-
+<div id="margin_disp" class="margin_display" type="input" value="55">
+
+ 
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div id="textSize" class="settings-section">
+
+<div class="setting">
+
+<div class="setting-title">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel/Readability">
+
+<span id="font-type"></span>
+==== Font Type ====
+
+</div>
+
+</div>
+<div class="dyslexic-toggle">
+
+Enable Dyslexic Font <span class="slider round"> </span>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div id="toolbar">
+
+<ul>
+<li><span id="dl-menu">[https://human.libretexts.org/?downloads <span>Downloads</span> <span class="material-symbols-outlined" aria-hidden="true" focusable="false">expand_more</span>]</span>
+<div class="sub-nav">
+
+<ul>
+<li>[https://human.libretexts.org/?downloadpage <span>Download Page (PDF)</span>]</li>
+<li>[https://human.libretexts.org/?downloadfull <span>Download Full Book (PDF)</span>]</li></ul>
+
+</div></li>
+<li><span id="res-menu">[https://human.libretexts.org/?resources <span>Resources</span> <span class="material-symbols-outlined" aria-hidden="true" focusable="false">expand_more</span>]</span>
+<div class="sub-nav">
+
+<ul>
+<li>[https://human.libretexts.org/?pertable <span>Periodic Table</span>]</li>
+<li>[https://human.libretexts.org/?physconst <span>Physics Constants</span>]</li>
+<li>[https://human.libretexts.org/?scientificcal Scientific Calculator]</li></ul>
+
+</div></li>
+<li><span id="ref-menu">[https://human.libretexts.org/?references <span>Reference</span> <span class="material-symbols-outlined" aria-hidden="true" focusable="false">expand_more</span>]</span>
+<div class="sub-nav">
+
+<ul>
+<li>[https://human.libretexts.org/?refmodal <span>Reference &amp; Cite</span>]</li></ul>
+
+</div></li>
+<li><span id="tools-menu">[https://human.libretexts.org/?tools <span>Tools</span> <span class="material-symbols-outlined" aria-hidden="true" focusable="false">expand_more</span>]</span>
+<div class="sub-nav">
+
+<ul>
+</ul>
+
+</div></li>
+<li><span id="help-menu">[https://human.libretexts.org/?help <span>Help</span> <span class="material-symbols-outlined" aria-hidden="true" focusable="false">expand_more</span>]</span>
+<div class="sub-nav">
+
+<ul>
+<li>[https://human.libretexts.org/?helpmodal <span>Get Help</span>]</li>
+<li>[https://human.libretexts.org/?feedback <span>Feedback</span>]</li>
+<li>[https://human.libretexts.org/?readability <span>Readability</span>]</li></ul>
+
+</div></li></ul>
+
+</div>
+<div id="modal_readerview" class="modal">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel">
+
+<span id="section"></span>
+==   ==
+
+<span class="modal-close" tabindex="0">x</span>
+
+</div>
+
+</div>
+<div class="modal-body">
+
+selected template will load here
+
+</div>
+
+</div>
+
+</div>
+<div id="modal-main" class="modal micromodal-slide" aria-hidden="true">
+
+<div class="modal__overlay" micromodal-close="data-micromodal-close" tabindex="-1">
+
+<div class="modal__container" aria-labelledby="modal-main-title" aria-modal="true" role="dialog">
+
+<div class="modal__header">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel">
+
+<span id="modal-main-title"></span>
+== Error ==
+
+</div>
+
+</div>
+<div id="modal-main-body" class="modal__content" role="main">
+
+This action is not available.
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="mt-container-highlight" style="background-color: #ffffff;">
+
+</div>
+<div style="display:none">
+
+<div id="parentTitleHolder" style="display:none">
+
+1: Critical Thinking
+
+</div>
+<div id="parentParentTitleHolder" style="display:none">
+
+Decoding Deception (Daly and Jarrette)
+
+</div>
+<div id="subpagesHolder" style="display:none">
+
+{ }
+
+</div>
+<div id="parentSubpagesHolder" style="display:none">
+
+{ &quot;1.01:_Introduction_to_Critical_Thinking&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;1.02:_Epistemology&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;1.03:_Cognitive_Bias&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;1.04:_Logic_and_Intuition&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;1.05:_Media_Literacy&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;1.06:_AI_Literacy&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot; }
+
+</div>
+<div id="parentParentSubpagesHolder" style="display:none">
+
+{ &quot;00:_Front_Matter&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;01:_Critical_Thinking&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;02:_Common_Fallacies_(and_How_to_Find_Them)&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;03:_Final_Thoughts&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;zz:_Back_Matter&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot; }
+
+</div>
+<div id="modifiedHolder" style="display:none">
+
+Sun, 06 Sep 2026 07:30:45 GMT
+
+</div>
+<div id="titleHolder" style="display:none">
+
+1.5: Media Literacy
+
+</div>
+<div id="IDHolder" style="display:none">
+
+355236
+
+</div>
+<div id="pageIDHolder" style="display:none">
+
+355236
+
+</div>
+<div id="pageAuthorHolder" style="display:none">
+
+Delmar Larsen
+
+</div>
+<div id="groupHolder" style="display:none">
+
+{ }
+
+</div>
+<div id="usernameHolder" style="display:none">
+
+Anonymous
+
+</div>
+<div id="displaynameHolder" style="display:none">
+
+Anonymous User
+
+</div>
+<div id="userEmailHolder" style="display:none">
+
+</div>
+<div id="emailHolder" style="display:none">
+
+</div>
+<div id="userIDHolder" style="display:none">
+
+2
+
+</div>
+<div id="proHolder" style="display:none">
+
+false
+
+</div>
+<div id="adminHolder" style="display:none">
+
+false
+
+</div>
+<div id="pageTagsHolder" style="display:none">
+
+[ &quot;article:topic&quot;, &quot;license:ccbyncsa&quot;, &quot;showtoc:no&quot;, &quot;critical thinking&quot;, &quot;misinformation&quot;, &quot;credibility&quot;, &quot;licenseversion:40&quot;, &quot;media&quot;, &quot;media literacy&quot;, &quot;fake news&quot;, &quot;bias&quot;, &quot;information evaluation&quot;, &quot;source@https://opentextbooks.library.arizona.edu/decodingdeception/&quot;, &quot;authorname:ddaly-kjarrette&quot;, &quot;SIFT method&quot;, &quot;fact-checking&quot; ]
+
+</div>
+<div id="tagsHolder" style="display:none">
+
+[ &quot;article:topic&quot;, &quot;license:ccbyncsa&quot;, &quot;showtoc:no&quot;, &quot;critical thinking&quot;, &quot;misinformation&quot;, &quot;credibility&quot;, &quot;licenseversion:40&quot;, &quot;media&quot;, &quot;media literacy&quot;, &quot;fake news&quot;, &quot;bias&quot;, &quot;information evaluation&quot;, &quot;source@https://opentextbooks.library.arizona.edu/decodingdeception/&quot;, &quot;authorname:ddaly-kjarrette&quot;, &quot;SIFT method&quot;, &quot;fact-checking&quot; ]
+
+</div>
+<div id="ssoHolder" style="display:none">
+
+https://human.libretexts.org/@app/auth/3/login?returnto=https%3A%2F%2Fhuman.libretexts.org%2FBookshelves%2FPhilosophy%2FLogic_and_Reasoning%2FDecoding_Deception_(Daly_and_Jarrette)%2F01%253A_Critical_Thinking%2F1.05%253A_Media_Literacy
+
+</div>
+
+</div>
+
+</div>
+<div class="elm-nav mt-translate-module" hidden="true">
+
+<div class="elm-nav-container mt-translate-container">
+
+</div>
+
+</div>
+<div class="elm-header-logo-container">
+
+[https://human.libretexts.org ([https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01%3A_Critical_Thinking/1.05%3A_Media_Literacy Media content: view on original URL]) Humanities LibreTexts]
+
+</div>
+
+</div>
+<div>
+
+<div id="flash-messages">
+
+<div class="dekiFlash">
+
+</div>
+
+</div>
+<span id="title"></span>
+= 1.5: Media Literacy =
+
+# #; Last updated
+#: <span class="mt-last-updated" timestamp="2026-09-06T07:30:45Z"></span>
+# [https://human.libretexts.org/@api/deki/pages/355236/pdf/1.5%253A%2bMedia%2bLiteracy.pdf <span class="mt-icon-article-pdf"></span>Save as PDF]
+# 
+
+</div>
+<div class="mt-content-header">
+
+; Page ID
+: 355236
+
+<div class="mt-author-container">
+
+* ([https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01%3A_Critical_Thinking/1.05%3A_Media_Literacy Media content: view on original URL])
+* Diana Daly and Kainan Jarrette
+* [https://ischool.arizona.edu/person/diana-daly University of Arizona]
+
+</div>
+<div class="Headertext">
+
+\( \newcommand{\vecs}[1]{\overset { \scriptstyle \rightharpoonup} {\mathbf{#1}} } \)
+
+\( \newcommand{\vecd}[1]{\overset{-\!-\!\rightharpoonup}{\vphantom{a}\smash {#1}}} \)
+
+\( \newcommand{\dsum}{\displaystyle\sum\limits} \)
+
+\( \newcommand{\dint}{\displaystyle\int\limits} \)
+
+\( \newcommand{\dlim}{\displaystyle\lim\limits} \)
+
+\( \newcommand{\id}{\mathrm{id}}\) \( \newcommand{\Span}{\mathrm{span}}\)
+
+( \newcommand{\kernel}{\mathrm{null}\,}\) \( \newcommand{\range}{\mathrm{range}\,}\)
+
+\( \newcommand{\RealPart}{\mathrm{Re}}\) \( \newcommand{\ImaginaryPart}{\mathrm{Im}}\)
+
+\( \newcommand{\Argument}{\mathrm{Arg}}\) \( \newcommand{\norm}[1]{\| #1 \|}\)
+
+\( \newcommand{\inner}[2]{\langle #1, #2 \rangle}\)
+
+\( \newcommand{\Span}{\mathrm{span}}\)
+
+\( \newcommand{\id}{\mathrm{id}}\)
+
+\( \newcommand{\Span}{\mathrm{span}}\)
+
+\( \newcommand{\kernel}{\mathrm{null}\,}\)
+
+\( \newcommand{\range}{\mathrm{range}\,}\)
+
+\( \newcommand{\RealPart}{\mathrm{Re}}\)
+
+\( \newcommand{\ImaginaryPart}{\mathrm{Im}}\)
+
+\( \newcommand{\Argument}{\mathrm{Arg}}\)
+
+\( \newcommand{\norm}[1]{\| #1 \|}\)
+
+\( \newcommand{\inner}[2]{\langle #1, #2 \rangle}\)
+
+\( \newcommand{\Span}{\mathrm{span}}\) \( \newcommand{\AA}{\unicode[.8,0]{x212B}}\)
+
+\( \newcommand{\vectorA}[1]{\vec{#1}}      % arrow\)
+
+\( \newcommand{\vectorAt}[1]{\vec{\text{#1}}}      % arrow\)
+
+\( \newcommand{\vectorB}[1]{\overset { \scriptstyle \rightharpoonup} {\mathbf{#1}} } \)
+
+\( \newcommand{\vectorC}[1]{\textbf{#1}} \)
+
+\( \newcommand{\vectorD}[1]{\overrightarrow{#1}} \)
+
+\( \newcommand{\vectorDt}[1]{\overrightarrow{\text{#1}}} \)
+
+\( \newcommand{\vectE}[1]{\overset{-\!-\!\rightharpoonup}{\vphantom{a}\smash{\mathbf {#1}}}} \)
+
+\( \newcommand{\vecs}[1]{\overset { \scriptstyle \rightharpoonup} {\mathbf{#1}} } \)
+
+\(\newcommand{\longvect}{\overrightarrow}\)
+
+\( \newcommand{\vecd}[1]{\overset{-\!-\!\rightharpoonup}{\vphantom{a}\smash {#1}}} \)
+
+\(\newcommand{\ket}[1]{\left| #1 \right&gt;}\)<br />
+\(\newcommand{\bra}[1]{\left&lt; #1 \right|}\)<br />
+\(\newcommand{\braket}[2]{\left&lt; #1 \vphantom{#2} \right| \left. #2 \vphantom{#1} \right&gt;}\)<br />
+\(\newcommand{\braopket}[3]{\left&lt; #1 \vphantom{#2}\vphantom{#3} \right| #2 \vphantom{#1}\vphantom{#3} \left| #3 \vphantom{#1}\vphantom{#2} \right&gt;}\)<br />
+\(\newcommand{\qmvec}[1]{\mathbf{\vec{#1}}}\)<br />
+\(\newcommand{\op}[1]{\hat{\mathbf{#1}}}\)<br />
+\(\newcommand{\expect}[1]{\langle #1 \rangle}\)<br />
+\(\newcommand{\dfn}[1]{\emph{\textbf{#1}}}\)
+
+\(\newcommand{\avec}{\mathbf a}\) \(\newcommand{\bvec}{\mathbf b}\) \(\newcommand{\cvec}{\mathbf c}\) \(\newcommand{\dvec}{\mathbf d}\) \(\newcommand{\dtil}{\widetilde{\mathbf d}}\) \(\newcommand{\evec}{\mathbf e}\) \(\newcommand{\fvec}{\mathbf f}\) \(\newcommand{\nvec}{\mathbf n}\) \(\newcommand{\pvec}{\mathbf p}\) \(\newcommand{\qvec}{\mathbf q}\) \(\newcommand{\svec}{\mathbf s}\) \(\newcommand{\tvec}{\mathbf t}\) \(\newcommand{\uvec}{\mathbf u}\) \(\newcommand{\vvec}{\mathbf v}\) \(\newcommand{\wvec}{\mathbf w}\) \(\newcommand{\xvec}{\mathbf x}\) \(\newcommand{\yvec}{\mathbf y}\) \(\newcommand{\zvec}{\mathbf z}\) \(\newcommand{\rvec}{\mathbf r}\) \(\newcommand{\mvec}{\mathbf m}\) \(\newcommand{\zerovec}{\mathbf 0}\) \(\newcommand{\onevec}{\mathbf 1}\) \(\newcommand{\real}{\mathbb R}\) \(\newcommand{\twovec}[2]{\left[\begin{array}{r}#1 \\ #2 \end{array}\right]}\) \(\newcommand{\ctwovec}[2]{\left[\begin{array}{c}#1 \\ #2 \end{array}\right]}\) \(\newcommand{\threevec}[3]{\left[\begin{array}{r}#1 \\ #2 \\ #3 \end{array}\right]}\) \(\newcommand{\cthreevec}[3]{\left[\begin{array}{c}#1 \\ #2 \\ #3 \end{array}\right]}\) \(\newcommand{\fourvec}[4]{\left[\begin{array}{r}#1 \\ #2 \\ #3 \\ #4 \end{array}\right]}\) \(\newcommand{\cfourvec}[4]{\left[\begin{array}{c}#1 \\ #2 \\ #3 \\ #4 \end{array}\right]}\) \(\newcommand{\fivevec}[5]{\left[\begin{array}{r}#1 \\ #2 \\ #3 \\ #4 \\ #5 \\ \end{array}\right]}\) \(\newcommand{\cfivevec}[5]{\left[\begin{array}{c}#1 \\ #2 \\ #3 \\ #4 \\ #5 \\ \end{array}\right]}\) \(\newcommand{\mattwo}[4]{\left[\begin{array}{rr}#1 \amp #2 \\ #3 \amp #4 \\ \end{array}\right]}\) \(\newcommand{\laspan}[1]{\text{Span}\{#1\}}\) \(\newcommand{\bcal}{\cal B}\) \(\newcommand{\ccal}{\cal C}\) \(\newcommand{\scal}{\cal S}\) \(\newcommand{\wcal}{\cal W}\) \(\newcommand{\ecal}{\cal E}\) \(\newcommand{\coords}[2]{\left\{#1\right\}_{#2}}\) \(\newcommand{\gray}[1]{\color{gray}{#1}}\) \(\newcommand{\lgray}[1]{\color{lightgray}{#1}}\) \(\newcommand{\rank}{\operatorname{rank}}\) \(\newcommand{\row}{\text{Row}}\) \(\newcommand{\col}{\text{Col}}\) \(\renewcommand{\row}{\text{Row}}\) \(\newcommand{\nul}{\text{Nul}}\) \(\newcommand{\var}{\text{Var}}\) \(\newcommand{\corr}{\text{corr}}\) \(\newcommand{\len}[1]{\left|#1\right|}\) \(\newcommand{\bbar}{\overline{\bvec}}\) \(\newcommand{\bhat}{\widehat{\bvec}}\) \(\newcommand{\bperp}{\bvec^\perp}\) \(\newcommand{\xhat}{\widehat{\xvec}}\) \(\newcommand{\vhat}{\widehat{\vvec}}\) \(\newcommand{\uhat}{\widehat{\uvec}}\) \(\newcommand{\what}{\widehat{\wvec}}\) \(\newcommand{\Sighat}{\widehat{\Sigma}}\) \(\newcommand{\lt}{&lt;}\) \(\newcommand{\gt}{&gt;}\) \(\newcommand{\amp}{&amp;}\) \(\definecolor{fillinmathshade}{gray}{0.9}\)
+
+</div>
+
+</div>
+<div class="section mt-content-container">
+
+<div class="box-exercise">
+
+<div class="mt-section" mt-section-origin="Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01:_Critical_Thinking/1.05:_Media_Literacy">
+
+<span id="SELF-EVALUATION!"></span>
+<span id="self-evaluation"></span>
+===== <span class="lt-icon-default">SELF-EVALUATION!</span> =====
+
+Before reading on, fill out and export the following survey:<br />
+<code>An interactive H5P element has been excluded from this version of the text. You can view it online here:</code><br />
+<code>opentextbooks.library.arizona.edu/decodingdeception/?p=238#h5p-14 </code>
+
+</div>
+
+</div>
+<div class="box-objectives">
+
+<div class="textbox__header">
+
+<div class="mt-section" mt-section-origin="Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01:_Critical_Thinking/1.05:_Media_Literacy">
+
+<span id="What_is_Media_Literacy.3F"></span>
+<span id="what-is-media-literacy"></span>
+== What is Media Literacy? ==
+
+</div>
+
+</div>
+
+</div>
+'''<span class="glossary-term">Media literacy</span>''' is the ability to access, understand, analyze, evaluate, and create media in a critical and informed way. By <span class="glossary-term">'''media'''</span> we’re referring to any channel or method of communication. This includes (but isn’t limited to):
+
+([https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01%3A_Critical_Thinking/1.05%3A_Media_Literacy Media content: view on original URL]) Media_01-300x300.png
+
+* Books
+* Magazines
+* Newspapers
+* Radio/podcasts
+* Television
+* Movies
+* Videos
+* Websites
+* Social media
+
+As you can see, you encounter media all the time in your everyday life. And whether it’s fictional or non-fictional content, it’s all helping to shape your view of the world. Therefore, being able to apply <span class="glossary-term">critical thinking</span> when engaging with this content is vital.
+
+This book will be focusing primarily on non-fictional content, but it’s still important to know that media literacy also applies to fictional content. In practice, good media literacy can look like:
+
+{| class="wikitable mt-responsive-table"
+|-
+| class="mt-noheading mt-column-width-5 lt-human-355236" style="text-align: center;"| <span style="text-decoration:underline;">'''Non-Fiction Content'''</span>
+| class="mt-noheading mt-column-width-5 lt-human-355236" style="text-align: center;"| <span style="text-decoration:underline;">'''Fictional Content'''</span>
+|-
+| class="mt-noheading mt-column-width-5 lt-human-355236" style="text-align: center;"| Discerning if a particular website is a credible source of information
+| class="mt-noheading mt-column-width-5 lt-human-355236" style="text-align: center;"| Recognizing when something is parody or satire (such as The Onion)
+|-
+| class="mt-noheading mt-column-width-5 lt-human-355236" style="text-align: center;"| Being able to fact-check claims made in a Facebook post
+| class="mt-noheading mt-column-width-5 lt-human-355236" style="text-align: center;"| Recognizing intentional irony
+|-
+| class="mt-noheading mt-column-width-5 lt-human-355236" style="text-align: center;"| Reading an entire news article before sharing, as opposed to just the headline
+| class="mt-noheading mt-column-width-5 lt-human-355236" style="text-align: center;"| Recognizing that fiction can still contain bias and ideological framing
+|-
+| class="mt-noheading mt-column-width-5 lt-human-355236" style="text-align: center;"| Recognizing the difference between opinion and journalistic reporting
+| class="mt-noheading mt-column-width-5 lt-human-355236" style="text-align: center;"| Recognizing that fictional portrayals of history and real events aren’t neutral or reliably accurate
+|-
+| class="mt-noheading mt-column-width-5 lt-human-355236" style="text-align: center;"| Understanding how algorithms shape what you see and are suggested
+| class="mt-noheading mt-column-width-5 lt-human-355236" style="text-align: center;"| Understanding allegory, metaphor, and subtext
+|-
+| class="mt-noheading mt-column-width-5 lt-human-355236" style="text-align: center;"| Navigating user reviews of products online
+| class="mt-noheading mt-column-width-5 lt-human-355236" style="text-align: center;"| Recognizing how tropes can be harmful in the real world
+|-
+| class="mt-noheading mt-column-width-5 lt-human-355236" style="text-align: center;"| Recognizing emotionally manipulative language in content
+| class="mt-noheading mt-column-width-5 lt-human-355236" style="text-align: center;"| Recognizing that fictional behavior is not a substitute for ethical norms
+|}
+
+<div class="box-objectives">
+
+<div class="textbox__header">
+
+<div class="mt-section" mt-section-origin="Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01:_Critical_Thinking/1.05:_Media_Literacy">
+
+<span id="The_.E2.80.9CSIFT.E2.80.9D_Method"></span>
+<span id="the-sift-method"></span>
+== The “SIFT” Method ==
+
+</div>
+
+</div>
+
+</div>
+([https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01%3A_Critical_Thinking/1.05%3A_Media_Literacy Media content: view on original URL]) sift-infographic-300x160.png
+
+Developed by Mike Caulfield, the [https://hapgood.us/2019/06/19/sift-the-four-moves SIFT] [https://hapgood.us/2019/06/19/sift-the-four-moves method]<sup>1</sup> is a simple and straightforward way to investigate the credibility of information, particularly for online sources. The steps are:
+
+<div id="section_1" class="mt-section" mt-section-origin="Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01:_Critical_Thinking/1.05:_Media_Literacy">
+
+<span id="Stop"></span>
+<span id="stop"></span>
+== <span style="text-decoration:underline;">Stop</span> ==
+
+([https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01%3A_Critical_Thinking/1.05%3A_Media_Literacy Media content: view on original URL]) STOP-300x300.pngBefore reading or sharing content, STOP!
+
+With everything going on in a typical day, it’s very easy to be in a state where you’re ''passively'' engaging with media. But passive engagement means we’re likely not scrutinizing the content or ourselves to the level we should be when this type of information is presented.
+
+Taking a moment to stop lets you switch to an active engagement, where you can more specifically exercise your media literacy skills, such as:
+
+* Evaluating the emotional content of an article
+* Assessing your own emotional state as you’re reading
+* Thinking about what you already know on the topic
+
+</div>
+<div id="section_2" class="mt-section" mt-section-origin="Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01:_Critical_Thinking/1.05:_Media_Literacy">
+
+<span id="Investigate_the_source"></span>
+<span id="investigate-the-source"></span>
+== <span style="text-decoration:underline;">Investigate the source</span> ==
+
+([https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01%3A_Critical_Thinking/1.05%3A_Media_Literacy Media content: view on original URL]) Investigate-300x300.pngTake a moment to look up the author, website, etc of the content you’re engaging with. In particular, look for things like:
+
+* Does the source likely have an ideological bias or goal in mind?
+* Does the source have any authority on the topic being discussed?
+
+</div>
+<div id="section_3" class="mt-section" mt-section-origin="Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01:_Critical_Thinking/1.05:_Media_Literacy">
+
+<span id="Find_better_coverage"></span>
+<span id="find-better-coverage"></span>
+== <span style="text-decoration:underline;">Find better coverage</span> ==
+
+([https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01%3A_Critical_Thinking/1.05%3A_Media_Literacy Media content: view on original URL]) Coverage-300x300.pngIt’s important to see what ''other'' sources are saying about the same claim or topic. Try to find other credible sources that either:
+
+* Corroborate the information or claim
+* Dispute the information or claim
+
+Additionally, it’s often a good idea to see if credible, non-partisan fact-checking sites have already covered the article or content. These can include:
+
+* [https://www.snopes.com Snopes.com]
+* [https://www.factcheck.org FactCheck.org]
+* [https://www.politifact.com Politifact.com]
+
+</div>
+<div id="section_4" class="mt-section" mt-section-origin="Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01:_Critical_Thinking/1.05:_Media_Literacy">
+
+<span id="Trace_Claims.2C_Quotes.2C_and_Media_to_Their_Original_Source"></span>
+<span id="trace-claims-quotes-and-media-to-their-original-source"></span>
+== <span style="text-decoration:underline;">Trace Claims, Quotes, and Media to Their Original Source</span> ==
+
+([https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01%3A_Critical_Thinking/1.05%3A_Media_Literacy Media content: view on original URL]) Trace-300x300.pngArticles will frequently make claims based on other second-hand information, such as:
+
+* Academic studies
+* Quotes from other people, groups, and articles
+* Visuals such as graphs, photos, or videos
+
+However, it’s not uncommon for articles to misrepresent these things. This could mean:
+
+* Improperly summarizing the findings of a study
+* Taking a quote out of context
+* Using visuals out of context
+
+It’s important to try to find the primary source of content like the above, and ask yourself questions like:
+
+* Do the conclusions drawn by the author(s) of a study match the claims that were made in the article referencing the study?
+* Did a referenced quote come from the person the article claimed it did? Was the way the article used that quote fair to the context the quote came from?
+* Are the visuals that are used actually directly related to the content discussed in the article? Did the article edit anything out of the original piece of media that was important?
+
+<div class="box-objectives">
+
+<div class="textbox__header">
+
+<div class="mt-section" mt-section-origin="Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01:_Critical_Thinking/1.05:_Media_Literacy">
+
+<span id="Red_Flags_and_Fake_Green_Flags"></span>
+<span id="red-flags-and-fake-green-flags"></span>
+== Red Flags and Fake Green Flags ==
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div id="section_5" class="mt-section" mt-section-origin="Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01:_Critical_Thinking/1.05:_Media_Literacy">
+
+<span id="Red_Flags"></span>
+<span id="red-flags"></span>
+= <span style="text-decoration:underline;">Red Flags</span> =
+
+In addition to the “SIFT” method, there are also some consistent '''red flags''' you should be on the lookout for in both the headlines and body of articles, posts, media, etc.
+
+<div id="section_6" class="mt-section" mt-section-origin="Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01:_Critical_Thinking/1.05:_Media_Literacy">
+
+<span id="No_Author_or_Organization_Listed"></span>
+<span id="archiveimagetoken9endno-author-or-organization-listed"></span>
+=== ([https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01%3A_Critical_Thinking/1.05%3A_Media_Literacy Media content: view on original URL]) Red-Flag-150x150.pngNo Author or Organization Listed ===
+
+If you can’t tell ''who'' created the content or what organization is behind it, it’s hard to hold it accountable or verify its credibility.
+
+</div>
+<div id="section_7" class="mt-section" mt-section-origin="Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01:_Critical_Thinking/1.05:_Media_Literacy">
+
+<span id="Emotionally_Charged_or_Sensational_Language"></span>
+<span id="archiveimagetoken10endemotionally-charged-or-sensational-language"></span>
+=== ([https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01%3A_Critical_Thinking/1.05%3A_Media_Literacy Media content: view on original URL]) Red-Flag-300x300.pngEmotionally Charged or Sensational Language ===
+
+Terms and phrases like “under attack,” “BETRAYAL,” “You’ll never guess…”, “EXPOSED” and so on are examples of language specifically designed to trigger your emotions. As a general rule, if you find the language being used is giving you an ''immediate'' emotional response, you should be on guard.
+
+</div>
+<div id="section_8" class="mt-section" mt-section-origin="Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01:_Critical_Thinking/1.05:_Media_Literacy">
+
+<span id="No_Sources_or_Unsupported_Claims"></span>
+<span id="archiveimagetoken11endno-sources-or-unsupported-claims"></span>
+=== ([https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01%3A_Critical_Thinking/1.05%3A_Media_Literacy Media content: view on original URL]) Red-Flag-300x300.pngNo Sources or Unsupported Claims ===
+
+Reliable media backs up its claims with sources, and ideally ones that are cited, linked, or verifiable. An article that makes no attempt to back up its claims with specific and direct sources is a major red flag.
+
+</div>
+<div id="section_9" class="mt-section" mt-section-origin="Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01:_Critical_Thinking/1.05:_Media_Literacy">
+
+<span id="Poor_Grammar.2C_Spelling.2C_or_Formatting"></span>
+<span id="archiveimagetoken12endpoor-grammar-spelling-or-formatting"></span>
+=== ([https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01%3A_Critical_Thinking/1.05%3A_Media_Literacy Media content: view on original URL]) Red-Flag-300x300.pngPoor Grammar, Spelling, or Formatting ===
+
+Frequent errors or sloppiness can indicate a lack of editorial standards or rushed, low-effort content generation. This doesn’t mean an article with these errors is definitely inaccurate, but it’s a red flag that should make you examine the content much more closely.
+
+</div>
+<div id="section_10" class="mt-section" mt-section-origin="Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01:_Critical_Thinking/1.05:_Media_Literacy">
+
+<span id="One-Sided_or_Highly_Biased_Presentation"></span>
+<span id="archiveimagetoken13endone-sided-or-highly-biased-presentation"></span>
+=== ([https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01%3A_Critical_Thinking/1.05%3A_Media_Literacy Media content: view on original URL]) Red-Flag-300x300.pngOne-Sided or Highly Biased Presentation ===
+
+Particularly if the content is about something you know to be controversial, a one-sided presentation is a major red flag. Most media outlets have some degree of a political leaning, but reputable outlets will still cover both sides of an issue, because they want you to have the full context.
+
+</div>
+
+</div>
+<div id="section_11" class="mt-section" mt-section-origin="Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01:_Critical_Thinking/1.05:_Media_Literacy">
+
+<span id="Fake_Green_Flags"></span>
+<span id="fake-green-flags"></span>
+= <span style="text-decoration:underline;">Fake Green Flags</span> =
+
+In addition to red flags, it’s also important to recognize what we’ll call '''fake green flags'''. These are things that mimic credibility, but without doing the other steps to support it. It’s easy to mistake them for signs of trustworthiness, which can leave you vulnerable to misinformation.
+
+<div id="section_12" class="mt-section" mt-section-origin="Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01:_Critical_Thinking/1.05:_Media_Literacy">
+
+<span id="The_speaker_sounds_confident_and_articulate."></span>
+<span id="archiveimagetoken14endthe-speaker-sounds-confident-and-articulate."></span>
+=== ([https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01%3A_Critical_Thinking/1.05%3A_Media_Literacy Media content: view on original URL]) Fake-Green-Flag-300x300.pngThe speaker sounds confident and articulate. ===
+
+''Confidence can be very appealing, but it doesn’t equal accuracy''. Skilled speakers (and influencers) can make false or misleading claims sound persuasive, even when they’re wrong.
+
+</div>
+<div id="section_13" class="mt-section" mt-section-origin="Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01:_Critical_Thinking/1.05:_Media_Literacy">
+
+<span id="A_lot_of_technical_or_academic-sounding_language_and_visuals_are_used."></span>
+<span id="archiveimagetoken15enda-lot-of-technical-or-academic-sounding-language-and-visuals-are-used."></span>
+=== ([https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01%3A_Critical_Thinking/1.05%3A_Media_Literacy Media content: view on original URL]) Fake-Green-Flag-300x300.pngA lot of technical or academic-sounding language and visuals are used. ===
+
+''Jargon can impress, but also obscure''. Complex language can be used to overwhelm or distract rather than clarify. The same is true of “science-y” visuals, such as graphs and charts. These things aren’t inherently bad, but they’re also not a reliable sign of accuracy.
+
+</div>
+<div id="section_14" class="mt-section" mt-section-origin="Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01:_Critical_Thinking/1.05:_Media_Literacy">
+
+<span id="Buzzwords_like_.E2.80.9Cbalanced.2C.E2.80.9D_.E2.80.9Cindependent.2C.E2.80.9D_or_.E2.80.9Cfree_thinker.E2.80.9D_are_used."></span>
+<span id="archiveimagetoken16endbuzzwords-like-balanced-independent-or-free-thinker-are-used."></span>
+=== ([https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01%3A_Critical_Thinking/1.05%3A_Media_Literacy Media content: view on original URL]) Fake-Green-Flag-300x300.pngBuzzwords like “balanced,” “independent,” or “free thinker” are used. ===
+
+''These words and phrases can be used as rhetorical shields against actual critical thinking''. Typically speaking, a credible author won’t have to rely on buzzwords to convince you that they’re fair and balanced — they’ll just present the information in a fair and balanced way.
+
+</div>
+<div id="section_15" class="mt-section" mt-section-origin="Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01:_Critical_Thinking/1.05:_Media_Literacy">
+
+<span id="The_content_is_posted_in_a_.E2.80.9Cdocumentary.E2.80.9D_or_.E2.80.9Cnews-style.E2.80.9D_format."></span>
+<span id="archiveimagetoken17endthe-content-is-posted-in-a-documentary-or-news-style-format."></span>
+=== ([https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01%3A_Critical_Thinking/1.05%3A_Media_Literacy Media content: view on original URL]) Fake-Green-Flag-300x300.pngThe content is posted in a “documentary” or “news-style” format. ===
+
+''Styling something like journalism doesn’t make it journalism.'' Many propaganda videos mimic traditional news to gain trust. Again, this style doesn’t guarantee a source is untrustworthy, but it also doesn’t guarantee that it’s accurate either.
+
+</div>
+<div id="section_16" class="mt-section" mt-section-origin="Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01:_Critical_Thinking/1.05:_Media_Literacy">
+
+<span id="The_post_or_video_has_gone_viral."></span>
+<span id="archiveimagetoken18endthe-post-or-video-has-gone-viral."></span>
+=== ([https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01%3A_Critical_Thinking/1.05%3A_Media_Literacy Media content: view on original URL]) Fake-Green-Flag-300x300.pngThe post or video has gone viral. ===
+
+''Popularity is not proof.'' Viral content spreads because it’s emotional, surprising, or relatable—not because it’s true.
+
+<div class="box-objectives">
+
+<div class="textbox__header">
+
+<div class="mt-section" mt-section-origin="Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01:_Critical_Thinking/1.05:_Media_Literacy">
+
+<span id="TL.3BDR"></span>
+<span id="tldr"></span>
+== TL;DR ==
+
+</div>
+
+</div>
+
+</div>
+([https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01%3A_Critical_Thinking/1.05%3A_Media_Literacy Media content: view on original URL]) Media_Literacy_TLDR_01-300x200.png
+
+([https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01%3A_Critical_Thinking/1.05%3A_Media_Literacy Media content: view on original URL]) Media_Literacy_TLDR_02fixed-300x200.jpg
+
+([https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01%3A_Critical_Thinking/1.05%3A_Media_Literacy Media content: view on original URL]) Media_Literacy_TLDR_03-300x200.png
+
+<div class="box-objectives">
+
+<div class="textbox__header">
+
+<div class="mt-section" mt-section-origin="Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01:_Critical_Thinking/1.05:_Media_Literacy">
+
+<span id="Chapter_Quiz_and_Short_Essay"></span>
+<span id="chapter-quiz-and-short-essay"></span>
+== Chapter Quiz and Short Essay ==
+
+</div>
+
+</div>
+
+</div>
+<div class="box-exercise">
+
+<div class="textbox__header">
+
+<div class="mt-section" mt-section-origin="Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01:_Critical_Thinking/1.05:_Media_Literacy">
+
+<span id="Knowledge_Check:_Media_Literacy"></span>
+<span id="knowledge-check-media-literacy"></span>
+== Knowledge Check: Media Literacy ==
+
+</div>
+
+</div>
+<div class="textbox interactive-content">
+
+An interactive H5P element has been excluded from this version of the text. You can view it online here:<br />
+opentextbooks.library.arizona.edu/decodingdeception/?p=238#h5p-19
+
+</div>
+
+</div>
+<div class="box-exercise">
+
+<div class="textbox__header">
+
+<div class="mt-section" mt-section-origin="Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01:_Critical_Thinking/1.05:_Media_Literacy">
+
+<span id="Short_Essay:_Media_Literacy"></span>
+<span id="short-essay-media-literacy"></span>
+== Short Essay: Media Literacy ==
+
+</div>
+
+</div>
+<div class="textbox interactive-content">
+
+An interactive H5P element has been excluded from this version of the text. You can view it online here:<br />
+opentextbooks.library.arizona.edu/decodingdeception/?p=238#h5p-20
+
+</div>
+
+</div>
+<div class="box-note">
+
+<div class="textbox__header">
+
+<div class="mt-section" mt-section-origin="Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01:_Critical_Thinking/1.05:_Media_Literacy">
+
+<span id="Vocabulary"></span>
+<span id="vocabulary"></span>
+== Vocabulary ==
+
+</div>
+
+</div>
+<span class="glossary-term">'''media'''</span><br />
+''any channel or method of communication''
+
+<span class="glossary-term">'''media literacy'''</span><br />
+''the ability to access, understand, analyze, evaluate, and create media in a critical and informed way''
+
+</div>
+<div class="box-note">
+
+<div class="textbox__header">
+
+<div class="mt-section" mt-section-origin="Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01:_Critical_Thinking/1.05:_Media_Literacy">
+
+<span id="References"></span>
+<span id="references"></span>
+== References ==
+
+</div>
+
+</div>
+<sup>1</sup> Caulfield, M. (2019, June 19). ''SIFT (The four moves)''. Hapgood. [https://hapgood.us/2019/06/19/sift-the-four-moves https://hapgood.us/2019/06/19/sift-the-four-moves/]
+
+</div>
+<div class="media-attributions clear">
+
+<div class="mt-section" mt-section-origin="Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/01:_Critical_Thinking/1.05:_Media_Literacy">
+
+<span id="Media_Attributions"></span>
+<span id="media-attributions"></span>
+== Media Attributions ==
+
+* Types of Media © ChatGPT is licensed under a [https://creativecommons.org/publicdomain/zero/1.0/ CC0 (Creative Commons Zero)] license
+* SIFT Infographic © [https://hapgood.us/2019/06/19/sift-the-four-moves/ Mike Caulfield] is licensed under a [https://creativecommons.org/licenses/by/4.0 CC BY (Attribution)] license
+* STOP © ChatGPT is licensed under a [https://creativecommons.org/publicdomain/zero/1.0/ CC0 (Creative Commons Zero)] license
+* Investigate © ChatGPT is licensed under a [https://creativecommons.org/publicdomain/zero/1.0/ CC0 (Creative Commons Zero)] license
+* Better Coverage © ChatGPT is licensed under a [https://creativecommons.org/publicdomain/zero/1.0/ CC0 (Creative Commons Zero)] license
+* Tracing © ChatGPT is licensed under a [https://creativecommons.org/publicdomain/zero/1.0/ CC0 (Creative Commons Zero)] license
+* Red Flag © ChatGPT is licensed under a [https://creativecommons.org/publicdomain/zero/1.0/ CC0 (Creative Commons Zero)] license
+* Fake Green Flag © ChatGPT is licensed under a [https://creativecommons.org/publicdomain/zero/1.0/ CC0 (Creative Commons Zero)] license
+* Media Literacy Text 01 © ChatGPT is licensed under a [https://creativecommons.org/publicdomain/zero/1.0/ CC0 (Creative Commons Zero)] license
+* Media Literacy Text 02 © ChatGPT is licensed under a [https://creativecommons.org/publicdomain/zero/1.0/ CC0 (Creative Commons Zero)] license
+* Media Literacy Text 03 © ChatGPT is licensed under a [https://creativecommons.org/publicdomain/zero/1.0/ CC0 (Creative Commons Zero)] license
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div id="mt-modal-container">
+
+</div>
