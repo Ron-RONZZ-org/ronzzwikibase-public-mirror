@@ -1,0 +1,7 @@
+{{Person}}
+
+== Biography ==
+
+''from Wikipedia (CC BY-SA 4.0):''
+
+Herbert Alexander Simon was an American scholar whose work influenced the fields of computer science, economics, and cognitive psychology. His primary research interest was decision-making within organizations and he is best known for the theories of "bounded rationality" and "satisficing". He and Allen Newell received the ACM Turing Award in 1975, and he received the Nobel Memorial Prize in Economic Sciences in 1978.

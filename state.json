@@ -3042,6 +3042,12 @@
       "sha256": "2b7ba735e7290ccc59b62c927aa4a46fca3392759bfffa3ac2a4772b2fbffa56",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Herbert Simon": {
+      "path": "Person/Herbert Simon.wiki",
+      "revid": 14527,
+      "sha256": "99e3460ec6812f9e0a02d4de0f380845079042867a39e8118e48cb166a1bbc42",
+      "synced_at": "2026-11-08T15:19:41+00:00"
+    },
     "Person:Isaac Newton": {
       "path": "Person/Isaac Newton.wiki",
       "revid": 6987,
@@ -6841,6 +6847,6 @@
       "synced_at": "2026-11-07T15:19:42+00:00"
     }
   },
-  "updated": "2026-11-08T15:08:19+00:00",
+  "updated": "2026-11-08T15:19:41+00:00",
   "version": 1
 }
