@@ -48,6 +48,14 @@ The symptoms may not be fully manifested until social expectations exceed the li
 
 In terms of social or academic/professional function, or other important areas of life.
 
+=== Early diagnosis ===
+
+As [[Source:Early Identification of Autism Spectrum Disorder: Recommendations for Practice and Research (Scholarly article)|name-author]] noted, although many parents report initial concerns about autistic children around 18-24 months, the mean age of diagnosis remains 4-5 years in the US. This gap, which the authors called a "stressful '''diagnostic odyssey'''", represents an opportunity for improved early-life screening and diagnostic to ensure autistic children can receive intervention as early as possible.
+
+The same [[meta-analysis]] described the inherent difficulty of early-life diagnosis: rates and levels of cognitive and language development, adaptive functioning, and manifestation of core autistic symptoms vary significantly from one autistic to another, and currently no reliable behaviour marker for autism noticeable by parents or in routine clinical practice has been identified.
+
+<ref>{{#cite:Q2937}}</ref>
+
 == Treatment ==
 
 To date (2026), there is no scientifically-proven medication dedicated to autism.<ref>{{#cite:Q2060}}</ref>

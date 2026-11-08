@@ -86,9 +86,9 @@
     },
     "Autism spectrum disorder (ASD)": {
       "path": "Main/Autism spectrum disorder (ASD).wiki",
-      "revid": 14390,
-      "sha256": "978b4d429d7f56b32742c2da4894f158d713d1776ef67242fcbd1d67b94cfbca",
-      "synced_at": "2026-11-08T06:15:21+00:00"
+      "revid": 14409,
+      "sha256": "7ce83b6d0cfd4d315bd2365b86f5065f32abcc7560198860ee2d543336cd85a7",
+      "synced_at": "2026-11-08T11:48:55+00:00"
     },
     "Autonomy": {
       "path": "Main/Autonomy.wiki",
@@ -6733,6 +6733,6 @@
       "synced_at": "2026-11-07T15:19:42+00:00"
     }
   },
-  "updated": "2026-11-08T06:15:21+00:00",
+  "updated": "2026-11-08T11:48:55+00:00",
   "version": 1
 }
