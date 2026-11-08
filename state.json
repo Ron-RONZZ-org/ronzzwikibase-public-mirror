@@ -2192,9 +2192,9 @@
     },
     "Media literacy": {
       "path": "Main/Media literacy.wiki",
-      "revid": 14497,
-      "sha256": "cdc7baff2b3ad8ab451cb72e504f487a68ae429e3f90fd1a4a26a8c79e953b68",
-      "synced_at": "2026-11-08T14:19:35+00:00"
+      "revid": 14522,
+      "sha256": "78f4c2e94a269b6dcc27312889d7cae9087a1c128fc1567de332f9695663107f",
+      "synced_at": "2026-11-08T15:08:19+00:00"
     },
     "Mental disorder": {
       "path": "Main/Mental disorder.wiki",
@@ -4254,6 +4254,12 @@
       "sha256": "2b38df35296312f3ce79d05a5e12be065595fb73e8407e2b02d747cd375326d7",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "SIFT method": {
+      "path": "Main/SIFT method.wiki",
+      "revid": 14520,
+      "sha256": "ba7eb48099c576b610c5e436841776a3045362b251cc575fcf8dfa87c74d094b",
+      "synced_at": "2026-11-08T15:08:19+00:00"
+    },
     "SPARQL examples": {
       "path": "Main/SPARQL examples.wiki",
       "revid": 10593,
@@ -5370,6 +5376,12 @@
       "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
       "synced_at": "2026-11-03T17:35:27+00:00"
     },
+    "Source:Hapgood (Website)": {
+      "path": "Source/Hapgood (Website).wiki",
+      "revid": 14506,
+      "sha256": "bb6eae6d8e22012294c64ab776b83aef8dd58037ff3c505c7cd317c88b558f25",
+      "synced_at": "2026-11-08T15:08:19+00:00"
+    },
     "Source:Histoire de la littérature française du XIXe siècle (Book)": {
       "path": "Source/Histoire de la littérature française du XIXe siècle (Book).wiki",
       "revid": 7500,
@@ -6240,6 +6252,18 @@
       "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:SIFT (The Four Moves) (Webpage)": {
+      "path": "Source/SIFT (The Four Moves) (Webpage).wiki",
+      "revid": 14512,
+      "sha256": "15d1642cda521728b15e42e0207b02ddfdef0892826de862993bd6466b17390a",
+      "synced_at": "2026-11-08T15:08:19+00:00"
+    },
+    "Source:SIFT (The Four Moves) (Webpage)/archivedText": {
+      "path": "Source/SIFT (The Four Moves) (Webpage)/archivedText.wiki",
+      "revid": 14511,
+      "sha256": "710a70e5e7d6a10e8c3bc59ab8722297233535ece1262dcdd524ea579ecc11af",
+      "synced_at": "2026-11-08T15:08:19+00:00"
+    },
     "Source:Screw Theory - IEEE Technology Navigator (Webpage)": {
       "path": "Source/Screw Theory - IEEE Technology Navigator (Webpage).wiki",
       "revid": 8280,
@@ -6817,6 +6841,6 @@
       "synced_at": "2026-11-07T15:19:42+00:00"
     }
   },
-  "updated": "2026-11-08T14:49:21+00:00",
+  "updated": "2026-11-08T15:08:19+00:00",
   "version": 1
 }
