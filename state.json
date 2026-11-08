@@ -80,9 +80,15 @@
     },
     "Autism": {
       "path": "Main/Autism.wiki",
-      "revid": 10321,
+      "revid": 14286,
+      "sha256": "3c9019e6bbec651f434b11198ea2a0927710e3fa73b9ae47d1fdc0f128d1de02",
+      "synced_at": "2026-11-08T05:49:45+00:00"
+    },
+    "Autism spectrum disorder (ASD)": {
+      "path": "Main/Autism spectrum disorder (ASD).wiki",
+      "revid": 14285,
       "sha256": "77200623b1aa6fdff3256fb7c049de45aed0b2c7a41023221cb2a351af00d34a",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "synced_at": "2026-11-08T05:49:45+00:00"
     },
     "Autonomy": {
       "path": "Main/Autonomy.wiki",
@@ -1241,6 +1247,12 @@
       "revid": 12221,
       "sha256": "8d0eb64aff92347ea2163486d37422da30fcb7a159256e160b4827dafb3426d1",
       "synced_at": "2026-11-01T18:20:24+00:00"
+    },
+    "Correlation–causation fallacy": {
+      "path": "Main/Correlation–causation fallacy.wiki",
+      "revid": 14283,
+      "sha256": "59e97bfff663292f184b3e0025b2abba8ecd4efa7f762862fafa4b23cdb56e92",
+      "synced_at": "2026-11-08T05:49:45+00:00"
     },
     "Cosmic expansion": {
       "path": "Main/Cosmic expansion.wiki",
@@ -6571,6 +6583,6 @@
       "synced_at": "2026-11-07T15:19:42+00:00"
     }
   },
-  "updated": "2026-11-08T05:35:46+00:00",
+  "updated": "2026-11-08T05:49:45+00:00",
   "version": 1
 }

@@ -1,0 +1,7 @@
+[[Category:Logic fallacy]]
+'''Correlation-causation fallacy''' is the mistaken [[belief]] that correlation implies causation.
+
+== Examples ==
+
+[[File:Baby vaccination.png|thumbnail|Vaccination schedule and typical diagnostic timeline for autism overlap: they are statistically correlated. But it does not mean one causes another. Concluding vaccination causes autism from a simple correlation is no less absurd than concluding autism causes vaccination.]]
+* Numerous children were diagnosed with [[autism spectrum disorder (ASD)]] shortly after receiving vaccinations $\Rightarrow $ [[Vaccination]] causes autism<ref>{{#cite:Q2910}}</ref>
