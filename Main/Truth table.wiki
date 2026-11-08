@@ -1,0 +1,48 @@
+[[Category:Logic]]
+'''Truth table''' is an aid for assessing the validity of composite statements via analysing the relationship between the composite [[statement]] and its substatements.
+
+{{Hidden example}}
+
+$$
+P: \text{If students work hard in class, they will always get good grades.}
+$$
+
+Is [[statement]] $P$ true?
+
+'''Solution''':
+
+First break $P$ down into its substatements and rewrite in formal symbolic logic language:
+
+$$
+\text{A: Students work hard in class}\\
+\text{B: Students get good grades}\\
+\text{P:A} \implies \text{B}
+$$
+
+Then construct the '''truth table''':
+
+{| class="wikitable"
+! A !! B !! P: A $\implies$ B
+|-
+| T || T || T
+|-
+| T || F || F
+|-
+| F || T || T
+|-
+| F || F || T
+|}
+
+Therefore, it can be concluded that $P$ is true if and only if there is never a situation where A is true but B is false, i.e., there is never a student that worked hard in class but did not get good grades.
+{{End hidden}}
+
+=== Formal definition of a truth table ===
+
+$$
+f:\{0,1\}^n \to \{0,1\}^m\\
+T=\{(x,f(x)) \mid x\in\{0,1\}^n\}
+$$
+
+$f$: arbitrary boolean function
+
+$T$: truth table

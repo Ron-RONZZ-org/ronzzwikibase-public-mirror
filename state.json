@@ -6714,6 +6714,12 @@
       "sha256": "2dea18c13b636510bf63b7c7edabd4028077b53c4474d8565497e23c3c1a5917",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Truth table": {
+      "path": "Main/Truth table.wiki",
+      "revid": 14456,
+      "sha256": "9a1fe1e4529dd51a471f45ac8c308594428f322dafa84295432c5624e212b686",
+      "synced_at": "2026-11-08T13:19:55+00:00"
+    },
     "Two body problem": {
       "path": "Main/Two body problem.wiki",
       "revid": 7876,
@@ -6775,6 +6781,6 @@
       "synced_at": "2026-11-07T15:19:42+00:00"
     }
   },
-  "updated": "2026-11-08T13:08:35+00:00",
+  "updated": "2026-11-08T13:19:55+00:00",
   "version": 1
 }
