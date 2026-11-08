@@ -1,0 +1,48 @@
+[[Category:Logic]]
+Two composite [[statement]]s are considered '''logically equivalent''' if 
+
+* they are made up of the same substatements,
+* '''and''' their [[truth table]]s are identical.
+
+<ref>{{#cite:Q1844}}</ref>
+
+{{Hidden example}}
+$A\implies B$ is logically equivalent to $\neg A \lor B$:
+
+{| class="wikitable"
+! A !! B !! A $\implies$ B !! $\neg A \lor B$:
+|-
+| T || T || T || T
+|-
+| T || F || F || F
+|-
+| F || T || T || T
+|-
+| F || F || T || T
+|}
+
+<blockquote>
+Going back to the example of students working hard in class and getting good grades, this means we can prove that "if students work hard in class, they will get good grades" by proving that every student either did not work hard, OR got good grades.
+</blockquote>
+
+<blockquote>
+Notice $A \implies B$ does NOT imply that $\neg A \implies \neg B$ 
+</blockquote>
+{{End hidden}}
+
+== Known equivalence ==
+
+=== De Morgan's laws ===
+
+$$
+\neg (P \land Q) \iff \neg P \lor \neg Q\\
+\neg (P \lor Q) \iff \neg P \land \neg Q
+$$
+<ref>{{#cite:Q1844}}</ref>
+
+=== Double negation $\equiv$ affirmation ===
+
+$$
+\neg \neg P \equiv P
+$$
+<ref>{{#cite:Q1844}}</ref>

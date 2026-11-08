@@ -2102,9 +2102,15 @@
     },
     "Logic": {
       "path": "Main/Logic.wiki",
-      "revid": 8182,
-      "sha256": "826d8726043def502916f42b9845fb5248b00083258a43d1e82e1fbd14f64662",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "revid": 14466,
+      "sha256": "24be955b504923171f6cae59d761907021fee93d50d2ae274b467a8d46735fa8",
+      "synced_at": "2026-11-08T13:35:30+00:00"
+    },
+    "Logical equivalence": {
+      "path": "Main/Logical equivalence.wiki",
+      "revid": 14461,
+      "sha256": "fa9a64cbe594d973f0182ecb3475f798c2021aa9d1564106fe97af21c51f2c04",
+      "synced_at": "2026-11-08T13:35:30+00:00"
     },
     "Logical proof": {
       "path": "Main/Logical proof.wiki",
@@ -6781,6 +6787,6 @@
       "synced_at": "2026-11-07T15:19:42+00:00"
     }
   },
-  "updated": "2026-11-08T13:19:55+00:00",
+  "updated": "2026-11-08T13:35:30+00:00",
   "version": 1
 }
