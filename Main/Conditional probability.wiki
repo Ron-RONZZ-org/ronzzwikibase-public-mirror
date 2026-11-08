@@ -6,3 +6,37 @@
 {{#content:Q2941}}
 
 <ref>{{#cite:Q2940}}</ref>
+
+== Multiplication law ==
+
+By rearrangement of terms of definition, 
+
+$$
+P(A \cap B) = P(A\ |\ B) P(B) = P(B\ |\ A) P(A)
+$$
+
+<blockquote>
+Note 
+$$
+P(A\cap B)\equiv P(B\cap A)\\
+P(A\ |\ B)\neq P(B\ |\ A).
+$$
+</blockquote>
+
+== Addition law ==
+
+If
+
+* $S = B_1 \cup B_2 \cup \cdots \cup B_n$,
+* $\forall i \neq j: B_i\cap B_j = \varnothing$,
+* $\forall i \in 1,\cdots ,n P(B_i)>0$,
+
+Then
+
+$$
+P(A|S) = P(A\ |\ B_1) P(B_1) + \cdots + P(A\ |\ B_n) P(B_n).\notag
+$$
+
+and $B_1, B_2, \ldots, B_n$ are said to '''partition''' sample space $S$.
+
+<ref>{{#cite:Q2940}}</ref>

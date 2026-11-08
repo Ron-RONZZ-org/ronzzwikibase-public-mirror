@@ -1244,9 +1244,9 @@
     },
     "Conditional probability": {
       "path": "Main/Conditional probability.wiki",
-      "revid": 14431,
-      "sha256": "62179b2e76b8c8c24d3b75ceac9f95f07e6415eedc36220a876fc80e37b7ed9e",
-      "synced_at": "2026-11-08T12:24:56+00:00"
+      "revid": 14439,
+      "sha256": "654cfd881671e68a115fbe19c7f3baf94fa7182de68efb734da1426d7a761a59",
+      "synced_at": "2026-11-08T12:35:09+00:00"
     },
     "Confirmation bias": {
       "path": "Main/Confirmation bias.wiki",
@@ -6763,6 +6763,6 @@
       "synced_at": "2026-11-07T15:19:42+00:00"
     }
   },
-  "updated": "2026-11-08T12:24:56+00:00",
+  "updated": "2026-11-08T12:35:09+00:00",
   "version": 1
 }
