@@ -606,6 +606,12 @@
       "sha256": "7c20dcec60bf8837c740292f17b3be2a6f3e91949f248dbaa16dcdec763df487",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Exploding Topics": {
+      "path": "Collective/Exploding Topics.wiki",
+      "revid": 14571,
+      "sha256": "ffd5c264e0f628c94b09eb531888be038ebb67c4466a6d9f10fd8323ae61a369",
+      "synced_at": "2026-11-08T16:49:45+00:00"
+    },
     "Collective:Ezirim Kelechi ThankGod, Sani Abubakar Muhammed, Okoronkwo Iheanyi Chinedu, Aniugo Victor Onyekachi, Obi Obichukwu Immanuel, Nwaokolo Ikechukwu Frank, & Ezekiel Mayaki Asuku": {
       "path": "Collective/Ezirim Kelechi ThankGod, Sani Abubakar Muhammed, Okoronkwo Iheanyi Chinedu, Aniugo Victor Onyekachi, Obi Obichukwu Immanuel, Nwaokolo Ikechukwu Frank, & Ezekiel Mayaki Asuku.wiki",
       "revid": 13660,
@@ -2934,6 +2940,12 @@
       "sha256": "3d076869ad8590d4c3c3c177ccd326aa01edb5e9d805bb4695db73f07da4c76e",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Fabio Duarte": {
+      "path": "Person/Fabio Duarte.wiki",
+      "revid": 14575,
+      "sha256": "28b7daf3c5cf01506f40d78397ae8dbee61170f2de9a4709eac04abccd5f9e03",
+      "synced_at": "2026-11-08T16:49:45+00:00"
+    },
     "Person:Fedor Menasievich Dimentberg": {
       "path": "Person/Fedor Menasievich Dimentberg.wiki",
       "revid": 8213,
@@ -4944,6 +4956,12 @@
       "sha256": "a5a174eea3ce3561f69c01065ec4abbf3007a28a9dc2f075e66dfd14c3ce86af",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Amount of Data Created Daily (2024) (Webpage)": {
+      "path": "Source/Amount of Data Created Daily (2024) (Webpage).wiki",
+      "revid": 14583,
+      "sha256": "9fae8fd2f30d5eba8e115f8aee0274346ce39d638cbcfbe2141f62c09acdc074",
+      "synced_at": "2026-11-08T16:49:45+00:00"
+    },
     "Source:An Introduction to Geology": {
       "path": "Source/An Introduction to Geology.wiki",
       "revid": 1657,
@@ -5309,6 +5327,12 @@
       "revid": 12656,
       "sha256": "bf5fb89bf6a9d8eff8283f542985bb6d01d0773072976a27213b445c7d271d85",
       "synced_at": "2026-11-04T08:36:39+00:00"
+    },
+    "Source:Exploding Topics (Website)": {
+      "path": "Source/Exploding Topics (Website).wiki",
+      "revid": 14579,
+      "sha256": "0bbf855503963869e44ef11d57098c797005192836614cc661e0811e03bb9c99",
+      "synced_at": "2026-11-08T16:49:45+00:00"
     },
     "Source:Finnegans Wake (Book)": {
       "path": "Source/Finnegans Wake (Book).wiki",
@@ -6901,6 +6925,6 @@
       "synced_at": "2026-11-07T15:19:42+00:00"
     }
   },
-  "updated": "2026-11-08T15:49:41+00:00",
+  "updated": "2026-11-08T16:49:45+00:00",
   "version": 1
 }
