@@ -1,0 +1,35 @@
+[[Category:Logic]]
+To disambiguate, logicians have developed a [[formal language]] with standard symbols, often referred to as the '''symbolic logic language'''.
+
+== Universal translation ==
+
+German philosopher [[Person:Gottlob Frege|Gottlob Frege]] demonstrated that any natural language sentence can be translated into '''symbolic logic language'''.<ref>{{#cite:Q1837}}</ref>
+
+== Standard symbols ==
+
+{| class="wikitable"
+|-
+! natural language description !! symbolic representation !! katex code
+|-
+| There exists $x$ that (satisfies some property) || $\exists x$ || <code>\exists x</code>
+|-
+| All $x$ satisfies some property || $\forall x$ || <code>\forall x</code>
+|-
+| negation of A (not A) || $\neg A$ || <code>\neg A</code>
+|-
+| conjunction of A and B (A and B) || $A \land B$ || <code>A \land B</code>
+|-
+| disjunction of A and B (A or B) || $A \lor B$ || <code>A \lor B</code>
+|-
+| exclusive or of A and B (A xor B: either A or B but not both) || $A \oplus B$ || <code>A \oplus B</code>
+|-
+| negation of disjunction (A nor B: neither A nor B) || $A \downarrow B$ (equivalently $\neg(A \lor B)$) || <code>A \downarrow B</code> (equivalently <code>\neg(A \lor B)</code>)
+|-
+| negation of conjunction (A nand B: not both A and B) || $A \uparrow B$ (equivalently $\neg(A \land B)$) || <code>A \uparrow B</code> (equivalently <code>\neg(A \land B)</code>)
+|-
+| conditional where A implies B (if A, then B) || $A \implies B$ || <code>A \implies B</code>
+|-
+| biconditional involving A and B (if A then B, if B then A) || $A \iff B$ || <code>A \iff B</code>
+|}
+
+<ref>{{#cite:Q1840}}</ref>

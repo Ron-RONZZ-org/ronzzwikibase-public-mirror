@@ -1,8 +1,9 @@
-Logical proof is the process of applying [[logic]] to prove whether a statement is true or false.
+[[Category:Logic]]
+Logical proof is the process of applying [[logic]] to prove whether a [[statement]] is true or false.<ref>{{#cite:Q1846}}</ref> 
 
 == Direct proof ==
 
-Direct proof consists of identifying a set of true premises, and derive the conclusion based on logical combination and manipulation of those premises.<ref>{{#cite:Q1846}}</ref> It is the formal equivalent of an [[logic#argument|argument]].
+Direct proof consists of identifying a set of true premises, and derive the conclusion based on logical combination and manipulation of those premises. It is the formal equivalent of an [[logic#argument|argument]].
 
 ''To prove $Q$, identify true statement(s) $P$ as premises, then prove $P \implies Q$.''
 
@@ -35,7 +36,7 @@ $$
 In formal language:
 
 $$
-P \implies Q \iff \neg Q \implies \neg P
+(P \implies Q) \iff (\neg Q \implies \neg P)
 $$
 
 {{Hidden example}}
@@ -86,7 +87,7 @@ We have since proven that $\neg Q \implies \neg P$, hence by logical equivalence
 In formal language:
 
 $$
-(\neg P \implies Q) \land \neg Q \implies P
+((\neg P \implies Q) \land \neg Q ) \implies P
 $$
 
 {{Hidden example}}
@@ -151,7 +152,7 @@ $$
 
 In formal language:
 $$
-(P_1 \lor P_2 \lor ... \lor P_n) \land (\forall k \in \{1,2,...,n\}, P_k \implies Q) \implies Q
+(S=P_1 \cup P_2 \cup ... \cup P_n) \land (\forall k \in \{1,2,...,n\}, P_k \implies Q) \implies Q
 $$
 
 {{Hidden example}}

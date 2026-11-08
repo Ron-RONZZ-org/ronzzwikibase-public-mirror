@@ -1,0 +1,13 @@
+[[Category:Logic]]
+[[File:Intuition Good feeling.png|thumbnail|Having a good feeling about something does not constitute a '''logical argument'''.]]
+An '''argument''' is an act of applying [[logic]]. A typical argument has:<ref>{{#cite:Q1837}}</ref>
+
+* A set of premises, i.e., [[statement]]s supposed to be true, explicit or implied
+* One or more conclusions. i.e., statements that must be true if all the premises are true
+* Explanation: the process of identifying the premises and inferring the conclusion.
+
+$$\text{Argument: Premises }\underrightarrow{\text{Explanation}}\text{ Conclusions}$$
+
+{{Hidden example}}
+''France is a democratic country.'' (conclusion) ''It holds free and fair elections.'' (Premise 1, explicit; Premise 2, implied: Countries that hold free and fair elections are democratic)''
+{{End hidden}}

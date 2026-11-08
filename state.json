@@ -60,6 +60,12 @@
       "sha256": "e71a1480a6ef6ea8843d57336e619eb0766f6cc63682f1d8402e26aa5be0ba54",
       "synced_at": "2026-10-19T14:54:35+00:00"
     },
+    "Argument": {
+      "path": "Main/Argument.wiki",
+      "revid": 14444,
+      "sha256": "8998987f3217c9079803ccbf14d5b38d26fd9b3ef0de8854bc28e20efa7be09d",
+      "synced_at": "2026-11-08T13:08:35+00:00"
+    },
     "Arithmetic sequence": {
       "path": "Main/Arithmetic sequence.wiki",
       "revid": 11603,
@@ -2102,9 +2108,9 @@
     },
     "Logical proof": {
       "path": "Main/Logical proof.wiki",
-      "revid": 10324,
-      "sha256": "40fc9395648ffad08ee1b5b76e6aff510ca0d1a8c2ff59f34be4b10ce655cf6c",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "revid": 14450,
+      "sha256": "010e6738a8f59174d5c46103085954f9c28bbf7bc8890d6111adc9244192c874",
+      "synced_at": "2026-11-08T13:08:35+00:00"
     },
     "Lower bound, upper bound": {
       "path": "Main/Lower bound, upper bound.wiki",
@@ -6648,6 +6654,12 @@
       "sha256": "b19b2fa4d3aa3bdbf15268be815db9ccf17f8ace8060b7535976cf0b1d89b177",
       "synced_at": "2026-10-25T19:21:48+00:00"
     },
+    "Symbolic logic language": {
+      "path": "Main/Symbolic logic language.wiki",
+      "revid": 14453,
+      "sha256": "25a2fbf7284d9b91b60fa84570a1707f3b8194e633e6255ec5942fb57fbdf9c9",
+      "synced_at": "2026-11-08T13:08:35+00:00"
+    },
     "Technology": {
       "path": "Main/Technology.wiki",
       "revid": 7786,
@@ -6763,6 +6775,6 @@
       "synced_at": "2026-11-07T15:19:42+00:00"
     }
   },
-  "updated": "2026-11-08T12:49:04+00:00",
+  "updated": "2026-11-08T13:08:35+00:00",
   "version": 1
 }
