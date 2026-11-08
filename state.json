@@ -1244,9 +1244,9 @@
     },
     "Conditional probability": {
       "path": "Main/Conditional probability.wiki",
-      "revid": 14439,
-      "sha256": "654cfd881671e68a115fbe19c7f3baf94fa7182de68efb734da1426d7a761a59",
-      "synced_at": "2026-11-08T12:35:09+00:00"
+      "revid": 14443,
+      "sha256": "32a76404805a7abb23cf9216cd0103722f018d57cb4d8c1b4aaa6de5a1f59ac3",
+      "synced_at": "2026-11-08T12:49:04+00:00"
     },
     "Confirmation bias": {
       "path": "Main/Confirmation bias.wiki",
@@ -4178,9 +4178,9 @@
     },
     "Representativeness heuristic": {
       "path": "Main/Representativeness heuristic.wiki",
-      "revid": 13230,
-      "sha256": "ef9e1c801ba568b43305a323d6a62dd10fbef0705b5b064c28be29682b5941de",
-      "synced_at": "2026-11-07T16:35:26+00:00"
+      "revid": 14442,
+      "sha256": "7aa431a128d2119d9aab4d38b2aa048a6e4f10190d09e3603bd471404982065e",
+      "synced_at": "2026-11-08T12:49:04+00:00"
     },
     "Rest energy": {
       "path": "Main/Rest energy.wiki",
@@ -6763,6 +6763,6 @@
       "synced_at": "2026-11-07T15:19:42+00:00"
     }
   },
-  "updated": "2026-11-08T12:35:09+00:00",
+  "updated": "2026-11-08T12:49:04+00:00",
   "version": 1
 }

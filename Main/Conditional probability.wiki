@@ -23,7 +23,15 @@ P(A\ |\ B)\neq P(B\ |\ A).
 $$
 </blockquote>
 
-== Addition law ==
+== Bayes law ==
+
+$$
+P(B\ |\ A) = \frac{P(A\ |\ B) P(B)}{P(A)}.\notag
+$$
+
+as a direct result of [[#Multiplication law]].
+
+== Partition law ==
 
 If
 
@@ -40,3 +48,16 @@ $$
 and $B_1, B_2, \ldots, B_n$ are said to '''partition''' sample space $S$.
 
 <ref>{{#cite:Q2940}}</ref>
+
+== Application ==
+
+=== Medical screening accuracy ===
+
+Consider a kidney cancer screening test, which
+
+* correctly detects when a person has cancer 90% of the time
+* correctly indicates when a person does not have kidney cancer 99.9% of the time
+
+Suppose it is known that 1 in every 10,000 individuals has kidney cancer. 
+
+What is the probability that a patient has kidney cancer, given a positive test result?
