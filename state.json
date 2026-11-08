@@ -3504,6 +3504,12 @@
       "sha256": "dbfd71f895a8c60407e5e808a3ca084f9cb5965a9080b6cfa7afef9691df7c0e",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:Mike Caulfield": {
+      "path": "Person/Mike Caulfield.wiki",
+      "revid": 14501,
+      "sha256": "501eed404f848a3faa5ed1f21bb6085be28ecce3e4dd317e9ebe924806b2dad6",
+      "synced_at": "2026-11-08T14:49:21+00:00"
+    },
     "Person:Mircea Malitza": {
       "path": "Person/Mircea Malitza.wiki",
       "revid": 13777,
@@ -6811,6 +6817,6 @@
       "synced_at": "2026-11-07T15:19:42+00:00"
     }
   },
-  "updated": "2026-11-08T14:19:35+00:00",
+  "updated": "2026-11-08T14:49:21+00:00",
   "version": 1
 }
