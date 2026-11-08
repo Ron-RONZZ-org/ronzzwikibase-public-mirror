@@ -18,11 +18,12 @@ Under the context of eugenics, Asperger was uncomfortable grouping the high-func
 
 Today, the dinstinction of "Asperger syndrome" from other forms of autism is no longer made.<ref>{{#cite:Q2060}}</ref>
 
-== Diagnostic criteria ==
+== Diagnosis ==
+=== Diagnostic criteria ===
 
 ''[[Source:DSM-5-TR (Book)|DSM-5-TR]]'' defines the diagnostic criteria for autism under F84.0:<ref>{{#cite:Q1713}}</ref>
 
-=== A. Persistent deficits in communication and social interaction ===
+==== A. Persistent deficits in communication and social interaction ====
 
 Such deficit can be either observed in the current period or previously, and must be '''across various contexts'''.
 
@@ -30,7 +31,7 @@ Such deficit can be either observed in the current period or previously, and mus
 # Deficits in non-verbal communication, in expression or comprehension
 # Deficits in development, maintenance, and comprehension of relations, in milder forms difficulty to adapt one's behaviour according to social context or difficulty in participating in imaginative games or making friends, and in severe forms a complete lack of interest to making connections.
 
-=== B. Repetitive and restricted behaviour, interest, or activity ===
+==== B. Repetitive and restricted behaviour, interest, or activity ====
 
 As witnessed by at least two elements of the list below, either observed in the current period or previously:
 
@@ -39,11 +40,11 @@ As witnessed by at least two elements of the list below, either observed in the 
 # extremely restricted and fixed special interests, special either in intensity or goal
 # hyper or hyporeactivity to sensorial stimulations, or unusual interest in certain sensorial stimulations
 
-=== C. The symptoms must be present from the early stages of development ===
+==== C. The symptoms must be present from the early stages of development ====
 
 The symptoms may not be fully manifested until social expectations exceed the limited capacity of the individual, and may be masked in later life by learnt strategies.
 
-=== D. The symptoms cause a current, clinically significant impact on life ===
+==== D. The symptoms cause a current, clinically significant impact on life ====
 
 In terms of social or academic/professional function, or other important areas of life.
 
