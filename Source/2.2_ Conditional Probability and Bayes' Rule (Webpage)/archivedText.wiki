@@ -1,0 +1,706 @@
+Skip to main content
+<div class="elm-skin-container" role="main" ga-category="Anonymous | page">
+
+<div class="elm-header">
+
+<div class="elm-header-custom">
+
+<div id="readerview_wrapper" style="display:none;">
+
+<div id="readerview" class="readerOn">
+
+<div class="header-left-control">
+
+<div class="header-menu">
+
+<span id="toc-btn-label" hidden="hidden">Table of Contents</span> <span class="material-symbols-outlined" aria-hidden="true" focusable="false">menu</span>
+
+</div>
+<div class="header-branding">
+
+[https://stats.libretexts.org/ ([https://stats.libretexts.org/Courses/Saint_Mary%27s_College_Notre_Dame/MATH_345__-_Probability_(Kuter)/2%3A_Computing_Probabilities/2.2%3A_Conditional_Probability_and_Bayes%27_Rule Media content: view on original URL]) Library homepage]
+
+</div>
+
+</div>
+<div class="header-title">
+
+ 
+
+</div>
+<div class="header-end">
+
+<span class="material-symbols-outlined" aria-hidden="true" focusable="false">search</span> <span class="visually-hidden">Search</span>
+<span class="material-symbols-outlined" aria-hidden="true" focusable="false">build_circle </span> <span class="visually-hidden">Toolbar</span>
+<span class="material-symbols-outlined" aria-hidden="true" focusable="false">fact_check</span> <span class="visually-hidden">Homework</span>
+<span class="material-symbols-outlined" aria-hidden="true" focusable="false">cancel</span> <span>Exit Reader Mode</span>
+
+</div>
+
+</div>
+<div id="offcanvas-menu">
+
+<div id="toc" class="hidden">
+
+ 
+
+</div>
+<div id="siteMenu">
+
+* [https://stats.libretexts.org/Courses <span class="material-symbols-outlined" aria-hidden="true" focusable="false">school</span> <span class="menu-label">Campus Bookshelves</span>]
+* [https://stats.libretexts.org/Bookshelves <span class="material-symbols-outlined" aria-hidden="true" focusable="false">menu_book</span> <span class="menu-label">Bookshelves</span>]
+* [https://stats.libretexts.org/Learning_Objects <span class="material-symbols-outlined" aria-hidden="true" focusable="false">perm_media</span> <span class="menu-label">Learning Objects</span>]
+
+* [https://stats.libretexts.org/Special:Userlogin?readerView#tab=login <span class="material-symbols-outlined" aria-hidden="true" focusable="false">login</span> <span class="menu-label">Login</span>]
+* [https://register.libretexts.org/ <span class="material-symbols-outlined" aria-hidden="true" focusable="false">how_to_reg</span> <span class="menu-label">Request Instructor Account</span>]
+* [https://commons.libretexts.org/ <span class="material-symbols-outlined" aria-hidden="true" focusable="false">hub</span> <span class="menu-label">Instructor Commons</span>]
+
+</div>
+
+</div>
+<div id="search">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel">
+
+<span id="search"></span>
+== Search ==
+
+<div class="form-item">
+
+Search this book
+
+</div>
+<div class="form-action">
+
+Submit Search
+
+</div>
+<div id="search_results">
+
+ 
+
+</div>
+
+</div>
+
+</div>
+<div id="readability">
+
+x
+
+<div id="beeline" class="settings-section">
+
+<div class="setting">
+
+<div class="setting-title">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel/Readability">
+
+<span id="text-color"></span>
+==== Text Color ====
+
+Reset
+
+</div>
+
+</div>
+<div class="setting-control text_color">
+
+<span class="bee-btn-render"> </span><span class="bee-btn-label">Bright</span>
+<span class="bee-btn-render"> </span><span class="bee-btn-label">Blues</span>
+<span class="bee-btn-render"> </span><span class="bee-btn-label">Gray</span>
+<span class="bee-btn-render"> </span><span class="bee-btn-label">Inverted</span>
+
+</div>
+
+</div>
+
+</div>
+<div id="textSize" class="settings-section">
+
+<div class="setting">
+
+<div class="setting-title">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel/Readability">
+
+<span id="text-size"></span>
+==== Text Size ====
+
+Reset
+
+</div>
+
+</div>
+<div class="font-adjuster">
+
++
+-
+<div id="range_bs" class="range_base" type="input" value="18">
+
+ 
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div id="textSize" class="settings-section">
+
+<div class="setting">
+
+<div class="setting-title">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel/Readability">
+
+<span id="margin-size"></span>
+==== Margin Size ====
+
+Reset
+
+</div>
+
+</div>
+<div class="margin-adjuster">
+
++
+-
+<div id="margin_disp" class="margin_display" type="input" value="55">
+
+ 
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div id="textSize" class="settings-section">
+
+<div class="setting">
+
+<div class="setting-title">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel/Readability">
+
+<span id="font-type"></span>
+==== Font Type ====
+
+</div>
+
+</div>
+<div class="dyslexic-toggle">
+
+Enable Dyslexic Font <span class="slider round"> </span>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div id="toolbar">
+
+<ul>
+<li><span id="dl-menu">[https://stats.libretexts.org/?downloads <span>Downloads</span> <span class="material-symbols-outlined" aria-hidden="true" focusable="false">expand_more</span>]</span>
+<div class="sub-nav">
+
+<ul>
+<li>[https://stats.libretexts.org/?downloadpage <span>Download Page (PDF)</span>]</li>
+<li>[https://stats.libretexts.org/?downloadfull <span>Download Full Book (PDF)</span>]</li></ul>
+
+</div></li>
+<li><span id="res-menu">[https://stats.libretexts.org/?resources <span>Resources</span> <span class="material-symbols-outlined" aria-hidden="true" focusable="false">expand_more</span>]</span>
+<div class="sub-nav">
+
+<ul>
+<li>[https://stats.libretexts.org/?pertable <span>Periodic Table</span>]</li>
+<li>[https://stats.libretexts.org/?physconst <span>Physics Constants</span>]</li>
+<li>[https://stats.libretexts.org/?scientificcal Scientific Calculator]</li></ul>
+
+</div></li>
+<li><span id="ref-menu">[https://stats.libretexts.org/?references <span>Reference</span> <span class="material-symbols-outlined" aria-hidden="true" focusable="false">expand_more</span>]</span>
+<div class="sub-nav">
+
+<ul>
+<li>[https://stats.libretexts.org/?refmodal <span>Reference &amp; Cite</span>]</li></ul>
+
+</div></li>
+<li><span id="tools-menu">[https://stats.libretexts.org/?tools <span>Tools</span> <span class="material-symbols-outlined" aria-hidden="true" focusable="false">expand_more</span>]</span>
+<div class="sub-nav">
+
+<ul>
+</ul>
+
+</div></li>
+<li><span id="help-menu">[https://stats.libretexts.org/?help <span>Help</span> <span class="material-symbols-outlined" aria-hidden="true" focusable="false">expand_more</span>]</span>
+<div class="sub-nav">
+
+<ul>
+<li>[https://stats.libretexts.org/?helpmodal <span>Get Help</span>]</li>
+<li>[https://stats.libretexts.org/?feedback <span>Feedback</span>]</li>
+<li>[https://stats.libretexts.org/?readability <span>Readability</span>]</li></ul>
+
+</div></li></ul>
+
+</div>
+<div id="modal_readerview" class="modal">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel">
+
+<span id="section"></span>
+==   ==
+
+<span class="modal-close" tabindex="0">x</span>
+
+</div>
+
+</div>
+<div class="modal-body">
+
+selected template will load here
+
+</div>
+
+</div>
+
+</div>
+<div id="modal-main" class="modal micromodal-slide" aria-hidden="true">
+
+<div class="modal__overlay" micromodal-close="data-micromodal-close" tabindex="-1">
+
+<div class="modal__container" aria-labelledby="modal-main-title" aria-modal="true" role="dialog">
+
+<div class="modal__header">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel">
+
+<span id="modal-main-title"></span>
+== Error ==
+
+</div>
+
+</div>
+<div id="modal-main-body" class="modal__content" role="main">
+
+This action is not available.
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="mt-container-highlight" style="background-color: #ffffff;">
+
+</div>
+<div style="display:none">
+
+<div id="parentTitleHolder" style="display:none">
+
+2: Computing Probabilities
+
+</div>
+<div id="parentParentTitleHolder" style="display:none">
+
+MATH 345 - Probability (Kuter)
+
+</div>
+<div id="subpagesHolder" style="display:none">
+
+{ }
+
+</div>
+<div id="parentSubpagesHolder" style="display:none">
+
+{ &quot;2.1:_Equally_Likely_Outcomes_and_Counting_Techniques_(Combinatorics)&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;2.2:_Conditional_Probability_and_Bayes\'_Rule&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;2.3:_Independent_Events&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot; }
+
+</div>
+<div id="parentParentSubpagesHolder" style="display:none">
+
+{ &quot;00:_Front_Matter&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;1:_What_is_Probability&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;2:_Computing_Probabilities&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;3:_Discrete_Random_Variables&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;4:_Continuous_Random_Variables&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;5:_Probability_Distributions_for_Combinations_of_Random_Variables&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;zz:_Back_Matter&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot; }
+
+</div>
+<div id="modifiedHolder" style="display:none">
+
+Sat, 06 Feb 2021 17:58:51 GMT
+
+</div>
+<div id="titleHolder" style="display:none">
+
+2.2: Conditional Probability and Bayes' Rule
+
+</div>
+<div id="IDHolder" style="display:none">
+
+3253
+
+</div>
+<div id="pageIDHolder" style="display:none">
+
+3253
+
+</div>
+<div id="pageAuthorHolder" style="display:none">
+
+Kristin Kuter
+
+</div>
+<div id="groupHolder" style="display:none">
+
+{ }
+
+</div>
+<div id="usernameHolder" style="display:none">
+
+Anonymous
+
+</div>
+<div id="displaynameHolder" style="display:none">
+
+Anonymous
+
+</div>
+<div id="userEmailHolder" style="display:none">
+
+</div>
+<div id="emailHolder" style="display:none">
+
+</div>
+<div id="userIDHolder" style="display:none">
+
+2
+
+</div>
+<div id="proHolder" style="display:none">
+
+false
+
+</div>
+<div id="adminHolder" style="display:none">
+
+false
+
+</div>
+<div id="pageTagsHolder" style="display:none">
+
+[ &quot;article:topic&quot;, &quot;showtoc:yes&quot;, &quot;authorname:kkuter&quot; ]
+
+</div>
+<div id="tagsHolder" style="display:none">
+
+[ &quot;article:topic&quot;, &quot;showtoc:yes&quot;, &quot;authorname:kkuter&quot; ]
+
+</div>
+<div id="ssoHolder" style="display:none">
+
+https://stats.libretexts.org/@app/auth/3/login?returnto=https%3A%2F%2Fstats.libretexts.org%2FCourses%2FSaint_Mary's_College_Notre_Dame%2FMATH_345__-_Probability_(Kuter)%2F2%253A_Computing_Probabilities%2F2.2%253A_Conditional_Probability_and_Bayes'_Rule
+
+</div>
+
+</div>
+
+</div>
+<div class="elm-nav mt-translate-module" hidden="true">
+
+<div class="elm-nav-container mt-translate-container">
+
+</div>
+
+</div>
+<div class="elm-header-logo-container">
+
+[https://stats.libretexts.org ([https://stats.libretexts.org/Courses/Saint_Mary%27s_College_Notre_Dame/MATH_345__-_Probability_(Kuter)/2%3A_Computing_Probabilities/2.2%3A_Conditional_Probability_and_Bayes%27_Rule Media content: view on original URL]) Statistics LibreTexts]
+
+</div>
+
+</div>
+<div>
+
+<div id="flash-messages">
+
+<div class="dekiFlash">
+
+</div>
+
+</div>
+<span id="title"></span>
+= 2.2: Conditional Probability and Bayes' Rule =
+
+# #; Last updated
+#: <span class="mt-last-updated" timestamp="2021-02-06T17:58:51Z"></span>
+# [https://stats.libretexts.org/@api/deki/pages/3253/pdf/2.2%253A%2bConditional%2bProbability%2band%2bBayes'%2bRule.pdf <span class="mt-icon-article-pdf"></span>Save as PDF]
+# 
+
+</div>
+<div class="mt-content-header">
+
+; Page ID
+: 3253
+
+<div class="mt-author-container">
+
+* ([https://stats.libretexts.org/Courses/Saint_Mary%27s_College_Notre_Dame/MATH_345__-_Probability_(Kuter)/2%3A_Computing_Probabilities/2.2%3A_Conditional_Probability_and_Bayes%27_Rule Media content: view on original URL])
+* [https://www.saintmarys.edu/academics/faculty/kristin-kuter Kristin Kuter]
+* [https://www.saintmarys.edu/academics/departments/mathematics-computer-science Saint Mary's College]
+
+</div>
+<div class="Headertext">
+
+\( \newcommand{\vecs}[1]{\overset { \scriptstyle \rightharpoonup} {\mathbf{#1}} } \)
+
+\( \newcommand{\vecd}[1]{\overset{-\!-\!\rightharpoonup}{\vphantom{a}\smash {#1}}} \)
+
+\( \newcommand{\dsum}{\displaystyle\sum\limits} \)
+
+\( \newcommand{\dint}{\displaystyle\int\limits} \)
+
+\( \newcommand{\dlim}{\displaystyle\lim\limits} \)
+
+\( \newcommand{\id}{\mathrm{id}}\) \( \newcommand{\Span}{\mathrm{span}}\)
+
+( \newcommand{\kernel}{\mathrm{null}\,}\) \( \newcommand{\range}{\mathrm{range}\,}\)
+
+\( \newcommand{\RealPart}{\mathrm{Re}}\) \( \newcommand{\ImaginaryPart}{\mathrm{Im}}\)
+
+\( \newcommand{\Argument}{\mathrm{Arg}}\) \( \newcommand{\norm}[1]{\| #1 \|}\)
+
+\( \newcommand{\inner}[2]{\langle #1, #2 \rangle}\)
+
+\( \newcommand{\Span}{\mathrm{span}}\)
+
+\( \newcommand{\id}{\mathrm{id}}\)
+
+\( \newcommand{\Span}{\mathrm{span}}\)
+
+\( \newcommand{\kernel}{\mathrm{null}\,}\)
+
+\( \newcommand{\range}{\mathrm{range}\,}\)
+
+\( \newcommand{\RealPart}{\mathrm{Re}}\)
+
+\( \newcommand{\ImaginaryPart}{\mathrm{Im}}\)
+
+\( \newcommand{\Argument}{\mathrm{Arg}}\)
+
+\( \newcommand{\norm}[1]{\| #1 \|}\)
+
+\( \newcommand{\inner}[2]{\langle #1, #2 \rangle}\)
+
+\( \newcommand{\Span}{\mathrm{span}}\) \( \newcommand{\AA}{\unicode[.8,0]{x212B}}\)
+
+\( \newcommand{\vectorA}[1]{\vec{#1}}      % arrow\)
+
+\( \newcommand{\vectorAt}[1]{\vec{\text{#1}}}      % arrow\)
+
+\( \newcommand{\vectorB}[1]{\overset { \scriptstyle \rightharpoonup} {\mathbf{#1}} } \)
+
+\( \newcommand{\vectorC}[1]{\textbf{#1}} \)
+
+\( \newcommand{\vectorD}[1]{\overrightarrow{#1}} \)
+
+\( \newcommand{\vectorDt}[1]{\overrightarrow{\text{#1}}} \)
+
+\( \newcommand{\vectE}[1]{\overset{-\!-\!\rightharpoonup}{\vphantom{a}\smash{\mathbf {#1}}}} \)
+
+\( \newcommand{\vecs}[1]{\overset { \scriptstyle \rightharpoonup} {\mathbf{#1}} } \)
+
+\(\newcommand{\longvect}{\overrightarrow}\)
+
+\( \newcommand{\vecd}[1]{\overset{-\!-\!\rightharpoonup}{\vphantom{a}\smash {#1}}} \)
+
+\(\newcommand{\ket}[1]{\left| #1 \right&gt;}\)<br />
+\(\newcommand{\bra}[1]{\left&lt; #1 \right|}\)<br />
+\(\newcommand{\braket}[2]{\left&lt; #1 \vphantom{#2} \right| \left. #2 \vphantom{#1} \right&gt;}\)<br />
+\(\newcommand{\braopket}[3]{\left&lt; #1 \vphantom{#2}\vphantom{#3} \right| #2 \vphantom{#1}\vphantom{#3} \left| #3 \vphantom{#1}\vphantom{#2} \right&gt;}\)<br />
+\(\newcommand{\qmvec}[1]{\mathbf{\vec{#1}}}\)<br />
+\(\newcommand{\op}[1]{\hat{\mathbf{#1}}}\)<br />
+\(\newcommand{\expect}[1]{\langle #1 \rangle}\)<br />
+\(\newcommand{\dfn}[1]{\emph{\textbf{#1}}}\)
+
+\(\newcommand{\avec}{\mathbf a}\) \(\newcommand{\bvec}{\mathbf b}\) \(\newcommand{\cvec}{\mathbf c}\) \(\newcommand{\dvec}{\mathbf d}\) \(\newcommand{\dtil}{\widetilde{\mathbf d}}\) \(\newcommand{\evec}{\mathbf e}\) \(\newcommand{\fvec}{\mathbf f}\) \(\newcommand{\nvec}{\mathbf n}\) \(\newcommand{\pvec}{\mathbf p}\) \(\newcommand{\qvec}{\mathbf q}\) \(\newcommand{\svec}{\mathbf s}\) \(\newcommand{\tvec}{\mathbf t}\) \(\newcommand{\uvec}{\mathbf u}\) \(\newcommand{\vvec}{\mathbf v}\) \(\newcommand{\wvec}{\mathbf w}\) \(\newcommand{\xvec}{\mathbf x}\) \(\newcommand{\yvec}{\mathbf y}\) \(\newcommand{\zvec}{\mathbf z}\) \(\newcommand{\rvec}{\mathbf r}\) \(\newcommand{\mvec}{\mathbf m}\) \(\newcommand{\zerovec}{\mathbf 0}\) \(\newcommand{\onevec}{\mathbf 1}\) \(\newcommand{\real}{\mathbb R}\) \(\newcommand{\twovec}[2]{\left[\begin{array}{r}#1 \\ #2 \end{array}\right]}\) \(\newcommand{\ctwovec}[2]{\left[\begin{array}{c}#1 \\ #2 \end{array}\right]}\) \(\newcommand{\threevec}[3]{\left[\begin{array}{r}#1 \\ #2 \\ #3 \end{array}\right]}\) \(\newcommand{\cthreevec}[3]{\left[\begin{array}{c}#1 \\ #2 \\ #3 \end{array}\right]}\) \(\newcommand{\fourvec}[4]{\left[\begin{array}{r}#1 \\ #2 \\ #3 \\ #4 \end{array}\right]}\) \(\newcommand{\cfourvec}[4]{\left[\begin{array}{c}#1 \\ #2 \\ #3 \\ #4 \end{array}\right]}\) \(\newcommand{\fivevec}[5]{\left[\begin{array}{r}#1 \\ #2 \\ #3 \\ #4 \\ #5 \\ \end{array}\right]}\) \(\newcommand{\cfivevec}[5]{\left[\begin{array}{c}#1 \\ #2 \\ #3 \\ #4 \\ #5 \\ \end{array}\right]}\) \(\newcommand{\mattwo}[4]{\left[\begin{array}{rr}#1 \amp #2 \\ #3 \amp #4 \\ \end{array}\right]}\) \(\newcommand{\laspan}[1]{\text{Span}\{#1\}}\) \(\newcommand{\bcal}{\cal B}\) \(\newcommand{\ccal}{\cal C}\) \(\newcommand{\scal}{\cal S}\) \(\newcommand{\wcal}{\cal W}\) \(\newcommand{\ecal}{\cal E}\) \(\newcommand{\coords}[2]{\left\{#1\right\}_{#2}}\) \(\newcommand{\gray}[1]{\color{gray}{#1}}\) \(\newcommand{\lgray}[1]{\color{lightgray}{#1}}\) \(\newcommand{\rank}{\operatorname{rank}}\) \(\newcommand{\row}{\text{Row}}\) \(\newcommand{\col}{\text{Col}}\) \(\renewcommand{\row}{\text{Row}}\) \(\newcommand{\nul}{\text{Nul}}\) \(\newcommand{\var}{\text{Var}}\) \(\newcommand{\corr}{\text{corr}}\) \(\newcommand{\len}[1]{\left|#1\right|}\) \(\newcommand{\bbar}{\overline{\bvec}}\) \(\newcommand{\bhat}{\widehat{\bvec}}\) \(\newcommand{\bperp}{\bvec^\perp}\) \(\newcommand{\xhat}{\widehat{\xvec}}\) \(\newcommand{\vhat}{\widehat{\vvec}}\) \(\newcommand{\uhat}{\widehat{\uvec}}\) \(\newcommand{\what}{\widehat{\wvec}}\) \(\newcommand{\Sighat}{\widehat{\Sigma}}\) \(\newcommand{\lt}{&lt;}\) \(\newcommand{\gt}{&gt;}\) \(\newcommand{\amp}{&amp;}\) \(\definecolor{fillinmathshade}{gray}{0.9}\)
+
+</div>
+
+</div>
+<div class="section mt-content-container">
+
+In many situations, additional information about the result of a probability experiment is known (or at least assumed to be known) and given that information the probability of some other event is desired. For this scenario, we compute what is referred to as ''conditional probability''.
+
+<div class="definition">
+
+<div class="mt-section" mt-section-origin="Courses/Saint_Mary's_College_Notre_Dame/MATH_345__-_Probability_(Kuter)/2:_Computing_Probabilities/2.2:_Conditional_Probability_and_Bayes'_Rule">
+
+<span id="Definition_.5C(.5CPageIndex.7B1.7D.5C)"></span>
+<span id="definition-pageindex1"></span>
+=== <span class="mt-color-d35400">Definition \(\PageIndex{1}\)</span> ===
+
+For events \(A\) and \(B\), with \(P(B) &gt; 0\), the '''''conditional''' '''probability''''' of \(A\) given \(B\), denoted \(P(A\ |\ B)\), is given by<br />
+$$P(A\ |\ B) = \frac{P(A \cap B)}{P(B)}.\notag$$
+
+</div>
+
+</div>
+In computing a conditional probability we ''assume'' that we know the outcome of the experiment is in event \(B\) and then, given that additional information, we calculate the probability that the outcome is also in event \(A\). This is useful in practice given that partial information about the outcome of an experiment is often known, as the next example demonstrates.
+
+<div id="section_1" class="mt-section" mt-section-origin="Courses/Saint_Mary's_College_Notre_Dame/MATH_345__-_Probability_(Kuter)/2:_Computing_Probabilities/2.2:_Conditional_Probability_and_Bayes'_Rule">
+
+<span id="Example_.5C(.5CPageIndex.7B1.7D.5C)"></span>
+<span id="example-pageindex1"></span>
+=== <span class="mt-color-27ae60">Example \(\PageIndex{1}\)</span> ===
+
+Continuing in the context of [https://stats.libretexts.org/Courses/Saint_Mary's_College_Notre_Dame/MATH_345__-_Probability_(Kuter)/1%3A_What_is_Probability/1.2%3A_Probability_Measures#Example_.5C(.5CPageIndex.7B1.7D.5C) Example 1.2.1], where we considered tossing a fair coin twice, define \(D\) to be the event that at least one tails is recorded:<br />
+$$D = \{ht, th, tt\}\notag$$<br />
+Let's calculate the conditional probability of \(A\) given \(D\), i.e., the probability that at least one heads '''' is recorded (event \(A\)) assuming that at least one tails is recorded (event \(D\)). Recalling that outcomes in this sample space are equally likely, we apply the definition of conditional probability (Definition 2.2.1) and find<br />
+$$P(A\ |\ D) = \frac{P(A\cap D)}{P(D)} = \frac{P(\{ht, th\})}{P(\{ht, th, tt\})}= \frac{(2/4)}{(3/4)} = \frac{2}{3} \approx 0.67.\notag$$<br />
+Note that in [https://stats.libretexts.org/Courses/Saint_Mary's_College_Notre_Dame/MATH_345__-_Probability_(Kuter)/1%3A_What_is_Probability/1.2%3A_Probability_Measures#Example_.5C(.5CPageIndex.7B1.7D.5C) Example 1.2.1] we found the '''''un'''''-conditional probability of \(A\) to be \(P(A) = 0.75\). So, knowing that at least one tails was recorded, i.e., assuming event \(D\) occurred, the conditional probability of \(A\) given \(D\) decreased. This is because, if event \(D\) occurs, then the outcome \(hh\) in \(A\) cannot occur, thereby decreasing the chances that event \(A\) occurs.
+
+-----
+
+<div class="exercise">
+
+<div class="mt-section" mt-section-origin="Courses/Saint_Mary's_College_Notre_Dame/MATH_345__-_Probability_(Kuter)/2:_Computing_Probabilities/2.2:_Conditional_Probability_and_Bayes'_Rule">
+
+<span id="Exercise_.5C(.5CPageIndex.7B1.7D.5C)"></span>
+<span id="exercise-pageindex1"></span>
+=== <span class="mt-color-8e44ad">Exercise \(\PageIndex{1}\)</span> ===
+
+Suppose we randomly draw a card from a [https://en.wikipedia.org/wiki/Standard_52-card_deck standard deck of 52 playing cards]. 
+
+<ol style="list-style-type: lower-alpha;">
+<li>If we know that the card is a King, what is the probability that the card is a club?</li>
+<li>If we instead know that the card is black, what is the probability that the card is a club?</li></ol>
+
+<dl>
+<dt>'''Answer'''</dt>
+<dd><p>In order to compute the necessary probabilities, first note that the sample space is given by the set of cards in a standard deck of playing cards. So the number of outcomes in the sample space is 52. Next, note that the outcomes are equally likely, since we are ''randomly'' drawing the card from the deck.</p>
+<p>For part (a), we are looking for the conditional probability that the randomly selected card is club, given that it is a King.  If we let \(C\) denote the event that the card is a club and \(K\) the event that it is a King, then we are looking to compute $$P(C\ |\ K) = \frac{P(C\cap K)}{P(K)}.\label{condproba}$$ To compute these probabilities, we count the number of outcomes in the following events:</p>
+<p><br />
+$$ \text{# of outcomes in}\ C  = \#\ \text{of clubs in standard deck}\ = 13 \notag$$<br />
+$$ \text{# of outcomes in}\ K  = \#\ \text{of Kings in standard deck}\ = 4 \notag$$<br />
+$$ \text{# of outcomes in}\ C\cap K  = \#\ \text{of King of clubs in standard deck}\ = 1 \notag$$<br />
+ </p>
+<p>The probabilities in Equation \ref{condproba} are then given by dividing the counts of outcomes in each event by the total number of outcomes in the sample space (by the boxed [https://stats.libretexts.org/Courses/Saint_Mary's_College_Notre_Dame/MATH_345__-_Probability_(Kuter)/2%3A_Computing_Probabilities/2.1%3A_Equally_Likely_Outcomes_and_Counting_Techniques_(Combinatorics)#Equally_Likely_Outcomes Equation 2.1.8] in Section [https://stats.libretexts.org/Courses/Saint_Mary's_College_Notre_Dame/MATH_345__-_Probability_(Kuter)/2%3A_Computing_Probabilities/2.1%3A_Equally_Likely_Outcomes_and_Counting_Techniques_(Combinatorics) 2.1]): $$P(C\ |\ K) = \frac{P(C\cap K)}{P(K)} = \frac{(1/52)}{(4/52)} = \frac{1}{4} = 0.25.\notag$$</p>
+<p>For part (b), we are looking for the conditional probability that the randomly selected card is club, given that it is instead black.  If we let \(B\) denote the event that the card is black, then we are looking to compute $$P(C\ |\ B) = \frac{P(C\cap B)}{P(B)}.\label{condprobb}$$ To compute these probabilities, we count the number of outcomes in the following events:</p>
+<p><br />
+$$ \text{# of outcomes in}\ B  = \#\ \text{of black cards in standard deck}\ = 26 \notag$$<br />
+$$ \text{# of outcomes in}\ C\cap B  = \#\ \text{of black clubs in standard deck}\ = 13\notag $$<br />
+ </p>
+<p>The probabilities in Equation \ref{condprobb} are then given by dividing the counts of outcomes in each event by the total number of outcomes in the sample space: $$P(C\ |\ B) = \frac{P(C\cap B)}{P(B)} = \frac{(13/52)}{(26/52)} = \frac{13}{26} = 0.5.\notag$$</p></dd></dl>
+
+</div>
+
+</div>
+'''Remark:''' Exercise 2.2.1 demonstrates the following fact. For sample spaces with equally likely outcomes, conditional probabilities are calculated using
+
+$$\boxed{P(A\ |\ B) = \frac{\text{number of outcomes in}\ A\cap B}{\text{number of outcomes in}\ B}.}$$
+
+In other words, if we know that the outcome of the probability experiment is in the event \(B\), then we restrict our focus to the outcomes in that event that are also in \(A\).  We can think of this as event \(B\) taking the place of the sample space, since we know the outcome must lie in that event.
+
+</div>
+<div id="section_2" class="mt-section" mt-section-origin="Courses/Saint_Mary's_College_Notre_Dame/MATH_345__-_Probability_(Kuter)/2:_Computing_Probabilities/2.2:_Conditional_Probability_and_Bayes'_Rule">
+
+<span id="Properties_of_Conditional_Probability"></span>
+<span id="properties-of-conditional-probability"></span>
+== Properties of Conditional Probability ==
+
+As with unconditional probability, we also have some useful properties for conditional probabilities.  The first property below, referred to as the ''Multiplication Law'', is simply a rearrangement of the probabilities used to define conditional probability.  The Multiplication Law provides a way for computing the probability of an intersection of events when the conditional probabilities are known.
+
+<div class="definition">
+
+<div class="mt-section" mt-section-origin="Courses/Saint_Mary's_College_Notre_Dame/MATH_345__-_Probability_(Kuter)/2:_Computing_Probabilities/2.2:_Conditional_Probability_and_Bayes'_Rule">
+
+<span id="Multiplication_Law"></span>
+<span id="multiplication-law"></span>
+=== <span class="mt-color-d35400">Multiplication Law</span> ===
+
+\(P(A \cap B) = P(A\ |\ B) P(B) = P(B\ |\ A) P(A)\)
+
+</div>
+
+</div>
+The next two properties are useful when a ''partition'' of the sample space exists, where a partition is a way of dividing up the outcomes in the sample space into non-overlapping sets.  A partition is formally defined in the ''Law of Total Probability'' below. In many cases, when a partition exists, it is easy to compute the conditional probability of an event in the sample space given an event in the partition. The Law of Total Probability then provides a way of using those conditional probabilities of an event, given the partition to compute the unconditional probability of the event. Following the Law of Total Probability, we state ''Bayes' Rule'', which is really just an application of the Multiplication Law. Bayes' Rule is used to calculate what are informally referred to as &quot;reverse conditional probabilities&quot;, which are the conditional probabilities of an event in a partition of the sample space, given any other event.
+
+<div class="definition">
+
+<div class="mt-section" mt-section-origin="Courses/Saint_Mary's_College_Notre_Dame/MATH_345__-_Probability_(Kuter)/2:_Computing_Probabilities/2.2:_Conditional_Probability_and_Bayes'_Rule">
+
+<span id="Law_of_Total_Probability"></span>
+<span id="law-of-total-probability"></span>
+=== <span class="mt-color-d35400">Law of Total Probability</span> ===
+
+Suppose events \(B_1, B_2, \ldots, B_n,\) satisfy the following:
+
+# \(S = B_1 \cup B_2 \cup \cdots \cup B_n\)
+# \(B_i\cap B_j = \varnothing\), for every \(i\neq j\)
+# \(P(B_i)&gt;0\), for \(i=1, \ldots, n\)
+
+We say that the events \(B_1, B_2, \ldots, B_n,\) '''partition''' the sample space \(S\). Then for any event \(A\), we can write<br />
+$$P(A) = P(A\ |\ B_1) P(B_1) + \cdots + P(A\ |\ B_n) P(B_n).\notag$$
+
+</div>
+
+</div>
+<div class="definition">
+
+<div class="mt-section" mt-section-origin="Courses/Saint_Mary's_College_Notre_Dame/MATH_345__-_Probability_(Kuter)/2:_Computing_Probabilities/2.2:_Conditional_Probability_and_Bayes'_Rule">
+
+<span id="Bayes'_Rule"></span>
+<span id="bayes-rule"></span>
+=== <span class="mt-color-d35400">Bayes' Rule</span> ===
+
+Let \(B_1, B_2, \ldots, B_n,\) partition the sample space \(S\) and let \(A\) be an event with \(P(A)&gt; 0\). Then, for \(j=1,\ldots, n\), we have<br />
+$$P(B_j\ |\ A) = \frac{P(A\ |\ B_j) P(B_j)}{P(A)}.\notag$$
+
+</div>
+
+</div>
+A common application of the Law of Total Probability and Bayes' Rule is in the context of medical diagnostic testing.
+
+<div id="section_3" class="mt-section" mt-section-origin="Courses/Saint_Mary's_College_Notre_Dame/MATH_345__-_Probability_(Kuter)/2:_Computing_Probabilities/2.2:_Conditional_Probability_and_Bayes'_Rule">
+
+<span id="Example_.5C(.5CPageIndex.7B2.7D.5C)"></span>
+<span id="example-pageindex2"></span>
+=== <span class="mt-color-27ae60">Example \(\PageIndex{2}\)</span> ===
+
+Consider a test that can diagnose kidney cancer. The <span class="mt-color-e67e22">test correctly detects when a patient has cancer 90% of the time</span>. Also, <span class="mt-color-f1c40f">if a person does not have cancer, the test correctly indicates so 99.9% of the time</span>. Finally, suppose it is known that <span class="mt-color-e74c3c">1 in every 10,000 individuals has kidney cancer</span>. We find the probability that a patient has kidney cancer, given that the test indicates she does.
+
+First, note that we are finding a conditional probability. If we let \(A\) denote the event that the patient tests positive for cancer, and we let \(B_1\) denote the event that the patient actually has cancer, then we want<br />
+$$P(B_1\ |\ A).\notag$$<br />
+If we let \(B_2 = B_1^c\), then we have a partition of all patients (which is the sample space) given by \(B_1\) and \(B_2\).
+
+In the first paragraph of this example, we are given the following probabilities:
+
+<br />
+$$\textcolor{BurntOrange}{\text{test correctly detects cancer 90% of time:}}\quad  \textcolor{BurntOrange}{P(A\ |\ B_1) = 0.9} \notag$$<br />
+$$\textcolor{goldenrod}{\text{test correctly detects no cancer 99.9% of time:}}\quad  \textcolor{goldenrod}{P(A^c\ |\ B_2) = 0.999} \Rightarrow P(A\ |\ B_2) = 1-P(A^c\ |\ B_2) = 0.001 \notag$$<br />
+$$\textcolor{red}{\text{1 in every 10,000 individuals has cancer:}}\quad  \textcolor{red}{P(B_1) = 0.0001} \Rightarrow P(B_2) = 1 - P(B_1) = 0.9999 \notag$$<br />
+ 
+
+Since we have a partition of the sample space, we apply the Law of Total Probability to find \(P(A)\):<br />
+$$P(A) = \textcolor{BurntOrange}{P(A\ |\ B_1)} \textcolor{red}{P(B_1)} + P(A\ |\ B_2) P(B_2) = (\textcolor{BurntOrange}{0.9})(\textcolor{red}{0.0001}) + (0.001)(0.9999) = 0.0010899\notag$$<br />
+Next, we apply Bayes' Rule to find the desired conditional probability:<br />
+$$P(B_1\ |\ A) = \frac{P(A\ |\ B_1) P(B_1)}{P(A)} = \frac{(0.9)(0.0001)}{0.0010899} \approx 0.08\notag$$<br />
+This implies that only about 8% of patients that test positive under this particular test actually have kidney cancer, which is not very good.
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div id="mt-modal-container">
+
+</div>

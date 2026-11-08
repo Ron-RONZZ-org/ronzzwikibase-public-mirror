@@ -1002,6 +1002,12 @@
       "sha256": "43a74030b6fa6a69d27f3b2a57297d15a8359067af4cdee430be6c067f2440e6",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Saint Mary's College": {
+      "path": "Collective/Saint Mary's College.wiki",
+      "revid": 14414,
+      "sha256": "758733a3ab2e20f72922636bcae2a64a50fff7971e3b1508f85d5a94737565ba",
+      "synced_at": "2026-11-08T12:12:49+00:00"
+    },
     "Collective:Schroeder, Juliana ; Caruso, Eugene M. ; Epley, Nicholas": {
       "path": "Collective/Schroeder, Juliana ; Caruso, Eugene M. ; Epley, Nicholas.wiki",
       "revid": 13837,
@@ -3264,6 +3270,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
     },
+    "Person:Kristin Kuter": {
+      "path": "Person/Kristin Kuter.wiki",
+      "revid": 14419,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-08T12:12:49+00:00"
+    },
     "Person:Kristina Kallas": {
       "path": "Person/Kristina Kallas.wiki",
       "revid": 9100,
@@ -4493,6 +4505,18 @@
       "revid": 10034,
       "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:2.2: Conditional Probability and Bayes' Rule (Webpage)": {
+      "path": "Source/2.2_ Conditional Probability and Bayes' Rule (Webpage).wiki",
+      "revid": 14425,
+      "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
+      "synced_at": "2026-11-08T12:12:49+00:00"
+    },
+    "Source:2.2: Conditional Probability and Bayes' Rule (Webpage)/archivedText": {
+      "path": "Source/2.2_ Conditional Probability and Bayes' Rule (Webpage)/archivedText.wiki",
+      "revid": 14424,
+      "sha256": "2ab290041fea0ec833807a8d9727125451e4a21a016904c0e4ddcd5e7b4bafaf",
+      "synced_at": "2026-11-08T12:12:49+00:00"
     },
     "Source:2.2: Rings (Webpage)": {
       "path": "Source/2.2_ Rings (Webpage).wiki",
@@ -6733,6 +6757,6 @@
       "synced_at": "2026-11-07T15:19:42+00:00"
     }
   },
-  "updated": "2026-11-08T11:48:55+00:00",
+  "updated": "2026-11-08T12:12:49+00:00",
   "version": 1
 }
