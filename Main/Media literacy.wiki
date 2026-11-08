@@ -15,3 +15,40 @@
 * share factual information and opinions with different [[audience]]s, minimising bias and maximising ease of comprehension.
 
 <ref>{{#cite:Q2947}}</ref>
+
+== Techniques ==
+
+=== SIFT ===
+
+See [[SIFT method]].
+
+=== Red flag green flag<ref>{{#cite:Q2947}}</ref> ===
+
+[[File:Red flag.png|100px|center]]
+==== Red flags: questionnable content ====
+* Unclear authorship
+* No dating
+* Sensational language
+** e.g., "EXPOSED", "BETRAYAL"
+* No sources
+* One-sided/highly unbalanced presentation
+* Poor grammar/spelling/formatting: Signs of
+** Low effort content-generation: quantity over quality
+** Rushed production
+** Lack of editorial standard/proof-reading
+
+[[File:False green flags.png|100px|center]]
+==== False green flags: assuring but nothing ====
+
+* Confident tone
+* Large amount of technical jargon/complex visuals
+* Rhetorical shields
+** e.g., "A balanced opinion on the issue would be", "Based on my independent analysis"
+* Documentary/news style writing
+** Propaganda/advertising experts mimic documentary content/news to create [[soft propaganda]] and [[soft advertisement]]s.
+* Popularity
+** Contents go viral when they are
+*** surprising
+*** relatable
+*** emotional
+*** '''not''' necessarily because they are reliable

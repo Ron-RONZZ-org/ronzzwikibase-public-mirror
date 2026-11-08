@@ -2192,9 +2192,9 @@
     },
     "Media literacy": {
       "path": "Main/Media literacy.wiki",
-      "revid": 14480,
-      "sha256": "ee5761cb3f69e28c5f255ad1a459ab5b4f60c5ee2d2de34d7f722a6142c993fb",
-      "synced_at": "2026-11-08T14:08:59+00:00"
+      "revid": 14497,
+      "sha256": "cdc7baff2b3ad8ab451cb72e504f487a68ae429e3f90fd1a4a26a8c79e953b68",
+      "synced_at": "2026-11-08T14:19:35+00:00"
     },
     "Mental disorder": {
       "path": "Main/Mental disorder.wiki",
@@ -6811,6 +6811,6 @@
       "synced_at": "2026-11-07T15:19:42+00:00"
     }
   },
-  "updated": "2026-11-08T14:08:59+00:00",
+  "updated": "2026-11-08T14:19:35+00:00",
   "version": 1
 }
