@@ -360,6 +360,12 @@
       "sha256": "c376110aa7180eeac4bd530a64dcaf99d5e33f78c0a1ee017df496d0d0d73be5",
       "synced_at": "2026-11-08T06:15:21+00:00"
     },
+    "Collective:American Association for the Advancement of Science": {
+      "path": "Collective/American Association for the Advancement of Science.wiki",
+      "revid": 14533,
+      "sha256": "cf64244f1d4db36cd6cfd9041f97bc4a69922fdca419739a0768e36de1158170",
+      "synced_at": "2026-11-08T15:49:41+00:00"
+    },
     "Collective:American Physical Society": {
       "path": "Collective/American Physical Society.wiki",
       "revid": 13174,
@@ -936,6 +942,12 @@
       "sha256": "0fd09b0f52940f8de37c0ea3b26789eeab086ea9686816880652efa47c1d4c43",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Open University of Catalonia": {
+      "path": "Collective/Open University of Catalonia.wiki",
+      "revid": 14541,
+      "sha256": "09b10ff8d9b4755aef230fa7639e41171a49b85db9b5c8a413dc0ca56b85a34a",
+      "synced_at": "2026-11-08T15:49:41+00:00"
+    },
     "Collective:OpenStax": {
       "path": "Collective/OpenStax.wiki",
       "revid": 7972,
@@ -1019,6 +1031,18 @@
       "revid": 13837,
       "sha256": "d3955299ec1a9750ea46f572d0d704469e618d8906ba764ec5e6fb6ef73ffbed",
       "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Collective:Science": {
+      "path": "Collective/Science.wiki",
+      "revid": 14551,
+      "sha256": "d2b0cfb335d66675dbc5e4d1d79680c90ec4c65c3aace919cb3fe9c11bbc3aec",
+      "synced_at": "2026-11-08T15:49:41+00:00"
+    },
+    "Collective:Science (2)": {
+      "path": "Collective/Science (2).wiki",
+      "revid": 14552,
+      "sha256": "118f7be002681827d43e8abcccbba612b5c760bccd61baae4caa7bc535fdae80",
+      "synced_at": "2026-11-08T15:49:41+00:00"
     },
     "Collective:Science Feedback": {
       "path": "Collective/Science Feedback.wiki",
@@ -1104,6 +1128,12 @@
       "sha256": "91f8c4c1826e92ae9ebbd6f912cf48e96f041b6e7dd6dd87fa8a2062fe6cc934",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:United Nations Economic Commission for Latin America and the Caribbean": {
+      "path": "Collective/United Nations Economic Commission for Latin America and the Caribbean.wiki",
+      "revid": 14545,
+      "sha256": "4d9cade092fe306970c6181bde2c78b64f26895298edca2a1e33a589250dc4e9",
+      "synced_at": "2026-11-08T15:49:41+00:00"
+    },
     "Collective:United States Department of Commerce": {
       "path": "Collective/United States Department of Commerce.wiki",
       "revid": 12788,
@@ -1151,6 +1181,12 @@
       "revid": 12635,
       "sha256": "3c6020a8751c3e5bc84136d518d752592c782b81adb8128a4fdb37611ecfb763",
       "synced_at": "2026-11-04T07:35:51+00:00"
+    },
+    "Collective:University of Southern California": {
+      "path": "Collective/University of Southern California.wiki",
+      "revid": 14537,
+      "sha256": "d44634bbe59998a3c3ad6cf81e678772114f5d659ca5f06ae5b0a5b6ead9f3ee",
+      "synced_at": "2026-11-08T15:49:41+00:00"
     },
     "Collective:University of Texas System": {
       "path": "Collective/University of Texas System.wiki",
@@ -3414,6 +3450,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
     },
+    "Person:Martin Hilbert": {
+      "path": "Person/Martin Hilbert.wiki",
+      "revid": 14557,
+      "sha256": "682ed62398fbf3c89ba56aadb728d0a121ee2fbb9ae711dd5db5da2fc949afd0",
+      "synced_at": "2026-11-08T15:49:41+00:00"
+    },
     "Person:Martin Kutta": {
       "path": "Person/Martin Kutta.wiki",
       "revid": 7327,
@@ -3725,6 +3767,12 @@
       "revid": 7311,
       "sha256": "55f0995a9209f95a0d3fbbbb636edc979b49bd498b46672d22edd354649c99fd",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Priscila López": {
+      "path": "Person/Priscila López.wiki",
+      "revid": 14561,
+      "sha256": "18e5359e294ac0cf5e37236221d406c0c626eea45d4e5e4a8334f4b2c192204e",
+      "synced_at": "2026-11-08T15:49:41+00:00"
     },
     "Person:Ralph Asher Alpher": {
       "path": "Person/Ralph Asher Alpher.wiki",
@@ -6396,6 +6444,12 @@
       "sha256": "d1aeecf043377dab7dea792919f99e4e70750689a5c3f9bc5b8788cea1905d45",
       "synced_at": "2026-11-01T11:35:36+00:00"
     },
+    "Source:The World's Technological Capacity to Store, Communicate, and Compute Information (Scholarly article)": {
+      "path": "Source/The World's Technological Capacity to Store, Communicate, and Compute Information (Scholarly article).wiki",
+      "revid": 14566,
+      "sha256": "80fc12c5d3e2334cc329372d7019e938bb02857e3d293413909dc767b5db86ba",
+      "synced_at": "2026-11-08T15:49:41+00:00"
+    },
     "Source:The latest on Git updates (Webpage)": {
       "path": "Source/The latest on Git updates (Webpage).wiki",
       "revid": 6476,
@@ -6847,6 +6901,6 @@
       "synced_at": "2026-11-07T15:19:42+00:00"
     }
   },
-  "updated": "2026-11-08T15:19:41+00:00",
+  "updated": "2026-11-08T15:49:41+00:00",
   "version": 1
 }
