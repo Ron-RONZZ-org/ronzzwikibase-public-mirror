@@ -774,6 +774,12 @@
       "sha256": "6debf1d9a9aa58d0fad52d24e57945853f8d0f0142467ce510d8e2797f790a31",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Journal of Public Policy & Marketing": {
+      "path": "Collective/Journal of Public Policy & Marketing.wiki",
+      "revid": 14608,
+      "sha256": "bf3fe7726f1e173abb979cab0021344efec1494877df48a8fd261fc8f6db7856",
+      "synced_at": "2026-11-08T21:19:45+00:00"
+    },
     "Collective:Juliana Schroeder, Eugene M. Caruso, Nicholas Epley": {
       "path": "Collective/Juliana Schroeder, Eugene M. Caruso, Nicholas Epley.wiki",
       "revid": 13836,
@@ -1025,6 +1031,12 @@
       "revid": 8789,
       "sha256": "43a74030b6fa6a69d27f3b2a57297d15a8359067af4cdee430be6c067f2440e6",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Collective:SAGE Publications": {
+      "path": "Collective/SAGE Publications.wiki",
+      "revid": 14612,
+      "sha256": "fd9d94f3ad6237e28b92d4ca043a203c2a8f441bc93cf600680181c303eb8cea",
+      "synced_at": "2026-11-08T21:19:45+00:00"
     },
     "Collective:Saint Mary's College": {
       "path": "Collective/Saint Mary's College.wiki",
@@ -2700,6 +2712,12 @@
       "sha256": "6945adee4c674cc78f4fa12850f0d537d47d9282d6fd9e1302a90d934f99349a",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Carlos Diaz Ruiz": {
+      "path": "Person/Carlos Diaz Ruiz.wiki",
+      "revid": 14616,
+      "sha256": "727736d410a5e88e55d1acbc832abdda09159f3080430c45c7c215d4bf16e153",
+      "synced_at": "2026-11-08T21:19:45+00:00"
+    },
     "Person:Carlos Mallmann": {
       "path": "Person/Carlos Mallmann.wiki",
       "revid": 13793,
@@ -4062,6 +4080,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:19:42+00:00"
     },
+    "Person:Tomas Nilsson": {
+      "path": "Person/Tomas Nilsson.wiki",
+      "revid": 14620,
+      "sha256": "727736d410a5e88e55d1acbc832abdda09159f3080430c45c7c215d4bf16e153",
+      "synced_at": "2026-11-08T21:19:45+00:00"
+    },
     "Person:Toni Morrison": {
       "path": "Person/Toni Morrison.wiki",
       "revid": 8737,
@@ -5243,6 +5267,12 @@
       "revid": 6959,
       "sha256": "33abba79517fdf687a91fb2830f471a30df02ea87fe1ec51980161fcff26989e",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:Disinformation and Echo Chambers: How Disinformation Circulates on Social Media Through Identity-Driven Controversies (Scholarly article)": {
+      "path": "Source/Disinformation and Echo Chambers_ How Disinformation Circulates on Social Media Through Identity-Driven Controversies (Scholarly article).wiki",
+      "revid": 14624,
+      "sha256": "a4b468874def2a4625afb4c451131faaa735c7941f45805aa55e998349c48563",
+      "synced_at": "2026-11-08T21:19:45+00:00"
     },
     "Source:Do schools kill creativity? - Sir Ken Robinson - TED (YouTube video)": {
       "path": "Source/Do schools kill creativity_ - Sir Ken Robinson - TED (YouTube video).wiki",
@@ -6925,6 +6955,6 @@
       "synced_at": "2026-11-07T15:19:42+00:00"
     }
   },
-  "updated": "2026-11-08T16:49:45+00:00",
+  "updated": "2026-11-08T21:19:45+00:00",
   "version": 1
 }
