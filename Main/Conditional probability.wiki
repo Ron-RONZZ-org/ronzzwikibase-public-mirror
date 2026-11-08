@@ -1,0 +1,8 @@
+[[Category:Probability]]
+'''Conditional probability''' is the probability of one event given another event.
+
+== Definition ==
+
+{{#content:Q2941}}
+
+<ref>{{#cite:Q2940}}</ref>
