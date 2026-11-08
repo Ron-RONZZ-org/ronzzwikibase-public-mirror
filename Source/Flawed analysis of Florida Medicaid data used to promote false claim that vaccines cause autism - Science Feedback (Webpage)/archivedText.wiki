@@ -1,0 +1,417 @@
+Skip to content ([https://science.feedback.org/review/flawed-analysis-florida-medicaid-data-promote-false-claim-vaccines-cause-autism/ Media content: view on original URL])
+<div class="wp-site-blocks">
+
+<div class="margin-block-start-0 site-header js-site-header" animation="on" animation-offset="200" role="banner" theme="dark">
+
+<div class="site-header__wrapper">
+
+<div class="site-header__container">
+
+<div class="site-header__logo site-header__logo--image">
+
+[https://science.feedback.org/ ([https://science.feedback.org/review/flawed-analysis-florida-medicaid-data-promote-false-claim-vaccines-cause-autism/ Media content: view on original URL]) Science Feedback]
+
+</div>
+<div id="site-header-mega-search" class="site-header__mega-search js-site-header__mega-search">
+
+<div class="site-header__mega-search-inner">
+
+<div class="search-input">
+
+Type your search and press enter
+<div class="search-input__control-wrapper margin-block-start-md">
+
+</div>
+
+</div>
+<div class="site-header__mega-nav-aside">
+
+<div class="wp-block-bsaweb-blocks-grid bsab4s-grid bsab4s-gap-md bsab4s-items-center">
+
+<div class="wp-block-bsaweb-blocks-grid-item bsab4s-col@md bsab4s-col-4@xl bsab4s-no-stacking is-layout-flow wp-block-bsaweb-blocks-grid-item-is-layout-flow bsab4s-col@sm">
+
+Topics:
+
+</div>
+<div class="wp-block-bsaweb-blocks-grid-item bsab4s-col@md bsab4s-col-8@xl bsab4s-no-stacking is-layout-flow wp-block-bsaweb-blocks-grid-item-is-layout-flow bsab4s-col@sm">
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="site-header__icon-btns">
+
+<div class="language-picker js-language-picker site-header__lang-picker" trigger-class="reset site-header__icon-btn site-header__icon-btn--lang-picker js-tab-focus" abbreviate="on" urls="{&quot;fr&quot;:&quot;https:\/\/science.feedback.org\/fr\/&quot;,&quot;en&quot;:&quot;https:\/\/science.feedback.org\/review\/flawed-analysis-florida-medicaid-data-promote-false-claim-vaccines-cause-autism\/&quot;}">
+
+Select your languageEnglish
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div id="site-content" class="site-main margin-block-start-0" role="main">
+
+<div class="hero is-layout-flow wp-block-group alignfull has-accent-background-color has-white-color padding-y-xl">
+
+<div class="hero__inner-container has-global-padding is-layout-constrained wp-block-group fractal-container--wide">
+
+* <span class="hero__term line-height-1 text-xs has-exo-2-font-family letter-spacing-md text-uppercase has-accent-lighter-color">''Health''</span>
+
+<span id="flawed-analysis-of-florida-medicaid-data-used-to-promote-false-claim-that-vaccines-cause-autism"></span>
+= Flawed analysis of Florida Medicaid data used to promote false claim that vaccines cause autism =
+
+<span><span class="sr-only">Posted on: </span> 2025-01-31</span>
+
+</div>
+
+</div>
+<div class="is-layout-flow wp-block-group alignfull margin-block-start-0 padding-y-md padding-y-3-xl@lg">
+
+<div class="has-global-padding is-layout-constrained wp-block-group">
+
+<div class="wp-block-bsaweb-blocks-grid grid gap-xl gap-4-xl@lg max-width-lg margin-x-auto">
+
+<div class="wp-block-bsaweb-blocks-grid-item col-8@md">
+
+<div class="wp-block-group is-layout-constrained">
+
+<div class="wp-block-group alignwide is-layout-flow wp-container-core-group-is-layout-d78f3cf7 wp-block-group-is-layout-flow" style="margin-bottom:var(--wp--preset--spacing--xl)">
+
+<div class="wp-block-group fractal-review-kta text-sm text-base@md padding-component has-accent-lighter-background-color has-background wp-elements-4 is-layout-flow wp-container-core-group-is-layout-26974514 wp-block-group-is-layout-flow">
+
+<div class="wp-block-group fractal-heading fractal-heading--underlined is-nowrap is-layout-flex wp-container-core-group-is-layout-4978ee4a wp-block-group-is-layout-flex" style="border-bottom-color:var(--wp--preset--color--contrast-higher);border-bottom-width:1px;padding-bottom:var(--wp--preset--spacing--sm)">
+
+<span id="key-takeaway"></span>
+== Key takeaway ==
+
+</div>
+<div class="wp-block-group items-start items-center@md is-nowrap is-layout-flex wp-container-core-group-is-layout-895a2cf3 wp-block-group-is-layout-flex">
+
+<div class="wp-block-outermost-icon-block">
+
+<div class="icon-container has-icon-color has-accent-color" style="color:var(--wp--custom--color--accent);width:30px">
+
+</div>
+
+</div>
+Autism spectrum disorder is a neurodevelopmental disorder commonly manifesting in difficulties with social communication and behavior. Research suggests the likelihood of ASD is influenced by a combination of genetic and environmental factors. Numerous large-scale studies have investigated a potential association between childhood vaccination and autism, with none finding an association between the two. This absence of an association speaks against the hypothesis that childhood vaccination is causally linked to autism.
+
+</div>
+
+</div>
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+
+<span id="reviewed-content"></span>
+== Reviewed content ==
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-895a2cf3 wp-block-columns-is-layout-flex">
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+
+<div class="figure wp-block-post-featured-image">
+
+([https://science.feedback.org/review/flawed-analysis-florida-medicaid-data-promote-false-claim-vaccines-cause-autism/ Media content: view on original URL])
+
+</div>
+
+</div>
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+
+<div class="wp-elements-5 wp-block-sciencefeedback-core-reviewed-content has-text-color has-grey-1-color has-sm-font-size">
+
+<div class="sfc-review-reviewed-content reviewed-content js-reviewed-content grid gap-sm reviewed-content--verdict-color-orange">
+
+<div class="reviewed-content__row flex flex-wrap gap-sm">
+
+Verdict:
+
+<div class="grid gap-2-xs margin-block-start-0">
+
+<div class="col-content">
+
+<span class="sfc-term-color--orange badge badge--primary text-xs width-100% letter-spacing-md" style="background-color: #D64933; color: #FFFFFF">''Misleading''</span>
+
+</div>
+
+</div>
+
+</div>
+<div class="reviewed-content__row flex gap-sm">
+
+Claim:
+
+<div class="figure reviewed-content__figure grid gap-sm">
+
+<blockquote>“New peer-reviewed study again confirms childhood vaccines are likely responsible for nearly 80% of the autism cases in US”
+</blockquote>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+
+<span id="verdict-detail"></span>
+== Verdict detail ==
+
+'''Misleading''': The claim is based on an analysis of Medicare records that’s methodologically flawed, raising questions about its conclusion that vaccines could be causally linked to autism. For example, it relied solely on Medicaid billing codes to determine a child’s vaccination status. This is liable to error, as it doesn’t account for childhood vaccines given through non-Medicaid programs, such as the Vaccines for Children program.
+
+<div class="wp-block-group is-content-justification-right is-nowrap is-layout-flex wp-container-core-group-is-layout-a3e5cf64 wp-block-group-is-layout-flex">
+
+[https://science.feedback.org/process/ See our method of evaluation]
+
+</div>
+
+</div>
+<div class="wp-block-group is-layout-flow wp-container-core-group-is-layout-f1e2bb67 wp-block-group-is-layout-flow">
+
+<span id="full-claim"></span>
+== Full Claim ==
+
+<div class="wp-elements-7 wp-block-sciencefeedback-core-reviewed-content has-text-color has-grey-1-color has-sm-font-size">
+
+<div class="sfc-review-reviewed-content reviewed-content js-reviewed-content grid gap-sm reviewed-content--verdict-color-orange">
+
+<div class="figure">
+
+<blockquote>“Vaccination and Neurodevelopmental Disorders: A Study of Nine-Year-Old Children Enrolled in Medicaid. VACCINES CAUSE AUTISM.”; “New peer-reviewed study again confirms childhood vaccines are likely responsible for nearly 80% of the autism cases in US”
+</blockquote>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="wp-block-group alignwide has-primary-lighter-background-color has-background fractal-heading fractal-heading--boxed has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--unit);padding-bottom:var(--wp--preset--spacing--unit)">
+
+<span id="review"></span>
+== Review ==
+
+</div>
+In January 2025, a claim that vaccines cause autism circulated online, using a study of children enrolled in Medicaid as supporting evidence for the claim. The claim was propagated through [https://web.archive.org/web/20250127032435/https://kirschsubstack.com/p/new-peer-reviewed-study-again-confirms a Substack article] by entrepreneur Steve Kirsch, which he also shared on X. [https://perma.cc/6GQ5-KMKE His tweet] sharing his article received more than 12,000 likes and more than 5,000 retweets. Kirsch emerged as [https://www.mcgill.ca/oss/article/critical-thinking/steve-kirsch-and-seduction-simplicity a vocal opponent of vaccination] during the COVID-19 pandemic; Science Feedback debunked several of his vaccine-related claims in [https://science.feedback.org/reviewed-content-author/steve-kirsch/ previous reviews].
+
+In [https://perma.cc/6GQ5-KMKE his tweet], Kirsch claimed that “RFK and Andy Wakefield were RIGHT” and that “vaccines cause autism”. This is in spite of the fact that Wakefield’s study, which alleged a link between the MMR vaccine and autism, was [https://www.immunize.org/clinical/vaccine-confidence/topic/mmr-vaccine/bmj-deer-mmr-wakefield/ eventually shown to be fraudulent].
+
+Kirsch’s claim is based on [https://web.archive.org/web/20250127032709mp_/https://publichealthpolicyjournal.com/vaccination-and-neurodevelopmental-disorders-a-study-of-nine-year-old-children-enrolled-in-medicaid/ an analysis] that appeared in the publication ''Science, Public Health Policy and the Law''. Ostensibly a scientific journal, it was created by [https://sciencebasedmedicine.org/study-laundering-ipak-antivax-scientists-and-the-return-of-living-dead-antivax-studies/ James Lyons-Weiler], a scientist who previously spread [https://sciencebasedmedicine.org/a-new-study-reinforces-the-conclusion-that-autism-is-primarily-genetic/ vaccine] and [https://science.feedback.org/review/2019-novel-coronavirus-2019-ncov-does-not-contain-pshuttle-sn-sequence-no-evidence-that-virus-is-man-made/ COVID-19] misinformation. It also [https://science.feedback.org/review/baseless-claim-covid-19-vaccines-killed-more-than-200000-from-flawed-bmc-infectious-diseases-study/ republished a retracted study] that baselessly alleged the COVID-19 vaccines killed hundreds of thousands of people.
+
+The publication’s editorial board includes several figures who spread health misinformation, including [https://science.feedback.org/reviewed-content-author/peter-mccullough/ Peter McCullough], [https://science.feedback.org/reviewed-content-author/brian-hooker/ Brian Hooker], and [https://www.mcgill.ca/oss/article/controversial-science-health-news-supplements/seems-neurosurgeons-are-not-immune-neuroses Russell Blaylock].
+
+The first author of the analysis is Anthony Mawson, who has published [https://www.respectfulinsolence.com/2017/05/09/a-boatload-of-fail-were-two-horrendously-bad-zombie-vaxedantivaxed-studies-retracted/ flawed studies] claiming that unvaccinated children are healthier than vaccinated children. His most recent analysis also made the same claim. But the analysis, like his earlier studies, contains significant flaws that render its conclusion meaningless. We explain below.
+
+<span id="what-did-the-study-do-and-what-did-it-find"></span>
+==== What did the study do and what did it find? ====
+
+The study claimed: “Although vaccination is said to be safe and effective for the great majority of children, a legitimate question is whether the expanded schedule could be contributing in some way to rising rates of NDDs [neurodevelopmental disorders]”.
+
+[https://rationalwiki.org/wiki/Just_asking_questions This premise] falsely implies that whether vaccines cause autism remains an unresolved scientific question. Previous [https://science.feedback.org/review/claim-brian-hooker-unvaccinated-children-healthier-compared-vaccinated-children-flawed-studies/ Science] [https://science.feedback.org/evidence-refuting-false-claim-vaccines-cause-autism/ Feedback] [https://science.feedback.org/how-we-know-vaccines-do-not-cause-autism-why-this-belief-persists/ reviews] shared evidence from numerous large-scale studies investigating a potential association between childhood vaccination and autism. None of these studies found an association between the two. The absence of this association provides strong evidence against the hypothesis that childhood vaccination is causally linked to autism.
+
+Nevertheless, in its quest to address this “legitimate question”, the analysis drew on a database of Florida Medicaid records for children born between 1 January 1999 and 31 December 2002. Data collected spanned the time of a child’s birth up until they were nine years old.
+
+The analysis determined the vaccination status of the children using Medicaid billing codes. Children that fell within the vaccinated group were defined as those whose records contained at least one vaccination-related billing code. Conversely, children whose medical records didn’t contain a vaccination-related billing code fell within the unvaccinated group.
+
+To identify children with neurodevelopmental disorders (NDD), such as [https://www.nimh.nih.gov/health/topics/autism-spectrum-disorders-asd autism spectrum disorder], the analysis also used billing codes related to the diagnosis of NDDs. However, the analysis counted diagnoses of NDDs only if the diagnosis took place between the ages of five and nine.
+
+The authors then sought to determine if there was an association between vaccination status and an NDD diagnosis based on this data. And they did find that children in the vaccinated group were more likely to be diagnosed with an NDD. They also found that the greater the number of medical visits with at least one billing code related to vaccination, the greater the likelihood of an NDD diagnosis.
+
+Finding these associations led the authors to conclude that their analysis raised “concerns about the safety of the current vaccination schedule and its possible contribution to rising rates of neurodevelopmental disorders”.
+
+<span id="multiple-red-flags-call-into-question-the-reliability-of-the-analysis"></span>
+==== Multiple red flags call into question the reliability of the analysis ====
+
+[https://www.uab.edu/soph/home/about/people/faculty/hidalgo-bertha Bertha Hidalgo], an epidemiologist and associate professor at the University of Alabama at Birmingham, [https://theunbiasedscipod.substack.com/p/anatomy-of-a-failure-why-this-latest spoke to the Unbiased Science Podcast] about several issues with the analysis. This review sums up a few of the key issues highlighted by Hidalgo; readers who wish for a detailed and comprehensive breakdown can read the podcast’s article on Substack.
+
+Firstly, the analysis didn’t account for important [https://www.understandinghealthresearch.org/useful-information/confounders-17 confounding factors], one of which is healthcare utilization bias:
+
+<blockquote>''“Children who receive vaccinations typically have more frequent medical visits, naturally increasing their likelihood of receiving developmental screenings and subsequent diagnoses. Conversely, unvaccinated children often have less healthcare engagement, potentially leading to underdiagnosis.”''
+</blockquote>
+The same flaw was also highlighted by pediatric cardiologist [https://www.connecticutchildrens.org/doctors/frank-han-md-faap Frank Han], who [https://perma.cc/6B2H-4SV8 noted] that NDDs often require multiple clinic visits to be diagnosed correctly. Experts note that one of the difficulties in diagnosing ASD stems from [https://pmc.ncbi.nlm.nih.gov/articles/PMC9923897/ the heterogeneity of the condition], that is, diversity in the way the condition manifests between individuals and the severity of the symptoms<sup>[1]</sup>. Another obstacle to diagnosis is that symptoms of ASD can [https://health.clevelandclinic.org/early-signs-of-autism-in-children overlap with symptoms of other conditions].
+
+This means that children who get vaccinated are more likely to go to the doctor. At the same time, children who go to the doctor more often are also more likely to be diagnosed with an NDD, if one is present. Thus the analysis’ finding that vaccinated children are more likely to have an NDD is potentially due to the fact that the two groups—vaccinated children and children with NDDs—have in common a greater frequency of healthcare utilization, rather than because vaccines are causally linked to NDDs.
+
+Secondly, the analysis’ reliance solely on Medicaid billing codes for determining the vaccination status of a child introduces additional room for error. [https://www.cdc.gov/nchs/hus/sources-definitions/medicaid.htm Medicaid] is a program that provides medical and health-related services to low-income groups in the U.S. Children can receive vaccinations through Medicaid, but they can also be vaccinated through other programs ''outside of Medicaid'', such as the Vaccines for Children (VFC) program. Per [https://web.archive.org/web/20250128040353/https://www.cdc.gov/vaccines-for-children/about/index.html the U.S. Centers for Disease Control and Prevention]:
+
+<blockquote>''“The goal of the VFC Program is to ensure that a VFC Program-eligible child does not contract a vaccine-preventable disease because of their parent or guardian’s inability to pay for the vaccine.”''
+</blockquote>
+However, vaccinations outside of the Medicaid program aren’t billed to Medicaid. This means that children who were vaccinated through another program like VFC could very well be incorrectly categorized as unvaccinated in the analysis, since their records wouldn’t contain a vaccination-related Medicaid billing code.
+
+The analysis’ Discussion section indicates that the authors were aware of this drawback. They also noted that “the rate of unvaccinated children in this sample is high compared to other groups and national averages”. One explanation for this observation is that many children who were classified as unvaccinated in the analysis were actually vaccinated. However, the authors didn’t mention additional steps they took to mitigate the potential bias posed by incorrect classification, such as verifying vaccination status through more comprehensive medical records.
+
+Thirdly, the authors’ decision to only include NDD diagnoses between the ages of five and nine years would lead the authors to miss early diagnoses, as “[a]utism is typically diagnosed between ages 2-4”, Hidalgo said. This raises the question of whether including early diagnoses may have changed the associations that the authors observed between vaccination status and NDD diagnosis.
+
+Overall, the analysis contains several methodological weaknesses that call into question the reliability of its findings.
+
+Finally, the analysis was funded by the [https://www.respectfulinsolence.com/2020/09/28/fisher-using-covid-19-to-spread-fear-about-all-vaccines/ National Vaccine Information Center] (NVIC) and its publication costs were also partially funded by NVIC and the [https://sciencebasedmedicine.org/study-laundering-ipak-antivax-scientists-and-the-return-of-living-dead-antivax-studies/ Institute for Pure and Applied Knowledge] (known as IPAK). Both groups are known for their opposition to vaccines and IPAK was founded by Lyons-Weiler, the same individual who created the publication that Mawson’s analysis was published in. <span>As such, the analysis may involve a potential conflict of interest that readers should be aware of.</span>
+
+<span id="conclusion"></span>
+==== Conclusion ====
+
+There have been several analyses claiming to find that childhood vaccines are causally associated with neurodevelopmental disorders and poorer health. But these haven’t stood up to scrutiny, as a closer examination of these analyses turn up multiple methodological flaws. As this review shows, the latest analysis by Mawson is no different.
+
+The claim that childhood vaccines cause ASD was first propagated thanks to a study that eventually proved to be fraudulent. Numerous epidemiological studies that looked at large cohorts found no association between childhood vaccination and ASD, thereby refuting claims of a causal link between the two.
+
+<span id="references"></span>
+==== REFERENCES ====
+
+* <span>1 – Zwaigenbaum </span>''<span>et al.</span>''<span> (2015) </span>[https://pmc.ncbi.nlm.nih.gov/articles/PMC9923897/ Early Identification of Autism Spectrum Disorder: Recommendations for Practice and Research]<span>. Pediatrics.</span>
+
+</div>
+
+</div>
+<div class="wp-block-bsaweb-blocks-grid-item col-4@md">
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="section wp-block-group alignfull padding-bottom-md padding-bottom-3-xl@lg is-layout-flow wp-block-group-is-layout-flow" style="margin-top:0">
+
+<div class="wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-1a06de04 wp-block-group-is-layout-constrained">
+
+<span id="related-articles"></span>
+== Related Articles ==
+
+<div class="wp-block-query is-layout-flow wp-block-query-is-layout-flow">
+
+<div class="fractal-post-template js-fractal-post-template fractal-post-template--grid columns-3 wp-block-fractal-blocks-post-template">
+
+<ul>
+<li>[https://science.feedback.org/infectious-disease-outbreaks-magnet-conspiracy-theories/ ]
+<div class="figure story__img">
+
+([https://science.feedback.org/review/flawed-analysis-florida-medicaid-data-promote-false-claim-vaccines-cause-autism/ Media content: view on original URL]) Social media posts containing conspiratorial narratives about COVID-19, hantavirus, and Ebola.
+
+</div>
+<div class="story__content">
+
+<div class="story__meta flex justify-between gap-md text-xs margin-block-end-xs">
+
+<ul>
+<li><span class="story__term color-primary has-exo-2-font-family text-uppercase letter-spacing-md">''Health''</span></li></ul>
+
+<span class="story__posted-on margin-inline-start-auto"><span class="sr-only">Posted on: </span> 2026-06-02</span>
+
+</div>
+<span id="infectious-disease-outbreaks-a-magnet-for-conspiracy-theories"></span>
+== [https://science.feedback.org/infectious-disease-outbreaks-magnet-conspiracy-theories/ Infectious disease outbreaks: a magnet for conspiracy theories] ==
+
+<div class="story__excerpt text-sm margin-block-start-sm">
+
+<p>Highly mediatized disease outbreaks like COVID-19 and hantavirus are invariably plagued by conspiracy theories alleging that they are a hoax or planned. Why are these conspiracy theories so appealing and what makes people vulnerable to them? We discuss these topics in detail in this Insight article.</p>
+
+</div>
+
+</div></li>
+<li>[https://science.feedback.org/hantavirus-outbreak-reignites-covid-misinformation-tropes/ ]
+<div class="figure story__img">
+
+([https://science.feedback.org/review/flawed-analysis-florida-medicaid-data-promote-false-claim-vaccines-cause-autism/ Media content: view on original URL]) Image collage showing social media posts containing hantavirus misinformation.
+
+</div>
+<div class="story__content">
+
+<div class="story__meta flex justify-between gap-md text-xs margin-block-end-xs">
+
+<ul>
+<li><span class="story__term color-primary has-exo-2-font-family text-uppercase letter-spacing-md">''Health''</span></li></ul>
+
+<span class="story__posted-on margin-inline-start-auto"><span class="sr-only">Posted on: </span> 2026-05-13</span>
+
+</div>
+<span id="hantavirus-outbreak-reignites-covid-misinformation-tropes"></span>
+== [https://science.feedback.org/hantavirus-outbreak-reignites-covid-misinformation-tropes/ Hantavirus outbreak reignites COVID misinformation tropes] ==
+
+<div class="story__excerpt text-sm margin-block-start-sm">
+
+<p>The MV Hondius hantavirus outbreak triggered a wave of conspiracy theories and misinformation about ivermectin and vaccines, which were popular during the pandemic.</p>
+
+</div>
+
+</div></li>
+<li>[https://science.feedback.org/review/german-placenta-study-didnt-show-covid-mrna-vaccines-harmful/ ]
+<div class="figure story__img">
+
+([https://science.feedback.org/review/flawed-analysis-florida-medicaid-data-promote-false-claim-vaccines-cause-autism/ Media content: view on original URL]) Nicolas Hulscher COVID vaccine placenta spike protein <span class="story__img-score-alert" aria-hidden="true"> </span>
+<div class="story__img-overlay" style="--verdict-bg-color: #95190C;">
+
+</div>
+
+</div>
+<div class="story__labels grid justify-end gap-2-xs">
+
+<div class="col-content">
+
+<span class="sfc-term-color--red story__label badge badge--primary text-xs width-100% letter-spacing-md" style="background-color: var(--wp--custom--color--contrast-high); color: var(--wp--custom--color--white)">Inaccurate</span>
+
+</div>
+
+</div>
+<div class="story__content">
+
+<div class="story__meta flex justify-between gap-md text-xs margin-block-end-xs">
+
+<ul>
+<li><span class="story__term color-primary has-exo-2-font-family text-uppercase letter-spacing-md">''Health''</span></li></ul>
+
+<span class="story__posted-on margin-inline-start-auto"><span class="sr-only">Posted on: </span> 2026-03-13</span>
+
+</div>
+<span id="german-placenta-study-didnt-show-covid-19-mrna-vaccines-are-harmful"></span>
+== [https://science.feedback.org/review/german-placenta-study-didnt-show-covid-mrna-vaccines-harmful/ German placenta study didn’t show COVID-19 mRNA vaccines are harmful] ==
+
+<div class="sfc-review-reviewed-content reviewed-content js-reviewed-content grid gap-sm story__reviewed-content has-grey-1-color text-xs margin-block-start-sm reviewed-content--verdict-color-red">
+
+<div class="reviewed-content__row flex gap-sm">
+
+<p>Claim:</p>
+<div class="figure reviewed-content__figure grid gap-sm">
+
+<blockquote><p>Vaccine-derived spike protein is harmful, its presence in placenta linked to rise in infant mortality</p></blockquote>
+
+</div>
+
+</div>
+
+</div>
+
+</div></li></ul>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div hidden="" wpu-integrity="c4879f4e698b7b6932923077a78898fa">
+
+</div>

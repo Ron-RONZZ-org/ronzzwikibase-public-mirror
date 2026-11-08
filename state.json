@@ -5022,6 +5022,18 @@
       "sha256": "0311d90e243f3be68c13d2082783458de88a2149eb53d4dd209d37db3d2db9bd",
       "synced_at": "2026-10-31T12:24:53+00:00"
     },
+    "Source:Flawed analysis of Florida Medicaid data used to promote false claim that vaccines cause autism - Science Feedback (Webpage)": {
+      "path": "Source/Flawed analysis of Florida Medicaid data used to promote false claim that vaccines cause autism - Science Feedback (Webpage).wiki",
+      "revid": 14271,
+      "sha256": "64fab483fb1c4cb909c4c446f4c86eae52be9aaa66349a21dec689025ca09c9e",
+      "synced_at": "2026-11-08T05:35:46+00:00"
+    },
+    "Source:Flawed analysis of Florida Medicaid data used to promote false claim that vaccines cause autism - Science Feedback (Webpage)/archivedText": {
+      "path": "Source/Flawed analysis of Florida Medicaid data used to promote false claim that vaccines cause autism - Science Feedback (Webpage)/archivedText.wiki",
+      "revid": 14270,
+      "sha256": "47052bddbdf826b916292e1444dddac7157c9385ad0eed33be3b6defb1af49bc",
+      "synced_at": "2026-11-08T05:35:46+00:00"
+    },
     "Source:Fondation pour la memoire de l'esclavage (Website)": {
       "path": "Source/Fondation pour la memoire de l'esclavage (Website).wiki",
       "revid": 8883,
@@ -6559,6 +6571,6 @@
       "synced_at": "2026-11-07T15:19:42+00:00"
     }
   },
-  "updated": "2026-11-08T05:20:04+00:00",
+  "updated": "2026-11-08T05:35:46+00:00",
   "version": 1
 }
