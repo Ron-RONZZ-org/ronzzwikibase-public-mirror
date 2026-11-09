@@ -338,9 +338,9 @@
     },
     "Cognitive overload": {
       "path": "Main/Cognitive overload.wiki",
-      "revid": 14729,
-      "sha256": "fc26ceda90bf42d151c314537bb07fcf4f6df4aae1516e78eb624aee91bad62e",
-      "synced_at": "2026-11-09T11:19:32+00:00"
+      "revid": 14733,
+      "sha256": "002c50f7a3e704f7648521a8beb7a22933ac2594aa0c28661c0eb3937f23dbb0",
+      "synced_at": "2026-11-09T11:35:57+00:00"
     },
     "Cold Big Bang": {
       "path": "Main/Cold Big Bang.wiki",
@@ -7037,8 +7037,14 @@
       "revid": 13190,
       "sha256": "e4366cf824d4857ac33174a3f749dafc15a05ac442d7f8830c9141f3d9cc844c",
       "synced_at": "2026-11-07T15:19:42+00:00"
+    },
+    "Working memory": {
+      "path": "Main/Working memory.wiki",
+      "revid": 14731,
+      "sha256": "7b1db3dae8062a0e15cc0924416d678b13c952b7e1f6b94f969d441a0c7bf2d6",
+      "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-09T11:19:32+00:00",
+  "updated": "2026-11-09T11:35:57+00:00",
   "version": 1
 }

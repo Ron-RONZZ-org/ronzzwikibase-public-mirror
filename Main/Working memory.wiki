@@ -1,0 +1,11 @@
+[[Category:Psychology]]
+[[File:Critical thinking.png|thumbnail]]
+'''Working memory''' refers to the short-term memory in which a small amount of [[information]] are stored for a short period of time while being processed.
+
+== Human working memory ==
+
+The human working memory is essential to the everyday functioning of human being (e.g., to process sensory information and make decisions) and understanding and learning new concepts.<ref>{{#cite:Q3005}}</ref>
+
+== Computer working memory ==
+
+See [[Random access memory (RAM)]].
