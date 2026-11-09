@@ -1,7 +1,5 @@
 [[Category:Vector space]]
-A '''basis (plural: bases)''' of a vector space is any of its '''linearly independent''' [[vector space generating set]].
-
-If for $B=\{\vec u_1,\dots,\vec u_n\}$:
+A '''basis (plural: bases)''' of a vector space is any of its '''linearly independent''' [[vector space generating set]]. i.e.,
 
 {{#content:Q2144}}
 
