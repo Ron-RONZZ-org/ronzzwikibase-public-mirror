@@ -720,6 +720,12 @@
       "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
       "synced_at": "2026-10-27T09:44:41+00:00"
     },
+    "Collective:IGI Global": {
+      "path": "Collective/IGI Global.wiki",
+      "revid": 14751,
+      "sha256": "d26ed3d70694d875a7648a2c09b31f45c7e346ed6c8ee4fb5ce13b3ac8c2b195",
+      "synced_at": "2026-11-09T11:49:44+00:00"
+    },
     "Collective:Institute of Electrical and Electronics Engineers": {
       "path": "Collective/Institute of Electrical and Electronics Engineers.wiki",
       "revid": 8270,
@@ -3756,6 +3762,12 @@
       "sha256": "c70461841aae02a036ef84472a914008a1b41f3b5bf45a22f6f02e518f4ee4d8",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:Ouhao Chen": {
+      "path": "Person/Ouhao Chen.wiki",
+      "revid": 14739,
+      "sha256": "1a41eccbce3bbb1015e29493740377c3a75da7c5486df19e28e2f337bf64447d",
+      "synced_at": "2026-11-09T11:49:44+00:00"
+    },
     "Person:P. James E. Peebles": {
       "path": "Person/P. James E. Peebles.wiki",
       "revid": 7270,
@@ -4014,6 +4026,12 @@
       "sha256": "68bb38d6839727d4b1b64ea67ac05444364268df2dab23fcb04e336fe79463df",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:Shalin Hai-Jew": {
+      "path": "Person/Shalin Hai-Jew.wiki",
+      "revid": 14747,
+      "sha256": "f87ffa4c0882ed80b6f7212e0b2d3230f72002472b782b0673fc354a7c24787a",
+      "synced_at": "2026-11-09T11:49:44+00:00"
+    },
     "Person:Sheldon Wagner": {
       "path": "Person/Sheldon Wagner.wiki",
       "revid": 14381,
@@ -4025,6 +4043,12 @@
       "revid": 13867,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Slava Kalyuga": {
+      "path": "Person/Slava Kalyuga.wiki",
+      "revid": 14743,
+      "sha256": "1a41eccbce3bbb1015e29493740377c3a75da7c5486df19e28e2f337bf64447d",
+      "synced_at": "2026-11-09T11:49:44+00:00"
     },
     "Person:Solomon Hykes": {
       "path": "Person/Solomon Hykes.wiki",
@@ -5447,6 +5471,12 @@
       "revid": 8883,
       "sha256": "2ec058f873a909ffb0cf385e14b710db31939535a32ae3bb0fd27d24399c3d6f",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:Form, Function, and Style in Instructional Design: Emerging Research and Opportunities (Book)": {
+      "path": "Source/Form, Function, and Style in Instructional Design_ Emerging Research and Opportunities (Book).wiki",
+      "revid": 14755,
+      "sha256": "2f84a612c194b812ae2d75c78c04e49f72c94fe86cf86d6aa7a27e4d376c4d31",
+      "synced_at": "2026-11-09T11:49:44+00:00"
     },
     "Source:Formal representation of human judgement (Scholarly article)": {
       "path": "Source/Formal representation of human judgement (Scholarly article).wiki",
@@ -7045,6 +7075,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-09T11:35:57+00:00",
+  "updated": "2026-11-09T11:49:44+00:00",
   "version": 1
 }

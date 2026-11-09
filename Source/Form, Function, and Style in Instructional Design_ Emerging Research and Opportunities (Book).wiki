@@ -1,0 +1,5 @@
+{{Book}}
+
+== Overview ==
+
+edited volume on instructional design, edited by Shalin Hai-Jew and published by IGI Global
