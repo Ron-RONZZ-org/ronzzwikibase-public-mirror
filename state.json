@@ -696,6 +696,12 @@
       "sha256": "2df9c743166a195d2fd79a65150cadb90258dff008c29f528a8bb4e9f5077525",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Groupe INSA": {
+      "path": "Collective/Groupe INSA.wiki",
+      "revid": 14831,
+      "sha256": "7211e4b983c7034802b04d1b1412b9267a7a92c8dd86e83b678a96e383a3f6bb",
+      "synced_at": "2026-11-09T16:22:38+00:00"
+    },
     "Collective:Guizhou Normal University": {
       "path": "Collective/Guizhou Normal University.wiki",
       "revid": 14778,
@@ -6618,6 +6624,12 @@
       "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
       "synced_at": "2026-10-25T19:10:43+00:00"
     },
+    "Source:TD: Painting robot schema (Document)": {
+      "path": "Source/TD_ Painting robot schema (Document).wiki",
+      "revid": 14836,
+      "sha256": "cfc0a1b54046c3fab435d3a884bc47cd647371d11244ce51615e9ce9ecb24eca",
+      "synced_at": "2026-11-09T16:22:38+00:00"
+    },
     "Source:TED (YouTube channel)": {
       "path": "Source/TED (YouTube channel).wiki",
       "revid": 8932,
@@ -7159,6 +7171,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-09T16:11:40+00:00",
+  "updated": "2026-11-09T16:22:38+00:00",
   "version": 1
 }
