@@ -1,3 +1,4 @@
+[[Category:Vector space]]
 A '''linear map''', also known as a '''linear transformation''', is a [[function]] that maps one [[vector space]] to another, preserving addition and scalar multiplication.
 
 == Formal definition ==

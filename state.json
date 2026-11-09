@@ -2144,9 +2144,9 @@
     },
     "Linear map": {
       "path": "Main/Linear map.wiki",
-      "revid": 11701,
-      "sha256": "bfa40de2576eb931cba383f31e6adb8fd97b617ec95576607d305f5e9cd26b46",
-      "synced_at": "2026-10-29T16:49:54+00:00"
+      "revid": 14665,
+      "sha256": "a6555dadbe7eb646f8c02d7ea9bdd567f5c3dedcc88066520999ee29db3a2d88",
+      "synced_at": "2026-11-09T08:15:21+00:00"
     },
     "Linear system": {
       "path": "Main/Linear system.wiki",
@@ -6894,6 +6894,12 @@
       "sha256": "516e018129bd4247ca087fb855e1d3f89e596c8e4a401cc1046e284aaf323157",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Transition matrix between bases of a vector space": {
+      "path": "Main/Transition matrix between bases of a vector space.wiki",
+      "revid": 14663,
+      "sha256": "bf1d1f070df0bd5d2b225cb040913e67c2c99d911c64d60e73fbf6c90a27bbac",
+      "synced_at": "2026-11-09T08:15:21+00:00"
+    },
     "Triangle inequality": {
       "path": "Main/Triangle inequality.wiki",
       "revid": 10334,
@@ -6944,9 +6950,9 @@
     },
     "Vector space basis": {
       "path": "Main/Vector space basis.wiki",
-      "revid": 14657,
-      "sha256": "c07d9222d753b34ff47153bd5d4dace9443297c58a6a0b331a729e385353a53b",
-      "synced_at": "2026-11-09T07:24:16+00:00"
+      "revid": 14666,
+      "sha256": "f513418424c3330229ba5bf2507c810febf89a80d72c3e06fabfcdeb595d727a",
+      "synced_at": "2026-11-09T08:15:21+00:00"
     },
     "Vector subspace": {
       "path": "Main/Vector subspace.wiki",
@@ -6973,6 +6979,6 @@
       "synced_at": "2026-11-07T15:19:42+00:00"
     }
   },
-  "updated": "2026-11-09T07:35:44+00:00",
+  "updated": "2026-11-09T08:15:21+00:00",
   "version": 1
 }

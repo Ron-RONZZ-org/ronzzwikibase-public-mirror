@@ -1,0 +1,41 @@
+Let $B_1=(\vec u_1,\dots,\vec u_n)$ and $B_2=(\vec v_1,\dots,\vec v_n)$ be [[vector space basis|bases]] of [[vector space]] $V$, and their corresponding [[matrix]] form
+
+$$
+\mathbf{B^1}=\begin{pmatrix}\vec u_1&\cdots&\vec u_n\end{pmatrix},
+\qquad
+\mathbf{B^2}=\begin{pmatrix}\vec v_1&\cdots&\vec v_n\end{pmatrix}.
+$$
+
+Then
+
+$$
+\exists ! \mathbf{P}_{B_2\leftarrow B_1}=\mathbf{B^2}^{-1}\mathbf{B^1} \\
+\Rightarrow 
+\forall \vec x \in V: [\vec x]_{B_2}=\mathbf{P}_{B_2\leftarrow B_1}[\vec x]_{B_1}
+$$
+
+$\mathbf{P}_{B_2\leftarrow B_1}$ is known as the '''transition matrix''' from $B_1$ to $B_2$.
+
+Consequently,
+
+$$
+\mathbf{P}_{B_1\leftarrow B_2}=\mathbf{P}_{B_2\leftarrow B_1}^{-1}=\mathbf{B^1}^{-1}\mathbf{B^2}.
+$$
+
+<blockquote>
+All bases of $V$ have the same dimension $n$.
+</blockquote>
+
+== Equivalent form ==
+
+If
+
+$$
+\forall j \in \{1,\cdots,n\}: \vec u_j=\sum_{i=1}^n p_{ij}\vec v_i,
+$$
+
+then
+
+$$
+\mathbf{P}_{B_2\leftarrow B_1}=(p_{ij})
+$$

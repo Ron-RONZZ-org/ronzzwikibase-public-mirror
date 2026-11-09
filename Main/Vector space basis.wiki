@@ -1,3 +1,4 @@
+[[Category:Vector space]]
 A '''basis (plural: bases)''' of a vector space is any of its '''linearly independent''' [[vector space generating set]].
 
 If for $B=\{\vec u_1,\dots,\vec u_n\}$:
@@ -10,17 +11,4 @@ Intuition: each linearly independent $u_k, k \in \{1,\cdots,n\}$ introduces one 
 
 == Change of basis ==
 
-If $B_1,B_2$ are bases of $V$:
-
-$$\exists \textbf M, \dim(\textbf M)=\dim(V)\times \dim(V), B_2=\textbf MB_1$$
-
-$\textbf M$ is then known as the '''transition matrix''' of basis $B_1$ to $B_2$
-
-<blockquote>
-Trivially,
-$$B_1=\textbf M^{-1}B_2$$
-</blockquote>
-
-<blockquote>
-All bases have the same dimension $n$
-</blockquote>
+See [[transition matrix between bases of a vector space]].
