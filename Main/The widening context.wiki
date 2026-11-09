@@ -1,6 +1,20 @@
+[[Category:Critical thinking]]
 [[File:Servez-vous de ma thèse.jpg|thumbnail|Information is quite readily available in our days, but are you willing to consider all the information accessible to you?]]
 '''The widening context''' refers to the increasing quantity and diversity of information accessible to human beings, as a result of scientific progress, [[globalisation]] and advancements in [[information and communications technology (ICT)]].
 
 == Impact ==
 
+=== [[Intellectual division]] ===
+
 According to ''[[Source:No Limits to Learning (Book)|Botkin et al.]]'', the widening context can be a source of [[intellectual division]]. In modern days, the number of perspectives and facts a human being is willing/capable of considering is only a fraction of what is available to them. [[Individual bias]]es lead the human being to select consciously and differently from other human beings, contributing to different understanding and interpretation of the same issue.<ref>{{#cite:Q2658}}</ref>
+
+=== [[Cognitive overload]] ===
+
+<blockquote>
+{{#content:Q2961}}
+</blockquote>
+
+[[File:The widening context-global info storage.png|thumbnail|500px|The quantity of information humanity stores exploded in the last few decades.]]
+According to estimations by [[Source:The World's Technological Capacity to Store, Communicate, and Compute Information (Scholarly article)|name-author]] and [[Source:Amount of Data Created Daily (2024) (Webpage)|name-author]], the amount of data stored globally has increased from $2.95 \cdot 10^{20} B$ in 2007 to $1.8 \cdot 10^{23} B$ in 2025, representing a 60000% growth over less than 2 decades.<ref>{{#cite:Q2969}}</ref>
+
+The amount of information contained in these data has far exceeded the cognitive capacity of any individual. The wealth of information of different quality and format available makes filtering out the noise and focus on relevant and reliable sources a increasing challenge, causing a possible [[cognitive overload]], hampering one's ability to process and make sense of available information.

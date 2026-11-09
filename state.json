@@ -720,6 +720,12 @@
       "sha256": "7af937a36c626378cc557a9b84151006a9ef939917552705331612220d683f93",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Instructional Science": {
+      "path": "Collective/Instructional Science.wiki",
+      "revid": 14716,
+      "sha256": "a14fda724ab5fb43d543342cb973fa021490c4ebf93cd02677cdefb41322b20f",
+      "synced_at": "2026-11-09T11:09:37+00:00"
+    },
     "Collective:International Bureau of Weights and Measures": {
       "path": "Collective/International Bureau of Weights and Measures.wiki",
       "revid": 10798,
@@ -1085,6 +1091,12 @@
       "revid": 13878,
       "sha256": "78cd2bbe247d2e4cd93bc1e229554adaf827ce6b5298478eb99cc4733556b478",
       "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Collective:Springer Science+Business Media": {
+      "path": "Collective/Springer Science+Business Media.wiki",
+      "revid": 14724,
+      "sha256": "9877de3b4f235704b305e2ced986a5e3cafc9cb7b680ddcf3e278e8e66da021e",
+      "synced_at": "2026-11-09T11:09:37+00:00"
     },
     "Collective:The Astronomical Journal": {
       "path": "Collective/The Astronomical Journal.wiki",
@@ -4110,6 +4122,12 @@
       "sha256": "727736d410a5e88e55d1acbc832abdda09159f3080430c45c7c215d4bf16e153",
       "synced_at": "2026-11-08T21:19:45+00:00"
     },
+    "Person:Ton de Jong": {
+      "path": "Person/Ton de Jong.wiki",
+      "revid": 14720,
+      "sha256": "c8a49a5b56e916c6dc5990c34ac5df9e1736550e1aecc6f11b1a344c9f81eb60",
+      "synced_at": "2026-11-09T11:09:37+00:00"
+    },
     "Person:Toni Morrison": {
       "path": "Person/Toni Morrison.wiki",
       "revid": 8737,
@@ -5189,6 +5207,12 @@
       "revid": 6628,
       "sha256": "2719d16c2b4abf592979ce7fb1e5ef368443027045a13b277290c5854004890d",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:Cognitive load theory, educational research, and instructional design: some food for thought (Scholarly article)": {
+      "path": "Source/Cognitive load theory, educational research, and instructional design_ some food for thought (Scholarly article).wiki",
+      "revid": 14728,
+      "sha256": "382c64bf0bffe4eb0635159a2420d09c7d3ea6b697a1aa3f74ac357b69037d1d",
+      "synced_at": "2026-11-09T11:09:37+00:00"
     },
     "Source:Collaborative Robot (Webpage)": {
       "path": "Source/Collaborative Robot (Webpage).wiki",
@@ -6896,9 +6920,9 @@
     },
     "The widening context": {
       "path": "Main/The widening context.wiki",
-      "revid": 13198,
-      "sha256": "f939a02eebeba0f71eb73f01d303119a436ad8b2880f9cc4287bf762e8095ed8",
-      "synced_at": "2026-11-07T15:35:26+00:00"
+      "revid": 14712,
+      "sha256": "22c1efba3556d40c0c47c4e6c57aeb6371a1bda1ef53a7d0fe4c08b868b59fbd",
+      "synced_at": "2026-11-09T11:09:37+00:00"
     },
     "Think tank": {
       "path": "Main/Think tank.wiki",
@@ -7009,6 +7033,6 @@
       "synced_at": "2026-11-07T15:19:42+00:00"
     }
   },
-  "updated": "2026-11-09T10:36:03+00:00",
+  "updated": "2026-11-09T11:09:37+00:00",
   "version": 1
 }
