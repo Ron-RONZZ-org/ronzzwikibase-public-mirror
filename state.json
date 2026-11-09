@@ -696,6 +696,12 @@
       "sha256": "2df9c743166a195d2fd79a65150cadb90258dff008c29f528a8bb4e9f5077525",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Guizhou Normal University": {
+      "path": "Collective/Guizhou Normal University.wiki",
+      "revid": 14778,
+      "sha256": "61026be6619593fbba66e5cc84f0642d95c6386e25c1cba5a159f015638e796a",
+      "synced_at": "2026-11-09T16:11:40+00:00"
+    },
     "Collective:Harris Benson, Marc Ségun, Mathieu Lachance, Bernard Marcheterre, Benoit Villeneuve": {
       "path": "Collective/Harris Benson, Marc Ségun, Mathieu Lachance, Bernard Marcheterre, Benoit Villeneuve.wiki",
       "revid": 8662,
@@ -1032,6 +1038,12 @@
       "sha256": "0883496604c508e8ad589be7e1e7d089d21849553374ff1c5b4db4fda8a789ca",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Psychophysiology": {
+      "path": "Collective/Psychophysiology.wiki",
+      "revid": 14774,
+      "sha256": "14ad77a80e4874945ff7300807fcd997797073a3a6a973f8e117f7e51432d8cf",
+      "synced_at": "2026-11-09T16:11:40+00:00"
+    },
     "Collective:Reviews of Modern Physics": {
       "path": "Collective/Reviews of Modern Physics.wiki",
       "revid": 7111,
@@ -1091,6 +1103,18 @@
       "revid": 13264,
       "sha256": "2b5b5e5c976f40d8284b05582b68522943201d406f630a00de05bef3802b3d74",
       "synced_at": "2026-11-07T17:08:07+00:00"
+    },
+    "Collective:Shanxi Normal University": {
+      "path": "Collective/Shanxi Normal University.wiki",
+      "revid": 14782,
+      "sha256": "9fd10cedf3ba5b08654228dee94235d3c197ed6fff7a3addbe1bf663badd3eaa",
+      "synced_at": "2026-11-09T16:11:40+00:00"
+    },
+    "Collective:Shenzhen University": {
+      "path": "Collective/Shenzhen University.wiki",
+      "revid": 14790,
+      "sha256": "84dd8cc855c6a04c6c06eb61995757f64fa4d5f30088822d949fff72a3bc6d9b",
+      "synced_at": "2026-11-09T16:11:40+00:00"
     },
     "Collective:Shinkichi Sugimori, Satoshi Watanabe": {
       "path": "Collective/Shinkichi Sugimori, Satoshi Watanabe.wiki",
@@ -1289,6 +1313,12 @@
       "revid": 1731,
       "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Collective:Zhejiang Normal University": {
+      "path": "Collective/Zhejiang Normal University.wiki",
+      "revid": 14786,
+      "sha256": "24d8d6bc2c6efd4d9de6bdec8a7ac1febadfbeac0dd33c9873f6925603bc287f",
+      "synced_at": "2026-11-09T16:11:40+00:00"
     },
     "Collective:Éditions Grasset": {
       "path": "Collective/Éditions Grasset.wiki",
@@ -3018,6 +3048,12 @@
       "sha256": "63550ac06c9ecdfedc35a2665679e17c7a0ebe6816a9cb295348ae42a947a2cf",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Feng Xiao": {
+      "path": "Person/Feng Xiao.wiki",
+      "revid": 14794,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-09T16:11:40+00:00"
+    },
     "Person:Ferdinand Georg Frobenius": {
       "path": "Person/Ferdinand Georg Frobenius.wiki",
       "revid": 7319,
@@ -3432,6 +3468,12 @@
       "sha256": "4a1d18d0019970c735aeae8f1f050d65362234439a73bfffdefd3dc2ed652276",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:Kun Liang": {
+      "path": "Person/Kun Liang.wiki",
+      "revid": 14806,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-09T16:11:40+00:00"
+    },
     "Person:Lawrence Widrow": {
       "path": "Person/Lawrence Widrow.wiki",
       "revid": 7095,
@@ -3678,6 +3720,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
     },
+    "Person:Na Xiao": {
+      "path": "Person/Na Xiao.wiki",
+      "revid": 14802,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-09T16:11:40+00:00"
+    },
     "Person:Natalie Ivanova": {
       "path": "Person/Natalie Ivanova.wiki",
       "revid": 6546,
@@ -3857,6 +3905,12 @@
       "revid": 14561,
       "sha256": "18e5359e294ac0cf5e37236221d406c0c626eea45d4e5e4a8334f4b2c192204e",
       "synced_at": "2026-11-08T15:49:41+00:00"
+    },
+    "Person:Qingfei Chen": {
+      "path": "Person/Qingfei Chen.wiki",
+      "revid": 14818,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-09T16:11:40+00:00"
     },
     "Person:Ralph Asher Alpher": {
       "path": "Person/Ralph Asher Alpher.wiki",
@@ -4128,6 +4182,12 @@
       "sha256": "e59595d699f028aead97163bcfbb816915fb1a34c9ce29cb135f291cc998e0b6",
       "synced_at": "2026-10-25T15:26:48+00:00"
     },
+    "Person:Tie Sun": {
+      "path": "Person/Tie Sun.wiki",
+      "revid": 14814,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-09T16:11:40+00:00"
+    },
     "Person:Tim Starling": {
       "path": "Person/Tim Starling.wiki",
       "revid": 6345,
@@ -4242,11 +4302,23 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
     },
+    "Person:Xiuchen Zheng": {
+      "path": "Person/Xiuchen Zheng.wiki",
+      "revid": 14798,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-09T16:11:40+00:00"
+    },
     "Person:Yanmei Tie": {
       "path": "Person/Yanmei Tie.wiki",
       "revid": 14016,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Yu Luo": {
+      "path": "Person/Yu Luo.wiki",
+      "revid": 14810,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-09T16:11:40+00:00"
     },
     "Person:Zoe Mailloux": {
       "path": "Person/Zoe Mailloux.wiki",
@@ -6180,6 +6252,12 @@
       "sha256": "0e9d478053858ceb8e0c2e4c0bad3fcc4901f481c94e999a7b17968b25d443eb",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Neural Mechanisms Underlying Intrinsic and Extraneous Cognitive Loads in Numerical Inductive Reasoning (Scholarly article)": {
+      "path": "Source/Neural Mechanisms Underlying Intrinsic and Extraneous Cognitive Loads in Numerical Inductive Reasoning (Scholarly article).wiki",
+      "revid": 14822,
+      "sha256": "70a39aeaec5aab738c990178d29761c7926509aeafd681f8d764587b8e1f4d7e",
+      "synced_at": "2026-11-09T16:11:40+00:00"
+    },
     "Source:News, Politics, Entertainment & Lifestyle: HuffPost UK (Website)": {
       "path": "Source/News, Politics, Entertainment & Lifestyle_ HuffPost UK (Website).wiki",
       "revid": 8953,
@@ -7081,6 +7159,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-09T13:11:08+00:00",
+  "updated": "2026-11-09T16:11:40+00:00",
   "version": 1
 }
