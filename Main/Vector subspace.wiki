@@ -1,7 +1,4 @@
-Let $V$ be a vector space over $\mathbb{F}$.
-
-If:
-
+[[Category:Vector space]]
 {{#content:Q2002}}
 
 == Intersection and union ==
@@ -37,9 +34,4 @@ for $U=\{u_1,\cdots, u_n\} \in V$.
 
 == Supplementary subspaces ==
 
-For vector subspaces $F,G$ $\in V$, if
-
-* $F+G=V$, and
-* $F \cap G = \{ \vec 0_V \}$
-
-Then $F,G$ are '''supplementary vector subspaces''' of $V$, denoted by $V=F \oplus G$
+See [[supplementary vector subspaces]].

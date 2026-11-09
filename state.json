@@ -6834,6 +6834,12 @@
       "sha256": "2259286b43b03d3ffbf8939c8403a5bb4840ea9717f9e9f7a9395415aadef21a",
       "synced_at": "2026-10-31T19:35:59+00:00"
     },
+    "Supplementary vector subspaces": {
+      "path": "Main/Supplementary vector subspaces.wiki",
+      "revid": 14681,
+      "sha256": "d44d3f30ba323b71652453dcdd1b1dd0f2c707e3b1f9735eba3a702f52c4b71e",
+      "synced_at": "2026-11-09T08:39:11+00:00"
+    },
     "Supremum and infimum": {
       "path": "Main/Supremum and infimum.wiki",
       "revid": 11292,
@@ -6962,9 +6968,9 @@
     },
     "Vector subspace": {
       "path": "Main/Vector subspace.wiki",
-      "revid": 14660,
-      "sha256": "7b2923ca8d073bffd9ac944149c5cdf098aae86d5c356e122de7400a03acdb7f",
-      "synced_at": "2026-11-09T07:35:44+00:00"
+      "revid": 14678,
+      "sha256": "2979d776b35714edfab5c893bf439eb1f3844596eb0afa0f43be263333a2e5e3",
+      "synced_at": "2026-11-09T08:39:11+00:00"
     },
     "Vector triple product": {
       "path": "Main/Vector triple product.wiki",
@@ -6985,6 +6991,6 @@
       "synced_at": "2026-11-07T15:19:42+00:00"
     }
   },
-  "updated": "2026-11-09T08:30:03+00:00",
+  "updated": "2026-11-09T08:39:11+00:00",
   "version": 1
 }
