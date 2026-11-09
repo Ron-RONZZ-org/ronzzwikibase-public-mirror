@@ -6210,6 +6210,12 @@
       "sha256": "1d4458ce24c3b127f8b97662c1617b40ed9f04466e9873ad0cac7a5fb35a2800",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Normalised mechanical joint graphs (French) (Document)": {
+      "path": "Source/Normalised mechanical joint graphs (French) (Document).wiki",
+      "revid": 14770,
+      "sha256": "cfc0a1b54046c3fab435d3a884bc47cd647371d11244ce51615e9ce9ecb24eca",
+      "synced_at": "2026-11-09T13:11:08+00:00"
+    },
     "Source:Nuclear Power for Everybody - What is Nuclear Power (Website)": {
       "path": "Source/Nuclear Power for Everybody - What is Nuclear Power (Website).wiki",
       "revid": 7928,
@@ -7075,6 +7081,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-09T11:49:44+00:00",
+  "updated": "2026-11-09T13:11:08+00:00",
   "version": 1
 }
