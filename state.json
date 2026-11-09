@@ -1754,9 +1754,9 @@
     },
     "Function": {
       "path": "Main/Function.wiki",
-      "revid": 10555,
-      "sha256": "20c38dddedefc5db542504cb22d5ada4bf1db1630389a67aca9bcb6167fa89fb",
-      "synced_at": "2026-10-18T18:15:41+00:00"
+      "revid": 14701,
+      "sha256": "bdf6a454727370c1f86cb2a112ce0dc0ae635278bc6ffb0b86e8548e726fb4fc",
+      "synced_at": "2026-11-09T09:36:53+00:00"
     },
     "Function sequence": {
       "path": "Main/Function sequence.wiki",
@@ -1974,6 +1974,12 @@
       "sha256": "fdc4afcba485e34f81981724adedb3e3b3c94a987327f514bb214200f0506fd3",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Image and preimage of a function": {
+      "path": "Main/Image and preimage of a function.wiki",
+      "revid": 14697,
+      "sha256": "e478489cc3ab240751cda983d202ca80d6aaa0ded08926d905134bf808781605",
+      "synced_at": "2026-11-09T09:36:53+00:00"
+    },
     "Imaginary number": {
       "path": "Main/Imaginary number.wiki",
       "revid": 10916,
@@ -2063,6 +2069,12 @@
       "revid": 11703,
       "sha256": "eee061450945be38e608a4a9222eb945cecbf30dc8a83454ddc472baf8cf32fe",
       "synced_at": "2026-10-29T17:10:54+00:00"
+    },
+    "Kernel pair of a function": {
+      "path": "Main/Kernel pair of a function.wiki",
+      "revid": 14708,
+      "sha256": "9c4c2b1da027726e7b099c6307b543b7f96881f92ea6d991b08a1c64f2005657",
+      "synced_at": "2026-11-09T09:36:53+00:00"
     },
     "Kronecker delta function": {
       "path": "Main/Kronecker delta function.wiki",
@@ -6997,6 +7009,6 @@
       "synced_at": "2026-11-07T15:19:42+00:00"
     }
   },
-  "updated": "2026-11-09T09:13:54+00:00",
+  "updated": "2026-11-09T09:36:53+00:00",
   "version": 1
 }

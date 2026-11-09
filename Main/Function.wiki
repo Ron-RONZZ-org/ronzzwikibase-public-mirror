@@ -1,3 +1,4 @@
+[[Category:Function]]
 A '''function''' is a many(one)-to-one map between two [[set|sets]]. 
 
 == Formal definition ==
@@ -54,17 +55,11 @@ Note the range $R_f \subset \mathbb{R}$, as $\exists y \in \mathbb{R}: y \notin 
 
 == Image and preimage ==
 
-Given function $f: A \to B$
+See [[image and preimage of a function]].
 
-If for $A_1 \subseteq A, B_1 \subseteq B$,
+== Kernel pair ==
 
-$$
-B_1=f(A_1)=\{f(a)|\forall a \in A_1\}
-$$
-
-Then $B_1$ is known as the '''image''' of $A_1$ in $B$ under $f$, and $A_1$ is known as the '''pre-image''' of $B_1$ under $f$, noted $f^{\leftarrow}(B_1)=A_1$
-
-<ref>{{#cite:Q2199}}</ref>
+See [[kernel pair of a function]].
 
 == Composition ==
 
