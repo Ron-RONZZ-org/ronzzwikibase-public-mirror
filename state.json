@@ -336,6 +336,12 @@
       "sha256": "e374617aab5292c70770250868b2a706dfdf430616da0f3a3cd03bcfdd142961",
       "synced_at": "2026-11-05T08:49:52+00:00"
     },
+    "Cognitive load theory (CLT)": {
+      "path": "Main/Cognitive load theory (CLT).wiki",
+      "revid": 14853,
+      "sha256": "84877d7179277ea5b68614f9292a15bd5fcee9f69028126774df2e1d7d9d5bd8",
+      "synced_at": "2026-11-09T20:49:31+00:00"
+    },
     "Cognitive overload": {
       "path": "Main/Cognitive overload.wiki",
       "revid": 14733,
@@ -7171,6 +7177,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-09T16:22:38+00:00",
+  "updated": "2026-11-09T20:49:31+00:00",
   "version": 1
 }

@@ -1,0 +1,41 @@
+[[Category:Educational psychology]]
+'''Cognitive load theory (CLT)''' is a theory in [[educational psychology]] describing the impacts of various learning tasks, notably the act of processing information, on the cognitive performance of learners and thereby the learning result.
+
+== Types ==
+
+[[Source:Cognitive load theory, educational research, and instructional design: some food for thought (Scholarly article)|name-author]] recognises 3 types of cognitive loads:<ref>{{#cite:Q3005}}</ref>
+
+* Intrinsic load: related to the inherent difficulty of subject
+** i.e., effort required to make sense of concepts
+** modelled by [[relational complexity theory]]<ref>{{#cite:Q3028}}</ref>
+* Extraneous load: related to material and method
+** i.e., effort required to understand a particular presentation of a subject
+** filter irrelevant information > strategic semantic understanding<ref>{{#cite:Q3028}}</ref>
+* Germane load: related to mental schema construction activities
+** i.e., effort required for drawing mental ontological connection to other subjects and internalise new concepts
+
+== Physiological underlying ==
+
+[[File:Cognitive load EEG results.png|thumbnail|500px]]
+[[File:ANOVA result cognitive load.png|thumbnail|500px]]
+According to results from [[Source:Neural Mechanisms Underlying Intrinsic and Extraneous Cognitive Loads in Numerical Inductive Reasoning (Scholarly article)|name-author]]:
+
+'''Intrinsic cognitive load''' solicits 
+
+* N200: pattern detection
+* LPC: [[working memory]] updating
+* LNC: relational integration
+
+'''Extraneous cognitive load''' solicits
+
+* P200: Attentional allocation to task-irrelevant stimuli
+
+'''Extraneous+intrinsic cognitive loads''' solicits
+
+* N400: strategic semantic processing
+
+<ref>{{#cite:Q3028}}</ref>
+
+== Limitations ==
+
+Cognitive load theory is a conceptual model of human learning useful for learning design. However, the distinction and underlying physiological responses to different cognitive loads have not yet been fully understood.<ref>{{#cite:Q3005}}</ref>
