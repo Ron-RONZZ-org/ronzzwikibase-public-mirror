@@ -144,6 +144,12 @@
       "sha256": "ea40bcc7b36a9d6b73b1923925d1dd6aeeef9eefdd84a296f92cf867e937a273",
       "synced_at": "2026-11-03T08:13:38+00:00"
     },
+    "Canonical basis": {
+      "path": "Main/Canonical basis.wiki",
+      "revid": 14683,
+      "sha256": "0d9a5bc929c06afca9b6bf47a117e2d3940d86d6d46dca7cdde83637c79f6808",
+      "synced_at": "2026-11-09T08:49:55+00:00"
+    },
     "Cantor pairing function": {
       "path": "Main/Cantor pairing function.wiki",
       "revid": 11576,
@@ -6991,6 +6997,6 @@
       "synced_at": "2026-11-07T15:19:42+00:00"
     }
   },
-  "updated": "2026-11-09T08:39:11+00:00",
+  "updated": "2026-11-09T08:49:55+00:00",
   "version": 1
 }
