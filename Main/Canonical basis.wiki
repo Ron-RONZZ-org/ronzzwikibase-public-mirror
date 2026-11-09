@@ -1,3 +1,4 @@
+[[Category:Vector space basis]]
 A '''canonical basis''' (or '''standard basis''') is a [[vector space basis]] conventionally determined by the definition of a given [[vector space]] for convenience.
 
 == [[Coordinate space]] $\mathbb{F}^n$ ==

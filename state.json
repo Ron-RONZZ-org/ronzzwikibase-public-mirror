@@ -146,9 +146,9 @@
     },
     "Canonical basis": {
       "path": "Main/Canonical basis.wiki",
-      "revid": 14683,
-      "sha256": "0d9a5bc929c06afca9b6bf47a117e2d3940d86d6d46dca7cdde83637c79f6808",
-      "synced_at": "2026-11-09T08:49:55+00:00"
+      "revid": 14685,
+      "sha256": "f959d6b72b21902e3f44dedbc3d61362b31c8e9875b09a34f6d8d93487a56be4",
+      "synced_at": "2026-11-09T09:13:54+00:00"
     },
     "Cantor pairing function": {
       "path": "Main/Cantor pairing function.wiki",
@@ -1724,9 +1724,9 @@
     },
     "Flat earth movement": {
       "path": "Main/Flat earth movement.wiki",
-      "revid": 14648,
-      "sha256": "c06ea5ac51d889822f830b657ac0a308fef633bfca8bc09adc2c222d532d6308",
-      "synced_at": "2026-11-08T22:34:56+00:00"
+      "revid": 14688,
+      "sha256": "ba789edf4d8776e25876f818ceac57bf0de6ad6fac6509670cafeaf89c7308fa",
+      "synced_at": "2026-11-09T09:13:54+00:00"
     },
     "Floor function": {
       "path": "Main/Floor function.wiki",
@@ -2150,9 +2150,9 @@
     },
     "Linear map": {
       "path": "Main/Linear map.wiki",
-      "revid": 14665,
-      "sha256": "a6555dadbe7eb646f8c02d7ea9bdd567f5c3dedcc88066520999ee29db3a2d88",
-      "synced_at": "2026-11-09T08:15:21+00:00"
+      "revid": 14691,
+      "sha256": "9829fe6d2e9d9bae6e9e14760624929f5fc4f737e5a5002237f0c96bde4d31c3",
+      "synced_at": "2026-11-09T09:13:54+00:00"
     },
     "Linear system": {
       "path": "Main/Linear system.wiki",
@@ -2384,9 +2384,9 @@
     },
     "Orthonormal basis": {
       "path": "Main/Orthonormal basis.wiki",
-      "revid": 10770,
-      "sha256": "8548af2f57ece0daf785207492e4e80d1b47a695e14aedbb7081e57e90b82795",
-      "synced_at": "2026-10-20T14:15:08+00:00"
+      "revid": 14687,
+      "sha256": "8d2f99acd38a4ce9b5b28757f01b6382a137aabcb0ff2da5cb2002c822bc0242",
+      "synced_at": "2026-11-09T09:13:54+00:00"
     },
     "Orthonormality": {
       "path": "Main/Orthonormality.wiki",
@@ -6962,9 +6962,9 @@
     },
     "Vector space basis": {
       "path": "Main/Vector space basis.wiki",
-      "revid": 14674,
-      "sha256": "2bf62a00dc2f8a6c8586d7e56024f9a51da2309bae45f44c70fd45bcb2c9f451",
-      "synced_at": "2026-11-09T08:30:03+00:00"
+      "revid": 14686,
+      "sha256": "e00e960706961fd3da6129611423bbc2af0b1086c989ac5ed14af9120d3002ca",
+      "synced_at": "2026-11-09T09:13:54+00:00"
     },
     "Vector space generating set": {
       "path": "Main/Vector space generating set.wiki",
@@ -6997,6 +6997,6 @@
       "synced_at": "2026-11-07T15:19:42+00:00"
     }
   },
-  "updated": "2026-11-09T08:49:55+00:00",
+  "updated": "2026-11-09T09:13:54+00:00",
   "version": 1
 }

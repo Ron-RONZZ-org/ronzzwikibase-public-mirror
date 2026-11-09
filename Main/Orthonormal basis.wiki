@@ -1,4 +1,5 @@
-Orthonormal bases (singular: basis) are a useful subclass of [[vector space]] bases.
+[[Category:Vector space basis]]
+'''Orthonormal bases''' (singular: basis) are a useful subclass of [[vector space basis|vector space bases]].
 
 == Formal definition ==
 
@@ -8,7 +9,7 @@ If $(e_1,\ldots,e_n)$
 * has length $\dim(V)$, then
 
 $$
-\forall v = a_1 e_1 + \cdots + a_n e_n
+\forall \vec v \in V: \vec v = a_1 e_1 + \cdots + a_n e_n
 $$
 
 $(e_1,\ldots,e_n)$ is hence known as an '''orthonormal basis''' for $V$.<ref>{{#cite:Q1930}}</ref>
@@ -16,7 +17,7 @@ $(e_1,\ldots,e_n)$ is hence known as an '''orthonormal basis''' for $V$.<ref>{{#
 == Properties ==
 
 
-Let $(e_1,\ldots,e_n)$ be an orthonormal basis for [[vector space]] $V$.
+Let $(e_1,\ldots,e_n)$ be an '''orthonormal basis''' for [[vector space]] $V$.
 
 $$
 \forall v\in V

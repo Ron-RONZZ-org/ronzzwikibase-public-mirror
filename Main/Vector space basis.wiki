@@ -1,4 +1,4 @@
-[[Category:Vector space]]
+[[Category:Vector space basis]]
 A '''basis (plural: bases)''' of a vector space is any of its '''linearly independent''' [[vector space generating set]]. i.e.,
 
 {{#content:Q2144}}
