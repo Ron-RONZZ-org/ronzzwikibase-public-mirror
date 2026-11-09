@@ -21,7 +21,7 @@ $$
 F+G = \{\vec u + \vec v |\vec u \in F, \vec v \in G \}
 $$
 
-=== Property ===
+=== Dimension of sum ===
 
 $$
 \dim(F+G)=\dim(F)+\dim(G)-\dim(F \cap G)
@@ -39,7 +39,7 @@ for $U=\{u_1,\cdots, u_n\} \in V$.
 
 For vector subspaces $F,G$ $\in V$, if
 
-* $F+G=E$, and
+* $F+G=V$, and
 * $F \cap G = \{ \vec 0_V \}$
 
-Then $F,G$ are '''supplementary vector subspaces''' of $V$, noted as $E=F \oplus G$
+Then $F,G$ are '''supplementary vector subspaces''' of $V$, denoted by $V=F \oplus G$

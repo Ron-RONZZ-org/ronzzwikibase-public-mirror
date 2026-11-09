@@ -6950,9 +6950,9 @@
     },
     "Vector subspace": {
       "path": "Main/Vector subspace.wiki",
-      "revid": 9764,
-      "sha256": "9c07dd3b4dfc2857b4e4b21919f815ba37409e54c675c386fd21c43b11941837",
-      "synced_at": "2026-10-18T07:12:56+00:00"
+      "revid": 14660,
+      "sha256": "7b2923ca8d073bffd9ac944149c5cdf098aae86d5c356e122de7400a03acdb7f",
+      "synced_at": "2026-11-09T07:35:44+00:00"
     },
     "Vector triple product": {
       "path": "Main/Vector triple product.wiki",
@@ -6973,6 +6973,6 @@
       "synced_at": "2026-11-07T15:19:42+00:00"
     }
   },
-  "updated": "2026-11-09T07:24:16+00:00",
+  "updated": "2026-11-09T07:35:44+00:00",
   "version": 1
 }
