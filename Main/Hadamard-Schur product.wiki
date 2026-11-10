@@ -1,0 +1,51 @@
+[[Category:Matrix operation]]
+[[Category:Vector operation]]
+'''Hadamard-Schur product''' ('''element-wise product''') generalises component-wise multiplication to [[vector]]s and [[matrix|matrices]].
+
+== Definition ==
+
+=== Matrices ===
+
+For matrices $\mathbf{A}=(a_{ij}), \mathbf{B}=(b_{ij}) \in \mathbb{F}^{m \times n}$
+
+$$
+(\mathbf{A} \circ \mathbf{B})_{ij} = a_{ij} b_{ij}.
+$$
+
+=== Vectors ===
+
+For vectors $\vec u, \vec v \in \mathbb{F}^n$,
+
+$$
+(\vec u \circ \vec v)_i = u_i v_i.
+$$
+
+<blockquote>
+Do not confuse the '''Hadamard-Schur product''' with [[vector dot product]], both multiple two vectors of same dimension component-wise, but the former returns a new vector of that dimension while the latter sums over the component-wise products and return a scalar.
+</blockquote>
+
+== Properties ==
+
+The Hadamard-Schur product is '''commutative, associative, and distributive''':
+
+$$
+\begin{cases}
+\mathbf{A} \circ \mathbf{B} = \mathbf{B} \circ \mathbf{A} \\
+(\mathbf{A} \circ \mathbf{B}) \circ \mathbf{C} = \mathbf{A} \circ (\mathbf{B} \circ \mathbf{C}) \\
+\mathbf{A} \circ (\mathbf{B} + \mathbf{C}) = \mathbf{A} \circ \mathbf{B} + \mathbf{A} \circ \mathbf{C}
+\end{cases}
+$$
+
+== Identity element ==
+
+The '''identity element''' for the Hadamard-Schur product on $\mathbb{F}^{m \times n}$ is
+
+$$
+\mathbf{J}_{m \times n}: \forall i \in \{1,\cdots,m\}, j \in \{1,\cdots,n\}: (\mathbf{J})_{ij} = 1
+$$
+
+which verifies
+
+$$
+\forall \mathbf{A}_{m \times n}: \mathbf{A} \circ \mathbf{J}_{m \times n} = \mathbf{A}.
+$$

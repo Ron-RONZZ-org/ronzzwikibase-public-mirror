@@ -1592,9 +1592,9 @@
     },
     "Dot product": {
       "path": "Main/Dot product.wiki",
-      "revid": 10899,
-      "sha256": "6a1d0f65c86fec0a1656d96c373251b18a2c99b037af0052fea22279b273c0b5",
-      "synced_at": "2026-10-21T10:32:44+00:00"
+      "revid": 15226,
+      "sha256": "49c3fecd1e75f05be9e46f196fb9f4acafa048782173d3bf30eada173b6c177d",
+      "synced_at": "2026-11-10T15:49:47+00:00"
     },
     "EditRetryProbe1793854224657": {
       "path": "Main/EditRetryProbe1793854224657.wiki",
@@ -1968,6 +1968,12 @@
       "sha256": "85bec85aa2173e729a5eea379d98fce411782b5a6df8916fc9f0540e699adfd4",
       "synced_at": "2026-10-29T19:36:43+00:00"
     },
+    "Hadamard-Schur product": {
+      "path": "Main/Hadamard-Schur product.wiki",
+      "revid": 15230,
+      "sha256": "8a202b1bad4b2a2fc2744b4eaad14b91ae0e2d7218d256a5c825c665ffeffe43",
+      "synced_at": "2026-11-10T15:49:47+00:00"
+    },
     "Hadron": {
       "path": "Main/Hadron.wiki",
       "revid": 11933,
@@ -2300,9 +2306,9 @@
     },
     "Linear map": {
       "path": "Main/Linear map.wiki",
-      "revid": 14709,
-      "sha256": "3907ab72b0687dbc37a460c8bf15f5eafd434d206daefc8bc47c17a20f423c3f",
-      "synced_at": "2026-11-09T10:36:03+00:00"
+      "revid": 15234,
+      "sha256": "ee0cfbe7fd239755d16361bd028441319a775a6bcfd34f12f6dae519c98982c2",
+      "synced_at": "2026-11-10T15:49:47+00:00"
     },
     "Linear system": {
       "path": "Main/Linear system.wiki",
@@ -7262,9 +7268,9 @@
     },
     "Transition matrix between bases of a vector space": {
       "path": "Main/Transition matrix between bases of a vector space.wiki",
-      "revid": 14675,
-      "sha256": "44a8b3f84c9cc7ad6644c8587c6cc54d9e1daccb6c05db6d3e191c2b09a3228b",
-      "synced_at": "2026-11-09T08:30:03+00:00"
+      "revid": 15232,
+      "sha256": "0268ed4200e4ea473743b6962d6a2a483a377f13860ad2a171f84a09a869662f",
+      "synced_at": "2026-11-10T15:49:47+00:00"
     },
     "Triangle inequality": {
       "path": "Main/Triangle inequality.wiki",
@@ -7307,6 +7313,12 @@
       "revid": 13150,
       "sha256": "233f90fcda41f686ecb9bf6b1d8cc9517252a44688342ec69f91d7d20f59f798",
       "synced_at": "2026-11-06T13:20:12+00:00"
+    },
+    "Vector dot product": {
+      "path": "Main/Vector dot product.wiki",
+      "revid": 15225,
+      "sha256": "6a1d0f65c86fec0a1656d96c373251b18a2c99b037af0052fea22279b273c0b5",
+      "synced_at": "2026-11-10T15:49:47+00:00"
     },
     "Vector space": {
       "path": "Main/Vector space.wiki",
@@ -7357,6 +7369,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-10T15:35:35+00:00",
+  "updated": "2026-11-10T15:49:47+00:00",
   "version": 1
 }

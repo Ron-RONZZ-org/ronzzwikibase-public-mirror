@@ -1,4 +1,4 @@
-[[Category:Vector space]]
+[[Category:Vector space operation]]
 Let $B_1=(\vec u_1,\dots,\vec u_n)$ and $B_2=(\vec v_1,\dots,\vec v_n)$ be [[vector space basis|bases]] of [[vector space]] $V$, and their corresponding [[matrix]] form
 
 $$
