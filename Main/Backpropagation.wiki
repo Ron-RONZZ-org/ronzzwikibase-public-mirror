@@ -1,0 +1,175 @@
+[[Category:Machine learning]]
+[[Category:Artificial neural network]]
+
+'''Backpropagation''' is an algorithm used to train [[artificial neural network (ANN)|ANNs]].
+
+== Definition ==
+
+Let $L$ represent the number of layers in the [[artificial neural network (ANN)]], $\vec a^{(0)}$ be the input value.
+
+Let $\mathbf{W}^{(l)}, \vec b^{(l)}$ represents [[artificial neuron|'''weights''' and '''biases''']], $\vec z^{(l)}=\mathbf{W}^{(l)}\vec a^{(l-1)}+\vec b^{(l)}, \vec a^{(l)}=\sigma(\vec z^{(l)}$ pre-activation and activation$ of layer $l=1,\dots,L$, where $\sigma$ is the [[activation function]].
+
+For a single training example $(\vec x,\vec y)$, where $\vec x,\vec y$ are input/expected output respectively, by definition
+
+$$
+\vec a^{(0)}=\vec x.
+$$
+
+=== Sensitivity ===
+
+Define '''sensitivity''' at layer $l$:
+
+$$
+\delta_j^{(l)}=\frac{\partial C}{\partial z_j^{(l)}}
+$$
+
+By the [[chain rule of differentiation]],
+
+$$
+\delta_j^{(l)}
+= \sum_k
+\frac{\partial C}{\partial a_k^{(L)}}
+\frac{\partial a_k^{(L)}}{\partial z_j^{(L)}}.
+$$
+
+In vector form:
+
+$$
+\vec{\delta}^{(l)}
+=
+\nabla_{\vec a^{(l)}}C\odot \dot \sigma (\vec z^{(L)}),
+$$
+
+<blockquote>
+In some textbook, $\delta_j^{(l)}$ is referred to as '''error'''. We discourage this use, as $\delta_j^{(l)}$ is a local gradient, not an "error" in its ususal sense, and calling it an error can lead to serious confusion.
+</blockquote>
+
+==== Sensitivity of the output layer ====
+
+By [[#sensitivity|definition of sensitivity]],
+
+$$
+\vec{\delta}^{(L)}=\nabla_{\vec a^{(L)}}C\odot\sigma'(\vec z^{(L)}).
+$$
+
+==== Sensitivity of previous layers ====
+
+By definition of an [[artificial neuron]],
+$$
+z_k^{(l+1)}=\sum_j W_{kj}^{(l+1)}a_j^{(l)}+b_k^{(l+1)},
+\qquad
+a_j^{(l)}=\sigma\left(z_j^{(l)}\right).
+$$
+
+Hence by the chain rule,
+
+$$
+\begin{aligned}
+\delta_j^{(l)}
+&=\frac{\partial C}{\partial z_j^{(l)}}\\
+&=\sum_k
+\frac{\partial C}{\partial z_k^{(l+1)}}
+\frac{\partial z_k^{(l+1)}}{\partial a_j^{(l)}}
+\frac{\partial a_j^{(l)}}{\partial z_j^{(l)}}\\
+&=\sum_k
+\delta_k^{(l+1)}
+W_{kj}^{(l+1)}
+\sigma^{\prime}\left(z_j^{(l)}\right).
+\end{aligned}
+$$
+
+In matrix form,
+
+$$
+\vec{\delta}^{(l)}
+=
+\left(
+\left(\mathbf{W}^{(l+1)}\right)^T
+\vec{\delta}^{(l+1)}
+\right)
+\odot
+\sigma^{\prime}\left(\vec z^{(l)}\right),
+\qquad l=L-1,\dots,1.
+$$
+
+=== Local gradients ===
+
+==== Biases ====
+
+$$
+\delta_k^{(l)}=\frac{\partial C}{\partial z_k^{(l)}} \text{ (by definition)}\\
+\frac{\partial z_k^{(l)}}{\partial b_j^{(l)}}=
+\begin{cases}
+1, & k=j,\\
+0, & k\neq j.
+\end{cases}
+$$
+
+By the [[chain rule of differentiation]],
+
+$$
+\frac{\partial C}{\partial b_j^{(l)}}
+=
+\sum_{k=0}^{n_l-1}
+\frac{\partial C}{\partial z_k^{(l)}}
+\frac{\partial z_k^{(l)}}{\partial b_j^{(l)}}
+=
+\delta_j^{(l)}.
+$$
+
+In vector form,
+
+$$
+\nabla_{\vec b^{(l)}}C=\vec{\delta}^{(l)}.
+$$
+
+==== Weights ====
+
+$$
+\frac{\partial z_k^{(l)}}{\partial W_{ij}^{(l)}}=
+\begin{cases}
+a_j^{(l-1)}, & k=i,\\
+0, & k\neq i.
+\end{cases}
+$$
+
+By the [[chain rule of differentiation]],
+
+$$
+\frac{\partial C}{\partial W_{ij}^{(l)}}
+=
+\sum_{k=0}^{n_l-1}
+\frac{\partial C}{\partial z_k^{(l)}}
+\frac{\partial z_k^{(l)}}{\partial W_{ij}^{(l)}}
+=
+\delta_i^{(l)}a_j^{(l-1)}.
+$$
+
+In matrix form,
+
+$$
+\nabla_{\mathbf{W}^{(l)}}C
+=
+\vec{\delta}^{(l)}
+\left(\vec a^{(l-1)}\right)^T,
+$$
+
+== Training ==
+
+From [[#definition]],
+
+$$
+\begin{cases}
+\nabla_{\vec b^{(l)}}C=\vec{\delta}^{(l)},\\
+\nabla_{\mathbf{W}^{(l)}}C=\vec{\delta}^{(l)}\left(\vec a^{(l-1)}\right)^T.
+\end{cases}
+$$
+
+With training dataset $S$ and sample batch $B \in S$,
+
+$$
+\begin{cases}
+\mathbf{W}^{(l)}\leftarrow\mathbf{W}^{(l)}-\frac{\eta}{m}\sum_{x\in B}\nabla_{\mathbf{W}^{(l)}}C_x,\\
+\vec b^{(l)}\leftarrow\vec b^{(l)}-\frac{\eta}{m}\sum_{x\in B}\nabla_{\vec b^{(l)}}C_x.
+\end{cases}
+$$
