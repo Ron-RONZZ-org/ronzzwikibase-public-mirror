@@ -1,3 +1,4 @@
+[[Category:Artificial neural network| ]]
 == Key concepts ==
 
 * Elementary unit: [[artificial neuron]]

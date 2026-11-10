@@ -80,9 +80,9 @@
     },
     "Artificial neural network (ANN)": {
       "path": "Main/Artificial neural network (ANN).wiki",
-      "revid": 15173,
-      "sha256": "7e8d349f71341f22d3d1c2f8baef68d20d0e9d5c0b4b05471b0c7e2b9e683cf1",
-      "synced_at": "2026-11-10T13:35:51+00:00"
+      "revid": 15275,
+      "sha256": "d872426b1f61039f795689f2f94dc94fe4446aa32ec39b584cd95bd53da93a91",
+      "synced_at": "2026-11-10T18:49:33+00:00"
     },
     "Artificial neuron": {
       "path": "Main/Artificial neuron.wiki",
@@ -134,9 +134,9 @@
     },
     "Backpropagation": {
       "path": "Main/Backpropagation.wiki",
-      "revid": 15265,
-      "sha256": "2cb838b88db07950bba0ce3b0ad1b43c568b107518a56b3c1c371ddfcbf333a4",
-      "synced_at": "2026-11-10T18:36:02+00:00"
+      "revid": 15281,
+      "sha256": "e37991f1d11cc0b552c20dc8becfd6df2a3a6234e69e8d6b752e06e01bb5208d",
+      "synced_at": "2026-11-10T18:49:33+00:00"
     },
     "Baryon": {
       "path": "Main/Baryon.wiki",
@@ -215,6 +215,12 @@
       "revid": 15261,
       "sha256": "f22b8dd8e33129e03401b00e242a694dab8e238175a05bcb944c4aff1614eef4",
       "synced_at": "2026-11-10T18:10:45+00:00"
+    },
+    "Chain rule of differentiation": {
+      "path": "Main/Chain rule of differentiation.wiki",
+      "revid": 15278,
+      "sha256": "3dc67c226b63e4484201a061c66b5195604b64a10ec5434f586b6b26cd89e4ef",
+      "synced_at": "2026-11-10T18:49:33+00:00"
     },
     "Cheatsheet:DesktopLinux": {
       "path": "Cheatsheet/DesktopLinux.wiki",
@@ -7393,6 +7399,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-10T18:36:02+00:00",
+  "updated": "2026-11-10T18:49:33+00:00",
   "version": 1
 }
