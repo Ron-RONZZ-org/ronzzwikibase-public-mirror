@@ -1,0 +1,23 @@
+[[Category:Token]]
+[[File:Sub-word token embedding.png|thumbnail|350px|A visual representation of embedding of sub-word tokens in [[natural language processing (NLP)]].]]
+[[File:Embedding space.png|thumbnail|350px|Each dimension of an '''embedding space''' encodes some semantic meaning. As such, words with similar meanings are spatially adjacent to each other.]]
+Let $t_i \in T$ be [[token (machine learning)|token]]s obtained from [[tokenisation (machine learning)|tokenisation]] of raw data.
+
+Let $\mathbb{E}\equiv \mathbb{R}^n$ be a [[vector space]].
+
+Then '''vector embedding function'''
+
+$$
+\operatorname{E}: T \to \mathbb{E}\\
+\forall t_i \in T: t_i \mapsto \vec{e}_i
+$$
+
+$\mathbb{E}$ is then known as the n-dimensional '''embedding space''' of $\operatorname{E}$, which contains '''embedding vectors''' $\vec e_i$.
+
+== Matrix representation ==
+
+Let $\mathbf{E} \in \mathbb{R}^{|\mathcal{V}| \times n}$ be an '''vector embedding matrix'''.
+
+$$
+\vec{e}_i = \mathbf{E}[t_i].
+$$
