@@ -153,10 +153,10 @@ As observed, $(x_t,y_t)$ converges toward $(-1.5,1)$. Directly substituting the 
 
 === Training [[artificial neural network (ANN)]] ===
 
-[[File:Trashyard Machine learning.png|thumbnail|In some sense, [[ANN]] training is like stirring up a pile of trash: improvement is made by stirring up the weight&biases matrix ever so slightly according to current gradient, recalculate the new prediction values and new gradient, and stirring up the pile again, so on so forth until finding a $\mathbf{W}_n$ s.t. $C(\mathbf{W}_n)<C_\text{target}$.]]
-Let $\mathbf{W}$ be the '''weight&biases matrix''' of an [[artificial neural network (ANN)]], $C(\mathbf{W})$ its '''cost function''', which measures the error between the model's predictions and the true values in the training set (e.g., [[sum of squared errors (SSE)]]).
+[[File:Trashyard Machine learning.png|thumbnail|In some sense, [[ANN]] training is like stirring up a pile of trash: improvement is made by stirring up the weight&biases matrix ever so slightly according to current gradient, recalculate the new prediction values and new gradient, and stirring up the pile again, so on so forth until finding a $\mathbf{W}_n$ s.t. $\forall i C_i(\mathbf{W}_n)<C_\text{target}$.]]
+Let $\mathbf{W}$ be the '''weight&biases matrix''' of an [[artificial neural network (ANN)]], $S$ be the '''training data set.''', $C_i(\mathbf{W})$ its '''cost function''' for training data point $s_i \in S$, which measures the error between the model's predictions and the true values in the training set (e.g., [[sum of squared errors (SSE)]]).
 
 Then '''training''' is iteration with step
 $$
-\mathbf{W}_{t+1} = \mathbf{W}_t - \eta \nabla C(\mathbf{W}_t).
+\mathbf{W}_{t+1} = \mathbf{W}_t - \sum_{s_i \in S} \eta \nabla C_i(\mathbf{W}_t).
 $$
