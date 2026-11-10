@@ -1,0 +1,7 @@
+{{Person}}
+
+== Biography ==
+
+''from Wikipedia (CC BY-SA 4.0):''
+
+René Descartes was a French philosopher, mathematician, and scientist whose work was foundational to mathematics and modern philosophy, and influenced the development of early modern science. He connected the previously separate fields of geometry and algebra into analytic geometry, introduced a systematic method of inquiry that became influential in early modern philosophy, and made major contributions to epistemology and philosophy of mind as well as metaphysics.

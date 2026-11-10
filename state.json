@@ -2130,6 +2130,12 @@
       "sha256": "9e6ad914f6521f2d0e17cc44046c2281458d45bf253528402156e8bdde5ef71f",
       "synced_at": "2026-10-26T14:18:30+00:00"
     },
+    "Intuition": {
+      "path": "Main/Intuition.wiki",
+      "revid": 15043,
+      "sha256": "d34ca332280dadc261291f55fb5ffb1122e98e59c09ed1ea0f7f0baeb037d253",
+      "synced_at": "2026-11-10T07:35:35+00:00"
+    },
     "Jacobian matrix": {
       "path": "Main/Jacobian matrix.wiki",
       "revid": 11703,
@@ -3941,6 +3947,12 @@
       "revid": 13891,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:René Descartes": {
+      "path": "Person/René Descartes.wiki",
+      "revid": 15040,
+      "sha256": "df3c570ff176791bfc2c546c8e7b1901c976038ef734b56366ddaa30d0a386d6",
+      "synced_at": "2026-11-10T07:35:35+00:00"
     },
     "Person:Reza Pourmirza Kalhori": {
       "path": "Person/Reza Pourmirza Kalhori.wiki",
@@ -7177,6 +7189,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-09T20:49:31+00:00",
+  "updated": "2026-11-10T07:35:35+00:00",
   "version": 1
 }
