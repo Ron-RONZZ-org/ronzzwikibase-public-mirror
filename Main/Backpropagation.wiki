@@ -7,7 +7,7 @@
 
 Let $L$ represent the number of layers in the [[artificial neural network (ANN)]], $\vec a^{(0)}$ be the input value.
 
-Let $\mathbf{W}^{(l)}, \vec b^{(l)}$ represents [[artificial neuron|'''weights''' and '''biases''']], $\vec z^{(l)}=\mathbf{W}^{(l)}\vec a^{(l-1)}+\vec b^{(l)}, \vec a^{(l)}=\sigma(\vec z^{(l)}$ pre-activation and activation$ of layer $l=1,\dots,L$, where $\sigma$ is the [[activation function]].
+Let $\mathbf{W}^{(l)}, \vec b^{(l)}$ represents [[artificial neuron|'''weights''' and '''biases''']], $\vec z^{(l)}=\mathbf{W}^{(l)}\vec a^{(l-1)}+\vec b^{(l)}, \vec a^{(l)}=\sigma(\vec z^{(l)})$ pre-activation and activation of layer $l=1,\dots,L$, where $\sigma$ is the [[activation function]].
 
 For a single training example $(\vec x,\vec y)$, where $\vec x,\vec y$ are input/expected output respectively, by definition
 

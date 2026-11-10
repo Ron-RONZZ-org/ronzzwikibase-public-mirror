@@ -134,9 +134,9 @@
     },
     "Backpropagation": {
       "path": "Main/Backpropagation.wiki",
-      "revid": 15254,
-      "sha256": "581bb10f2d694f4921ba00ad20f6c3f9a0e58b1a0478577e984416da51474acc",
-      "synced_at": "2026-11-10T17:35:41+00:00"
+      "revid": 15265,
+      "sha256": "2cb838b88db07950bba0ce3b0ad1b43c568b107518a56b3c1c371ddfcbf333a4",
+      "synced_at": "2026-11-10T18:36:02+00:00"
     },
     "Baryon": {
       "path": "Main/Baryon.wiki",
@@ -7272,6 +7272,12 @@
       "sha256": "0582dc6c87d00fafb61dcc55ffb6696063a11b49f92c649d4edfb72a4be48b7b",
       "synced_at": "2026-11-10T08:14:04+00:00"
     },
+    "Token (machine learning)": {
+      "path": "Main/Token (machine learning).wiki",
+      "revid": 15274,
+      "sha256": "49d5201fcf9c942b2b402d8690a3364e212ed7e4406481262e724d7c02af3289",
+      "synced_at": "2026-11-10T18:36:02+00:00"
+    },
     "Total energy": {
       "path": "Main/Total energy.wiki",
       "revid": 12339,
@@ -7387,6 +7393,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-10T18:20:52+00:00",
+  "updated": "2026-11-10T18:36:02+00:00",
   "version": 1
 }

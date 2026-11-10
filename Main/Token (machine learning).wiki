@@ -1,0 +1,3 @@
+[[Category:Token| ]]
+[[Category:Machine learning]]
+A '''token''' is an elementary unit of data used by a [[machine learning]] model, particularly in [[natural language processing (NLP)]].
