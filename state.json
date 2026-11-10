@@ -80,9 +80,9 @@
     },
     "Artificial neural network (ANN)": {
       "path": "Main/Artificial neural network (ANN).wiki",
-      "revid": 15121,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "synced_at": "2026-11-10T10:10:32+00:00"
+      "revid": 15173,
+      "sha256": "7e8d349f71341f22d3d1c2f8baef68d20d0e9d5c0b4b05471b0c7e2b9e683cf1",
+      "synced_at": "2026-11-10T13:35:51+00:00"
     },
     "Artificial neuron": {
       "path": "Main/Artificial neuron.wiki",
@@ -413,6 +413,12 @@
       "revid": 7547,
       "sha256": "02ac4d439ab3b587cc7435372cea8953ac4d934dc297c2648b67f5d04cee7e47",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Collective:American Psychological Association": {
+      "path": "Collective/American Psychological Association.wiki",
+      "revid": 15189,
+      "sha256": "8fa1e8054a50b8401bdf01af580e0c89c61c6d0dfbe8d5f01bd76637aa33dea4",
+      "synced_at": "2026-11-10T13:35:51+00:00"
     },
     "Collective:Ana L. Flores-Mireles, Jennifer N. Walker, Michael Caparon & Scott J. Hultgren": {
       "path": "Collective/Ana L. Flores-Mireles, Jennifer N. Walker, Michael Caparon & Scott J. Hultgren.wiki",
@@ -833,6 +839,12 @@
       "revid": 7027,
       "sha256": "6debf1d9a9aa58d0fad52d24e57945853f8d0f0142467ce510d8e2797f790a31",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Collective:Journal of Personality and Social Psychology": {
+      "path": "Collective/Journal of Personality and Social Psychology.wiki",
+      "revid": 15185,
+      "sha256": "1af2a28dcfa78b5a5e0e0e91238d9bedd428b87944b4a142a66d91ce77cfcd6c",
+      "synced_at": "2026-11-10T13:35:51+00:00"
     },
     "Collective:Journal of Public Policy & Marketing": {
       "path": "Collective/Journal of Public Policy & Marketing.wiki",
@@ -1928,9 +1940,9 @@
     },
     "Gradient descent": {
       "path": "Main/Gradient descent.wiki",
-      "revid": 15166,
-      "sha256": "dac115cfc6185be3a58b20716451699c769bd249382dc90f917c24795e1950f1",
-      "synced_at": "2026-11-10T13:19:35+00:00"
+      "revid": 15172,
+      "sha256": "6db14244c7e3e19d3992f019dba90e8f1ce7b09fe9be16c96d284f78b6083dd4",
+      "synced_at": "2026-11-10T13:35:51+00:00"
     },
     "Gravitational potential energy": {
       "path": "Main/Gravitational potential energy.wiki",
@@ -2964,6 +2976,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:19:42+00:00"
     },
+    "Person:David Dunning": {
+      "path": "Person/David Dunning.wiki",
+      "revid": 15181,
+      "sha256": "3190bfa3210aaceedc07c596b1c21a7aa47a73445643f288825316e33ccbb34b",
+      "synced_at": "2026-11-10T13:35:51+00:00"
+    },
     "Person:David Lippman": {
       "path": "Person/David Lippman.wiki",
       "revid": 10029,
@@ -3503,6 +3521,12 @@
       "revid": 14172,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Justin Kruger": {
+      "path": "Person/Justin Kruger.wiki",
+      "revid": 15177,
+      "sha256": "221f3e7b07d6dd3896ac7fd4901256fa67818afe2e53fe1930bda9a3eb7d9aa1",
+      "synced_at": "2026-11-10T13:35:51+00:00"
     },
     "Person:Jørgen Randers": {
       "path": "Person/Jørgen Randers.wiki",
@@ -6984,6 +7008,12 @@
       "sha256": "9234002fd531cc44cb994a546e7372a9d842f0a6121fada77db6a1f0f65e4954",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Unskilled and unaware of it: How difficulties in recognizing one's own incompetence lead to inflated self-assessments (Scholarly article)": {
+      "path": "Source/Unskilled and unaware of it_ How difficulties in recognizing one's own incompetence lead to inflated self-assessments (Scholarly article).wiki",
+      "revid": 15193,
+      "sha256": "c8d73a7c7fa2059c2c258577803db32bfb6e0368c9e2dabd7246fd114a5945ab",
+      "synced_at": "2026-11-10T13:35:51+00:00"
+    },
     "Source:Urinary Tract Infections: Disease Panorama and Challenges (Scholarly article)": {
       "path": "Source/Urinary Tract Infections_ Disease Panorama and Challenges (Scholarly article).wiki",
       "revid": 13118,
@@ -7321,6 +7351,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-10T13:19:35+00:00",
+  "updated": "2026-11-10T13:35:51+00:00",
   "version": 1
 }

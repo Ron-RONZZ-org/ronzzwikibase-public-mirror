@@ -39,10 +39,11 @@ Gradient descent is most useful for complex functions. For simple functions sett
 == Mathematical example ==
 
 {{Hidden example}}
+[[File:Gradient descent intuition.png|thumbnail|$-\nabla f$ is always the direction of the steepest descent.]]
 Find $(x,y)$ that minimises
 
 $$
-f(x,y)=x^2+2y^2+3x-4y+6.
+C(x,y)=x^2+2y^2+3x-4y+6.
 $$
 
 around $(0,0)$.
@@ -50,7 +51,7 @@ around $(0,0)$.
 '''Solution''':
 
 $$
-\nabla f(x,y)=
+\nabla C(x,y)=
 \begin{pmatrix}
 2x+3\\
 4y-4
@@ -69,7 +70,7 @@ $$
 At $(x_0,y_0)=(0,0)$,
 
 $$
-\nabla f(0,0)=
+\nabla C(0,0)=
 \begin{pmatrix}
 3\\
 -4
@@ -90,7 +91,7 @@ $$
 Iterate:
 
 {| class="wikitable"
-! $n$ !! $x_t$ !! $y_t$ !! $\frac{\partial f}{\partial x}(x_t,y_t)$ !! $\frac{\partial f}{\partial y}(x_t,y_t)$
+! $n$ !! $x_t$ !! $y_t$ !! $\frac{\partial C}{\partial x}(x_t,y_t)$ !! $\frac{\partial C}{\partial y}(x_t,y_t)$
 |-
 | 0 || 0 || 0 || 3 || -4
 |-
@@ -152,6 +153,7 @@ As observed, $(x_t,y_t)$ converges toward $(-1.5,1)$. Directly substituting the 
 
 === Training [[artificial neural network (ANN)]] ===
 
+[[File:Trashyard Machine learning.png|thumbnail|In some sense, [[ANN]] training is like stirring up a pile of trash: improvement is made by stirring up the weight&biases matrix ever so slightly according to current gradient, recalculate the new prediction values and new gradient, and stirring up the pile again, so on so forth until finding a $\mathbf{W}_n$ s.t. $C(\mathbf{W}_n)<C_\text{target}$.]]
 Let $\mathbf{W}$ be the '''weight&biases matrix''' of an [[artificial neural network (ANN)]], $C(\mathbf{W})$ its '''cost function''', which measures the error between the model's predictions and the true values in the training set (e.g., [[sum of squared errors (SSE)]]).
 
 Then '''training''' is iteration with step

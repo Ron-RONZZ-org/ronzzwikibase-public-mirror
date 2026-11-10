@@ -1,0 +1,5 @@
+== Key concepts ==
+
+* Elementary unit: [[artificial neuron]]
+* Feedforward: [[feedforward algorithm]]
+* Training: [[gradient descent]]
