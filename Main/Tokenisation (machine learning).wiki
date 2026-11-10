@@ -1,0 +1,14 @@
+[[Category:Token]]
+'''Tokenisation''' is the process of segmenting raw data into tokens.<ref>{{#cite:Q3108}}</ref>
+
+== Definition ==
+
+Formally, let $\mathcal{S}$ be a sequence of data. Any function
+
+$$
+\tau: \mathcal{S} \to \mathcal{V}^{*}
+$$
+
+is a '''tokenisation function''', sometimes called a '''tokeniser'''.
+
+where $|\mathcal{V}| \ll \infty$ is known as the '''token vocabulary'''.

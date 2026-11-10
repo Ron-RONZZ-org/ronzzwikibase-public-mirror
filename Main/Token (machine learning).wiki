@@ -1,3 +1,26 @@
 [[Category:Token| ]]
 [[Category:Machine learning]]
 A '''token''' is an elementary unit of data used by a [[machine learning]] model, particularly in [[natural language processing (NLP)]].
+
+== Text token ==
+
+=== Granularities ===
+
+Three primary granularities:
+
+* '''Word tokens''': 1 word = 1 token
+** Advantage
+*** Intuitive
+** Problem
+*** Suffers from a large vocabulary
+*** Poor handling of words unseen in training data
+* '''Character tokens''': 1 character = 1 token
+** Advantage
+*** Smallest vocabulary
+*** Can represent any string
+** Problem
+*** Loses semantic information
+*** Produces long sequences
+* '''Subword tokens''': Words are decomposed into smaller, meaningful units (e.g, morphemes or frequent character $n$-grams)
+** Balancing between semantic information preservation and vocabulary size
+** Dominant approach in modern [[large language model (LLM)]]

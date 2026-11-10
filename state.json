@@ -6996,6 +6996,12 @@
       "sha256": "477eff4a661ee1e4289f2dee1e8b3ebdcce6dec451fa01de72c90db2f1cbbc3c",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Transformers, the tech behind LLMs - Deep Learning Chapter 5 (YouTube video)": {
+      "path": "Source/Transformers, the tech behind LLMs - Deep Learning Chapter 5 (YouTube video).wiki",
+      "revid": 15285,
+      "sha256": "18f2dae366159f3465c8bbb1c9759a496d522553bb29099b300ee2e189764ca8",
+      "synced_at": "2026-11-10T19:08:36+00:00"
+    },
     "Source:UNEP - UN Environment Programme (Website)": {
       "path": "Source/UNEP - UN Environment Programme (Website).wiki",
       "revid": 8062,
@@ -7280,9 +7286,15 @@
     },
     "Token (machine learning)": {
       "path": "Main/Token (machine learning).wiki",
-      "revid": 15274,
-      "sha256": "49d5201fcf9c942b2b402d8690a3364e212ed7e4406481262e724d7c02af3289",
-      "synced_at": "2026-11-10T18:36:02+00:00"
+      "revid": 15289,
+      "sha256": "9a00f0fea8ed650b9d421a1d3274980a7f66dc9d9655eab8835c227adbab478f",
+      "synced_at": "2026-11-10T19:08:36+00:00"
+    },
+    "Tokenisation (machine learning)": {
+      "path": "Main/Tokenisation (machine learning).wiki",
+      "revid": 15288,
+      "sha256": "c566b95074ebc1ec1d83fcbf0212dd9715691f9f99aaa4e335fbecf436b51430",
+      "synced_at": "2026-11-10T19:08:36+00:00"
     },
     "Total energy": {
       "path": "Main/Total energy.wiki",
@@ -7399,6 +7411,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-10T18:49:33+00:00",
+  "updated": "2026-11-10T19:08:36+00:00",
   "version": 1
 }
