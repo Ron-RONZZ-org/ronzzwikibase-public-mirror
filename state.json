@@ -1926,6 +1926,12 @@
       "sha256": "176922fb98a9de94f6e56fb37169be43fac2343f52f0324a653dd2b7e6ba6788",
       "synced_at": "2026-10-29T09:37:08+00:00"
     },
+    "Gradient descent": {
+      "path": "Main/Gradient descent.wiki",
+      "revid": 15166,
+      "sha256": "dac115cfc6185be3a58b20716451699c769bd249382dc90f917c24795e1950f1",
+      "synced_at": "2026-11-10T13:19:35+00:00"
+    },
     "Gravitational potential energy": {
       "path": "Main/Gravitational potential energy.wiki",
       "revid": 7868,
@@ -7315,6 +7321,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-10T12:14:23+00:00",
+  "updated": "2026-11-10T13:19:35+00:00",
   "version": 1
 }
