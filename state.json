@@ -7286,15 +7286,15 @@
     },
     "Token (machine learning)": {
       "path": "Main/Token (machine learning).wiki",
-      "revid": 15289,
-      "sha256": "9a00f0fea8ed650b9d421a1d3274980a7f66dc9d9655eab8835c227adbab478f",
-      "synced_at": "2026-11-10T19:08:36+00:00"
+      "revid": 15291,
+      "sha256": "d1dd13ae035b7d7b9d15b9b9d6157e1597f4f42e9333660c5efed5f31a18b651",
+      "synced_at": "2026-11-10T19:20:00+00:00"
     },
     "Tokenisation (machine learning)": {
       "path": "Main/Tokenisation (machine learning).wiki",
-      "revid": 15288,
-      "sha256": "c566b95074ebc1ec1d83fcbf0212dd9715691f9f99aaa4e335fbecf436b51430",
-      "synced_at": "2026-11-10T19:08:36+00:00"
+      "revid": 15290,
+      "sha256": "09cbb032cf9d393903c2e534fff57043be40d9c89d98face7d8eeda4cf8de69b",
+      "synced_at": "2026-11-10T19:20:00+00:00"
     },
     "Total energy": {
       "path": "Main/Total energy.wiki",
@@ -7411,6 +7411,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-10T19:08:36+00:00",
+  "updated": "2026-11-10T19:20:00+00:00",
   "version": 1
 }

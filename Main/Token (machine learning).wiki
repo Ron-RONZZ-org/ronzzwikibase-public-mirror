@@ -1,5 +1,6 @@
 [[Category:Token| ]]
 [[Category:Machine learning]]
+[[File:Machine learning tokens.png|thumbnail|300px|A '''token''' is a small fragment of data (e.g., a sub-word, a small group of pixels, a short segment of an audio wave function) carrying some meaning.]]
 A '''token''' is an elementary unit of data used by a [[machine learning]] model, particularly in [[natural language processing (NLP)]].
 
 == Text token ==

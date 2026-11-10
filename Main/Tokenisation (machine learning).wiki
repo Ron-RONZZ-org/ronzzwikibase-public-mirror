@@ -12,3 +12,9 @@ $$
 is a '''tokenisation function''', sometimes called a '''tokeniser'''.
 
 where $|\mathcal{V}| \ll \infty$ is known as the '''token vocabulary'''.
+
+== Vocabulary size ==
+
+The vocabulary size $|\mathcal{V}|$ is a key design choice in tokenisation functions, controlling the trade-off between expressiveness and computational cost. 
+
+Typical vocabulary size is $10^4 \to 10^5$.
