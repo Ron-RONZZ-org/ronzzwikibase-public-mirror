@@ -72,6 +72,18 @@
       "sha256": "34806dab2ea627bcbba4fb7bbfd42bdb4a37dd196222cdebd96bd60ff77fd462",
       "synced_at": "2026-10-29T09:37:08+00:00"
     },
+    "Artificial neural network (ANN)": {
+      "path": "Main/Artificial neural network (ANN).wiki",
+      "revid": 15121,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "synced_at": "2026-11-10T10:10:32+00:00"
+    },
+    "Artificial neuron": {
+      "path": "Main/Artificial neuron.wiki",
+      "revid": 15115,
+      "sha256": "3f141c6b34d57aab30bc498b0e04a4948453523682b95a3a69aee7114cc4e8b9",
+      "synced_at": "2026-11-10T10:10:32+00:00"
+    },
     "Atom": {
       "path": "Main/Atom.wiki",
       "revid": 11845,
@@ -7249,6 +7261,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-10T09:49:21+00:00",
+  "updated": "2026-11-10T10:10:32+00:00",
   "version": 1
 }

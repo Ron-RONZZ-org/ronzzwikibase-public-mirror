@@ -1,0 +1,10 @@
+[[Category:Artificial neural network]]
+An '''artificial neuron''' is an elementary computational unit in an [[artificial neural network (ANN)]], loosely inspired by [[biological neuron]]s.<ref>{{#cite:Q3074}}</ref>
+
+== Mathematical representation ==
+
+{{#content:Q3075}}
+
+== Training ==
+
+During training of an [[artificial neural network (ANN)]], weights and bias of each artificial neuron is adjusted to achieve desired output behaviour.<ref>{{#cite:Q3074}}</ref>
