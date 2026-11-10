@@ -1344,6 +1344,12 @@
       "sha256": "6768476ebfdd87fd2e08dc882a135e75023538e741228c6afcee743c991b9a3a",
       "synced_at": "2026-10-31T16:35:43+00:00"
     },
+    "Common sense": {
+      "path": "Main/Common sense.wiki",
+      "revid": 15052,
+      "sha256": "fd73276a505f8123236aa4665afed66ab89f00d93b517877c0a0703ef3de3211",
+      "synced_at": "2026-11-10T08:14:04+00:00"
+    },
     "Comoving": {
       "path": "Main/Comoving.wiki",
       "revid": 12293,
@@ -1373,6 +1379,12 @@
       "revid": 12849,
       "sha256": "df6852ed083cb26bafbb8c70988e9d92c849860c71c1b5b839d204206cccb598",
       "synced_at": "2026-11-05T04:11:50+00:00"
+    },
+    "Conceptual analysis": {
+      "path": "Main/Conceptual analysis.wiki",
+      "revid": 15054,
+      "sha256": "f0a4b63ab387049def553e4b40b336508575bac30431d52ba049fe09b6aac735",
+      "synced_at": "2026-11-10T08:14:04+00:00"
     },
     "Conditional probability": {
       "path": "Main/Conditional probability.wiki",
@@ -1668,6 +1680,12 @@
       "sha256": "fdfdfb177df7267e7abde5639799677444c00736d805b5881a645a349a2f9a12",
       "synced_at": "2026-11-04T08:25:56+00:00"
     },
+    "Experimental philosophy": {
+      "path": "Main/Experimental philosophy.wiki",
+      "revid": 15056,
+      "sha256": "2be19b7545fe53beb822965739aab7e9e6acfdc581c5614d90c2d3fa4bdac4d3",
+      "synced_at": "2026-11-10T08:14:04+00:00"
+    },
     "FOSS:BuildKit": {
       "path": "FOSS/BuildKit.wiki",
       "revid": 6139,
@@ -1931,6 +1949,12 @@
       "revid": 13207,
       "sha256": "62a5a10c23ee806b7ef65d0479e7f8ec8a2c2f3a2cb6893ed09f34e4bb98ac6f",
       "synced_at": "2026-11-07T16:09:43+00:00"
+    },
+    "Historical review (philosophy)": {
+      "path": "Main/Historical review (philosophy).wiki",
+      "revid": 15049,
+      "sha256": "f61927189e45be96bba8b1e8821e390976f23cbda773f57a30d10e34bd7aa3de",
+      "synced_at": "2026-11-10T08:14:04+00:00"
     },
     "Historiography": {
       "path": "Main/Historiography.wiki",
@@ -3113,6 +3137,12 @@
       "revid": 8224,
       "sha256": "539d7a9867c4fe2bbb7db63ac32127fc3c4699691d0c0aee3f76232bd63d1786",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Person:Galileo Galilei": {
+      "path": "Person/Galileo Galilei.wiki",
+      "revid": 15064,
+      "sha256": "6df1295b8e5ef015c9d9c2a277178e2481cdd98c4b410d518113ac02e83740e0",
+      "synced_at": "2026-11-10T08:14:04+00:00"
     },
     "Person:Geneviève HOINARD-MUSSOT": {
       "path": "Person/Geneviève HOINARD-MUSSOT.wiki",
@@ -4358,9 +4388,9 @@
     },
     "Philosophy": {
       "path": "Main/Philosophy.wiki",
-      "revid": 13189,
-      "sha256": "a4815481c3d4c57eb463ac84560313c5d4fe2f5cd03ef9279f357a1c2e3a82d6",
-      "synced_at": "2026-11-07T15:08:12+00:00"
+      "revid": 15059,
+      "sha256": "78658b52b8156a0e9a21611df8ef49fefac6202f0ec6b1e5e48ad9625fe00be0",
+      "synced_at": "2026-11-10T08:14:04+00:00"
     },
     "Physics": {
       "path": "Main/Physics.wiki",
@@ -7080,6 +7110,12 @@
       "sha256": "10681a31877877c0bbbc9def9ea45b78d845af0472aa5ff353601d58c23e61aa",
       "synced_at": "2026-11-03T13:10:55+00:00"
     },
+    "Thought experiment": {
+      "path": "Main/Thought experiment.wiki",
+      "revid": 15067,
+      "sha256": "0582dc6c87d00fafb61dcc55ffb6696063a11b49f92c649d4edfb72a4be48b7b",
+      "synced_at": "2026-11-10T08:14:04+00:00"
+    },
     "Total energy": {
       "path": "Main/Total energy.wiki",
       "revid": 12339,
@@ -7189,6 +7225,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-10T07:49:28+00:00",
+  "updated": "2026-11-10T08:14:04+00:00",
   "version": 1
 }

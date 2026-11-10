@@ -1,0 +1,14 @@
+[[Category:Philosophical method]][[Category:Scientific method]]
+'''Thought experiments''' concretise abstract ideas and their implications via imaginary scenarios. 
+
+== Application ==
+
+=== Invalidation of hypothesis ===
+
+An thought experiment can often be used to invalidate a hypothesis, if a contradiction or an otherwise absurd conclusion can be drawn from an imaginary scenario<ref>{{#cite:Q1837}}</ref>
+
+A famous thought experiment is performed by [[Person:Galileo Galilei|Galileo Galilei]] to invalidate the historical hypothesis that heavier objects fall faster from height:
+
+<blockquote>
+{{#content:Q3069}}
+</blockquote>
