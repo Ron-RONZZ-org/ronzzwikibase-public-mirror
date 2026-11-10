@@ -1,4 +1,4 @@
-[[Category:Proper name]]
+[[Category:Proper name]][[Category:Indicator function]]
 An [[indicator function]] used to select or compare indices.
 
 == Mathematical definition ==

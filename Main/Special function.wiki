@@ -1,6 +1,2 @@
+[[Category:Special function]]
 In [[mathematics]], '''special functions''' are mathematical [[function]]s that are frequently employed to solve mathematical problems.
-
-== Categories ==
-
-* [[Coding function]]s
-* [[Indicator function]]s.

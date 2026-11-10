@@ -1,3 +1,4 @@
+[[Category:Indicator function]]
 An '''indicator function''' selects elements based on specific criteria.
 
 == General form ==

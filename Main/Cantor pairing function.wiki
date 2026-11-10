@@ -1,4 +1,4 @@
-[[Category:Proper name]]
+[[Category:Proper name]][[Category:Coding function]]
 The '''Cantor pairing function''' [[function#Formal_definition|bijectively]] maps ordered pairs of natural numbers to natural numbers.
 
 $$

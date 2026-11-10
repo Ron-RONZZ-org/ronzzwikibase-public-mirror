@@ -152,9 +152,9 @@
     },
     "Cantor pairing function": {
       "path": "Main/Cantor pairing function.wiki",
-      "revid": 11576,
-      "sha256": "dee820cbcaaeb8a60cfbc341820e41728e8b47c136bc59adb16870fabcb762dd",
-      "synced_at": "2026-10-28T15:50:21+00:00"
+      "revid": 15108,
+      "sha256": "340033464cb0ddb7e2d231de6cc5eee6dabb28b9a91851f0784c4c43e440f19c",
+      "synced_at": "2026-11-10T09:49:21+00:00"
     },
     "Cauchy-Schwarz inequality": {
       "path": "Main/Cauchy-Schwarz inequality.wiki",
@@ -326,9 +326,9 @@
     },
     "Coding function": {
       "path": "Main/Coding function.wiki",
-      "revid": 11577,
-      "sha256": "223ba9977e84eb253e0454bf782b02e15fd39c4bdf266bec9fc1e48418101790",
-      "synced_at": "2026-10-28T15:50:21+00:00"
+      "revid": 15110,
+      "sha256": "49f534419418e1549fa8fc37ce9d657e1492a45e310d1063eae9146b72e68e96",
+      "synced_at": "2026-11-10T09:49:21+00:00"
     },
     "Cognitive bias": {
       "path": "Main/Cognitive bias.wiki",
@@ -1682,9 +1682,9 @@
     },
     "Experimental philosophy": {
       "path": "Main/Experimental philosophy.wiki",
-      "revid": 15056,
-      "sha256": "2be19b7545fe53beb822965739aab7e9e6acfdc581c5614d90c2d3fa4bdac4d3",
-      "synced_at": "2026-11-10T08:14:04+00:00"
+      "revid": 15112,
+      "sha256": "a507e17c462b6aae003717cab9fd1c5aaf85ada0324734484b592b5550dc6082",
+      "synced_at": "2026-11-10T09:49:21+00:00"
     },
     "FOSS:BuildKit": {
       "path": "FOSS/BuildKit.wiki",
@@ -2078,9 +2078,9 @@
     },
     "Indicator function": {
       "path": "Main/Indicator function.wiki",
-      "revid": 11580,
-      "sha256": "5e067f62cdccfc8d7d28bdd04f6c05f7369bce421d1f75ffdc3d1fb11ca7d299",
-      "synced_at": "2026-10-28T15:50:21+00:00"
+      "revid": 15104,
+      "sha256": "df9adabcf43f2d23069dd547f03a9df82605341a89ded30925b911a0c610e8d4",
+      "synced_at": "2026-11-10T09:49:21+00:00"
     },
     "Individual autonomy": {
       "path": "Main/Individual autonomy.wiki",
@@ -2174,9 +2174,9 @@
     },
     "Kronecker delta function": {
       "path": "Main/Kronecker delta function.wiki",
-      "revid": 11579,
-      "sha256": "dd0d2ccb424d225c0adc56c1dd6c686878814ca18f6bf797815c4cc436e9a530",
-      "synced_at": "2026-10-28T15:50:21+00:00"
+      "revid": 15106,
+      "sha256": "904be949b0c54113852b0504f999f99cc8b969096e78b4dfe3e040248d8a37f7",
+      "synced_at": "2026-11-10T09:49:21+00:00"
     },
     "LLM": {
       "path": "Main/LLM.wiki",
@@ -4394,9 +4394,9 @@
     },
     "Philosophy": {
       "path": "Main/Philosophy.wiki",
-      "revid": 15079,
-      "sha256": "0f41b012e5f2d96bb6daea97d5e61b2c31b7380101170d8357353b7f344b92ae",
-      "synced_at": "2026-11-10T08:25:51+00:00"
+      "revid": 15111,
+      "sha256": "4c425d6a3c229935521b1a6263bd55c929f393a038f2828323126652f5bffbe5",
+      "synced_at": "2026-11-10T09:49:21+00:00"
     },
     "Physics": {
       "path": "Main/Physics.wiki",
@@ -7016,9 +7016,9 @@
     },
     "Special function": {
       "path": "Main/Special function.wiki",
-      "revid": 11554,
-      "sha256": "6b0bf7ab7a67dcb5e389d71c112eade31f9327b98db4c151197e246771bd81e5",
-      "synced_at": "2026-10-28T13:49:51+00:00"
+      "revid": 15102,
+      "sha256": "6273e6ce58766ef4c47aaacc256e28aec6fb724a632b11f4bdf229332f6e6e64",
+      "synced_at": "2026-11-10T09:49:21+00:00"
     },
     "Squeeze theorem": {
       "path": "Main/Squeeze theorem.wiki",
@@ -7249,6 +7249,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-10T09:35:50+00:00",
+  "updated": "2026-11-10T09:49:21+00:00",
   "version": 1
 }

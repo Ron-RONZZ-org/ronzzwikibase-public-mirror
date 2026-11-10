@@ -1,3 +1,4 @@
+[[Category:Coding function| ]]
 A coding function encodes and decodes data into a specific format.
 
 $$
