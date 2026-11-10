@@ -15,18 +15,7 @@ Gradient descent finds a value of $\vec x_n$ s.t $f_\text{min}=f(\vec x_n)$.
 
 === Process ===
 
-Start with a reasonable guess $\vec x_0$ and iteratively updates according to the rule:
-
-$$
-\vec x_{t+1} = \vec x_t - \eta \nabla f(\vec x_t)
-$$
-
-until $\nabla f(\vec x_n) \to \vec 0$, then $\vec x=\vec x_n$ is a '''local minimum''' of $f$.
-
-where:
-*   $\vec x_t$ is the value of the $t^\text{th}$ iteration.
-*   $\eta \in (0,1)$ is the '''learning rate'''
-*   $\nabla f(\vec x_t)$ is the gradient of the function at $\vec x_t$.
+{{#content:Q3098}}
 
 <blockquote>
 '''Why $-\nabla f$''': The gradient $\nabla f$ points in the direction of the steepest ascent. To minimise the function, move in the opposite direction for the steepest descent. 
@@ -35,6 +24,20 @@ where:
 <blockquote>
 Gradient descent is most useful for complex functions. For simple functions setting directly $\eta \nabla f(\vec x)=0$ and solve for $\vec x$ finds local extremum candidates. Evaluate $f$ at all candidate points and take the lowest value to obtain the global minimum of $f$, which is simpler and more accurate.
 </blockquote>
+
+=== Aggregation ===
+
+If 
+
+$$
+f=\sum_{i \in I} f_i
+$$
+
+then
+
+$$
+\vec x_{t+1} = \vec x_t - \sum_{i \in I} \eta \nabla f_i(\vec x_t)
+$$
 
 == Mathematical example ==
 
