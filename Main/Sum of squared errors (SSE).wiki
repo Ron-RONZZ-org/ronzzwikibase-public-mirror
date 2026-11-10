@@ -1,0 +1,16 @@
+[[Category:Regression analysis]]
+'''Sum of squared errors''' ('''SSE''') is the sum of the squares of the [[errors and residuals|residuals]] between observed values and fitted values.
+
+== Definition ==
+
+{{#content:Q3085}}
+
+Thus
+
+$$
+\mathrm{SSE}\ge 0,
+\qquad
+\mathrm{SSE}=0
+\iff
+\forall i\in\{1,\dots,n\},\ y_i=\hat y_i.
+$$

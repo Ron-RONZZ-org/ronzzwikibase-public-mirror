@@ -4608,6 +4608,12 @@
       "sha256": "6c6529e7308ac26dcb18d127e132758c2c2f6c82e03e69ae40cc93e5ff2c3b32",
       "synced_at": "2026-10-19T12:24:06+00:00"
     },
+    "SSE": {
+      "path": "Main/SSE.wiki",
+      "revid": 15148,
+      "sha256": "69b7434e4d18de1a50269ee6ae7c0bf29dc78d16de25f56f73825e6d76374e0c",
+      "synced_at": "2026-11-10T11:49:12+00:00"
+    },
     "Sandbox:Temp": {
       "path": "Main/Sandbox_Temp.wiki",
       "revid": 9882,
@@ -7122,6 +7128,12 @@
       "sha256": "2259286b43b03d3ffbf8939c8403a5bb4840ea9717f9e9f7a9395415aadef21a",
       "synced_at": "2026-10-31T19:35:59+00:00"
     },
+    "Sum of squared errors (SSE)": {
+      "path": "Main/Sum of squared errors (SSE).wiki",
+      "revid": 15151,
+      "sha256": "4b9d91e7b8015b1a98ebf8b14157c88220765261f185bd92339094ade88b4dc3",
+      "synced_at": "2026-11-10T11:49:12+00:00"
+    },
     "Supplementary vector subspaces": {
       "path": "Main/Supplementary vector subspaces.wiki",
       "revid": 14681,
@@ -7291,6 +7303,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-10T11:35:46+00:00",
+  "updated": "2026-11-10T11:49:12+00:00",
   "version": 1
 }
