@@ -1,0 +1,4 @@
+[[Category:Philosophical method]]
+'''Reflective equilibrium''' is an iterative approach to refine general philosophical principles, rules, and theories via judgements on particular cases.<ref>{{#cite:Q1837}}</ref>
+
+For instance, to answer the philosophical question "Is lying wrong?", one may start with the hypothesis that "lying is always wrong", then refine it via a particular case: lying to Nazi troops rounding up Jewish people at the door about the presence of Jewish refugees in one's home can be morally justified, therefore, "lying is wrong, except when it is necessary to prevent harm".

@@ -13,7 +13,7 @@ The main branches of philosophy includes:<ref>{{#cite:Q1834}}</ref>
 
 == Philosophical methods ==
 
-* [[Historical review]]
+* [[Historical review (philosophy)]]
 * [[Intuition]]
 * [[Common sense]]
 * [[Conceptual analysis]]
@@ -24,4 +24,4 @@ The main branches of philosophy includes:<ref>{{#cite:Q1834}}</ref>
 * [[Logic]]
 * [[Thought experiment]]
 * [[Reflective equilibrium]]
-* [[Critical analysis]]
+* [[Critical thinking]]

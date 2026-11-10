@@ -1346,9 +1346,9 @@
     },
     "Common sense": {
       "path": "Main/Common sense.wiki",
-      "revid": 15052,
-      "sha256": "fd73276a505f8123236aa4665afed66ab89f00d93b517877c0a0703ef3de3211",
-      "synced_at": "2026-11-10T08:14:04+00:00"
+      "revid": 15072,
+      "sha256": "6321e173379bc4e2b34db49258a3f192757fc1444252d241a0befc7fd04226cb",
+      "synced_at": "2026-11-10T08:25:51+00:00"
     },
     "Comoving": {
       "path": "Main/Comoving.wiki",
@@ -1382,9 +1382,9 @@
     },
     "Conceptual analysis": {
       "path": "Main/Conceptual analysis.wiki",
-      "revid": 15054,
-      "sha256": "f0a4b63ab387049def553e4b40b336508575bac30431d52ba049fe09b6aac735",
-      "synced_at": "2026-11-10T08:14:04+00:00"
+      "revid": 15073,
+      "sha256": "5d58fccda9893cdc252d6e1bca9882ad82c1def0806542d457803c24df41fd1b",
+      "synced_at": "2026-11-10T08:25:51+00:00"
     },
     "Conditional probability": {
       "path": "Main/Conditional probability.wiki",
@@ -1460,9 +1460,9 @@
     },
     "Critical thinking": {
       "path": "Main/Critical thinking.wiki",
-      "revid": 13218,
-      "sha256": "0bd7d4263e3770c603bac21dd37242fc368090f3854024d90e36560a9eecc149",
-      "synced_at": "2026-11-07T16:09:43+00:00"
+      "revid": 15078,
+      "sha256": "bfeb14c8a0c2545a632deab50090e7e123f6c9545c541d25133d9aa2a5c2e632",
+      "synced_at": "2026-11-10T08:25:51+00:00"
     },
     "Cross product": {
       "path": "Main/Cross product.wiki",
@@ -1952,9 +1952,9 @@
     },
     "Historical review (philosophy)": {
       "path": "Main/Historical review (philosophy).wiki",
-      "revid": 15049,
-      "sha256": "f61927189e45be96bba8b1e8821e390976f23cbda773f57a30d10e34bd7aa3de",
-      "synced_at": "2026-11-10T08:14:04+00:00"
+      "revid": 15070,
+      "sha256": "5326f51a66e938c3c758364735d3a3f913155c4188c60ca0a20b5638c2685174",
+      "synced_at": "2026-11-10T08:25:51+00:00"
     },
     "Historiography": {
       "path": "Main/Historiography.wiki",
@@ -2156,9 +2156,9 @@
     },
     "Intuition": {
       "path": "Main/Intuition.wiki",
-      "revid": 15046,
-      "sha256": "f31a9d5671e7517e6916b8d393964ea37ebfaf4ca02bddf0dad5c0ba09f742aa",
-      "synced_at": "2026-11-10T07:49:28+00:00"
+      "revid": 15071,
+      "sha256": "cbf4a9992a0204865a7cbd80afd13a69e90b6154b43fc745f55c564eb5eefb08",
+      "synced_at": "2026-11-10T08:25:51+00:00"
     },
     "Jacobian matrix": {
       "path": "Main/Jacobian matrix.wiki",
@@ -4388,9 +4388,9 @@
     },
     "Philosophy": {
       "path": "Main/Philosophy.wiki",
-      "revid": 15059,
-      "sha256": "78658b52b8156a0e9a21611df8ef49fefac6202f0ec6b1e5e48ad9625fe00be0",
-      "synced_at": "2026-11-10T08:14:04+00:00"
+      "revid": 15079,
+      "sha256": "0f41b012e5f2d96bb6daea97d5e61b2c31b7380101170d8357353b7f344b92ae",
+      "synced_at": "2026-11-10T08:25:51+00:00"
     },
     "Physics": {
       "path": "Main/Physics.wiki",
@@ -4493,6 +4493,12 @@
       "revid": 12305,
       "sha256": "6c2b3e340da2b68e710d1b86469b5e289d123d723a1e970df656959f156bf919",
       "synced_at": "2026-11-02T11:49:38+00:00"
+    },
+    "Reflective equilibrium": {
+      "path": "Main/Reflective equilibrium.wiki",
+      "revid": 15074,
+      "sha256": "1d15abdd1e2f8d917d7a53e653c2563a9c44af101e7578a492f8a7e43844d876",
+      "synced_at": "2026-11-10T08:25:51+00:00"
     },
     "Relativistic propagation equation of light": {
       "path": "Main/Relativistic propagation equation of light.wiki",
@@ -7225,6 +7231,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-10T08:14:04+00:00",
+  "updated": "2026-11-10T08:25:51+00:00",
   "version": 1
 }

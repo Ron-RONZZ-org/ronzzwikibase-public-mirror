@@ -1,4 +1,4 @@
-[[Category:Critical thinking]]
+[[Category:Critical thinking]][[Category:Philosophical method]]
 [[File:Critical thinking.png|thumbnail|Think critically to avoid being misled.]]
 '''Critical thinking''' is the practice of carefully analysing
 
@@ -13,3 +13,28 @@ to
 * avoid being misled
 
 <ref>{{#cite:Q2791}}</ref>
+
+== Applications ==
+
+=== In [[philosophy]] ===
+
+==== Necessity ====
+
+* Philosophical ideas are often imperfect
+** they may be valid in some scenarios, but not others. 
+* Generalisations or further inferences may lead to uncomfortable conclusions
+* Many philosophical answers may have been proposed on the same topic, each with its strength and weaknesses. 
+** The best understanding is often via a combination of multiple perspectives and models.
+
+<ref>{{#cite:Q1837}}</ref>
+
+==== Method ====
+
+===== Considering logical consequences =====
+
+For instance:
+
+* '''Idea to critically analyse''': past events fully determine the future.
+* '''Logical consequence to consider''': free will is an illusion.
+
+<ref>{{#cite:Q1837}}</ref>
