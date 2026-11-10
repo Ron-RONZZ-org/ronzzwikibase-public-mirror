@@ -4008,6 +4008,12 @@
       "sha256": "13ca8e8ae93125747f9d055233c0bc718459660f450205e418c8c2714fae7001",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:Randall Munroe": {
+      "path": "Person/Randall Munroe.wiki",
+      "revid": 15157,
+      "sha256": "dd9cf9de1850c0b91cd830da39b569fd6e2f75e749f91ea09288b3c7bc293ccd",
+      "synced_at": "2026-11-10T12:14:23+00:00"
+    },
     "Person:Rasmus Rosa": {
       "path": "Person/Rasmus Rosa.wiki",
       "revid": 11563,
@@ -7050,6 +7056,12 @@
       "sha256": "b08ffcbb9ffb1cb5494a216b542e1d967c2a133b484a371ab566a329ec61dbbb",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Xkcd (Website)": {
+      "path": "Source/Xkcd (Website).wiki",
+      "revid": 15161,
+      "sha256": "d0f7e0783fe8263559885ad2622d54244d89a1c5db140b1f6553866e6a46fd76",
+      "synced_at": "2026-11-10T12:14:23+00:00"
+    },
     "Spatial curvature parameter": {
       "path": "Main/Spatial curvature parameter.wiki",
       "revid": 12353,
@@ -7303,6 +7315,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-10T11:49:12+00:00",
+  "updated": "2026-11-10T12:14:23+00:00",
   "version": 1
 }
