@@ -10,6 +10,7 @@ A '''token''' is an elementary unit of data used by a [[machine learning]] model
 Three primary granularities:
 
 * '''Word tokens''': 1 word = 1 token
+** [[File:Word tokens.png|300px]]
 ** Advantage
 *** Intuitive
 ** Problem
@@ -23,5 +24,6 @@ Three primary granularities:
 *** Loses semantic information
 *** Produces long sequences
 * '''Subword tokens''': Words are decomposed into smaller, meaningful units (e.g, morphemes or frequent character $n$-grams)
+** [[File:Sub-word tokens.png|500px]]
 ** Balancing between semantic information preservation and vocabulary size
 ** Dominant approach in modern [[large language model (LLM)]]

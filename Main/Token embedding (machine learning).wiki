@@ -1,6 +1,7 @@
 [[Category:Token]]
 [[File:Sub-word token embedding.png|thumbnail|350px|A visual representation of embedding of sub-word tokens in [[natural language processing (NLP)]].]]
 [[File:Embedding space.png|thumbnail|350px|Each dimension of an '''embedding space''' encodes some semantic meaning. As such, words with similar meanings are spatially adjacent to each other.]]
+[[File:Token embedding 2.png|thumbnail|350px|Since each dimension encodes some semantic meaning, vector addition/subtraction can add/extract meaning to tokens and relate them to other tokens.]]
 Let $t_i \in T$ be [[token (machine learning)|token]]s obtained from [[tokenisation (machine learning)|tokenisation]] of raw data.
 
 Let $\mathbb{E}\equiv \mathbb{R}^n$ be a [[vector space]].
