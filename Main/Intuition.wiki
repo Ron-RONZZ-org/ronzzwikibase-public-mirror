@@ -1,3 +1,4 @@
+[[Category:Philosophy]] [[Category:Psychology]]
 [[philosophy|Philosophically]], applying '''intuition''' means trusting that what seems "obviously true" to us, such as "2+2=4" is actually true.<ref>{{#cite:Q1837}}</ref>
 
 <blockquote>
@@ -6,4 +7,4 @@
 
 == Limitations ==
 
-The accuracy of human intuition is limited by human [[cognitive bias|cognitive biases]], which may be a result of applying [[heuristic]]s.
+The accuracy of human intuition is limited by human [[cognitive bias|cognitive biases]], which may be a result of applying [[heuristic]]s or [[naive empiricism]].
