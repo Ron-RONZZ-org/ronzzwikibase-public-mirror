@@ -210,6 +210,12 @@
       "sha256": "854febf652b8fc8e6530635fd68a90864b7d81e52f7a9cd18ea03b74816a5e0f",
       "synced_at": "2026-11-01T18:10:52+00:00"
     },
+    "Chain rule (differentiation)": {
+      "path": "Main/Chain rule (differentiation).wiki",
+      "revid": 15261,
+      "sha256": "f22b8dd8e33129e03401b00e242a694dab8e238175a05bcb944c4aff1614eef4",
+      "synced_at": "2026-11-10T18:10:45+00:00"
+    },
     "Cheatsheet:DesktopLinux": {
       "path": "Cheatsheet/DesktopLinux.wiki",
       "revid": 10392,
@@ -1577,6 +1583,12 @@
       "revid": 8814,
       "sha256": "3138a77ff1bdddd03555bdbf8b92c21577c4ae849567aa4cbad478e144816702",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Differentiation rule": {
+      "path": "Main/Differentiation rule.wiki",
+      "revid": 15260,
+      "sha256": "383024708a44bed49f175420aeeef326edbff593b2bf896379f8575a3f00313e",
+      "synced_at": "2026-11-10T18:10:45+00:00"
     },
     "Diffusion MRI (dMRI)": {
       "path": "Main/Diffusion MRI (dMRI).wiki",
@@ -7375,6 +7387,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-10T17:35:41+00:00",
+  "updated": "2026-11-10T18:10:45+00:00",
   "version": 1
 }

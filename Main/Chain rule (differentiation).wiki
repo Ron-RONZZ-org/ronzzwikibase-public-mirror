@@ -1,0 +1,116 @@
+[[Category:Differentiation rule]]
+'''Chain rule''' is a fundamental rule in [[differentiation]] regarding the derivative of [[function#Composition|composite functions]].
+
+== Statement ==
+
+If $f:U\to V$ and $g:V\to W$ are [[differentiable function]]s, and $U,V,W \in \mathbb{R}$.
+
+Then the composition $f\circ g$ is differentiable, and its derivative is given by
+
+$$
+\frac{d}{dx}(f\circ g)(x) = \frac{df}{du}\frac{du}{dx}.
+$$
+
+where $u=g(x)$.
+
+{{Hidden proof}}
+Let $g$ be differentiable at $x$ and $f$ differentiable at $g(x)$. Define
+
+$$
+h(x) = f(g(x)).
+$$
+
+Then
+
+$$
+\frac{dh}{dx} = \lim_{\Delta x\to 0} \frac{f(g(x+\Delta x))-f(g(x))}{\Delta x}.
+$$
+
+Write $\Delta u = g(x+\Delta x)-g(x)$. Since $g$ is continuous at $x$, $\Delta u\to 0$ as $\Delta x\to 0$. Thus
+
+$$
+\frac{dh}{dx} = \lim_{\Delta x\to 0} \frac{f(g(x)+\Delta u)-f(g(x))}{\Delta u}\cdot \frac{\Delta u}{\Delta x}.
+$$
+
+By the differentiability of $f$ at $g(x)$ and $g$ at $x$,
+
+$$
+\frac{dh}{dx} = \left.\frac{df}{du}\right|_{u=g(x)}\frac{dg}{dx}(x).
+$$
+{{End hidden}}
+
+== Multivariable generalisation ==
+
+For a scalar function $f:\mathbb{R}^n\to\mathbb{R}$ and a vector-valued function $\vec{r}:\mathbb{R}\to\mathbb{R}^n$, the chain rule becomes
+
+$$
+\frac{d}{dt} f(\vec{r}(t)) = \nabla f(\vec{r}(t))\cdot \dot{\vec{r}}(t).
+$$
+
+== Examples ==
+
+=== Single variable examples ===
+
+1.
+{{Hidden example}}
+Differentiate $y=(x^2+1)^3$. 
+
+'''Solution''':
+
+Let $u=x^2+1$ s.t. $y=u^3$. 
+
+$$
+\frac{dy}{dx} = \frac{dy}{du}\frac{du}{dx} = 3u^2\cdot 2x = 6x(x^2+1)^2.
+$$
+{{End hidden}}
+
+2.
+{{Hidden example}}
+Differentiate $y=\sin(x^2)$.
+
+'''Solution''':
+
+Let $u=x^2$, s.t. $y=\sin u$.
+
+$$
+\frac{dy}{dx} = \frac{dy}{du}\frac{du}{dx} = \cos u\cdot 2x = 2x\cos(x^2).
+$$
+{{End hidden}}
+
+=== Multivariable examples ===
+
+{{Hidden example}}
+Differentiate $f(x,y)=x^2+y^2$ according to $t$, knowing
+
+$$
+\begin{cases}
+x=t \\
+y=t^2
+\end{cases}
+$$
+
+'''Solution''':
+
+
+$$
+\nabla f = \begin{pmatrix} \frac{\partial f}{\partial x} \\ \frac{\partial f}{\partial y} \end{pmatrix} = \begin{pmatrix} 2x \\ 2y \end{pmatrix}.
+$$
+
+Let $\vec r=(x,y)$, then
+
+$$
+\vec r = (t,t^2).
+$$
+
+So
+
+$$
+\dot{\vec{r}}(t) = \begin{pmatrix} 1 \\ 2t \end{pmatrix}.
+$$
+
+Thus, by chain rule,
+
+$$
+\frac{d}{dt} f(\vec{r}(t)) = \nabla f(\vec{r}(t)) \cdot \dot{\vec{r}}(t) = \begin{pmatrix} 2t \\ 2t^2 \end{pmatrix} \cdot \begin{pmatrix} 1 \\ 2t \end{pmatrix} = 2t + 4t^3.
+$$
+{{End hidden}}
