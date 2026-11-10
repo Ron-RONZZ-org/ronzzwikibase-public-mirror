@@ -1,0 +1,5 @@
+{{Person}}
+
+== Overview ==
+
+American mathematics educator and creator of the 3Blue1Brown YouTube channel

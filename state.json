@@ -3204,6 +3204,12 @@
       "sha256": "253d7018df41c5cc100e3dfa5d56a13fc83877293063242377b30d4ba09e0e00",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Grant Sanderson": {
+      "path": "Person/Grant Sanderson.wiki",
+      "revid": 15093,
+      "sha256": "8541ada3964b0b44a988accdf8d0f0d2adc2091a50fa86e5bef61207ebfb8101",
+      "synced_at": "2026-11-10T09:35:50+00:00"
+    },
     "Person:H. Raiffa": {
       "path": "Person/H. Raiffa.wiki",
       "revid": 14065,
@@ -4974,6 +4980,12 @@
       "sha256": "a114f01350b4c8d43affa3ca696de54f00b0c6c2207e05acf8347099e4c79d52",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:3Blue1Brown (YouTube channel)": {
+      "path": "Source/3Blue1Brown (YouTube channel).wiki",
+      "revid": 15097,
+      "sha256": "7bd447123e0a545ddc54a8dd2ffa7839940807fb76ad143addcb72bfe0681fbc",
+      "synced_at": "2026-11-10T09:35:50+00:00"
+    },
     "Source:4.1: Deﬁnition of vector spaces (Webpage)": {
       "path": "Source/4.1_ Deﬁnition of vector spaces (Webpage).wiki",
       "revid": 8307,
@@ -5297,6 +5309,12 @@
       "revid": 6174,
       "sha256": "a700e7cb6d2bdebd248caf16ca949f80c6bb7731b6874e43606c213c97cd8ba2",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:But what is a neural network? - Deep learning chapter 1 (YouTube video)": {
+      "path": "Source/But what is a neural network_ - Deep learning chapter 1 (YouTube video).wiki",
+      "revid": 15101,
+      "sha256": "71809083c8a35f36d25413643b49a102729fb080abdc68903db93e5e9053fa37",
+      "synced_at": "2026-11-10T09:35:50+00:00"
     },
     "Source:CK-12 Calculus Concepts (Book)": {
       "path": "Source/CK-12 Calculus Concepts (Book).wiki",
@@ -7231,6 +7249,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-10T08:25:51+00:00",
+  "updated": "2026-11-10T09:35:50+00:00",
   "version": 1
 }
