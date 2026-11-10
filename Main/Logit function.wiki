@@ -1,0 +1,35 @@
+[[Category:Special function]]
+The '''logit function''' is a strictly increasing, real-valued [[function]].
+
+It is the inverse of the [[sigmoid function]].
+
+== Definition ==
+
+$$
+\operatorname{logit}:(0,1)\to\mathbb{R}\\
+\operatorname{logit}(p)=\ln\left(\frac{p}{1-p}\right).
+$$
+
+== Properties ==
+
+=== Limits ===
+
+The logit is strictly increasing, with limits
+
+$$
+\lim_{p\to0^+}\operatorname{logit}(p)=-\infty,
+\qquad
+\lim_{p\to1^-}\operatorname{logit}(p)=+\infty.
+$$
+
+=== Symmetry ===
+
+$$
+\operatorname{logit}(1-p)=-\operatorname{logit}(p).
+$$
+
+=== Derivative ===
+
+$$
+\dot{\operatorname{logit}}(p)=\frac{1}{p(1-p)}.
+$$

@@ -1,0 +1,36 @@
+[[Category:Special function]][[Category:Activation function]]
+[[File:Sigmoid function.png|thumbnail|]]
+The '''sigmoid function''' is a bounded, differentiable, and real-valued [[special function]], commonly used as an [[activation function]] in [[artificial neural network (ANN)|artificial neural networks (ANN)]].
+
+It is the inverse of the [[logit function]].
+
+== Definition ==
+
+$$
+\sigma:\mathbb{R}\to(0,1)\\
+\sigma(x)=\frac{1}{1+e^{-x}}.
+$$
+
+== Properties ==
+
+=== Limits ===
+
+The sigmoid is strictly increasing, with limits
+
+$$
+\lim_{x\to-\infty}\sigma(x)=0,
+\qquad
+\lim_{x\to+\infty}\sigma(x)=1.
+$$
+
+=== Symmetry ===
+
+$$
+\sigma(-x)=1-\sigma(x).
+$$
+
+=== Derivative ===
+
+$$
+\dot{\sigma}(x)=\sigma(x)\bigl(1-\sigma(x)\bigr).
+$$
