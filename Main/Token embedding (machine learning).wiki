@@ -2,6 +2,8 @@
 [[File:Sub-word token embedding.png|thumbnail|350px|A visual representation of embedding of sub-word tokens in [[natural language processing (NLP)]].]]
 [[File:Embedding space.png|thumbnail|350px|Each dimension of an '''embedding space''' encodes some semantic meaning. As such, words with similar meanings are spatially adjacent to each other.]]
 [[File:Token embedding 2.png|thumbnail|350px|Since each dimension encodes some semantic meaning, vector addition/subtraction can add/extract meaning to tokens and relate them to other tokens.]]
+== Embedding and unembedding [[function]]s ==
+
 Let $t_i \in T$ be [[token (machine learning)|token]]s obtained from [[tokenisation (machine learning)|tokenisation]] of raw data.
 
 Let $\mathbb{E}\equiv \mathbb{R}^n$ be a [[vector space]].
@@ -15,10 +17,118 @@ $$
 
 $\mathbb{E}$ is then known as the n-dimensional '''embedding space''' of $\operatorname{E}$, which contains '''embedding vectors''' $\vec e_i$.
 
+Similarly,
+
+$$
+\operatorname{U}: \mathbb{E} \to T \\
+\forall \vec e_i \in \mathbb{E}: \vec e_i \mapsto t_i 
+$$
+
+is the '''unembedding function'''.
+
 == Matrix representation ==
 
-Let $\mathbf{E} \in \mathbb{R}^{|\mathcal{V}| \times n}$ be an '''vector embedding matrix'''.
+=== Embedding matrix ===
+
+Let $\mathbf{W}_E \in \mathbb{R}^{|\mathcal{V}| \times n}$ be a '''vector embedding matrix'''.
 
 $$
-\vec{e}_i = \mathbf{E}[t_i].
+\vec{e}_i = \mathbf{W}_E[t_i].
 $$
+
+=== Unembedding matrix ===
+
+Let $\vec o$ denote the output vector.
+
+Let $\mathbf{W}_U \in \mathbb{R}^{n \times |\mathcal{V}|}$ be a '''vector unembedding matrix'''.
+
+$$
+\mathrm{logits} = \vec o \mathbf{W}_U.
+$$
+
+<blockquote>
+Frenquently, one sets $\mathbf{W}_U=\mathbf{W}_E^T$, a practice known as '''weight-tying'''.
+</blockquote>
+
+== Example ==
+
+{{Hidden example}}
+'''Setup'''
+
+* Vocabulary size $|\mathcal{V}|=4$
+** Tokens: <code>cat</code>, <code>dog</code>, <code>fish</code>, and <code>bird</code>
+* Embedding dimension: $d=3$
+
+'''Embedding matrix $\mathbf{W}_E$''' (shape $4 \times 3$):
+
+{| class="wikitable"
+|-
+! !! dim1 !! dim2 !! dim3
+|-
+| <code>cat</code> || $0.2$ || $0.5$ || $-0.1$
+|-
+| <code>dog</code> || $-0.3$ || $0.1$ || $0.4$
+|-
+| <code>fish</code> || $0.6$ || $-0.2$ || $0.3$
+|-
+| <code>bird</code> || $-0.1$ || $0.4$ || $0.2$
+|}
+
+'''Unembedding matrix (weight-tied) $\mathbf{W}_U = \mathbf{W}_E^\top$''' (shape $3 \times 4$):
+
+{| class="wikitable"
+|-
+! !! <code>cat</code> !! <code>dog</code> !! <code>fish</code> !! <code>bird</code>
+|-
+| dim1 || $0.2$ || $-0.3$ || $0.6$ || $-0.1$
+|-
+| dim2 || $0.5$ || $0.1$ || $-0.2$ || $0.4$
+|-
+| dim3 || $-0.1$ || $0.4$ || $0.3$ || $0.2$
+|}
+
+
+'''Embedding'''
+
+Embed <code>cat</code>
+
+$$
+\vec i = \mathbf{W}_E[1]=[0.2,\ 0.5,\ -0.1]
+$$
+
+'''Unembedding'''
+
+Suppose after some operations, one obtains $\vec o=[-0.42,0.15,0.41]$.
+
+Compute logits:
+
+$$
+\vec \ell = \vec o \mathbf{W}_U \\
+= [-0.42,\ 0.15,\ 0.41] \begin{bmatrix} 0.2 & -0.3 & 0.6 & -0.1 \\ 0.5 & 0.1 & -0.2 & 0.4 \\ -0.1 & 0.4 & 0.3 & 0.2 \end{bmatrix} = [-0.05,\ 0.305,\ -0.159,\ 0.184].
+$$
+
+<blockquote>
+With a weight-tied $\mathbf{W}_U, unembedding is essentially calculating the [[vector dot product]]s $\ell_i$ of output $\vec o$ with the embedding vectors $\mathbf{W}_E[i]$ for each [[token]] $t_i$ in the vocabulary. As $\vec o \cdot \mathbf{W}_E[1] = \| \vec o \| \| \mathbf{W}_E[i] \| cos \theta$, where $\theta$ is the angle between $\vec o$ and $\mathbf{W}_E[i]$, one expects $\ell_i$ to be smaller when the directions of $\vec o$ and $\mathbf{W}_E[i]$ aligns, signifying a higher possibility the model's output predicts token $t_i$.
+</blockquote>
+
+Calculate [[softmax]] probabilities:
+
+$$
+\vec{p} = \text{softmax}(\vec{\ell}) \approx [0.218,\ 0.311,\ 0.196,\ 0.276].
+$$
+
+{| class="wikitable"
+|-
+! Token !! Probability $p_j$
+|-
+| <code>cat</code> || $0.218$
+|-
+| <code>dog</code> || $0.311$
+|-
+| <code>fish</code> || $0.196$
+|-
+| <code>bird</code> || $0.276$
+|}
+
+Thus the model somehow transformed a cat into something that is between a cat, a dog, a fish, and a bird. 
+{{End hidden}}

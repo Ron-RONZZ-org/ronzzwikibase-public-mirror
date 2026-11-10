@@ -7292,9 +7292,9 @@
     },
     "Token embedding (machine learning)": {
       "path": "Main/Token embedding (machine learning).wiki",
-      "revid": 15317,
-      "sha256": "cfb5ecbadcb83a10bb93918f0b965b9092295a636e5c56f5b9ba7df8b20836df",
-      "synced_at": "2026-11-10T20:49:28+00:00"
+      "revid": 15318,
+      "sha256": "1e43ac2d40e9c9e33d7e817c25d29441ac5b66ea329ebcfe9e010739a0401389",
+      "synced_at": "2026-11-10T21:48:51+00:00"
     },
     "Tokenisation (machine learning)": {
       "path": "Main/Tokenisation (machine learning).wiki",
@@ -7417,6 +7417,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-10T20:49:28+00:00",
+  "updated": "2026-11-10T21:48:51+00:00",
   "version": 1
 }
