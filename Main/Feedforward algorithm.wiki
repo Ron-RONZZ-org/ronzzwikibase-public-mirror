@@ -1,0 +1,51 @@
+The '''feedforward algorithm''' is an [[algorithm]] used in a multi-layer [[artificial neural network (ANN)]] to calculate the value of the next layer of [[artificial neuron]]s.
+
+== Mathematical formulation ==
+
+[[File:Layer-layer calculation in ANN.png|thumbnail|]]
+Given an input vector $\vec a^{(0)} \in \mathbb{R}^n$ consisting values of the [[artificial neurons]] of layer 0, a weight matrix $\mathbf{W} \in \mathbb{R}^m \times \mathbb{R}^n$, and a bias vector $\vec b \in \mathbb{R}^m$, the value of the next layer
+
+$$
+\vec a^{(1)} = f(\mathbf{W}\vec a^{(0)} + \vec b)
+$$
+
+Where $f$ is the activation function, often the [[sigmoid function]].
+
+In matrix form:
+
+$$
+\vec a^{(1)} =
+f \left(
+\begin{pmatrix}
+w_{0,0} & w_{0,1} & \cdots & w_{0,n} \\
+w_{1,0} & w_{1,1} & \cdots & w_{1,n} \\
+\vdots & \vdots & \ddots & \vdots \\
+w_{m,0} & w_{m,1} & \cdots & w_{m,n}
+\end{pmatrix}
+\begin{pmatrix}
+a^{(0)}_0 \\
+a^{(0)}_1 \\
+\vdots \\
+a^{(0)}_n
+\end{pmatrix}
++
+\begin{pmatrix}
+b_0 \\
+b_1 \\
+\vdots \\
+b_m
+\end{pmatrix}
+\right)
+$$
+
+== Implementation ==
+
+=== Python ===
+
+<syntaxhighlight lang="python">
+def feedforward(self, a):
+    """Feedforward input vector a to a_1"""
+    for b, w in zip(self.biases, self.weights):
+        a_1 = sigmoid(np.dot(w, a) + b)
+    return a_1
+</syntaxhighlight>

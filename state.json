@@ -12,6 +12,12 @@
       "sha256": "2b02225f82c6d9f764cd410f651c23cc2c3a7d1974ec24d5121634fbb52501bc",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "ANN": {
+      "path": "Main/ANN.wiki",
+      "revid": 15145,
+      "sha256": "8ad8c00115ada744edcd7d4e7e7d8c7927ceb39ec5beea90a3593179dcc2067d",
+      "synced_at": "2026-11-10T11:35:46+00:00"
+    },
     "Aesthetics": {
       "path": "Main/Aesthetics.wiki",
       "revid": 8128,
@@ -1787,6 +1793,12 @@
       "revid": 6652,
       "sha256": "ba425cd273c380d9c238bccb50fff9a0cfdc2bfd238675645bf0e292f4661cb6",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Feedforward algorithm": {
+      "path": "Main/Feedforward algorithm.wiki",
+      "revid": 15143,
+      "sha256": "9071547d4a132ca66a958446e4441927ee974da708c15f01486225df22319579",
+      "synced_at": "2026-11-10T11:35:46+00:00"
     },
     "Fermat's theorem in calculus": {
       "path": "Main/Fermat's theorem in calculus.wiki",
@@ -7279,6 +7291,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-10T11:09:02+00:00",
+  "updated": "2026-11-10T11:35:46+00:00",
   "version": 1
 }
