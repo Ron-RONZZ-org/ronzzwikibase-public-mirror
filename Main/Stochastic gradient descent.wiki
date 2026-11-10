@@ -1,0 +1,37 @@
+[[Category:Gradient descent]]
+[[Category:Artificial neural network]]
+
+'''Stochastic gradient descent''' (SGD) is a variant of [[gradient descent]] that optimises computation for aggregated differentiable objective function by estimating the gradient from a random sample of the data at each iteration. 
+
+It is the standard algorithm used to train [[artificial neural network (ANN)]] models on large datasets.
+
+== Mathematical definition ==
+
+Let
+
+$$
+f=\sum_{i \in I} f_i
+$$
+
+then
+
+$$
+\vec x_{t+1} = \vec x_t - \sum_{i \in I_1 \subset I} \eta \nabla f_i(\vec x_t)
+$$
+
+== Validity ==
+
+[[File:Gradient descrent classic v.png|thumbnail|Classic (left) v. stochastic (right) gradient descent. Classic descent is like an old and wise person taking careful small steps directly towards the goal, while stochastic descent is like a young drunkard stumbling rapidly in the general direction.]]
+The expected value of the sample gradient equals the true gradient, i.e.,
+
+$$
+\mathbb{E}[\sum_{i \in I_1 \subset I} \eta \nabla f_i(\vec x_t)] = \nabla f(\vec W_t).
+$$
+
+Therefore, the stochastic gradient is an unbiased estimator of the true gradient.
+
+== Advantage ==
+
+=== In training [[artificial neural network (ANN)]] ===
+
+Training large ANNs require large datasets with millions of datapoints and thousands of iterations. Calculating the true gradient requires evaluating $f_i$ for each datapoint, which is computationally prohibitive. Stochastic gradient descent significantly reduces computation burden without sacrificing accuracy.
