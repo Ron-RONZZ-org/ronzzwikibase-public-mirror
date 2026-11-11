@@ -1,0 +1,14 @@
+[[Category:Probability]]
+A '''categorical distribution''' is the result distribution of a single draw from a finite set of $K$ mutually exclusive outcomes.
+
+It is parameterised by the '''probability vector'''
+
+$$
+\vec p=(p_1,\dots,p_K),\,  p_i\ge 0,\, \sum_{i=1}^K p_i=1,
+$$
+
+== Interpretation ==
+
+$$
+Y\sim \operatorname{Categorical}(\vec p) \equiv \forall i\in\{1,\dots,K\}: P(Y=i)=p_i.
+$$

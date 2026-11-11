@@ -18,28 +18,42 @@ The performance of LLMs improves predictably with
 
 == Inference ==
 
-Inference produces an output sequence $y_1,\cdots,y_N$ from an input $x$ by drawing on the distribution the model defines over token sequences,
+With [[tokenisation (machine learning)#Definition|token vocabulary]] $\mathcal{V}$, given input $x$, '''inference''' produces output [[token (machine learning)|token]] sequence $y=(y_1,\cdots,y_N) \in \mathcal{V}^N$ chosen probabilistically:
 
 $$
 y\sim P_\theta(\cdot\mid x).
 $$
 
-2 properties hold whatever the architecture. The most probable output is in general unavailable, because it is a maximiser over a space of size $|\mathcal{V}|^{N}$,
+{{Hidden example}}
+With prompt $x=$ `"The capital of France is"`, 3 independent inferences with a typical, well-trained LLM may give:
 
 $$
-y^\star=\arg\max_{y\in\mathcal{V}^{N}}P_\theta(y\mid x),
+y^{(1)}=\texttt{"Paris."},\qquad
+y^{(2)}=\texttt{"Paris, a city on the Seine."},\qquad
+y^{(3)}=\texttt{"Lyon, argued some."}
+$$
+{{End hidden}}
+
+=== Computational limitation ===
+
+The globally most probable output sequence
+$$
+y^\star=\arg\max_{y\in\mathcal{V}^N}P_\theta(y\mid x)
 $$
 
-and that space cannot be enumerated. Models therefore impose a factorisation that lets the sequence be built a piece at a time, the dominant one being the autoregressive chain rule,
+is calculated by a maximiser [[function]] over a space of size $|\mathcal{V}|^N \to \infty$, which cannot be enumerated for long sequences (large $N$). The output sequence must be generated sequentially in smaller steps (e.g., 1 to a few tokens).
 
-$$
-P_\theta(y\mid x)=\prod_{t=1}^{N}P_\theta(y_t\mid x,y_{1:t-1}),
-$$
+=== Typical implementation: sequential next token prediction ===
 
-which replaces 1 intractable search by $N$ tractable draws. Taking the mode at each of those draws is greedy decoding,
-
+[[File:Sequential next-token prediction.png|thumbnail|'''Sequential next token prediction''' starting with prompt <code>the</code> with ChatGPT3.]]
 $$
-\hat{y}_t=\arg\max_{v\in\mathcal{V}}P_\theta(v\mid x,\hat{y}_{1:t-1}),
+\vec{z}_t=f_\theta\left(x,y_{1:t-1}\right)\in\mathbb{R}^{|\mathcal{V}|},\\
+y_t\sim\operatorname{Categorical}\left(\mathrm{softmax}\left(\vec{z}_t\right)\right).
 $$
 
-and it is generally not $y^\star$: the locally most probable token need not begin the globally most probable sequence. The policies for choosing $y$, from beam search to sampling, are treated at [[decoding]], and what a step costs is a property of the architecture rather than of inference, as developed at [[self-attention]] and [[KV caching]].
+where $f_\theta$ is the model [[forward pass (ANN)|forward pass]] with [[parameter state (ANN)|parameter state]] $\theta$, and $\operatorname{Categorical}$ is the [[categorical distribution operator]].
+
+
+<blockquote>
+In '''sequential next token prediction''', the LLM first determines $y_1$ based on $x$, then determines $y_2$ based on $x,y_1$, $y_3$ based on $x,y_1,y_2$, so on so forth.
+</blockquote>

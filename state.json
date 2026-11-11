@@ -192,6 +192,12 @@
       "sha256": "340033464cb0ddb7e2d231de6cc5eee6dabb28b9a91851f0784c4c43e440f19c",
       "synced_at": "2026-11-10T09:49:21+00:00"
     },
+    "Categorical distribution": {
+      "path": "Main/Categorical distribution.wiki",
+      "revid": 15880,
+      "sha256": "b14a7773edbde8437b740e9b61c58343bbc4cb2dfaf892f30cfe9247c0750de5",
+      "synced_at": "2026-11-11T15:09:26+00:00"
+    },
     "Cauchy-Schwarz inequality": {
       "path": "Main/Cauchy-Schwarz inequality.wiki",
       "revid": 8532,
@@ -2312,9 +2318,9 @@
     },
     "Large language model (LLM)": {
       "path": "Main/Large language model (LLM).wiki",
-      "revid": 15702,
-      "sha256": "0e9869af5b726b6884156fb4b92f756df0cda66fa76ff543d0d9cb4313632f97",
-      "synced_at": "2026-11-11T14:10:29+00:00"
+      "revid": 15879,
+      "sha256": "a6ea155b131bc0b3dea90501ba23bccaaf8e1bd20418737921f32d9b15c3c6f5",
+      "synced_at": "2026-11-11T15:09:26+00:00"
     },
     "Law of cosine": {
       "path": "Main/Law of cosine.wiki",
@@ -8060,9 +8066,9 @@
     },
     "Token (machine learning)": {
       "path": "Main/Token (machine learning).wiki",
-      "revid": 15312,
-      "sha256": "8f6951154e8bd591d10e983dfa303c7427f2c3e2ce3c08aaef15c2c7f9199cd0",
-      "synced_at": "2026-11-10T20:49:28+00:00"
+      "revid": 15882,
+      "sha256": "fe1e92f2d2bc71ad28b0765f27c030b5baf73c6b225c1ce8b17c9ba96ce428b6",
+      "synced_at": "2026-11-11T15:09:26+00:00"
     },
     "Token embedding (machine learning)": {
       "path": "Main/Token embedding (machine learning).wiki",
@@ -8191,6 +8197,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-11T14:10:29+00:00",
+  "updated": "2026-11-11T15:09:26+00:00",
   "version": 1
 }
