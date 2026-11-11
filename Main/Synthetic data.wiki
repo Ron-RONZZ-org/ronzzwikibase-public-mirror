@@ -4,13 +4,13 @@
 
 == Motivation ==
 
-Synthetic data is 1 of the 3 routes past the [[data wall]]. Once the [[data wall|available stock]] $D_{\max}$ of human text falls short of the compute-optimal allocation $D_{\text{opt}}(F)$, the shortfall is
+Synthetic data is 1 of the 3 routes past the [[data wall]]. Once the [[data wall|available stock]] $D_{\max}$ of human text falls short of the compute-optimal allocation $D_{\text{opt}}(C)$, the shortfall is
 
 $$
-D_{\text{syn}}=D_{\text{opt}}(F)-D_{\max},
+D_{\text{syn}}=D_{\text{opt}}(C)-D_{\max},
 $$
 
-which grows without bound as $F$ grows, because $D_{\text{opt}}$ rises with compute while $D_{\max}$ does not. Generated data is the only route that increases $D_{\max}$ rather than economising on it.<ref>{{#cite:Q3181}}</ref>
+which grows without bound as $C$ grows, because $D_{\text{opt}}$ rises with compute while $D_{\max}$ does not. Generated data is the only route that increases $D_{\max}$ rather than economising on it.<ref>{{#cite:Q3181}}</ref>
 
 == Recursion ==
 

@@ -18,7 +18,7 @@ The performance of LLMs improves predictably with
 
 == Inference ==
 
-With [[tokenisation (machine learning)#Definition|token vocabulary]] $\mathcal{V}$, given input $x$, '''inference''' produces output [[token (machine learning)|token]] sequence $y=(y_1,\cdots,y_N) \in \mathcal{V}^N$ chosen probabilistically:
+With [[tokenisation (machine learning)#Definition|token vocabulary]] $\mathcal{V}$, given input $x$, '''inference''' produces output [[token (machine learning)|token]] sequence $y=(y_1,\cdots,y_T) \in \mathcal{V}^T$ chosen probabilistically:
 
 $$
 y\sim P_\theta(\cdot\mid x).
@@ -38,10 +38,10 @@ $$
 
 The globally most probable output sequence
 $$
-y^\star=\arg\max_{y\in\mathcal{V}^N}P_\theta(y\mid x)
+y^\star=\arg\max_{y\in\mathcal{V}^T}P_\theta(y\mid x)
 $$
 
-is calculated by a maximiser [[function]] over a space of size $|\mathcal{V}|^N \to \infty$, which cannot be enumerated for long sequences (large $N$). The output sequence must be generated sequentially in smaller steps (e.g., 1 to a few tokens).
+is calculated by a maximiser [[function]] over a space of size $|\mathcal{V}|^T \to \infty$, which cannot be enumerated for long sequences (large $T$). The output sequence must be generated sequentially in smaller steps (e.g., 1 to a few tokens).
 
 === Typical implementation: sequential next token prediction ===
 

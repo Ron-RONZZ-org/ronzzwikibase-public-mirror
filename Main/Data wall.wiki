@@ -4,31 +4,31 @@ The '''data wall''' is the regime in which the supply of high-quality public tex
 
 == Condition ==
 
-Let $D_{\max}$ be the stock of available human-written tokens and $F$ the training compute. The [[Chinchilla prescription]] allocates tokens to a budget as
+Let $D_{\max}$ be the stock of available human-written tokens and $C$ the training compute. The [[Chinchilla prescription]] allocates tokens to a budget as
 
 $$
-D_{\text{opt}}(F)\propto F^{\alpha_N/(\alpha_N+\alpha_D)},
+D_{\text{opt}}(C)\propto C^{\alpha_N/(\alpha_N+\alpha_D)},
 $$
 
-with the 2 exponents of similar size, so that data demand grows roughly as $\sqrt{F}$. Scaling is unconstrained while
+with the 2 exponents of similar size, so that data demand grows roughly as $\sqrt{C}$. Scaling is unconstrained while
 
 $$
-D_{\text{opt}}(F)\le D_{\max},
+D_{\text{opt}}(C)\le D_{\max},
 $$
 
-and the wall is the budget $F_\star$ at which the 2 meet,
+and the wall is the budget $C_\star$ at which the 2 meet,
 
 $$
-F_\star:\quad D_{\text{opt}}(F_\star)=D_{\max}.
+C_\star:\quad D_{\text{opt}}(C_\star)=D_{\max}.
 $$
 
-Since $D_{\text{opt}}$ grows only as $\sqrt{F}$, the wall is reached at
+Since $D_{\text{opt}}$ grows only as $\sqrt{C}$, the wall is reached at
 
 $$
-F_\star\propto D_{\max}^{2},
+C_\star\propto D_{\max}^{2},
 $$
 
-so a 2-fold larger stock of text buys a 4-fold larger budget before the constraint binds. Beyond $F_\star$ the compute-optimal allocation is unavailable, and the loss follows the data-constrained form given at [[Chinchilla prescription]].
+so a 2-fold larger stock of text buys a 4-fold larger budget before the constraint binds. Beyond $C_\star$ the compute-optimal allocation is unavailable, and the loss follows the data-constrained form given at [[Chinchilla prescription]].
 
 == Timing ==
 
@@ -54,6 +54,6 @@ where $R^{\ast}$ is a fitted decay constant. Two consequences follow: up to roug
 
 The 3 routes past the wall are not exclusive, and the loss model treats them jointly:
 
-* more parameters, $N$, which the data-constrained model still rewards;
+* more parameters, $|\theta|$, which the data-constrained model still rewards;
 * [[algorithmic efficiency]], which lowers the compute, and hence the data, needed for a given loss;
 * [[synthetic data]], which extends the stock itself, at the risk of the collapse described there.

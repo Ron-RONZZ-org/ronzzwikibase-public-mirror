@@ -54,7 +54,7 @@ $$
 \max_z\dot\sigma(z)=\dot\sigma(0)=\frac{1}{4},
 $$
 
-so the factor through $L$ layers is at most $4^{-L}$, which is the vanishing-gradient problem. The rectifier avoids the saturation, its derivative being $0$ or $1$ everywhere, at the cost of units that stop responding entirely when their input stays negative.
+so the factor through $N$ layers is at most $4^{-N}$, which is the vanishing-gradient problem. The rectifier avoids the saturation, its derivative being $0$ or $1$ everywhere, at the cost of units that stop responding entirely when their input stays negative.
 
 == Not an activation function ==
 

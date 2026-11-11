@@ -4,16 +4,16 @@
 
 == Effective compute ==
 
-An efficiency factor $A(t)$ is defined by treating algorithmic progress as a multiplier on compute, so that a run of $F$ floating-point operations at time $t$ is equivalent to
+An efficiency factor $A(t)$ is defined by treating algorithmic progress as a multiplier on compute, so that a run of $C$ floating-point operations at time $t$ is equivalent to
 
 $$
-F_{\text{eff}}(t)=A(t)\,F
+C_{\text{eff}}(t)=A(t)\,C
 $$
 
 of an older algorithm. Because the loss is a power law in compute,
 
 $$
-C(F)=aF^{-\alpha},
+L(C)=aC^{-\alpha},
 $$
 
 the same factor lowers the loss by $A^{-\alpha}$, and matching it by compute alone requires $A$ times more of it.
@@ -41,7 +41,7 @@ so algorithms halve the required compute roughly 1.5 times per year, well ahead 
 The 2 multipliers act alike on the loss, and are interchangeable in the power law,
 
 $$
-C=a\left(A(t)\,F\right)^{-\alpha},
+L=a\left(A(t)\,C\right)^{-\alpha},
 $$
 
 so a run is best described by the effective compute it commands rather than by its nominal budget. Faster algorithms do not, however, dominate: despite the pace above, the growth in compute contributed more to overall performance improvements over 2012 to 2023 than algorithmic progress did.<ref>{{#cite:Q3242}}</ref> Algorithmic efficiency therefore shifts the [[large language model (LLM)#Scaling laws|scaling laws]] frontier outwards without replacing the scaling itself.

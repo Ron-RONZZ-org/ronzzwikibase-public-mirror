@@ -20,9 +20,9 @@
     },
     "Activation function": {
       "path": "Main/Activation function.wiki",
-      "revid": 15902,
-      "sha256": "930b8957ba09bffd859eab502ed614ecd310770dae368cefad6d3aab8033582e",
-      "synced_at": "2026-11-11T16:10:55+00:00"
+      "revid": 15920,
+      "sha256": "9b8dbbcb563755c18bd9e03784fdf09f805e917763d0bde06f030ced3cb49bda",
+      "synced_at": "2026-11-11T16:23:27+00:00"
     },
     "Aesthetics": {
       "path": "Main/Aesthetics.wiki",
@@ -32,9 +32,9 @@
     },
     "Algorithmic efficiency": {
       "path": "Main/Algorithmic efficiency.wiki",
-      "revid": 15864,
-      "sha256": "680e318dd38e1a846c542500232e9743f3ef0cffd070515195cf1623cf31b4d3",
-      "synced_at": "2026-11-11T14:10:29+00:00"
+      "revid": 15918,
+      "sha256": "d571dc81538e7928f4738d2c2bc14bb6151c6dc01a9f9ee5de864731e51470f5",
+      "synced_at": "2026-11-11T16:23:27+00:00"
     },
     "Anchor and adjust": {
       "path": "Main/Anchor and adjust.wiki",
@@ -152,9 +152,9 @@
     },
     "Backpropagation": {
       "path": "Main/Backpropagation.wiki",
-      "revid": 15892,
-      "sha256": "fd855bd1c150afb8c2c7bf76924a1ab0c9ca62ec891785239ef1eca78a4b7ef6",
-      "synced_at": "2026-11-11T15:19:38+00:00"
+      "revid": 15929,
+      "sha256": "12fefaac63894de9a4da1fc0e0cd3266a140f7fa0b3cf258d1e4a57a3c5b2a66",
+      "synced_at": "2026-11-11T16:23:27+00:00"
     },
     "Baryon": {
       "path": "Main/Baryon.wiki",
@@ -368,9 +368,9 @@
     },
     "Chinchilla prescription": {
       "path": "Main/Chinchilla prescription.wiki",
-      "revid": 15667,
-      "sha256": "48304b90f3a2b0a95d68869dc68fea45c37b97cfde7eb182410a12c9a8d09318",
-      "synced_at": "2026-11-11T13:35:59+00:00"
+      "revid": 15941,
+      "sha256": "b3075172f23f7651d011b3a93458a78d8cf30e8b63cebea39fd7cc7c74b26a78",
+      "synced_at": "2026-11-11T16:23:27+00:00"
     },
     "Circle": {
       "path": "Main/Circle.wiki",
@@ -1586,9 +1586,9 @@
     },
     "Data wall": {
       "path": "Main/Data wall.wiki",
-      "revid": 15858,
-      "sha256": "ab39711a973553423004c3028303587b96b8b3ae1c0901afc1b6f71c398ddd59",
-      "synced_at": "2026-11-11T14:10:29+00:00"
+      "revid": 15937,
+      "sha256": "9853459f31aae9da0db1cc318c4f9dd134a4315945883698aeebd38ff0552afa",
+      "synced_at": "2026-11-11T16:23:27+00:00"
     },
     "De Morgan's laws": {
       "path": "Main/De Morgan's laws.wiki",
@@ -1928,9 +1928,9 @@
     },
     "Forward pass": {
       "path": "Main/Forward pass.wiki",
-      "revid": 15908,
-      "sha256": "92e264b3801e8a1a11d7496768639c99af864b2dcaf2fd6d058f6a7fd152f6d0",
-      "synced_at": "2026-11-11T16:10:55+00:00"
+      "revid": 15924,
+      "sha256": "1a869e3415084132bb6efa1e4acbb6648d57303749694544bc47536650900bc8",
+      "synced_at": "2026-11-11T16:23:27+00:00"
     },
     "French Literature/fr": {
       "path": "Main/French Literature/fr.wiki",
@@ -2018,9 +2018,9 @@
     },
     "Gradient descent": {
       "path": "Main/Gradient descent.wiki",
-      "revid": 15689,
-      "sha256": "4be5341271b3dc1909bac7f78fbc61efa32637aa2ac39d0e53483728dd081323",
-      "synced_at": "2026-11-11T13:49:28+00:00"
+      "revid": 15935,
+      "sha256": "24b51beb85d69a09526120ee618127dfae39b387e6bae48aa534eeb5ac6b14a9",
+      "synced_at": "2026-11-11T16:23:27+00:00"
     },
     "Gravitational potential energy": {
       "path": "Main/Gravitational potential energy.wiki",
@@ -2318,9 +2318,9 @@
     },
     "Language model loss": {
       "path": "Main/Language model loss.wiki",
-      "revid": 15666,
-      "sha256": "1adbb8d5ce68d3565b62177a8566024e678e97fc08f5e9da6cbc851718c04eac",
-      "synced_at": "2026-11-11T13:35:59+00:00"
+      "revid": 15917,
+      "sha256": "f49009abf86f962610716aa01b1f08d1f7cdf8ea3b4e37e2b0ad3943d3649ea4",
+      "synced_at": "2026-11-11T16:23:27+00:00"
     },
     "Laplace transform": {
       "path": "Main/Laplace transform.wiki",
@@ -2330,9 +2330,9 @@
     },
     "Large language model (LLM)": {
       "path": "Main/Large language model (LLM).wiki",
-      "revid": 15891,
-      "sha256": "328da5248de9f35922402378205e9befe0a330c84cf319adeffacb2074646aa5",
-      "synced_at": "2026-11-11T15:19:38+00:00"
+      "revid": 15940,
+      "sha256": "52a040a6b7c6d7951ef3940245fe91520b6ca81633a8d385a920ed4b25730829",
+      "synced_at": "2026-11-11T16:23:27+00:00"
     },
     "Law of cosine": {
       "path": "Main/Law of cosine.wiki",
@@ -2552,9 +2552,9 @@
     },
     "Model parameters (ANN)": {
       "path": "Main/Model parameters (ANN).wiki",
-      "revid": 15909,
-      "sha256": "9a4a19207eb0f6590d3d8548817bcbc7af838e9ea054c7f10049949e5f8e3b96",
-      "synced_at": "2026-11-11T16:10:55+00:00"
+      "revid": 15942,
+      "sha256": "d57a8a739b1640f2eb12d66462fdb8066e5a3ebb764f831bd7ab7e479ab08e70",
+      "synced_at": "2026-11-11T16:23:27+00:00"
     },
     "Moment of inertia": {
       "path": "Main/Moment of inertia.wiki",
@@ -8048,9 +8048,9 @@
     },
     "Synthetic data": {
       "path": "Main/Synthetic data.wiki",
-      "revid": 15860,
-      "sha256": "2a6114958ed59533ac610941241f0f971ffe8bb5e541bfa6416a4cfdb029e76b",
-      "synced_at": "2026-11-11T14:10:29+00:00"
+      "revid": 15936,
+      "sha256": "18a7dafb3b6230a5632af7b7828b85e210732209163409431cdad5b68d4c04c7",
+      "synced_at": "2026-11-11T16:23:27+00:00"
     },
     "Technology": {
       "path": "Main/Technology.wiki",
@@ -8227,6 +8227,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-11T16:10:55+00:00",
+  "updated": "2026-11-11T16:23:27+00:00",
   "version": 1
 }

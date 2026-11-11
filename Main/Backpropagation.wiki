@@ -4,9 +4,9 @@
 
 == Definition ==
 
-Let $L$ represent the number of layers in the [[artificial neural network (ANN)]], $\vec a^{(0)}$ be the input value.
+Let $N$ represent the number of layers in the [[artificial neural network (ANN)]], $\vec a^{(0)}$ be the input value.
 
-Let $\mathbf{W}^{(l)}, \vec b^{(l)}$ represents [[artificial neuron|'''weights''' and '''biases''']], $\vec z^{(l)}=\mathbf{W}^{(l)}\vec a^{(l-1)}+\vec b^{(l)}, \vec a^{(l)}=\sigma(\vec z^{(l)})$ pre-activation and activation of layer $l=1,\dots,L$ in the [[forward pass]], where $\sigma$ is the [[activation function]].
+Let $\mathbf{W}^{(l)}, \vec b^{(l)}$ represents [[artificial neuron|'''weights''' and '''biases''']], $\vec z^{(l)}=\mathbf{W}^{(l)}\vec a^{(l-1)}+\vec b^{(l)}, \vec a^{(l)}=\sigma(\vec z^{(l)})$ pre-activation and activation of layer $l=1,\dots,N$ in the [[forward pass]], where $\sigma$ is the [[activation function]].
 
 For a single training example $(\vec x,\vec y)$, where $\vec x,\vec y$ are input/expected output respectively, by definition
 
@@ -19,7 +19,7 @@ $$
 Define '''sensitivity''' at layer $l$:
 
 $$
-\delta_j^{(l)}=\frac{\partial C}{\partial z_j^{(l)}}
+\delta_j^{(l)}=\frac{\partial L}{\partial z_j^{(l)}}
 $$
 
 In vector form:
@@ -27,7 +27,7 @@ In vector form:
 $$
 \vec{\delta}^{(l)}
 =
-\nabla_{\vec a^{(l)}}C\odot \dot \sigma (\vec z^{(L)}),
+\nabla_{\vec a^{(l)}}L\odot \dot \sigma (\vec z^{(N)}),
 $$
 
 {{Hidden proof}}
@@ -36,8 +36,8 @@ By the [[chain rule of differentiation]],
 $$
 \delta_j^{(l)}
 = \sum_k
-\frac{\partial C}{\partial a_k^{(L)}}
-\frac{\partial a_k^{(L)}}{\partial z_j^{(L)}}.
+\frac{\partial L}{\partial a_k^{(N)}}
+\frac{\partial a_k^{(N)}}{\partial z_j^{(N)}}.
 $$
 {{End hidden}}
 
@@ -50,7 +50,7 @@ In some textbook, $\delta_j^{(l)}$ is referred to as '''error'''. We discourage 
 By [[#Sensitivity|definition of sensitivity]],
 
 $$
-\vec{\delta}^{(L)}=\nabla_{\vec a^{(L)}}C\odot\sigma'(\vec z^{(L)}).
+\vec{\delta}^{(N)}=\nabla_{\vec a^{(N)}}L\odot\sigma'(\vec z^{(N)}).
 $$
 
 ==== Sensitivity of previous layers ====
@@ -64,7 +64,7 @@ $$
 \right)
 \odot
 \sigma^{\prime}\left(\vec z^{(l)}\right),
-\qquad l=L-1,\dots,1.
+\qquad l=N-1,\dots,1.
 $$
 
 {{Hidden proof}}
@@ -80,9 +80,9 @@ Hence by the chain rule,
 $$
 \begin{aligned}
 \delta_j^{(l)}
-&=\frac{\partial C}{\partial z_j^{(l)}}\\
+&=\frac{\partial L}{\partial z_j^{(l)}}\\
 &=\sum_k
-\frac{\partial C}{\partial z_k^{(l+1)}}
+\frac{\partial L}{\partial z_k^{(l+1)}}
 \frac{\partial z_k^{(l+1)}}{\partial a_j^{(l)}}
 \frac{\partial a_j^{(l)}}{\partial z_j^{(l)}}\\
 &=\sum_k
@@ -103,7 +103,7 @@ $$
 \right)
 \odot
 \sigma^{\prime}\left(\vec z^{(l)}\right),
-\qquad l=L-1,\dots,1.
+\qquad l=N-1,\dots,1.
 $$
 {{End hidden}}
 
@@ -112,12 +112,12 @@ $$
 ==== Biases ====
 
 $$
-\nabla_{\vec b^{(l)}}C=\vec{\delta}^{(l)}.
+\nabla_{\vec b^{(l)}}L=\vec{\delta}^{(l)}.
 $$
 
 {{Hidden proof}}
 $$
-\delta_k^{(l)}=\frac{\partial C}{\partial z_k^{(l)}} \text{ (by definition)}\\
+\delta_k^{(l)}=\frac{\partial L}{\partial z_k^{(l)}} \text{ (by definition)}\\
 \frac{\partial z_k^{(l)}}{\partial b_j^{(l)}}=
 \begin{cases}
 1, & k=j,\\
@@ -128,10 +128,10 @@ $$
 By the [[chain rule of differentiation]],
 
 $$
-\frac{\partial C}{\partial b_j^{(l)}}
+\frac{\partial L}{\partial b_j^{(l)}}
 =
 \sum_{k=0}^{n_l-1}
-\frac{\partial C}{\partial z_k^{(l)}}
+\frac{\partial L}{\partial z_k^{(l)}}
 \frac{\partial z_k^{(l)}}{\partial b_j^{(l)}}
 =
 \delta_j^{(l)}.
@@ -140,14 +140,14 @@ $$
 In vector form,
 
 $$
-\nabla_{\vec b^{(l)}}C=\vec{\delta}^{(l)}.
+\nabla_{\vec b^{(l)}}L=\vec{\delta}^{(l)}.
 $$
 {{End hidden}}
 
 ==== Weights ====
 
 $$
-\nabla_{\mathbf{W}^{(l)}}C
+\nabla_{\mathbf{W}^{(l)}}L
 =
 \vec{\delta}^{(l)}
 \left(\vec a^{(l-1)}\right)^T,
@@ -165,10 +165,10 @@ $$
 By the [[chain rule of differentiation]],
 
 $$
-\frac{\partial C}{\partial W_{ij}^{(l)}}
+\frac{\partial L}{\partial W_{ij}^{(l)}}
 =
 \sum_{k=0}^{n_l-1}
-\frac{\partial C}{\partial z_k^{(l)}}
+\frac{\partial L}{\partial z_k^{(l)}}
 \frac{\partial z_k^{(l)}}{\partial W_{ij}^{(l)}}
 =
 \delta_i^{(l)}a_j^{(l-1)}.
@@ -177,7 +177,7 @@ $$
 In matrix form,
 
 $$
-\nabla_{\mathbf{W}^{(l)}}C
+\nabla_{\mathbf{W}^{(l)}}L
 =
 \vec{\delta}^{(l)}
 \left(\vec a^{(l-1)}\right)^T,
@@ -190,8 +190,8 @@ From [[#Definition]],
 
 $$
 \begin{cases}
-\nabla_{\vec b^{(l)}}C=\vec{\delta}^{(l)},\\
-\nabla_{\mathbf{W}^{(l)}}C=\vec{\delta}^{(l)}\left(\vec a^{(l-1)}\right)^T.
+\nabla_{\vec b^{(l)}}L=\vec{\delta}^{(l)},\\
+\nabla_{\mathbf{W}^{(l)}}L=\vec{\delta}^{(l)}\left(\vec a^{(l-1)}\right)^T.
 \end{cases}
 $$
 
@@ -199,8 +199,8 @@ With training dataset $S$ and sample batch $B \in S$,
 
 $$
 \begin{cases}
-\mathbf{W}^{(l)}\leftarrow\mathbf{W}^{(l)}-\frac{\eta}{|B|}\sum_{x\in B}\nabla_{\mathbf{W}^{(l)}}C_x,\\
-\vec b^{(l)}\leftarrow\vec b^{(l)}-\frac{\eta}{|B|}\sum_{x\in B}\nabla_{\vec b^{(l)}}C_x.
+\mathbf{W}^{(l)}\leftarrow\mathbf{W}^{(l)}-\frac{\eta}{|B|}\sum_{x\in B}\nabla_{\mathbf{W}^{(l)}}L_x,\\
+\vec b^{(l)}\leftarrow\vec b^{(l)}-\frac{\eta}{|B|}\sum_{x\in B}\nabla_{\vec b^{(l)}}L_x.
 \end{cases}
 $$
 
@@ -242,7 +242,7 @@ def backprop(self, x, y):
         activation = sigmoid(z)
         activations.append(activation)
 
-    # --- output layer error (quadratic cost: dC/da = a - y) ---
+    # --- output layer error (quadratic loss: dL/da = a - y) ---
     delta = (activations[-1] - y) * sigmoid_prime(zs[-1])
 
     nabla_b = [np.zeros(b.shape) for b in self.biases]
@@ -279,8 +279,8 @@ def update_mini_batch(self, batch, eta):
         nabla_b = [nb + dnb for nb, dnb in zip(nabla_b, d_nabla_b)]
         nabla_w = [nw + dnw for nw, dnw in zip(nabla_w, d_nabla_w)]
 
-    # W^(l) <- W^(l) - (eta/m) * sum_{x in B} grad_W C_x
-    # b^(l) <- b^(l) - (eta/m) * sum_{x in B} grad_b C_x
+    # W^(l) <- W^(l) - (eta/m) * sum_{x in B} grad_W L_x
+    # b^(l) <- b^(l) - (eta/m) * sum_{x in B} grad_b L_x
     self.weights = [w - (eta / m) * nw for w, nw in zip(self.weights, nabla_w)]
     self.biases  = [b - (eta / m) * nb for b, nb in zip(self.biases,  nabla_b)]
 

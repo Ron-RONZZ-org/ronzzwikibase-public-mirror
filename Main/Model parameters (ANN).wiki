@@ -3,10 +3,10 @@ The '''model parameters''' of an [[artificial neural network (ANN)|neural networ
 
 == Definition ==
 
-For a network of $L$ layers with widths $d_0,\cdots,d_L$, the parameters are the weights and biases of every layer,
+For a network of $N$ layers with widths $d_0,\cdots,d_N$, the parameters are the weights and biases of every layer,
 
 $$
-\theta=\left\{\mathbf{W}^{(l)},\vec b^{(l)}\right\}_{l=1}^{L},
+\theta=\left\{\mathbf{W}^{(l)},\vec b^{(l)}\right\}_{l=1}^{N},
 \qquad
 \mathbf{W}^{(l)}\in\mathbb{R}^{d_l\times d_{l-1}},
 \qquad
@@ -16,10 +16,10 @@ $$
 so the parameter count is
 
 $$
-N=|\theta|=\sum_{l=1}^{L}\left(d_{l-1}d_l+d_l\right).
+|\theta|=\sum_{l=1}^{N}\left(d_{l-1}d_l+d_l\right).
 $$
 
-$N$ is the quantity that the [[large language model (LLM)#Scaling laws|scaling laws]] and the [[Chinchilla prescription]] scale, and the "very large parameter count" that defines a [[large language model (LLM)|large language model]] is this $N$.
+The parameter count $|\theta|$ is the quantity that the [[large language model (LLM)#Scaling laws|scaling laws]] and the [[Chinchilla prescription]] scale, and the "very large parameter count" that defines a [[large language model (LLM)|large language model]] is this count.
 
 == Role in the model ==
 
@@ -33,7 +33,7 @@ so $\theta$ appears as a subscript wherever the output distribution of the model
 
 == Distinction from hyperparameters ==
 
-The number of layers $L$, the widths $d_l$, the [[activation function]] $\sigma$, and the learning rate $\eta$ are '''hyperparameters''': they fix the shape of $\theta$ and the manner of its training, but they are chosen rather than learned.
+The number of layers $N$, the widths $d_l$, the [[activation function]] $\sigma$, and the learning rate $\eta$ are '''hyperparameters''': they fix the shape of $\theta$ and the manner of its training, but they are chosen rather than learned.
 
 == Distinction from state ==
 
@@ -44,7 +44,7 @@ Parameters are not state. They are set during training and do not change while t
 Training is the search for the $\theta$ that minimises the [[language model loss|loss]], and [[gradient descent]] updates it in steps of the form
 
 $$
-\theta_{i+1}=\theta_i-\eta\nabla_\theta C(\theta_i),
+\theta_{i+1}=\theta_i-\eta\nabla_\theta L(\theta_i),
 $$
 
-with [[backpropagation]] supplying $\nabla_\theta C$.
+with [[backpropagation]] supplying $\nabla_\theta L$.

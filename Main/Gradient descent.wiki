@@ -54,7 +54,7 @@ The factor $1/|I|$ is the size of the dataset: without it the sum would weight t
 Find $(x,y)$ that minimises
 
 $$
-C(x,y)=x^2+2y^2+3x-4y+6.
+L(x,y)=x^2+2y^2+3x-4y+6.
 $$
 
 around $(0,0)$.
@@ -62,7 +62,7 @@ around $(0,0)$.
 '''Solution''':
 
 $$
-\nabla C(x,y)=
+\nabla L(x,y)=
 \begin{pmatrix}
 2x+3\\
 4y-4
@@ -81,7 +81,7 @@ $$
 At $(x_0,y_0)=(0,0)$,
 
 $$
-\nabla C(0,0)=
+\nabla L(0,0)=
 \begin{pmatrix}
 3\\
 -4
@@ -102,7 +102,7 @@ $$
 Iterate:
 
 {| class="wikitable"
-! $i$ !! $x_i$ !! $y_i$ !! $\frac{\partial C}{\partial x}(x_i,y_i)$ !! $\frac{\partial C}{\partial y}(x_i,y_i)$
+! $i$ !! $x_i$ !! $y_i$ !! $\frac{\partial L}{\partial x}(x_i,y_i)$ !! $\frac{\partial L}{\partial y}(x_i,y_i)$
 |-
 | 0 || 0 || 0 || 3 || -4
 |-
@@ -164,10 +164,10 @@ As observed, $(x_i,y_i)$ converges toward $(-1.5,1)$. Directly substituting the 
 
 === Training [[artificial neural network (ANN)]] ===
 
-[[File:Trashyard Machine learning.png|thumbnail|In some sense, [[ANN]] training is like stirring up a pile of trash: improvement is made by stirring up the weight&biases matrix ever so slightly according to current gradient, recalculate the new prediction values and new gradient, and stirring up the pile again, so on so forth until finding a $\mathbf{W}_i$ s.t. $\forall k: C_k(\mathbf{W}_i)<C_\text{target}$.]]
-Let $\mathbf{W}$ be the '''weight&biases matrix''' of an [[artificial neural network (ANN)]], $S$ be the '''training data set.''', $C_k(\mathbf{W})$ its '''cost function''' for training data point $s_k \in S$, which measures the error between the model's predictions and the true values in the training set (e.g., [[sum of squared errors (SSE)]]).
+[[File:Trashyard Machine learning.png|thumbnail|In some sense, [[ANN]] training is like stirring up a pile of trash: improvement is made by stirring up the weight&biases matrix ever so slightly according to current gradient, recalculate the new prediction values and new gradient, and stirring up the pile again, so on so forth until finding a $\mathbf{W}_i$ s.t. $\forall k: L_k(\mathbf{W}_i)<L_\text{target}$.]]
+Let $\mathbf{W}$ be the '''weight&biases matrix''' of an [[artificial neural network (ANN)]], $S$ be the '''training data set.''', $L_k(\mathbf{W})$ its '''loss function''' for training data point $s_k \in S$, which measures the error between the model's predictions and the true values in the training set (e.g., [[sum of squared errors (SSE)]]).
 
 Then '''training''' is iteration with step
 $$
-\mathbf{W}_{i+1} = \mathbf{W}_i - \sum_{s_k \in S} \eta \nabla C_k(\mathbf{W}_i).
+\mathbf{W}_{i+1} = \mathbf{W}_i - \sum_{s_k \in S} \eta \nabla L_k(\mathbf{W}_i).
 $$
