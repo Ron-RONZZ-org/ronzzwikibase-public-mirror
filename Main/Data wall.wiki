@@ -1,44 +1,36 @@
 [[Category:Large language model]]
-[[Category:Machine learning]]
-The '''data wall''' is the regime in which the supply of high-quality public text is exhausted, so that further reductions in [[language model loss|loss]] must come from parameters, [[algorithmic efficiency]], or [[synthetic data]], rather than from additional human-written text.<ref>{{#cite:Q3181}}</ref>
 
-== Condition ==
+The '''data wall''' describes the regime in which the supply of high-quality human-written text fit for [[large language model (LLM)]] training is exhausted.<ref>{{#cite:Q3181}}</ref>
 
-Let $D_{\max}$ be the stock of available human-written tokens and $C$ the training compute. The [[Chinchilla prescription]] allocates tokens to a budget as
+== Increasing demand ==
 
-$$
-D_{\text{opt}}(C)\propto C^{\alpha_N/(\alpha_N+\alpha_D)},
-$$
-
-with the 2 exponents of similar size, so that data demand grows roughly as $\sqrt{C}$. Scaling is unconstrained while
+Let $D_{\max}$ be the stock of available human-written tokens and $C$ the training compute. The [[Chinchilla prescription]] allocates to token in a fixed compute budget
 
 $$
-D_{\text{opt}}(C)\le D_{\max},
+D_{\text{opt}}(C)\propto C^{\alpha_{|\theta|}/(\alpha_{|\theta|}+\alpha_D)},
 $$
 
-and the wall is the budget $C_\star$ at which the 2 meet,
+According to [[Source:Training Compute-Optimal Large Language Models (Conference paper)|name-author]], $\alpha_{|\theta|} \approx \alpha_D$, hence
 
 $$
-C_\star:\quad D_{\text{opt}}(C_\star)=D_{\max}.
+D \propto C^\frac{1}{2},
 $$
 
-Since $D_{\text{opt}}$ grows only as $\sqrt{C}$, the wall is reached at
+i.e., when the compute budget grows by 4 fold, the optimal dataset size grows by about 2.
 
-$$
-C_\star\propto D_{\max}^{2},
-$$
-
-so a 2-fold larger stock of text buys a 4-fold larger budget before the constraint binds. Beyond $C_\star$ the compute-optimal allocation is unavailable, and the loss follows the data-constrained form given at [[Chinchilla prescription]].
+<ref>{{#cite:Q3164}}</ref>
 
 == Timing ==
-
-Estimates of the effective stock of quality-filtered, deduplicated public human text put the stock at roughly
+[[File:LLM training data bottleneck.png|thumbnail|300px]]
+The effective stock of quality-filtered, deduplicated publicly available human-written text is estimated to be around
 
 $$
 D_{\max}\approx 3\times10^{14}\ \text{tokens},
 $$
 
-with wide uncertainty, and project that, if current trends continue, training runs will draw on data sets comparable in size to that stock between 2026 and 2032, with the high-quality fraction running out earlier.<ref>{{#cite:Q3181}}</ref>
+According to estimates of [[Source:Will we run out of data? Limits of LLM scaling based on human-generated data (Conference paper)|name-author]], if current trends continue, the stock would be depleted between 2026 and 2032.
+
+<ref>{{#cite:Q3181}}</ref>
 
 == Repetition ==
 
@@ -49,11 +41,3 @@ D_{\text{eff}}=D_{\max}\left(1+R^{\ast}\left(1-e^{-R/R^{\ast}}\right)\right),
 $$
 
 where $R^{\ast}$ is a fitted decay constant. Two consequences follow: up to roughly 4 epochs, repeated data costs almost nothing in loss relative to unique data, and, because $D_{\text{eff}}\to D_{\max}(1+R^{\ast})$ as $R\to\infty$, no amount of repetition substitutes for more unique text.<ref>{{#cite:Q3174}}</ref>
-
-== Mitigations ==
-
-The 3 routes past the wall are not exclusive, and the loss model treats them jointly:
-
-* more parameters, $|\theta|$, which the data-constrained model still rewards;
-* [[algorithmic efficiency]], which lowers the compute, and hence the data, needed for a given loss;
-* [[synthetic data]], which extends the stock itself, at the risk of the collapse described there.

@@ -31,6 +31,8 @@ $$
 
 == Compute-optimal allocation ==
 
+=== Loss function ===
+
 [[Source:Training Compute-Optimal Large Language Models (Conference paper)|name-author]] proposes modelling [[language model loss|loss]] as a function of $\theta,D$, with an irreducible floor $L_\infty$ and parameters $|\theta|_c$, $D_c$, $\alpha_\theta$, $\alpha_D$ to be determined empirically:
 
 $$
@@ -43,6 +45,7 @@ L_\infty
 \left(\frac{D_c}{D}\right)^{\alpha_D},
 $$
 
+=== Algebraic optimum ===
 Subject to $C = 6|\theta|D$, at optimum $L_\text{min}$
 
 $$
@@ -52,6 +55,139 @@ D_{\text{opt}} \propto C^{\alpha_\theta/(\alpha_\theta+\alpha_D)}
 \end{cases}
 $$
 
+{{Hidden proof}}
+'''Solution via Lagrange multiplier'''
+
+'''Target''':
+
+Minimise
+
+$$
+L(|\theta|,D)=L_{\infty}+\left(\frac{|\theta|_{c}}{|\theta|}\right)^{\alpha_{\theta}}+\left(\frac{D_{c}}{D}\right)^{\alpha_D} 
+$$
+
+subject to
+
+$$
+6|\theta|D-C=0.
+$$
+
+'''Lagrangian condition''':
+
+$$
+\mathcal{L}(|\theta|,D,\lambda)
+=
+L_{\infty}+\left(\frac{|\theta|_{c}}{|\theta|}\right)^{\alpha_{\theta}}
++\left(\frac{D_{c}}{D}\right)^{\alpha_D}
++\lambda\,(6|\theta|D-C).
+$$
+
+'''First-order conditions at optimum'''':
+
+$$
+\begin{cases}
+\frac{\partial\mathcal{L}}{\partial|\theta|}\bigg|_{\theta_\text{opt},D_\text{opt}}
+=
+-\frac{\alpha_{\theta}}{\theta_\text{opt}}\left(\frac{|\theta|_{c}}{\theta_\text{opt}}\right)^{\alpha_{\theta}}
++\lambda\,6D_\text{opt}
+=0, & \text{(1)}\\
+\frac{\partial\mathcal{L}}{\partial D}\bigg|_{\theta_\text{opt},D_\text{opt}}
+=
+-\frac{\alpha_D}{D_\text{opt}}\left(\frac{D_{c}}{D_\text{opt}}\right)^{\alpha_D}
++\lambda\,6\theta_\text{opt}
+=0, & \text{(2)}\\
+\frac{\partial\mathcal{L}}{\partial\lambda}\bigg|_{\theta_\text{opt},D_\text{opt}}
+=
+6\theta_\text{opt}D_\text{opt}-C=0. & \text{(3)}
+\end{cases}
+$$
+
+<blockquote>
+Equation (3) just restates the constraint. Equations (1)–(2) are the substantive conditions.
+</blockquote>
+
+'''Eliminating $\lambda$''':
+
+From (1):
+
+$$
+\lambda=\frac{\alpha_{\theta}}{6\theta_\text{opt}D_\text{opt}}\left(\frac{|\theta|_{c}}{\theta_\text{opt}}\right)^{\alpha_{\theta}}.
+$$
+
+From (2):
+
+$$
+\lambda=\frac{\alpha_D}{6\theta_\text{opt}D_\text{opt}}\left(\frac{D_{c}}{D_\text{opt}}\right)^{\alpha_D}.
+$$
+
+Equate:
+
+$$
+\alpha_{\theta}\left(\frac{|\theta|_{c}}{\theta_\text{opt}}\right)^{\alpha_{\theta}}
+=
+\alpha_D\left(\frac{D_{c}}{D_\text{opt}}\right)^{\alpha_D}
+\tag{4}
+$$
+
+'''Solving for the scaling exponents''':
+
+Rearrange the terms in (4):
+
+$$
+\left(\frac{D_c}{D_\text{opt}}\right)^{\alpha_D}
+=
+\frac{\alpha_\theta}{\alpha_D}
+\left(\frac{|\theta|_c}{\theta_\text{opt}}\right)^{\alpha_\theta}.
+$$
+
+Raise both sides to the $\frac{1}{\alpha_D}$th power:
+
+$$
+\frac{D_c}{D_\text{opt}}
+=
+\left(\frac{\alpha_\theta}{\alpha_D}\right)^{1/\alpha_D}
+\left(\frac{|\theta|_c}{\theta_\text{opt}}\right)^{\alpha_\theta/\alpha_D}.
+$$
+
+Solve for $D_\text{opt}$:
+
+$$
+D_\text{opt}
+=
+D_c
+\left(\frac{\alpha_D}{\alpha_\theta}\right)^{1/\alpha_D}
+\left(\frac{\theta_\text{opt}}{|\theta|_c}\right)^{\alpha_\theta/\alpha_D}.
+$$
+
+Thus
+
+$$
+D_\text{opt}\propto\theta_\text{opt}^{\alpha_\theta/\alpha_D}.
+$$
+
+Substitute into $C=6\theta_\text{opt}D_\text{opt}$:
+
+$$
+C\propto\theta_\text{opt}^{\,1+(\alpha_\theta/\alpha_D)}
+=\theta_\text{opt}^{\,(\alpha_\theta+\alpha_D)/\alpha_D}.
+$$
+
+Invert:
+
+$$
+\theta_\text{opt}\propto C^{\alpha_D/(\alpha_\theta+\alpha_D)}
+$$
+
+Similarly,
+
+$$
+D_\text{opt}\propto C^{\alpha_\theta/(\alpha_\theta+\alpha_D)}.
+$$
+{{End hidden}}
+
+=== Empirical determination ===
+
+[[File:Compute-optimal LLM Model parameter-training token balance.png|thumbnail|As seen, $D_\text{opt} \approx 20\,|\theta|_\text{opt}$ around current LLM parameter counts ($10^{10} \to 10^{12}$).|350px]]
 Empirically, it was determined at the '''efficient frontier''',
 
 $$
@@ -66,6 +202,8 @@ $$
 D_\text{opt} \approx 20\,|\theta|_\text{opt},
 $$
 
+<ref>{{#cite:Q3164}}</ref>
+
 == History ==
 
 [[Source:Scaling Laws for Neural Language Models (Manuscript)|name-author]] had recommended spending most of an increased compute budget on parameters:
@@ -73,16 +211,18 @@ $$
 * $|\theta|_{\text{opt}} \propto C^{0.73}$
 * $D_{\text{opt}} \propto C^{0.27}$
 
-The models built to that advice were correspondingly large and undertrained.<ref>{{#cite:Q3141}}</ref> 
+Models built to that advice were correspondingly large and undertrained.
+
+<ref>{{#cite:Q3141}}</ref><ref>{{#cite:Q3164}}</ref>
 
 == Experimental evidence ==
 
 {| class="wikitable"
 |+ Allocation for 3 early large language models
 ! Model
-! $ |\theta|$
+! $|\theta|$
 ! $D$
-! $\frac{D}{\|\theta\|}$
+! $\frac{D}{|\theta|}$
 |-
 | Gopher
 | $2.8\times10^{11}$
@@ -100,11 +240,13 @@ The models built to that advice were correspondingly large and undertrained.<ref
 | $20$
 |}
 
-Chinchilla was trained on the same compute budget as Gopher, with 4 times fewer parameters and about 5 times more data, and outperformed Gopher and GPT-3, both models several times its size.<ref>{{#cite:Q3164}}</ref>
+Chinchilla was trained on the same compute budget as Gopher, with 4 times fewer parameters and about 5 times more data, and outperformed Gopher and GPT-3, both models several times its size.
+
+<ref>{{#cite:Q3164}}</ref>
 
 == Data-constrained regime and the data wall ==
 
-If the available token stock $D_{\max}$ falls short of $D_{\text{opt}}$, the prescription cannot be followed. With $D$ capped, the loss is better described by
+If the available token stock $D_{\max}$ falls short of $D_{\text{opt}}$, the loss is better described by
 
 $$
 L_{\text{data}}(|\theta|, D_{\max})
@@ -116,6 +258,10 @@ L_\infty
 \left(\frac{D_c}{D_{\max}}\right)^{\alpha_D},
 $$
 
-in which further gains must come from $|\theta|$, from [[algorithmic efficiency]], or from [[synthetic data]], rather than from additional human-written text. This regime is the [[data wall]].
+in which case further model improvements must come from
 
-Repeating the tokens already in hand is a partial substitute: up to roughly 4 epochs of repetition costs almost nothing in loss, but beyond that the marginal value of additional compute decays towards zero.<ref>{{#cite:Q3174}}</ref> Estimates of the stock of public human text place its exhaustion, if current trends continue, between 2026 and 2032.<ref>{{#cite:Q3181}}</ref>
+* Increasing $|\theta|$
+* Improve [[algorithmic efficiency]]
+* Creation of [[synthetic data]]
+
+This phenomenon is known as the '''[[data wall]]'''.

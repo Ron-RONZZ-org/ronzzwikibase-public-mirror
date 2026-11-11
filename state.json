@@ -368,9 +368,9 @@
     },
     "Chinchilla prescription": {
       "path": "Main/Chinchilla prescription.wiki",
-      "revid": 15982,
-      "sha256": "95394c6809e19d6489ae213a5f5c19213c581bc49f75983781369477da3ae82f",
-      "synced_at": "2026-11-11T20:10:11+00:00"
+      "revid": 15992,
+      "sha256": "a3349a15881e1f6e8c41f22c4095d31eb5c61ed15a78938f32d86f542dbf2459",
+      "synced_at": "2026-11-11T21:07:45+00:00"
     },
     "Circle": {
       "path": "Main/Circle.wiki",
@@ -1586,9 +1586,9 @@
     },
     "Data wall": {
       "path": "Main/Data wall.wiki",
-      "revid": 15948,
-      "sha256": "99527db069b1dc131354e48fddd6e7a8f89f29fef39957d18ab050f7299911e7",
-      "synced_at": "2026-11-11T16:49:46+00:00"
+      "revid": 16004,
+      "sha256": "fba27b4b96312c1f75e3a5be32bb0807171ac6c881d84336fee0375a8f873953",
+      "synced_at": "2026-11-11T21:07:45+00:00"
     },
     "De Morgan's laws": {
       "path": "Main/De Morgan's laws.wiki",
@@ -8239,6 +8239,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-11T20:10:11+00:00",
+  "updated": "2026-11-11T21:07:45+00:00",
   "version": 1
 }
