@@ -1,0 +1,92 @@
+[[Category:Probability]]
+[[Category:Information theory]]
+The '''Shannon entropy''' is the '''entropy''' of a probability distribution, measuring the uncertainty associated with a discrete [[random variable]]. 
+
+It generalises the idea of information content to discrete probability distributions.
+
+== Definition ==
+
+Let $X$ be a discrete [[random variable]] with support $\mathcal{X}$, and $p_X(x)=\Pr(X=x)$ its probability mass function.
+
+Then its '''Shannon entropy'''
+
+$$
+H(X)=-\sum_{x\in\mathcal{X}}p_X(x)\log_b p_X(x).
+$$
+
+By convention, $0\log_b 0=0$.
+
+The base $b$ determines the unit of the entropy:
+
+<div class=center>
+{| class="wikitable"
+|-
+! $b$
+! Unit
+|-
+| $2$
+| Bit
+|-
+| $e$
+| Nat
+|-
+| $10$
+| Hartley
+|}
+</div>
+
+<blockquote>
+One unknown binary digit represents $1 \mathrm{bit}$ of uncertainty, one unknown decimal digit represents $1 \mathrm{hartley}$ of uncertainty, one unknown digit in base $b$ represents $1 \mathrm{unit}$ of uncertainty when $b$ is chosen as the log base.
+</blockquote>
+
+== Interpretation ==
+
+'''Shannon entropy''' is the '''expected surprise''':
+
+$$
+H(X)=\mathbb{E}\left[-\log_b p_X(X)\right].
+$$
+
+It measures the average amount of uncertainty about the outcome of $X$ before it is observed.
+
+Higher entropy means greater uncertainty and less predictability. Lower entropy means greater predictability and more concentrated probability mass.
+
+Contrary to the [[variance]] and [[standard deviation]] of a discrete probability distribution, '''entropy''' depends only on the probability distribution of $X$, but not on the numerical values taken by $X$. 
+
+== Properties ==
+
+=== $0\le H(X)\le \log_b|\mathcal{X}|$ ===
+
+for a discrete random variable $X$ with support $\mathcal{X}$, where $|\mathcal{X}|$ is the number of possible outcomes. 
+
+The upper bound is attained exactly when $X$ is '''uniformly distributed''' over $\mathcal{X}$.
+
+== Two random variables ==
+
+=== Joint entropy ===
+
+For two discrete random variables $X,Y$ with support $\mathcal{X,Y}$, the '''joint entropy''' is
+
+$$
+H(X,Y)=-\sum_{x \in \mathcal{X}}\sum_{y \in \mathcal{Y}}p_{X,Y}(x,y)\log_b p_{X,Y}(x,y),
+$$
+
+=== Conditional entropy ===
+
+The '''conditional entropy'''
+
+$$
+H(Y\mid X)=H(X,Y)-H(X)
+$$
+
+measures the remaining uncertainty about $Y$ after $X$ is known. 
+
+=== Mutual information ===
+
+The '''mutual information'''
+
+$$
+I(X;Y)=H(X)-H(X\mid Y)
+$$
+
+measures the reduction in uncertainty about $X$ obtained by observing $Y$.

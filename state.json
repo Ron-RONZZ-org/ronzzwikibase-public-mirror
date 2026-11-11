@@ -4740,6 +4740,12 @@
       "sha256": "7204b8c5808c3ee8e5fe616516ccd7926ed4aa537cb8d7a0ebd10d089df59992",
       "synced_at": "2026-10-29T15:50:24+00:00"
     },
+    "Shannon entropy": {
+      "path": "Main/Shannon entropy.wiki",
+      "revid": 15328,
+      "sha256": "d96a3b4fbebab49aef9da38d5167849e8933b917dfa5c32119fb3a829604e013",
+      "synced_at": "2026-11-11T12:15:10+00:00"
+    },
     "Shell theorem": {
       "path": "Main/Shell theorem.wiki",
       "revid": 8082,
@@ -7423,6 +7429,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-11T10:19:48+00:00",
+  "updated": "2026-11-11T12:15:10+00:00",
   "version": 1
 }
