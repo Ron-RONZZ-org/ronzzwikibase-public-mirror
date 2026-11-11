@@ -32,12 +32,8 @@ According to estimates of [[Source:Will we run out of data? Limits of LLM scalin
 
 <ref>{{#cite:Q3181}}</ref>
 
-== Repetition ==
+== Caveats ==
 
-Repeating the tokens already in hand is a partial substitute. Writing $R=D/D_{\max}$ for the number of epochs, the value of repeated data saturates,
+=== Multi-epoch training ===
 
-$$
-D_{\text{eff}}=D_{\max}\left(1+R^{\ast}\left(1-e^{-R/R^{\ast}}\right)\right),
-$$
-
-where $R^{\ast}$ is a fitted decay constant. Two consequences follow: up to roughly 4 epochs, repeated data costs almost nothing in loss relative to unique data, and, because $D_{\text{eff}}\to D_{\max}(1+R^{\ast})$ as $R\to\infty$, no amount of repetition substitutes for more unique text.<ref>{{#cite:Q3174}}</ref>
+See [[multi-epoch training (Machine learning)]].
