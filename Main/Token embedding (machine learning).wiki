@@ -47,7 +47,7 @@ $$
 $$
 
 <blockquote>
-Frenquently, one sets $\mathbf{W}_U=\mathbf{W}_E^T$, a practice known as '''weight-tying'''.
+Frequently, one sets $\mathbf{W}_U=\mathbf{W}_E^T$, a practice known as '''weight-tying'''.
 </blockquote>
 
 == Example ==
@@ -108,7 +108,7 @@ $$
 $$
 
 <blockquote>
-With a weight-tied $\mathbf{W}_U, unembedding is essentially calculating the [[vector dot product]]s $\ell_i$ of output $\vec o$ with the embedding vectors $\mathbf{W}_E[i]$ for each [[token]] $t_i$ in the vocabulary. As $\vec o \cdot \mathbf{W}_E[1] = \| \vec o \| \| \mathbf{W}_E[i] \| cos \theta$, where $\theta$ is the angle between $\vec o$ and $\mathbf{W}_E[i]$, one expects $\ell_i$ to be smaller when the directions of $\vec o$ and $\mathbf{W}_E[i]$ aligns, signifying a higher possibility the model's output predicts token $t_i$.
+With a weight-tied $\mathbf{W}_U$, unembedding is essentially calculating the [[vector dot product]]s $\ell_i$ of output $\vec o$ with the embedding vectors $\mathbf{W}_E[i]$ for each [[token]] $t_i$ in the vocabulary. As $\vec o \cdot \mathbf{W}_E[i] = \| \vec o \| \| \mathbf{W}_E[i] \| \cos \theta$, where $\theta$ is the angle between $\vec o$ and $\mathbf{W}_E[i]$, one expects $\ell_i$ to be larger when the directions of $\vec o$ and $\mathbf{W}_E[i]$ align, signifying a higher possibility the model's output predicts token $t_i$.
 </blockquote>
 
 Calculate [[softmax]] probabilities:

@@ -1922,9 +1922,9 @@
     },
     "Forward pass": {
       "path": "Main/Forward pass.wiki",
-      "revid": 15887,
-      "sha256": "90514ac09d0b865bc9f40489901712467155adf95dea15dad1e06407ff7ff22d",
-      "synced_at": "2026-11-11T15:19:38+00:00"
+      "revid": 15895,
+      "sha256": "72a30aa00791b1c9bd1acad1a1aaafa621c62788ff5c30f0c37fab77f81f7bca",
+      "synced_at": "2026-11-11T15:35:54+00:00"
     },
     "French Literature/fr": {
       "path": "Main/French Literature/fr.wiki",
@@ -8084,9 +8084,9 @@
     },
     "Token embedding (machine learning)": {
       "path": "Main/Token embedding (machine learning).wiki",
-      "revid": 15318,
-      "sha256": "1e43ac2d40e9c9e33d7e817c25d29441ac5b66ea329ebcfe9e010739a0401389",
-      "synced_at": "2026-11-10T21:48:51+00:00"
+      "revid": 15897,
+      "sha256": "fe8f4f1c37dc7ff96bcb1a9f7e6d200268f4216fdf6b011d7c38aa65d0b21bf3",
+      "synced_at": "2026-11-11T15:35:54+00:00"
     },
     "Tokenisation (machine learning)": {
       "path": "Main/Tokenisation (machine learning).wiki",
@@ -8209,6 +8209,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-11T15:19:38+00:00",
+  "updated": "2026-11-11T15:35:54+00:00",
   "version": 1
 }

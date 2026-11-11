@@ -1,46 +1,43 @@
 [[Category:Artificial neural network]]
-A '''forward pass''' is the evaluation of a [[neural network]] on an input: the input is propagated through the layers to produce the output, with no gradient computed.<ref>{{#cite:Q3074}}</ref> For a network trained by [[backpropagation]] it is the 1st of the 2 passes, and it is the only one that runs at inference.
+A '''forward pass''' is 1 evaluation of a [[neural network]] on an input: the input is carried through the model's stages to produce the output, with no gradient computed.<ref>{{#cite:Q3074}}</ref> For a network trained by [[backpropagation]] it is the 1st of the 2 passes, and it is the only one that runs at inference.
 
-== Definition ==
+The pass is an assembly of stages, each defined on its own page, rather than a single formula.
 
-Let $L$ be the number of layers, $\vec a^{(0)}=\vec x$ the input, $\mathbf{W}^{(l)},\vec b^{(l)}$ the weights and biases of layer $l$, which together form the [[model parameters]] $\theta$, and $\sigma$ the [[activation function]]. Each layer applies an affine map and then the activation,
+== Stages ==
 
-$$
-\begin{cases}
-\vec z^{(l)}=\mathbf{W}^{(l)}\vec a^{(l-1)}+\vec b^{(l)}, \\
-\vec a^{(l)}=\sigma\left(\vec z^{(l)}\right),
-\end{cases}
-\qquad l=1,\cdots,L,
-$$
+For a [[Transformer]] language model, the stages are:
 
-where $\vec z^{(l)}$ is the pre-activation and $\vec a^{(l)}$ the activation of layer $l$. The output of the network is $\vec a^{(L)}$.
+# '''[[tokenisation (machine learning)|Tokenisation]]''' cuts the raw input into tokens from a [[tokenisation (machine learning)#Definition|token vocabulary]] $\mathcal{V}$, yielding a sequence of $T$ indices.
+# '''[[token embedding (machine learning)|Token embedding]]''' maps those indices to vectors in $\mathbb{R}^d$ through the embedding matrix $\mathbf{W}_E$, stacked as the rows of $\mathbf{X}\in\mathbb{R}^{T\times d}$.
+# A stack of $L$ '''blocks''', each applying [[self-attention]] across positions and then the [[feedforward algorithm]] to each position separately.
+# An '''output head''' with [[Softmax|softmax]] maps the final representation to logits over $\mathcal{V}$.
+
+The 2 inner stages are the ones that give the model its power and its cost, and are treated at [[self-attention]] and [[feedforward algorithm]] respectively. A plain [[artificial neural network (ANN)]] is the degenerate case: it has no attention stage and no tokenisation, and its pass is repeated application of the feedforward step.
 
 == Composition ==
 
-Writing each layer as the map
-
-$$
-\varphi^{(l)}(\vec a)=\sigma\left(\mathbf{W}^{(l)}\vec a+\vec b^{(l)}\right),
-$$
-
-the forward pass is their composition,
+Writing the block at layer $l$ as a map $\varphi^{(l)}$ from its input representation to its output representation, the model as a whole is the composition
 
 $$
 f_\theta=\varphi^{(L)}\circ\cdots\circ\varphi^{(1)},
 $$
 
-so that $\vec a^{(L)}=f_\theta(\vec x)$. A [[large language model (LLM)|language model]] is 1 such $f_\theta$, whose output is a distribution over the vocabulary rather than a single value.
+so that the output of the pass is $f_\theta(\vec x)$, and it is this $f_\theta$ whose parameters $\theta$ are defined at [[model parameters]].
 
 == Cost ==
 
-The cost is dominated by the affine maps. A matrix-vector product $\mathbf{W}^{(l)}\vec a^{(l-1)}$ costs $\mathcal{O}(d_{l-1}d_l)$ for layer widths $d_{l-1}$ and $d_l$, so the pass costs
+Because the stages compose, so do their costs. For a context of length $T$ and hidden dimension $d$, the 2 dominant terms per block are
 
 $$
-\mathcal{O}\left(\sum_{l=1}^{L}d_{l-1}d_l\right),
+\mathcal{O}(T^2d)
+\qquad\text{and}\qquad
+\mathcal{O}(Td^2),
 $$
 
-linear in the number of layers and quadratic in the width. Layers that are not plain affine maps add their own terms, such as the $\mathcal{O}(T^2d)$ of [[self-attention]] for a context of length $T$.
+the 1st coming from [[self-attention]] and growing quadratically with context, the 2nd coming from the [[feedforward algorithm]] and growing with the square of the width. Which of the 2 dominates therefore depends on whether the context or the width is larger, and over $L$ blocks both scale linearly in $L$.
 
-== Relation to backpropagation ==
+== Training and inference ==
 
-The forward pass must retain $\vec z^{(l)}$ and $\vec a^{(l)}$ for every layer, because [[backpropagation]] needs them to evaluate the local gradients on the way back. Storing the activations is therefore part of the cost of training, though not of inference, where only the intermediate values of the current step are needed.
+The pass retains the [[model parameters]] and, during training, the intermediate activations, because [[backpropagation]] needs them to evaluate the local gradients on the way back. That retention is part of the cost of training but not of inference.
+
+At inference the pass is the unit of generation: each output token costs 1 pass, and the stages of the previous steps need not be recomputed, which is the purpose of [[KV caching]].
