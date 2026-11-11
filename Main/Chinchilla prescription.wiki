@@ -1,145 +1,37 @@
 [[Category:Large language model]]
-[[Category:Machine learning]]
-The '''Chinchilla prescription''' is the compute-optimal division of a fixed training budget between model parameters and training tokens for a Transformer [[large language model (LLM)|language model]], derived by Hoffmann et al. in 2022.<ref>{{#cite:Q3164}}</ref> Its headline result is that the 2 quantities should grow together: every doubling of parameter count should be matched by a doubling of training tokens.
+The '''Chinchilla prescription''', derived by [[Source:Training Compute-Optimal Large Language Models (Conference paper)|name-author]],prescribes the compute-optimal division of a fixed training budget between model parameters and training tokens for a [[Transformer]].<ref>{{#cite:Q3164}}</ref> 
 
+== Compute budget ==
 
-'''Solution via Lagrange multiplier:'''
-
-'''Target'''
-
-Minimise
+Training compute is dominated by the matrix multiplications of the forward and backward passes and is approximated by
 
 $$
-L(|\theta|,D)=L_{\infty}+\left(\frac{|\theta|_{c}}{|\theta|}\right)^{\alpha_{\theta}}+\left(\frac{D_{c}}{D}\right)^{\alpha_D} \label{eq:loss}
+C \approx 6\,|\theta|\,D \label{compute budget}
 $$
 
-subject to
-
-$$
-6|\theta|D-C=0.
-$$
-(from $\eqref{compute budget}$)
-
-'''Lagrangian and first-order conditions'''
-
-From $\eqref{eq:loss}$
-
-$$
-\mathcal{L}(|\theta|,D,\lambda)
-=
-L_{\infty}+\left(\frac{|\theta|_{c}}{|\theta|}\right)^{\alpha_{\theta}}
-+\left(\frac{D_{c}}{D}\right)^{\alpha_D}
-+\lambda\,(6|\theta|D-C).
-$$
-
-Set all three partials to zero:
-
-$$
-\begin{cases}
-\frac{\partial\mathcal{L}}{\partial|\theta|}
-=
--\frac{\alpha_{\theta}}{|\theta|}\left(\frac{|\theta|_{c}}{|\theta|}\right)^{\alpha_{\theta}}
-+\lambda\,6D
-=0, & \text{(1)}\\
-\frac{\partial\mathcal{L}}{\partial D}
-=
--\frac{\alpha_D}{D}\left(\frac{D_{c}}{D}\right)^{\alpha_D}
-+\lambda\,6|\theta|
-=0, & \text{(2)}\\
-\frac{\partial\mathcal{L}}{\partial\lambda}
-=
-6|\theta|D-C=0. & \text{(3)}
-\end{cases}
-$$
-
-Equation (3) just restates the constraint. Equations (1)–(2) are the substantive conditions.
-
-'''Eliminating $\lambda$'''
-
-From (1):
-
-$$
-\lambda=\frac{\alpha_{\theta}}{6|\theta|D}\left(\frac{|\theta|_{c}}{|\theta|}\right)^{\alpha_{\theta}}.
-$$
-
-From (2):
-
-$$
-\lambda=\frac{\alpha_D}{6|\theta|D}\left(\frac{D_{c}}{D}\right)^{\alpha_D}.
-$$
-
-Equate:
-
-$$
-\alpha_{\theta}\left(\frac{|\theta|_{c}}{|\theta|}\right)^{\alpha_{\theta}}
-=
-\alpha_D\left(\frac{D_{c}}{D}\right)^{\alpha_D}
-\tag{4}
-$$
-
-This is the '''balance condition'''. It is one equation in two unknowns; together with \(6|\theta|D=C\) it pins down \((\theta_{\text{opt}},D_{\text{opt}})\).
-
-'''Solving for the scaling exponents'''
-
-The balance condition is
-
-$$
-\alpha_\theta\left(\frac{|\theta|_c}{\theta_\text{opt}}\right)^{\alpha_\theta}
-=
-\alpha_D\left(\frac{D_c}{D_\text{opt}}\right)^{\alpha_D}.
-$$
-
-Divide both sides by $\alpha_D$ and rearrange:
-
-$$
-\left(\frac{D_c}{D_\text{opt}}\right)^{\alpha_D}
-=
-\frac{\alpha_\theta}{\alpha_D}
-\left(\frac{|\theta|_c}{\theta_\text{opt}}\right)^{\alpha_\theta}.
-$$
-
-Raise both sides to $1/\alpha_D$:
-
-$$
-\frac{D_c}{D_\text{opt}}
-=
-\left(\frac{\alpha_\theta}{\alpha_D}\right)^{1/\alpha_D}
-\left(\frac{|\theta|_c}{\theta_\text{opt}}\right)^{\alpha_\theta/\alpha_D}.
-$$
-
-Solve for $D_\text{opt}$:
-
-$$
-D_\text{opt}
-=
-D_c
-\left(\frac{\alpha_D}{\alpha_\theta}\right)^{1/\alpha_D}
-\left(\frac{\theta_\text{opt}}{|\theta|_c}\right)^{\alpha_\theta/\alpha_D}.
-$$
-
-Thus
-
-$$
-D_\text{opt}\propto\theta_\text{opt}^{\alpha_\theta/\alpha_D}.
-$$
-
-Substitute into \(C=6\theta_\text{opt}D_\text{opt}\):
-
-$$
-C\propto\theta_\text{opt}^{\,1+\alpha_\theta/\alpha_D}
-=\theta_\text{opt}^{\,(\alpha_\theta+\alpha_D)/\alpha_D}.
-$$
-
-Invert:
-
-$$
-\theta_\text{opt}\propto C^{\alpha_D/(\alpha_\theta+\alpha_D)},\,
-D_\text{opt}\propto C^{\alpha_\theta/(\alpha_\theta+\alpha_D)}.
-$$
+<div class="center">
+{| class="wikitable"
+|-
+| $C$
+| Training compute in floating-point operations
+|-
+| $ |\theta|$
+| Parameter count
+|-
+| $D$
+| Number of training tokens
+|-
+| $ |\theta|D$
+| Forward-pass compute cost
+|-
+| $ |\theta|D$
+| Backward-pass compute cost
+|}
+</div>
 
 == Compute-optimal allocation ==
 
-The prescription follows from writing the [[language model loss|loss]] as a function of both quantities, with an irreducible floor $L_\infty$ and fitted constants $|\theta|_c$, $D_c$, $\alpha_\theta$, $\alpha_D$,
+[[Source:Training Compute-Optimal Large Language Models (Conference paper)|name-author]] proposes modelling [[language model loss|loss]] as a function of $\theta,D$, with an irreducible floor $L_\infty$ and parameters $|\theta|_c$, $D_c$, $\alpha_\theta$, $\alpha_D$ to be determined empirically:
 
 $$
 L(|\theta|,D)
@@ -151,7 +43,7 @@ L_\infty
 \left(\frac{D_c}{D}\right)^{\alpha_D},
 $$
 
-and minimising it subject to $C = 6|\theta|D$. At the optimum the 2 reducible terms are reduced in balance, and the 2 quantities scale as
+Subject to $C = 6|\theta|D$, at optimum $L_\text{min}$
 
 $$
 \begin{cases}
@@ -160,26 +52,37 @@ D_{\text{opt}} \propto C^{\alpha_\theta/(\alpha_\theta+\alpha_D)}
 \end{cases}
 $$
 
-so the balance between parameters and data is set by the relative size of the 2 exponents. Because $\alpha_\theta$ and $\alpha_D$ are of similar magnitude, both allocation exponents come out near $1/2$, and in practice the prescription reduces to
+Empirically, it was determined at the '''efficient frontier''',
 
 $$
-D \approx 20\,|\theta|,
+\frac{\alpha_\theta}{\alpha_\theta+\alpha_D}=0.46,\, \frac{\alpha_\theta}{\alpha_\theta+\alpha_D}=0.54
 $$
 
-that is, about 20 training tokens per parameter.
+which suggests that '''parameter count and training data size should scale nearly proportionally'''.
 
-== Contrast with earlier scaling laws ==
+It is further determined experimentally
 
-Kaplan et al. had recommended spending most of an increased budget on parameters, with $|\theta|_{\text{opt}} \propto C^{0.73}$ and $D_{\text{opt}} \propto C^{0.27}$, and the models built to that advice were correspondingly large and undertrained.<ref>{{#cite:Q3141}}</ref> The Chinchilla result instead grows the 2 in step, which at a fixed compute budget means markedly more data and fewer parameters than the earlier advice implied.
+$$
+D_\text{opt} \approx 20\,|\theta|_\text{opt},
+$$
 
-== Worked examples ==
+== History ==
+
+[[Source:Scaling Laws for Neural Language Models (Manuscript)|name-author]] had recommended spending most of an increased compute budget on parameters:
+
+* $|\theta|_{\text{opt}} \propto C^{0.73}$
+* $D_{\text{opt}} \propto C^{0.27}$
+
+The models built to that advice were correspondingly large and undertrained.<ref>{{#cite:Q3141}}</ref> 
+
+== Experimental evidence ==
 
 {| class="wikitable"
 |+ Allocation for 3 early large language models
 ! Model
-! $|\theta|$
+! $ |\theta|$
 ! $D$
-! $D/|\theta|$
+! $\frac{D}{\|\theta\|}$
 |-
 | Gopher
 | $2.8\times10^{11}$
@@ -197,15 +100,7 @@ Kaplan et al. had recommended spending most of an increased budget on parameters
 | $20$
 |}
 
-Chinchilla was trained on the same compute budget as Gopher, with 4 times fewer parameters and about 5 times more data, and outperformed Gopher, GPT-3, and models several times its size.<ref>{{#cite:Q3164}}</ref> Applied to GPT-3's training budget of about $3.15\times10^{23}$ FLOPs, the prescription gives
-
-$$
-|\theta|_{\text{opt}} = \sqrt{\frac{C}{120}} \approx 5\times10^{10},
-\qquad
-D_{\text{opt}} \approx 1\times10^{12},
-$$
-
-against GPT-3's actual $1.75\times10^{11}$ parameters and $3\times10^{11}$ tokens.
+Chinchilla was trained on the same compute budget as Gopher, with 4 times fewer parameters and about 5 times more data, and outperformed Gopher and GPT-3, both models several times its size.<ref>{{#cite:Q3164}}</ref>
 
 == Data-constrained regime and the data wall ==
 
