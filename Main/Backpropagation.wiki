@@ -204,6 +204,8 @@ $$
 \end{cases}
 $$
 
+where $\eta\in \mathbb{R}$ is the '''learning rate''', generally in the range of $10^{-3} \to 10^{-1}$.
+
 == Python [[pseudocode]] ==
 
 === Backpropagation ===

@@ -152,9 +152,9 @@
     },
     "Backpropagation": {
       "path": "Main/Backpropagation.wiki",
-      "revid": 15929,
-      "sha256": "12fefaac63894de9a4da1fc0e0cd3266a140f7fa0b3cf258d1e4a57a3c5b2a66",
-      "synced_at": "2026-11-11T16:23:27+00:00"
+      "revid": 15970,
+      "sha256": "2e1cc35f0a6187353ff6f5fef5f32022ead8e580fd110300c5aba50f96d35265",
+      "synced_at": "2026-11-11T18:21:51+00:00"
     },
     "Baryon": {
       "path": "Main/Baryon.wiki",
@@ -8239,6 +8239,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-11T18:10:45+00:00",
+  "updated": "2026-11-11T18:21:51+00:00",
   "version": 1
 }
