@@ -4748,9 +4748,9 @@
     },
     "Sigmoid function": {
       "path": "Main/Sigmoid function.wiki",
-      "revid": 15138,
-      "sha256": "431899fbc593fd74650c72ab00c4ff20e84c2425c6f80a1a1f46f8effcb7092f",
-      "synced_at": "2026-11-10T11:09:02+00:00"
+      "revid": 15327,
+      "sha256": "23e559d15bdc8cee172a0bcd94aaaff7603a11438652a28ca14a9c3f03f7734d",
+      "synced_at": "2026-11-11T10:19:48+00:00"
     },
     "Silicon tracking system": {
       "path": "Main/Silicon tracking system.wiki",
@@ -7423,6 +7423,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-11T10:10:19+00:00",
+  "updated": "2026-11-11T10:19:48+00:00",
   "version": 1
 }

@@ -1,6 +1,6 @@
 [[Category:Special function]][[Category:Activation function]]
 [[File:Sigmoid function.png|thumbnail|]]
-The '''sigmoid function''' is a bounded, differentiable, and real-valued [[special function]], commonly used as an [[activation function]] in [[artificial neural network (ANN)|artificial neural networks (ANN)]].
+The '''sigmoid function''', also known as the '''logistic function''', is a bounded, differentiable, and real-valued [[special function]], commonly used as an [[activation function]] in [[artificial neural network (ANN)|artificial neural networks (ANN)]].
 
 It is the inverse of the [[logit function]].
 
@@ -33,4 +33,39 @@ $$
 
 $$
 \dot{\sigma}(x)=\sigma(x)\bigl(1-\sigma(x)\bigr).
+$$
+
+== Generalised form (Richard's curve) ==
+
+$$
+\sigma(z):\mathbb{R} \to (0,L)
+\sigma(z)=\frac{L}{1+e^{-k(z-z_0)}},
+\qquad L>0,\ k>0,\ z_0\in\mathbb{R}.
+$$
+
+The standard sigmoid function is then the special case $L=1$, $k=1$, and $z_0=0$.
+
+=== Properties of the generalised form ===
+
+=== Limit ===
+
+$$
+\begin{cases}
+\lim_{z\to-\infty}\sigma(z)=0,\\
+\lim_{z\to+\infty}\sigma(z)=L.
+\end{cases}
+$$
+
+=== Symmetry according to $z=z_0$ ===
+
+$$
+\sigma(2z_0-z)=L-\sigma(z).
+$$
+
+=== Derivative ===
+
+$$
+\dot{\sigma}(z)
+=
+k\,\sigma(z)\left(1-\frac{\sigma(z)}{L}\right).
 $$
