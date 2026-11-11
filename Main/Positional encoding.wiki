@@ -1,0 +1,64 @@
+[[Category:Large language models]]
+[[Category:Artificial neural network]]
+A '''positional encoding''' injects the order of a sequence into a model that would otherwise treat its positions as an unordered set. It is combined with the [[token embedding (machine learning)|token embedding]] before the first block, so that the representation entering [[self-attention]] knows where each token sits.<ref>{{#cite:Q3130}}</ref>
+
+== Why it is needed ==
+
+[[self-attention]] is permutation-equivariant: permuting the rows of its input permutes its output identically,
+
+$$
+\operatorname{Attention}\left(\mathbf{P}\mathbf{X}\right)
+=
+\mathbf{P}\,\operatorname{Attention}\left(\mathbf{X}\right)
+$$
+
+for any permutation matrix $\mathbf{P}$. An order signal is therefore not merely helpful but necessary: without it the model assigns the same set of representations to every ordering of the same tokens, and so cannot distinguish `"dog bites man"` from `"man bites dog"`.
+
+== Absolute, additive ==
+
+The simplest scheme assigns position $t$ a vector $\vec p_t\in\mathbb{R}^d$ and adds it to the corresponding row,
+
+$$
+\tilde{\mathbf{X}}=\mathbf{X}+\mathbf{P},
+\qquad
+\mathbf{P}=
+\begin{pmatrix}
+\vec p_1^{\top} \\
+\vdots \\
+\vec p_T^{\top}
+\end{pmatrix}
+\in\mathbb{R}^{T\times d}.
+$$
+
+$\mathbf{P}$ is either learned, in which case it is a [[model parameters|parameter]] of shape $T_{\max}\times d$ and the model cannot exceed $T_{\max}$ positions, or computed in closed form.
+
+== Sinusoidal ==
+
+The closed form introduced with the Transformer uses a geometric progression of frequencies across the dimensions,
+
+$$
+\begin{cases}
+PE_{t,2k}=\sin\left(t\,/\,10000^{2k/d}\right), \\
+PE_{t,2k+1}=\cos\left(t\,/\,10000^{2k/d}\right),
+\end{cases}
+\qquad k=0,\cdots,\frac{d}{2}-1,
+$$
+
+where $t$ is the position and $k$ indexes the dimension pair. The wavelengths run from $2\pi$ to $10000\cdot 2\pi$, so the low dimensions vary slowly and the high ones quickly, which gives every offset a distinct pattern.
+
+The reason for this choice is that a shift in position acts as a fixed linear map on the encoding: for any offset $\Delta$ there is a matrix $\mathbf{R}_\Delta$ with
+
+$$
+\vec p_{t+\Delta}=\mathbf{R}_\Delta\vec p_t,
+$$
+
+so that the comparison made at [[self-attention]] can be made to depend on the offset $t-s$ through a linear operation. Unlike a learned $\mathbf{P}$, this form places no bound on the number of positions.
+
+== Relative and rotary ==
+
+2 later schemes avoid adding anything to the input at all:
+
+* a '''relative''' scheme adds a bias to the attention scores whose entries depend only on the difference $j-k$ between positions, so the model sees offsets rather than absolute positions.
+* a '''rotary''' scheme rotates the queries and keys by an angle proportional to their position, which makes their dot product depend on the offset $j-k$ directly.
+
+Both are unbounded in length, and both leave the [[token embedding (machine learning)|token embedding]] untouched.

@@ -1,0 +1,67 @@
+[[Category:Activation function]]
+[[Category:Artificial neural network]]
+An '''activation function''' is the elementwise nonlinearity applied to the pre-activation of a layer in an [[artificial neural network (ANN)]].<ref>{{#cite:Q3074}}</ref> It is written $\sigma$ throughout this wiki, and it is the only nonlinear component of a plain layer, hence the reason that stacking layers buys more than stacking matrices.
+
+== Why nonlinearity is needed ==
+
+Compose 2 affine layers with no $\sigma$ between them and the composition collapses to a single affine map,
+
+$$
+\mathbf{W}_2\left(\mathbf{W}_1\vec x+\vec b_1\right)+\vec b_2
+=
+\mathbf{W}\vec x+\vec b,
+\qquad
+\mathbf{W}=\mathbf{W}_2\mathbf{W}_1,
+\quad
+\vec b=\mathbf{W}_2\vec b_1+\vec b_2,
+$$
+
+so an arbitrary depth would be no more expressive than 1 layer. Inserting a nonlinear $\sigma$ between them breaks the collapse, which is what makes depth useful.
+
+== Definition ==
+
+An activation function is any scalar map
+
+$$
+\sigma:\mathbb{R}\to\mathbb{R}
+$$
+
+applied to a pre-activation vector $\vec z$ componentwise,
+
+$$
+a_j=\sigma\left(z_j\right),
+$$
+
+so that $\vec a=\sigma(\vec z)$. The layer that applies it is described at [[feedforward algorithm]], and the weights and biases it acts between at [[model parameters]].
+
+== Common choices ==
+
+* the [[sigmoid function]], bounded in $(0,1)$ and strictly increasing, whose derivative is $\dot\sigma=\sigma(1-\sigma)$.
+* the hyperbolic tangent $\tanh(z)=2\sigma(2z)-1$, bounded in $(-1,1)$ and centred at $0$.
+* the rectifier $\operatorname{ReLU}(z)=\max(0,z)$, unbounded above and exactly $0$ on negative inputs.
+
+== Derivative ==
+
+Training needs the derivative, because [[backpropagation]] multiplies each local gradient by it,
+
+$$
+\frac{\partial a_j}{\partial z_j}=\dot\sigma\left(z_j\right).
+$$
+
+A saturating activation makes those factors small. The sigmoid is the standard case: its derivative peaks at
+
+$$
+\max_z\dot\sigma(z)=\dot\sigma(0)=\frac{1}{4},
+$$
+
+so the factor through $L$ layers is at most $4^{-L}$, which is the vanishing-gradient problem. The rectifier avoids the saturation, its derivative being $0$ or $1$ everywhere, at the cost of units that stop responding entirely when their input stays negative.
+
+== Not an activation function ==
+
+[[Softmax]] occupies the same position at the output head but does not belong in this class: it couples the components rather than acting on each separately,
+
+$$
+\operatorname{softmax}(\vec z)_i\ \text{depends on all } z_j,
+\qquad\text{whereas}\qquad
+\sigma(z_i)\ \text{depends on } z_i\ \text{alone}.
+$$

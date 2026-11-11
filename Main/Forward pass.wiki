@@ -1,5 +1,5 @@
 [[Category:Artificial neural network]]
-A '''forward pass''' is 1 evaluation of a [[neural network]] on an input: the input is carried through the model's stages to produce the output, with no gradient computed.<ref>{{#cite:Q3074}}</ref> For a network trained by [[backpropagation]] it is the 1st of the 2 passes, and it is the only one that runs at inference.
+A '''forward pass''' is 1 evaluation of an [[artificial neural network (ANN)|neural network]] on an input: the input is carried through the model's stages to produce the output, with no gradient computed.<ref>{{#cite:Q3074}}</ref> For a network trained by [[backpropagation]] it is the 1st of the 2 passes, and it is the only one that runs at inference.
 
 The pass is an assembly of stages, each defined on its own page, rather than a single formula.
 
@@ -8,7 +8,7 @@ The pass is an assembly of stages, each defined on its own page, rather than a s
 For a [[Transformer]] language model, the stages are:
 
 # '''[[tokenisation (machine learning)|Tokenisation]]''' cuts the raw input into tokens from a [[tokenisation (machine learning)#Definition|token vocabulary]] $\mathcal{V}$, yielding a sequence of $T$ indices.
-# '''[[token embedding (machine learning)|Token embedding]]''' maps those indices to vectors in $\mathbb{R}^d$ through the embedding matrix $\mathbf{W}_E$, stacked as the rows of $\mathbf{X}\in\mathbb{R}^{T\times d}$.
+# '''[[token embedding (machine learning)|Token embedding]]''' maps those indices to vectors in $\mathbb{R}^d$ through the embedding matrix $\mathbf{W}_E$, stacked as the rows of $\mathbf{X}\in\mathbb{R}^{T\times d}$, after which a [[positional encoding]] supplies the order.
 # A stack of $L$ '''blocks''', each applying [[self-attention]] across positions and then the [[feedforward algorithm]] to each position separately.
 # An '''output head''' with [[Softmax|softmax]] maps the final representation to logits over $\mathcal{V}$.
 

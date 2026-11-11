@@ -18,6 +18,12 @@
       "sha256": "8ad8c00115ada744edcd7d4e7e7d8c7927ceb39ec5beea90a3593179dcc2067d",
       "synced_at": "2026-11-10T11:35:46+00:00"
     },
+    "Activation function": {
+      "path": "Main/Activation function.wiki",
+      "revid": 15902,
+      "sha256": "930b8957ba09bffd859eab502ed614ecd310770dae368cefad6d3aab8033582e",
+      "synced_at": "2026-11-11T16:10:55+00:00"
+    },
     "Aesthetics": {
       "path": "Main/Aesthetics.wiki",
       "revid": 8128,
@@ -1922,9 +1928,9 @@
     },
     "Forward pass": {
       "path": "Main/Forward pass.wiki",
-      "revid": 15895,
-      "sha256": "72a30aa00791b1c9bd1acad1a1aaafa621c62788ff5c30f0c37fab77f81f7bca",
-      "synced_at": "2026-11-11T15:35:54+00:00"
+      "revid": 15908,
+      "sha256": "92e264b3801e8a1a11d7496768639c99af864b2dcaf2fd6d058f6a7fd152f6d0",
+      "synced_at": "2026-11-11T16:10:55+00:00"
     },
     "French Literature/fr": {
       "path": "Main/French Literature/fr.wiki",
@@ -2540,9 +2546,15 @@
     },
     "Model parameters": {
       "path": "Main/Model parameters.wiki",
-      "revid": 15889,
-      "sha256": "6769ed3c247cbd2e51431d1c6a3aeb1458d13b5169b10f14c1bf5da97fb64651",
-      "synced_at": "2026-11-11T15:19:38+00:00"
+      "revid": 15910,
+      "sha256": "6b2f896faa5057ec6108d8e6cf992cdd1335ef6d1f5e71a40ceb275ba000d07d",
+      "synced_at": "2026-11-11T16:10:55+00:00"
+    },
+    "Model parameters (ANN)": {
+      "path": "Main/Model parameters (ANN).wiki",
+      "revid": 15909,
+      "sha256": "9a4a19207eb0f6590d3d8548817bcbc7af838e9ea054c7f10049949e5f8e3b96",
+      "synced_at": "2026-11-11T16:10:55+00:00"
     },
     "Moment of inertia": {
       "path": "Main/Moment of inertia.wiki",
@@ -5207,6 +5219,12 @@
       "revid": 9885,
       "sha256": "c1f7f88264f79dd9fac93f774fba97a8cbcb6c1e462c6773cf1501d749ba3758",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Positional encoding": {
+      "path": "Main/Positional encoding.wiki",
+      "revid": 15904,
+      "sha256": "ead35773b3e0f8937d656a92705a1f24def54040e1f75d3342074ff56922bcc8",
+      "synced_at": "2026-11-11T16:10:55+00:00"
     },
     "Power series": {
       "path": "Main/Power series.wiki",
@@ -8209,6 +8227,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-11T15:49:53+00:00",
+  "updated": "2026-11-11T16:10:55+00:00",
   "version": 1
 }
