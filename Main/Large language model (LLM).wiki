@@ -1,23 +1,24 @@
 [[Category:Large language models]]
 [[Category:Natural language processing]]
-A '''large language model''' ('''LLM''') is an [[artificial intelligence]] system built as a [[neural network]] with a very large parameter count, typically based on the [[Transformer]] architecture, trained by [[machine learning]] on broad text corpora to generate text in response to prompts.<ref>{{#cite:Q3130}}</ref> This self-supervised objective, usually [[next-token prediction]], requires no human labels because the supervision signal is derived from the text itself.
 
-== Architecture and pretraining objective ==
+A '''large language model''' ('''LLM''') is an [[artificial intelligence]] system built as a [[neural network]] with a very large parameter count, typically based on the [[Transformer]] architecture, trained by [[machine learning]] on broad text corpora to generate text in response to prompts.<ref>{{#cite:Q3130}}</ref> 
 
-At the time of writing (2026-08), the most widely adopted LLMs are Transformer models, specifically autoregressive decoder-only Transformers.<ref>{{#cite:Q3130}}</ref> Given a token sequence $\mathbf{x}=(x_1,x_2,\dots,x_T)$, the pretraining objective maximises the conditional likelihood
+== Architecture ==
 
-$$
-\mathcal{L}_{\text{LM}}
-=
-\sum_{t=1}^{T}
-\log P(x_t \mid x_{1:t-1}; \theta),
-$$
-
-where $\theta$ denotes the model parameters. The term for $t=1$ is conditioned on the empty context $x_{1:0}$, supplied in practice by a begin-of-sequence token. The causal attention mask ensures that the prediction for position $t$ depends only on $x_{1:t-1}$, not on future tokens.
+At the time of writing (2026-08), the most widely adopted LLMs are [[Transformer]] models, specifically [[autoregressive decoder-only Transformer]]s.<ref>{{#cite:Q3130}}</ref>.
 
 == Scaling laws ==
 
-The performance of LLMs improves predictably with model size, training-data volume, and computational budget, a relationship known as '''scaling laws'''.<ref>{{#cite:Q3141}}</ref> Language-model loss follows a power law in compute $C$,
+The performance of LLMs improves predictably with
+
+* model size
+* training-data volume
+* computational budget
+<ref>{{#cite:Q3141}}</ref> 
+
+== Language model loss ==
+
+Language-model loss follows a power law in compute $C$,
 
 $$
 L(C)=aC^{-\alpha},

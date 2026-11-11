@@ -2264,9 +2264,9 @@
     },
     "Large language model (LLM)": {
       "path": "Main/Large language model (LLM).wiki",
-      "revid": 15655,
-      "sha256": "b7659219993842a9e178a4a74d89505974288cca59ef6775cffb1f537d34ffbb",
-      "synced_at": "2026-11-11T13:10:22+00:00"
+      "revid": 15658,
+      "sha256": "a0559c277f931a552a15bbc196cedc7b6bedd83ed93494fbb1a81fd6adee0bda",
+      "synced_at": "2026-11-11T13:20:12+00:00"
     },
     "Law of cosine": {
       "path": "Main/Law of cosine.wiki",
@@ -7897,6 +7897,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-11T13:10:22+00:00",
+  "updated": "2026-11-11T13:20:12+00:00",
   "version": 1
 }
