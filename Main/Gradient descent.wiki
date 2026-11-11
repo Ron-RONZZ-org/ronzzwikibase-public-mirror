@@ -30,14 +30,22 @@ Gradient descent is most useful for complex functions. For simple functions sett
 If 
 
 $$
-f=\sum_{i \in I} f_i
+f=\frac{1}{|I|}\sum_{k \in I} f_k
 $$
 
-then
+then, because the gradient of $f$ is the average of the per-datapoint gradients,
 
 $$
-\vec x_{t+1} = \vec x_t - \sum_{i \in I} \eta \nabla f_i(\vec x_t)
+\nabla f(\vec x_i) = \frac{1}{|I|}\sum_{k \in I}\nabla f_k(\vec x_i),
 $$
+
+the update is
+
+$$
+\vec x_{i+1} = \vec x_i - \frac{\eta}{|I|}\sum_{k \in I} \nabla f_k(\vec x_i).
+$$
+
+The factor $1/|I|$ is the size of the dataset: without it the sum would weight the per-datapoint gradients $|I|$ times as heavily as the gradient of the normalised $f$.
 
 == Mathematical example ==
 
@@ -65,8 +73,8 @@ Using gradient descent with learning rate $\eta=0.1$ and initial point $(x_0,y_0
 
 $$
 \begin{cases}
-x_{t+1}=x_t-0.1(2x_t+3)=0.8x_t-0.3,\\
-y_{t+1}=y_t-0.1(4y_t-4)=0.6y_t+0.4.
+x_{i+1}=x_i-0.1(2x_i+3)=0.8x_i-0.3,\\
+y_{i+1}=y_i-0.1(4y_i-4)=0.6y_i+0.4.
 \end{cases}
 $$
 
@@ -94,7 +102,7 @@ $$
 Iterate:
 
 {| class="wikitable"
-! $n$ !! $x_t$ !! $y_t$ !! $\frac{\partial C}{\partial x}(x_t,y_t)$ !! $\frac{\partial C}{\partial y}(x_t,y_t)$
+! $i$ !! $x_i$ !! $y_i$ !! $\frac{\partial C}{\partial x}(x_i,y_i)$ !! $\frac{\partial C}{\partial y}(x_i,y_i)$
 |-
 | 0 || 0 || 0 || 3 || -4
 |-
@@ -149,17 +157,17 @@ Iterate:
 | 25 || -1.4943331602205565 || 0.999997156971198 || 0.01133367955888715 || -0.00001137211521197188
 |}
 
-As observed, $(x_t,y_t)$ converges toward $(-1.5,1)$. Directly substituting the convergence values in, one finds $\nabla  f(-1.5,1)=\vec 0$. Hence $(-1.5,1)$ is indeed a local minimum around $(0,0)$.
+As observed, $(x_i,y_i)$ converges toward $(-1.5,1)$. Directly substituting the convergence values in, one finds $\nabla  f(-1.5,1)=\vec 0$. Hence $(-1.5,1)$ is indeed a local minimum around $(0,0)$.
 {{End hidden}}
 
 == Applications ==
 
 === Training [[artificial neural network (ANN)]] ===
 
-[[File:Trashyard Machine learning.png|thumbnail|In some sense, [[ANN]] training is like stirring up a pile of trash: improvement is made by stirring up the weight&biases matrix ever so slightly according to current gradient, recalculate the new prediction values and new gradient, and stirring up the pile again, so on so forth until finding a $\mathbf{W}_n$ s.t. $\forall i: C_i(\mathbf{W}_n)<C_\text{target}$.]]
-Let $\mathbf{W}$ be the '''weight&biases matrix''' of an [[artificial neural network (ANN)]], $S$ be the '''training data set.''', $C_i(\mathbf{W})$ its '''cost function''' for training data point $s_i \in S$, which measures the error between the model's predictions and the true values in the training set (e.g., [[sum of squared errors (SSE)]]).
+[[File:Trashyard Machine learning.png|thumbnail|In some sense, [[ANN]] training is like stirring up a pile of trash: improvement is made by stirring up the weight&biases matrix ever so slightly according to current gradient, recalculate the new prediction values and new gradient, and stirring up the pile again, so on so forth until finding a $\mathbf{W}_i$ s.t. $\forall k: C_k(\mathbf{W}_i)<C_\text{target}$.]]
+Let $\mathbf{W}$ be the '''weight&biases matrix''' of an [[artificial neural network (ANN)]], $S$ be the '''training data set.''', $C_k(\mathbf{W})$ its '''cost function''' for training data point $s_k \in S$, which measures the error between the model's predictions and the true values in the training set (e.g., [[sum of squared errors (SSE)]]).
 
 Then '''training''' is iteration with step
 $$
-\mathbf{W}_{t+1} = \mathbf{W}_t - \sum_{s_i \in S} \eta \nabla C_i(\mathbf{W}_t).
+\mathbf{W}_{i+1} = \mathbf{W}_i - \sum_{s_k \in S} \eta \nabla C_k(\mathbf{W}_i).
 $$

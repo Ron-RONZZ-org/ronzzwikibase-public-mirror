@@ -1970,9 +1970,9 @@
     },
     "Gradient descent": {
       "path": "Main/Gradient descent.wiki",
-      "revid": 15220,
-      "sha256": "97ab74b8c151b69ec3bd2ad442e651f61de947a2227332ecc3f2af0cba3d67ec",
-      "synced_at": "2026-11-10T15:35:35+00:00"
+      "revid": 15689,
+      "sha256": "4be5341271b3dc1909bac7f78fbc61efa32637aa2ac39d0e53483728dd081323",
+      "synced_at": "2026-11-11T13:49:28+00:00"
     },
     "Gravitational potential energy": {
       "path": "Main/Gravitational potential energy.wiki",
@@ -7688,9 +7688,9 @@
     },
     "Stochastic gradient descent": {
       "path": "Main/Stochastic gradient descent.wiki",
-      "revid": 15217,
-      "sha256": "b33ba9b5b015286ca9261baca80068664146b62c40669973eb7a7dfba5a8b2d9",
-      "synced_at": "2026-11-10T15:35:35+00:00"
+      "revid": 15688,
+      "sha256": "ff091a7b76bac291d023ae39de43590a2aacac2846e2f24fa8098dae164b9927",
+      "synced_at": "2026-11-11T13:49:28+00:00"
     },
     "Strangeness": {
       "path": "Main/Strangeness.wiki",
@@ -7909,6 +7909,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-11T13:35:59+00:00",
+  "updated": "2026-11-11T13:49:28+00:00",
   "version": 1
 }

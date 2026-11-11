@@ -10,28 +10,54 @@ It is the standard algorithm used to train [[artificial neural network (ANN)]] m
 Let
 
 $$
-f=\sum_{i \in I} f_i
+f=\frac{1}{|I|}\sum_{k \in I} f_k
 $$
 
 then
 
 $$
-\vec x_{t+1} = \vec x_t - \sum_{i \in I_1 \subset I} \eta \nabla f_i(\vec x_t)
+\vec x_{i+1} = \vec x_i - \frac{\eta}{|I_1|}\sum_{k \in I_1 \subset I} \nabla f_k(\vec x_i),
 $$
+
+where $I_1 \subset I$ is the sample examined at iteration $i$. The step uses the average sampled gradient rather than its sum, so that $\eta$ keeps the same meaning whatever the sample size.
 
 == Validity ==
 
 [[File:Gradient descrent classic v.png|thumbnail|Classic (left) v. stochastic (right) gradient descent. Classic descent is like an old and wise person taking careful small steps directly towards the goal, while stochastic descent is like a young drunkard stumbling rapidly in the general direction.]]
-The expected value of the sample gradient equals the true gradient, i.e.,
+The true gradient is the average of the per-datapoint gradients,
 
 $$
-\mathbb{E}[\sum_{i \in I_1 \subset I} \eta \nabla f_i(\vec x_t)] = \nabla f(\vec W_t).
+\nabla f(\vec x_i)
+=
+\frac{1}{|I|}\sum_{k \in I}\nabla f_k(\vec x_i),
 $$
 
-Therefore, the stochastic gradient is an unbiased estimator of the true gradient.
+and the stochastic estimate must therefore also be an average rather than a sum. That is what the factor $1/|I_1|$ is: the sample size, dividing the sum over the sampled datapoints by how many terms that sum contains.
+
+Without the factor the estimate is biased, because the sample holds only $|I_1|$ of the $|I|$ terms. Each datapoint is equally likely to be drawn, $\mathbb{P}(k \in I_1)=|I_1|/|I|$, so taking the expectation over the draw of $I_1$ with $\vec x_i$ fixed,
+
+$$
+\mathbb{E}\left[\sum_{k \in I_1 \subset I}\nabla f_k(\vec x_i)\right]
+=
+\sum_{k \in I}\mathbb{P}(k \in I_1)\nabla f_k(\vec x_i)
+=
+\frac{|I_1|}{|I|}\sum_{k \in I}\nabla f_k(\vec x_i)
+=
+|I_1|\,\nabla f(\vec x_i).
+$$
+
+The raw sample sum therefore overshoots the true gradient by the factor $|I_1|$. Dividing by $|I_1|$ cancels that factor exactly,
+
+$$
+\mathbb{E}\left[\frac{1}{|I_1|}\sum_{k \in I_1 \subset I}\nabla f_k(\vec x_i)\right]
+=
+\nabla f(\vec x_i),
+$$
+
+so the expected value of the sample gradient equals the true gradient. Therefore, the stochastic gradient is an unbiased estimator of the true gradient, whatever the sample size.
 
 == Advantage ==
 
 === In training [[artificial neural network (ANN)]] ===
 
-Training large ANNs require large datasets with millions of datapoints and thousands of iterations. Calculating the true gradient requires evaluating $f_i$ for each datapoint, which is computationally prohibitive. Stochastic gradient descent significantly reduces computation burden without sacrificing accuracy.
+Training large ANNs require large datasets with millions of datapoints and thousands of iterations. Calculating the true gradient requires evaluating $f_k$ for each datapoint, which is computationally prohibitive. Stochastic gradient descent significantly reduces computation burden without sacrificing accuracy.
