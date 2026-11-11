@@ -1,0 +1,8 @@
+[[Category:Large language model]]
+'''Perplexity''' is the exponential of the [[language model loss]] measured in nats,
+
+$$
+\operatorname{PP}(\theta) = e^{\big(L_{\text{nat}}(\theta)\big)}.
+$$
+
+It is the effective number of equally likely tokens the model is choosing between for a given prediction.

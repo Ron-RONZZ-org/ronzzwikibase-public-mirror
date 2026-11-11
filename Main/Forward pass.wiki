@@ -1,5 +1,5 @@
 [[Category:Artificial neural network]]
-A '''forward pass''' is 1 evaluation of an [[artificial neural network (ANN)|neural network]] on an input: the input is carried through the model's stages to produce the output, with no gradient computed.<ref>{{#cite:Q3074}}</ref> For a network trained by [[backpropagation]] it is the 1st of the 2 passes, and it is the only one that runs at inference.
+A '''forward pass''' is 1 evaluation of an [[artificial neural network (ANN)]] on an input: the input is carried through the model's stages to produce the output, with no gradient computed.<ref>{{#cite:Q3074}}</ref> For a network trained by [[backpropagation]] it is the 1st of the 2 passes, and it is the only one that runs at inference.
 
 The pass is an assembly of stages, each defined on its own page, rather than a single formula.
 

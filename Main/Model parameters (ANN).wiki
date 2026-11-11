@@ -1,5 +1,5 @@
 [[Category:Artificial neural network]]
-The '''model parameters''' of an [[artificial neural network (ANN)|neural network]] are the quantities learned during training, written collectively as $\theta$: the weights and biases of every layer. They are what distinguishes 1 trained model from another of the same architecture, and they are fixed once training ends.
+The '''model parameters''' of an [[artificial neural network (ANN)]] are the quantities learned during training, written collectively as $\theta$: the weights and biases of every layer. They are what distinguishes 1 trained model from another of the same architecture, and they are fixed once training ends.
 
 == Definition ==
 

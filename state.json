@@ -1928,9 +1928,9 @@
     },
     "Forward pass": {
       "path": "Main/Forward pass.wiki",
-      "revid": 15924,
-      "sha256": "1a869e3415084132bb6efa1e4acbb6648d57303749694544bc47536650900bc8",
-      "synced_at": "2026-11-11T16:23:27+00:00"
+      "revid": 15965,
+      "sha256": "9dad4addb3ab90c34a3e42066bdb53e09c9c317b50166440160d41c2c0bf3192",
+      "synced_at": "2026-11-11T17:09:57+00:00"
     },
     "French Literature/fr": {
       "path": "Main/French Literature/fr.wiki",
@@ -2552,9 +2552,9 @@
     },
     "Model parameters (ANN)": {
       "path": "Main/Model parameters (ANN).wiki",
-      "revid": 15942,
-      "sha256": "d57a8a739b1640f2eb12d66462fdb8066e5a3ebb764f831bd7ab7e479ab08e70",
-      "synced_at": "2026-11-11T16:23:27+00:00"
+      "revid": 15964,
+      "sha256": "e57fb0c9f494886b2868215133235d6659e10b77f2efa965b552e0fbd43ae950",
+      "synced_at": "2026-11-11T17:09:57+00:00"
     },
     "Moment of inertia": {
       "path": "Main/Moment of inertia.wiki",
@@ -2735,6 +2735,12 @@
       "revid": 10557,
       "sha256": "c227ca67626c819a383efc39ec5f3ec38b316f9cb80c86673e66693805293528",
       "synced_at": "2026-10-18T18:15:41+00:00"
+    },
+    "Perplexity (LLM)": {
+      "path": "Main/Perplexity (LLM).wiki",
+      "revid": 15962,
+      "sha256": "5ddba7aaf67868a6b5b4e9ff5d6aaded13687dfaa416eccb7de53d608c9a18ef",
+      "synced_at": "2026-11-11T17:09:57+00:00"
     },
     "Person:Aakanksha Chowdhery": {
       "path": "Person/Aakanksha Chowdhery.wiki",
@@ -8227,6 +8233,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-11T16:49:46+00:00",
+  "updated": "2026-11-11T17:09:57+00:00",
   "version": 1
 }
