@@ -1,0 +1,36 @@
+In [[machine learning]], '''multi-epoch training''' is the practice of feeding a model the same training data multiple times (epoches).
+
+According to experiments ran by [[Source:Scaling Data-Constrained Language Models (Conference paper)|name-author]], result from repeating the same training data up to 4 times is comparable to training entirely from fresh data for the same total token count.<ref>{{#cite:Q3174}}</ref>
+
+=== Mathematical modelling ===
+
+[[File:Multi-epoch training and loss function.png|thumbnail|450px|In experiments conducted by [[Source:Scaling Data-Constrained Language Models (Conference paper)|name-author]], 4 epochs multi-epoch training produced nearly identical result to single epoch training with the same amount of total tokens. (only $0.5%$ more loss).]]
+Let
+
+* $D$ = '''corpus size''': the number of '''unique''' tokens available for training,
+* $R$ = number of repetitions,
+* $R^{\ast}$ = '''repetition ceiling parameter''', to be determined experimentally
+
+For any given model architecture, the efficacity of a '''multi-epoch training''' with $R$ epochs can be measured by the amount of fresh data required to produce equivalent result, known as the '''effective corpus size''' $D_\text{eff}$.
+
+[[Source:Scaling Data-Constrained Language Models (Conference paper)|name-author]] experimentally determined:
+
+$$
+D_{\text{eff}}
+= D\!\left(1+R^{\ast}\!\left(1-e^{-R/R^{\ast}}\right)\right).
+$$
+
+==== Finite ceiling ====
+
+[[File:Multi-epoch training data budget and performance.png|thumbnail|450px|left]]
+As $R\to\infty$,
+
+$$
+D_{\text{eff}}\to D(1+R^{\ast}),
+$$
+
+so repetition can raise effective corpus size only up to a finite limit.
+
+According to experimental results from [[Source:Scaling Data-Constrained Language Models (Conference paper)|name-author]], $R^* \approx 15$ for natural language corpus.
+
+<ref>{{#cite:Q3174}}</ref>

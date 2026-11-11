@@ -92,9 +92,9 @@
     },
     "Artificial neural network (ANN)": {
       "path": "Main/Artificial neural network (ANN).wiki",
-      "revid": 15703,
-      "sha256": "159507d8575913fae24a000b3122391b9808f271875cbd29decfbadfe35b1a57",
-      "synced_at": "2026-11-11T14:10:29+00:00"
+      "revid": 16029,
+      "sha256": "ff37d462fb2862a1961da2b999a11d35a573022aa23c4b5b07bbc024f2a4a1ad",
+      "synced_at": "2026-11-11T21:49:13+00:00"
     },
     "Artificial neuron": {
       "path": "Main/Artificial neuron.wiki",
@@ -2573,6 +2573,12 @@
       "revid": 13183,
       "sha256": "a8ac20684b3a64b0d5809a97efc02a0e93d0be4946c995cfd560aaab293c6c0f",
       "synced_at": "2026-11-07T15:08:12+00:00"
+    },
+    "Multi-epoch training (Machine learning)": {
+      "path": "Main/Multi-epoch training (Machine learning).wiki",
+      "revid": 16024,
+      "sha256": "ca40477bb870c5096edb6c69c57f13e31ba7e7342620ecd9420fb7365bc9bc94",
+      "synced_at": "2026-11-11T21:49:13+00:00"
     },
     "Multidimensional interpolation": {
       "path": "Main/Multidimensional interpolation.wiki",
@@ -8239,6 +8245,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-11T21:35:42+00:00",
+  "updated": "2026-11-11T21:49:13+00:00",
   "version": 1
 }

@@ -3,6 +3,24 @@ An '''artificial neural network (ANN)''' is a system consisting of interconnecte
 
 == Key concepts ==
 
-* Elementary unit: [[artificial neuron]]
-* Feedforward: [[feedforward algorithm]]
-* Training: [[gradient descent]]
+* [[Artificial neuron]]
+* Elementary data unit: [[token (machine learning)]]
+
+== Algorithms ==
+
+* Building blocks
+** [[tokenisation (machine learning)]]
+** [[token embedding (machine learning)]]
+* Training:
+** Optimisation
+*** [[gradient descent]]
+*** [[backpropagation]]
+** Evaluation
+*** [[LLM]]: [[language model loss]]
+* Inference:
+** [[feedforward algorithm]]
+
+== ANN model architecture ==
+
+* [[hyperparameter (ANN)]]
+* [[model parameters (ANN)]]
