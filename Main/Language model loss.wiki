@@ -1,7 +1,4 @@
-[[Category:Machine learning]]
-[[Category:Large language models]]
-
-
+[[Category:Large language model]]
 The '''language model loss''' measures how "surprised" a [[large language model (LLM)]] is by the true values of tokens it attempts to predict.
 
 == Formal definition ==
@@ -15,7 +12,7 @@ L(\theta)
 $$
 
 <blockquote>
-$\vec x=(x_1,\cdots,x_T)$ is a text [[token]] sequence of length $T$ (e.g., <code>('I','am','myself','.')</code>).
+$\vec x=(x_1,\cdots,x_T)$ is a text [[token (machine learning)|token]] sequence of length $T$ (e.g., <code>('I','am','myself','.')</code>).
 </blockquote>
 
 === Unit ===
@@ -43,25 +40,4 @@ Training reports conventionally quote $L_{\text{nat}}$.
 
 == Perplexity ==
 
-Perplexity is the exponential of the loss in nats,
-
-$$
-\operatorname{PP}(\theta) = \exp\big(L_{\text{nat}}(\theta)\big),
-$$
-
-and reads as the effective number of equally likely tokens the model is choosing between. A loss of $1$ nat per token therefore corresponds to a perplexity of $e \approx 2.718$.
-
-== Irreducible loss ==
-
-The loss is bounded below by the [[conditional entropy]] of the text itself, since no model predicts next tokens better than the true distribution generates them.
-
-== Loss and compute ==
-
-It is empirically determined
-
-$$
-L(C) \propto C^{-\alpha},
-\qquad \alpha \approx 0.05.
-$$
-
-The exponent governs how expensive further improvement is: halving the loss requires roughly $10^{6}$ times more compute, which is why the gap between $2$ nats per token and $1$ nat per token, a perplexity fall from $7.389$ to $2.718$, is very large in practice.<ref>{{#cite:Q3141}}</ref>
+See [[perplexity (LLM)]].

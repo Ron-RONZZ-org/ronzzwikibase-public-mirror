@@ -1,4 +1,4 @@
-[[Category:Large language models]]
+[[Category:Large language model]]
 [[Category:Machine learning]]
 The '''Chinchilla prescription''' is the compute-optimal division of a fixed training budget between model parameters and training tokens for a Transformer [[large language model (LLM)|language model]], derived by Hoffmann et al. in 2022.<ref>{{#cite:Q3164}}</ref> Its headline result is that the 2 quantities should grow together: every doubling of parameter count should be matched by a doubling of training tokens.
 

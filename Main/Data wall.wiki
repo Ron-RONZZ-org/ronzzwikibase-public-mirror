@@ -1,4 +1,4 @@
-[[Category:Large language models]]
+[[Category:Large language model]]
 [[Category:Machine learning]]
 The '''data wall''' is the regime in which the supply of high-quality public text is exhausted, so that further reductions in [[language model loss|loss]] must come from parameters, [[algorithmic efficiency]], or [[synthetic data]], rather than from additional human-written text.<ref>{{#cite:Q3181}}</ref>
 

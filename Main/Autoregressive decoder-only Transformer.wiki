@@ -1,4 +1,4 @@
-[[Category:Large language models]]
+[[Category:Large language model]]
 [[Category:Artificial neural network]]
 An '''autoregressive decoder-only Transformer''' is a [[Transformer]] that retains only the decoder stack, so that each position attends to itself and to earlier positions only. At the time of writing (2026-08) it is the most widely adopted architecture for [[large language model (LLM)|LLMs]].<ref>{{#cite:Q3130}}</ref>
 

@@ -1,4 +1,4 @@
-[[Category:Normalisation Function]]
+[[Category:Normalisation function]]
 [[Category:Machine learning]]
 [[File:Vector softmax.png|thumbnail|400px|Application of '''softmax''' on a column vector.]]
 '''Softmax''' is a [[normalisation function]] that maps a [[vector]] of real-valued logits to a [[categorical probability distribution]].

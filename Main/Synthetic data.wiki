@@ -1,4 +1,4 @@
-[[Category:Large language models]]
+[[Category:Large language model]]
 [[Category:Machine learning]]
 '''Synthetic data''' is training data produced by a model rather than written by a human, either sampled from the model directly or filtered and verified afterwards.
 

@@ -1,4 +1,4 @@
-[[Category:Large language models]]
+[[Category:Large language model]]
 [[Category:Natural language processing]]
 A '''large language model''' ('''LLM''') is an [[artificial neural network (ANN)]] with a very large parameter count, trained by [[machine learning]] on broad text corpora to model the distribution of token sequences, so that it can generate text in response to a prompt.
 

@@ -1,5 +1,5 @@
 [[Category:Artificial neural network]]
-[[Category:Large language models]]
+[[Category:Large language model]]
 '''Self-attention''' relates the positions of a sequence to one another, so that each position's representation is built from the whole sequence rather than from a fixed window.<ref>{{#cite:Q3130}}</ref>
 
 == Definition ==

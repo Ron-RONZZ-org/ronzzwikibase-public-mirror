@@ -1,4 +1,4 @@
-[[Category:Large language models]]
+[[Category:Large language model]]
 [[Category:Machine learning]]
 '''Algorithmic efficiency''' is the improvement in training algorithms that lowers the compute needed to reach a given [[language model loss|loss]], holding hardware fixed. It is 1 of the 3 routes past the [[data wall]], and the only one that reduces the compute bill rather than redirecting it.
 

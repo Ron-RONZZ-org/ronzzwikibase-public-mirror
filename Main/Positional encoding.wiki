@@ -1,4 +1,4 @@
-[[Category:Large language models]]
+[[Category:Large language model]]
 [[Category:Artificial neural network]]
 A '''positional encoding''' injects the order of a sequence into a model that would otherwise treat its positions as an unordered set. It is combined with the [[token embedding (machine learning)|token embedding]] before the first block, so that the representation entering [[self-attention]] knows where each token sits.<ref>{{#cite:Q3130}}</ref>
 

@@ -1,4 +1,4 @@
-[[Category:Large language models]]
+[[Category:Large language model]]
 [[Category:Machine learning]]
 '''Decoding''' is the policy that turns the distribution a [[large language model (LLM)|language model]] assigns to the next token into an actual output sequence.<ref>{{#cite:Q3198}}</ref> At each step the model emits logits $\vec z\in\mathbb{R}^{|\mathcal{V}|}$ over the vocabulary $\mathcal{V}$, and the [[Softmax|softmax]] turns them into a distribution over $\mathcal{V}$. Decoders differ in how they pick from it: they select the most probable token, or they sample.
 

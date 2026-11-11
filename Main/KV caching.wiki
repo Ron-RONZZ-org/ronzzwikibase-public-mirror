@@ -1,4 +1,4 @@
-[[Category:Large language models]]
+[[Category:Large language model]]
 [[Category:Machine learning]]
 '''KV caching''' stores the keys and values already computed for earlier positions, so that autoregressive generation does not recompute the prefix at every step.<ref>{{#cite:Q3192}}</ref>
 

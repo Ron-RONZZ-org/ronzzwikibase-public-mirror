@@ -32,9 +32,9 @@
     },
     "Algorithmic efficiency": {
       "path": "Main/Algorithmic efficiency.wiki",
-      "revid": 15918,
-      "sha256": "d571dc81538e7928f4738d2c2bc14bb6151c6dc01a9f9ee5de864731e51470f5",
-      "synced_at": "2026-11-11T16:23:27+00:00"
+      "revid": 15945,
+      "sha256": "a21b52c190f4897592cfbc25bc7e7926f63635e9d7cf842917b0d1cd93f7103f",
+      "synced_at": "2026-11-11T16:49:46+00:00"
     },
     "Anchor and adjust": {
       "path": "Main/Anchor and adjust.wiki",
@@ -134,9 +134,9 @@
     },
     "Autoregressive decoder-only Transformer": {
       "path": "Main/Autoregressive decoder-only Transformer.wiki",
-      "revid": 15885,
-      "sha256": "147ab2d093a9da7b421c30624c735064cdc17bc635fd3d1bfdb24efa6deb0cc1",
-      "synced_at": "2026-11-11T15:19:38+00:00"
+      "revid": 15946,
+      "sha256": "c503df1cb2b6415928a677afc30278306c9ea264e929c5c54fb83037102b6349",
+      "synced_at": "2026-11-11T16:49:46+00:00"
     },
     "Availability heuristic": {
       "path": "Main/Availability heuristic.wiki",
@@ -368,9 +368,9 @@
     },
     "Chinchilla prescription": {
       "path": "Main/Chinchilla prescription.wiki",
-      "revid": 15941,
-      "sha256": "b3075172f23f7651d011b3a93458a78d8cf30e8b63cebea39fd7cc7c74b26a78",
-      "synced_at": "2026-11-11T16:23:27+00:00"
+      "revid": 15947,
+      "sha256": "6f9bede6c4b741a131a8ba3dd324066794ab1e7c9daa66cc18a5d60a0aad4a07",
+      "synced_at": "2026-11-11T16:49:46+00:00"
     },
     "Circle": {
       "path": "Main/Circle.wiki",
@@ -1586,9 +1586,9 @@
     },
     "Data wall": {
       "path": "Main/Data wall.wiki",
-      "revid": 15937,
-      "sha256": "9853459f31aae9da0db1cc318c4f9dd134a4315945883698aeebd38ff0552afa",
-      "synced_at": "2026-11-11T16:23:27+00:00"
+      "revid": 15948,
+      "sha256": "99527db069b1dc131354e48fddd6e7a8f89f29fef39957d18ab050f7299911e7",
+      "synced_at": "2026-11-11T16:49:46+00:00"
     },
     "De Morgan's laws": {
       "path": "Main/De Morgan's laws.wiki",
@@ -1598,9 +1598,9 @@
     },
     "Decoding": {
       "path": "Main/Decoding.wiki",
-      "revid": 15696,
-      "sha256": "2aff91bfd46721b15f47cd0073fdf3b9c72374ca4629cd3ae3fd6a4c43fd44e8",
-      "synced_at": "2026-11-11T14:10:29+00:00"
+      "revid": 15949,
+      "sha256": "0fe42007a9fb0cd4066b020a0cec65faeb05cf5c126c4047b55ac8417f3f9b1c",
+      "synced_at": "2026-11-11T16:49:46+00:00"
     },
     "Dedekind cut": {
       "path": "Main/Dedekind cut.wiki",
@@ -2294,9 +2294,9 @@
     },
     "KV caching": {
       "path": "Main/KV caching.wiki",
-      "revid": 15801,
-      "sha256": "eb351710ffe7dfd272bfdbe406664bdc2f8a7b0b1d99b7a605eee8b1ff6ce765",
-      "synced_at": "2026-11-11T14:10:29+00:00"
+      "revid": 15950,
+      "sha256": "0410cae25e4cc9470ccf6db54f260552859bba677d38ffd6fa6d51054514b02d",
+      "synced_at": "2026-11-11T16:49:46+00:00"
     },
     "Kernel pair of a function": {
       "path": "Main/Kernel pair of a function.wiki",
@@ -2318,9 +2318,9 @@
     },
     "Language model loss": {
       "path": "Main/Language model loss.wiki",
-      "revid": 15917,
-      "sha256": "f49009abf86f962610716aa01b1f08d1f7cdf8ea3b4e37e2b0ad3943d3649ea4",
-      "synced_at": "2026-11-11T16:23:27+00:00"
+      "revid": 15943,
+      "sha256": "6f61fe42e1a1cfb9af67e6970fb8ec4659edc2fdfff44b85463c80f2b9f5953a",
+      "synced_at": "2026-11-11T16:49:46+00:00"
     },
     "Laplace transform": {
       "path": "Main/Laplace transform.wiki",
@@ -2330,9 +2330,9 @@
     },
     "Large language model (LLM)": {
       "path": "Main/Large language model (LLM).wiki",
-      "revid": 15940,
-      "sha256": "52a040a6b7c6d7951ef3940245fe91520b6ca81633a8d385a920ed4b25730829",
-      "synced_at": "2026-11-11T16:23:27+00:00"
+      "revid": 15951,
+      "sha256": "3547bafc23cd258794fc3cd59b8cc4849fe648ca5555e715d23af9049e25140a",
+      "synced_at": "2026-11-11T16:49:46+00:00"
     },
     "Law of cosine": {
       "path": "Main/Law of cosine.wiki",
@@ -5222,9 +5222,9 @@
     },
     "Positional encoding": {
       "path": "Main/Positional encoding.wiki",
-      "revid": 15904,
-      "sha256": "ead35773b3e0f8937d656a92705a1f24def54040e1f75d3342074ff56922bcc8",
-      "synced_at": "2026-11-11T16:10:55+00:00"
+      "revid": 15952,
+      "sha256": "a1544b1ac0a00f883024c5668bc6a898e441b64b6abdddf3fb10c05d49b9d6f6",
+      "synced_at": "2026-11-11T16:49:46+00:00"
     },
     "Power series": {
       "path": "Main/Power series.wiki",
@@ -5432,9 +5432,9 @@
     },
     "Self-attention": {
       "path": "Main/Self-attention.wiki",
-      "revid": 15692,
-      "sha256": "e3ccd9c8cdba1785e727edda7b34c41e0ca8ccbbca58850c84f80a6a48c22e8f",
-      "synced_at": "2026-11-11T14:10:29+00:00"
+      "revid": 15953,
+      "sha256": "9cecd15e75fec39425bf8ef1ddd2d116afbc819bde8fb2c61b08e951e568a21b",
+      "synced_at": "2026-11-11T16:49:46+00:00"
     },
     "Sequence": {
       "path": "Main/Sequence.wiki",
@@ -5474,9 +5474,9 @@
     },
     "Softmax": {
       "path": "Main/Softmax.wiki",
-      "revid": 15340,
-      "sha256": "5b0841876404e29110689dddc7446c300fadad0e579c7559b7b1cec58ac19a62",
-      "synced_at": "2026-11-11T12:49:34+00:00"
+      "revid": 15956,
+      "sha256": "aa77aab38fb02b76da483a2b094002503a19f5123a244c85b8d001d8693e4efd",
+      "synced_at": "2026-11-11T16:49:46+00:00"
     },
     "Software:Cloudflare One (Formerly WARP)": {
       "path": "Software/Cloudflare One (Formerly WARP).wiki",
@@ -8048,9 +8048,9 @@
     },
     "Synthetic data": {
       "path": "Main/Synthetic data.wiki",
-      "revid": 15936,
-      "sha256": "18a7dafb3b6230a5632af7b7828b85e210732209163409431cdad5b68d4c04c7",
-      "synced_at": "2026-11-11T16:23:27+00:00"
+      "revid": 15954,
+      "sha256": "152dfe641d08484120d04fc44e498610a93820952b2e0c5f15b4d5198603f544",
+      "synced_at": "2026-11-11T16:49:46+00:00"
     },
     "Technology": {
       "path": "Main/Technology.wiki",
@@ -8227,6 +8227,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-11T16:23:27+00:00",
+  "updated": "2026-11-11T16:49:46+00:00",
   "version": 1
 }
