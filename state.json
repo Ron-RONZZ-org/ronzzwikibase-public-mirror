@@ -2558,9 +2558,9 @@
     },
     "Model parameters (ANN)": {
       "path": "Main/Model parameters (ANN).wiki",
-      "revid": 15964,
-      "sha256": "e57fb0c9f494886b2868215133235d6659e10b77f2efa965b552e0fbd43ae950",
-      "synced_at": "2026-11-11T17:09:57+00:00"
+      "revid": 15975,
+      "sha256": "88435d2eac90cbd6d307860b8dc063c6951c16560d704318ba69c806d928ded0",
+      "synced_at": "2026-11-11T18:36:02+00:00"
     },
     "Moment of inertia": {
       "path": "Main/Moment of inertia.wiki",
@@ -8132,9 +8132,9 @@
     },
     "Transformer": {
       "path": "Main/Transformer.wiki",
-      "revid": 15264,
-      "sha256": "65ba35e4465a8e30c503a55e75b4a1cced2f7c4a2bbb00de6ba311e406363a71",
-      "synced_at": "2026-11-10T18:20:52+00:00"
+      "revid": 15976,
+      "sha256": "1115deb5021d7cce057de5aa83c50a1f78d1c667f52b715c6776e1745537a60e",
+      "synced_at": "2026-11-11T18:36:02+00:00"
     },
     "Transition matrix between bases of a vector space": {
       "path": "Main/Transition matrix between bases of a vector space.wiki",
@@ -8239,6 +8239,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-11T18:21:51+00:00",
+  "updated": "2026-11-11T18:36:02+00:00",
   "version": 1
 }

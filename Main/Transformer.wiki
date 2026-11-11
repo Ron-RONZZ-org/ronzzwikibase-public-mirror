@@ -1,3 +1,4 @@
+[[Category:Transformer]][[Category:Proper name]]
 A Transformer is, at the time of writing(2026-08), the most popular architecture for building [[LLM|Large Language Models]].
 
 == Intuition ==
