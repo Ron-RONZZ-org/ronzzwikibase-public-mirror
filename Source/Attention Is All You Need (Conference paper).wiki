@@ -1,0 +1,5 @@
+{{ConferencePaper}}
+
+== Overview ==
+
+Paper introducing the Transformer architecture, presented at NeurIPS 2017

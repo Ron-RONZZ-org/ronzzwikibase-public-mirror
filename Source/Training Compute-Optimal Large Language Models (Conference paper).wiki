@@ -1,0 +1,5 @@
+{{ConferencePaper}}
+
+== Overview ==
+
+Chinchilla paper showing that model size and training tokens should be scaled equally under a fixed compute budget, NeurIPS 2022

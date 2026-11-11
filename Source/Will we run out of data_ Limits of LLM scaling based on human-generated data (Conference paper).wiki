@@ -1,0 +1,5 @@
+{{ConferencePaper}}
+
+== Overview ==
+
+Epoch AI position paper estimating the stock of public human text and forecasting its exhaustion between 2026 and 2032, ICML 2024

@@ -1,0 +1,5 @@
+{{ConferencePaper}}
+
+== Overview ==
+
+Paper introducing nucleus (top-p) sampling and analysing decoding strategies for neural text generation, ICLR 2020

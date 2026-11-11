@@ -1,0 +1,5 @@
+{{ConferencePaper}}
+
+== Overview ==
+
+Study of scaling laws when training data is repeated, proposing a data-constrained scaling law, NeurIPS 2023
