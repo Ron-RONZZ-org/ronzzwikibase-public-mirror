@@ -1,0 +1,62 @@
+[[Category:Normalisation Function]]
+[[Category:Machine learning]]
+[[File:Vector softmax.png|thumbnail|400px|Application of '''softmax''' on a column vector.]]
+'''Softmax''' is a [[normalisation function]] that maps a [[vector]] of real-valued logits to a [[categorical probability distribution]].
+
+== Definition ==
+
+For $\vec z=(z_1,\dots,z_K)^{\top}\in\mathbb{R}^{K}$,
+
+$$
+\operatorname{softmax}(\vec z)_i
+=
+\frac{\exp(z_i)}
+{\sum_{j=1}^{K}\exp(z_j)},
+\qquad i=1,\dots,K.
+$$
+
+== Shift and numerical stability ==
+
+In practice, it is evaluated with a shift for [[numerical stability]]. Let $m=\max_{j=1,\dots,K}z_j$; then
+
+$$
+\operatorname{softmax}(\vec z)_i
+=
+\frac{\exp(z_i-m)}
+{\sum_{j=1}^{K}\exp(z_j-m)}.
+$$
+
+<blockquote>
+Mathematically, the shift $m$ represents dividing both the numerator and denominator by $e^m$ to simplify calculation. e.g., to calculate the softmax of $\vec z = (100,102,101)^\top$, one calculate instead softmax of $\vec z - \vec 1 \cdot m = (100-m,102-m,101-m)^\top$, where $m$ can be, for example, $102$.
+</blockquote>
+
+== Temperature parameter ==
+
+A temperature parameter $\tau>0$ controls the sharpness of the distribution:
+
+$$
+\operatorname{softmax}(\vec z/\tau)_i
+=
+\frac{\exp(z_i/\tau)}
+{\sum_{j=1}^{K}\exp(z_j/\tau)}.
+$$
+
+As $\tau\to 0^{+}$, the distribution approaches an [[one-hot vector]]; as $\tau\to\infty$, it approaches the [[uniform distribution]].
+
+== Common form ==
+
+Including both the shift and the temperature parameter:
+
+$$
+\operatorname{softmax}(\vec z/\tau)_i
+=
+\frac{\exp((z_i-m)/\tau)}
+{\sum_{j=1}^{K}\exp((z_j-m)/\tau)}.
+$$
+where $m=\max_{j=1,\dots,K}z_j$ and $\tau \in (0,\infty)$.
+
+== Properties ==
+
+=== $\sum_{i=1,\dots,K} \operatorname{softmax}(\vec z/\tau)_i=1$ ===
+
+as required to constitute a [[categorical probability distribution]].

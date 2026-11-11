@@ -4758,6 +4758,12 @@
       "sha256": "a3a8049ac217a302e79c88e8be90cda5f6d51bfe1b90d86be54645b96e9f5acd",
       "synced_at": "2026-10-31T16:09:35+00:00"
     },
+    "Softmax": {
+      "path": "Main/Softmax.wiki",
+      "revid": 15323,
+      "sha256": "3b50fe6d738ab02642b0501ed067d913aa58ab7ebd4ce58d0309b64cb9865d5f",
+      "synced_at": "2026-11-11T10:10:19+00:00"
+    },
     "Software:Cloudflare One (Formerly WARP)": {
       "path": "Software/Cloudflare One (Formerly WARP).wiki",
       "revid": 12830,
@@ -7417,6 +7423,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-10T21:48:51+00:00",
+  "updated": "2026-11-11T10:10:19+00:00",
   "version": 1
 }
