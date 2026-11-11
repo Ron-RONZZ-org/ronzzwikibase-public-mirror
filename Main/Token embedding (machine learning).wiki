@@ -4,24 +4,24 @@
 [[File:Token embedding 2.png|thumbnail|350px|Since each dimension encodes some semantic meaning, vector addition/subtraction can add/extract meaning to tokens and relate them to other tokens.]]
 == Embedding and unembedding [[function]]s ==
 
-Let $t_i \in T$ be [[token (machine learning)|token]]s obtained from [[tokenisation (machine learning)|tokenisation]] of raw data.
+Let $t_i \in \mathcal{T}$ be [[token (machine learning)|token]]s obtained from [[tokenisation (machine learning)|tokenisation]] of raw data.
 
-Let $\mathbb{E}\equiv \mathbb{R}^n$ be a [[vector space]].
+Let $\mathbb{E}\equiv \mathbb{R}^d$ be a [[vector space]].
 
 Then '''vector embedding function'''
 
 $$
-\operatorname{E}: T \to \mathbb{E}\\
-\forall t_i \in T: t_i \mapsto \vec{e}_i
+\operatorname{E}: \mathcal{T} \to \mathbb{E}\\
+\forall t_i \in \mathcal{T}: t_i \mapsto \vec{e}_i
 $$
 
-$\mathbb{E}$ is then known as the n-dimensional '''embedding space''' of $\operatorname{E}$, which contains '''embedding vectors''' $\vec e_i$.
+$\mathbb{E}$ is then known as the $d$-dimensional '''embedding space''' of $\operatorname{E}$, which contains '''embedding vectors''' $\vec e_i$.
 
 Similarly,
 
 $$
-\operatorname{U}: \mathbb{E} \to T \\
-\forall \vec e_i \in \mathbb{E}: \vec e_i \mapsto t_i 
+\operatorname{U}: \mathbb{E} \to \mathcal{T} \\
+\forall \vec e_i \in \mathbb{E}: \vec e_i \mapsto t_i
 $$
 
 is the '''unembedding function'''.
@@ -30,7 +30,7 @@ is the '''unembedding function'''.
 
 === Embedding matrix ===
 
-Let $\mathbf{W}_E \in \mathbb{R}^{|\mathcal{V}| \times n}$ be a '''vector embedding matrix'''.
+Let $\mathbf{W}_E \in \mathbb{R}^{|\mathcal{V}| \times d}$ be a '''vector embedding matrix'''.
 
 $$
 \vec{e}_i = \mathbf{W}_E[t_i].
@@ -40,7 +40,7 @@ $$
 
 Let $\vec o$ denote the output vector.
 
-Let $\mathbf{W}_U \in \mathbb{R}^{n \times |\mathcal{V}|}$ be a '''vector unembedding matrix'''.
+Let $\mathbf{W}_U \in \mathbb{R}^{d \times |\mathcal{V}|}$ be a '''vector unembedding matrix'''.
 
 $$
 \mathrm{logits} = \vec o \mathbf{W}_U.
@@ -93,7 +93,7 @@ Frequently, one sets $\mathbf{W}_U=\mathbf{W}_E^T$, a practice known as '''weigh
 Embed <code>cat</code>
 
 $$
-\vec i = \mathbf{W}_E[1]=[0.2,\ 0.5,\ -0.1]
+\vec e_1 = \mathbf{W}_E[1]=[0.2,\ 0.5,\ -0.1]
 $$
 
 '''Unembedding'''
