@@ -1,0 +1,50 @@
+[[Category:Artificial neural network]]
+The '''model parameters''' of a [[neural network]] are the quantities learned during training, written collectively as $\theta$: the weights and biases of every layer. They are what distinguishes 1 trained model from another of the same architecture, and they are fixed once training ends.
+
+== Definition ==
+
+For a network of $L$ layers with widths $d_0,\cdots,d_L$, the parameters are the weights and biases of every layer,
+
+$$
+\theta=\left\{\mathbf{W}^{(l)},\vec b^{(l)}\right\}_{l=1}^{L},
+\qquad
+\mathbf{W}^{(l)}\in\mathbb{R}^{d_l\times d_{l-1}},
+\qquad
+\vec b^{(l)}\in\mathbb{R}^{d_l},
+$$
+
+so the parameter count is
+
+$$
+N=|\theta|=\sum_{l=1}^{L}\left(d_{l-1}d_l+d_l\right).
+$$
+
+$N$ is the quantity that the [[large language model (LLM)#Scaling laws|scaling laws]] and the [[Chinchilla prescription]] scale, and the "very large parameter count" that defines a [[large language model (LLM)|large language model]] is this $N$.
+
+== Role in the model ==
+
+Parameters turn an architecture into a particular function. The [[forward pass]] evaluates it as $f_\theta$, and predictions are conditional distributions indexed by $\theta$,
+
+$$
+P_\theta(y\mid x),
+$$
+
+so $\theta$ appears as a subscript wherever the output distribution of the model is written.
+
+== Distinction from hyperparameters ==
+
+The number of layers $L$, the widths $d_l$, the [[activation function]] $\sigma$, and the learning rate $\eta$ are '''hyperparameters''': they fix the shape of $\theta$ and the manner of its training, but they are chosen rather than learned.
+
+== Distinction from state ==
+
+Parameters are not state. They are set during training and do not change while the model is in use, whereas state is whatever a model carries between steps: the hidden state of a recurrent network, the fixed-size state of a state-space model, or the keys and values held by [[KV caching]]. A state-space model updates its state at every token; it does not update its parameters.
+
+== Training ==
+
+Training is the search for the $\theta$ that minimises the [[language model loss|loss]], and [[gradient descent]] updates it in steps of the form
+
+$$
+\theta_{i+1}=\theta_i-\eta\nabla_\theta C(\theta_i),
+$$
+
+with [[backpropagation]] supplying $\nabla_\theta C$.

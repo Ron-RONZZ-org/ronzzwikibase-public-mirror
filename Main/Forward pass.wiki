@@ -1,0 +1,46 @@
+[[Category:Artificial neural network]]
+A '''forward pass''' is the evaluation of a [[neural network]] on an input: the input is propagated through the layers to produce the output, with no gradient computed.<ref>{{#cite:Q3074}}</ref> For a network trained by [[backpropagation]] it is the 1st of the 2 passes, and it is the only one that runs at inference.
+
+== Definition ==
+
+Let $L$ be the number of layers, $\vec a^{(0)}=\vec x$ the input, $\mathbf{W}^{(l)},\vec b^{(l)}$ the weights and biases of layer $l$, which together form the [[model parameters]] $\theta$, and $\sigma$ the [[activation function]]. Each layer applies an affine map and then the activation,
+
+$$
+\begin{cases}
+\vec z^{(l)}=\mathbf{W}^{(l)}\vec a^{(l-1)}+\vec b^{(l)}, \\
+\vec a^{(l)}=\sigma\left(\vec z^{(l)}\right),
+\end{cases}
+\qquad l=1,\cdots,L,
+$$
+
+where $\vec z^{(l)}$ is the pre-activation and $\vec a^{(l)}$ the activation of layer $l$. The output of the network is $\vec a^{(L)}$.
+
+== Composition ==
+
+Writing each layer as the map
+
+$$
+\varphi^{(l)}(\vec a)=\sigma\left(\mathbf{W}^{(l)}\vec a+\vec b^{(l)}\right),
+$$
+
+the forward pass is their composition,
+
+$$
+f_\theta=\varphi^{(L)}\circ\cdots\circ\varphi^{(1)},
+$$
+
+so that $\vec a^{(L)}=f_\theta(\vec x)$. A [[large language model (LLM)|language model]] is 1 such $f_\theta$, whose output is a distribution over the vocabulary rather than a single value.
+
+== Cost ==
+
+The cost is dominated by the affine maps. A matrix-vector product $\mathbf{W}^{(l)}\vec a^{(l-1)}$ costs $\mathcal{O}(d_{l-1}d_l)$ for layer widths $d_{l-1}$ and $d_l$, so the pass costs
+
+$$
+\mathcal{O}\left(\sum_{l=1}^{L}d_{l-1}d_l\right),
+$$
+
+linear in the number of layers and quadratic in the width. Layers that are not plain affine maps add their own terms, such as the $\mathcal{O}(T^2d)$ of [[self-attention]] for a context of length $T$.
+
+== Relation to backpropagation ==
+
+The forward pass must retain $\vec z^{(l)}$ and $\vec a^{(l)}$ for every layer, because [[backpropagation]] needs them to evaluate the local gradients on the way back. Storing the activations is therefore part of the cost of training, though not of inference, where only the intermediate values of the current step are needed.

@@ -1,10 +1,10 @@
 [[Category:Large language models]]
 [[Category:Natural language processing]]
-A '''large language model''' ('''LLM''') is a [[neural network]] with a very large parameter count, trained by [[machine learning]] on broad text corpora to model the distribution of token sequences, so that it can generate text in response to a prompt. The definition rests on scale, and on the modelling of text, rather than on any 1 architecture.
+A '''large language model''' ('''LLM''') is an [[artificial neural network (ANN)]] with a very large parameter count, trained by [[machine learning]] on broad text corpora to model the distribution of token sequences, so that it can generate text in response to a prompt.
 
 == Architecture ==
 
-LLMs are built from several architectures, which differ in how they model text and in how they generate it. The dominant family at the time of writing (2026-08) is the [[autoregressive decoder-only Transformers]], and how it differs from the alternatives is set out there.<ref>{{#cite:Q3130}}</ref> What every family shares, and what the rest of this article relies on, is a distribution over token sequences.
+The dominant architecture at the time of writing (2026-11) is the [[autoregressive decoder-only Transformer]].<ref>{{#cite:Q3130}}</ref> 
 
 == Scaling laws ==
 
@@ -51,7 +51,7 @@ $$
 y_t\sim\operatorname{Categorical}\left(\mathrm{softmax}\left(\vec{z}_t\right)\right).
 $$
 
-where $f_\theta$ is the model [[forward pass (ANN)|forward pass]] with [[parameter state (ANN)|parameter state]] $\theta$, and $\operatorname{Categorical}$ is the [[categorical distribution operator]].
+where $f_\theta$ is the model [[forward pass]] with [[model parameters]] $\theta$, and $\operatorname{Categorical(\cdot)}$ denotes the [[categorical distribution]] given probability vector $\cdot$.
 
 
 <blockquote>

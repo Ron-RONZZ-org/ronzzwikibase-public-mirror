@@ -126,11 +126,11 @@
       "sha256": "e4e5e2d7aa05712adcf2ecbf490ec636e86418fed947d3fc17e4ff7d6f57acf4",
       "synced_at": "2026-11-03T16:49:51+00:00"
     },
-    "Autoregressive decoder-only Transformers": {
-      "path": "Main/Autoregressive decoder-only Transformers.wiki",
-      "revid": 15800,
+    "Autoregressive decoder-only Transformer": {
+      "path": "Main/Autoregressive decoder-only Transformer.wiki",
+      "revid": 15885,
       "sha256": "147ab2d093a9da7b421c30624c735064cdc17bc635fd3d1bfdb24efa6deb0cc1",
-      "synced_at": "2026-11-11T14:10:29+00:00"
+      "synced_at": "2026-11-11T15:19:38+00:00"
     },
     "Availability heuristic": {
       "path": "Main/Availability heuristic.wiki",
@@ -146,9 +146,9 @@
     },
     "Backpropagation": {
       "path": "Main/Backpropagation.wiki",
-      "revid": 15700,
-      "sha256": "2139eb9357b55ce86f0e3e7c44f1cc35b1cda2f9a9e46f6de6f11051c1648d7f",
-      "synced_at": "2026-11-11T14:10:29+00:00"
+      "revid": 15892,
+      "sha256": "fd855bd1c150afb8c2c7bf76924a1ab0c9ca62ec891785239ef1eca78a4b7ef6",
+      "synced_at": "2026-11-11T15:19:38+00:00"
     },
     "Baryon": {
       "path": "Main/Baryon.wiki",
@@ -1920,6 +1920,12 @@
       "sha256": "69676064ae74aa0da6742bc668ce27af5f4cd83a09337c71c579ad48d34686b7",
       "synced_at": "2026-10-26T17:40:19+00:00"
     },
+    "Forward pass": {
+      "path": "Main/Forward pass.wiki",
+      "revid": 15887,
+      "sha256": "90514ac09d0b865bc9f40489901712467155adf95dea15dad1e06407ff7ff22d",
+      "synced_at": "2026-11-11T15:19:38+00:00"
+    },
     "French Literature/fr": {
       "path": "Main/French Literature/fr.wiki",
       "revid": 10594,
@@ -2318,9 +2324,9 @@
     },
     "Large language model (LLM)": {
       "path": "Main/Large language model (LLM).wiki",
-      "revid": 15879,
-      "sha256": "a6ea155b131bc0b3dea90501ba23bccaaf8e1bd20418737921f32d9b15c3c6f5",
-      "synced_at": "2026-11-11T15:09:26+00:00"
+      "revid": 15891,
+      "sha256": "328da5248de9f35922402378205e9befe0a330c84cf319adeffacb2074646aa5",
+      "synced_at": "2026-11-11T15:19:38+00:00"
     },
     "Law of cosine": {
       "path": "Main/Law of cosine.wiki",
@@ -2531,6 +2537,12 @@
       "revid": 10834,
       "sha256": "dbb9476728ee12ad5f5281611ffafe64d390b6869acc0d81bdf96db2fb6319c5",
       "synced_at": "2026-10-20T16:53:14+00:00"
+    },
+    "Model parameters": {
+      "path": "Main/Model parameters.wiki",
+      "revid": 15889,
+      "sha256": "6769ed3c247cbd2e51431d1c6a3aeb1458d13b5169b10f14c1bf5da97fb64651",
+      "synced_at": "2026-11-11T15:19:38+00:00"
     },
     "Moment of inertia": {
       "path": "Main/Moment of inertia.wiki",
@@ -8197,6 +8209,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-11T15:09:26+00:00",
+  "updated": "2026-11-11T15:19:38+00:00",
   "version": 1
 }
