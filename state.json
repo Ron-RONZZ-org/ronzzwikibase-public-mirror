@@ -2184,6 +2184,12 @@
       "sha256": "bb702d7400a17f42c7b0484d2601a6a508ab8adcabdbda7c5d0ca294cae9a9b1",
       "synced_at": "2026-11-04T09:36:32+00:00"
     },
+    "Hyperparameter (ANN)": {
+      "path": "Main/Hyperparameter (ANN).wiki",
+      "revid": 15966,
+      "sha256": "01be0aee53c7d4bb9a5a0a3cbe895461f076159d9ea4544e6a1730da934f1a02",
+      "synced_at": "2026-11-11T18:10:45+00:00"
+    },
     "Hyperplane": {
       "path": "Main/Hyperplane.wiki",
       "revid": 9796,
@@ -8233,6 +8239,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-11T17:09:57+00:00",
+  "updated": "2026-11-11T18:10:45+00:00",
   "version": 1
 }

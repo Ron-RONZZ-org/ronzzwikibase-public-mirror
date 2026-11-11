@@ -1,0 +1,7 @@
+A '''hyperparameter''' of an [[artificial neural network (ANN)]] is any parameter that determines the network's architecture.
+
+== Examples ==
+
+* The number of layers $N_L$
+* The widths of each layer $d_l, l=1,\dots,N_L$
+* The [[activation function]] $\sigma$
