@@ -90,31 +90,31 @@ $$
 =
 -\frac{\alpha_{\theta}}{\theta_\text{opt}}\left(\frac{|\theta|_{c}}{\theta_\text{opt}}\right)^{\alpha_{\theta}}
 +\lambda\,6D_\text{opt}
-=0, & \text{(1)}\\
+=0, & \text{(2)}\\
 \frac{\partial\mathcal{L}}{\partial D}\bigg|_{\theta_\text{opt},D_\text{opt}}
 =
 -\frac{\alpha_D}{D_\text{opt}}\left(\frac{D_{c}}{D_\text{opt}}\right)^{\alpha_D}
 +\lambda\,6\theta_\text{opt}
-=0, & \text{(2)}\\
+=0, & \text{(3)}\\
 \frac{\partial\mathcal{L}}{\partial\lambda}\bigg|_{\theta_\text{opt},D_\text{opt}}
 =
-6\theta_\text{opt}D_\text{opt}-C=0. & \text{(3)}
+6\theta_\text{opt}D_\text{opt}-C=0. & \text{(4)}
 \end{cases}
 $$
 
 <blockquote>
-Equation (3) just restates the constraint. Equations (1)–(2) are the substantive conditions.
+Equation (4) just restates the constraint. Equations (2)–(3) are the substantive conditions.
 </blockquote>
 
 '''Eliminating $\lambda$''':
 
-From (1):
+From (2):
 
 $$
 \lambda=\frac{\alpha_{\theta}}{6\theta_\text{opt}D_\text{opt}}\left(\frac{|\theta|_{c}}{\theta_\text{opt}}\right)^{\alpha_{\theta}}.
 $$
 
-From (2):
+From (3):
 
 $$
 \lambda=\frac{\alpha_D}{6\theta_\text{opt}D_\text{opt}}\left(\frac{D_{c}}{D_\text{opt}}\right)^{\alpha_D}.
@@ -126,12 +126,12 @@ $$
 \alpha_{\theta}\left(\frac{|\theta|_{c}}{\theta_\text{opt}}\right)^{\alpha_{\theta}}
 =
 \alpha_D\left(\frac{D_{c}}{D_\text{opt}}\right)^{\alpha_D}
-\tag{4}
+\tag{5}
 $$
 
 '''Solving for the scaling exponents''':
 
-Rearrange the terms in (4):
+Rearrange the terms in (5):
 
 $$
 \left(\frac{D_c}{D_\text{opt}}\right)^{\alpha_D}

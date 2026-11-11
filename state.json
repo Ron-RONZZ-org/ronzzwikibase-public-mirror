@@ -368,9 +368,9 @@
     },
     "Chinchilla prescription": {
       "path": "Main/Chinchilla prescription.wiki",
-      "revid": 15992,
-      "sha256": "a3349a15881e1f6e8c41f22c4095d31eb5c61ed15a78938f32d86f542dbf2459",
-      "synced_at": "2026-11-11T21:07:45+00:00"
+      "revid": 16009,
+      "sha256": "55e2420c21c258679fb42c6000f8c67b4e4aa8139b417a8f794405ff48372def",
+      "synced_at": "2026-11-11T21:35:42+00:00"
     },
     "Circle": {
       "path": "Main/Circle.wiki",
@@ -8239,6 +8239,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-11T21:21:27+00:00",
+  "updated": "2026-11-11T21:35:42+00:00",
   "version": 1
 }
