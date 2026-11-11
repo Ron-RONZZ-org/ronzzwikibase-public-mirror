@@ -2,15 +2,140 @@
 [[Category:Machine learning]]
 The '''Chinchilla prescription''' is the compute-optimal division of a fixed training budget between model parameters and training tokens for a Transformer [[large language model (LLM)|language model]], derived by Hoffmann et al. in 2022.<ref>{{#cite:Q3164}}</ref> Its headline result is that the 2 quantities should grow together: every doubling of parameter count should be matched by a doubling of training tokens.
 
-== Compute budget ==
 
-Training compute is dominated by the matrix multiplications of the forward and backward passes and is approximated by
+'''Solution via Lagrange multiplier:'''
+
+'''Target'''
+
+Minimise
 
 $$
-C \approx 6\,|\theta|\,D,
+L(|\theta|,D)=L_{\infty}+\left(\frac{|\theta|_{c}}{|\theta|}\right)^{\alpha_{\theta}}+\left(\frac{D_{c}}{D}\right)^{\alpha_D} \label{eq:loss}
 $$
 
-where $|\theta|$ is the parameter count, $D$ the number of training tokens, and $C$ is the training compute in floating-point operations: the forward pass costs about $2|\theta|D$ and the backward pass about $4|\theta|D$.
+subject to
+
+$$
+6|\theta|D-C=0.
+$$
+(from $\eqref{compute budget}$)
+
+'''Lagrangian and first-order conditions'''
+
+From $\eqref{eq:loss}$
+
+$$
+\mathcal{L}(|\theta|,D,\lambda)
+=
+L_{\infty}+\left(\frac{|\theta|_{c}}{|\theta|}\right)^{\alpha_{\theta}}
++\left(\frac{D_{c}}{D}\right)^{\alpha_D}
++\lambda\,(6|\theta|D-C).
+$$
+
+Set all three partials to zero:
+
+$$
+\begin{cases}
+\frac{\partial\mathcal{L}}{\partial|\theta|}
+=
+-\frac{\alpha_{\theta}}{|\theta|}\left(\frac{|\theta|_{c}}{|\theta|}\right)^{\alpha_{\theta}}
++\lambda\,6D
+=0, & \text{(1)}\\
+\frac{\partial\mathcal{L}}{\partial D}
+=
+-\frac{\alpha_D}{D}\left(\frac{D_{c}}{D}\right)^{\alpha_D}
++\lambda\,6|\theta|
+=0, & \text{(2)}\\
+\frac{\partial\mathcal{L}}{\partial\lambda}
+=
+6|\theta|D-C=0. & \text{(3)}
+\end{cases}
+$$
+
+Equation (3) just restates the constraint. Equations (1)–(2) are the substantive conditions.
+
+'''Eliminating $\lambda$'''
+
+From (1):
+
+$$
+\lambda=\frac{\alpha_{\theta}}{6|\theta|D}\left(\frac{|\theta|_{c}}{|\theta|}\right)^{\alpha_{\theta}}.
+$$
+
+From (2):
+
+$$
+\lambda=\frac{\alpha_D}{6|\theta|D}\left(\frac{D_{c}}{D}\right)^{\alpha_D}.
+$$
+
+Equate:
+
+$$
+\alpha_{\theta}\left(\frac{|\theta|_{c}}{|\theta|}\right)^{\alpha_{\theta}}
+=
+\alpha_D\left(\frac{D_{c}}{D}\right)^{\alpha_D}
+\tag{4}
+$$
+
+This is the '''balance condition'''. It is one equation in two unknowns; together with \(6|\theta|D=C\) it pins down \((\theta_{\text{opt}},D_{\text{opt}})\).
+
+'''Solving for the scaling exponents'''
+
+The balance condition is
+
+$$
+\alpha_\theta\left(\frac{|\theta|_c}{\theta_\text{opt}}\right)^{\alpha_\theta}
+=
+\alpha_D\left(\frac{D_c}{D_\text{opt}}\right)^{\alpha_D}.
+$$
+
+Divide both sides by $\alpha_D$ and rearrange:
+
+$$
+\left(\frac{D_c}{D_\text{opt}}\right)^{\alpha_D}
+=
+\frac{\alpha_\theta}{\alpha_D}
+\left(\frac{|\theta|_c}{\theta_\text{opt}}\right)^{\alpha_\theta}.
+$$
+
+Raise both sides to $1/\alpha_D$:
+
+$$
+\frac{D_c}{D_\text{opt}}
+=
+\left(\frac{\alpha_\theta}{\alpha_D}\right)^{1/\alpha_D}
+\left(\frac{|\theta|_c}{\theta_\text{opt}}\right)^{\alpha_\theta/\alpha_D}.
+$$
+
+Solve for $D_\text{opt}$:
+
+$$
+D_\text{opt}
+=
+D_c
+\left(\frac{\alpha_D}{\alpha_\theta}\right)^{1/\alpha_D}
+\left(\frac{\theta_\text{opt}}{|\theta|_c}\right)^{\alpha_\theta/\alpha_D}.
+$$
+
+Thus
+
+$$
+D_\text{opt}\propto\theta_\text{opt}^{\alpha_\theta/\alpha_D}.
+$$
+
+Substitute into \(C=6\theta_\text{opt}D_\text{opt}\):
+
+$$
+C\propto\theta_\text{opt}^{\,1+\alpha_\theta/\alpha_D}
+=\theta_\text{opt}^{\,(\alpha_\theta+\alpha_D)/\alpha_D}.
+$$
+
+Invert:
+
+$$
+\theta_\text{opt}\propto C^{\alpha_D/(\alpha_\theta+\alpha_D)},\,
+D_\text{opt}\propto C^{\alpha_\theta/(\alpha_\theta+\alpha_D)}.
+$$
 
 == Compute-optimal allocation ==
 
