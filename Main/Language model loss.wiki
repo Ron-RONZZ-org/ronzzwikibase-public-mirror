@@ -1,0 +1,105 @@
+[[Category:Machine learning]]
+[[Category:Large language models]]
+A '''language model loss''' is the quantity minimised during training of a [[large language model (LLM)|language model]]: it measures how little probability the model assigns to the tokens that actually occur. In the notation of [[artificial neural network (ANN)|ANN]] training it is the '''cost function''' $C$ of the network. For a token sequence $x_1, x_2, \cdots, x_T$ and model parameters $\theta$, the loss is the mean negative log-likelihood of the observed tokens,
+
+$$
+C(\theta)
+=
+-\frac{1}{T}\sum_{t=1}^{T}\log P_\theta(x_t \mid x_{1:t-1}),
+$$
+
+where $P_\theta(x_t \mid x_{1:t-1})$ is the probability the model assigns to token $x_t$ given the tokens that precede it, so that a single training example $x$ contributes $C_x$.
+
+== Units ==
+
+The logarithm fixes the unit. The natural logarithm gives nats per token, and rescaling gives bits per token,
+
+$$
+\begin{cases}
+C_{\text{nat}}(\theta) = -\frac{1}{T}\sum_{t=1}^{T}\log P_\theta(x_t \mid x_{1:t-1}) \\
+C_{\text{bit}}(\theta) = \frac{C_{\text{nat}}(\theta)}{\ln 2}
+\end{cases}
+$$
+
+Training reports conventionally quote $C_{\text{nat}}$.
+
+== Perplexity ==
+
+Perplexity is the exponential of the loss in nats,
+
+$$
+\operatorname{PP}(\theta) = \exp\big(C_{\text{nat}}(\theta)\big),
+$$
+
+and reads as the effective number of equally likely tokens the model is choosing between. A loss of $1$ nat per token therefore corresponds to a perplexity of $e \approx 2.718$.
+
+== Relation to the pretraining objective ==
+
+The loss is the negated, length-normalised form of the conditional log-likelihood that pretraining maximises,
+
+$$
+\log P_\theta(x_1, x_2, \cdots, x_T)
+=
+\sum_{t=1}^{T}\log P_\theta(x_t \mid x_{1:t-1})
+=
+-T\,C(\theta).
+$$
+
+Minimising the loss and maximising the likelihood are the same operation, and [[large language model (LLM)|scaling laws]] are stated in terms of the loss because it is the quantity whose behaviour is measured across model sizes.
+
+== Irreducible loss ==
+
+The loss is bounded below by the conditional entropy of the text itself: no model predicts next tokens better than the true distribution generates them. Scaling-law fits write this floor as $C_\infty$ and add reducible terms for the size of the model and for the size of the training set.<ref>{{#cite:Q3141}}</ref>
+
+== Concrete examples ==
+
+For a single predicted token the loss is $-\log P_\theta$, so it depends only on the probability the model gave the token that occurred:
+
+{| class="wikitable"
+|+ Loss of a single predicted token
+! $P_\theta$
+! $C_{\text{nat}}$
+! $C_{\text{bit}}$
+! $\operatorname{PP}$
+|-
+| $0.9$
+| $0.105$
+| $0.152$
+| $1.11$
+|-
+| $0.5$
+| $0.693$
+| $1$
+| $2$
+|-
+| $10^{-2}$
+| $4.61$
+| $6.64$
+| $10^{2}$
+|-
+| $10^{-5}$
+| $11.5$
+| $16.6$
+| $10^{5}$
+|}
+
+A model that is uniform over a vocabulary of $10^{5}$ tokens, that is $P_\theta = 10^{-5}$ for every token, therefore sits at $11.5$ nats per token, the no-knowledge baseline against which trained models are compared. Averaging over a sequence mixes such terms: a 2-token sequence predicted at $P_\theta = 0.9$ and then at $P_\theta = 0.5$ has a loss of
+
+$$
+C
+=
+-\frac{1}{2}\left(\log 0.9 + \log 0.5\right)
+\approx 0.399 \text{ nats}
+\approx 0.576 \text{ bits}.
+$$
+
+== Scaling of the loss ==
+
+Empirically the loss falls as a power law in training compute $F$, measured in floating-point operations,
+
+$$
+C(F)=aF^{-\alpha},
+\qquad \alpha \approx 0.05.
+$$
+
+The exponent governs how expensive further improvement is: halving the loss requires roughly $10^{6}$ times more compute, which is why the gap between $2$ nats per token and $1$ nat per token, a perplexity fall from $7.389$ to $2.718$, is very large in practice.<ref>{{#cite:Q3141}}</ref>

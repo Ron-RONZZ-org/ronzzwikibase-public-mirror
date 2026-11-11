@@ -1,0 +1,101 @@
+[[Category:Large language models]]
+[[Category:Machine learning]]
+The '''Chinchilla prescription''' is the compute-optimal division of a fixed training budget between model parameters and training tokens for a Transformer [[large language model (LLM)|language model]], derived by Hoffmann et al. in 2022.<ref>{{#cite:Q3164}}</ref> Its headline result is that the 2 quantities should grow together: every doubling of parameter count should be matched by a doubling of training tokens.
+
+== Compute budget ==
+
+Training compute is dominated by the matrix multiplications of the forward and backward passes and is approximated by
+
+$$
+F \approx 6ND,
+$$
+
+where $N$ is the parameter count, $D$ the number of training tokens, and $F$ is the training compute in floating-point operations: the forward pass costs about $2ND$ and the backward pass about $4ND$.
+
+== Compute-optimal allocation ==
+
+The prescription follows from writing the [[language model loss|loss]] as a function of both quantities, with an irreducible floor $C_\infty$ and fitted constants $N_c$, $D_c$, $\alpha_N$, $\alpha_D$,
+
+$$
+C(N,D)
+=
+C_\infty
++
+\left(\frac{N_c}{N}\right)^{\alpha_N}
++
+\left(\frac{D_c}{D}\right)^{\alpha_D},
+$$
+
+and minimising it subject to $F = 6ND$. At the optimum the 2 reducible terms are reduced in balance, and the 2 quantities scale as
+
+$$
+\begin{cases}
+N_{\text{opt}} \propto F^{\alpha_D/(\alpha_N+\alpha_D)} \\
+D_{\text{opt}} \propto F^{\alpha_N/(\alpha_N+\alpha_D)}
+\end{cases}
+$$
+
+so the balance between parameters and data is set by the relative size of the 2 exponents. Because $\alpha_N$ and $\alpha_D$ are of similar magnitude, both allocation exponents come out near $1/2$, and in practice the prescription reduces to
+
+$$
+D \approx 20N,
+$$
+
+that is, about 20 training tokens per parameter.
+
+== Contrast with earlier scaling laws ==
+
+Kaplan et al. had recommended spending most of an increased budget on parameters, with $N_{\text{opt}} \propto F^{0.73}$ and $D_{\text{opt}} \propto F^{0.27}$, and the models built to that advice were correspondingly large and undertrained.<ref>{{#cite:Q3141}}</ref> The Chinchilla result instead grows the 2 in step, which at a fixed compute budget means markedly more data and fewer parameters than the earlier advice implied.
+
+== Worked examples ==
+
+{| class="wikitable"
+|+ Allocation for 3 early large language models
+! Model
+! $N$
+! $D$
+! $D/N$
+|-
+| Gopher
+| $2.8\times10^{11}$
+| $3\times10^{11}$
+| $1.07$
+|-
+| GPT-3
+| $1.75\times10^{11}$
+| $3\times10^{11}$
+| $1.71$
+|-
+| Chinchilla
+| $7\times10^{10}$
+| $1.4\times10^{12}$
+| $20$
+|}
+
+Chinchilla was trained on the same compute budget as Gopher, with 4 times fewer parameters and about 5 times more data, and outperformed Gopher, GPT-3, and models several times its size.<ref>{{#cite:Q3164}}</ref> Applied to GPT-3's training budget of about $3.15\times10^{23}$ FLOPs, the prescription gives
+
+$$
+N_{\text{opt}} = \sqrt{\frac{F}{120}} \approx 5\times10^{10},
+\qquad
+D_{\text{opt}} \approx 1\times10^{12},
+$$
+
+against GPT-3's actual $1.75\times10^{11}$ parameters and $3\times10^{11}$ tokens.
+
+== Data-constrained regime and the data wall ==
+
+If the available token stock $D_{\max}$ falls short of $D_{\text{opt}}$, the prescription cannot be followed. With $D$ capped, the loss is better described by
+
+$$
+C_{\text{data}}(N, D_{\max})
+=
+C_\infty
++
+\left(\frac{N_c}{N}\right)^{\alpha_N}
++
+\left(\frac{D_c}{D_{\max}}\right)^{\alpha_D},
+$$
+
+in which further gains must come from $N$, from [[algorithmic efficiency]], or from [[synthetic data]], rather than from additional human-written text. This regime is the [[data wall]].
+
+Repeating the tokens already in hand is a partial substitute: up to roughly 4 epochs of repetition costs almost nothing in loss, but beyond that the marginal value of additional compute decays towards zero.<ref>{{#cite:Q3174}}</ref> Estimates of the stock of public human text place its exhaustion, if current trends continue, between 2026 and 2032.<ref>{{#cite:Q3181}}</ref>

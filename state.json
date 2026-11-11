@@ -342,6 +342,12 @@
       "sha256": "7a76704b29997462a83bc4e00fd1dbeffb53880dc0561bd10f2f27b364c26ef2",
       "synced_at": "2026-10-18T12:54:28+00:00"
     },
+    "Chinchilla prescription": {
+      "path": "Main/Chinchilla prescription.wiki",
+      "revid": 15667,
+      "sha256": "48304b90f3a2b0a95d68869dc68fea45c37b97cfde7eb182410a12c9a8d09318",
+      "synced_at": "2026-11-11T13:35:59+00:00"
+    },
     "Circle": {
       "path": "Main/Circle.wiki",
       "revid": 10841,
@@ -2256,6 +2262,12 @@
       "sha256": "b309ed9c12d8dd03ec0dea144eb7c1e6151081bb555a5b6311153b161b416bf4",
       "synced_at": "2026-11-11T13:10:22+00:00"
     },
+    "Language model loss": {
+      "path": "Main/Language model loss.wiki",
+      "revid": 15666,
+      "sha256": "1adbb8d5ce68d3565b62177a8566024e678e97fc08f5e9da6cbc851718c04eac",
+      "synced_at": "2026-11-11T13:35:59+00:00"
+    },
     "Laplace transform": {
       "path": "Main/Laplace transform.wiki",
       "revid": 7379,
@@ -2264,9 +2276,9 @@
     },
     "Large language model (LLM)": {
       "path": "Main/Large language model (LLM).wiki",
-      "revid": 15658,
-      "sha256": "a0559c277f931a552a15bbc196cedc7b6bedd83ed93494fbb1a81fd6adee0bda",
-      "synced_at": "2026-11-11T13:20:12+00:00"
+      "revid": 15668,
+      "sha256": "8186e698491232d13159d7cd0b76f6b39dc96209821c52ef521b900eb9d8f228",
+      "synced_at": "2026-11-11T13:35:59+00:00"
     },
     "Law of cosine": {
       "path": "Main/Law of cosine.wiki",
@@ -7897,6 +7909,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-11T13:20:12+00:00",
+  "updated": "2026-11-11T13:35:59+00:00",
   "version": 1
 }

@@ -1,11 +1,11 @@
 [[Category:Large language models]]
 [[Category:Natural language processing]]
 
-A '''large language model''' ('''LLM''') is an [[artificial intelligence]] system built as a [[neural network]] with a very large parameter count, typically based on the [[Transformer]] architecture, trained by [[machine learning]] on broad text corpora to generate text in response to prompts.<ref>{{#cite:Q3130}}</ref> 
+A '''large language model''' ('''LLM''') is an [[artificial intelligence]] system built as a [[neural network]] with a very large parameter count, typically based on the [[Transformer]] architecture, trained by [[machine learning]] on broad text corpora to generate text in response to prompts.<ref>{{#cite:Q3130}}</ref>
 
 == Architecture ==
 
-At the time of writing (2026-08), the most widely adopted LLMs are [[Transformer]] models, specifically [[autoregressive decoder-only Transformer]]s.<ref>{{#cite:Q3130}}</ref>.
+At the time of writing (2026-08), the most widely adopted LLMs are [[Transformer]] models, specifically [[autoregressive decoder-only Transformer]]s.<ref>{{#cite:Q3130}}</ref>
 
 == Scaling laws ==
 
@@ -14,40 +14,8 @@ The performance of LLMs improves predictably with
 * model size
 * training-data volume
 * computational budget
-<ref>{{#cite:Q3141}}</ref> 
 
-== Language model loss ==
-
-Language-model loss follows a power law in compute $C$,
-
-$$
-L(C)=aC^{-\alpha},
-\qquad \alpha\approx 0.05,
-$$
-
-so diminishing returns are intrinsic: halving the loss would require roughly $10^{6}$ times more compute. The [[Chinchilla scaling laws|Chinchilla prescription]] refines this picture by balancing parameters and data, recommending approximately 20 tokens per parameter.<ref>{{#cite:Q3164}}</ref> The finite supply of high-quality public text, however, places a practical ceiling on data scaling, with estimates suggesting a “data wall” may arrive by the late 2020s.<ref>{{#cite:Q3181}}</ref>
-
-== Data scaling and the data wall ==
-
-Let $N$ denote the number of trainable parameters, $D$ the number of training tokens, and $C$ the computational budget. Under a fixed $C$, the [[Chinchilla scaling laws|Chinchilla prescription]] approximates the compute-optimal allocation by
-
-$$
-D \approx 20N.
-$$
-
-Because high-quality public text is finite, data scaling cannot continue indefinitely at fixed $N$. If $D_{\max}$ is the available token stock, a data-constrained loss model is
-
-$$
-L_{\text{data}}(N,D_{\max})
-=
-L_{\infty}
-+
-\left(\frac{N_c}{N}\right)^{\alpha_N}
-+
-\left(\frac{D_c}{D_{\max}}\right)^{\alpha_D},
-$$
-
-where $L_{\infty}$ is the irreducible loss, and $N_c$, $D_c$, $\alpha_N$, and $\alpha_D$ are fitted constants.<ref>{{#cite:Q3174}}</ref> The [[data wall]] is the regime in which further gains must come primarily from $N$, [[algorithmic efficiency]], or [[synthetic data]], rather than from additional human-written text.<ref>{{#cite:Q3181}}</ref>
+These regularities are the '''scaling laws'''.<ref>{{#cite:Q3141}}</ref> The [[language model loss]] falls as a power law in compute $F$ with an exponent near $0.05$, so diminishing returns are intrinsic. The [[Chinchilla prescription]] sets the compute-optimal balance between parameters and data at roughly 20 tokens per parameter,<ref>{{#cite:Q3164}}</ref> and the finite supply of high-quality public text places a practical ceiling on data scaling, with estimates suggesting a “data wall” may arrive by the late 2020s.<ref>{{#cite:Q3181}}</ref>
 
 == Inference ==
 
