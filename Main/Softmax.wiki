@@ -31,6 +31,7 @@ Mathematically, the shift $m$ represents dividing both the numerator and denomin
 </blockquote>
 
 == Temperature parameter ==
+[[File:Softmax temperature.gif|thumbnail|400px|'''Temperature''' exaggerates/flattens the probability distribution.|left]]
 [[File:LLM temperature.png|thumbnail|400px|left|In a '''[[large language model (LLM)]]''', a higher temperature encourages the model to experiment more with less conventional sentence and passage structures, whereas a lower temperature encourages conservative, conventional construction.]]
 A temperature parameter $\tau>0$ controls the sharpness of the distribution:
 

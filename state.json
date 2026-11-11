@@ -2262,6 +2262,12 @@
       "sha256": "3711e4e0a1ad5b0e1c2cac8f2c921ae972e79374cfac429549d763a779743fa7",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Large language model (LLM)": {
+      "path": "Main/Large language model (LLM).wiki",
+      "revid": 15341,
+      "sha256": "88d82edaf7a80187a3d2dee9e1e3fc83ec00d2747d43c35df732e7e67f852417",
+      "synced_at": "2026-11-11T12:49:34+00:00"
+    },
     "Law of cosine": {
       "path": "Main/Law of cosine.wiki",
       "revid": 8586,
@@ -4766,9 +4772,9 @@
     },
     "Softmax": {
       "path": "Main/Softmax.wiki",
-      "revid": 15335,
-      "sha256": "f951a0fa1f42d9ee6832a9a8361791244a76de67453f0939e3659f4962783733",
-      "synced_at": "2026-11-11T12:29:35+00:00"
+      "revid": 15340,
+      "sha256": "5b0841876404e29110689dddc7446c300fadad0e579c7559b7b1cec58ac19a62",
+      "synced_at": "2026-11-11T12:49:34+00:00"
     },
     "Software:Cloudflare One (Formerly WARP)": {
       "path": "Software/Cloudflare One (Formerly WARP).wiki",
@@ -7429,6 +7435,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-11T12:29:35+00:00",
+  "updated": "2026-11-11T12:49:34+00:00",
   "version": 1
 }

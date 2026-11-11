@@ -1,0 +1,93 @@
+[[Category:Large language models]]
+[[Category:Natural language processing]]
+
+A '''large language model''' ('''LLM''') is a [[neural network]] with a very large parameter count, typically based on the [[Transformer (deep learning architecture)|Transformer]] architecture, trained on broad text corpora to predict tokens in sequence. This self-supervised objective—usually [[next-token prediction]]—requires no human labels because the supervision signal is derived from the text itself.
+
+== Architecture and pretraining objective ==
+
+Most modern LLMs are autoregressive decoder-only Transformers. Given a token sequence $\mathbf{x}=(x_1,x_2,\dots,x_T)$, the pretraining objective maximises the conditional likelihood
+
+$$
+\mathcal{L}_{\text{LM}}
+=
+\sum_{t=1}^{T}
+\log P(x_t \mid x_{1:t-1}; \theta),
+$$
+
+where $\theta$ denotes the model parameters. The causal attention mask ensures that the prediction for position $t$ depends only on $x_{1:t-1}$, not on future tokens.
+
+== Scaling laws ==
+
+The performance of LLMs improves predictably with model size, training-data volume, and computational budget, a relationship known as '''scaling laws'''. Language-model loss follows a power law in compute $C$,
+
+$$
+L(C)=a \cdot C^{-\alpha},
+\qquad \alpha \approx 0.05,
+$$
+
+so diminishing returns are intrinsic: halving the loss would require roughly $10^{6}$ times more compute. The [[Chinchilla scaling laws|Chinchilla prescription]] refines this picture by balancing parameters and data, recommending approximately 20 tokens per parameter. The finite supply of high-quality public text, however, places a practical ceiling on data scaling, with estimates suggesting a “data wall” may arrive by the late 2020s.
+
+== Data scaling and the data wall ==
+
+Let $N$ denote the number of trainable parameters, $D$ the number of training tokens, and $C$ the computational budget. The [[Chinchilla scaling laws|Chinchilla prescription]] approximates the compute-optimal allocation by
+
+$$
+D \approx 20N,
+$$
+
+and models loss as a power law in $C$:
+
+$$
+L(C)=aC^{-\alpha},\qquad \alpha\approx 0.05.
+$$
+
+Because high-quality public text is finite, data scaling cannot continue indefinitely at fixed $N$. If $D_{\max}$ is the available token stock, a data-constrained loss model is
+
+$$
+L_{\text{data}}(N,D_{\max})
+=
+L_{\infty}
++
+\left(\frac{N_c}{N}\right)^{\alpha_N}
++
+\left(\frac{D_c}{D_{\max}}\right)^{\alpha_D},
+$$
+
+where $L_{\infty}$ is the irreducible loss, and $N_c$, $D_c$, $\alpha_N$, and $\alpha_D$ are fitted constants. The [[data wall]] is the regime in which further gains must come primarily from $N$, [[algorithmic efficiency]], or [[synthetic data]], rather than from additional human-written text.
+
+== Inference ==
+
+At inference time, an LLM generates text by repeatedly sampling or selecting a token according to the conditional distribution $P(x_t \mid x_{1:t-1};\theta)$ and appending it to the context. Decoding strategies such as greedy search, beam search, temperature sampling, and top-$p$ (nucleus) sampling trade off diversity against coherence. The computational cost of self-attention grows quadratically with context length, motivating techniques such as [[KV caching]] and efficient attention variants.
+
+For a context of length $T$, causal [[self-attention]] computes a $T\times T$ score matrix, so its time and memory costs scale as
+
+$$
+\mathcal{O}(T^2d)
+\quad\text{and}\quad
+\mathcal{O}(T^2),
+$$
+
+respectively, where $d$ is the hidden dimension. [[KV caching]] removes redundant recomputation of past keys and values during autoregressive decoding, reducing the per-token attention cost from $\mathcal{O}(T^2d)$ to $\mathcal{O}(Td)$, at the expense of storing $2Td$ cached scalars per layer.
+
+At each decoding step, a token is sampled from
+
+$$
+x_t \sim P(x_t\mid x_{1:t-1};\theta).
+$$
+
+Temperature sampling replaces $P$ by
+
+$$
+P_\tau(x_t\mid x_{1:t-1})
+=
+\frac{\exp(z_t/\tau)}
+{\sum_{j}\exp(z_j/\tau)},
+$$
+
+where $z_j$ are logits and $\tau>0$ is the temperature. Top-$p$ (nucleus) sampling restricts the support to the smallest set $\mathcal{S}_p$ such that
+
+$$
+\sum_{x\in\mathcal{S}_p}
+P(x\mid x_{1:t-1})
+\ge p.
+$$
