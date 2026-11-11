@@ -199,8 +199,8 @@ With training dataset $S$ and sample batch $B \in S$,
 
 $$
 \begin{cases}
-\mathbf{W}^{(l)}\leftarrow\mathbf{W}^{(l)}-\frac{\eta}{m}\sum_{x\in B}\nabla_{\mathbf{W}^{(l)}}C_x,\\
-\vec b^{(l)}\leftarrow\vec b^{(l)}-\frac{\eta}{m}\sum_{x\in B}\nabla_{\vec b^{(l)}}C_x.
+\mathbf{W}^{(l)}\leftarrow\mathbf{W}^{(l)}-\frac{\eta}{|B|}\sum_{x\in B}\nabla_{\mathbf{W}^{(l)}}C_x,\\
+\vec b^{(l)}\leftarrow\vec b^{(l)}-\frac{\eta}{|B|}\sum_{x\in B}\nabla_{\vec b^{(l)}}C_x.
 \end{cases}
 $$
 

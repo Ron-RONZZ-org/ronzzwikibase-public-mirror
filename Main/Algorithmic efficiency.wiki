@@ -1,0 +1,47 @@
+[[Category:Large language models]]
+[[Category:Machine learning]]
+'''Algorithmic efficiency''' is the improvement in training algorithms that lowers the compute needed to reach a given [[language model loss|loss]], holding hardware fixed. It is 1 of the 3 routes past the [[data wall]], and the only one that reduces the compute bill rather than redirecting it.
+
+== Effective compute ==
+
+An efficiency factor $A(t)$ is defined by treating algorithmic progress as a multiplier on compute, so that a run of $F$ floating-point operations at time $t$ is equivalent to
+
+$$
+F_{\text{eff}}(t)=A(t)\,F
+$$
+
+of an older algorithm. Because the loss is a power law in compute,
+
+$$
+C(F)=aF^{-\alpha},
+$$
+
+the same factor lowers the loss by $A^{-\alpha}$, and matching it by compute alone requires $A$ times more of it.
+
+== Rate ==
+
+If the compute needed to reach a fixed performance threshold halves every $h$ months, the efficiency factor doubles on that period,
+
+$$
+A(t)=2^{t/h},
+\qquad
+h\approx 8\ \text{months},
+$$
+
+with a 95 per cent confidence interval of roughly 5 to 14 months, estimated from over 200 language-model evaluations spanning 2012 to 2023.<ref>{{#cite:Q3242}}</ref> Over a year this is
+
+$$
+A(1\ \text{year})=2^{12/8}=2^{1.5}\approx 2.83,
+$$
+
+so algorithms halve the required compute roughly 1.5 times per year, well ahead of the roughly 2-fold per 18 to 24 months of hardware gains under Moore's law.
+
+== Interpretation ==
+
+The 2 multipliers act alike on the loss, and are interchangeable in the power law,
+
+$$
+C=a\left(A(t)\,F\right)^{-\alpha},
+$$
+
+so a run is best described by the effective compute it commands rather than by its nominal budget. Faster algorithms do not, however, dominate: despite the pace above, the growth in compute contributed more to overall performance improvements over 2012 to 2023 than algorithmic progress did.<ref>{{#cite:Q3242}}</ref> Algorithmic efficiency therefore shifts the [[large language model (LLM)#Scaling laws|scaling laws]] frontier outwards without replacing the scaling itself.

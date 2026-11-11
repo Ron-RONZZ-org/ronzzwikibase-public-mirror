@@ -1,0 +1,43 @@
+[[Category:Large language models]]
+[[Category:Machine learning]]
+'''Decoding''' is the policy that turns the distribution a [[large language model (LLM)|language model]] assigns to the next token into an actual output sequence.<ref>{{#cite:Q3198}}</ref> At each step the model emits logits $\vec z\in\mathbb{R}^{|\mathcal{V}|}$ over the vocabulary $\mathcal{V}$, and the [[Softmax|softmax]] turns them into a distribution over $\mathcal{V}$. Decoders differ in how they pick from it: they select the most probable token, or they sample.
+
+== Selection ==
+
+Greedy decoding takes the mode at every step. Since the softmax is monotone in its argument, the mode is simply the largest logit,
+
+$$
+x_{t+1}=\arg\max_{v\in\mathcal{V}}\operatorname{softmax}(\vec z)_v=\arg\max_{v\in\mathcal{V}}z_v.
+$$
+
+Beam search holds $\beta$ partial sequences at once. At each step it extends every beam candidate by every token, and keeps the $\beta$ continuations of highest cumulative log-likelihood,
+
+$$
+\operatorname{score}(x_{1:t})=\sum_{k=1}^{t}\log P_\theta(x_k\mid x_{1:k-1}),
+$$
+
+so greedy decoding is the special case $\beta=1$.
+
+Selection is deterministic given the context, which is why it tends towards short, repetitive continuations: the most probable continuation of a text is frequently its own repetition.<ref>{{#cite:Q3198}}</ref>
+
+== Sampling ==
+
+Temperature sampling draws from the temperature-scaled softmax $\operatorname{softmax}(\vec z/\tau)$ with $\tau>0$, whose 2 limits bracket the behaviour: as $\tau\to0^{+}$ the distribution collapses onto greedy decoding, and as $\tau\to\infty$ it approaches the uniform distribution.
+
+The distribution can also be truncated first, so that implausible tokens are removed rather than merely down-weighted. Both truncations keep a set $\mathcal{S}$ and renormalise the distribution onto it,
+
+$$
+x_{t+1}\sim\frac{P_\theta(\cdot\mid x_{1:t})\,\mathbb{1}_{\mathcal{S}}}{\sum_{v\in\mathcal{S}}P_\theta(v\mid x_{1:t})}.
+$$
+
+Top-$k$ sampling takes $\mathcal{S}$ to be the $k$ tokens of highest probability. Top-$p$ (nucleus) sampling instead fixes the mass rather than the count, taking the smallest set whose probability reaches $p$,
+
+$$
+|\mathcal{S}_p|=\min_{S\subseteq\mathcal{V}}\left\{|S|:\sum_{v\in S}P_\theta(v\mid x_{1:t})\ge p\right\},
+$$
+
+which adapts the number of candidates to how concentrated the distribution is: few when the model is confident, many when it is not. The 2 truncations compose with temperature sampling by truncating $\operatorname{softmax}(\vec z/\tau)$ instead of $\operatorname{softmax}(\vec z)$.
+
+== Stopping ==
+
+Generation ends when a designated end-of-sequence token is drawn, or when a maximum length is reached.

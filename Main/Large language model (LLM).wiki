@@ -1,11 +1,10 @@
 [[Category:Large language models]]
 [[Category:Natural language processing]]
-
-A '''large language model''' ('''LLM''') is an [[artificial intelligence]] system built as a [[neural network]] with a very large parameter count, typically based on the [[Transformer]] architecture, trained by [[machine learning]] on broad text corpora to generate text in response to prompts.<ref>{{#cite:Q3130}}</ref>
+A '''large language model''' ('''LLM''') is a [[neural network]] with a very large parameter count, trained by [[machine learning]] on broad text corpora to model the distribution of token sequences, so that it can generate text in response to a prompt. The definition rests on scale, and on the modelling of text, rather than on any 1 architecture.
 
 == Architecture ==
 
-At the time of writing (2026-08), the most widely adopted LLMs are [[Transformer]] models, specifically [[autoregressive decoder-only Transformer]]s.<ref>{{#cite:Q3130}}</ref>
+LLMs are built from several architectures, which differ in how they model text and in how they generate it. The dominant family at the time of writing (2026-08) is the [[autoregressive decoder-only Transformers]], and how it differs from the alternatives is set out there.<ref>{{#cite:Q3130}}</ref> What every family shares, and what the rest of this article relies on, is a distribution over token sequences.
 
 == Scaling laws ==
 
@@ -15,41 +14,32 @@ The performance of LLMs improves predictably with
 * training-data volume
 * computational budget
 
-These regularities are the '''scaling laws'''.<ref>{{#cite:Q3141}}</ref> The [[language model loss]] falls as a power law in compute $F$ with an exponent near $0.05$, so diminishing returns are intrinsic. The [[Chinchilla prescription]] sets the compute-optimal balance between parameters and data at roughly 20 tokens per parameter,<ref>{{#cite:Q3164}}</ref> and the finite supply of high-quality public text places a practical ceiling on data scaling, with estimates suggesting a “data wall” may arrive by the late 2020s.<ref>{{#cite:Q3181}}</ref>
+[[Language model loss]] and [[Chinchilla prescription]] describe the correlation.<ref>{{#cite:Q3141}}</ref><ref>{{#cite:Q3164}}</ref>
 
 == Inference ==
 
-At inference time, an LLM generates text by repeatedly sampling or selecting a token according to the conditional distribution $P(x_t \mid x_{1:t-1}; \theta)$ and appending it to the context. Decoding strategies such as greedy search, beam search, temperature sampling, and top-$p$ (nucleus) sampling trade off diversity against coherence.<ref>{{#cite:Q3198}}</ref> The computational cost of self-attention grows quadratically with context length, motivating techniques such as [[KV caching]] and efficient attention variants.<ref>{{#cite:Q3130}}</ref>
-
-For a context of length $T$, causal [[self-attention]] computes a $T\times T$ score matrix, so its time and memory costs scale as
+Inference produces an output sequence $y_1,\cdots,y_N$ from an input $x$ by drawing on the distribution the model defines over token sequences,
 
 $$
-\mathcal{O}(T^2d)
-\quad\text{and}\quad
-\mathcal{O}(T^2),
+y\sim P_\theta(\cdot\mid x).
 $$
 
-respectively, where $d$ is the hidden dimension. [[KV caching]] removes redundant recomputation of past keys and values during autoregressive decoding, reducing the per-token attention cost from $\mathcal{O}(T^2d)$ to $\mathcal{O}(Td)$, at the expense of storing $2Td$ cached scalars per layer.<ref>{{#cite:Q3192}}</ref>
-
-At each decoding step, a token is sampled from
+2 properties hold whatever the architecture. The most probable output is in general unavailable, because it is a maximiser over a space of size $|\mathcal{V}|^{N}$,
 
 $$
-x_t \sim P(x_t\mid x_{1:t-1}; \theta).
+y^\star=\arg\max_{y\in\mathcal{V}^{N}}P_\theta(y\mid x),
 $$
 
-Temperature sampling replaces $P$ by
+and that space cannot be enumerated. Models therefore impose a factorisation that lets the sequence be built a piece at a time, the dominant one being the autoregressive chain rule,
 
 $$
-P_\tau(x_t\mid x_{1:t-1})
-=
-\frac{\exp(z_{x_t}/\tau)}
-{\sum_{v\in\mathcal{V}}\exp(z_v/\tau)},
+P_\theta(y\mid x)=\prod_{t=1}^{N}P_\theta(y_t\mid x,y_{1:t-1}),
 $$
 
-where $z_v$ is the logit assigned to vocabulary entry $v\in\mathcal{V}$, and $\tau>0$ is the temperature. Top-$p$ (nucleus) sampling restricts the support to the smallest set $\mathcal{S}_p$ such that
+which replaces 1 intractable search by $N$ tractable draws. Taking the mode at each of those draws is greedy decoding,
 
 $$
-\sum_{x\in\mathcal{S}_p}
-P(x\mid x_{1:t-1})
-\ge p.
+\hat{y}_t=\arg\max_{v\in\mathcal{V}}P_\theta(v\mid x,\hat{y}_{1:t-1}),
 $$
+
+and it is generally not $y^\star$: the locally most probable token need not begin the globally most probable sequence. The policies for choosing $y$, from beam search to sampling, are treated at [[decoding]], and what a step costs is a property of the architecture rather than of inference, as developed at [[self-attention]] and [[KV caching]].

@@ -1,0 +1,5 @@
+{{ScholarlyArticle}}
+
+== Overview ==
+
+Introduces T5, which casts every text task into a text-to-text format on an encoder-decoder Transformer

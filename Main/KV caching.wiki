@@ -1,0 +1,29 @@
+[[Category:Large language models]]
+[[Category:Machine learning]]
+'''KV caching''' stores the keys and values already computed for earlier positions, so that autoregressive generation does not recompute the prefix at every step.<ref>{{#cite:Q3192}}</ref>
+
+== Motivation ==
+
+At step $t$ the model evaluates [[self-attention]] over the $t$ positions processed so far, at cost $\mathcal{O}(t^2d)$ for hidden dimension $d$. Generating a sequence of length $T$ therefore costs
+
+$$
+\sum_{t=1}^{T}\mathcal{O}(t^2d)=\mathcal{O}(T^3d)
+$$
+
+if each step re-runs attention over the whole prefix. The keys and values of earlier positions do not change as the sequence grows, however, so they can be kept instead of recomputed.
+
+== Effect ==
+
+With the cache in place, each step only has to score the 1 new position against the stored ones, at cost $\mathcal{O}(td)$, and the total becomes
+
+$$
+\sum_{t=1}^{T}\mathcal{O}(td)=\mathcal{O}(T^2d),
+$$
+
+which removes a factor of $T$.
+
+== Cost ==
+
+The saving is paid for in memory. Both $\mathbf{K}$ and $\mathbf{V}$ must be retained for every layer, which is $2Td$ scalars per layer, and the cache grows linearly with the length of the generated sequence.
+
+Requiring memory that grows with the context is not free of alternatives: architectures that keep a fixed-size state rather than a stored history, such as recurrent and state-space models, do not need this cache at all.<ref>{{#cite:Q3207}}</ref>

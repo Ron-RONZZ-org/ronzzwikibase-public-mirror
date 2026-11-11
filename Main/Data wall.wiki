@@ -1,0 +1,59 @@
+[[Category:Large language models]]
+[[Category:Machine learning]]
+The '''data wall''' is the regime in which the supply of high-quality public text is exhausted, so that further reductions in [[language model loss|loss]] must come from parameters, [[algorithmic efficiency]], or [[synthetic data]], rather than from additional human-written text.<ref>{{#cite:Q3181}}</ref>
+
+== Condition ==
+
+Let $D_{\max}$ be the stock of available human-written tokens and $F$ the training compute. The [[Chinchilla prescription]] allocates tokens to a budget as
+
+$$
+D_{\text{opt}}(F)\propto F^{\alpha_N/(\alpha_N+\alpha_D)},
+$$
+
+with the 2 exponents of similar size, so that data demand grows roughly as $\sqrt{F}$. Scaling is unconstrained while
+
+$$
+D_{\text{opt}}(F)\le D_{\max},
+$$
+
+and the wall is the budget $F_\star$ at which the 2 meet,
+
+$$
+F_\star:\quad D_{\text{opt}}(F_\star)=D_{\max}.
+$$
+
+Since $D_{\text{opt}}$ grows only as $\sqrt{F}$, the wall is reached at
+
+$$
+F_\star\propto D_{\max}^{2},
+$$
+
+so a 2-fold larger stock of text buys a 4-fold larger budget before the constraint binds. Beyond $F_\star$ the compute-optimal allocation is unavailable, and the loss follows the data-constrained form given at [[Chinchilla prescription]].
+
+== Timing ==
+
+Estimates of the effective stock of quality-filtered, deduplicated public human text put the stock at roughly
+
+$$
+D_{\max}\approx 3\times10^{14}\ \text{tokens},
+$$
+
+with wide uncertainty, and project that, if current trends continue, training runs will draw on data sets comparable in size to that stock between 2026 and 2032, with the high-quality fraction running out earlier.<ref>{{#cite:Q3181}}</ref>
+
+== Repetition ==
+
+Repeating the tokens already in hand is a partial substitute. Writing $R=D/D_{\max}$ for the number of epochs, the value of repeated data saturates,
+
+$$
+D_{\text{eff}}=D_{\max}\left(1+R^{\ast}\left(1-e^{-R/R^{\ast}}\right)\right),
+$$
+
+where $R^{\ast}$ is a fitted decay constant. Two consequences follow: up to roughly 4 epochs, repeated data costs almost nothing in loss relative to unique data, and, because $D_{\text{eff}}\to D_{\max}(1+R^{\ast})$ as $R\to\infty$, no amount of repetition substitutes for more unique text.<ref>{{#cite:Q3174}}</ref>
+
+== Mitigations ==
+
+The 3 routes past the wall are not exclusive, and the loss model treats them jointly:
+
+* more parameters, $N$, which the data-constrained model still rewards;
+* [[algorithmic efficiency]], which lowers the compute, and hence the data, needed for a given loss;
+* [[synthetic data]], which extends the stock itself, at the risk of the collapse described there.

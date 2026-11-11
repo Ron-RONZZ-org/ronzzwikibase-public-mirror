@@ -1,0 +1,47 @@
+[[Category:Artificial neural network]]
+[[Category:Large language models]]
+'''Self-attention''' relates the positions of a sequence to one another, so that each position's representation is built from the whole sequence rather than from a fixed window.<ref>{{#cite:Q3130}}</ref>
+
+== Definition ==
+
+Let $\mathbf{X}\in\mathbb{R}^{T\times d}$ hold the representations of the $T$ positions in its rows, and let $\mathbf{W}_Q,\mathbf{W}_K,\mathbf{W}_V\in\mathbb{R}^{d\times d_k}$ be learned projections. The queries, keys, and values are
+
+$$
+\mathbf{Q}=\mathbf{X}\mathbf{W}_Q,
+\qquad
+\mathbf{K}=\mathbf{X}\mathbf{W}_K,
+\qquad
+\mathbf{V}=\mathbf{X}\mathbf{W}_V.
+$$
+
+Each position scores itself against every other through a scaled dot product, and averages the values by the resulting weights,
+
+$$
+\operatorname{Attention}(\mathbf{Q},\mathbf{K},\mathbf{V})
+=
+\operatorname{softmax}\left(\frac{\mathbf{Q}\mathbf{K}^{\top}}{\sqrt{d_k}}\right)\mathbf{V},
+$$
+
+where the [[Softmax|softmax]] is taken row-wise, and the factor $1/\sqrt{d_k}$ keeps the scores from growing with the dimension.
+
+== Causal masking ==
+
+A decoder must not see later positions, so the scores above the diagonal are suppressed before the softmax,
+
+$$
+\mathbf{A}
+=
+\operatorname{softmax}\left(\frac{\mathbf{Q}\mathbf{K}^{\top}}{\sqrt{d_k}}+\mathbf{M}\right),
+\qquad
+M_{jk}=
+\begin{cases}
+0, & j\ge k, \\
+-\infty, & j<k,
+\end{cases}
+$$
+
+so that position $j$ attends only to positions $k\le j$. This mask is what makes the output of position $j$ predictable from $x_{1:j}$ alone, and hence what allows a sequence to be generated one token at a time.
+
+== Complexity ==
+
+The score matrix $\mathbf{Q}\mathbf{K}^{\top}$ is $T\times T$, so attention over a context of length $T$ costs $\mathcal{O}(T^2d)$ time and $\mathcal{O}(T^2)$ memory. Generating a sequence recomputes most of this work unless the keys and values already computed are kept, which is the purpose of [[KV caching]].

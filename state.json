@@ -24,6 +24,12 @@
       "sha256": "9679b43dd5ab32154cc228116e0722804c14b659e805db5152f94d107b3ad160",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Algorithmic efficiency": {
+      "path": "Main/Algorithmic efficiency.wiki",
+      "revid": 15864,
+      "sha256": "680e318dd38e1a846c542500232e9743f3ef0cffd070515195cf1623cf31b4d3",
+      "synced_at": "2026-11-11T14:10:29+00:00"
+    },
     "Anchor and adjust": {
       "path": "Main/Anchor and adjust.wiki",
       "revid": 13058,
@@ -80,9 +86,9 @@
     },
     "Artificial neural network (ANN)": {
       "path": "Main/Artificial neural network (ANN).wiki",
-      "revid": 15275,
-      "sha256": "d872426b1f61039f795689f2f94dc94fe4446aa32ec39b584cd95bd53da93a91",
-      "synced_at": "2026-11-10T18:49:33+00:00"
+      "revid": 15703,
+      "sha256": "159507d8575913fae24a000b3122391b9808f271875cbd29decfbadfe35b1a57",
+      "synced_at": "2026-11-11T14:10:29+00:00"
     },
     "Artificial neuron": {
       "path": "Main/Artificial neuron.wiki",
@@ -120,6 +126,12 @@
       "sha256": "e4e5e2d7aa05712adcf2ecbf490ec636e86418fed947d3fc17e4ff7d6f57acf4",
       "synced_at": "2026-11-03T16:49:51+00:00"
     },
+    "Autoregressive decoder-only Transformers": {
+      "path": "Main/Autoregressive decoder-only Transformers.wiki",
+      "revid": 15800,
+      "sha256": "147ab2d093a9da7b421c30624c735064cdc17bc635fd3d1bfdb24efa6deb0cc1",
+      "synced_at": "2026-11-11T14:10:29+00:00"
+    },
     "Availability heuristic": {
       "path": "Main/Availability heuristic.wiki",
       "revid": 13024,
@@ -134,9 +146,9 @@
     },
     "Backpropagation": {
       "path": "Main/Backpropagation.wiki",
-      "revid": 15281,
-      "sha256": "e37991f1d11cc0b552c20dc8becfd6df2a3a6234e69e8d6b752e06e01bb5208d",
-      "synced_at": "2026-11-10T18:49:33+00:00"
+      "revid": 15700,
+      "sha256": "2139eb9357b55ce86f0e3e7c44f1cc35b1cda2f9a9e46f6de6f11051c1648d7f",
+      "synced_at": "2026-11-11T14:10:29+00:00"
     },
     "Baryon": {
       "path": "Main/Baryon.wiki",
@@ -1032,6 +1044,12 @@
       "sha256": "491dbeecfe04d0a574eb052856871691c50f0c6c4c5f795e41f36d8ee452cee9",
       "synced_at": "2026-11-05T03:12:33+00:00"
     },
+    "Collective:Nature": {
+      "path": "Collective/Nature.wiki",
+      "revid": 15868,
+      "sha256": "a8938b10762275dbfc77862f2784984a42605555b40b494d13e75b6a7012536a",
+      "synced_at": "2026-11-11T14:10:29+00:00"
+    },
     "Collective:New College of Florida": {
       "path": "Collective/New College of Florida.wiki",
       "revid": 11341,
@@ -1554,11 +1572,23 @@
       "sha256": "80ac2586c2d60b6f30d56f80e887fffee7411900faad6cb54c1414cfcb42c1d2",
       "synced_at": "2026-11-05T07:49:52+00:00"
     },
+    "Data wall": {
+      "path": "Main/Data wall.wiki",
+      "revid": 15858,
+      "sha256": "ab39711a973553423004c3028303587b96b8b3ae1c0901afc1b6f71c398ddd59",
+      "synced_at": "2026-11-11T14:10:29+00:00"
+    },
     "De Morgan's laws": {
       "path": "Main/De Morgan's laws.wiki",
       "revid": 11688,
       "sha256": "72447e79f1883cefba785fe2b6867536133c95f7591e40f879b456f120262561",
       "synced_at": "2026-10-29T15:50:24+00:00"
+    },
+    "Decoding": {
+      "path": "Main/Decoding.wiki",
+      "revid": 15696,
+      "sha256": "2aff91bfd46721b15f47cd0073fdf3b9c72374ca4629cd3ae3fd6a4c43fd44e8",
+      "synced_at": "2026-11-11T14:10:29+00:00"
     },
     "Dedekind cut": {
       "path": "Main/Dedekind cut.wiki",
@@ -2244,6 +2274,12 @@
       "sha256": "eee061450945be38e608a4a9222eb945cecbf30dc8a83454ddc472baf8cf32fe",
       "synced_at": "2026-10-29T17:10:54+00:00"
     },
+    "KV caching": {
+      "path": "Main/KV caching.wiki",
+      "revid": 15801,
+      "sha256": "eb351710ffe7dfd272bfdbe406664bdc2f8a7b0b1d99b7a605eee8b1ff6ce765",
+      "synced_at": "2026-11-11T14:10:29+00:00"
+    },
     "Kernel pair of a function": {
       "path": "Main/Kernel pair of a function.wiki",
       "revid": 14708,
@@ -2276,9 +2312,9 @@
     },
     "Large language model (LLM)": {
       "path": "Main/Large language model (LLM).wiki",
-      "revid": 15668,
-      "sha256": "8186e698491232d13159d7cd0b76f6b39dc96209821c52ef521b900eb9d8f228",
-      "synced_at": "2026-11-11T13:35:59+00:00"
+      "revid": 15702,
+      "sha256": "0e9869af5b726b6884156fb4b92f756df0cda66fa76ff543d0d9cb4313632f97",
+      "synced_at": "2026-11-11T14:10:29+00:00"
     },
     "Law of cosine": {
       "path": "Main/Law of cosine.wiki",
@@ -2676,11 +2712,23 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T13:10:22+00:00"
     },
+    "Person:Abdelrahman Mohamed": {
+      "path": "Person/Abdelrahman Mohamed.wiki",
+      "revid": 15779,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-11T14:10:29+00:00"
+    },
     "Person:Adam Riess": {
       "path": "Person/Adam Riess.wiki",
       "revid": 6862,
       "sha256": "c7aeb0dc97f0dbf03fce480fe192c49031b722bfc674ea974a3df9031b893f8e",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Person:Adam Roberts": {
+      "path": "Person/Adam Roberts.wiki",
+      "revid": 15735,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-11T14:10:29+00:00"
     },
     "Person:Aidan Clark": {
       "path": "Person/Aidan Clark.wiki",
@@ -2717,6 +2765,12 @@
       "revid": 12328,
       "sha256": "1a61f4e95658db1e6b234d3b22752dd23dfa0d52ee32561a5250b0e8559fff6b",
       "synced_at": "2026-11-02T12:36:46+00:00"
+    },
+    "Person:Albert Gu": {
+      "path": "Person/Albert Gu.wiki",
+      "revid": 15707,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-11T14:10:29+00:00"
     },
     "Person:Alberty R. Meyer": {
       "path": "Person/Alberty R. Meyer.wiki",
@@ -3120,6 +3174,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T13:10:22+00:00"
     },
+    "Person:David Atkinson": {
+      "path": "Person/David Atkinson.wiki",
+      "revid": 15821,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-11T14:10:29+00:00"
+    },
     "Person:David Cherney": {
       "path": "Person/David Cherney.wiki",
       "revid": 13460,
@@ -3137,6 +3197,12 @@
       "revid": 10029,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Person:David Owen": {
+      "path": "Person/David Owen.wiki",
+      "revid": 15809,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-11T14:10:29+00:00"
     },
     "Person:David T. Wilkinson": {
       "path": "Person/David T. Wilkinson.wiki",
@@ -3221,6 +3287,12 @@
       "revid": 6816,
       "sha256": "89eff82f6aca990ecefab700e2cf11a66c2d6cf6d93f31e48c8b4a95ec2f6827",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Person:Ege Erdil": {
+      "path": "Person/Ege Erdil.wiki",
+      "revid": 15805,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-11T14:10:29+00:00"
     },
     "Person:Elena Buchatskaya": {
       "path": "Person/Elena Buchatskaya.wiki",
@@ -3497,6 +3569,12 @@
       "revid": 14527,
       "sha256": "99e3460ec6812f9e0a02d4de0f380845079042867a39e8118e48cb166a1bbc42",
       "synced_at": "2026-11-08T15:19:41+00:00"
+    },
+    "Person:Ilia Shumailov": {
+      "path": "Person/Ilia Shumailov.wiki",
+      "revid": 15829,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-11T14:10:29+00:00"
     },
     "Person:Illia Polosukhin": {
       "path": "Person/Illia Polosukhin.wiki",
@@ -3822,6 +3900,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
     },
+    "Person:Katherine Lee": {
+      "path": "Person/Katherine Lee.wiki",
+      "revid": 15739,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-11T14:10:29+00:00"
+    },
     "Person:Katie Millican": {
       "path": "Person/Katie Millican.wiki",
       "revid": 15478,
@@ -3852,6 +3936,12 @@
       "sha256": "9d2db081d48cd09f3681c7923a37b5ec8801121b9462092749a9ad11ade94d85",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:Kenton Lee": {
+      "path": "Person/Kenton Lee.wiki",
+      "revid": 15723,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-11T14:10:29+00:00"
+    },
     "Person:Kevin Cheung": {
       "path": "Person/Kevin Cheung.wiki",
       "revid": 13581,
@@ -3869,6 +3959,12 @@
       "revid": 9100,
       "sha256": "4a1d18d0019970c735aeae8f1f050d65362234439a73bfffdefd3dc2ed652276",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Kristina Toutanova": {
+      "path": "Person/Kristina Toutanova.wiki",
+      "revid": 15727,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-11T14:10:29+00:00"
     },
     "Person:Kun Liang": {
       "path": "Person/Kun Liang.wiki",
@@ -3954,6 +4050,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
     },
+    "Person:Luke Zettlemoyer": {
+      "path": "Person/Luke Zettlemoyer.wiki",
+      "revid": 15791,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-11T14:10:29+00:00"
+    },
     "Person:Lyric Ripley": {
       "path": "Person/Lyric Ripley.wiki",
       "revid": 13068,
@@ -4001,6 +4103,12 @@
       "revid": 15582,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T13:10:22+00:00"
+    },
+    "Person:Marjan Ghazvininejad": {
+      "path": "Person/Marjan Ghazvininejad.wiki",
+      "revid": 15775,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-11T14:10:29+00:00"
     },
     "Person:Mark Jones": {
       "path": "Person/Mark Jones.wiki",
@@ -4098,6 +4206,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:19:42+00:00"
     },
+    "Person:Michael Matena": {
+      "path": "Person/Michael Matena.wiki",
+      "revid": 15747,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-11T14:10:29+00:00"
+    },
     "Person:Michael Richmond": {
       "path": "Person/Michael Richmond.wiki",
       "revid": 12403,
@@ -4121,6 +4235,18 @@
       "revid": 14501,
       "sha256": "501eed404f848a3faa5ed1f21bb6085be28ecce3e4dd317e9ebe924806b2dad6",
       "synced_at": "2026-11-08T14:49:21+00:00"
+    },
+    "Person:Mike Lewis": {
+      "path": "Person/Mike Lewis.wiki",
+      "revid": 15763,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-11T14:10:29+00:00"
+    },
+    "Person:Ming-Wei Chang": {
+      "path": "Person/Ming-Wei Chang.wiki",
+      "revid": 15719,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-11T14:10:29+00:00"
     },
     "Person:Mircea Malitza": {
       "path": "Person/Mircea Malitza.wiki",
@@ -4170,6 +4296,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-09T16:11:40+00:00"
     },
+    "Person:Naman Goyal": {
+      "path": "Person/Naman Goyal.wiki",
+      "revid": 15771,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-11T14:10:29+00:00"
+    },
     "Person:Natalie Ivanova": {
       "path": "Person/Natalie Ivanova.wiki",
       "revid": 6546,
@@ -4181,6 +4313,12 @@
       "revid": 13170,
       "sha256": "36230adc29beea3de828c9bf5cdcc80d63cb241dd59523cceabfb4018ff8d2f9",
       "synced_at": "2026-11-07T13:35:13+00:00"
+    },
+    "Person:Neil Thompson": {
+      "path": "Person/Neil Thompson.wiki",
+      "revid": 15825,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-11T14:10:29+00:00"
     },
     "Person:Nicholas Epley": {
       "path": "Person/Nicholas Epley.wiki",
@@ -4199,6 +4337,12 @@
       "revid": 12651,
       "sha256": "850aad5aa95f96d424f043629c627a02bd8dd262c110809ba07ba7d2b10ddb75",
       "synced_at": "2026-11-04T08:36:39+00:00"
+    },
+    "Person:Nicolas Papernot": {
+      "path": "Person/Nicolas Papernot.wiki",
+      "revid": 15841,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-11T14:10:29+00:00"
     },
     "Person:Niki Parmar": {
       "path": "Person/Niki Parmar.wiki",
@@ -4265,6 +4409,12 @@
       "revid": 13701,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Omer Levy": {
+      "path": "Person/Omer Levy.wiki",
+      "revid": 15783,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-11T14:10:29+00:00"
     },
     "Person:Oriel FeldmanHall": {
       "path": "Person/Oriel FeldmanHall.wiki",
@@ -4361,6 +4511,12 @@
       "revid": 7274,
       "sha256": "0a25bc7dd207bd00f9342dc8059c287afc2585838990fbfc03d878ed7a68ec8f",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Peter J. Liu": {
+      "path": "Person/Peter J. Liu.wiki",
+      "revid": 15759,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-11T14:10:29+00:00"
     },
     "Person:Philip K. Dick": {
       "path": "Person/Philip K. Dick.wiki",
@@ -4488,6 +4644,12 @@
       "sha256": "1ef7fb9ea96415944f42773c403daadebdeed7da16ef37731c582a995614f0a6",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:Robi Rahman": {
+      "path": "Person/Robi Rahman.wiki",
+      "revid": 15813,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-11T14:10:29+00:00"
+    },
     "Person:Robin L. Hansen": {
       "path": "Person/Robin L. Hansen.wiki",
       "revid": 14321,
@@ -4499,6 +4661,12 @@
       "revid": 13785,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Ross Anderson": {
+      "path": "Person/Ross Anderson.wiki",
+      "revid": 15845,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-11T14:10:29+00:00"
     },
     "Person:Roula Choueiri": {
       "path": "Person/Roula Choueiri.wiki",
@@ -4613,6 +4781,12 @@
       "revid": 14747,
       "sha256": "f87ffa4c0882ed80b6f7212e0b2d3230f72002472b782b0673fc354a7c24787a",
       "synced_at": "2026-11-09T11:49:44+00:00"
+    },
+    "Person:Sharan Narang": {
+      "path": "Person/Sharan Narang.wiki",
+      "revid": 15743,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-11T14:10:29+00:00"
     },
     "Person:Sheldon Wagner": {
       "path": "Person/Sheldon Wagner.wiki",
@@ -4812,6 +4986,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T13:10:22+00:00"
     },
+    "Person:Tri Dao": {
+      "path": "Person/Tri Dao.wiki",
+      "revid": 15711,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-11T14:10:29+00:00"
+    },
     "Person:Unknown": {
       "path": "Person/Unknown.wiki",
       "revid": 14629,
@@ -4829,6 +5009,12 @@
       "revid": 6935,
       "sha256": "43a9c19ec21ec950150125989d0a16570fae3230a1c8e2360fc2c34727eefaab",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Ves Stoyanov": {
+      "path": "Person/Ves Stoyanov.wiki",
+      "revid": 15787,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-11T14:10:29+00:00"
     },
     "Person:Vineesha Veer": {
       "path": "Person/Vineesha Veer.wiki",
@@ -4859,6 +5045,12 @@
       "revid": 13883,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Wei Li": {
+      "path": "Person/Wei Li.wiki",
+      "revid": 15755,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-11T14:10:29+00:00"
     },
     "Person:Wendy L. Stone": {
       "path": "Person/Wendy L. Stone.wiki",
@@ -4902,17 +5094,53 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
     },
+    "Person:Yanqi Zhou": {
+      "path": "Person/Yanqi Zhou.wiki",
+      "revid": 15751,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-11T14:10:29+00:00"
+    },
+    "Person:Yarin Gal": {
+      "path": "Person/Yarin Gal.wiki",
+      "revid": 15849,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-11T14:10:29+00:00"
+    },
     "Person:Yejin Choi": {
       "path": "Person/Yejin Choi.wiki",
       "revid": 15650,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T13:10:22+00:00"
     },
+    "Person:Yinhan Liu": {
+      "path": "Person/Yinhan Liu.wiki",
+      "revid": 15767,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-11T14:10:29+00:00"
+    },
+    "Person:Yiren Zhao": {
+      "path": "Person/Yiren Zhao.wiki",
+      "revid": 15837,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-11T14:10:29+00:00"
+    },
     "Person:Yu Luo": {
       "path": "Person/Yu Luo.wiki",
       "revid": 14810,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-09T16:11:40+00:00"
+    },
+    "Person:Zakhar Shumaylov": {
+      "path": "Person/Zakhar Shumaylov.wiki",
+      "revid": 15833,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-11T14:10:29+00:00"
+    },
+    "Person:Zifan Carl Guo": {
+      "path": "Person/Zifan Carl Guo.wiki",
+      "revid": 15817,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-11T14:10:29+00:00"
     },
     "Person:Zoe Mailloux": {
       "path": "Person/Zoe Mailloux.wiki",
@@ -5165,6 +5393,12 @@
       "revid": 13086,
       "sha256": "79581f7ffea51c313f16357f5df9dd5f7ed89002476bb2565530defdf9db6144",
       "synced_at": "2026-11-06T09:12:04+00:00"
+    },
+    "Self-attention": {
+      "path": "Main/Self-attention.wiki",
+      "revid": 15692,
+      "sha256": "e3ccd9c8cdba1785e727edda7b34c41e0ca8ccbbca58850c84f80a6a48c22e8f",
+      "synced_at": "2026-11-11T14:10:29+00:00"
     },
     "Sequence": {
       "path": "Main/Sequence.wiki",
@@ -5706,6 +5940,18 @@
       "sha256": "4f2511b6c7dc003565a1538e7c976f631097097156614fd7b152061de980abc0",
       "synced_at": "2026-11-05T18:49:57+00:00"
     },
+    "Source:AI models collapse when trained on recursively generated data": {
+      "path": "Source/AI models collapse when trained on recursively generated data.wiki",
+      "revid": 15870,
+      "sha256": "66dfed9039bc012127d8da9721d2fce21e27eea62371659afea026f303f61f81",
+      "synced_at": "2026-11-11T14:10:29+00:00"
+    },
+    "Source:AI models collapse when trained on recursively generated data (Scholarly article)": {
+      "path": "Source/AI models collapse when trained on recursively generated data (Scholarly article).wiki",
+      "revid": 15871,
+      "sha256": "c261269c89b7d990cc295b8c224f8cef0225fb431d628ae5c4308e6ed3060949",
+      "synced_at": "2026-11-11T14:10:29+00:00"
+    },
     "Source:ANR (Website)": {
       "path": "Source/ANR (Website).wiki",
       "revid": 11090,
@@ -5747,6 +5993,12 @@
       "revid": 10999,
       "sha256": "e018fdcc7470473d035803a7c68389ec3b097d620cf6173ccd8b1e9c6fa9dc16",
       "synced_at": "2026-10-21T14:41:43+00:00"
+    },
+    "Source:Algorithmic progress in language models (Manuscript)": {
+      "path": "Source/Algorithmic progress in language models (Manuscript).wiki",
+      "revid": 15857,
+      "sha256": "48429d5c643697990f626d03c589c1ad15f840bd679bbf3d0fea0b53f222a26b",
+      "synced_at": "2026-11-11T14:10:29+00:00"
     },
     "Source:Algèbre Linéaire et Applications (Book)": {
       "path": "Source/Algèbre Linéaire et Applications (Book).wiki",
@@ -5826,11 +6078,23 @@
       "sha256": "7b6643e2542106715e0f81215ab23782edd0b82242e7cb1376ac77a2f5481d04",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension (Conference paper)": {
+      "path": "Source/BART_ Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension (Conference paper).wiki",
+      "revid": 15795,
+      "sha256": "4594afbc728f940e1cc2553d05273e42d264eeb7a1134db84171737ec6092aad",
+      "synced_at": "2026-11-11T14:10:29+00:00"
+    },
     "Source:BBC Science Focus": {
       "path": "Source/BBC Science Focus.wiki",
       "revid": 1668,
       "sha256": "bebf13d21795f24ccc46f664e3582d061899509709df60a26737c50e5abdf1ad",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding (Conference paper)": {
+      "path": "Source/BERT_ Pre-training of Deep Bidirectional Transformers for Language Understanding (Conference paper).wiki",
+      "revid": 15731,
+      "sha256": "7d18ae0ea7de897dd6a469ad6e98ff934a05c49054bfebb22c6a0d2260718e35",
+      "synced_at": "2026-11-11T14:10:29+00:00"
     },
     "Source:Beloved (Book)": {
       "path": "Source/Beloved (Book).wiki",
@@ -6173,6 +6437,12 @@
       "revid": 14579,
       "sha256": "0bbf855503963869e44ef11d57098c797005192836614cc661e0811e03bb9c99",
       "synced_at": "2026-11-08T16:49:45+00:00"
+    },
+    "Source:Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer (Scholarly article)": {
+      "path": "Source/Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer (Scholarly article).wiki",
+      "revid": 15799,
+      "sha256": "14a0a64d06023c242be2698ebcbc595c0a23340b6bf760aba1521e5e6ca4ce2a",
+      "synced_at": "2026-11-11T14:10:29+00:00"
     },
     "Source:Finnegans Wake (Book)": {
       "path": "Source/Finnegans Wake (Book).wiki",
@@ -6797,6 +7067,12 @@
       "revid": 8370,
       "sha256": "606091526df6c677eca863e5e110b3d49794c218de19cbb91609541ac99fbfc2",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:Mamba: Linear-Time Sequence Modeling with Selective State Spaces (Conference paper)": {
+      "path": "Source/Mamba_ Linear-Time Sequence Modeling with Selective State Spaces (Conference paper).wiki",
+      "revid": 15715,
+      "sha256": "91070394a4f5bc42d73dba3fc6cbc6df682ebce91913f40b9181da182e2a6afc",
+      "synced_at": "2026-11-11T14:10:29+00:00"
     },
     "Source:Manufacturing news, articles and insights (Website)": {
       "path": "Source/Manufacturing news, articles and insights (Website).wiki",
@@ -7734,6 +8010,12 @@
       "sha256": "25a2fbf7284d9b91b60fa84570a1707f3b8194e633e6255ec5942fb57fbdf9c9",
       "synced_at": "2026-11-08T13:08:35+00:00"
     },
+    "Synthetic data": {
+      "path": "Main/Synthetic data.wiki",
+      "revid": 15860,
+      "sha256": "2a6114958ed59533ac610941241f0f971ffe8bb5e541bfa6416a4cfdb029e76b",
+      "synced_at": "2026-11-11T14:10:29+00:00"
+    },
     "Technology": {
       "path": "Main/Technology.wiki",
       "revid": 7786,
@@ -7909,6 +8191,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-11T13:49:28+00:00",
+  "updated": "2026-11-11T14:10:29+00:00",
   "version": 1
 }

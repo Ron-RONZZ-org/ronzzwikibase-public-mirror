@@ -1,0 +1,32 @@
+[[Category:Large language models]]
+[[Category:Machine learning]]
+'''Synthetic data''' is training data produced by a model rather than written by a human, either sampled from the model directly or filtered and verified afterwards.
+
+== Motivation ==
+
+Synthetic data is 1 of the 3 routes past the [[data wall]]. Once the [[data wall|available stock]] $D_{\max}$ of human text falls short of the compute-optimal allocation $D_{\text{opt}}(F)$, the shortfall is
+
+$$
+D_{\text{syn}}=D_{\text{opt}}(F)-D_{\max},
+$$
+
+which grows without bound as $F$ grows, because $D_{\text{opt}}$ rises with compute while $D_{\max}$ does not. Generated data is the only route that increases $D_{\max}$ rather than economising on it.<ref>{{#cite:Q3181}}</ref>
+
+== Recursion ==
+
+The hazard is that the new data comes from the same distribution the model learned. Let $p_0$ be the distribution of human text, $p_g$ the model after $g$ generations, and $\lambda\in[0,1]$ the fraction of the corpus that is synthetic. Training on the mixture and resampling gives
+
+$$
+p_{g+1}=\mathcal{A}\left(\left(1-\lambda\right)p_0+\lambda p_g\right),
+$$
+
+where $\mathcal{A}$ is the operator that trains a model and samples from it. The 2 limiting cases differ qualitatively:
+
+* $\lambda=0$: the corpus never changes, and recursion stops;
+* $\lambda>0$: the corpus drifts, and each generation is trained partly on the output of the last.
+
+== Model collapse ==
+
+For $\lambda>0$ the recursion degrades $p_g$ rather than preserving $p_0$, a failure mode called '''model collapse'''. Three mechanisms compound: the tails of the original distribution are progressively truncated, because sampling rarely visits them and the next model therefore never learns them; sampling noise is baked into the training targets; and the functional error of the model is reabsorbed as if it were signal. The distribution loses variance generation by generation, and a fraction of fresh human data slows this drift without removing it.<ref>{{#cite:Q3241}}</ref>
+
+The practical consequence is that synthetic data is not a substitute for unique data at scale: it can extend a corpus, but a corpus composed largely of it degrades the model that consumes it, which is why it is listed as a risky rather than a costless route past the [[data wall]].

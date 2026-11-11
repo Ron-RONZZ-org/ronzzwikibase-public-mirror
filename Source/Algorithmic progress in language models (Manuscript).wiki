@@ -1,0 +1,5 @@
+{{Manuscript}}
+
+== Overview ==
+
+Preprint estimating the rate of algorithmic progress in language models from over 200 evaluations, finding that the compute needed to reach a fixed performance threshold halved roughly every 8 months over 2012 to 2023 (arXiv:2403.05812)

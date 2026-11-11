@@ -1,0 +1,1 @@
+#REDIRECT [[Source:AI models collapse when trained on recursively generated data]]

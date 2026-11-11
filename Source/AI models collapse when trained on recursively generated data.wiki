@@ -1,0 +1,5 @@
+{{ScholarlyArticle}}
+
+== Overview ==
+
+Shows that training successive generations of models on recursively generated data causes model collapse, published in Nature 631, 755-759

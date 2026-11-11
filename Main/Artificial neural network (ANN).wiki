@@ -1,4 +1,6 @@
 [[Category:Artificial neural network| ]]
+An '''artificial neural network (ANN)''' is a system consisting of interconnected [[artificial neuron]]s.
+
 == Key concepts ==
 
 * Elementary unit: [[artificial neuron]]

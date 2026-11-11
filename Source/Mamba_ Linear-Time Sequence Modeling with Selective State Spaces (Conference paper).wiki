@@ -1,0 +1,5 @@
+{{ConferencePaper}}
+
+== Overview ==
+
+Introduces selective state-space models and the attention-free Mamba architecture, whose cost scales linearly in sequence length
