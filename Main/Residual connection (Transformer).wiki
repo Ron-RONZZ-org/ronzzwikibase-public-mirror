@@ -1,228 +1,25 @@
 [[Category:Transformer]]
-A '''residual connection''' adds the input of a sub-layer to the output of that sub-layer, so that the sub-layer only has to learn a correction to its input. Both sub-layers of a [[Transformer]] block, [[self-attention]] and the [[Feed-Forward Network (FFN) Sub-Layer (Transformer)|FFN]], are wrapped in a residual connection and a layer normalisation.<ref>{{#cite:Q3130}}{{#cite:Q3269}}</ref>
+In a [[Transformer]], '''residual connection''' is the process of enriching a input [[token (machine learning)|token sequence]] with additional information derived from calculation (e.g., from [[self-attention]]).
+
+<ref>{{#cite:Q3130}}{{#cite:Q3269}}</ref>
 
 == Definition ==
 
-Let $\mathbf{X}\in\mathbb{R}^{T\times d}$ be the input of a sub-layer, and let $\operatorname{SL}$ be the map that sub-layer computes. The '''residual connection''' replaces $\operatorname{SL}$ by
+Let $\mathbf{X}\in\mathbb{R}^{T\times d}$ be the input of a sub-layer, and let $\operatorname{SL}\in\mathbb{R}^{T\times d}$ be the '''residual''' computed by the sub-layer.
+
+Then the '''residual connection'''
 
 $$
 \operatorname{Res}(\mathbf{X})=\mathbf{X}+\operatorname{SL}(\mathbf{X}).
 $$
 
-The sum is defined only if $\operatorname{SL}$ returns a matrix of the same shape, which is why every sub-layer of a Transformer outputs width $d$.
+== Identity ==
 
-<blockquote>
-With $\operatorname{SL}\equiv\mathbf{0}$ the connection is the identity, $\operatorname{Res}(\mathbf{X})=\mathbf{X}$, so a deeper stack can reproduce a shallower model exactly. That is the reason depth does not hurt in principle.<ref>{{#cite:Q3269}}</ref>
-</blockquote>
 
-== Layer normalisation ==
-
-'''Layer normalisation''' (LN) normalises the $d$ components of 1 position to zero mean and unit variance, then rescales and shifts them with 2 learned vectors,
+With $\operatorname{SL}\equiv\mathbf{0}$,
 
 $$
-\operatorname{LN}(\vec x)
-=\vec\gamma\odot\frac{\vec x-\mu\,\mathbf{1}}{\sqrt{\sigma^{2}+\epsilon}}+\vec\beta,
-\qquad
-\mu=\frac{1}{d}\sum_{i=1}^{d}x_i,
-\qquad
-\sigma^{2}=\frac{1}{d}\sum_{i=1}^{d}\left(x_i-\mu\right)^{2},
+\operatorname{Res}(\mathbf{X})=\mathbf{X}
 $$
 
-where $\vec\gamma,\vec\beta\in\mathbb{R}^{d}$ are [[model parameters (ANN)|parameters]] (a gain and a bias, $2d$ parameters in total per LN), $\epsilon\approx10^{-5}$ guards the division, and $\odot$ is the elementwise product.<ref>{{#cite:Q3264}}</ref> Applied to a sequence it acts row by row,
-
-$$
-\operatorname{LN}(\mathbf{X})
-=\begin{pmatrix}
-\operatorname{LN}\left(\vec x_1\right)^{\top}\\
-\vdots\\
-\operatorname{LN}\left(\vec x_T\right)^{\top}
-\end{pmatrix},
-$$
-
-so the statistics are taken over the features of 1 position. They do not depend on the other examples of the batch, and are the same during training and at inference, which is not the case for batch normalisation.
-
-=== Invariance to shift and scale ===
-
-Setting $\epsilon=0$ for clarity, the mean and the variance of $\alpha\vec x+c\mathbf{1}$ are
-
-$$
-\frac{1}{d}\sum_{i=1}^{d}\left(\alpha x_i+c\right)=\alpha\mu+c,
-\qquad
-\frac{1}{d}\sum_{i=1}^{d}\left(\alpha x_i+c-\alpha\mu-c\right)^{2}=\alpha^{2}\sigma^{2},
-$$
-
-hence, for $\alpha>0$,
-
-$$
-\operatorname{LN}\left(\alpha\vec x+c\mathbf{1}\right)
-=\vec\gamma\odot\frac{\alpha\left(\vec x-\mu\mathbf{1}\right)}{\alpha\sqrt{\sigma^{2}}}+\vec\beta
-=\operatorname{LN}\left(\vec x\right).
-$$
-
-<blockquote>
-So the scale $\alpha$ and the offset $c$ produced by the layer before LN are erased by it, and $\vec\gamma,\vec\beta$ are the only quantities that set the scale and the offset of the normalised output.
-</blockquote>
-
-== Gradient path ==
-
-Write the representation after block $l$ as $\mathbf{Y}_l$, so that
-
-$$
-\mathbf{Y}_l=\mathbf{Y}_{l-1}+F_l\left(\mathbf{Y}_{l-1}\right),
-\qquad l=1,\cdots,L,
-\qquad \mathbf{Y}_0=\mathbf{X},
-$$
-
-where $F_l$ is the sub-layer of block $l$. Treating $\partial\mathbf{Y}_l/\partial\mathbf{Y}_{l-1}$ as the linear map it induces on the flattened matrix,
-
-$$
-\frac{\partial\mathbf{Y}_l}{\partial\mathbf{Y}_{l-1}}
-=\mathbf{I}+\frac{\partial F_l}{\partial\mathbf{Y}_{l-1}}
-=\mathbf{I}+\mathbf{J}_l,
-$$
-
-so by the chain rule the gradient that reaches the input is
-
-$$
-\frac{\partial L}{\partial\mathbf{Y}_0}
-=\frac{\partial L}{\partial\mathbf{Y}_L}\prod_{l=1}^{L}\left(\mathbf{I}+\mathbf{J}_l\right).
-$$
-
-For $L=2$ the product reads
-
-$$
-\left(\mathbf{I}+\mathbf{J}_2\right)\left(\mathbf{I}+\mathbf{J}_1\right)
-=\mathbf{I}+\mathbf{J}_1+\mathbf{J}_2+\mathbf{J}_2\mathbf{J}_1,
-$$
-
-and the same holds for general $L$: every product of $k$ Jacobians appears once. In particular the term with $k=0$ is $\mathbf{I}$, so a gradient can travel from block $L$ to block $0$ through the identity alone, without being multiplied by any $\mathbf{J}_l$.
-
-A plain stack has no such term. With $\mathbf{Y}_l=F_l(\mathbf{Y}_{l-1})$,
-
-$$
-\frac{\partial\mathbf{Y}_L}{\partial\mathbf{Y}_0}=\prod_{l=1}^{L}\mathbf{J}_l,
-\qquad
-\left\|\prod_{l=1}^{L}\mathbf{J}_l\right\|\le\kappa^{L}\ \text{ if }\ \left\|\mathbf{J}_l\right\|\le\kappa<1,
-$$
-
-which is the vanishing-gradient problem: the factor decays geometrically with depth.
-
-== Placement ==
-
-2 placements are in use. They differ in whether LN sits on the residual path or inside the branch,
-
-{| class="wikitable"
-|-
-! Post-LN
-! Pre-LN
-|-
-| $\mathbf{X}^{(l+1)}=\operatorname{LN}\left(\mathbf{X}^{(l)}+\operatorname{SL}\left(\mathbf{X}^{(l)}\right)\right)$
-| $\mathbf{X}^{(l+1)}=\mathbf{X}^{(l)}+\operatorname{SL}\left(\operatorname{LN}\left(\mathbf{X}^{(l)}\right)\right)$
-|}
-
-With $\mathbf{D}_l$ the Jacobian of the LN, the 1-step Jacobians are
-
-$$
-\text{Post-LN: }\ \frac{\partial\mathbf{X}^{(l+1)}}{\partial\mathbf{X}^{(l)}}=\mathbf{D}_l\left(\mathbf{I}+\mathbf{J}_l\right),
-\qquad
-\text{Pre-LN: }\ \frac{\partial\mathbf{X}^{(l+1)}}{\partial\mathbf{X}^{(l)}}=\mathbf{I}+\mathbf{J}_l\mathbf{D}_l .
-$$
-
-In Post-LN the term of the product that carries no $\mathbf{J}$ is $\prod_{l=1}^{L}\mathbf{D}_l$, so the identity path is rescaled at every layer. In Pre-LN that term is $\mathbf{I}$ itself, and LN acts only inside the branch: the residual stream keeps its scale, and a final LN is applied before the output head, since no block normalises it.
-
-<blockquote>
-'''Consequence''': at initialisation Post-LN produces large expected gradients for the parameters near the output, so a large learning rate there is unstable and a warm-up phase is needed; Pre-LN keeps those gradients bounded and trains without a warm-up phase.<ref>{{#cite:Q3281}}</ref> The original Transformer is Post-LN, trained with a warm-up phase.<ref>{{#cite:Q3130}}</ref>
-</blockquote>
-
-== Example ==
-
-{{Hidden example}}
-'''Setup'''
-
-Let $d=3$, $T=1$, $\vec x=(1,2,3)^{\top}$, $\vec\gamma=\mathbf{1}$, $\vec\beta=\vec 0$, $\epsilon=0$, and let the sub-layer be the cyclic shift
-
-$$
-\mathbf{W}=
-\begin{pmatrix}
-0&1&0\\
-0&0&1\\
-1&0&0
-\end{pmatrix},
-\qquad
-\operatorname{SL}(\vec x)=\mathbf{W}\vec x .
-$$
-
-'''Statistics of the input'''
-
-$$
-\mu=2,
-\qquad
-\sigma^{2}=\frac{(1-2)^{2}+0^{2}+(3-2)^{2}}{3}=\frac{2}{3},
-\qquad
-\sigma\approx0.8165,
-$$
-
-$$
-\operatorname{LN}(\vec x)\approx
-\begin{pmatrix}
--1.2247\\
-0\\
-1.2247
-\end{pmatrix}.
-$$
-
-'''Post-LN'''
-
-$$
-\vec x+\operatorname{SL}(\vec x)=
-\begin{pmatrix}1\\2\\3\end{pmatrix}+
-\begin{pmatrix}2\\3\\1\end{pmatrix}=
-\begin{pmatrix}3\\5\\4\end{pmatrix},
-$$
-
-with $\mu=4$ and $\sigma^{2}=\frac{2}{3}$, hence
-
-$$
-\operatorname{LN}\left(\vec x+\operatorname{SL}(\vec x)\right)\approx
-\begin{pmatrix}
--1.2247\\
-1.2247\\
-0
-\end{pmatrix}.
-$$
-
-'''Pre-LN'''
-
-$$
-\operatorname{SL}\left(\operatorname{LN}(\vec x)\right)\approx
-\begin{pmatrix}
-0\\
-1.2247\\
--1.2247
-\end{pmatrix}
-$$
-
-so
-
-$$
-\vec x+\operatorname{SL}\left(\operatorname{LN}(\vec x)\right)\approx
-\begin{pmatrix}
-1\\
-3.2247\\
-1.7753
-\end{pmatrix}.
-$$
-
-'''Gradient through 10 blocks'''
-
-With $\mathbf{J}_l=j\mathbf{I}$ and $j=0.1$,
-
-$$
-\begin{cases}
-\text{plain stack: } j^{10}=1\cdot10^{-10},\\
-\text{with residuals: } \left(1+j\right)^{10}\approx2.59.
-\end{cases}
-$$
-
-which is the factor that multiplies a gradient on its way from block 10 back to block 0.
-{{End hidden}}
+Therefore, additional '''residual connection''' steps in a model architecture, even possibly inefficient, should not hinder model quality.<ref>{{#cite:Q3269}}</ref>

@@ -5450,9 +5450,9 @@
     },
     "Residual connection (Transformer)": {
       "path": "Main/Residual connection (Transformer).wiki",
-      "revid": 16137,
-      "sha256": "6851ce7e5dfee5325437d4c6ce840a7de148a56d00e1fd7f67c51819d9702d2b",
-      "synced_at": "2026-11-12T10:20:30+00:00"
+      "revid": 16150,
+      "sha256": "6b6caa4ddca77df2655aa0763950cb6c1556bb0df364e24eb4a597f120b757cd",
+      "synced_at": "2026-11-12T10:49:38+00:00"
     },
     "Rest energy": {
       "path": "Main/Rest energy.wiki",
@@ -5564,9 +5564,9 @@
     },
     "Self-attention": {
       "path": "Main/Self-attention.wiki",
-      "revid": 16041,
+      "revid": 16151,
       "sha256": "3ddfe85e1c1413742e4999f3f369769830e8c89ea96927aaa5bafedadf8b0387",
-      "synced_at": "2026-11-12T10:10:15+00:00"
+      "synced_at": "2026-11-12T10:49:38+00:00"
     },
     "Self-attention causal mask (Transformer)": {
       "path": "Main/Self-attention causal mask (Transformer).wiki",
@@ -8389,6 +8389,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-12T10:36:00+00:00",
+  "updated": "2026-11-12T10:49:38+00:00",
   "version": 1
 }
