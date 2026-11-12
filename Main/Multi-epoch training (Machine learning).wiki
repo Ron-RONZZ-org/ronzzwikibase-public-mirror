@@ -1,3 +1,4 @@
+[[Category:Machine learning]]
 In [[machine learning]], '''multi-epoch training''' is the practice of feeding a model the same training data multiple times (epoches).
 
 According to experiments ran by [[Source:Scaling Data-Constrained Language Models (Conference paper)|name-author]], result from repeating the same training data up to 4 times is comparable to training entirely from fresh data for the same total token count.<ref>{{#cite:Q3174}}</ref>

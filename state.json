@@ -2576,9 +2576,9 @@
     },
     "Multi-epoch training (Machine learning)": {
       "path": "Main/Multi-epoch training (Machine learning).wiki",
-      "revid": 16024,
-      "sha256": "ca40477bb870c5096edb6c69c57f13e31ba7e7342620ecd9420fb7365bc9bc94",
-      "synced_at": "2026-11-11T21:49:13+00:00"
+      "revid": 16030,
+      "sha256": "c84a2e4a2e294a3bd3ef25437ce61b3635ea3b1cb0e04a70c589237405b24540",
+      "synced_at": "2026-11-12T08:25:51+00:00"
     },
     "Multidimensional interpolation": {
       "path": "Main/Multidimensional interpolation.wiki",
@@ -8245,6 +8245,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-11T21:49:13+00:00",
+  "updated": "2026-11-12T08:25:51+00:00",
   "version": 1
 }
