@@ -134,9 +134,9 @@
     },
     "Autoregressive decoder-only Transformer": {
       "path": "Main/Autoregressive decoder-only Transformer.wiki",
-      "revid": 15946,
-      "sha256": "c503df1cb2b6415928a677afc30278306c9ea264e929c5c54fb83037102b6349",
-      "synced_at": "2026-11-11T16:49:46+00:00"
+      "revid": 16035,
+      "sha256": "2b566110ffe7ed98c48e8b6e632a59e08cbe99ff8bdcdb0b9699aff0d33a105a",
+      "synced_at": "2026-11-12T08:49:24+00:00"
     },
     "Availability heuristic": {
       "path": "Main/Availability heuristic.wiki",
@@ -2324,9 +2324,9 @@
     },
     "Language model loss": {
       "path": "Main/Language model loss.wiki",
-      "revid": 15943,
-      "sha256": "6f61fe42e1a1cfb9af67e6970fb8ec4659edc2fdfff44b85463c80f2b9f5953a",
-      "synced_at": "2026-11-11T16:49:46+00:00"
+      "revid": 16032,
+      "sha256": "a22421e07779f71003dd3f652f9e9cfda0be939317613749c27aea1d43b6504b",
+      "synced_at": "2026-11-12T08:49:24+00:00"
     },
     "Laplace transform": {
       "path": "Main/Laplace transform.wiki",
@@ -8245,6 +8245,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-12T08:36:08+00:00",
+  "updated": "2026-11-12T08:49:24+00:00",
   "version": 1
 }

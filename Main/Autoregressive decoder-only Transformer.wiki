@@ -1,32 +1,25 @@
-[[Category:Large language model]]
-[[Category:Artificial neural network]]
-An '''autoregressive decoder-only Transformer''' is a [[Transformer]] that retains only the decoder stack, so that each position attends to itself and to earlier positions only. At the time of writing (2026-08) it is the most widely adopted architecture for [[large language model (LLM)|LLMs]].<ref>{{#cite:Q3130}}</ref>
+[[Category:Transformer]]
 
-== Causal restriction ==
+An '''autoregressive decoder-only Transformer (ADoT)''' is a [[Transformer]] architecture that retains only the decoder stack, so that each position attends to itself and to earlier positions only.
 
-The defining property is the causal mask of [[self-attention]], which forbids position $j$ from attending to any position beyond itself. Because the representation of position $j$ is then a function of $x_{1:j}$ alone, 1 forward pass over a sequence of length $T$ yields all $T$ next-token predictions at once,
+== Defining property: Causal restriction ==
+
+See [[self-attention causal mask (Transformer)]].
+
+== Characteristics ==
+
+=== Training ===
 
 $$
-P_\theta(x_t\mid x_{1:t-1}),
-\qquad t=1,\cdots,T,
+P_\theta(x_t\mid x_{1:t-1}),\, t=1,\cdots,T,
 $$
 
-so training is fully parallel even though generation is not. The objective that results is the [[language model loss]].
+can be calculated simultaneously if $\vec x=(x_1,\dots,x_T)$ is fully known. So training can be highly parallelised.
 
-== Autoregressive factorisation ==
-
-Chaining those per-position conditionals reconstructs the distribution of the whole sequence,
+=== Inference ===
 
 $$
 P_\theta(x_1,\cdots,x_T)=\prod_{t=1}^{T}P_\theta(x_t\mid x_{1:t-1}),
 $$
 
-which is what makes the model generatable one token at a time. The policies for doing so are treated at [[decoding]], and the cost of each step at [[self-attention]] and [[KV caching]].
-
-== Relation to other architectures ==
-
-* Encoder-only models, such as BERT, are bidirectional and are not generatable: they condition on both left and right context in every layer, and fill in masked positions rather than extend a sequence.<ref>{{#cite:Q3211}}</ref>
-* Encoder-decoder models, such as T5 and BART, split the 2 roles: the encoder reads the input, and the decoder attends to its output through cross-attention at every generated token.<ref>{{#cite:Q3228}}</ref><ref>{{#cite:Q3227}}</ref>
-* Attention-free sequence models, such as state-space models, drop [[self-attention]] altogether and keep a fixed-size state, which removes the quadratic context cost and the [[KV caching|KV cache]] along with it.<ref>{{#cite:Q3207}}</ref>
-
-Only the 1st is a decoder-only autoregressive model; all 3 nevertheless fall under the [[large language model (LLM)|LLM]] definition.
+Hence ADoT is highly adapted for [[large language model (LLM)#Typical_implementation:_sequential_next_token_prediction|sequential next token prediction]].

@@ -41,3 +41,17 @@ Training reports conventionally quote $L_{\text{nat}}$.
 == Perplexity ==
 
 See [[perplexity (LLM)]].
+
+== Loss and training compute budget ==
+
+It is empirically determined
+
+$$
+L(C) \propto C^{-\alpha},
+\qquad \alpha \approx 0.05.
+$$
+where $C$ is the [[training compute budget]].
+
+As a consequence, halving the loss requires roughly $10^{6}$ times more compute.
+
+<ref>{{#cite:Q3141}}</ref>
