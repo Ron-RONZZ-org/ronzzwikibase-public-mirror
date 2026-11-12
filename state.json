@@ -4422,6 +4422,12 @@
       "sha256": "6ae8e7724a314bdc90242f95369df9d639c0d7fd5444d336b26c762695bb586e",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:Natalie SAUER": {
+      "path": "Person/Natalie SAUER.wiki",
+      "revid": 16162,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-12T13:49:19+00:00"
+    },
     "Person:Nathan Rosen": {
       "path": "Person/Nathan Rosen.wiki",
       "revid": 13170,
@@ -5363,6 +5369,12 @@
       "revid": 10595,
       "sha256": "31fa0d07a860ba562b720b0ba915e8491eb94e0c1093b61afe06d8c78cbfdd2e",
       "synced_at": "2026-10-19T12:24:06+00:00"
+    },
+    "Production": {
+      "path": "Main/Production.wiki",
+      "revid": 16168,
+      "sha256": "3841f8b42644cabb41533ae5628f681912776e855a1f818ebd7b2d13872d6233",
+      "synced_at": "2026-11-12T13:49:19+00:00"
     },
     "Qualitative methods": {
       "path": "Main/Qualitative methods.wiki",
@@ -6701,6 +6713,12 @@
       "revid": 11608,
       "sha256": "b6e09b0c6d88031771c7d269ea6bdcd2d0f05cd2edfb2eaf42bd1f369a18cbb0",
       "synced_at": "2026-10-29T09:37:08+00:00"
+    },
+    "Source:Gestion de production L2-SPI 2026-2027 (Document)": {
+      "path": "Source/Gestion de production L2-SPI 2026-2027 (Document).wiki",
+      "revid": 16167,
+      "sha256": "cfc0a1b54046c3fab435d3a884bc47cd647371d11244ce51615e9ce9ecb24eca",
+      "synced_at": "2026-11-12T13:49:19+00:00"
     },
     "Source:Git (Website)": {
       "path": "Source/Git (Website).wiki",
@@ -8389,6 +8407,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-12T11:35:45+00:00",
+  "updated": "2026-11-12T13:49:19+00:00",
   "version": 1
 }

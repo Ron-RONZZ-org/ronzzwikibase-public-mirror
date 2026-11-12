@@ -1,0 +1,30 @@
+[[Category:Production]]
+'''Production''' is the organised process of making goods and services on industrial scale.<ref>{{#cite:Q3286}}</ref>
+
+== Production process ==
+
+<uml>
+@startuml
+!theme bluegray
+title Production
+skinparam defaultTextAlignment center
+
+package "Inputs" {
+  rectangle "Raw material" as RM
+  rectangle "Energy" as EN
+  rectangle "Human labour\n(work)" as HL
+  rectangle "Technology\n(know-how)" as TE
+  rectangle "Machine\n(capital)" as MA
+}
+
+rectangle "Production\nprocess" as PROD
+rectangle "Finished products\nand services" as OUT
+
+RM --> PROD
+EN --> PROD
+HL --> PROD
+TE --> PROD
+MA --> PROD
+PROD ==> OUT
+@enduml
+</uml>
