@@ -2306,9 +2306,9 @@
     },
     "KV caching": {
       "path": "Main/KV caching.wiki",
-      "revid": 15950,
-      "sha256": "0410cae25e4cc9470ccf6db54f260552859bba677d38ffd6fa6d51054514b02d",
-      "synced_at": "2026-11-11T16:49:46+00:00"
+      "revid": 16145,
+      "sha256": "55dbf70baa86b452720e66c180f787e109b600fd00552e87558fd23a7fc5ec52",
+      "synced_at": "2026-11-12T10:36:00+00:00"
     },
     "Kernel pair of a function": {
       "path": "Main/Kernel pair of a function.wiki",
@@ -8389,6 +8389,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-12T10:20:30+00:00",
+  "updated": "2026-11-12T10:36:00+00:00",
   "version": 1
 }

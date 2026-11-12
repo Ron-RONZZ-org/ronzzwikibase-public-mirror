@@ -1,29 +1,39 @@
-[[Category:Large language model]]
-[[Category:Machine learning]]
-'''KV caching''' stores the keys and values already computed for earlier positions, so that autoregressive generation does not recompute the prefix at every step.<ref>{{#cite:Q3192}}</ref>
+[[Category:Transformer]]
+'''KV caching''' is a technique to reduce computational cost during [[large language model (LLM)#Typical_implementation:_sequential_next_token_prediction|sequential next token prediction]] in [[Transformer]]s by caching the attention keys and values computed for earlier tokens for use in calculation of later tokens.
 
-== Motivation ==
+<ref>{{#cite:Q3192}}</ref>
 
-At step $t$ the model evaluates [[self-attention]] over the $t$ positions processed so far, at cost $\mathcal{O}(t^2d)$ for hidden dimension $d$. Generating a sequence of length $T$ therefore costs
+== Compute without KV caching ==
 
-$$
-\sum_{t=1}^{T}\mathcal{O}(t^2d)=\mathcal{O}(T^3d)
-$$
+To generate an [[token (machine learning)|output token sequence]] of length $T$ via [[large language model (LLM)#Typical_implementation:_sequential_next_token_prediction|sequential next token prediction]]:
 
-if each step re-runs attention over the whole prefix. The keys and values of earlier positions do not change as the sequence grows, however, so they can be kept instead of recomputed.
+At step $t$ the model evaluates attention (e.g., [[self-attention]]) over the first $t$ tokens processed so far, at cost $O(t^2d)$, where $d$ is the '''hidden dimension''' of the attention mechanism.
 
-== Effect ==
-
-With the cache in place, each step only has to score the 1 new position against the stored ones, at cost $\mathcal{O}(td)$, and the total becomes
+Overall compute:
 
 $$
-\sum_{t=1}^{T}\mathcal{O}(td)=\mathcal{O}(T^2d),
+\sum_{t=1}^{T}O(t^2d)=O(T^3 d)
 $$
 
-which removes a factor of $T$.
+where $O$ is the [[o(x) and o(x)|big-O notation]].
 
-== Cost ==
+== Compute with KV caching ==
 
-The saving is paid for in memory. Both $\mathbf{K}$ and $\mathbf{V}$ must be retained for every layer, which is $2Td$ scalars per layer, and the cache grows linearly with the length of the generated sequence.
+With the cache in place, each step scores only the 1 new token against the $t$ stored keys and values, at cost $O(td)$, and the total becomes
 
-Requiring memory that grows with the context is not free of alternatives: architectures that keep a fixed-size state rather than a stored history, such as recurrent and state-space models, do not need this cache at all.<ref>{{#cite:Q3207}}</ref>
+$$
+\sum_{t=1}^{T}O(td)=O(T^2 d),
+$$
+
+== Memory tradeoff ==
+
+[[File:KV caching.png|thumbnail|300px|As the [[context window (Sequential token generation)|context window]] of [[LLM]]s grow larger, approaching or exceeding $10^6$ tokens in 2026, the memory cost of '''KV caching''' can itself become a bottleneck.]]
+$$
+|\mathbf{K}|+|\mathbf{V}|=2Td
+$$
+
+scalars per layer.
+
+Which means, memory size required for full caching grows linearly with the length of the generated sequence.
+
+<ref>{{#cite:Q3207}}</ref>
