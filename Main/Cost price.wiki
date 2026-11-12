@@ -1,0 +1,20 @@
+[[Category:Production]]
+The '''cost price''' of a product is the total cost to manufacture one unit of it.
+
+It varies by production method and over time, according to raw material/energy/labour cost, as well as external/internal incidents affecting productivity.
+
+== Calculation ==
+
+$$
+\text{cost price}
+=
+\frac{\text{total production cost}}{\text{number of functional units made*}}.
+$$
+
+<blockquote>
+<nowiki/>*:[[Reject]]s must be excluded as they are not commercialisable products.
+</blockquote>
+
+== See also ==
+
+* [[Total production cost]]

@@ -1542,6 +1542,12 @@
       "sha256": "54514d777eb9955f30c8e1b1f4483c3ea1305c019d82602b1d63fbd2fe1af19b",
       "synced_at": "2026-11-02T19:08:44+00:00"
     },
+    "Cost price": {
+      "path": "Main/Cost price.wiki",
+      "revid": 16198,
+      "sha256": "687ab51230f8a6c2c342930a3a2c3953a936714ff9f237063a22f0074ea0c10d",
+      "synced_at": "2026-11-12T17:09:22+00:00"
+    },
     "Critical density of the Universe": {
       "path": "Main/Critical density of the Universe.wiki",
       "revid": 12363,
@@ -5388,6 +5394,12 @@
       "sha256": "55cd3ae4c350cc466a6ef036c6c413955e822db737b3e8a550bd551fe58c60e0",
       "synced_at": "2026-11-12T14:36:05+00:00"
     },
+    "Production routing": {
+      "path": "Main/Production routing.wiki",
+      "revid": 16196,
+      "sha256": "867064f2b7752aeffb5dd885e54426ec4a648f0e6fd1bc689da3e1e55d70a43d",
+      "synced_at": "2026-11-12T17:09:22+00:00"
+    },
     "Qualitative methods": {
       "path": "Main/Qualitative methods.wiki",
       "revid": 7381,
@@ -8443,6 +8455,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-12T16:49:42+00:00",
+  "updated": "2026-11-12T17:09:22+00:00",
   "version": 1
 }

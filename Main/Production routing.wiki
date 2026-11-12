@@ -1,0 +1,91 @@
+[[Category:Production]]
+'''Production routing''' is the process of planning and organising the sequence of operations required during a particular [[production]] process.
+
+It must take into account
+
+* Tools and workstations
+** Setup time
+** Run time
+** Maintenance time
+* Labour
+** Operation time
+** Move time
+* Process control
+** Concurrency
+** Inspection gates
+
+<ref>{{#cite:Q3293}}</ref>
+
+== Example ==
+
+{{Hidden example}}
+'''Production of 250 boxes of biscuits'''
+
+{| class="wikitable"
+|+ Routing for 250 biscuit boxes
+! Op !! Work centre !! Setup (h) !! Run (h/unit) !! Run for 250 boxes (h) !! Queue + move (h) !! Op elapsed (h)
+|-
+| 10 || Weigh and mix || 0.40 || 0.006 || 1.50 || 3 || 4.90
+|-
+| 20 || Sheet and cut || 0.75 || 0.010 || 2.50 || 4 || 7.25
+|-
+| 30 || Bake || 1.00 || 0.020 || 5.00 || 6 || 12.00
+|-
+| 40 || Cool || 0 || 0.012 || 3.00 || 5 || 8.00
+|-
+| 50 || Decorate || 0.50 || 0.008 || 2.00 || 4 || 6.50
+|-
+| 60 || Pack || 0.30 || 0.005 || 1.25 || 3 || 4.55
+|-
+! Total !! !! 2.95 !! !! 15.25 !! 25 !! 43.20
+|}
+
+For operation $i$,
+
+$$
+t_{\text{run},i}^{(Q)}=Q t_{\text{run},i},
+$$
+
+and
+
+$$
+t_{\text{elapsed},i}=t_{\text{setup},i}+t_{\text{run},i}^{(Q)}+t_{\text{queue+move},i}.
+$$
+
+Total tallies:
+
+$$
+T_{\text{touch}}=\sum_i\left(t_{\text{setup},i}+t_{\text{run},i}^{(Q)}\right)=2.95+15.25=18.20\ \text{h},
+$$
+
+$$
+T_{\text{elapsed}}=\sum_i t_{\text{elapsed},i}=43.20\ \text{h}.
+$$
+
+The difference is waiting time:
+
+$$
+T_{\text{wait}}=T_{\text{elapsed}}-T_{\text{touch}}=43.20-18.20=25.00\ \text{h}.
+$$
+
+Thus
+
+$$
+\frac{T_{\text{touch}}}{T_{\text{elapsed}}}
+=42.1\%, \\
+\frac{T_{\text{wait}}}{T_{\text{elapsed}}}
+=57.9\%,
+$$
+
+so touch time is just over two fifths of the span (42.1%), while waiting time accounts for nearly three fifth. 
+
+A scheduler that considers only touch time will promise an extremely unrealistic delivery date.
+{{End hidden}}
+
+== Contingency ==
+
+In addition to an optimised '''standard routing''', it is often desirable to create alternative routings as backup, in case a particular machine/raw material is unavailable.
+
+When subcontractors are hired, the planning concerning their work is known as '''phantom planning''', in which the general rule is to leave a generous '''time buffer''' for unexpected delays.
+
+<ref>{{#cite:Q3293}}</ref>
