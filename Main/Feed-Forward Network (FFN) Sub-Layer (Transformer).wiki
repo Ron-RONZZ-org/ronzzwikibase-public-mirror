@@ -1,0 +1,250 @@
+[[Category:Transformer]]
+The '''feed-forward network (FFN) sub-layer''' is the 2nd of the 2 sub-layers of a [[Transformer]] block: a 2-layer [[feedforward algorithm|feedforward network]] applied to each position of the sequence separately, after [[self-attention]].<ref>{{#cite:Q3130}}</ref>
+
+== Definition ==
+
+Let $\mathbf{X}\in\mathbb{R}^{T\times d}$, and let $\mathbf{W}_1\in\mathbb{R}^{d\times d_{ff}}$, $\vec b_1\in\mathbb{R}^{d_{ff}}$, $\mathbf{W}_2\in\mathbb{R}^{d_{ff}\times d}$, $\vec b_2\in\mathbb{R}^{d}$. The sub-layer is
+
+$$
+\operatorname{FFN}(\mathbf{X})
+=\sigma\left(\mathbf{X}\mathbf{W}_1+\mathbf{1}\vec b_1^{\top}\right)\mathbf{W}_2+\mathbf{1}\vec b_2^{\top},
+$$
+
+where $\mathbf{1}\in\mathbb{R}^{T}$ is a column of 1s, so that $\mathbf{1}\vec b_1^{\top}$ repeats the bias on every row, and $\sigma$ is an [[activation function]] applied entrywise. The original model takes
+
+$$
+d_{ff}=4d,
+\qquad
+\sigma=\operatorname{ReLU}.
+$$
+
+== Position-wise operation ==
+
+Row $t$ of the output depends on row $t$ of the input alone,
+
+$$
+\operatorname{FFN}(\mathbf{X})_t
+=\sigma\left(\vec x_t^{\top}\mathbf{W}_1+\vec b_1^{\top}\right)\mathbf{W}_2+\vec b_2^{\top},
+$$
+
+so the same network is applied to all $T$ positions with shared weights. Permuting the positions permutes the output and changes nothing else:
+
+$$
+\begin{aligned}
+\operatorname{FFN}\left(\mathbf{P}\mathbf{X}\right)
+&=\sigma\left(\mathbf{P}\mathbf{X}\mathbf{W}_1+\mathbf{1}\vec b_1^{\top}\right)\mathbf{W}_2+\mathbf{1}\vec b_2^{\top}\\
+&=\mathbf{P}\left(\sigma\left(\mathbf{X}\mathbf{W}_1+\mathbf{1}\vec b_1^{\top}\right)\mathbf{W}_2+\mathbf{1}\vec b_2^{\top}\right)
+=\mathbf{P}\operatorname{FFN}(\mathbf{X}),
+\end{aligned}
+$$
+
+using $\mathbf{P}\mathbf{1}=\mathbf{1}$ and $\mathbf{P}\sigma(\cdot)=\sigma(\mathbf{P}\cdot)$ entrywise. Sharing also keeps the parameter count independent of $T$: a 1-token and a $10^{5}$-token sequence have the same $\theta$.
+
+== Parameter count ==
+
+$$
+\left|\theta_{\text{FFN}}\right|
+=d\,d_{ff}+d_{ff}+d_{ff}\,d+d
+=2dd_{ff}+d_{ff}+d,
+$$
+
+which for $d_{ff}=4d$ is
+
+$$
+\left|\theta_{\text{FFN}}\right|=8d^{2}+5d .
+$$
+
+The [[self-attention]] sub-layer of the same block holds $3d^{2}$ weights for $\mathbf{W}_Q,\mathbf{W}_K,\mathbf{W}_V$ and $d^{2}$ for the output projection, i.e. $4d^{2}$ whatever the number of heads: the $h$ heads share the width, $d_k=d/h$, so the $3h$ matrices of width $d_k$ hold
+
+$$
+3h\,d\,d_k=3h\,d\,\frac{d}{h}=3d^{2}
+$$
+
+weights in total. The FFN share of a block is therefore
+
+$$
+\frac{\left|\theta_{\text{FFN}}\right|}{\left|\theta_{\text{attn}}\right|+\left|\theta_{\text{FFN}}\right|}
+\approx\frac{8d^{2}}{8d^{2}+4d^{2}}
+=\frac{2}{3}.
+$$
+
+For the base Transformer ($d=512$, $d_{ff}=2048$) the FFN holds
+
+$$
+2\cdot512\cdot2048+2048+512=2\,099\,712
+$$
+
+parameters, against
+
+$$
+4\cdot512^{2}+4\cdot512=1\,050\,624
+$$
+
+for attention, so 2/3 of the parameters of a block sit in its FFN.
+
+== Cost ==
+
+Each position costs $d\,d_{ff}$ multiply-adds for $\mathbf{W}_1$ and $d_{ff}\,d$ for $\mathbf{W}_2$, hence
+
+$$
+\text{FFN: }2T\,d\,d_{ff}
+\qquad\text{versus}\qquad
+\text{attention: }2T^{2}d,
+$$
+
+where the attention term counts the 2 matrix products $\mathbf{Q}\mathbf{K}^{\top}$ and $\mathbf{A}\mathbf{V}$, with $d$ channels in total across heads. The sub-layer therefore costs
+
+$$
+\mathcal{O}\left(T\,d\,d_{ff}\right)=\mathcal{O}\left(Td^{2}\right)
+$$
+
+time, against $\mathcal{O}(T^{2}d)$ for attention, and the 2 terms cross at
+
+$$
+2T\,d\,d_{ff}=2T^{2}d
+\iff
+T=d_{ff}.
+$$
+
+With $d_{ff}=4d$ the FFN dominates for contexts shorter than $4d$ tokens (e.g. $16384$ tokens at $d=4096$) and attention dominates beyond it.
+
+== Placement in the block ==
+
+With the Pre-LN arrangement of [[residual connection (Transformer)|residual connections]],
+
+$$
+\begin{cases}
+\mathbf{X}'=\mathbf{X}+\operatorname{Attn}\left(\operatorname{LN}\left(\mathbf{X}\right)\right),\\
+\mathbf{X}''=\mathbf{X}'+\operatorname{FFN}\left(\operatorname{LN}\left(\mathbf{X}'\right)\right),
+\end{cases}
+$$
+
+so a block mixes positions once, in the attention sub-layer, and transforms each position once, in the FFN sub-layer, both inside a residual connection and a normalisation.
+
+== Activation choice ==
+
+* the '''rectifier''' $\operatorname{ReLU}(z)=\max(0,z)$, in the original model.
+* the '''Gaussian error linear unit''' $\operatorname{GELU}(z)=z\,\Phi(z)=\frac{z}{2}\left(1+\operatorname{erf}\left(z/\sqrt{2}\right)\right)$, a smooth version of the rectifier.
+
+A '''gated linear unit''' replaces the elementwise $\sigma$ by the product of 2 projections, of which 1 is gated,<ref>{{#cite:Q3270}}</ref>
+
+$$
+\operatorname{GLU}(\mathbf{X})
+=\left(\mathbf{X}\mathbf{W}_1+\mathbf{1}\vec b_1^{\top}\right)
+\odot\sigma\left(\mathbf{X}\mathbf{W}_3+\mathbf{1}\vec b_3^{\top}\right),
+\qquad
+\operatorname{FFN}_{\text{GLU}}(\mathbf{X})=\operatorname{GLU}(\mathbf{X})\,\mathbf{W}_2+\mathbf{1}\vec b_2^{\top},
+$$
+
+with ReLU, GELU or the sigmoid in place of $\sigma$ in the gate. Such a variant holds 3 matrices of size $d\times d_{ff}$ instead of 2, so it shrinks the hidden width by the same factor to match the parameter count of the ungated form,
+
+$$
+3d\,d_{ff}'=2d\cdot4d
+\iff
+d_{ff}'=\frac{2}{3}\cdot4d .
+$$
+
+<blockquote>
+At matched parameter count, the gated variants improve over ReLU and GELU in the FFN sub-layer of the Transformer.<ref>{{#cite:Q3270}}</ref>
+</blockquote>
+
+== Example ==
+
+{{Hidden example}}
+'''Setup'''
+
+Let $T=2$, $d=2$, $d_{ff}=3$, $\sigma=\operatorname{ReLU}$, and
+
+$$
+\mathbf{X}=
+\begin{pmatrix}
+1&0\\
+0&1
+\end{pmatrix},
+\qquad
+\mathbf{W}_1=
+\begin{pmatrix}
+1&0&1\\
+0&1&-1
+\end{pmatrix},
+\qquad
+\vec b_1=\vec 0,
+$$
+
+$$
+\mathbf{W}_2=
+\begin{pmatrix}
+1&1\\
+0&1\\
+1&0
+\end{pmatrix},
+\qquad
+\vec b_2=
+\begin{pmatrix}
+1\\
+-1
+\end{pmatrix}.
+$$
+
+'''Hidden layer'''
+
+$$
+\mathbf{X}\mathbf{W}_1=
+\begin{pmatrix}
+1&0&1\\
+0&1&-1
+\end{pmatrix},
+\qquad
+\sigma\left(\mathbf{X}\mathbf{W}_1\right)=
+\begin{pmatrix}
+1&0&1\\
+0&1&0
+\end{pmatrix}.
+$$
+
+'''Output'''
+
+$$
+\sigma\left(\mathbf{X}\mathbf{W}_1\right)\mathbf{W}_2+\mathbf{1}\vec b_2^{\top}
+=
+\begin{pmatrix}
+2&1\\
+0&1
+\end{pmatrix}
++
+\begin{pmatrix}
+1&-1\\
+1&-1
+\end{pmatrix}
+=
+\begin{pmatrix}
+3&0\\
+1&0
+\end{pmatrix}.
+$$
+
+'''Order of the positions'''
+
+Swapping the 2 rows of $\mathbf{X}$ swaps the 2 rows of the output and changes nothing else,
+
+$$
+\operatorname{FFN}\left(\mathbf{P}\mathbf{X}\right)=
+\operatorname{FFN}\left(
+\begin{pmatrix}
+0&1\\
+1&0
+\end{pmatrix}
+\right)
+=
+\begin{pmatrix}
+1&0\\
+3&0
+\end{pmatrix}
+=
+\mathbf{P}
+\begin{pmatrix}
+3&0\\
+1&0
+\end{pmatrix}.
+$$
+{{End hidden}}

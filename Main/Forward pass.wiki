@@ -9,10 +9,10 @@ For a [[Transformer]] language model, the stages are:
 
 # '''[[tokenisation (machine learning)|Tokenisation]]''' cuts the raw input into tokens from a [[tokenisation (machine learning)#Definition|token vocabulary]] $\mathcal{V}$, yielding a sequence of $T$ indices.
 # '''[[token embedding (machine learning)|Token embedding]]''' maps those indices to vectors in $\mathbb{R}^d$ through the embedding matrix $\mathbf{W}_E$, stacked as the rows of $\mathbf{X}\in\mathbb{R}^{T\times d}$, after which a [[positional encoding]] supplies the order.
-# A stack of $N$ '''blocks''', each applying [[self-attention]] across positions and then the [[feedforward algorithm]] to each position separately.
+# A stack of $N$ '''blocks''', each applying [[self-attention]] across positions and then the [[Feed-Forward Network (FFN) Sub-Layer (Transformer)|FFN sub-layer]] to each position separately, both inside a [[residual connection (Transformer)|residual connection and a layer normalisation]].
 # An '''output head''' with [[Softmax|softmax]] maps the final representation to logits over $\mathcal{V}$.
 
-The 2 inner stages are the ones that give the model its power and its cost, and are treated at [[self-attention]] and [[feedforward algorithm]] respectively. A plain [[artificial neural network (ANN)]] is the degenerate case: it has no attention stage and no tokenisation, and its pass is repeated application of the feedforward step.
+The 2 inner stages are the ones that give the model its power and its cost, and are treated at [[self-attention]] and the [[Feed-Forward Network (FFN) Sub-Layer (Transformer)|FFN sub-layer]] respectively. A plain [[artificial neural network (ANN)]] is the degenerate case: it has no attention stage and no tokenisation, and its pass is repeated application of the feedforward step.
 
 == Composition ==
 
@@ -34,7 +34,7 @@ $$
 \mathcal{O}(Td^2),
 $$
 
-the 1st coming from [[self-attention]] and growing quadratically with context, the 2nd coming from the [[feedforward algorithm]] and growing with the square of the width. Which of the 2 dominates therefore depends on whether the context or the width is larger, and over $N$ blocks both scale linearly in $N$.
+the 1st coming from [[self-attention]] and growing quadratically with context, the 2nd coming from the [[Feed-Forward Network (FFN) Sub-Layer (Transformer)|FFN sub-layer]] and growing with the square of the width. Which of the 2 dominates therefore depends on whether the context or the width is larger, and over $N$ blocks both scale linearly in $N$.
 
 == Training and inference ==
 

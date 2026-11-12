@@ -1878,6 +1878,12 @@
       "sha256": "ba425cd273c380d9c238bccb50fff9a0cfdc2bfd238675645bf0e292f4661cb6",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Feed-Forward Network (FFN) Sub-Layer (Transformer)": {
+      "path": "Main/Feed-Forward Network (FFN) Sub-Layer (Transformer).wiki",
+      "revid": 16138,
+      "sha256": "434cc481559bbb9fc1d46f1a93a6c5eb89dfb4f5adcf324c3cd4d2a975dc168d",
+      "synced_at": "2026-11-12T10:20:30+00:00"
+    },
     "Feedforward algorithm": {
       "path": "Main/Feedforward algorithm.wiki",
       "revid": 15143,
@@ -1928,9 +1934,9 @@
     },
     "Forward pass": {
       "path": "Main/Forward pass.wiki",
-      "revid": 15965,
-      "sha256": "9dad4addb3ab90c34a3e42066bdb53e09c9c317b50166440160d41c2c0bf3192",
-      "synced_at": "2026-11-11T17:09:57+00:00"
+      "revid": 16140,
+      "sha256": "69ee49e2927466f07511b1bc1208b150dc631cd541525b1410d2675deb759ae5",
+      "synced_at": "2026-11-12T10:20:30+00:00"
     },
     "French Literature/fr": {
       "path": "Main/French Literature/fr.wiki",
@@ -3150,6 +3156,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
     },
+    "Person:Chen Xing": {
+      "path": "Person/Chen Xing.wiki",
+      "revid": 16105,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-12T10:20:30+00:00"
+    },
     "Person:Chengyuan Wu": {
       "path": "Person/Chengyuan Wu.wiki",
       "revid": 13976,
@@ -3281,6 +3293,12 @@
       "revid": 13735,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Di He": {
+      "path": "Person/Di He.wiki",
+      "revid": 16093,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-12T10:20:30+00:00"
     },
     "Person:Diana Daly": {
       "path": "Person/Diana Daly.wiki",
@@ -3624,6 +3642,12 @@
       "sha256": "99e3460ec6812f9e0a02d4de0f380845079042867a39e8118e48cb166a1bbc42",
       "synced_at": "2026-11-08T15:19:41+00:00"
     },
+    "Person:Huishuai Zhang": {
+      "path": "Person/Huishuai Zhang.wiki",
+      "revid": 16109,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-12T10:20:30+00:00"
+    },
     "Person:Ilia Shumailov": {
       "path": "Person/Ilia Shumailov.wiki",
       "revid": 15829,
@@ -3960,6 +3984,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
     },
+    "Person:Kaiwen Zheng": {
+      "path": "Person/Kaiwen Zheng.wiki",
+      "revid": 16097,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-12T10:20:30+00:00"
+    },
     "Person:Karen Pierce": {
       "path": "Person/Karen Pierce.wiki",
       "revid": 14345,
@@ -4103,6 +4133,12 @@
       "revid": 15458,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T13:10:22+00:00"
+    },
+    "Person:Liwei Wang": {
+      "path": "Person/Liwei Wang.wiki",
+      "revid": 16117,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-12T10:20:30+00:00"
     },
     "Person:Llion Jones": {
       "path": "Person/Llion Jones.wiki",
@@ -4752,6 +4788,12 @@
       "sha256": "ec559c4b03d8ec3999d2d0a296e1d3c4dffac6598927d9691cd969f96cdbe602",
       "synced_at": "2026-11-08T06:15:21+00:00"
     },
+    "Person:Ruibin Xiong": {
+      "path": "Person/Ruibin Xiong.wiki",
+      "revid": 16085,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-12T10:20:30+00:00"
+    },
     "Person:Ryan Sipes": {
       "path": "Person/Ryan Sipes.wiki",
       "revid": 6534,
@@ -4896,6 +4938,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T13:10:22+00:00"
     },
+    "Person:Shuxin Zheng": {
+      "path": "Person/Shuxin Zheng.wiki",
+      "revid": 16101,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-12T10:20:30+00:00"
+    },
     "Person:Simon Osindero": {
       "path": "Person/Simon Osindero.wiki",
       "revid": 15494,
@@ -5009,6 +5057,12 @@
       "revid": 14814,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-09T16:11:40+00:00"
+    },
+    "Person:Tie-Yan Liu": {
+      "path": "Person/Tie-Yan Liu.wiki",
+      "revid": 16121,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-12T10:20:30+00:00"
     },
     "Person:Tim Starling": {
       "path": "Person/Tim Starling.wiki",
@@ -5190,6 +5244,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T14:10:29+00:00"
     },
+    "Person:Yanyan Lan": {
+      "path": "Person/Yanyan Lan.wiki",
+      "revid": 16113,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-12T10:20:30+00:00"
+    },
     "Person:Yarin Gal": {
       "path": "Person/Yarin Gal.wiki",
       "revid": 15849,
@@ -5219,6 +5279,12 @@
       "revid": 14810,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-09T16:11:40+00:00"
+    },
+    "Person:Yunchang Yang": {
+      "path": "Person/Yunchang Yang.wiki",
+      "revid": 16089,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-12T10:20:30+00:00"
     },
     "Person:Zakhar Shumaylov": {
       "path": "Person/Zakhar Shumaylov.wiki",
@@ -5381,6 +5447,12 @@
       "revid": 14442,
       "sha256": "7aa431a128d2119d9aab4d38b2aa048a6e4f10190d09e3603bd471404982065e",
       "synced_at": "2026-11-08T12:49:04+00:00"
+    },
+    "Residual connection (Transformer)": {
+      "path": "Main/Residual connection (Transformer).wiki",
+      "revid": 16137,
+      "sha256": "6851ce7e5dfee5325437d4c6ce840a7de148a56d00e1fd7f67c51819d9702d2b",
+      "synced_at": "2026-11-12T10:20:30+00:00"
     },
     "Rest energy": {
       "path": "Main/Rest energy.wiki",
@@ -7356,6 +7428,12 @@
       "sha256": "93e0d341cd8b10f752df9b812d0fdbaa4de6448925389b7f4987e4810e8249a2",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:On Layer Normalization in the Transformer Architecture (Conference paper)": {
+      "path": "Source/On Layer Normalization in the Transformer Architecture (Conference paper).wiki",
+      "revid": 16125,
+      "sha256": "d57a140fd8a1f3665f1350d95cf7810db9326d22be2fef76adf8ba51b99834d3",
+      "synced_at": "2026-11-12T10:20:30+00:00"
+    },
     "Source:On the Relative Abundance of the Elements (Scholarly article)": {
       "path": "Source/On the Relative Abundance of the Elements (Scholarly article).wiki",
       "revid": 7219,
@@ -8311,6 +8389,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-12T10:10:15+00:00",
+  "updated": "2026-11-12T10:20:30+00:00",
   "version": 1
 }

@@ -1,0 +1,5 @@
+{{ConferencePaper}}
+
+== Overview ==
+
+Paper showing that the placement of layer normalisation inside or outside the residual block governs the size of the gradients at initialisation, and hence whether learning-rate warm-up is needed
