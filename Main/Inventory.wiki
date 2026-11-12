@@ -1,0 +1,121 @@
+[[Category:Production]]
+'''Inventory''' are goods and/or raw materials stocked for future use.
+
+== Advantages ==
+
+Keeping an inventory allows:
+
+* Lower acquisition price: Bulk purchasing, especially when the price is comparatively low
+* Derisking
+** Storing raw material: Ensure supply in case of upstream [[supply chain]] disruption
+** Storing finished product: ensure downstream delivery in case of machine failure/strike/other unforseen events.
+* Improve responsiveness to rapidly changing demand
+** Storing raw material: production can start immediately upon order reception
+** Storing finished products: smaller orders can be delivered nearly immediately
+
+== Disadvantages ==
+
+* Storage cost
+* Depreciation
+** Degradation of perishables
+** Raw material/product deprecation
+* Upfront payment
+** Lost [[money rent]]
+
+== Inventory level ==
+
+Different measurements have been developed to accurately reflect inventory level with regards to forseeable future demands and supplies.
+
+{| class="wikitable"
+|-
+! Name
+! Calculation
+! Significance
+|-
+| Physical inventory
+| Actual amount in storage
+| 
+|-
+| Inventory level
+| Physical inventory - Forseen upcoming demands
+| "Spare" inventory
+|-
+| Inventory position
+| Physical inventory + Uncoming delivery
+| Effective inventory: what is available in the short term
+|-
+| Safety inventory
+| Amount always kept in storage as a precaution
+| Order is made when inventory level approaches physical inventory to prevent complete depletion of inventory (shortage)
+|}
+
+== Optimisation ==
+
+'''Optimising inventory''' means minising the sum of all costs related to inventory keeping (or the lack thereof):
+
+* '''Acquisition cost'''
+** Price per unit
+** Command overhead
+*** Command handling fee
+*** Delivery
+* '''Holding cost'''
+** Storage fees
+*** Rent of space
+*** Insurance
+** Depreciation/risk of obsolescence
+** Cost of tied-up capital ($\text{Cost of tied-up capital} = \text{Inventory value} \times \text{cost of capital rate}$)
+* '''Out-of-stock cost'''
+** Production disruption
+*** Substitution cost
+** Lost opportunities
+*** Cancelled/unfulfilled orders
+*** Consumer dissatisfaction
+*** Backorder cost
+**** Expedited shipping
+**** Price discount
+
+=== Mathematical modelling ===
+
+Let $G$ be a good to be held in inventory, the demand for which is a function of time $D(t)$
+
+With bulk sale discount, the price per unit $P$ and command overhead fees $COF$ are often [[function]]s of quantity $Q$ commanded.
+
+Therefore: onetime acquisition cost for $Q$ units 
+
+$$
+AC(Q)=Q\cdot P(Q)+COF(Q)
+$$
+
+and total acquisition cost for $N$ orders each of quantity $Q_i$
+
+$$
+TAC=\sum_{i=1}^N AC(Q_i)
+$$
+
+The storage fee $S$ varies with the amount of goods stored, more goods to store means more space (higher rent), higher insurance premium, and increased depreciation and risk of obsolescence. For every unit time (e.g., one day), the incurred storage cost $dS$ should be a function of physical inventory $I(t)$.
+
+i.e.,
+
+$$
+dS=f(I)dt \\
+S=\int f(I) dt
+$$
+
+Out-of-stock cost $O$ occurs whenever $I<D$. Factoring in production disruption and lost opportunities, it is a function of the amount in shortage $I-D$ and the length of shortage $t$.
+
+i.e.,
+
+$$
+dO=
+\begin{cases}
+g(I(t)-D(t))dt,& I<D \\
+0,& I \ge D
+\end{cases} \\
+O=\int dO
+$$
+
+Hence, '''optimisation''' is minimising total cost over a period of operation $t_1$ (e.g., one fiscal year)
+
+$$
+TC= TAC+S+O = \sum_{i=1}^N AC(Q_i) + \int^{t_1}_0 f(I) dt + \int^{t_1}_0 dO
+$$
