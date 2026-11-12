@@ -1,0 +1,593 @@
+<div hidden="">
+
+</div>
+<div>
+
+<div class="section w-full bg-white">
+
+<div class="mx-auto px-6">
+
+</div>
+Login
+<div class="flex py-4 items-center justify-between lg:hidden">
+
+<div class="flex items-center space-x-2">
+
+<div class="flex h-[50px] w-[120px] items-center justify-center">
+
+<div class="flex h-[50px] w-[120px] items-center justify-center">
+
+([https://usersolutions.com/blog/production-routing Media content: view on original URL]) EDGEBI Logo
+
+</div>
+
+</div>
+
+</div>
+<div class="w-5 origin-center border-t-2 border-primary" style="transform:translateY(-3px)">
+
+</div>
+<div class="w-5 origin-center border-t-2 border-primary" style="transform:translateY(3px)">
+
+</div>
+
+</div>
+
+</div>
+<div id="main-content" role="main">
+
+<div class="page-enter">
+
+<div class="container mx-auto max-w-7xl px-4 pt-6">
+
+</div>
+<div class="container mx-auto max-w-7xl px-4 py-6">
+
+<div class="mx-auto max-w-4xl">
+
+Production Scheduling
+<span id="production-routing-what-it-is-how-it-works-and-why-it-drives-better-scheduling"></span>
+= Production Routing: What It Is, How It Works, and Why It Drives Better Scheduling =
+
+<div class="mb-6 flex flex-wrap items-center gap-4 text-sm text-slate-500">
+
+<div class="flex items-center gap-2">
+
+([https://usersolutions.com/blog/production-routing Media content: view on original URL]) User Solutions Team<span class="font-medium text-slate-700">User Solutions Team</span>
+
+</div>
+<span class="text-slate-300">|</span>
+<div class="flex items-center gap-1.5">
+
+April 27, 2026
+
+</div>
+<div class="flex items-center gap-1.5">
+
+<span>9 min read</span>
+
+</div>
+
+</div>
+
+</div>
+<div class="overflow-hidden rounded-lg">
+
+([https://usersolutions.com/blog/production-routing Media content: view on original URL]) Industrial factory conveyor system illustrating a production routing path through multiple work centers
+
+</div>
+
+</div>
+<div class="container mx-auto max-w-7xl px-4 pb-12">
+
+<div class="flex flex-col gap-10 lg:flex-row">
+
+<div class="min-w-0 lg:w-[70%]">
+
+<div class="prose prose-lg prose-slate max-w-none prose-headings:scroll-mt-24 prose-headings:font-bold prose-a:text-cyan-600 prose-a:no-underline hover:prose-a:underline prose-img:rounded-lg">
+
+<div class="mdx">
+
+'''Production routing is the documented sequence of operations a part passes through to be made: which work centre performs each step, in what order, and how long setup, run, queue and move take at each one.''' The bill of materials says what the part is made of. The routing says how and where it gets made, and it is what every capacity calculation and every schedule is built from.
+
+Ask a production planner what goes wrong when scheduling breaks down and the answer comes within seconds: the routings were wrong. This guide covers what a routing contains, a full routing sheet worked through with the hours added up, the three routing types, and what it takes to get the data accurate enough to win on delivery performance.
+
+<span id="what-is-production-routing"></span>
+== <span class="icon icon-link"></span>What Is Production Routing? ==
+
+A production routing is the documented sequence of operations a job must pass through to become a finished product. Think of it as the job's travel itinerary through your shop floor - from raw material receipt through every processing step to final inspection and shipment.
+
+Each step in a routing is called an '''operation''' and typically includes:
+
+* '''Operation number''' - the sequence identifier (10, 20, 30...)
+* '''Work center''' - the machine, cell, or department performing the work
+* '''Setup time''' - the time required to prepare the work center before the first piece runs
+* '''Run time''' - the time per unit or per batch at that work center
+* '''Overlap and move time''' - queue time between operations and material transit time
+* '''Tooling and fixtures''' - secondary resources required alongside the work center
+* '''Inspection gates''' - quality hold points that must clear before the next operation begins
+
+A complete routing for a machined steel bracket might include: sawing (Op 10), milling (Op 20), drilling (Op 30), deburring (Op 40), plating (Op 50, often subcontracted), and final inspection (Op 60). The schedule cannot be built until all six operations are defined with accurate times.
+
+<span id="a-routing-worked-through-250-steel-brackets"></span>
+=== <span class="icon icon-link"></span>A Routing Worked Through: 250 Steel Brackets ===
+
+Here is that bracket routing with real times, for a batch of 250 pieces. Run hours are the per-unit run time times 250.
+
+<div class="my-6 w-full overflow-y-auto rounded-none">
+
+{| class="wikitable w-full overflow-hidden rounded-none"
+|- class="m-0 border-t p-0"
+! class="border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right"| Op
+! class="border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right"| Work centre
+! class="border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right"| Setup (h)
+! class="border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right"| Run (h/unit)
+! class="border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right"| Run for 250 (h)
+! class="border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right"| Queue + move (h)
+! class="border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right"| Op elapsed (h)
+|- class="m-0 border-t p-0"
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 10
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| Saw
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 0.50
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 0.010
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 2.50
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 4
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 7.00
+|- class="m-0 border-t p-0"
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 20
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| Mill
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 1.50
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 0.040
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 10.00
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 8
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 19.50
+|- class="m-0 border-t p-0"
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 30
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| Drill
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 0.75
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 0.015
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 3.75
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 8
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 12.50
+|- class="m-0 border-t p-0"
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 40
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| Deburr
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 0.25
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 0.008
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 2.00
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 4
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 6.25
+|- class="m-0 border-t p-0"
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 50
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| Plate (outside)
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 0
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 0
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 0
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 72
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 72.00
+|- class="m-0 border-t p-0"
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 60
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| Final inspect
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 0.25
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 0.006
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 1.50
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 4
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| 5.75
+|- class="m-0 border-t p-0"
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| '''Total'''
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"|
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| '''3.25'''
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"|
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| '''19.75'''
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| '''100'''
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| '''123.00'''
+|}
+
+</div>
+Two numbers come out of that table and they are nothing like each other. '''Touch time is 23.00 hours''': 3.25 setup plus 19.75 run. '''Elapsed time is 123.00 hours''': touch time plus the 100 hours of queue, move and outside processing. Touch time is 18.7% of the span, so better than four fifths of this job's life is spent waiting. A scheduler that models only the 23 hours will promise a date it cannot hit, every time.
+
+Now break one cell deliberately. Record the mill setup as 1.00 hour instead of 1.50 and the routing hides half an hour of mill capacity per batch. Run 40 batches a month through that work centre and the schedule believes it has '''20 hours''' of mill time that does not exist, which is two and a half shifts of phantom capacity being handed out to jobs. This is the arithmetic behind every &quot;the software is wrong&quot; complaint: the software added up exactly what the routing told it.
+
+<span id="why-routing-accuracy-is-everything"></span>
+== <span class="icon icon-link"></span>Why Routing Accuracy Is Everything ==
+
+Inaccurate routing data is the leading cause of failed scheduling implementations. When setup times are understated, the schedule assumes work centers are available sooner than they actually are. When run times are wrong by even 20%, a full week's schedule drifts out of sync by Thursday afternoon.
+
+Consider a real scenario: a metal fabrication shop running 150 active jobs through 22 work centers. Their ERP routings hadn't been updated in four years. When they imported those routings into a scheduling tool, the software generated a schedule that looked clean - jobs finishing on time, machines at 85% utilization. But the schedule assumed 15-minute setups on their laser cutter when actual setups averaged 45 minutes. By day two, the laser queue was three days behind, and the downstream bending and welding cells were starved for work.
+
+The fix wasn't the software - it was the routings. Once they ran a two-week time study on their top 30 part numbers and corrected the setup times, the same scheduling tool produced schedules the floor actually executed.
+
+<span id="the-relationship-between-routing-and-scheduling"></span>
+== <span class="icon icon-link"></span>The Relationship Between Routing and Scheduling ==
+
+Production routing and production scheduling are inseparable. The routing defines what work must be done and where. The schedule defines when it will be done and in what sequence.
+
+Scheduling software takes every open work order, reads its routing, and places each operation on a timeline within the work center's available capacity. The scheduler must respect operation sequence - Op 30 cannot start until Op 20 is complete - and it must honor finite capacity - a work center can only run one job at a time unless it has multiple machines.
+
+This is why tools like RMDB, and EDGEBIC (RMDB 2.0) after it, are built around the routing as the core data structure. Every scheduling decision - when to start, which jobs to prioritize, where bottlenecks will appear - flows directly from routing data. The richer and more accurate that data, the better the schedule.
+
+Routing volume is rarely the limit. The USS Nimitz level loads 26,000 or more maintenance tasks on a two-year horizon in RMDB, and Enevate schedules sub-assemblies 10 levels deep. For high-mix shops where every job carries its own routing, see our sequencing tools built for high-mix make-to-order work; for the constraint engine that consumes routing times across every work centre at once, see constraint-aware planning and sequencing.
+
+<span id="types-of-routings-standard-alternate-and-phantom"></span>
+== <span class="icon icon-link"></span>Types of Routings: Standard, Alternate, and Phantom ==
+
+'''Standard routings''' are the default sequence for a given part number. They represent the preferred path through the shop and are used for the majority of production runs.
+
+'''Alternate routings''' define fallback paths used when the primary work center is unavailable - during breakdowns, planned maintenance, or capacity overload. A part normally processed on CNC Machine 1 might have an alternate routing through CNC Machine 3. Scheduling software that supports alternate routings can automatically reroute jobs when constraints are hit, rather than waiting for a human to manually reassign work.
+
+'''Phantom routings''' represent operations performed by subcontractors or outside processors. Plating, heat treatment, and certified testing labs are common examples. These operations require a lead time buffer in the routing - typically expressed as a queue time of several days - to account for transit and subcontractor turnaround.
+
+Understanding which routing type applies to each situation is a scheduling superpower. Shops that maintain clean alternate routings can absorb machine breakdowns with minimal impact to delivery dates.
+
+<span id="building-a-production-routing-sheet"></span>
+== <span class="icon icon-link"></span>Building a Production Routing Sheet ==
+
+A routing sheet (also called a process sheet or operation sheet) is the physical or digital document that captures the routing for a specific part number. Here is what a complete routing sheet must include:
+
+<div class="my-6 w-full overflow-y-auto rounded-none">
+
+{| class="wikitable w-full overflow-hidden rounded-none"
+|- class="m-0 border-t p-0"
+! class="border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right"| Field
+! class="border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right"| Description
+|- class="m-0 border-t p-0"
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| Part number
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| The item being produced
+|- class="m-0 border-t p-0"
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| Revision level
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| Ensures the routing matches the current drawing
+|- class="m-0 border-t p-0"
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| Operation sequence
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| Ordered list of operations (10, 20, 30...)
+|- class="m-0 border-t p-0"
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| Work center
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| Machine or cell performing each operation
+|- class="m-0 border-t p-0"
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| Setup time
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| Hours per batch setup
+|- class="m-0 border-t p-0"
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| Run time
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| Hours per unit or per 100 units
+|- class="m-0 border-t p-0"
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| Queue time
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| Expected wait time before operation begins
+|- class="m-0 border-t p-0"
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| Move time
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| Transit time to next work center
+|- class="m-0 border-t p-0"
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| Tooling required
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| Specific tools, fixtures, or dies needed
+|- class="m-0 border-t p-0"
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| Notes
+| class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"| Special instructions, inspection hold points
+|}
+
+</div>
+The most common mistake manufacturers make is treating routing sheet creation as a one-time exercise. Routings must be living documents. When you buy a new machine with different cycle times, update the routing. When a process engineer reduces setup time through SMED, update the routing. When outsourcing a previously internal operation, update the routing.
+
+Scheduling software is only as good as the routings feeding it. Garbage in, garbage out is nowhere more true than in manufacturing scheduling.
+
+<span id="how-routing-integrates-with-your-erp-and-scheduling-software"></span>
+== <span class="icon icon-link"></span>How Routing Integrates With Your ERP and Scheduling Software ==
+
+Most ERP systems - SAP, Epicor, Infor, JobBOSS, E2 Shop, and others - have a routing module where standard routings are stored at the part number level. When a work order is released, the ERP generates the routing record for that specific job.
+
+The challenge is that ERP routing modules are designed for costing and material planning, not dynamic scheduling. They hold the standard times but lack the real-time capacity awareness needed to build an executable schedule. This is why manufacturers layer dedicated scheduling software on top of their ERP.
+
+RMDB imports work orders and their associated routings directly from your ERP, then applies finite capacity scheduling logic to generate a realistic, sequenced schedule. The integration works in both directions - completed operations can be reported back to the ERP to update job status. See how this works in our ERP scheduling add-on overview.
+
+<span id="common-routing-mistakes-that-break-schedules"></span>
+== <span class="icon icon-link"></span>Common Routing Mistakes That Break Schedules ==
+
+'''Omitting setup times entirely.''' Some manufacturers treat setup as overhead and exclude it from routings. The schedule then assumes instant job changeovers, which is never reality. On a high-mix production floor, setups can consume 20-30% of available capacity.
+
+'''Using theoretical run times instead of actual.''' Engineering estimates the run time should be 0.5 hours per unit. The floor runs 0.7 hours because of minor stoppages, operator pace variation, and small machine issues. Build your routings from time study data, not engineering calculations.
+
+'''Missing operations for subcontracted steps.''' Outside processing operations are frequently left out of routings because &quot;we just track them separately.&quot; The result is schedules that don't account for the 5-day plating lead time, causing jobs to arrive at final assembly before they've come back from the plater.
+
+'''No revision control.''' When a process change is made and the routing isn't updated, different schedulers work from different assumptions. This is particularly dangerous in job shops where multiple planners touch the same part families.
+
+<span id="routing-and-on-time-delivery-the-direct-connection"></span>
+== <span class="icon icon-link"></span>Routing and On-Time Delivery: The Direct Connection ==
+
+There is a direct line between routing accuracy and on-time delivery performance. When routings are correct, the schedule reflects reality. When the schedule reflects reality, the floor can execute it. When the floor executes the schedule, customers receive their orders on time.
+
+Manufacturers who invest in routing accuracy consistently report 15-25% improvements in on-time delivery within the first six months of implementing scheduling software - not because the software is magic, but because the combination of accurate routings and finite capacity scheduling eliminates the guesswork that causes missed deliveries.
+
+Track your routing accuracy as a KPI: compare scheduled operation times to actual times weekly. A gap of more than 15% on high-volume operations is a signal to update the routing. Over time, this continuous improvement loop tightens the connection between the planned schedule and floor reality.
+
+<span id="production-routing-in-high-mix-low-volume-environments"></span>
+== <span class="icon icon-link"></span>Production Routing in High-Mix, Low-Volume Environments ==
+
+High-mix, low-volume (HMLV) shops face a particular routing challenge: every job may have a unique routing, and there are hundreds of active jobs at any given time. Custom fabrication, defense subcontracting, and medical device manufacturing are common examples.
+
+In these environments, schedulers cannot maintain a library of pre-defined standard routings. Instead, routings are built job by job - often from an engineering work order or a traveler document. The scheduling software must be flexible enough to handle ad-hoc routings without requiring a full part master record in the ERP.
+
+RMDB is specifically designed for this environment. Each job's routing can be entered directly or imported from the work order, and the scheduler immediately incorporates it into the capacity plan alongside all other active jobs. There is no separate setup step, no waiting for the ERP to be updated first. For HMLV shops, this flexibility is the difference between scheduling software that gets used and scheduling software that sits idle.
+
+<span id="frequently-asked-questions"></span>
+== <span class="icon icon-link"></span>Frequently Asked Questions ==
+
+<div title="What is production routing in manufacturing?" orientation="vertical">
+
+Production routing is the documented sequence of operations a job must complete to become a finished product, including which work centers perform each step, how long each operation takes (setup and run time), and what materials, tools, or fixtures are required at each stage. Every scheduling decision depends on routing data - without accurate routings, even the best scheduling software produces plans the shop floor cannot execute.
+
+</div>
+<div title="What is the difference between a routing and a bill of materials?" orientation="vertical">
+
+A bill of materials (BOM) answers &quot;what goes into the product&quot; - the list of raw materials, components, and subassemblies. A routing answers &quot;how and where is it made&quot; - the sequence of manufacturing operations, work centers, and process times. Both are required inputs for production planning. The BOM drives material requirements planning (MRP); the routing drives capacity planning and scheduling.
+
+</div>
+<div title="How does production routing affect scheduling?" orientation="vertical">
+
+Routing data is the primary input to any scheduling engine. The scheduler reads each operation's work center assignment, setup time, and run time, then places operations on a capacity timeline in the correct sequence. Inaccurate setup times cause schedule drift. Missing operations cause late-stage surprises. Scheduling software is only as accurate as the routings it consumes - this is why routing accuracy is the single most important data quality investment a manufacturer can make before implementing scheduling software.
+
+</div>
+<div title="Can production routing software handle alternate routings?" orientation="vertical">
+
+Yes. RMDB from User Solutions supports alternate routings - secondary operation sequences that activate when the primary work center is unavailable due to breakdown, maintenance, or overload. When the scheduler detects a capacity conflict on the primary work center, it can automatically consider the alternate routing, giving production planners real flexibility without manual reassignment. Alternate routings are especially valuable in job shops where machine availability fluctuates day to day.
+
+</div>
+<div title="How do you create a production routing sheet?" orientation="vertical">
+
+A routing sheet lists each operation in sequence with: the operation number, the assigned work center, standard setup time (per batch), run time (per unit or per 100 units), queue and move times, and any required tooling or fixtures. The critical discipline is validating those times against actual shop floor data through time studies - not relying on engineering estimates that may be years out of date. Start with your highest-volume part numbers, get those routings accurate, then expand across the product catalog.
+
+</div>
+Ready to build schedules that your shop floor will actually execute? Accurate production routing combined with finite capacity scheduling is the combination that separates manufacturers who hit their delivery commitments from those who are constantly firefighting. Explore how RMDB and EDGEBIC use your existing routing data to generate realistic, drag-and-drop schedules - or contact us to walk through how it would work in your specific environment. For a deeper look at the broader scheduling landscape, see our production scheduling software guide.
+
+</div>
+
+</div>
+<div class="mt-12 border-t pt-8">
+
+<div class="section max-w-none py-8">
+
+<span id="expert-qa-deep-dive"></span>
+== Expert Q&amp;A: Deep Dive ==
+
+<div class="space-y-6">
+
+<div class="border-b border-slate-200 pb-6">
+
+<span class="font-bold">Q:</span> Our routings haven't been updated in years and the times are wrong. How do we fix this without stopping production?
+
+<span class="font-bold">A:</span> Start with your highest-volume or highest-value part numbers - the 20% of parts that represent 80% of your throughput. Time-study those operations first and update them one by one. You don't need perfect data across the entire product catalog before you can schedule better. Get the critical routings right and build from there. Most manufacturers can clean up their top 50 part numbers in two to three weeks without disrupting the floor.
+
+</div>
+<div>
+
+<span class="font-bold">Q:</span> We run hundreds of custom jobs with unique routings. How do scheduling tools handle that scale?
+
+<span class="font-bold">A:</span> Job shops with highly variable routings are exactly the environment where dedicated scheduling software outperforms everything else. Tools like RMDB use the routing as the engine - every operation becomes a constraint the scheduler must satisfy. As long as each job has an accurate routing (even if it's unique), the software can sequence all of them across shared work centers simultaneously, something no spreadsheet can do at scale.
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="mt-12 border-t pt-8">
+
+<div class="section max-w-none py-8">
+
+<span id="frequently-asked-questions-1"></span>
+== Frequently Asked Questions ==
+
+<div class="w-full" orientation="vertical">
+
+<div class="border-b" state="closed" orientation="vertical">
+
+<span id="what-is-routing-in-manufacturing"></span>
+=== What is routing in manufacturing? ===
+
+<div id="radix-«R9jbjrmtrbdb»" class="overflow-hidden text-sm data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down" state="closed" hidden="" role="region" aria-labelledby="radix-«R1jbjrmtrbdb»" orientation="vertical" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)">
+
+</div>
+
+</div>
+<div class="border-b" state="closed" orientation="vertical">
+
+<span id="what-is-production-routing-in-manufacturing"></span>
+=== What is production routing in manufacturing? ===
+
+<div id="radix-«Rajbjrmtrbdb»" class="overflow-hidden text-sm data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down" state="closed" hidden="" role="region" aria-labelledby="radix-«R2jbjrmtrbdb»" orientation="vertical" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)">
+
+</div>
+
+</div>
+<div class="border-b" state="closed" orientation="vertical">
+
+<span id="what-is-the-difference-between-a-routing-and-a-bill-of-materials"></span>
+=== What is the difference between a routing and a bill of materials? ===
+
+<div id="radix-«Rbjbjrmtrbdb»" class="overflow-hidden text-sm data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down" state="closed" hidden="" role="region" aria-labelledby="radix-«R3jbjrmtrbdb»" orientation="vertical" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)">
+
+</div>
+
+</div>
+<div class="border-b" state="closed" orientation="vertical">
+
+<span id="how-does-production-routing-affect-scheduling"></span>
+=== How does production routing affect scheduling? ===
+
+<div id="radix-«Rcjbjrmtrbdb»" class="overflow-hidden text-sm data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down" state="closed" hidden="" role="region" aria-labelledby="radix-«R4jbjrmtrbdb»" orientation="vertical" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)">
+
+</div>
+
+</div>
+<div class="border-b" state="closed" orientation="vertical">
+
+<span id="can-production-routing-software-handle-alternate-routings"></span>
+=== Can production routing software handle alternate routings? ===
+
+<div id="radix-«Rdjbjrmtrbdb»" class="overflow-hidden text-sm data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down" state="closed" hidden="" role="region" aria-labelledby="radix-«R5jbjrmtrbdb»" orientation="vertical" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)">
+
+</div>
+
+</div>
+<div class="border-b" state="closed" orientation="vertical">
+
+<span id="how-do-you-create-a-production-routing-sheet"></span>
+=== How do you create a production routing sheet? ===
+
+<div id="radix-«Rejbjrmtrbdb»" class="overflow-hidden text-sm data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down" state="closed" hidden="" role="region" aria-labelledby="radix-«R6jbjrmtrbdb»" orientation="vertical" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)">
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="mt-12 rounded-lg bg-gradient-to-r from-cyan-50 to-slate-50 p-8 text-center">
+
+<span id="ready-to-transform-your-production-scheduling"></span>
+== Ready to Transform Your Production Scheduling? ==
+
+User Solutions has been helping manufacturers optimize their production schedules for over 35 years. One-time license, 5-day implementation.
+
+<div class="flex flex-col items-center justify-center gap-3 sm:flex-row">
+
+Schedule a Free DemoDownload Free TrialView Pricing
+
+</div>
+
+</div>
+<div class="section border-t border-slate-200 py-8">
+
+<div class="flex items-start gap-4">
+
+([https://usersolutions.com/blog/production-routing Media content: view on original URL]) User Solutions Team
+<div class="min-w-0">
+
+<div class="flex items-center gap-2">
+
+<span id="user-solutions-team"></span>
+=== User Solutions Team ===
+
+</div>
+Manufacturing Software Experts
+
+User Solutions has been developing production planning and scheduling software for manufacturers since 1991. Our team combines 35+ years of manufacturing software expertise with deep industry knowledge to help factories optimize their operations.
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="rounded-lg border p-4">
+
+Share this article
+
+<div class="flex flex-col items-center gap-2">
+
+[https://x.com/intent/tweet?url=https%3A%2F%2Fusersolutions.com%2Fblog%2Fproduction-routing&text=Production%20Routing%3A%20What%20It%20Is%2C%20How%20It%20Works%2C%20and%20Why%20It%20Drives%20Better%20Scheduling <span class="sr-only">Share on X</span>][https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fusersolutions.com%2Fblog%2Fproduction-routing <span class="sr-only">Share on LinkedIn</span>][https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fusersolutions.com%2Fblog%2Fproduction-routing <span class="sr-only">Share on Facebook</span>]
+<span class="sr-only">Copy link</span>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="border-t py-6 lg:hidden">
+
+<div class="container mx-auto max-w-4xl px-4">
+
+Share this article
+
+<div class="flex flex-col items-center gap-2">
+
+[https://x.com/intent/tweet?url=https%3A%2F%2Fusersolutions.com%2Fblog%2Fproduction-routing&text=Production%20Routing%3A%20What%20It%20Is%2C%20How%20It%20Works%2C%20and%20Why%20It%20Drives%20Better%20Scheduling <span class="sr-only">Share on X</span>][https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fusersolutions.com%2Fblog%2Fproduction-routing <span class="sr-only">Share on LinkedIn</span>][https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fusersolutions.com%2Fblog%2Fproduction-routing <span class="sr-only">Share on Facebook</span>]
+<span class="sr-only">Copy link</span>
+
+</div>
+
+</div>
+
+</div>
+<div class="section border-t bg-slate-50 py-12">
+
+<div class="container mx-auto max-w-7xl px-4">
+
+<div class="section mt-16">
+
+<span id="related-articles"></span>
+== Related Articles ==
+
+<div class="grid gap-6 md:grid-cols-3">
+
+<div class="relative aspect-[16/9] w-full overflow-hidden">
+
+([https://usersolutions.com/blog/production-routing Media content: view on original URL]) How to Create a Production Schedule in 7 Steps (Free Template)
+
+</div>
+<div class="p-4">
+
+<span class="inline-block rounded-full bg-cyan-50 px-2.5 py-0.5 text-xs font-medium text-cyan-700">Production Scheduling</span>
+<span id="how-to-create-a-production-schedule-in-7-steps-free-template"></span>
+=== How to Create a Production Schedule in 7 Steps (Free Template) ===
+
+How to create a production schedule step by step: horizon, real capacity, work orders, load check, sequence, dates, then publish. Worked example included.
+
+Sep 24, 2026
+
+</div>
+
+<div class="relative aspect-[16/9] w-full overflow-hidden">
+
+([https://usersolutions.com/blog/production-routing Media content: view on original URL]) Production Planning and Control (PPC): Functions and Examples
+
+</div>
+<div class="p-4">
+
+<span class="inline-block rounded-full bg-cyan-50 px-2.5 py-0.5 text-xs font-medium text-cyan-700">Production Scheduling</span>
+<span id="production-planning-and-control-ppc-functions-and-examples"></span>
+=== Production Planning and Control (PPC): Functions and Examples ===
+
+Production planning and control explained: routing, loading, scheduling, sequencing, dispatching and expediting, the types of scheduling, and worked examples.
+
+Sep 24, 2026
+
+</div>
+
+<div class="relative aspect-[16/9] w-full overflow-hidden">
+
+([https://usersolutions.com/blog/production-routing Media content: view on original URL]) Sequence-Dependent Setup Times: The Scheduling Problem That Costs You Capacity
+
+</div>
+<div class="p-4">
+
+<span class="inline-block rounded-full bg-cyan-50 px-2.5 py-0.5 text-xs font-medium text-cyan-700">Production Scheduling</span>
+<span id="sequence-dependent-setup-times-the-scheduling-problem-that-costs-you-capacity"></span>
+=== Sequence-Dependent Setup Times: The Scheduling Problem That Costs You Capacity ===
+
+When changeover time depends on what ran before, standard scheduling fails. Learn how setup matrices, sequence optimization, and APS software recover 10-25% of hidden capacity in paint lines, food, and coating operations.
+
+Apr 27, 2026
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+Let's Solve Your Challenges Together
+
+</div>
+<div class="section" aria-label="Notifications alt+T" tabindex="-1" aria-live="polite" aria-relevant="additions text" aria-atomic="false">
+
+</div>

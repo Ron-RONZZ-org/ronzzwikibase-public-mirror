@@ -1,0 +1,5 @@
+{{Webpage}}
+
+== Overview ==
+
+Production routing defines the step-by-step path a job takes through your shop. Learn how accurate routings unlock faster scheduling, better capacity planning, and fewer delays.

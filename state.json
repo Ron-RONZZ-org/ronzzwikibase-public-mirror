@@ -6588,6 +6588,18 @@
       "sha256": "deb060c72a09e0abf4eca13c23a0f56863977e3da3a3ed8e4fd61219c3f77eb2",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:EDGEBIC Job Shop & Manufacturing Scheduling - User Solutions (Website)": {
+      "path": "Source/EDGEBIC Job Shop & Manufacturing Scheduling - User Solutions (Website).wiki",
+      "revid": 16187,
+      "sha256": "fdecfc964a4e233bb8806505d83b821b685617199b8b108aaccb515ae9f49a65",
+      "synced_at": "2026-11-12T16:49:42+00:00"
+    },
+    "Source:EDGEBIC Job Shop & Manufacturing Scheduling Software - User Solutions (Website)": {
+      "path": "Source/EDGEBIC Job Shop & Manufacturing Scheduling Software - User Solutions (Website).wiki",
+      "revid": 16188,
+      "sha256": "508f138e0b8b38ec365d1c34a18f7964f3b31a670dcdcb174d667324bc0a4b50",
+      "synced_at": "2026-11-12T16:49:42+00:00"
+    },
     "Source:Early Identification of Autism Spectrum Disorder: Recommendations for Practice and Research (Scholarly article)": {
       "path": "Source/Early Identification of Autism Spectrum Disorder_ Recommendations for Practice and Research (Scholarly article).wiki",
       "revid": 14389,
@@ -7596,6 +7608,18 @@
       "sha256": "f03fbfc76566db285fcbf778cf0667bb72483d414d3dd9500ec7d9e275034ee9",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Production Routing: What It Is, How It Works, and Why It Drives Better Scheduling (Webpage)": {
+      "path": "Source/Production Routing_ What It Is, How It Works, and Why It Drives Better Scheduling (Webpage).wiki",
+      "revid": 16195,
+      "sha256": "ac606f0f7f35fcd812ca4c4f15c792a133a276c85b83b4e329e861a55ecaa891",
+      "synced_at": "2026-11-12T16:49:42+00:00"
+    },
+    "Source:Production Routing: What It Is, How It Works, and Why It Drives Better Scheduling (Webpage)/archivedText": {
+      "path": "Source/Production Routing_ What It Is, How It Works, and Why It Drives Better Scheduling (Webpage)/archivedText.wiki",
+      "revid": 16194,
+      "sha256": "ac35a7af6c4c05f79d2cf028a9a1a9a664ec2f4d15f4b7166129f2d1c9fed19b",
+      "synced_at": "2026-11-12T16:49:42+00:00"
+    },
     "Source:Profession du père (Book)": {
       "path": "Source/Profession du père (Book).wiki",
       "revid": 7692,
@@ -8419,6 +8443,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-12T15:10:04+00:00",
+  "updated": "2026-11-12T16:49:42+00:00",
   "version": 1
 }
