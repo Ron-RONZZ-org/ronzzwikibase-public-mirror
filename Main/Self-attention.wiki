@@ -33,6 +33,59 @@ Both are [[normalisation function]]s applied for numerical stability.
 <ref>{{#cite:Q3130}}</ref>
 == Complexity ==
 
-The score matrix $\mathbf{Q}\mathbf{K}^{\top}$ is $T\times T$, so attention over a context of length $T$ costs $\mathcal{O}(T^2 d)$ time and $\mathcal{O}(T^2)$ memory. Generating a sequence recomputes most of this work unless the keys and values computed and cached, such as via [[KV caching]].
+The complexity of standard self-attention
+
+* Time $\propto O(T^2 d)$
+* Memory $\propto O(T^2)$
+
+where $O$ is the [[o(x) and o(x)|big-O notation]].
+
+{{Hidden proof}}
+Since
+
+$$
+\mathbf{Q}\in\mathbb{R}^{T\times d},\,
+\mathbf{K}\in\mathbb{R}^{T\times d}
+$$
+
+so
+
+$$
+\mathbf{Q}\mathbf{K}^{\top}\in\mathbb{R}^{T\times T}.
+$$
+
+Computing one entry of $\mathbf{Q}\mathbf{K}^{\top}$ is a dot product of length $d$:
+
+$$
+(\mathbf{Q}\mathbf{K}^{\top})_{ij}
+= \sum_{r=1}^{d} Q_{ir}K_{jr}.
+$$
+
+There are $T \times T = T^2$ such entries, and each costs $O(d)$ work. Therefore:
+
+$$
+\text{Time} \propto O(T^2 \cdot d)
+$$
+
+time to form the score matrix.
+
+After that, attention also computes
+
+$$
+\mathrm{softmax}(\mathbf{Q}\mathbf{K}^{\top})\mathbf{V},
+$$
+
+where $\mathbf{V}\in\mathbb{R}^{T\times d}$. The softmax touches the $T\times T$ score matrix, costing $O(T^2)$
+
+Finally, multiplying the $T\times T$ attention matrix by $\mathbf{V}$ costs another $O(T^2 d)$. So the attention cost is 
+
+$$
+\text{Time} \propto O(T^2 d)+O(T^2)+O(T^2 d)=O(T^2 d)
+$$
+
+Memory is $O(T^2)$ as only the final $T\times T$ score/attention matrix need to be stored in standard attention without additional caching.
+{{End hidden}}
+
+Generating a sequence of tokens in [[large language model (LLM)#Inference|inference]] recomputes most of this work unless the keys and values computed and cached, such as via [[KV caching]].
 
 <ref>{{#cite:Q3130}}</ref>

@@ -1,0 +1,5 @@
+{{ConferencePaper}}
+
+== Overview ==
+
+Paper introducing residual connections, which let a stack of layers learn a correction to its input and made very deep networks trainable

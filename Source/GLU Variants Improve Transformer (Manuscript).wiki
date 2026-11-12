@@ -1,0 +1,5 @@
+{{Manuscript}}
+
+== Overview ==
+
+Preprint comparing gated linear unit variants with ReLU and GELU in the feed-forward sub-layer of the Transformer

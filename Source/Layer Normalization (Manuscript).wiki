@@ -1,0 +1,5 @@
+{{Manuscript}}
+
+== Overview ==
+
+Preprint introducing layer normalization, which computes the normalisation statistics over the features of a single training case rather than over a mini-batch

@@ -3510,6 +3510,12 @@
       "sha256": "bb9ad2b93e59e324ba1e01706ce2bcc5369fd88e383f2e989bdaee95b7616032",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Geoffrey E. Hinton": {
+      "path": "Person/Geoffrey E. Hinton.wiki",
+      "revid": 16053,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-12T10:10:15+00:00"
+    },
     "Person:George B. Thomas": {
       "path": "Person/George B. Thomas.wiki",
       "revid": 14245,
@@ -3702,6 +3708,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
     },
+    "Person:Jamie Kiros": {
+      "path": "Person/Jamie Kiros.wiki",
+      "revid": 16049,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-12T10:10:15+00:00"
+    },
     "Person:Jan Buys": {
       "path": "Person/Jan Buys.wiki",
       "revid": 15638,
@@ -3791,6 +3803,18 @@
       "revid": 10053,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Person:Jian Sun": {
+      "path": "Person/Jian Sun.wiki",
+      "revid": 16073,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-12T10:10:15+00:00"
+    },
+    "Person:Jimmy Lei Ba": {
+      "path": "Person/Jimmy Lei Ba.wiki",
+      "revid": 16045,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-12T10:10:15+00:00"
     },
     "Person:Jimmy Wales": {
       "path": "Person/Jimmy Wales.wiki",
@@ -3923,6 +3947,12 @@
       "revid": 13743,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Kaiming He": {
+      "path": "Person/Kaiming He.wiki",
+      "revid": 16061,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-12T10:10:15+00:00"
     },
     "Person:Kainan Jarrette": {
       "path": "Person/Kainan Jarrette.wiki",
@@ -4830,6 +4860,12 @@
       "sha256": "f87ffa4c0882ed80b6f7212e0b2d3230f72002472b782b0673fc354a7c24787a",
       "synced_at": "2026-11-09T11:49:44+00:00"
     },
+    "Person:Shaoqing Ren": {
+      "path": "Person/Shaoqing Ren.wiki",
+      "revid": 16069,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-12T10:10:15+00:00"
+    },
     "Person:Sharan Narang": {
       "path": "Person/Sharan Narang.wiki",
       "revid": 15743,
@@ -5129,6 +5165,12 @@
       "revid": 13747,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Xiangyu Zhang": {
+      "path": "Person/Xiangyu Zhang.wiki",
+      "revid": 16065,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-12T10:10:15+00:00"
     },
     "Person:Xiuchen Zheng": {
       "path": "Person/Xiuchen Zheng.wiki",
@@ -5450,9 +5492,9 @@
     },
     "Self-attention": {
       "path": "Main/Self-attention.wiki",
-      "revid": 16040,
-      "sha256": "df190f108222d6147599bcc7e975a26fc74c0a73fa93f883aa3b911922b51a2c",
-      "synced_at": "2026-11-12T09:22:06+00:00"
+      "revid": 16041,
+      "sha256": "3ddfe85e1c1413742e4999f3f369769830e8c89ea96927aaa5bafedadf8b0387",
+      "synced_at": "2026-11-12T10:10:15+00:00"
     },
     "Self-attention causal mask (Transformer)": {
       "path": "Main/Self-attention causal mask (Transformer).wiki",
@@ -6378,6 +6420,12 @@
       "sha256": "f0f18ab330c283e2776439f0d6d314d5c22e3f3f6e72be29b3e050ca26887804",
       "synced_at": "2026-10-29T15:50:24+00:00"
     },
+    "Source:Deep Residual Learning for Image Recognition (Conference paper)": {
+      "path": "Source/Deep Residual Learning for Image Recognition (Conference paper).wiki",
+      "revid": 16077,
+      "sha256": "a48bb3b3ee893244cebe3715d3d24d2af97bc57d155ef25f295758c13c1939f6",
+      "synced_at": "2026-11-12T10:10:15+00:00"
+    },
     "Source:Demystifying Collaborative Industrial Robots (Document)": {
       "path": "Source/Demystifying Collaborative Industrial Robots (Document).wiki",
       "revid": 11080,
@@ -6557,6 +6605,12 @@
       "revid": 4380,
       "sha256": "e810d4e940e4f9a39be65f917dcdc72bf7e0689a58f094cfddfafa8a54b25da0",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:GLU Variants Improve Transformer (Manuscript)": {
+      "path": "Source/GLU Variants Improve Transformer (Manuscript).wiki",
+      "revid": 16081,
+      "sha256": "62e475851362687fa9d1b0eb36de8ec0b9ecb97863de73473eba6c9b58273174",
+      "synced_at": "2026-11-12T10:10:15+00:00"
     },
     "Source:GeeksforGeeks (Website)": {
       "path": "Source/GeeksforGeeks (Website).wiki",
@@ -7067,6 +7121,12 @@
       "revid": 6846,
       "sha256": "81cf690f5e20b20e2e7f38508160e4827679740a329c562fdff39b102a63f5b7",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:Layer Normalization (Manuscript)": {
+      "path": "Source/Layer Normalization (Manuscript).wiki",
+      "revid": 16057,
+      "sha256": "b79cbf70a80e32479e18f8d05ba3ff200c529b9e68e44783e490254dd4e8bf6c",
+      "synced_at": "2026-11-12T10:10:15+00:00"
     },
     "Source:Les Missions locales(Webpage) (Webpage)": {
       "path": "Source/Les Missions locales(Webpage) (Webpage).wiki",
@@ -8251,6 +8311,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-12T09:22:06+00:00",
+  "updated": "2026-11-12T10:10:15+00:00",
   "version": 1
 }
