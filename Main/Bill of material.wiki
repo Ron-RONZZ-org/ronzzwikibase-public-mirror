@@ -1,0 +1,12 @@
+[[Category:Production]]
+[[File:Schneckengetriebe.png|thumbnail|An example '''bill of material''']]
+A '''bill of material''' is a list of parts and subassemblies required to manufacture an [[end product]].
+
+It often contains the following information:
+
+* Part name
+* Identification code
+* Quantity required
+* Parent-child relationship/hierarchy: if a part is part of a larger subassembly
+
+<ref>{{#cite:Q3286}}</ref>
