@@ -5564,9 +5564,9 @@
     },
     "Self-attention": {
       "path": "Main/Self-attention.wiki",
-      "revid": 16155,
-      "sha256": "29bd7bed9ba2649e5f680f1b0acb5750ec56526b66fda143a9327194f4d0cc3b",
-      "synced_at": "2026-11-12T11:19:44+00:00"
+      "revid": 16157,
+      "sha256": "f83779876335ae1cd35bf9d7f6ec3b489286eee3973cff3c9d92f5fcab605b46",
+      "synced_at": "2026-11-12T11:35:45+00:00"
     },
     "Self-attention causal mask (Transformer)": {
       "path": "Main/Self-attention causal mask (Transformer).wiki",
@@ -8389,6 +8389,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-12T11:19:44+00:00",
+  "updated": "2026-11-12T11:35:45+00:00",
   "version": 1
 }

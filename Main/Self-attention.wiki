@@ -34,7 +34,7 @@ Both are [[normalisation function]]s applied for numerical stability.
 
 == Multi-head attention sub-layer and residual ==
 
-In a standard [[Transformer]], each attention sub-layer has $h$ attention heads $\{\operatorname{head}_1(\mathbf{X}),\cdots,\operatorname{head}_h(\mathbf{X)\}$.
+In a standard [[Transformer]], each attention sub-layer has $h$ attention heads $\{\operatorname{head}_1(\mathbf{X}),\cdots,\operatorname{head}_h(\mathbf{X})\}$.
 
 where for each $\operatorname{head}_i$
 
@@ -58,14 +58,18 @@ The sublayer '''residual''' is then fed through [[residual connection (Transform
 
 == Complexity ==
 
-The complexity of standard self-attention
+The complexity of standard multi-head self-attention
 
-* Time $\propto O(T^2 d)$
-* Memory $\propto O(T^2)$
+* Time $\propto O(T^2 d h)$
+* Memory $\propto O(T^2 h)$
 
 where $O$ is the [[o(x) and o(x)|big-O notation]].
 
 {{Hidden proof}}
+'''Compute time''':
+
+'''Single attention head'''
+
 Since
 
 $$
@@ -89,10 +93,10 @@ $$
 There are $T \times T = T^2$ such entries, and each costs $O(d)$ work. Therefore:
 
 $$
-\text{Time} \propto O(T^2 \cdot d)
+\text{Time} \propto O(T^2 \cdot d).
 $$
 
-time to form the score matrix.
+to calculate the score matrix.
 
 After that, attention also computes
 
@@ -102,13 +106,27 @@ $$
 
 where $\mathbf{V}\in\mathbb{R}^{T\times d}$. The softmax touches the $T\times T$ score matrix, costing $O(T^2)$
 
-Finally, multiplying the $T\times T$ attention matrix by $\mathbf{V}$ costs another $O(T^2 d)$. So the attention cost is 
+Then, multiplying the $T\times T$ attention matrix by $\mathbf{V}$ costs another $O(T^2 d)$. So the attention cost per attention head is 
 
 $$
-\text{Time} \propto O(T^2 d)+O(T^2)+O(T^2 d)=O(T^2 d)
+\text{Time} \propto O(T^2 d)+O(T^2)+O(T^2 d)=O(T^2 d).
 $$
 
-Memory is $O(T^2)$ as only the final $T\times T$ score/attention matrix need to be stored in standard attention without additional caching.
+'''Multi-head aggregation and calculating residual'''
+
+There are $h$ attention heads, for a total of $O(T^2 dh)$.
+
+Note in addition to compute '''residual''' there is a $(T \times T)\times (T \times d)$, representing $Td$ dot $T$ dimensional [[vector dot product]]s, for a total of $O(T^2 d)$.
+
+Hence the overall sub-layer compute is
+
+$$
+O(T^2 dh)+O(T^2 d)=O(T^2 dh).
+$$
+
+'''Memory''':
+
+Since in a standard [[Transformer]] $T \gg d_k,d,h$, memory cost is dominated by the storage of $h$ $T \times T$ attention score matrices $S_\text{attention}(i)$, for a total of $O(T^2h)$.
 {{End hidden}}
 
 Generating a sequence of tokens in [[large language model (LLM)#Inference|inference]] recomputes most of this work unless the keys and values computed and cached, such as via [[KV caching]].
