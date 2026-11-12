@@ -32,6 +32,30 @@ Both are [[normalisation function]]s applied for numerical stability.
 
 <ref>{{#cite:Q3130}}</ref>
 
+== Multi-head attention sub-layer and residual ==
+
+In a standard [[Transformer]], each attention sub-layer has $h$ attention heads $\{\operatorname{head}_1(\mathbf{X}),\cdots,\operatorname{head}_h(\mathbf{X)\}$.
+
+where for each $\operatorname{head}_i$
+
+$$
+S_\text{attention}(i)=\operatorname{Attention}(\mathbf{Q}_i,\mathbf{K}_i,\mathbf{V}_i).
+$$
+
+Define sub-layer '''residual'''
+
+$$
+\operatorname{SL}_{\text{attn}}(\mathbf{X})
+=
+\left[S_\text{attention}(1),\cdots,S_\text{attention}(h)\right]\mathbf{W}_O
+\in\mathbb{R}^{T\times d},
+$$
+where $\mathbf{W}_O\in\mathbb{R}^{hd_k\times d}$ is a '''weight matrix''' learnt during training.
+
+<blockquote>
+The sublayer '''residual''' is then fed through [[residual connection (Transformer)|a residual connection mechanism]].
+</blockquote>
+
 == Complexity ==
 
 The complexity of standard self-attention
