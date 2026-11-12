@@ -1,0 +1,46 @@
+[[Category:Production]]
+'''Production management''' is the process of organising different resources to optimise [[production]].
+
+== Optimisation criteria ==
+
+* Productivity (amount produced in given time)
+* Responsiveness (capability of responding to changing demands)
+* Resource efficiency
+** Energy
+** Raw material
+** Labour
+* Output quality
+* Environmental footprint
+** Natural
+** Social/Human
+
+== Production strategies ==
+
+<div class=center>
+{| class="wikitable"
+|-
+! Strategy
+! Essence
+! Application
+! Advantage
+! Disadvantage
+|-
+| Make-to-order
+| Produce after receiving order
+| Simple products rapid to produce/Services requiring minimal preparation, of irregular demand
+| No storage, respond to specific demands of client
+| Less reactive: slower to deliver
+|-
+| Make-to-stock
+| Produce and store products according to demand forecast
+| Products of predictable demand/longer production cycle
+| Availability on demand
+| Storage cost, potential waste for perishables if demand less than forecasted
+|-
+| Delayed differentiation
+| Make-to-stock semi-finished products, then make-to-order finished products once orders arrive
+| Complex composite products of predictable overall demand, but unclear demand for each variant (e.g., bicycles)
+| Combining the advantages of make-to-order and make-to-stock
+| More complexity to manage, requires identification of clear, stockable intermediary products ready to be transformed into final products
+|}
+</div>

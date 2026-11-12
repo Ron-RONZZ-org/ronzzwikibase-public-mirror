@@ -5372,9 +5372,15 @@
     },
     "Production": {
       "path": "Main/Production.wiki",
-      "revid": 16168,
-      "sha256": "3841f8b42644cabb41533ae5628f681912776e855a1f818ebd7b2d13872d6233",
-      "synced_at": "2026-11-12T13:49:19+00:00"
+      "revid": 16170,
+      "sha256": "fd659cd0512ef97aaa694824087e6e2bbf361dc7ebf98a8c3d483c07ec38bd3a",
+      "synced_at": "2026-11-12T14:36:05+00:00"
+    },
+    "Production management": {
+      "path": "Main/Production management.wiki",
+      "revid": 16171,
+      "sha256": "55cd3ae4c350cc466a6ef036c6c413955e822db737b3e8a550bd551fe58c60e0",
+      "synced_at": "2026-11-12T14:36:05+00:00"
     },
     "Qualitative methods": {
       "path": "Main/Qualitative methods.wiki",
@@ -8407,6 +8413,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-12T13:49:19+00:00",
+  "updated": "2026-11-12T14:36:05+00:00",
   "version": 1
 }

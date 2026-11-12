@@ -28,3 +28,26 @@ MA --> PROD
 PROD ==> OUT
 @enduml
 </uml>
+
+== Production modes ==
+
+{| class="wikitable"
+|-
+! Production mode
+! Application
+! Key challenges
+|-
+| Unitary production
+| Complex products with small demand quantity( e.g., airplanes, custom velomobile, pre-fabricated staircase)
+| Resource management: acquiring rapidly necessary resources when orders arrive without paying huge excess for storing everything all the time
+|-
+| Small batch production
+| Mass customisation (e.g., school uniforms), artisan food (e.g., bakery)
+| Optimising production, such reducing wait on high-demand machines and improving yield on raw material
+|-
+| mass production (frequently via an [[assembly line]]
+| Generic products with large demand quantity (e.g., lightbulbs, water bottles)
+| Synchronise different production steps to minimise waiting between different steps/optimise productivity/minimise cost
+|}
+
+<ref>{{#cite:Q3286}}</ref>
