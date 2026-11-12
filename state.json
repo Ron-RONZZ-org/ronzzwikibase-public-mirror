@@ -8346,6 +8346,12 @@
       "sha256": "2626bd0e539241b94db943761481d75531ee34b97119908bbd9dbb3da1969249",
       "synced_at": "2026-11-02T13:12:14+00:00"
     },
+    "Total production cost": {
+      "path": "Main/Total production cost.wiki",
+      "revid": 16202,
+      "sha256": "463d1e2ecb5581d0b80259a2a28ecee52c38064eca4a06ad6f1b9dfd227d84f4",
+      "synced_at": "2026-11-12T17:19:51+00:00"
+    },
     "Transformer": {
       "path": "Main/Transformer.wiki",
       "revid": 15976,
@@ -8455,6 +8461,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-12T17:09:22+00:00",
+  "updated": "2026-11-12T17:19:51+00:00",
   "version": 1
 }

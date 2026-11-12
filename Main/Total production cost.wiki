@@ -1,0 +1,30 @@
+[[Category:Production]]
+'''Total production cost''' is the total financial cost of a [[production]] process.
+
+Depending on convention, tt may include:
+
+* '''Upstream cost'''
+** '''Product development cost'''
+*** Salary of engineers
+*** Prototyping
+*** Purchase of patents/designs owned by external actors
+*** External certification
+** '''Promotion cost'''
+*** Advertising
+*** Publicity events
+* '''Direct costs'''
+** Raw material
+** Labour
+* '''Production overhead'''
+** Energy
+** Factory rent
+** Machine depreciation
+** Supervision
+* '''Production management cost'''
+** Administrative staff
+** Buyer/seller
+*** Who liaisons with external actors to acquire raw material/sell final product
+* '''Downstream cost'''
+** Packaging
+** Transport/distribution
+** Sale
