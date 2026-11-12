@@ -5454,6 +5454,12 @@
       "sha256": "9cecd15e75fec39425bf8ef1ddd2d116afbc819bde8fb2c61b08e951e568a21b",
       "synced_at": "2026-11-11T16:49:46+00:00"
     },
+    "Self-attention causal mask (Transformer)": {
+      "path": "Main/Self-attention causal mask (Transformer).wiki",
+      "revid": 16039,
+      "sha256": "6eeff602c84a92a765d3ad436b62ead1ec5cca1153122a6f3eebe1d8478e12c4",
+      "synced_at": "2026-11-12T09:11:06+00:00"
+    },
     "Sequence": {
       "path": "Main/Sequence.wiki",
       "revid": 11723,
@@ -8245,6 +8251,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-12T08:49:24+00:00",
+  "updated": "2026-11-12T09:11:06+00:00",
   "version": 1
 }

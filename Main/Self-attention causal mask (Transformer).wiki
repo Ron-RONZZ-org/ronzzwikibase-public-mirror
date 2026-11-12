@@ -1,0 +1,144 @@
+[[Category:Transformer]]
+The [[self-attention]] '''causal mask''' forbids position $j$ from attending to any position after $j$ in an [[autoregressive decoder-only Transformer]].
+
+Standard scaled dot-product attention score
+
+$$
+\mathbf{S} = \frac{\mathbf{Q}\mathbf{K}^\top}{\sqrt{d_k}} \qquad\text{(raw scores, shape } T\times T\text{)}
+$$
+
+where $T$ is the token sequence length.
+
+The causal mask is a matrix $\mathbf{M} \in \mathbb{R}^{T\times T}$ defined as
+
+$$
+\mathbf{M}_{ij} =
+\begin{cases}
+0, & j \le i \quad\text{(past and present are allowed)}\\[4pt]
+-\infty, & j > i \quad\text{(future is forbidden)}
+\end{cases}
+$$
+
+The masked attention is then
+
+$$
+\operatorname{Attn}_{\text{causal}}(\mathbf{Q},\mathbf{K},\mathbf{V})
+= \operatorname{softmax}\!\bigl(\mathbf{S} + \mathbf{M}\bigr)\,\mathbf{V} .
+$$
+
+== Example ==
+
+{{Hidden example}}
+'''Setup'''
+
+Let input token length $T=3$ and query-key vector dimension $d_k=2$, with
+
+$$
+\mathbf{Q}
+=
+\begin{pmatrix}
+1 & 0\\
+0 & 1\\
+1 & 1
+\end{pmatrix},
+\qquad
+\mathbf{K}
+=
+\begin{pmatrix}
+1 & 1\\
+1 & 0\\
+0 & 1
+\end{pmatrix},
+\qquad
+\mathbf{V}
+=
+\begin{pmatrix}
+1 & 0\\
+0 & 1\\
+2 & 3
+\end{pmatrix}.
+$$
+
+'''Standard score (S)'''
+
+The raw scores are
+
+$$
+\mathbf{S}
+=
+\frac{\mathbf{Q}\mathbf{K}^\top}{\sqrt{2}}
+\approx
+\begin{pmatrix}
+0.7071 & 0.7071 & 0\\
+0.7071 & 0 & 0.7071\\
+1.4142 & 0.7071 & 0.7071
+\end{pmatrix}.
+$$
+
+'''Causal mask'''
+
+The causal mask is
+
+$$
+\mathbf{M}_{ij}
+=
+\begin{cases}
+0, & j \le i,\\[4pt]
+-\infty, & j > i.
+\end{cases}
+$$
+
+Thus
+
+$$
+\mathbf{M}
+=
+\begin{pmatrix}
+0 & -\infty & -\infty\\
+0 & 0 & -\infty\\
+0 & 0 & 0
+\end{pmatrix}.
+$$
+
+Adding the mask gives
+
+$$
+\mathbf{S}+\mathbf{M}
+=
+\begin{pmatrix}
+0.7071 & -\infty & -\infty\\
+0.7071 & 0 & -\infty\\
+1.4142 & 0.7071 & 0.7071
+\end{pmatrix}.
+$$
+
+'''Causal masked attention'''
+
+Row-wise softmax gives the attention weights
+
+$$
+\mathbf{A}
+=
+\operatorname{softmax}(\mathbf{S}+\mathbf{M})
+\approx
+\begin{pmatrix}
+1 & 0 & 0\\
+0.6698 & 0.3302 & 0\\
+0.5035 & 0.2483 & 0.2483
+\end{pmatrix}.
+$$
+
+Finally, the causal attention output is
+
+$$
+\operatorname{Attn}_{\text{causal}}(\mathbf{Q},\mathbf{K},\mathbf{V})
+=
+\mathbf{A}\mathbf{V}
+\approx
+\begin{pmatrix}
+1 & 0\\
+0.6698 & 0.3302\\
+1.0000 & 0.9930
+\end{pmatrix}.
+$$
+{{End hidden}}
