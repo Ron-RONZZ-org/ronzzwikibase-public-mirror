@@ -1,7 +1,7 @@
 [[Category:Transformer]]
 '''Self-attention''' is the process through which a [[Transformer]] enriches its [[token embedding (machine learning)|token embedding vectors]] with contextual information derived from other tokens in the same token sequence.<ref>{{#cite:Q3130}}</ref>
 
-== Definition ==
+== Single-head attention ==
 
 Let $\mathbf{X}\in\mathbb{R}^{T\times d}$ be the '''vector embedding matrix''' of [[token (machine learning)|token sequence]] $X$, in which row $t$ is the embedding vector for the token at position $t$.
 
@@ -15,15 +15,15 @@ $$
 
 where $\mathbf{W}_Q,\mathbf{W}_K,\mathbf{W}_V\in\mathbb{R}^{d\times d_k}$ are '''weight matrices''' learnt during training (e.g., via [[backpropagation]]).
 
-Then the stadard attention score
+Then the standard attention score
 $$
 S_\text{attention}=\operatorname{Attention}(\mathbf{Q},\mathbf{K},\mathbf{V})
 =
-\operatorname{row-wise softmax}\left(\frac{\mathbf{Q}\mathbf{K}^{\top}}{\sqrt{d_k}}\right)\mathbf{V},
+\operatorname{row-wise\ softmax}\left(\frac{\mathbf{Q}\mathbf{K}^{\top}}{\sqrt{d_k}}\right)\mathbf{V},
 $$
 
 <blockquote>
-The [[Softmax|softmax]] is taken row-wise so for each embedding vector $\vec x_t$ within $X$, $\sum_{i=1}^{d_k} (S_{\text{attention})_{t,i} =1$.
+The [[Softmax|softmax]] is taken row-wise so for each embedding vector $\vec x_t$ within $X$, $\sum_{i=1}^{d_k} (S_{\text{attention}})_{t,i} = 1$.
 
 The scaling factor $1/\sqrt{d_k}$ keeps the scores from growing with the dimension.
 
@@ -31,6 +31,7 @@ Both are [[normalisation function]]s applied for numerical stability.
 </blockquote>
 
 <ref>{{#cite:Q3130}}</ref>
+
 == Complexity ==
 
 The complexity of standard self-attention
