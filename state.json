@@ -7338,6 +7338,18 @@
       "sha256": "91070394a4f5bc42d73dba3fc6cbc6df682ebce91913f40b9181da182e2a6afc",
       "synced_at": "2026-11-11T14:10:29+00:00"
     },
+    "Source:Manufacturing & Production Scheduling Glossary (Webpage)": {
+      "path": "Source/Manufacturing & Production Scheduling Glossary (Webpage).wiki",
+      "revid": 16241,
+      "sha256": "b57577bd6170b92b1b103bec2d624c7df22f520c8f77240c367113d1ac5d19f0",
+      "synced_at": "2026-11-13T13:10:04+00:00"
+    },
+    "Source:Manufacturing & Production Scheduling Glossary (Webpage)/archivedText": {
+      "path": "Source/Manufacturing & Production Scheduling Glossary (Webpage)/archivedText.wiki",
+      "revid": 16240,
+      "sha256": "fbb0d8963a749a799a2f07799d01fb37cd98c1f8a95f80a747910fef6a123181",
+      "synced_at": "2026-11-13T13:10:04+00:00"
+    },
     "Source:Manufacturing news, articles and insights (Website)": {
       "path": "Source/Manufacturing news, articles and insights (Website).wiki",
       "revid": 11049,
@@ -8479,6 +8491,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-13T12:14:27+00:00",
+  "updated": "2026-11-13T13:10:04+00:00",
   "version": 1
 }
