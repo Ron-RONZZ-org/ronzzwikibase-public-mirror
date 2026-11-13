@@ -1,0 +1,34 @@
+[[Category:Organisation&efficiency]]
+[[File:Metra-Potential-Method-MPM-Example.svg|thumbnail|An example graphical representation of MPM]]
+First developped by Bernard Roy et al.,<ref>{{#cite:Q3286}}</ref> '''Metra Potential Method (MPM)''' is a method for organising different '''tasks''' ($J_j$) in a [[scheduling problem]] by
+
+* analysing the dependency of each tasks ($J_{jx},J_{jy} \dots \to J_{jz}$)
+* Identify thereby the theoretical earliest start time for each task ($t_i(j)$)
+* Identify the final due time ($T^*$)
+* Calculate backwards the latest start time for each task for respecting the due time ($t^*_i(j)$).
+
+== Slack ==
+
+'''Slack''' is additional time available (for unexpected delays, etc.) without impacting performance on specific criteria.
+
+=== Total slack ===
+
+$$
+\text{Total slack}=t^*_i(j)-t^_i(j)
+$$
+
+which measures the available slack for task $J_j$ without impacting overall finish time, '''given there is no other delay elsewhere'''.
+
+=== Free slack ===
+
+$$
+\text{Free slack}=t_i(j+1)-t_f(j)
+$$
+
+which measures the available slack for task $J_j$ without impacting the start time of tasks that depend on it.
+
+In general,
+
+$$
+\text{Free slack} \le \text{Total slack}
+$$

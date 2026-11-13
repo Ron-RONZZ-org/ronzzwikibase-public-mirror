@@ -2580,6 +2580,12 @@
       "sha256": "73620c971cd8f3ad0e2eebfcafe18232f06f3353af0e83da64e5acd78d359a3f",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Metra Potential Method (MPM)": {
+      "path": "Main/Metra Potential Method (MPM).wiki",
+      "revid": 16248,
+      "sha256": "2db052a339be8c6f8ccd24481225e3d9461870d4d5032b2d387a16164df0254b",
+      "synced_at": "2026-11-13T13:35:59+00:00"
+    },
     "Metric space": {
       "path": "Main/Metric space.wiki",
       "revid": 10834,
@@ -8497,6 +8503,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-13T13:19:59+00:00",
+  "updated": "2026-11-13T13:35:59+00:00",
   "version": 1
 }
