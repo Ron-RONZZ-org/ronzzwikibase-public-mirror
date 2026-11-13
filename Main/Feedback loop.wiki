@@ -1,0 +1,3 @@
+[[Category:System thinking]]
+[[File:Feedback loop.png|thumbnail|A sample feedback loop]]
+A '''feedback loop''' is a mechanism allowing output of a [[system]] to be fed back into the system as input for future action.<ref>{{#cite:Q3320}}</ref>

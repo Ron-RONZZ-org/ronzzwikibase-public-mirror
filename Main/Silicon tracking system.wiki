@@ -1,4 +1,4 @@
-The '''silicon tracking system''' is a common subdetector found in modern [[particle detector]]s. It measures the momentum of charged particles.
+The '''silicon tracking system''' is a common subdetector found in modern [[particle detector]]s. It measures the momentum of charged particles.<ref>{{#cite:Q2531}}</ref>
 
 == Mechanism ==
 
@@ -7,3 +7,5 @@ The '''silicon tracking system''' is a common subdetector found in modern [[part
 The detector is bathed in a uniform magnetic field, so the path of charged particles travelling through it are bent by the [[Lorentz force]]. If the momentum of the particle is large, the radius of curvature is large, and the path is almost straight. But if the momentum is small, the radius of curvature is small, and the path is tightly curved.
 
 As the particles pass through the detector, they interact with silicon microstrip detectors at multiple points, producing small electrical signals. The position and timing of those signals are amplified and recorded. The trajectory of the particles can then be reconstructed from a series of time-lapsed position data digitally via best-fit algorithms.
+
+<ref>{{#cite:Q2531}}</ref>

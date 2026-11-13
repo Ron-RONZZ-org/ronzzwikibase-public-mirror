@@ -1,0 +1,830 @@
+Skip to main content
+<div class="elm-skin-container" role="main" ga-category="Anonymous | page">
+
+<div class="elm-header">
+
+<div class="elm-header-custom">
+
+<div id="readerview_wrapper" style="display:none;">
+
+<div id="readerview" class="readerOn">
+
+<div class="header-left-control">
+
+<div class="header-menu">
+
+<span id="toc-btn-label" hidden="hidden">Table of Contents</span> <span class="material-symbols-outlined" aria-hidden="true" focusable="false">menu</span>
+
+</div>
+<div class="header-branding">
+
+[https://eng.libretexts.org/ ([https://eng.libretexts.org/Bookshelves/Industrial_and_Systems_Engineering/Introduction_to_Industrial_Engineering_(Boardman)/01%3A_Chapters/1.08%3A_Systems_Thinking Media content: view on original URL]) Library homepage]
+
+</div>
+
+</div>
+<div class="header-title">
+
+ 
+
+</div>
+<div class="header-end">
+
+<span class="material-symbols-outlined" aria-hidden="true" focusable="false">search</span> <span class="visually-hidden">Search</span>
+<span class="material-symbols-outlined" aria-hidden="true" focusable="false">build_circle </span> <span class="visually-hidden">Toolbar</span>
+<span class="material-symbols-outlined" aria-hidden="true" focusable="false">fact_check</span> <span class="visually-hidden">Homework</span>
+<span class="material-symbols-outlined" aria-hidden="true" focusable="false">cancel</span> <span>Exit Reader Mode</span>
+
+</div>
+
+</div>
+<div id="offcanvas-menu">
+
+<div id="toc" class="hidden">
+
+ 
+
+</div>
+<div id="siteMenu">
+
+* [https://eng.libretexts.org/Courses <span class="material-symbols-outlined" aria-hidden="true" focusable="false">school</span> <span class="menu-label">Campus Bookshelves</span>]
+* [https://eng.libretexts.org/Bookshelves <span class="material-symbols-outlined" aria-hidden="true" focusable="false">menu_book</span> <span class="menu-label">Bookshelves</span>]
+* [https://eng.libretexts.org/Ancillary_Materials <span class="material-symbols-outlined" aria-hidden="true" focusable="false">perm_media</span> <span class="menu-label">Learning Objects</span>]
+
+* [https://eng.libretexts.org/Special:Userlogin?readerView#tab=login <span class="material-symbols-outlined" aria-hidden="true" focusable="false">login</span> <span class="menu-label">Login</span>]
+* [https://register.libretexts.org/ <span class="material-symbols-outlined" aria-hidden="true" focusable="false">how_to_reg</span> <span class="menu-label">Request Instructor Account</span>]
+* [https://commons.libretexts.org/ <span class="material-symbols-outlined" aria-hidden="true" focusable="false">hub</span> <span class="menu-label">Instructor Commons</span>]
+
+</div>
+
+</div>
+<div id="search">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel">
+
+<span id="search"></span>
+== Search ==
+
+<div class="form-item">
+
+Search this book
+
+</div>
+<div class="form-action">
+
+Submit Search
+
+</div>
+<div id="search_results">
+
+ 
+
+</div>
+
+</div>
+
+</div>
+<div id="readability">
+
+x
+
+<div id="beeline" class="settings-section">
+
+<div class="setting">
+
+<div class="setting-title">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel/Readability">
+
+<span id="text-color"></span>
+==== Text Color ====
+
+Reset
+
+</div>
+
+</div>
+<div class="setting-control text_color">
+
+<span class="bee-btn-render"> </span><span class="bee-btn-label">Bright</span>
+<span class="bee-btn-render"> </span><span class="bee-btn-label">Blues</span>
+<span class="bee-btn-render"> </span><span class="bee-btn-label">Gray</span>
+<span class="bee-btn-render"> </span><span class="bee-btn-label">Inverted</span>
+
+</div>
+
+</div>
+
+</div>
+<div id="textSize" class="settings-section">
+
+<div class="setting">
+
+<div class="setting-title">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel/Readability">
+
+<span id="text-size"></span>
+==== Text Size ====
+
+Reset
+
+</div>
+
+</div>
+<div class="font-adjuster">
+
++
+-
+<div id="range_bs" class="range_base" type="input" value="18">
+
+ 
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div id="textSize" class="settings-section">
+
+<div class="setting">
+
+<div class="setting-title">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel/Readability">
+
+<span id="margin-size"></span>
+==== Margin Size ====
+
+Reset
+
+</div>
+
+</div>
+<div class="margin-adjuster">
+
++
+-
+<div id="margin_disp" class="margin_display" type="input" value="55">
+
+ 
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div id="textSize" class="settings-section">
+
+<div class="setting">
+
+<div class="setting-title">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel/Readability">
+
+<span id="font-type"></span>
+==== Font Type ====
+
+</div>
+
+</div>
+<div class="dyslexic-toggle">
+
+Enable Dyslexic Font <span class="slider round"> </span>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div id="toolbar">
+
+<ul>
+<li><span id="dl-menu">[https://eng.libretexts.org/?downloads <span>Downloads</span> <span class="material-symbols-outlined" aria-hidden="true" focusable="false">expand_more</span>]</span>
+<div class="sub-nav">
+
+<ul>
+<li>[https://eng.libretexts.org/?downloadpage <span>Download Page (PDF)</span>]</li>
+<li>[https://eng.libretexts.org/?downloadfull <span>Download Full Book (PDF)</span>]</li></ul>
+
+</div></li>
+<li><span id="res-menu">[https://eng.libretexts.org/?resources <span>Resources</span> <span class="material-symbols-outlined" aria-hidden="true" focusable="false">expand_more</span>]</span>
+<div class="sub-nav">
+
+<ul>
+<li>[https://eng.libretexts.org/?pertable <span>Periodic Table</span>]</li>
+<li>[https://eng.libretexts.org/?physconst <span>Physics Constants</span>]</li>
+<li>[https://eng.libretexts.org/?scientificcal Scientific Calculator]</li></ul>
+
+</div></li>
+<li><span id="ref-menu">[https://eng.libretexts.org/?references <span>Reference</span> <span class="material-symbols-outlined" aria-hidden="true" focusable="false">expand_more</span>]</span>
+<div class="sub-nav">
+
+<ul>
+<li>[https://eng.libretexts.org/?refmodal <span>Reference &amp; Cite</span>]</li></ul>
+
+</div></li>
+<li><span id="tools-menu">[https://eng.libretexts.org/?tools <span>Tools</span> <span class="material-symbols-outlined" aria-hidden="true" focusable="false">expand_more</span>]</span>
+<div class="sub-nav">
+
+<ul>
+</ul>
+
+</div></li>
+<li><span id="help-menu">[https://eng.libretexts.org/?help <span>Help</span> <span class="material-symbols-outlined" aria-hidden="true" focusable="false">expand_more</span>]</span>
+<div class="sub-nav">
+
+<ul>
+<li>[https://eng.libretexts.org/?helpmodal <span>Get Help</span>]</li>
+<li>[https://eng.libretexts.org/?feedback <span>Feedback</span>]</li>
+<li>[https://eng.libretexts.org/?readability <span>Readability</span>]</li></ul>
+
+</div></li></ul>
+
+</div>
+<div id="modal_readerview" class="modal">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel">
+
+<span id="section"></span>
+==   ==
+
+<span class="modal-close" tabindex="0">x</span>
+
+</div>
+
+</div>
+<div class="modal-body">
+
+selected template will load here
+
+</div>
+
+</div>
+
+</div>
+<div id="modal-main" class="modal micromodal-slide" aria-hidden="true">
+
+<div class="modal__overlay" micromodal-close="data-micromodal-close" tabindex="-1">
+
+<div class="modal__container" aria-labelledby="modal-main-title" aria-modal="true" role="dialog">
+
+<div class="modal__header">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel">
+
+<span id="modal-main-title"></span>
+== Error ==
+
+</div>
+
+</div>
+<div id="modal-main-body" class="modal__content" role="main">
+
+This action is not available.
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="mt-container-highlight" style="background-color: #ffffff;">
+
+</div>
+<div style="display:none">
+
+<div id="parentTitleHolder" style="display:none">
+
+1: Chapters
+
+</div>
+<div id="parentParentTitleHolder" style="display:none">
+
+Introduction to Industrial Engineering (Boardman)
+
+</div>
+<div id="subpagesHolder" style="display:none">
+
+{ }
+
+</div>
+<div id="parentSubpagesHolder" style="display:none">
+
+{ &quot;1.01:_What_is_Industrial_Engineering&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;1.02:_Teamwork&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;1.03:_What_is_Problem_Solving&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;1.04:_Big_Ideas_in_Industrial_Engineering&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;1.05:_Using_Models&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;1.06:_Deming\'s_14_Points&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;1.07:_People_in_the_System&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;1.08:_Systems_Thinking&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;1.09:_Lean_Operations&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;1.10:_The_IE_Approach&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;1.11:_Organizations\'_Missions_Visions_and_Values&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;1.12:_Lifelong_Learning&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot; }
+
+</div>
+<div id="parentParentSubpagesHolder" style="display:none">
+
+{ &quot;00:_Front_Matter&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;01:_Chapters&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;zz:_Back_Matter&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot; }
+
+</div>
+<div id="modifiedHolder" style="display:none">
+
+Tue, 22 Dec 2020 18:01:05 GMT
+
+</div>
+<div id="titleHolder" style="display:none">
+
+1.8: Systems Thinking
+
+</div>
+<div id="IDHolder" style="display:none">
+
+28424
+
+</div>
+<div id="pageIDHolder" style="display:none">
+
+28424
+
+</div>
+<div id="pageAuthorHolder" style="display:none">
+
+Delmar Larsen
+
+</div>
+<div id="groupHolder" style="display:none">
+
+{ }
+
+</div>
+<div id="usernameHolder" style="display:none">
+
+Anonymous
+
+</div>
+<div id="displaynameHolder" style="display:none">
+
+Anonymous User
+
+</div>
+<div id="userEmailHolder" style="display:none">
+
+</div>
+<div id="emailHolder" style="display:none">
+
+</div>
+<div id="userIDHolder" style="display:none">
+
+2
+
+</div>
+<div id="proHolder" style="display:none">
+
+false
+
+</div>
+<div id="adminHolder" style="display:none">
+
+false
+
+</div>
+<div id="pageTagsHolder" style="display:none">
+
+[ &quot;article:topic&quot;, &quot;license:ccby&quot;, &quot;authorname:bboardman&quot; ]
+
+</div>
+<div id="tagsHolder" style="display:none">
+
+[ &quot;article:topic&quot;, &quot;license:ccby&quot;, &quot;authorname:bboardman&quot; ]
+
+</div>
+<div id="ssoHolder" style="display:none">
+
+https://eng.libretexts.org/@app/auth/3/login?returnto=https%3A%2F%2Feng.libretexts.org%2FBookshelves%2FIndustrial_and_Systems_Engineering%2FIntroduction_to_Industrial_Engineering_(Boardman)%2F01%253A_Chapters%2F1.08%253A_Systems_Thinking
+
+</div>
+
+</div>
+
+</div>
+<div class="elm-nav mt-translate-module" hidden="true">
+
+<div class="elm-nav-container mt-translate-container">
+
+</div>
+
+</div>
+<div class="elm-header-logo-container">
+
+[https://eng.libretexts.org ([https://eng.libretexts.org/Bookshelves/Industrial_and_Systems_Engineering/Introduction_to_Industrial_Engineering_(Boardman)/01%3A_Chapters/1.08%3A_Systems_Thinking Media content: view on original URL]) Engineering LibreTexts]
+
+</div>
+
+</div>
+<div>
+
+<div id="flash-messages">
+
+<div class="dekiFlash">
+
+</div>
+
+</div>
+<span id="title"></span>
+= 1.8: Systems Thinking =
+
+# #; Last updated
+#: <span class="mt-last-updated" timestamp="2020-12-22T18:01:05Z"></span>
+# [https://eng.libretexts.org/@api/deki/pages/28424/pdf/1.8%253A%2bSystems%2bThinking.pdf <span class="mt-icon-article-pdf"></span>Save as PDF]
+# 
+
+</div>
+<div class="mt-content-header">
+
+; Page ID
+: 28424
+
+<div class="mt-author-container">
+
+* ([https://eng.libretexts.org/Bookshelves/Industrial_and_Systems_Engineering/Introduction_to_Industrial_Engineering_(Boardman)/01%3A_Chapters/1.08%3A_Systems_Thinking Media content: view on original URL])
+* [https://mentis.uta.edu/explore/profile/habib%20-ahmari Bonnie Boardman]
+* [https://www.uta.edu/ University of Texas at Arlington]<span class="mt-author-written"> via </span>[https://uta.pressbooks.pub/ Mavs Open Press]
+
+</div>
+<div class="Headertext">
+
+\( \newcommand{\vecs}[1]{\overset { \scriptstyle \rightharpoonup} {\mathbf{#1}} } \)
+
+\( \newcommand{\vecd}[1]{\overset{-\!-\!\rightharpoonup}{\vphantom{a}\smash {#1}}} \)
+
+\( \newcommand{\dsum}{\displaystyle\sum\limits} \)
+
+\( \newcommand{\dint}{\displaystyle\int\limits} \)
+
+\( \newcommand{\dlim}{\displaystyle\lim\limits} \)
+
+\( \newcommand{\id}{\mathrm{id}}\) \( \newcommand{\Span}{\mathrm{span}}\)
+
+( \newcommand{\kernel}{\mathrm{null}\,}\) \( \newcommand{\range}{\mathrm{range}\,}\)
+
+\( \newcommand{\RealPart}{\mathrm{Re}}\) \( \newcommand{\ImaginaryPart}{\mathrm{Im}}\)
+
+\( \newcommand{\Argument}{\mathrm{Arg}}\) \( \newcommand{\norm}[1]{\| #1 \|}\)
+
+\( \newcommand{\inner}[2]{\langle #1, #2 \rangle}\)
+
+\( \newcommand{\Span}{\mathrm{span}}\)
+
+\( \newcommand{\id}{\mathrm{id}}\)
+
+\( \newcommand{\Span}{\mathrm{span}}\)
+
+\( \newcommand{\kernel}{\mathrm{null}\,}\)
+
+\( \newcommand{\range}{\mathrm{range}\,}\)
+
+\( \newcommand{\RealPart}{\mathrm{Re}}\)
+
+\( \newcommand{\ImaginaryPart}{\mathrm{Im}}\)
+
+\( \newcommand{\Argument}{\mathrm{Arg}}\)
+
+\( \newcommand{\norm}[1]{\| #1 \|}\)
+
+\( \newcommand{\inner}[2]{\langle #1, #2 \rangle}\)
+
+\( \newcommand{\Span}{\mathrm{span}}\) \( \newcommand{\AA}{\unicode[.8,0]{x212B}}\)
+
+\( \newcommand{\vectorA}[1]{\vec{#1}}      % arrow\)
+
+\( \newcommand{\vectorAt}[1]{\vec{\text{#1}}}      % arrow\)
+
+\( \newcommand{\vectorB}[1]{\overset { \scriptstyle \rightharpoonup} {\mathbf{#1}} } \)
+
+\( \newcommand{\vectorC}[1]{\textbf{#1}} \)
+
+\( \newcommand{\vectorD}[1]{\overrightarrow{#1}} \)
+
+\( \newcommand{\vectorDt}[1]{\overrightarrow{\text{#1}}} \)
+
+\( \newcommand{\vectE}[1]{\overset{-\!-\!\rightharpoonup}{\vphantom{a}\smash{\mathbf {#1}}}} \)
+
+\( \newcommand{\vecs}[1]{\overset { \scriptstyle \rightharpoonup} {\mathbf{#1}} } \)
+
+\(\newcommand{\longvect}{\overrightarrow}\)
+
+\( \newcommand{\vecd}[1]{\overset{-\!-\!\rightharpoonup}{\vphantom{a}\smash {#1}}} \)
+
+\(\newcommand{\ket}[1]{\left| #1 \right&gt;}\)<br />
+\(\newcommand{\bra}[1]{\left&lt; #1 \right|}\)<br />
+\(\newcommand{\braket}[2]{\left&lt; #1 \vphantom{#2} \right| \left. #2 \vphantom{#1} \right&gt;}\)<br />
+\(\newcommand{\braopket}[3]{\left&lt; #1 \vphantom{#2}\vphantom{#3} \right| #2 \vphantom{#1}\vphantom{#3} \left| #3 \vphantom{#1}\vphantom{#2} \right&gt;}\)<br />
+\(\newcommand{\qmvec}[1]{\mathbf{\vec{#1}}}\)<br />
+\(\newcommand{\op}[1]{\hat{\mathbf{#1}}}\)<br />
+\(\newcommand{\expect}[1]{\langle #1 \rangle}\)<br />
+\(\newcommand{\dfn}[1]{\emph{\textbf{#1}}}\)
+
+\(\newcommand{\avec}{\mathbf a}\) \(\newcommand{\bvec}{\mathbf b}\) \(\newcommand{\cvec}{\mathbf c}\) \(\newcommand{\dvec}{\mathbf d}\) \(\newcommand{\dtil}{\widetilde{\mathbf d}}\) \(\newcommand{\evec}{\mathbf e}\) \(\newcommand{\fvec}{\mathbf f}\) \(\newcommand{\nvec}{\mathbf n}\) \(\newcommand{\pvec}{\mathbf p}\) \(\newcommand{\qvec}{\mathbf q}\) \(\newcommand{\svec}{\mathbf s}\) \(\newcommand{\tvec}{\mathbf t}\) \(\newcommand{\uvec}{\mathbf u}\) \(\newcommand{\vvec}{\mathbf v}\) \(\newcommand{\wvec}{\mathbf w}\) \(\newcommand{\xvec}{\mathbf x}\) \(\newcommand{\yvec}{\mathbf y}\) \(\newcommand{\zvec}{\mathbf z}\) \(\newcommand{\rvec}{\mathbf r}\) \(\newcommand{\mvec}{\mathbf m}\) \(\newcommand{\zerovec}{\mathbf 0}\) \(\newcommand{\onevec}{\mathbf 1}\) \(\newcommand{\real}{\mathbb R}\) \(\newcommand{\twovec}[2]{\left[\begin{array}{r}#1 \\ #2 \end{array}\right]}\) \(\newcommand{\ctwovec}[2]{\left[\begin{array}{c}#1 \\ #2 \end{array}\right]}\) \(\newcommand{\threevec}[3]{\left[\begin{array}{r}#1 \\ #2 \\ #3 \end{array}\right]}\) \(\newcommand{\cthreevec}[3]{\left[\begin{array}{c}#1 \\ #2 \\ #3 \end{array}\right]}\) \(\newcommand{\fourvec}[4]{\left[\begin{array}{r}#1 \\ #2 \\ #3 \\ #4 \end{array}\right]}\) \(\newcommand{\cfourvec}[4]{\left[\begin{array}{c}#1 \\ #2 \\ #3 \\ #4 \end{array}\right]}\) \(\newcommand{\fivevec}[5]{\left[\begin{array}{r}#1 \\ #2 \\ #3 \\ #4 \\ #5 \\ \end{array}\right]}\) \(\newcommand{\cfivevec}[5]{\left[\begin{array}{c}#1 \\ #2 \\ #3 \\ #4 \\ #5 \\ \end{array}\right]}\) \(\newcommand{\mattwo}[4]{\left[\begin{array}{rr}#1 \amp #2 \\ #3 \amp #4 \\ \end{array}\right]}\) \(\newcommand{\laspan}[1]{\text{Span}\{#1\}}\) \(\newcommand{\bcal}{\cal B}\) \(\newcommand{\ccal}{\cal C}\) \(\newcommand{\scal}{\cal S}\) \(\newcommand{\wcal}{\cal W}\) \(\newcommand{\ecal}{\cal E}\) \(\newcommand{\coords}[2]{\left\{#1\right\}_{#2}}\) \(\newcommand{\gray}[1]{\color{gray}{#1}}\) \(\newcommand{\lgray}[1]{\color{lightgray}{#1}}\) \(\newcommand{\rank}{\operatorname{rank}}\) \(\newcommand{\row}{\text{Row}}\) \(\newcommand{\col}{\text{Col}}\) \(\renewcommand{\row}{\text{Row}}\) \(\newcommand{\nul}{\text{Nul}}\) \(\newcommand{\var}{\text{Var}}\) \(\newcommand{\corr}{\text{corr}}\) \(\newcommand{\len}[1]{\left|#1\right|}\) \(\newcommand{\bbar}{\overline{\bvec}}\) \(\newcommand{\bhat}{\widehat{\bvec}}\) \(\newcommand{\bperp}{\bvec^\perp}\) \(\newcommand{\xhat}{\widehat{\xvec}}\) \(\newcommand{\vhat}{\widehat{\vvec}}\) \(\newcommand{\uhat}{\widehat{\uvec}}\) \(\newcommand{\what}{\widehat{\wvec}}\) \(\newcommand{\Sighat}{\widehat{\Sigma}}\) \(\newcommand{\lt}{&lt;}\) \(\newcommand{\gt}{&gt;}\) \(\newcommand{\amp}{&amp;}\) \(\definecolor{fillinmathshade}{gray}{0.9}\)
+
+</div>
+
+</div>
+<div class="section mt-content-container">
+
+<div class="wp-caption aligncenter" style="width: 892px">
+
+([https://eng.libretexts.org/Bookshelves/Industrial_and_Systems_Engineering/Introduction_to_Industrial_Engineering_(Boardman)/01%3A_Chapters/1.08%3A_Systems_Thinking Media content: view on original URL]) alt
+<div class="wp-caption-text">
+
+Figure 8.1: Chess Pieces
+
+</div>
+
+</div>
+<div class="pages_block">
+
+<div class="HTMLContentstyles__Wrapper-hv2w60-0 fgnwfi">
+
+</div>
+
+</div>
+<div class="pages_block pages_heading--react">
+
+<div class="HTMLContentstyles__Wrapper-hv2w60-0 fgnwfi">
+
+<div class="mt-section" mt-section-origin="Bookshelves/Industrial_and_Systems_Engineering/Introduction_to_Industrial_Engineering_(Boardman)/01:_Chapters/1.08:_Systems_Thinking">
+
+<span id="System_Definition"></span>
+<span id="system-definition"></span>
+== System Definition ==
+
+</div>
+
+</div>
+
+</div>
+<div class="pages_block">
+
+<div class="HTMLContentstyles__Wrapper-hv2w60-0 fgnwfi">
+
+<div class="pages_block">
+
+<div class="HTMLContentstyles__Wrapper-hv2w60-0 fgnwfi">
+
+The educational system in the US has these parts:
+
+</div>
+
+</div>
+
+</div>
+<div class="pages_block">
+
+<div class="HTMLContentstyles__Wrapper-hv2w60-0 fgnwfi">
+
+* Preschool and kindergarten,
+* Elementary schools – grades 1-6,
+* Middle schools – grades 7-8,
+* High schools – grades 9-12, and
+* Higher education, including 2-year community colleges, and 4-year colleges and universities.
+
+</div>
+
+</div>
+
+</div>
+<div class="pages_block">
+
+<div class="HTMLContentstyles__Wrapper-hv2w60-0 fgnwfi">
+
+We call this list of parts a “system” because the parts interact with each other to achieve overall goals, such as an educated population. The parts may interact through cause and effect or through the exchange of information or material. We can think of the input and output of the overall system, and we can also think about the input and output of each part; for example, some of the students who graduate from middle school (an output) go on to high school (an input). We can also think of the parts as being processes in the educational system.
+
+In his book,''Total Quality Control<sup>[1]</sup>'', Feigenbaum defines a '''system''' as:
+
+</div>
+
+</div>
+<div class="pages_block">
+
+<div class="HTMLContentstyles__Wrapper-hv2w60-0 fgnwfi">
+
+<div class="blockquote">
+
+A group or work pattern of interacting human and machine activities, directed by information, which operate on and/or direct material, information, energy, and/or humans to achieve a common specific purpose or objective.
+
+</div>
+
+</div>
+
+</div>
+<div class="pages_block">
+
+<div class="HTMLContentstyles__Wrapper-hv2w60-0 fgnwfi">
+
+Clearly this definition relates closely to industrial engineering and explains why some industrial engineering departments are called industrial and systems engineering. UTA’s department is called Industrial, Manufacturing, and Systems Engineering. However, systems engineering is also used sometimes in a more limited meaning, to refer to designing a computer and information system.
+
+<span>When we define a system we implicitly draw a line around some parts to include those parts and to exclude others. For example, the educational system includes the schools, but not the roads students travel on to get to school or the organizations that employ students after they graduate. Generally, looking at a larger system is more accurate but harder. We can understand some aspects of the educational system without considering these other parts, but some aspects require looking at the larger system. We can still examine the educational system if we remember to include in our study its interactions with its environment, such as the transportation system and the employment system.</span>
+
+For the IE, the '''systems approach''' is important because it reminds us to consider the environment surrounding the system we are studying and to move the boundaries outward as much as possible so that we consider a problem in its larger context.
+
+</div>
+
+</div>
+<div class="pages_block">
+
+<div class="HTMLContentstyles__Wrapper-hv2w60-0 fgnwfi">
+
+<div class="mt-section" mt-section-origin="Bookshelves/Industrial_and_Systems_Engineering/Introduction_to_Industrial_Engineering_(Boardman)/01:_Chapters/1.08:_Systems_Thinking">
+
+<span id="System_Analysis"></span>
+<span id="system-analysis"></span>
+== System Analysis ==
+
+Some systems have '''feedback'''. Feedback in a system is when outputs are fed back in as inputs for future system action. This is sometimes called a '''feedback loop'''. The educational system doesn’t tend to have a lot of feedback and that may hamper improvement of the system. Have you ever been asked by your high school to give feedback on how well your education prepared you for college or for work?
+
+<div class="wp-caption aligncenter" style="width: 1024px">
+
+([https://eng.libretexts.org/Bookshelves/Industrial_and_Systems_Engineering/Introduction_to_Industrial_Engineering_(Boardman)/01%3A_Chapters/1.08%3A_Systems_Thinking Media content: view on original URL])
+<div class="wp-caption-text">
+
+Figure 8.2: Feedback Loop
+
+</div>
+
+</div>
+<span>The operation of a system that has evolved without conscious design or a system that has been designed piece by piece almost always can be improved. Analysis means to take a system apart in order to understand how the parts work; systems thinking stresses </span> '''synthesis''' <span>, that is, understanding how the parts work together and how the system works as a whole. Understanding how each part of the educational system works is not enough for a good understanding and certainly not enough for making recommendations for improving the educational system; better recommendations would come from understanding how the parts of the system work together also.</span>
+
+<span>A system has the property that a change to one part can have effects, sometimes surprising effects, on other parts. A state might require that students entering state-funded four year universities meet certain standards (for example, knowledge of a foreign language). The effects of such a change might be good for the universities, but the effects on the high schools must also be considered; they might, for example, have to provide more language classes and hire more teachers. Improving one part of system may have good or bad consequences on another part of the system. Using antibiotics to cure diseases has had the consequence of creating bacteria that are immune to some antibiotics; within the system of individual patient and doctor, having the patient take antibiotics makes sense, but in the larger system, we might want to be more cautious about their use.</span>
+
+<div class="pages_block">
+
+<div class="HTMLContentstyles__Wrapper-hv2w60-0 fgnwfi">
+
+<div class="pages_block pages_heading--react">
+
+<div class="HTMLContentstyles__Wrapper-hv2w60-0 fgnwfi">
+
+<div class="mt-section" mt-section-origin="Bookshelves/Industrial_and_Systems_Engineering/Introduction_to_Industrial_Engineering_(Boardman)/01:_Chapters/1.08:_Systems_Thinking">
+
+<span id="System_Properties_and_Archetypes"></span>
+<span id="system-properties-and-archetypes"></span>
+== System Properties and Archetypes ==
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="pages_block">
+
+<div class="HTMLContentstyles__Wrapper-hv2w60-0 fgnwfi">
+
+A system may have '''emergent properties''', that is, properties of the whole that are not the property of any part. For example, living systems are alive, but one can’t isolate that property in any part of the system; it is a property of the entire system.
+
+<span style="text-align:initial;">A system can further be classified in these ways:</span>
+
+</div>
+
+</div>
+
+</div>
+<div class="pages_block">
+
+<div class="HTMLContentstyles__Wrapper-hv2w60-0 fgnwfi">
+
+* Natural (for example, a river) or man-made (for example, a bridge),
+* Static (for example, a bridge) or dynamic (for example, the U.S. economy),
+* Physical (for example, a factory) or abstract (for example, the architect’s drawing of the factory), and
+* Open (interacting with its environment) or closed (interacting very little with its environment)
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="pages_block">
+
+<div class="HTMLContentstyles__Wrapper-hv2w60-0 fgnwfi">
+
+Certain types of systems with feedback occur frequently in organizations and in society. If you learn to recognize them, you can learn what actions to take. William Braun describes [http://www.albany.edu/faculty/gpr/PAD724/724WebArticles/sys_archetypes.pdf 10 system archetypes]:
+
+</div>
+
+</div>
+
+</div>
+<div class="pages_block">
+
+<div class="HTMLContentstyles__Wrapper-hv2w60-0 fgnwfi">
+
+* Limits to Growth (aka Limits to Success)
+* Shifting the Burden
+* Eroding Goals
+* Escalation
+* Success to the Successful
+* Tragedy of the Commons
+* Fixes that Fail
+* Growth and Underinvestment
+* Accidental Adversaries
+* Attractiveness Principle
+
+</div>
+
+</div>
+<div class="pages_block">
+
+<div class="HTMLContentstyles__Wrapper-hv2w60-0 fgnwfi">
+
+This article, [http://www.systems-thinking.org/arch/arch.htm Interaction Structures of the Universe], has a summary of the above models.
+
+<div class="pages_block pages_heading--react">
+
+<div class="HTMLContentstyles__Wrapper-hv2w60-0 fgnwfi">
+
+<div class="mt-section" mt-section-origin="Bookshelves/Industrial_and_Systems_Engineering/Introduction_to_Industrial_Engineering_(Boardman)/01:_Chapters/1.08:_Systems_Thinking">
+
+<span id="Systems_Thinking"></span>
+<span id="systems-thinking"></span>
+== Systems Thinking ==
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="pages_block">
+
+<div class="HTMLContentstyles__Wrapper-hv2w60-0 fgnwfi">
+
+In this book The Fifth Discipline <sup>[2]</sup>, Peter Senge argues that organizations must become learning organizations by building knowledge of four disciplines: personal mastery, mental models, shared vision, and team learning. The “fifth discipline” is systems thinking, and he gives these '''laws of complex systems''':
+
+</div>
+
+</div>
+
+</div>
+<div class="pages_block">
+
+<div class="HTMLContentstyles__Wrapper-hv2w60-0 fgnwfi">
+
+# “Today’s problems comes from yesterday’s ‘solutions.'” Solutions can have unintended and undesired effects.
+# “The harder you push, the harder the system pushed back.” “Compensating feedback” may keep a system in the state it started.
+# “Behavior grows better before it grows worse.” Actions that make short term improvement may cause long term disaster.
+# “The easy way out usually leads back in.” Easy and obvious solutions would have been done already if they would have worked. Hard work is needed to find the real solution.
+# “The cure can be worse than the disease.” Some easy solutions become addictive.
+# “Faster is slower.” Any organization has an optimal rate of growth.
+# “Cause and effect are not closely related in time and space.”
+# “Small changes can produce big results – but the areas of highest leverage are often the least obvious.”
+# “You can have your cake and eat it too – but not at once.” For example, an improvement in quality pays off eventually in improved profits.
+# “Dividing an elephant in half does not produce two small elephants.” Some problems must be solved by improving the whole system.
+# “There is no blame.” “You and the cause of your problems are part of a single system.”
+
+</div>
+
+</div>
+<div class="pages_block">
+
+<div class="HTMLContentstyles__Wrapper-hv2w60-0 fgnwfi">
+
+While most engineers design physical objects (cars, bridges, and so forth), IEs design and improve production systems. A '''production system''' is a system that produces goods or services for customers. IEs have to think about how a production system works as a system by using the types of ideas I’ve just described.
+
+<div class="mt-section" mt-section-origin="Bookshelves/Industrial_and_Systems_Engineering/Introduction_to_Industrial_Engineering_(Boardman)/01:_Chapters/1.08:_Systems_Thinking">
+
+<span id="Exercise"></span>
+<span id="exercise"></span>
+== Exercise ==
+
+<span class="MathAndMarkdown__MarkdownContainer-sc-1m4kxcm-0 hApWxU">Choose one of the Laws of Complex Systems which you’ve seen demonstrated in your life. Identify the law you’ve chosen and describe the “real-world” example of it in action which you’ve seen. Your instructor may ask you to submit your answer.</span>
+
+</div>
+
+</div>
+
+</div>
+
+-----
+
+<div class="footnotes">
+
+# Feigenbaum, A. V. (1961). Total Quality Control. New York: McGraw-Hill. ↵
+# Senge, P. M. (1990). The fifth discipline: The art and practice of the learning organization. New York: Doubleday/Currency. ↵
+
+</div>
+
+</div>
+
+</div>
+<div id="mt-modal-container">
+
+</div>

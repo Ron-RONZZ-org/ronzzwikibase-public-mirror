@@ -1914,6 +1914,12 @@
       "sha256": "434cc481559bbb9fc1d46f1a93a6c5eb89dfb4f5adcf324c3cd4d2a975dc168d",
       "synced_at": "2026-11-12T10:20:30+00:00"
     },
+    "Feedback loop": {
+      "path": "Main/Feedback loop.wiki",
+      "revid": 16294,
+      "sha256": "3eabd1487893e63a819b09fae47b0a1903061e1d5bc043e86cad48677d8b33b1",
+      "synced_at": "2026-11-13T17:49:21+00:00"
+    },
     "Feedforward algorithm": {
       "path": "Main/Feedforward algorithm.wiki",
       "revid": 15143,
@@ -5708,9 +5714,9 @@
     },
     "Silicon tracking system": {
       "path": "Main/Silicon tracking system.wiki",
-      "revid": 12008,
-      "sha256": "a3a8049ac217a302e79c88e8be90cda5f6d51bfe1b90d86be54645b96e9f5acd",
-      "synced_at": "2026-10-31T16:09:35+00:00"
+      "revid": 16283,
+      "sha256": "19f763efc98bce40ffe5ff3ab597f8f3b3222a80dc2cabe19a581dce29a65de6",
+      "synced_at": "2026-11-13T17:49:21+00:00"
     },
     "Softmax": {
       "path": "Main/Softmax.wiki",
@@ -5867,6 +5873,18 @@
       "revid": 16279,
       "sha256": "bb8e25b8a7ba4bb3fe31ca44ffeadeba4ac172cc258da9c31ea91860a102b105",
       "synced_at": "2026-11-13T17:35:57+00:00"
+    },
+    "Source:1.8: Systems Thinking (Webpage)": {
+      "path": "Source/1.8_ Systems Thinking (Webpage).wiki",
+      "revid": 16293,
+      "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
+      "synced_at": "2026-11-13T17:49:21+00:00"
+    },
+    "Source:1.8: Systems Thinking (Webpage)/archivedText": {
+      "path": "Source/1.8_ Systems Thinking (Webpage)/archivedText.wiki",
+      "revid": 16292,
+      "sha256": "ad92931c92ae7d746bc78f2229a74bff4e61a60178bcc90a84598f67faf2dd19",
+      "synced_at": "2026-11-13T17:49:21+00:00"
     },
     "Source:10 key numbers on education (Webpage)": {
       "path": "Source/10 key numbers on education (Webpage).wiki",
@@ -8551,6 +8569,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-13T17:35:57+00:00",
+  "updated": "2026-11-13T17:49:21+00:00",
   "version": 1
 }
