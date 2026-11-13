@@ -1,0 +1,703 @@
+Skip to main content
+<div class="elm-skin-container" role="main" ga-category="Anonymous | page">
+
+<div class="elm-header">
+
+<div class="elm-header-custom">
+
+<div id="readerview_wrapper" style="display:none;">
+
+<div id="readerview" class="readerOn">
+
+<div class="header-left-control">
+
+<div class="header-menu">
+
+<span id="toc-btn-label" hidden="hidden">Table of Contents</span> <span class="material-symbols-outlined" aria-hidden="true" focusable="false">menu</span>
+
+</div>
+<div class="header-branding">
+
+[https://eng.libretexts.org/ ([https://eng.libretexts.org/Bookshelves/Industrial_and_Systems_Engineering/Introduction_to_Industrial_Engineering_(Boardman)/01%3A_Chapters/1.07%3A_People_in_the_System Media content: view on original URL]) Library homepage]
+
+</div>
+
+</div>
+<div class="header-title">
+
+ 
+
+</div>
+<div class="header-end">
+
+<span class="material-symbols-outlined" aria-hidden="true" focusable="false">search</span> <span class="visually-hidden">Search</span>
+<span class="material-symbols-outlined" aria-hidden="true" focusable="false">build_circle </span> <span class="visually-hidden">Toolbar</span>
+<span class="material-symbols-outlined" aria-hidden="true" focusable="false">fact_check</span> <span class="visually-hidden">Homework</span>
+<span class="material-symbols-outlined" aria-hidden="true" focusable="false">cancel</span> <span>Exit Reader Mode</span>
+
+</div>
+
+</div>
+<div id="offcanvas-menu">
+
+<div id="toc" class="hidden">
+
+ 
+
+</div>
+<div id="siteMenu">
+
+* [https://eng.libretexts.org/Courses <span class="material-symbols-outlined" aria-hidden="true" focusable="false">school</span> <span class="menu-label">Campus Bookshelves</span>]
+* [https://eng.libretexts.org/Bookshelves <span class="material-symbols-outlined" aria-hidden="true" focusable="false">menu_book</span> <span class="menu-label">Bookshelves</span>]
+* [https://eng.libretexts.org/Ancillary_Materials <span class="material-symbols-outlined" aria-hidden="true" focusable="false">perm_media</span> <span class="menu-label">Learning Objects</span>]
+
+* [https://eng.libretexts.org/Special:Userlogin?readerView#tab=login <span class="material-symbols-outlined" aria-hidden="true" focusable="false">login</span> <span class="menu-label">Login</span>]
+* [https://register.libretexts.org/ <span class="material-symbols-outlined" aria-hidden="true" focusable="false">how_to_reg</span> <span class="menu-label">Request Instructor Account</span>]
+* [https://commons.libretexts.org/ <span class="material-symbols-outlined" aria-hidden="true" focusable="false">hub</span> <span class="menu-label">Instructor Commons</span>]
+
+</div>
+
+</div>
+<div id="search">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel">
+
+<span id="search"></span>
+== Search ==
+
+<div class="form-item">
+
+Search this book
+
+</div>
+<div class="form-action">
+
+Submit Search
+
+</div>
+<div id="search_results">
+
+ 
+
+</div>
+
+</div>
+
+</div>
+<div id="readability">
+
+x
+
+<div id="beeline" class="settings-section">
+
+<div class="setting">
+
+<div class="setting-title">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel/Readability">
+
+<span id="text-color"></span>
+==== Text Color ====
+
+Reset
+
+</div>
+
+</div>
+<div class="setting-control text_color">
+
+<span class="bee-btn-render"> </span><span class="bee-btn-label">Bright</span>
+<span class="bee-btn-render"> </span><span class="bee-btn-label">Blues</span>
+<span class="bee-btn-render"> </span><span class="bee-btn-label">Gray</span>
+<span class="bee-btn-render"> </span><span class="bee-btn-label">Inverted</span>
+
+</div>
+
+</div>
+
+</div>
+<div id="textSize" class="settings-section">
+
+<div class="setting">
+
+<div class="setting-title">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel/Readability">
+
+<span id="text-size"></span>
+==== Text Size ====
+
+Reset
+
+</div>
+
+</div>
+<div class="font-adjuster">
+
++
+-
+<div id="range_bs" class="range_base" type="input" value="18">
+
+ 
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div id="textSize" class="settings-section">
+
+<div class="setting">
+
+<div class="setting-title">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel/Readability">
+
+<span id="margin-size"></span>
+==== Margin Size ====
+
+Reset
+
+</div>
+
+</div>
+<div class="margin-adjuster">
+
++
+-
+<div id="margin_disp" class="margin_display" type="input" value="55">
+
+ 
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div id="textSize" class="settings-section">
+
+<div class="setting">
+
+<div class="setting-title">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel/Readability">
+
+<span id="font-type"></span>
+==== Font Type ====
+
+</div>
+
+</div>
+<div class="dyslexic-toggle">
+
+Enable Dyslexic Font <span class="slider round"> </span>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div id="toolbar">
+
+<ul>
+<li><span id="dl-menu">[https://eng.libretexts.org/?downloads <span>Downloads</span> <span class="material-symbols-outlined" aria-hidden="true" focusable="false">expand_more</span>]</span>
+<div class="sub-nav">
+
+<ul>
+<li>[https://eng.libretexts.org/?downloadpage <span>Download Page (PDF)</span>]</li>
+<li>[https://eng.libretexts.org/?downloadfull <span>Download Full Book (PDF)</span>]</li></ul>
+
+</div></li>
+<li><span id="res-menu">[https://eng.libretexts.org/?resources <span>Resources</span> <span class="material-symbols-outlined" aria-hidden="true" focusable="false">expand_more</span>]</span>
+<div class="sub-nav">
+
+<ul>
+<li>[https://eng.libretexts.org/?pertable <span>Periodic Table</span>]</li>
+<li>[https://eng.libretexts.org/?physconst <span>Physics Constants</span>]</li>
+<li>[https://eng.libretexts.org/?scientificcal Scientific Calculator]</li></ul>
+
+</div></li>
+<li><span id="ref-menu">[https://eng.libretexts.org/?references <span>Reference</span> <span class="material-symbols-outlined" aria-hidden="true" focusable="false">expand_more</span>]</span>
+<div class="sub-nav">
+
+<ul>
+<li>[https://eng.libretexts.org/?refmodal <span>Reference &amp; Cite</span>]</li></ul>
+
+</div></li>
+<li><span id="tools-menu">[https://eng.libretexts.org/?tools <span>Tools</span> <span class="material-symbols-outlined" aria-hidden="true" focusable="false">expand_more</span>]</span>
+<div class="sub-nav">
+
+<ul>
+</ul>
+
+</div></li>
+<li><span id="help-menu">[https://eng.libretexts.org/?help <span>Help</span> <span class="material-symbols-outlined" aria-hidden="true" focusable="false">expand_more</span>]</span>
+<div class="sub-nav">
+
+<ul>
+<li>[https://eng.libretexts.org/?helpmodal <span>Get Help</span>]</li>
+<li>[https://eng.libretexts.org/?feedback <span>Feedback</span>]</li>
+<li>[https://eng.libretexts.org/?readability <span>Readability</span>]</li></ul>
+
+</div></li></ul>
+
+</div>
+<div id="modal_readerview" class="modal">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel">
+
+<span id="section"></span>
+==   ==
+
+<span class="modal-close" tabindex="0">x</span>
+
+</div>
+
+</div>
+<div class="modal-body">
+
+selected template will load here
+
+</div>
+
+</div>
+
+</div>
+<div id="modal-main" class="modal micromodal-slide" aria-hidden="true">
+
+<div class="modal__overlay" micromodal-close="data-micromodal-close" tabindex="-1">
+
+<div class="modal__container" aria-labelledby="modal-main-title" aria-modal="true" role="dialog">
+
+<div class="modal__header">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel">
+
+<span id="modal-main-title"></span>
+== Error ==
+
+</div>
+
+</div>
+<div id="modal-main-body" class="modal__content" role="main">
+
+This action is not available.
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="mt-container-highlight" style="background-color: #ffffff;">
+
+</div>
+<div style="display:none">
+
+<div id="parentTitleHolder" style="display:none">
+
+1: Chapters
+
+</div>
+<div id="parentParentTitleHolder" style="display:none">
+
+Introduction to Industrial Engineering (Boardman)
+
+</div>
+<div id="subpagesHolder" style="display:none">
+
+{ }
+
+</div>
+<div id="parentSubpagesHolder" style="display:none">
+
+{ &quot;1.01:_What_is_Industrial_Engineering&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;1.02:_Teamwork&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;1.03:_What_is_Problem_Solving&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;1.04:_Big_Ideas_in_Industrial_Engineering&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;1.05:_Using_Models&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;1.06:_Deming\'s_14_Points&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;1.07:_People_in_the_System&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;1.08:_Systems_Thinking&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;1.09:_Lean_Operations&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;1.10:_The_IE_Approach&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;1.11:_Organizations\'_Missions_Visions_and_Values&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;1.12:_Lifelong_Learning&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot; }
+
+</div>
+<div id="parentParentSubpagesHolder" style="display:none">
+
+{ &quot;00:_Front_Matter&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;01:_Chapters&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;zz:_Back_Matter&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot; }
+
+</div>
+<div id="modifiedHolder" style="display:none">
+
+Fri, 05 Mar 2021 08:19:36 GMT
+
+</div>
+<div id="titleHolder" style="display:none">
+
+1.7: People in the System
+
+</div>
+<div id="IDHolder" style="display:none">
+
+28423
+
+</div>
+<div id="pageIDHolder" style="display:none">
+
+28423
+
+</div>
+<div id="pageAuthorHolder" style="display:none">
+
+Delmar Larsen
+
+</div>
+<div id="groupHolder" style="display:none">
+
+{ }
+
+</div>
+<div id="usernameHolder" style="display:none">
+
+Anonymous
+
+</div>
+<div id="displaynameHolder" style="display:none">
+
+Anonymous User
+
+</div>
+<div id="userEmailHolder" style="display:none">
+
+</div>
+<div id="emailHolder" style="display:none">
+
+</div>
+<div id="userIDHolder" style="display:none">
+
+2
+
+</div>
+<div id="proHolder" style="display:none">
+
+false
+
+</div>
+<div id="adminHolder" style="display:none">
+
+false
+
+</div>
+<div id="pageTagsHolder" style="display:none">
+
+[ &quot;article:topic&quot;, &quot;license:ccby&quot;, &quot;authorname:bboardman&quot; ]
+
+</div>
+<div id="tagsHolder" style="display:none">
+
+[ &quot;article:topic&quot;, &quot;license:ccby&quot;, &quot;authorname:bboardman&quot; ]
+
+</div>
+<div id="ssoHolder" style="display:none">
+
+https://eng.libretexts.org/@app/auth/3/login?returnto=https%3A%2F%2Feng.libretexts.org%2FBookshelves%2FIndustrial_and_Systems_Engineering%2FIntroduction_to_Industrial_Engineering_(Boardman)%2F01%253A_Chapters%2F1.07%253A_People_in_the_System
+
+</div>
+
+</div>
+
+</div>
+<div class="elm-nav mt-translate-module" hidden="true">
+
+<div class="elm-nav-container mt-translate-container">
+
+</div>
+
+</div>
+<div class="elm-header-logo-container">
+
+[https://eng.libretexts.org ([https://eng.libretexts.org/Bookshelves/Industrial_and_Systems_Engineering/Introduction_to_Industrial_Engineering_(Boardman)/01%3A_Chapters/1.07%3A_People_in_the_System Media content: view on original URL]) Engineering LibreTexts]
+
+</div>
+
+</div>
+<div>
+
+<div id="flash-messages">
+
+<div class="dekiFlash">
+
+</div>
+
+</div>
+<span id="title"></span>
+= 1.7: People in the System =
+
+# #; Last updated
+#: <span class="mt-last-updated" timestamp="2021-03-05T08:19:36Z"></span>
+# [https://eng.libretexts.org/@api/deki/pages/28423/pdf/1.7%253A%2bPeople%2bin%2bthe%2bSystem.pdf <span class="mt-icon-article-pdf"></span>Save as PDF]
+# 
+
+</div>
+<div class="mt-content-header">
+
+; Page ID
+: 28423
+
+<div class="mt-author-container">
+
+* ([https://eng.libretexts.org/Bookshelves/Industrial_and_Systems_Engineering/Introduction_to_Industrial_Engineering_(Boardman)/01%3A_Chapters/1.07%3A_People_in_the_System Media content: view on original URL])
+* [https://mentis.uta.edu/explore/profile/habib%20-ahmari Bonnie Boardman]
+* [https://www.uta.edu/ University of Texas at Arlington]<span class="mt-author-written"> via </span>[https://uta.pressbooks.pub/ Mavs Open Press]
+
+</div>
+<div class="Headertext">
+
+\( \newcommand{\vecs}[1]{\overset { \scriptstyle \rightharpoonup} {\mathbf{#1}} } \)
+
+\( \newcommand{\vecd}[1]{\overset{-\!-\!\rightharpoonup}{\vphantom{a}\smash {#1}}} \)
+
+\( \newcommand{\dsum}{\displaystyle\sum\limits} \)
+
+\( \newcommand{\dint}{\displaystyle\int\limits} \)
+
+\( \newcommand{\dlim}{\displaystyle\lim\limits} \)
+
+\( \newcommand{\id}{\mathrm{id}}\) \( \newcommand{\Span}{\mathrm{span}}\)
+
+( \newcommand{\kernel}{\mathrm{null}\,}\) \( \newcommand{\range}{\mathrm{range}\,}\)
+
+\( \newcommand{\RealPart}{\mathrm{Re}}\) \( \newcommand{\ImaginaryPart}{\mathrm{Im}}\)
+
+\( \newcommand{\Argument}{\mathrm{Arg}}\) \( \newcommand{\norm}[1]{\| #1 \|}\)
+
+\( \newcommand{\inner}[2]{\langle #1, #2 \rangle}\)
+
+\( \newcommand{\Span}{\mathrm{span}}\)
+
+\( \newcommand{\id}{\mathrm{id}}\)
+
+\( \newcommand{\Span}{\mathrm{span}}\)
+
+\( \newcommand{\kernel}{\mathrm{null}\,}\)
+
+\( \newcommand{\range}{\mathrm{range}\,}\)
+
+\( \newcommand{\RealPart}{\mathrm{Re}}\)
+
+\( \newcommand{\ImaginaryPart}{\mathrm{Im}}\)
+
+\( \newcommand{\Argument}{\mathrm{Arg}}\)
+
+\( \newcommand{\norm}[1]{\| #1 \|}\)
+
+\( \newcommand{\inner}[2]{\langle #1, #2 \rangle}\)
+
+\( \newcommand{\Span}{\mathrm{span}}\) \( \newcommand{\AA}{\unicode[.8,0]{x212B}}\)
+
+\( \newcommand{\vectorA}[1]{\vec{#1}}      % arrow\)
+
+\( \newcommand{\vectorAt}[1]{\vec{\text{#1}}}      % arrow\)
+
+\( \newcommand{\vectorB}[1]{\overset { \scriptstyle \rightharpoonup} {\mathbf{#1}} } \)
+
+\( \newcommand{\vectorC}[1]{\textbf{#1}} \)
+
+\( \newcommand{\vectorD}[1]{\overrightarrow{#1}} \)
+
+\( \newcommand{\vectorDt}[1]{\overrightarrow{\text{#1}}} \)
+
+\( \newcommand{\vectE}[1]{\overset{-\!-\!\rightharpoonup}{\vphantom{a}\smash{\mathbf {#1}}}} \)
+
+\( \newcommand{\vecs}[1]{\overset { \scriptstyle \rightharpoonup} {\mathbf{#1}} } \)
+
+\(\newcommand{\longvect}{\overrightarrow}\)
+
+\( \newcommand{\vecd}[1]{\overset{-\!-\!\rightharpoonup}{\vphantom{a}\smash {#1}}} \)
+
+\(\newcommand{\ket}[1]{\left| #1 \right&gt;}\)<br />
+\(\newcommand{\bra}[1]{\left&lt; #1 \right|}\)<br />
+\(\newcommand{\braket}[2]{\left&lt; #1 \vphantom{#2} \right| \left. #2 \vphantom{#1} \right&gt;}\)<br />
+\(\newcommand{\braopket}[3]{\left&lt; #1 \vphantom{#2}\vphantom{#3} \right| #2 \vphantom{#1}\vphantom{#3} \left| #3 \vphantom{#1}\vphantom{#2} \right&gt;}\)<br />
+\(\newcommand{\qmvec}[1]{\mathbf{\vec{#1}}}\)<br />
+\(\newcommand{\op}[1]{\hat{\mathbf{#1}}}\)<br />
+\(\newcommand{\expect}[1]{\langle #1 \rangle}\)<br />
+\(\newcommand{\dfn}[1]{\emph{\textbf{#1}}}\)
+
+\(\newcommand{\avec}{\mathbf a}\) \(\newcommand{\bvec}{\mathbf b}\) \(\newcommand{\cvec}{\mathbf c}\) \(\newcommand{\dvec}{\mathbf d}\) \(\newcommand{\dtil}{\widetilde{\mathbf d}}\) \(\newcommand{\evec}{\mathbf e}\) \(\newcommand{\fvec}{\mathbf f}\) \(\newcommand{\nvec}{\mathbf n}\) \(\newcommand{\pvec}{\mathbf p}\) \(\newcommand{\qvec}{\mathbf q}\) \(\newcommand{\svec}{\mathbf s}\) \(\newcommand{\tvec}{\mathbf t}\) \(\newcommand{\uvec}{\mathbf u}\) \(\newcommand{\vvec}{\mathbf v}\) \(\newcommand{\wvec}{\mathbf w}\) \(\newcommand{\xvec}{\mathbf x}\) \(\newcommand{\yvec}{\mathbf y}\) \(\newcommand{\zvec}{\mathbf z}\) \(\newcommand{\rvec}{\mathbf r}\) \(\newcommand{\mvec}{\mathbf m}\) \(\newcommand{\zerovec}{\mathbf 0}\) \(\newcommand{\onevec}{\mathbf 1}\) \(\newcommand{\real}{\mathbb R}\) \(\newcommand{\twovec}[2]{\left[\begin{array}{r}#1 \\ #2 \end{array}\right]}\) \(\newcommand{\ctwovec}[2]{\left[\begin{array}{c}#1 \\ #2 \end{array}\right]}\) \(\newcommand{\threevec}[3]{\left[\begin{array}{r}#1 \\ #2 \\ #3 \end{array}\right]}\) \(\newcommand{\cthreevec}[3]{\left[\begin{array}{c}#1 \\ #2 \\ #3 \end{array}\right]}\) \(\newcommand{\fourvec}[4]{\left[\begin{array}{r}#1 \\ #2 \\ #3 \\ #4 \end{array}\right]}\) \(\newcommand{\cfourvec}[4]{\left[\begin{array}{c}#1 \\ #2 \\ #3 \\ #4 \end{array}\right]}\) \(\newcommand{\fivevec}[5]{\left[\begin{array}{r}#1 \\ #2 \\ #3 \\ #4 \\ #5 \\ \end{array}\right]}\) \(\newcommand{\cfivevec}[5]{\left[\begin{array}{c}#1 \\ #2 \\ #3 \\ #4 \\ #5 \\ \end{array}\right]}\) \(\newcommand{\mattwo}[4]{\left[\begin{array}{rr}#1 \amp #2 \\ #3 \amp #4 \\ \end{array}\right]}\) \(\newcommand{\laspan}[1]{\text{Span}\{#1\}}\) \(\newcommand{\bcal}{\cal B}\) \(\newcommand{\ccal}{\cal C}\) \(\newcommand{\scal}{\cal S}\) \(\newcommand{\wcal}{\cal W}\) \(\newcommand{\ecal}{\cal E}\) \(\newcommand{\coords}[2]{\left\{#1\right\}_{#2}}\) \(\newcommand{\gray}[1]{\color{gray}{#1}}\) \(\newcommand{\lgray}[1]{\color{lightgray}{#1}}\) \(\newcommand{\rank}{\operatorname{rank}}\) \(\newcommand{\row}{\text{Row}}\) \(\newcommand{\col}{\text{Col}}\) \(\renewcommand{\row}{\text{Row}}\) \(\newcommand{\nul}{\text{Nul}}\) \(\newcommand{\var}{\text{Var}}\) \(\newcommand{\corr}{\text{corr}}\) \(\newcommand{\len}[1]{\left|#1\right|}\) \(\newcommand{\bbar}{\overline{\bvec}}\) \(\newcommand{\bhat}{\widehat{\bvec}}\) \(\newcommand{\bperp}{\bvec^\perp}\) \(\newcommand{\xhat}{\widehat{\xvec}}\) \(\newcommand{\vhat}{\widehat{\vvec}}\) \(\newcommand{\uhat}{\widehat{\uvec}}\) \(\newcommand{\what}{\widehat{\wvec}}\) \(\newcommand{\Sighat}{\widehat{\Sigma}}\) \(\newcommand{\lt}{&lt;}\) \(\newcommand{\gt}{&gt;}\) \(\newcommand{\amp}{&amp;}\) \(\definecolor{fillinmathshade}{gray}{0.9}\)
+
+</div>
+
+</div>
+<div class="section mt-content-container">
+
+<div class="chapter-9-people">
+
+<div class="mt-section" mt-section-origin="Bookshelves/Industrial_and_Systems_Engineering/Introduction_to_Industrial_Engineering_(Boardman)/01:_Chapters/1.07:_People_in_the_System">
+
+<span id="Chapter_Table_of_Contents"></span>
+<span id="chapter-table-of-contents"></span>
+== Chapter Table of Contents ==
+
+* Physical Ergonomics
+* Safety and the Work Environment
+* Cognitive Ergonomics
+* Exercise
+
+</div>
+
+</div>
+<div class="wp-caption aligncenter" style="width: 428px">
+
+([https://eng.libretexts.org/Bookshelves/Industrial_and_Systems_Engineering/Introduction_to_Industrial_Engineering_(Boardman)/01%3A_Chapters/1.07%3A_People_in_the_System Media content: view on original URL]) alt
+<div class="wp-caption-text">
+
+Figure 7.1: People are an Important Part of any System
+
+</div>
+
+</div>
+<div class="chapter-9-people">
+
+Among all the engineering specialties, industrial engineering focuses the most on people. Because we design and improve production systems involving people and machines, we need to think about what people and machines can and can’t do quickly, well, and safely. On some tasks, people are clearly better than machines (for example, helping customers) while on other tasks, machines are clearly better than people (for example, lifting very heavy objects). Many production tasks require a combination of people and machines. The goal is to design a system of people and machines that can do the work with efficiency, quality, and safety.
+
+</div>
+<div class="chapter-9-people">
+
+<div class="mt-section" mt-section-origin="Bookshelves/Industrial_and_Systems_Engineering/Introduction_to_Industrial_Engineering_(Boardman)/01:_Chapters/1.07:_People_in_the_System">
+
+<span id="Physical_ergonomics"></span>
+<span id="physical-ergonomics"></span>
+== <span></span>Physical ergonomics ==
+
+<div class="wp-caption aligncenter" style="width: 1024px">
+
+([https://eng.libretexts.org/Bookshelves/Industrial_and_Systems_Engineering/Introduction_to_Industrial_Engineering_(Boardman)/01%3A_Chapters/1.07%3A_People_in_the_System Media content: view on original URL]) alt
+<div class="wp-caption-text">
+
+Figure 7.2: Ergonomics is Important in Workstation Design​
+
+</div>
+
+</div>
+<div class="pages_block">
+
+<div class="HTMLContentstyles__Wrapper-hv2w60-0 fgnwfi">
+
+IEs must be aware of and prevent situations where work methods can cause harm to workers. Besides being the right thing to do, such prevention can save the organization money and can reduce the liability exposure of the organization.
+
+Researchers in physical ergonomics often rely on physics to understand the effects of work on human bodies. Specialists in this area often have to know anatomy and physiology. Lab studies of people doing a task may monitor the person’s physiological condition (for example, heart rate and oxygen uptake) in order to determine the exact effects of different work on humans.
+
+The IE may redesign jobs to reduce the need to stand, provide better chairs for workers, provide better hand tools for workers, and reduce the need for workers to lift heavy objects. Ergonomics stresses adapting the workplace to the worker. Such adaptions must be individual. Work stations that allow adjustments can help; for example, tables and chairs that can be raised or lowered, or a work station that accommodates left-handed and right-handed workers. The Occupational Safety and Health Administration (OSHA) provides short [https://www.osha.gov/SLTC/ergonomics/success_stories.html case studies] describing how job redesign has reduced ergonomic issues. We will be reading some of these in class.
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div id="section_1" class="mt-section" mt-section-origin="Bookshelves/Industrial_and_Systems_Engineering/Introduction_to_Industrial_Engineering_(Boardman)/01:_Chapters/1.07:_People_in_the_System">
+
+<span id="Safety_and_work_environment"></span>
+<span id="safety-and-work-environment"></span>
+== <span></span>Safety and work environment ==
+
+According to the [http://www.bls.gov/iif/oshwc/cfoi/cftb0277.pdf Bureau of Labor Statistics] 4,585 workers died from work related causes in the US in 2013. The workplace can be a dangerous location, but the safety hazards can be reduced. The IE designs the workplace so that danger is reduced from the use of tools, machines, and materials in the production process.
+
+<span style="font-size: 14pt">For example, operation of a punch press often requires that two buttons, away from the punch location itself, be pressed simultaneously with the worker’s left and right hands. If the worker’s hands are pressing those buttons, the hands cannot be under the press, so cannot be injured.</span>
+
+<span style="font-size: 14pt">There are several tools that can help an IE think systematically about what can go wrong: FMEA and fault tree analysis help the IE trace through how errors or faultscan lead to accidents. Any accident in an organization should be carefully analyzed to determine the cause. The system should be changed to eliminate or reduce the change of that type of accident occurring.</span>
+
+<span style="font-size: 14pt">An IE’s instinct should be to design the system so that safety, efficiency, and quality occur naturally. If an injury occurs, an IE’s first thought should be to blame the system. For example, </span> [https://www.osha.gov/dts/osta/lototraining/tutorial/tu-overvw.html lockout and tagout procedures] <span style="font-size: 14pt">are meant to protect maintenance and repair workers from the accidental start up of equipment. However, workers must obey such safety rules. The IE may be in charge of safety training programs for workers, which should include the reasons for certain rules. Many organizations have a one strike policy; any violation of a safety rule leads to immediate dismissal. While such a policy may seem extreme, it conveys clearly to workers the organization’s dedication to safety.</span>
+
+<span style="text-align: initial;font-size: 14pt">Apart from the safety of the worker, the worker also exists in an environment and the IE must consider effects on the comfort of the worker of:</span>
+
+<div class="chapter-9-people">
+
+* vibration,
+* heat and cold,
+* humidity,
+* noise,
+* air quality, and
+* lighting.
+
+<span style="text-align: justify;font-size: 14pt">The field of occupational safety has expanded from concern with injury-causing conditions to include concern with disease-causing conditions. The safety manager is now the safety and health manager. For example, worker stress is a health concern, but also a potential safety concern if the stressed worker is less safety conscious. Similarly, NIOSH points to shift work and long work hours as safety and health potential issues.</span>
+
+<span style="font-size: 14pt;text-align: justify">According to 2001 data from the Bureau of Labor Statistics, almost 15 million Americans work evening shift, night shift, rotating shifts, or other employer arranged irregular schedules. The International Labour Office in 2003 reports that working hours in the United States exceed Japan and most of western Europe. Both shift work and long work hours have been associated with health and safety risks.</span>
+
+<span style="font-size: 14pt;text-align: justify">Some companies have introduced programs to promote good health, for example, smoking cessation programs, safe driving programs, and exercise programs, at least partly to reduce health insurance premiums the company pays for workers. Some companies have gone as far as forbidding their workers to smoke off the job, but such programs have been controversial.</span>
+
+</div>
+<div class="chapter-9-people">
+
+<div class="pages_block">
+
+<div class="HTMLContentstyles__Wrapper-hv2w60-0 fgnwfi">
+
+<div class="mt-section" mt-section-origin="Bookshelves/Industrial_and_Systems_Engineering/Introduction_to_Industrial_Engineering_(Boardman)/01:_Chapters/1.07:_People_in_the_System">
+
+<span id="Cognitive_Engineering"></span>
+<span id="cognitive-engineering"></span>
+== <span></span>Cognitive Engineering ==
+
+<div class="wp-caption aligncenter" style="width: 624px">
+
+([https://eng.libretexts.org/Bookshelves/Industrial_and_Systems_Engineering/Introduction_to_Industrial_Engineering_(Boardman)/01%3A_Chapters/1.07%3A_People_in_the_System Media content: view on original URL]) As people learn new tasks the rate at which they learn is typically broken into three phases: a slow begining, a steep acceleration, and then a plateau
+<div class="wp-caption-text">
+
+Figure 7.3: Typical Learning Curve Progression
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+At least some of the events at [https://en.Wikipedia.org/wiki/Three_Mile_Island_accident Three Mile Island accident] can be attributed to difficulties workers had in figuring out what was going on in the reactor. One problem is that the workers’ normal job largely consists of monitoring a smoothly running reactor (yes, picture Homer Simpson). Such a job is boring and can quickly lead to lack of vigilance. When a problem occurs, the person is “out of the loop” because the computer controls have been running the plant. The workers must spend time figuring out what has happened. A second problem at Three Mile Island was that the design of the control room at that reactor did not convey crucial information to the workers, particularly the level of coolant in the reactor; they had to infer that level from other indicators.
+
+Cognitive engineering builds on knowledge from psychology about human abilities in memory, perception, reasoning, and attention to design tasks that a human can do with efficiency, quality, and safety. Again, the focus is on adapting the workplace to the human. A human who must remember certain tasks in a specific order can be given a checklist. A human who has to perceive a change in an array of displays can be aided by a computer that detects the changes and alerts the human (for example, cockpit alarms for loss of altitude). A human who has to do a complicated set of reasoning can be supported by a computer system (for example, an immunohematologist who must interpret blood tests to identify antibodies in a patient’s blood). A person who must pay attention to several sources of information can share the task with computers and with other humans.
+
+A balance must be achieved between under-stimulating the human, leading to boredom, and overstimulating the human, leading to stress. Both can lead to losses in efficiency, quality, and safety. Generally, the human performs better when the worker clearly has control of the environment, including work pace. Shifting control to the computer can lead to boredom, stress, inattentiveness, and over-reliance on the computer.
+
+The design of controls, including computer hardware and software, to support human tasks requires careful analysis of usability, which is affected by screen layout, task sequence, and many other factors. NASA’s [http://human-factors.arc.nasa.gov Human Systems Integration Division] advances human-centered design and operations of complex aerospace systems through analysis, experimentation, and modeling of human performance and human-automation interaction to make dramatic improvements in safety, efficiency, and mission success.
+
+[http://www.ntsb.gov/investigations/AccidentReports/Reports/AAR9307.pdf This FAA analysis] of an airliner accident in 1993, in which 2 people were killed, shows the interplay of the design of the controls, the training of the pilot, and the behavior of passengers.
+
+<div class="blockquote">
+
+Flight 583 was level at 33,000 feet when the leading edge slats deployed inadvertently. The autopilot disconnected and the captain was manually controlling the airplane when it progressed through several violent pitch oscillations and lost 5,000 feet.
+
+</div>
+<div class="lt-eng-28423"" chapter-9-people="=">
+
+<div class="mt-section" mt-section-origin="Bookshelves/Industrial_and_Systems_Engineering/Introduction_to_Industrial_Engineering_(Boardman)/01:_Chapters/1.07:_People_in_the_System">
+
+<span id="Exercise"></span>
+<span id="exercise"></span>
+== <span></span>Exercise ==
+
+Read one of the [https://www.osha.gov/SLTC/ergonomics/success_stories.html OSHA success stories] and research the IE tools or techniques that may have been involved in that success. Your instructor may ask you to present a summary of the story you chose and the IE tools and techniques you think were used in class.
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div id="mt-modal-container">
+
+</div>

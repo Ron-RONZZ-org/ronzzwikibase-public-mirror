@@ -2456,9 +2456,9 @@
     },
     "Linear system": {
       "path": "Main/Linear system.wiki",
-      "revid": 8798,
-      "sha256": "655f32dd9dc1efc8f1b837b69fad137b9ed3ddf92ba485a0ae6f59096b339978",
-      "synced_at": "2026-10-18T07:12:55+00:00"
+      "revid": 16282,
+      "sha256": "02003a243669bc70f53bdb98289d57c7b0fb6cb76fb53629141f30c78a70a340",
+      "synced_at": "2026-11-13T17:35:57+00:00"
     },
     "Linearly independent": {
       "path": "Main/Linearly independent.wiki",
@@ -2528,9 +2528,9 @@
     },
     "Mathematical modelling": {
       "path": "Main/Mathematical modelling.wiki",
-      "revid": 16267,
-      "sha256": "c797f99be1bcacdb1478d419ef8e7e1ffee547804bc07c7ce3c0269c7882d97f",
-      "synced_at": "2026-11-13T16:49:52+00:00"
+      "revid": 16281,
+      "sha256": "24bdb54ceddcde57403b6663120283d5708d7d23653cc234c86223fd2232659e",
+      "synced_at": "2026-11-13T17:35:57+00:00"
     },
     "Mathematical optimisation": {
       "path": "Main/Mathematical optimisation.wiki",
@@ -5856,6 +5856,18 @@
       "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
       "synced_at": "2026-10-20T14:52:47+00:00"
     },
+    "Source:1.7: People in the System (Webpage)": {
+      "path": "Source/1.7_ People in the System (Webpage).wiki",
+      "revid": 16280,
+      "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
+      "synced_at": "2026-11-13T17:35:57+00:00"
+    },
+    "Source:1.7: People in the System (Webpage)/archivedText": {
+      "path": "Source/1.7_ People in the System (Webpage)/archivedText.wiki",
+      "revid": 16279,
+      "sha256": "bb8e25b8a7ba4bb3fe31ca44ffeadeba4ac172cc258da9c31ea91860a102b105",
+      "synced_at": "2026-11-13T17:35:57+00:00"
+    },
     "Source:10 key numbers on education (Webpage)": {
       "path": "Source/10 key numbers on education (Webpage).wiki",
       "revid": 8982,
@@ -8539,6 +8551,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-13T17:08:47+00:00",
+  "updated": "2026-11-13T17:35:57+00:00",
   "version": 1
 }

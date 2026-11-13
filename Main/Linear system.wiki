@@ -1,4 +1,4 @@
-A '''linear system''' is a system of multiple [[linear equation|linear equations]]
+A '''linear system''' is a system of multiple [[linear equation|linear equations]].
 
 == Matrix notation ==
 

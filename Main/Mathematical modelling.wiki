@@ -10,3 +10,19 @@
 
 * [[Deterministic model]]
 * [[Probabilistic model]]
+
+== Danger ==
+
+A danger to mathematical modelling is the false sense of certainty and ignorance of assumptions and simplifications made along the way.
+
+For example, a mathematically "optimised" factory production plan may expose workers to significant stress, unsociable work shift schedules, or other adverse elements not taken into account in the model, which in the long run would also hurt the factory due to high staff turnover and poor reputation. Overconfidence on mathematical models can result in overconfidence and insistence on counter-productive plans.
+
+Therefore, it is essential to practice [[critical thinking]] with conclusions drawn from any mathematical modelling.
+
+Questions to ask may include:
+
+* What are the assumptions/simplifications made in the model? Are they reasonable?
+* What has been taken into account? What has not been taken into account?
+* How rigorous is the mathematical derivation? Is there any chance the model may be wrong/incomplete?
+
+<ref>{{#cite:Q3318}}</ref>
