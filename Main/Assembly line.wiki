@@ -1,0 +1,64 @@
+[[Category:Production]]
+[[File:Airacobra-p39-assembly-l-oc-02902u.jpg|thumbnail|An assembly plant of the Bell Aircraft Corporation at Wheatfield, New York, USA in the 1940s]]
+An '''assembly line''' is a technique of [[production#Production_modes|mass production]] in which the making of products is divided into small, elementary tasks, each to be performed at a '''workstation'''. The products move from workstation to workstation, but labour and machines generally stay at a given workstation.
+
+{{Hidden example}}
+
+<uml>
+@startuml
+!theme bluegray
+title Assembly line — industrial baguette baking
+top to bottom direction
+skinparam defaultTextAlignment center
+skinparam ArrowColor #4A5A63
+skinparam rectangle<<machine>> {
+  BackgroundColor #DCE3E6
+}
+skinparam rectangle<<labour>> {
+  BackgroundColor #F4F6F7
+}
+
+package "Workstation 1 · Dough making" as WS1 {
+  together {
+    rectangle "Mixer" <<machine>> as M1
+    rectangle "Baker 1" <<labour>> as L1
+  }
+}
+package "Workstation 2 · Dividing and shaping dough" as WS2 {
+  together {
+    rectangle "Divider / shaper" <<machine>> as M2
+    rectangle "Baker 2" <<labour>> as L2
+  }
+}
+package "Workstation 3 · Proofing" as WS3 {
+  together {
+    rectangle "Proofing cabinet" <<machine>> as M3
+    rectangle "Baker 3" <<labour>> as L3
+  }
+}
+package "Workstation 4 · Scoring and baking" as WS4 {
+  together {
+    rectangle "Deck oven" <<machine>> as M4
+    rectangle "Baker 4" <<labour>> as L4
+  }
+}
+package "Workstation 5 · Cooling and packing" as WS5 {
+  together {
+    rectangle "Cooling rack, bagging machine" <<machine>> as M5
+    rectangle "Baker 5" <<labour>> as L5
+  }
+}
+
+rectangle "Finished\nbags of baguettes\nReady to ship!" as OUT
+
+WS1 -down-> WS2 : dough
+WS2 -down-> WS3 : shaped loaves
+WS3 -down-> WS4 : proved loaves
+WS4 -down-> WS5 : baked baguettes
+WS5 -down-> OUT : bagged baguettes
+
+@enduml
+</uml>
+
+The workpiece (dough becoming baguette) moves down the line from workstation to workstation, while each baker and each machine stay put.
+{{End hidden}}
