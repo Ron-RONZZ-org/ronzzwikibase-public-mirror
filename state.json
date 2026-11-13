@@ -5430,6 +5430,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T14:10:29+00:00"
     },
+    "Person:Yoochul Kim": {
+      "path": "Person/Yoochul Kim.wiki",
+      "revid": 16360,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-13T18:21:01+00:00"
+    },
     "Person:Yu Luo": {
       "path": "Person/Yu Luo.wiki",
       "revid": 14810,
@@ -8340,6 +8346,12 @@
       "sha256": "06ad612de6ba3b0101409c6ca51abc35c906980f197df8d4e032162f5cba280a",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Why the Universe Is Connected (Manuscript)": {
+      "path": "Source/Why the Universe Is Connected (Manuscript).wiki",
+      "revid": 16364,
+      "sha256": "145a4c2b4f16e385f1b5d2dd45f8b39927279cc3f70e494ad2565377ee8c057d",
+      "synced_at": "2026-11-13T18:21:01+00:00"
+    },
     "Source:Wikimania (Website)": {
       "path": "Source/Wikimania (Website).wiki",
       "revid": 4794,
@@ -8653,6 +8665,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-13T18:11:11+00:00",
+  "updated": "2026-11-13T18:21:01+00:00",
   "version": 1
 }
