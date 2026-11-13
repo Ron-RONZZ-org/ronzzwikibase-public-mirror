@@ -1,0 +1,4 @@
+[[Category:Organisation&efficiency]]
+'''Backward scheduling''' is the process of working backwards from the overall due date to schedule each tasks in a [[scheduling problem]].
+
+An effective tool for backward scheduling is the [[Metra Potential Method (MPM)]].<ref>{{#cite:Q3306}}</ref>

@@ -162,6 +162,12 @@
       "sha256": "2e1cc35f0a6187353ff6f5fef5f32022ead8e580fd110300c5aba50f96d35265",
       "synced_at": "2026-11-11T18:21:51+00:00"
     },
+    "Backward scheduling": {
+      "path": "Main/Backward scheduling.wiki",
+      "revid": 16242,
+      "sha256": "6d32d83d77ceccb2db07c2eedfe3bb495f6e286eafc993703be96785e2985796",
+      "synced_at": "2026-11-13T13:19:59+00:00"
+    },
     "Baryon": {
       "path": "Main/Baryon.wiki",
       "revid": 11802,
@@ -8491,6 +8497,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-13T13:10:04+00:00",
+  "updated": "2026-11-13T13:19:59+00:00",
   "version": 1
 }
