@@ -2520,6 +2520,12 @@
       "sha256": "8fbaf98ea84c508020aa6be5349e2c91fb7ed6468785d998659b192fd7245a24",
       "synced_at": "2026-10-29T14:37:04+00:00"
     },
+    "Mathematical optimisation": {
+      "path": "Main/Mathematical optimisation.wiki",
+      "revid": 16255,
+      "sha256": "30542235cef8ec8e5ce440574ba80849ee6d6505c81fbfaeff203a9b5e8c50bd",
+      "synced_at": "2026-11-13T14:20:33+00:00"
+    },
     "Matrix": {
       "path": "Main/Matrix.wiki",
       "revid": 10630,
@@ -8509,6 +8515,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-13T14:10:32+00:00",
+  "updated": "2026-11-13T14:20:33+00:00",
   "version": 1
 }
