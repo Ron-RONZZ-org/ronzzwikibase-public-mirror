@@ -1,0 +1,14 @@
+[[Category:Organisation&efficiency]]
+'''Operation research (OR)''' is the scientific process of understanding real-world problems and identify optimised solutions.
+
+It depends on multiple scientific disciplines:
+
+* Mathematics
+* Economics
+* Information technology
+
+<ref>{{#cite:Q3286}}</ref>
+
+== Relevant topics ==
+
+[[Mathematical optimisation]]

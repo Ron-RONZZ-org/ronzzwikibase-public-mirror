@@ -2688,6 +2688,12 @@
       "sha256": "28c12d3867dede66e7a5a0e7f3df2792c02427d0d0e1f54e7be9325456319619",
       "synced_at": "2026-10-28T12:40:49+00:00"
     },
+    "Operation research": {
+      "path": "Main/Operation research.wiki",
+      "revid": 16253,
+      "sha256": "cd7bd74664ebb90a064d47535355770e35e09ca46640de7989952f2760667813",
+      "synced_at": "2026-11-13T14:10:32+00:00"
+    },
     "Ordinary derivative": {
       "path": "Main/Ordinary derivative.wiki",
       "revid": 11712,
@@ -8503,6 +8509,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-13T13:49:02+00:00",
+  "updated": "2026-11-13T14:10:32+00:00",
   "version": 1
 }
