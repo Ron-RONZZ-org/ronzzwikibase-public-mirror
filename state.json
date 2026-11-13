@@ -2700,6 +2700,12 @@
       "sha256": "cd7bd74664ebb90a064d47535355770e35e09ca46640de7989952f2760667813",
       "synced_at": "2026-11-13T14:10:32+00:00"
     },
+    "Optimisation of generic functions": {
+      "path": "Main/Optimisation of generic functions.wiki",
+      "revid": 16259,
+      "sha256": "f15b34a5aab8cccee90c98033df2ee20d66ba94cad9bf96eb0d852c3126413df",
+      "synced_at": "2026-11-13T16:10:50+00:00"
+    },
     "Ordinary derivative": {
       "path": "Main/Ordinary derivative.wiki",
       "revid": 11712,
@@ -8515,6 +8521,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-13T15:49:34+00:00",
+  "updated": "2026-11-13T16:10:50+00:00",
   "version": 1
 }

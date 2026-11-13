@@ -1,0 +1,55 @@
+[[Category:Organisation&efficiency]]
+<blockquote>
+Since [[mathematical optimisation#Mathematical_equivalence_of_maximum-minimum|maxima and minima are mathematically equivalent]], for simplicity, in this article, formula and examples are given '''only''' for minimisation.
+</blockquote>
+
+To [[mathematical optimisation|mathematically optimise]] a generic function $f(X)$, where $X$ is a defined '''domain''' of a finite [[set]] of variables, one may employ:
+
+== Neighbourhood search ==
+
+Let $\vec x_1 \in X$ be a point.
+
+Let $N(\vec x_1)$ denote the '''neighbourhood''' of $\vec x_1$ (the set of all points $\vec x_1 + \delta$ adjacent to $\vec x_1$)
+
+Then '''neighbourhood search''' is iteration with step
+
+$$
+\vec x_{k+1} = \arg\min_{\vec x_{\mathrm{new}} \in N(\vec x_k)} f(\vec x_{\mathrm{new}}) \tag{search for minimum}
+$$
+
+where $\vec x_{\mathrm{new}}$ denotes solutions that have never been evaluated, which is essential to avoid deadloops.
+
+The search terminates when $\{\vec x \in N(\vec x)|\text{new}\}=\emptyset$, or solution $\vec x_k$ where $f(\vec x_k)<f_\text{target}$, or $k>k_\text{limit}$.
+
+=== Variant:Tabu Search ===
+
+For certain problems, (e.g., combinatorial), the function domain can be astronomically large. In this case, maintaining a complete list of all evaluated solution could be expensive in memory and in comparisons done at each step, in this case, a modified neighbourhood search, called '''Tabu search''', may be more adapted.
+
+In '''Tabu search''', the algorithm explores at step $k$ the most optimal point in $N(\vec k)$, regardless whether they are more optimal than point $\vec x_k$, excluding a short list $T$ of banned moves (generally, those that reverse recent moves) to prevent circular expolorations (e.g., moving $A \to B \to C \to B \to A$)
+
+i.e., '''Tabu search''' is the iteration with step
+
+$$
+\vec x_{k+1} = \arg\min_{\vec x \in N(\vec x_k) \setminus T} f(S_{\mathrm{new}})
+$$
+
+== Simulated Annealing ==
+
+Inspired by thermodynamics, '''simulated annealing''' accept probalistically moving to a less optimised point to escape the traps of local valleys/crests.
+
+At step $k$, let $\Delta f = f(\vec x \in N(\vec x_k) - f(x_k)$
+
+* If $\Delta f < 0$ (the new solution is better), '''Always accept''' $\vec x_{k+1}=\vec x$ ($P = 1$).
+* If $\Delta f > 0$ (the new solution is worse), '''Accept or reject''' $\vec x_{k+1}=\vec x$ with probability of acceptance:
+
+$$
+P = e^{-\frac{\Delta f}{T}}
+$$
+
+Where $T$ is the '''temperature parameter'''. In general, one starts with a high temperature to explore different parts of the domain and gradually decreases the temperature to fine-tune and identify an optimal solution.
+
+until a new solution $\vec x_{k+1}$ is found.
+
+== Genetic algorithm ==
+
+See [[genetic algorithm]].
