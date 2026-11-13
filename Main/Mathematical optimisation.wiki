@@ -1,6 +1,13 @@
 [[Category:Mathematical optimisation]]
 '''Mathematical optimisation''' is the process of finding the maximum(a) and/or minimum(a) of a [[function]].
 
+== Mathematical equivalence of maximum-minimum ==
+
+$$
+f_{min}=f(X) \iff f_{max}=-f(X); \\
+f_{max}=f(X) \iff f_{min}=-f(X).
+$$
+
 == Continuous and differentiable functions ==
 
 * [[Optimisation of continuous and differentiable single variable functions]]
