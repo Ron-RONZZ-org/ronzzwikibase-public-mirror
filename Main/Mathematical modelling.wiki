@@ -1,0 +1,12 @@
+[[Category:Mathematical modelling]]
+[[File:Mathematical modelling.png|thumbnail|Mathematical models represent reality. Results from mathematical models must be '''interpreted''' to have real-world significance.]]
+'''Mathematical modelling''' is the process of translating real-world scenarios into mathematical expressions, usually to
+
+* Better understand a [[system]], such as the '''relationship''' between different '''elements'''.
+* Resolving a particular problem, such as a [[mathematical optimisation]] problem.
+* Predict the outcome of random variables (e.g., average, median, probability of exceeding a certain value, with or without certain conditions)
+
+== Types ==
+
+* [[Deterministic model]]
+* [[Probabilistic model]]

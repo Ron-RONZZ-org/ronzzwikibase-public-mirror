@@ -2520,6 +2520,12 @@
       "sha256": "8fbaf98ea84c508020aa6be5349e2c91fb7ed6468785d998659b192fd7245a24",
       "synced_at": "2026-10-29T14:37:04+00:00"
     },
+    "Mathematical modelling": {
+      "path": "Main/Mathematical modelling.wiki",
+      "revid": 16267,
+      "sha256": "c797f99be1bcacdb1478d419ef8e7e1ffee547804bc07c7ce3c0269c7882d97f",
+      "synced_at": "2026-11-13T16:49:52+00:00"
+    },
     "Mathematical optimisation": {
       "path": "Main/Mathematical optimisation.wiki",
       "revid": 16258,
@@ -8521,6 +8527,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-13T16:10:50+00:00",
+  "updated": "2026-11-13T16:49:52+00:00",
   "version": 1
 }
