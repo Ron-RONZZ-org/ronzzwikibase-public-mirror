@@ -2582,9 +2582,9 @@
     },
     "Metra Potential Method (MPM)": {
       "path": "Main/Metra Potential Method (MPM).wiki",
-      "revid": 16248,
-      "sha256": "2db052a339be8c6f8ccd24481225e3d9461870d4d5032b2d387a16164df0254b",
-      "synced_at": "2026-11-13T13:35:59+00:00"
+      "revid": 16250,
+      "sha256": "085de208a1409facf6669f5e650e6eaf01e36c28b1f6ec274ab9a63a13224fa1",
+      "synced_at": "2026-11-13T13:49:02+00:00"
     },
     "Metric space": {
       "path": "Main/Metric space.wiki",
@@ -5588,9 +5588,9 @@
     },
     "Scheduling problem": {
       "path": "Main/Scheduling problem.wiki",
-      "revid": 16213,
-      "sha256": "0aeb3e1c734787fa4be945780bf87dcc2da31c529d3532a603f01c4087df700b",
-      "synced_at": "2026-11-13T08:24:58+00:00"
+      "revid": 16252,
+      "sha256": "baff2523b4c12a9b228005caa6ee6e1848fab6f4117ce9198f0610eb3d173e62",
+      "synced_at": "2026-11-13T13:49:02+00:00"
     },
     "Science": {
       "path": "Main/Science.wiki",
@@ -8503,6 +8503,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-13T13:35:59+00:00",
+  "updated": "2026-11-13T13:49:02+00:00",
   "version": 1
 }

@@ -14,7 +14,7 @@ First developped by Bernard Roy et al.,<ref>{{#cite:Q3286}}</ref> '''Metra Poten
 === Total slack ===
 
 $$
-\text{Total slack}=t^*_i(j)-t^_i(j)
+\text{Total slack}=t^*_i(j)-t_i(j)
 $$
 
 which measures the available slack for task $J_j$ without impacting overall finish time, '''given there is no other delay elsewhere'''.

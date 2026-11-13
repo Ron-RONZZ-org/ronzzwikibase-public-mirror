@@ -1,4 +1,4 @@
-[[Category:Production]][[Category:Organisation&efficiency]]
+[[Category:Organisation&efficiency]]
 A '''scheduling problem''' arises when a number of '''tasks''' requiring some '''shared resources''' have to be done as part of the same '''job'''.
 
 == Elements ==
