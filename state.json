@@ -5568,6 +5568,12 @@
       "sha256": "5db210f84c4a5da7eb13c91d8d2ca79b0ad7f8d2c4e284b6ee039ef2585e51b0",
       "synced_at": "2026-10-22T17:13:00+00:00"
     },
+    "Scheduling problem": {
+      "path": "Main/Scheduling problem.wiki",
+      "revid": 16213,
+      "sha256": "0aeb3e1c734787fa4be945780bf87dcc2da31c529d3532a603f01c4087df700b",
+      "synced_at": "2026-11-13T08:24:58+00:00"
+    },
     "Science": {
       "path": "Main/Science.wiki",
       "revid": 7778,
@@ -8467,6 +8473,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-12T21:08:46+00:00",
+  "updated": "2026-11-13T08:24:58+00:00",
   "version": 1
 }

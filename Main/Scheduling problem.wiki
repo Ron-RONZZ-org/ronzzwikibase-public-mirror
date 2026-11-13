@@ -1,0 +1,156 @@
+[[Category:Production]][[Category:Organisation&efficiency]]
+A '''scheduling problem''' arises when a number of '''tasks''' requiring some '''shared resources''' have to be done as part of the same '''job'''.
+
+== Elements ==
+
+=== Job ($\{J_i\}$) ===
+
+What needs to be done overall.
+
+=== Task ($J_i$) ===
+
+A '''task''' is an elementary unit of a '''job''', which
+
+* occupies a defined set of '''renewable resources''' for a given time
+* consume a quantified amount of '''non-renewable resources'''
+* '''cannot be separated''' into smaller tasks.*
+
+<blockquote>
+<nowiki/>*:Technically some tasks may be separated into smaller ones: 
+
+e.g., baking a cake in a pre-heated oven for 30min can be technically separated into open the oven door, putting the cake in, close the door, bake, open the door again, take the cake out.
+
+However, it is not interesting for the sake of scheduling to do so, as it is unlikely performing oven-door opening and baking separately would improve efficiency.
+</blockquote>
+
+=== Resources ===
+
+==== Renewable resources ($R$) ====
+
+Resources that can be used for other tasks after having been used in one.
+
+e.g., Machines, workers, etc.
+
+===== Unicity =====
+
+For the sake of mathematical modelling, a renewable resource ($R$) should only be available to '''1 task''' at any given time.
+
+i.e., large machines that can perform multiple parallel tasks is best modelled as multiple resources.
+
+==== Non-renewable resources ($N$) ====
+
+Consumables that can only be used once.
+
+e.g., Glue, duct tape, screws, etc.
+
+==== Generative resources ($G$) ====
+
+Resources that generate other resources.
+
+e.g., a power plant, which generates electricity.
+
+== Constraints ==
+
+=== Setup time ($s_i$) ===
+
+Machines may need preparation before they can begin one task (e.g., oven needs preheating).
+
+Setup time can depend on previous tasks (e.g., if an oven is already at temperature after a previous baking).
+
+=== Processing time ($p_i$) ===
+
+The time $J_i$ takes after setup.
+
+=== Release and due ($r_i,d_i$) ===
+
+For some $J_i$, they can only be performed within a fixed '''timeframe''' from release time $r_i$ until due time $d_i$.
+
+e.g., If a particular task require an external certification and the certificator is on-site only every Tuesday afternoon.
+
+=== Precedence ===
+
+Some tasks can only be performed after other ones.
+
+e.g., You cannot bake a cake before it has been made.
+
+=== Preemption ===
+
+Some tasks are '''preemptive''', i.e.,they can be interrupted and picked up at a later time.
+
+Some tasks are '''non-preemptive''', i.e., they cannot be safely interrupted.
+
+<blockquote>
+Is baking a cake '''preemptive''' or '''non-preemptive'''?
+</blockquote>
+
+== Performance ==
+
+=== Completion time ($C_i$) ===
+
+The absolute time at which $J_i$ is completed.
+
+$$
+C_i=t_i+s_i+p_i
+$$
+where $t_i$ is the absolute time at which $J_i$ started.
+
+=== Makespan ($C_{max}$) ===
+
+The total duration of time taken from start to finish all jobs.
+
+$$
+C_{max}=\max(C_i)-\min(t_i)
+$$
+
+=== Tardiness ($T_i$) ===
+
+If job $J_i$ has deadline at time $d_i$, but was completed at $C_i>d_i$, then its '''tardiness'''
+
+$$
+T_i=C_i-d_i
+$$
+
+== Gantt chart ==
+
+[[File:Gantt chart impression.png|thumbnail|The horizontal axis is time by convention, the vertical axis can either be jobs or resources depending on needs in the specific context.]]
+[[File:Gantt chart markers.png|thumbnail|It is often useful to mark various elements of a scheduling problem on the Gantt chart for visualisation: $d_i,T_i,\dots$]]
+A Gantt chart illustrates graphically one particular solution to a scheduling problem.
+
+== Optimisation ==
+
+Different criteria of optimisation may be desirable:
+
+* $\min C_{max}$
+* $\min \sum T_i$ relative to specific global deadline $d_0$
+
+=== Heuristics ===
+
+Certain heuristics allow rapidly finding reasonably optimised solutions for simpler scheduling problems
+
+e.g., To determine which $J_i$ to start first when there are multiple candidates
+{| class="wikitable center"
+|-
+! Name
+! Mathematical expression
+! Use case
+|-
+| FIFO: First in first out
+| $\min(r_i)$
+| Ensure fairness over different tasks (e.g., in a kitchen, prepare orders received earlier first)
+|-
+| SPT: Shortest processing time first
+| $\min(s_i+p_i)$
+| Rapidly terminate a task to release other tasks (e.g., a baker is waiting on the cakemaker, the cakemaker should first make some simple cakes rapidly and hand them over so the baker can start baking)
+|-
+| LPT: Longest processing time first
+| $\max(s_i+p_i)$
+| Reduce wait on previous tasks (e.g., revisiting the example in SPT, the baker should start with cakes that tak longer so he will not finish too quickly and idle waiting for the cakemaker
+|-
+| EDD: Earliest due date
+| $\min(d_i)$
+| Reduce tardiness (e.g., A delivery driver deliver urgent packages first)
+|-
+| MWKR: Most work remaining
+| $\max(\sum t_i)$
+| When there are multiple jobs, doing ones with the most work remaining first reduces the likelihood of catastrophic lateness (e.g., a university student left math to last, only to discover that it takes days, not less than an hour as he expected.)
+|
