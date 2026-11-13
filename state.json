@@ -5390,9 +5390,9 @@
     },
     "Production": {
       "path": "Main/Production.wiki",
-      "revid": 16170,
-      "sha256": "fd659cd0512ef97aaa694824087e6e2bbf361dc7ebf98a8c3d483c07ec38bd3a",
-      "synced_at": "2026-11-12T14:36:05+00:00"
+      "revid": 16228,
+      "sha256": "a217464c19490719b1724322e2e82be190e65914f09b294154aed7ab803bc847",
+      "synced_at": "2026-11-13T11:49:30+00:00"
     },
     "Production management": {
       "path": "Main/Production management.wiki",
@@ -8473,6 +8473,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-13T11:35:36+00:00",
+  "updated": "2026-11-13T11:49:30+00:00",
   "version": 1
 }

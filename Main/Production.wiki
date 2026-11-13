@@ -36,18 +36,22 @@ PROD ==> OUT
 ! Production mode
 ! Application
 ! Key challenges
+! style="min-width: 250px;" | Example
 |-
 | Unitary production
-| Complex products with small demand quantity( e.g., airplanes, custom velomobile, pre-fabricated staircase)
+| Complex products with small demand quantity (e.g., Rockets, custom velomobiles, pre-fabricated staircase)
 | Resource management: acquiring rapidly necessary resources when orders arrive without paying huge excess for storing everything all the time
+| [[File:New-horizons-on-work-stand.jpg|thumbnail|NASA making the ''New horizon'' space probe]]
 |-
 | Small batch production
 | Mass customisation (e.g., school uniforms), artisan food (e.g., bakery)
 | Optimising production, such reducing wait on high-demand machines and improving yield on raw material
+| [[File:Bakery-2.jpg|thumbnail|An artisanal bakery in the US.]]
 |-
-| mass production (frequently via an [[assembly line]]
+| mass production (frequently via an [[assembly line]])
 | Generic products with large demand quantity (e.g., lightbulbs, water bottles)
 | Synchronise different production steps to minimise waiting between different steps/optimise productivity/minimise cost
+| [[File:Powerloom-weaving-in-1835.jpg|thumbnail|A 19th century weaving factory]]
 |}
 
 <ref>{{#cite:Q3286}}</ref>
