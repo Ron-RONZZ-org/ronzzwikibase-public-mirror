@@ -1,0 +1,12 @@
+[[Category:Mathematical modelling]]
+A '''deterministic model''' is a [[mathematical modelling|mathematical model]] in which outcomes can be fully determined from identified and recognisable conditions.
+
+== Examples ==
+
+=== Simple pendulum ===
+
+{{Hidden example}}
+A simple pendulum obeys always the relationship
+
+{{#content:Q1589}}
+{{End hidden}}

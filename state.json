@@ -1650,6 +1650,12 @@
       "sha256": "2c1574cc2dffef629578b062f3c27b662a076cc8164f6055318d393aff94849a",
       "synced_at": "2026-10-29T18:29:25+00:00"
     },
+    "Deterministic model": {
+      "path": "Main/Deterministic model.wiki",
+      "revid": 16271,
+      "sha256": "6f3b789ef7ed775038c699872845553bde9d34b71663ac6207a11b4cb3d60746",
+      "synced_at": "2026-11-13T17:08:47+00:00"
+    },
     "Differential equation": {
       "path": "Main/Differential equation.wiki",
       "revid": 9727,
@@ -5430,6 +5436,12 @@
       "sha256": "31fa0d07a860ba562b720b0ba915e8491eb94e0c1093b61afe06d8c78cbfdd2e",
       "synced_at": "2026-10-19T12:24:06+00:00"
     },
+    "Probabilistic model": {
+      "path": "Main/Probabilistic model.wiki",
+      "revid": 16273,
+      "sha256": "7d9fb9148a3cd65487bc3ad4a79a53f622d3cc13004dbc4f05245b8297a0cf11",
+      "synced_at": "2026-11-13T17:08:47+00:00"
+    },
     "Production": {
       "path": "Main/Production.wiki",
       "revid": 16228,
@@ -8527,6 +8539,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-13T16:49:52+00:00",
+  "updated": "2026-11-13T17:08:47+00:00",
   "version": 1
 }

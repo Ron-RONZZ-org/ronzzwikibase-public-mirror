@@ -1,0 +1,10 @@
+[[Category:Mathematical modelling]]
+A '''probabilistic model''' is a [[mathematical modelling|mathematical model]] in which outcomes cannot be determined before hand even if all identified conditions are known.
+
+== Example ==
+
+=== Coin flip ===
+
+{{Hidden example}}
+When modelling flipping a fair coin, one can assert the probability of a head on a given flip is always $\frac{1}{2}$, but one cannot assert if a particular flip will be head or tail.
+{{End hidden}}
