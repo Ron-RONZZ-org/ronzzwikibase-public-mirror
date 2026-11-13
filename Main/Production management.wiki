@@ -1,4 +1,4 @@
-[[Category:Production]]
+[[Category:Production| ]]
 '''Production management''' is the process of organising different resources to optimise [[production]].
 
 == Optimisation criteria ==
