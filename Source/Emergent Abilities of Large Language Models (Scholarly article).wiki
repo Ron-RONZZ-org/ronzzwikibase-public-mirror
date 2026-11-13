@@ -1,0 +1,5 @@
+{{ScholarlyArticle}}
+
+== Overview ==
+
+2022 arXiv preprint by Jason Wei and co-authors arguing that some abilities of large language models appear only beyond a certain scale and cannot be predicted by extrapolating smaller models

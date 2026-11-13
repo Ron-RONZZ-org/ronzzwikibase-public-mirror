@@ -510,6 +510,12 @@
       "sha256": "d58579f28fd97f63163d924d795c10b1e15923aacfdbb2339927add51449c65d",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:ArXiv": {
+      "path": "Collective/ArXiv.wiki",
+      "revid": 16300,
+      "sha256": "b3baa7424f004c4b9085bfc575d1ead8cc1ec6f275e87e912d0fc9d66776ac8d",
+      "synced_at": "2026-11-13T18:11:11+00:00"
+    },
     "Collective:Astronomy and Astrophysics": {
       "path": "Collective/Astronomy and Astrophysics.wiki",
       "revid": 4840,
@@ -3114,6 +3120,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
     },
+    "Person:Barret Zoph": {
+      "path": "Person/Barret Zoph.wiki",
+      "revid": 16317,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-13T18:11:11+00:00"
+    },
     "Person:Beatrice Portelli": {
       "path": "Person/Beatrice Portelli.wiki",
       "revid": 13598,
@@ -3282,6 +3294,12 @@
       "sha256": "8b5e142c458958bc0acd980522f85d6cad171af8e7698577724b55fb4bbefe06",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Dani Yogatama": {
+      "path": "Person/Dani Yogatama.wiki",
+      "revid": 16322,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-13T18:11:11+00:00"
+    },
     "Person:Daniel Kahneman": {
       "path": "Person/Daniel Kahneman.wiki",
       "revid": 13842,
@@ -3366,6 +3384,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
     },
+    "Person:Denny Zhou": {
+      "path": "Person/Denny Zhou.wiki",
+      "revid": 16330,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-13T18:11:11+00:00"
+    },
     "Person:Di He": {
       "path": "Person/Di He.wiki",
       "revid": 16093,
@@ -3390,6 +3414,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T13:10:22+00:00"
     },
+    "Person:Donald Metzler": {
+      "path": "Person/Donald Metzler.wiki",
+      "revid": 16334,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-13T18:11:11+00:00"
+    },
     "Person:Donella H. Meadows": {
       "path": "Person/Donella H. Meadows.wiki",
       "revid": 13739,
@@ -3407,6 +3437,12 @@
       "revid": 6947,
       "sha256": "d84dd1c3711ede2b1829a1c935dc83002a302a24be61423e1abb22a8e61a8fe1",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Person:Ed Chi": {
+      "path": "Person/Ed Chi.wiki",
+      "revid": 16338,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-13T18:11:11+00:00"
     },
     "Person:Edward Lorenz": {
       "path": "Person/Edward Lorenz.wiki",
@@ -3834,6 +3870,12 @@
       "sha256": "af296c8b521dd91188b9c713599db1a3325b1c005c3e7e3e7bfd65ecb5fe6791",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Jason Wei": {
+      "path": "Person/Jason Wei.wiki",
+      "revid": 16304,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-13T18:11:11+00:00"
+    },
     "Person:Jay Abramson": {
       "path": "Person/Jay Abramson.wiki",
       "revid": 10369,
@@ -4253,6 +4295,12 @@
       "revid": 14061,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Maarten Bosma": {
+      "path": "Person/Maarten Bosma.wiki",
+      "revid": 16326,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-13T18:11:11+00:00"
     },
     "Person:Machele Kindle": {
       "path": "Person/Machele Kindle.wiki",
@@ -4698,6 +4746,12 @@
       "sha256": "3ec5ecf622f3003559d2578512b629e7fcb55dfc9d6ab45cb393ce49b9699b7c",
       "synced_at": "2026-10-31T12:12:49+00:00"
     },
+    "Person:Percy Liang": {
+      "path": "Person/Percy Liang.wiki",
+      "revid": 16347,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-13T18:11:11+00:00"
+    },
     "Person:Peter G. Roll": {
       "path": "Person/Peter G. Roll.wiki",
       "revid": 7274,
@@ -4811,6 +4865,12 @@
       "revid": 6229,
       "sha256": "c00b7e11c8194387db56bcd644ec0bf447be1cf51b4ada3b4ca49de97cae6cf6",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Rishi Bommasani": {
+      "path": "Person/Rishi Bommasani.wiki",
+      "revid": 16312,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-13T18:11:11+00:00"
     },
     "Person:Robert Ball": {
       "path": "Person/Robert Ball.wiki",
@@ -5076,6 +5136,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T13:10:22+00:00"
     },
+    "Person:Tatsunori Hashimoto": {
+      "path": "Person/Tatsunori Hashimoto.wiki",
+      "revid": 16342,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-13T18:11:11+00:00"
+    },
     "Person:Ted Sundstorm": {
       "path": "Person/Ted Sundstorm.wiki",
       "revid": 10040,
@@ -5286,6 +5352,12 @@
       "sha256": "53b360f8aaadece7bc38806b624e249fc110928559fbd0aa6a8f9d765fe513dc",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:William Fedus": {
+      "path": "Person/William Fedus.wiki",
+      "revid": 16352,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-13T18:11:11+00:00"
+    },
     "Person:William Haynes": {
       "path": "Person/William Haynes.wiki",
       "revid": 13515,
@@ -5339,6 +5411,12 @@
       "revid": 15650,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T13:10:22+00:00"
+    },
+    "Person:Yi Tay": {
+      "path": "Person/Yi Tay.wiki",
+      "revid": 16308,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-13T18:11:11+00:00"
     },
     "Person:Yinhan Liu": {
       "path": "Person/Yinhan Liu.wiki",
@@ -6737,6 +6815,12 @@
       "revid": 6747,
       "sha256": "426069d875a7204a4e048bf5ccfdc56e529f1426f8e3f87b75efb26fc9dddb44",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:Emergent Abilities of Large Language Models (Scholarly article)": {
+      "path": "Source/Emergent Abilities of Large Language Models (Scholarly article).wiki",
+      "revid": 16356,
+      "sha256": "c43d0087b0324fe4d96b750835296b98d38e82ffd6f1cc11038e27c747ef97fd",
+      "synced_at": "2026-11-13T18:11:11+00:00"
     },
     "Source:Example Domain": {
       "path": "Source/Example Domain.wiki",
@@ -8569,6 +8653,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-13T17:49:21+00:00",
+  "updated": "2026-11-13T18:11:11+00:00",
   "version": 1
 }
