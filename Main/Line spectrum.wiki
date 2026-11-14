@@ -1,4 +1,5 @@
 [[Category:Line spectrum]]
+[[File:Bohr-atom-animation.gif|thumbnail|An artistic impression of the excitation of an electron to a higher energy state by photon absorption and its return to its ground state by photon emission]]
 In [[physics]], a '''line spectrum''' is either:
 
 * An [[absorption spectrum]]

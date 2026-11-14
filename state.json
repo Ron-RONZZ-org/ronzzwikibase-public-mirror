@@ -2462,9 +2462,9 @@
     },
     "Line spectrum": {
       "path": "Main/Line spectrum.wiki",
-      "revid": 16445,
-      "sha256": "13866eb616f7d253f401b918c80b22da259acf8a410b55021e363fda87876396",
-      "synced_at": "2026-11-14T15:19:32+00:00"
+      "revid": 16454,
+      "sha256": "e0852890ba32ab0fbb8e90403a3afb35b14debef67771e969b4bc0830a1b25c6",
+      "synced_at": "2026-11-14T15:35:17+00:00"
     },
     "Linear accelerator (linac)": {
       "path": "Main/Linear accelerator (linac).wiki",
@@ -8743,6 +8743,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-14T15:19:32+00:00",
+  "updated": "2026-11-14T15:35:17+00:00",
   "version": 1
 }
