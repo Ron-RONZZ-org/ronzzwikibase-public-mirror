@@ -1,0 +1,3 @@
+[[Category:Line spectrum]]
+[[File:Emission spectrum of H,He,Li,Hg.png|thumbnail|'''Emission spectra''' of $H,He,Li,Hg$]]
+In [[physics]], an '''emission spectrum''' describes the phenomenon that when gases are heated to [[incandescence]], they emit [[electromagnetic radiation]] of different distinct wavelengths, characteristic to the chemical composition of the gas.

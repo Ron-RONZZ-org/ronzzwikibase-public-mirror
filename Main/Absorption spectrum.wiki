@@ -1,0 +1,3 @@
+[[Category:Line spectrum]]
+[[File:Absorption spectrum of the Sun's atmosphere.png|thumbnail|Absorption spectrum of the Sun's atmosphere: sunlight reaching earth are missing certain wavelengths, characteristic to the chemical composition of the Sun's atmosphere.]]
+In [[physics]], an '''absorption spectrum''' describes the phenomenon that when [[electromagnetic radiation]] of different wavelengths passes through a cooler gas, some wavelengths are absorbed while others are not, leaving characteristic black lines in the wavelength spectrum after the passage, characteristic to the chemical composition of the gas.

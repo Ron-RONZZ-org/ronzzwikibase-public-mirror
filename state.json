@@ -18,6 +18,12 @@
       "sha256": "8ad8c00115ada744edcd7d4e7e7d8c7927ceb39ec5beea90a3593179dcc2067d",
       "synced_at": "2026-11-10T11:35:46+00:00"
     },
+    "Absorption spectrum": {
+      "path": "Main/Absorption spectrum.wiki",
+      "revid": 16443,
+      "sha256": "a87817eb4f35fcfe7b90204ba3e0145bb255dac329d920c32fb33952ff06e969",
+      "synced_at": "2026-11-14T15:19:32+00:00"
+    },
     "Activation function": {
       "path": "Main/Activation function.wiki",
       "revid": 15920,
@@ -1782,6 +1788,12 @@
       "sha256": "05e7878f5bfa922046823d201c7bfa6773dc5b514cf93b5d52e911465831f002",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Emission spectrum": {
+      "path": "Main/Emission spectrum.wiki",
+      "revid": 16450,
+      "sha256": "8e661fa75bde13104cdcea7f08a58a0a98c22fe82ccd210cf5eb088922c52e7c",
+      "synced_at": "2026-11-14T15:19:32+00:00"
+    },
     "Epistemology": {
       "path": "Main/Epistemology.wiki",
       "revid": 13199,
@@ -2450,9 +2462,9 @@
     },
     "Line spectrum": {
       "path": "Main/Line spectrum.wiki",
-      "revid": 16437,
-      "sha256": "06d1c098a957cb865136bdd3f0b30508b16c66a9a53e9de4a3943dd8a68b70f2",
-      "synced_at": "2026-11-14T15:08:16+00:00"
+      "revid": 16445,
+      "sha256": "13866eb616f7d253f401b918c80b22da259acf8a410b55021e363fda87876396",
+      "synced_at": "2026-11-14T15:19:32+00:00"
     },
     "Linear accelerator (linac)": {
       "path": "Main/Linear accelerator (linac).wiki",
@@ -8731,6 +8743,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-14T15:08:16+00:00",
+  "updated": "2026-11-14T15:19:32+00:00",
   "version": 1
 }
