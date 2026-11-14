@@ -1,0 +1,7 @@
+[[Category:Black body]]
+[[File:Black-body-realization.svg|thumbnail|A black spherical shell of material opaque to electromagnetic radiation with a small hole behaves as a '''near-black body'''.]]
+A '''black body''' is an idealised object that absorbs all electromagnetic radiations.
+
+== Mathematical description ==
+
+See [[Planck distribution law for blackbody radiation]].

@@ -1,0 +1,7 @@
+{{Person}}
+
+== Biography ==
+
+''from Wikipedia (CC BY-SA 4.0):''
+
+Max Karl Ernst Ludwig Planck was a German theoretical physicist. Planck made many contributions to theoretical physics, primarily in his role as the originator of quantum theory and one of the founders of modern physics, which revolutionized understanding of atomic and subatomic processes. He is known for the Planck constant,, which is of foundational importance for quantum physics, and which he used to derive a set of units, now called Planck units, expressed in terms of physical constants. The Planck relation, E= ν, states that the energy of a photon is proportional to its frequency.

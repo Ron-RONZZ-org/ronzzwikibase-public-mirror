@@ -1,0 +1,596 @@
+Skip to main content
+<div class="elm-skin-container" role="main" ga-category="Anonymous | page">
+
+<div class="elm-header">
+
+<div class="elm-header-custom">
+
+<div id="readerview_wrapper" style="display:none;">
+
+<div id="readerview" class="readerOn">
+
+<div class="header-left-control">
+
+<div class="header-menu">
+
+<span id="toc-btn-label" hidden="hidden">Table of Contents</span> <span class="material-symbols-outlined" aria-hidden="true" focusable="false">menu</span>
+
+</div>
+<div class="header-branding">
+
+[https://chem.libretexts.org/ ([https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Quantum_Mechanics/01._Waves_and_Particles/Blackbody_Radiation Media content: view on original URL]) Library homepage]
+
+</div>
+
+</div>
+<div class="header-title">
+
+ 
+
+</div>
+<div class="header-end">
+
+<span class="material-symbols-outlined" aria-hidden="true" focusable="false">search</span> <span class="visually-hidden">Search</span>
+<span class="material-symbols-outlined" aria-hidden="true" focusable="false">build_circle </span> <span class="visually-hidden">Toolbar</span>
+<span class="material-symbols-outlined" aria-hidden="true" focusable="false">fact_check</span> <span class="visually-hidden">Homework</span>
+<span class="material-symbols-outlined" aria-hidden="true" focusable="false">cancel</span> <span>Exit Reader Mode</span>
+
+</div>
+
+</div>
+<div id="offcanvas-menu">
+
+<div id="toc" class="hidden">
+
+ 
+
+</div>
+<div id="siteMenu">
+
+* [https://chem.libretexts.org/Courses <span class="material-symbols-outlined" aria-hidden="true" focusable="false">school</span> <span class="menu-label">Campus Bookshelves</span>]
+* [https://chem.libretexts.org/Bookshelves <span class="material-symbols-outlined" aria-hidden="true" focusable="false">menu_book</span> <span class="menu-label">Bookshelves</span>]
+* [https://chem.libretexts.org/Ancillary_Materials <span class="material-symbols-outlined" aria-hidden="true" focusable="false">perm_media</span> <span class="menu-label">Learning Objects</span>]
+
+* [https://chem.libretexts.org/Special:Userlogin?readerView#tab=login <span class="material-symbols-outlined" aria-hidden="true" focusable="false">login</span> <span class="menu-label">Login</span>]
+* [https://register.libretexts.org/ <span class="material-symbols-outlined" aria-hidden="true" focusable="false">how_to_reg</span> <span class="menu-label">Request Instructor Account</span>]
+* [https://commons.libretexts.org/ <span class="material-symbols-outlined" aria-hidden="true" focusable="false">hub</span> <span class="menu-label">Instructor Commons</span>]
+
+</div>
+
+</div>
+<div id="search">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel">
+
+<span id="search"></span>
+== Search ==
+
+<div class="form-item">
+
+Search this book
+
+</div>
+<div class="form-action">
+
+Submit Search
+
+</div>
+<div id="search_results">
+
+ 
+
+</div>
+
+</div>
+
+</div>
+<div id="readability">
+
+x
+
+<div id="beeline" class="settings-section">
+
+<div class="setting">
+
+<div class="setting-title">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel/Readability">
+
+<span id="text-color"></span>
+==== Text Color ====
+
+Reset
+
+</div>
+
+</div>
+<div class="setting-control text_color">
+
+<span class="bee-btn-render"> </span><span class="bee-btn-label">Bright</span>
+<span class="bee-btn-render"> </span><span class="bee-btn-label">Blues</span>
+<span class="bee-btn-render"> </span><span class="bee-btn-label">Gray</span>
+<span class="bee-btn-render"> </span><span class="bee-btn-label">Inverted</span>
+
+</div>
+
+</div>
+
+</div>
+<div id="textSize" class="settings-section">
+
+<div class="setting">
+
+<div class="setting-title">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel/Readability">
+
+<span id="text-size"></span>
+==== Text Size ====
+
+Reset
+
+</div>
+
+</div>
+<div class="font-adjuster">
+
++
+-
+<div id="range_bs" class="range_base" type="input" value="18">
+
+ 
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div id="textSize" class="settings-section">
+
+<div class="setting">
+
+<div class="setting-title">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel/Readability">
+
+<span id="margin-size"></span>
+==== Margin Size ====
+
+Reset
+
+</div>
+
+</div>
+<div class="margin-adjuster">
+
++
+-
+<div id="margin_disp" class="margin_display" type="input" value="55">
+
+ 
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div id="textSize" class="settings-section">
+
+<div class="setting">
+
+<div class="setting-title">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel/Readability">
+
+<span id="font-type"></span>
+==== Font Type ====
+
+</div>
+
+</div>
+<div class="dyslexic-toggle">
+
+Enable Dyslexic Font <span class="slider round"> </span>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div id="toolbar">
+
+<ul>
+<li><span id="dl-menu">[https://chem.libretexts.org/?downloads <span>Downloads</span> <span class="material-symbols-outlined" aria-hidden="true" focusable="false">expand_more</span>]</span>
+<div class="sub-nav">
+
+<ul>
+<li>[https://chem.libretexts.org/?downloadpage <span>Download Page (PDF)</span>]</li>
+<li>[https://chem.libretexts.org/?downloadfull <span>Download Full Book (PDF)</span>]</li></ul>
+
+</div></li>
+<li><span id="res-menu">[https://chem.libretexts.org/?resources <span>Resources</span> <span class="material-symbols-outlined" aria-hidden="true" focusable="false">expand_more</span>]</span>
+<div class="sub-nav">
+
+<ul>
+<li>[https://chem.libretexts.org/?pertable <span>Periodic Table</span>]</li>
+<li>[https://chem.libretexts.org/?physconst <span>Physics Constants</span>]</li>
+<li>[https://chem.libretexts.org/?scientificcal Scientific Calculator]</li></ul>
+
+</div></li>
+<li><span id="ref-menu">[https://chem.libretexts.org/?references <span>Reference</span> <span class="material-symbols-outlined" aria-hidden="true" focusable="false">expand_more</span>]</span>
+<div class="sub-nav">
+
+<ul>
+<li>[https://chem.libretexts.org/?refmodal <span>Reference &amp; Cite</span>]</li></ul>
+
+</div></li>
+<li><span id="tools-menu">[https://chem.libretexts.org/?tools <span>Tools</span> <span class="material-symbols-outlined" aria-hidden="true" focusable="false">expand_more</span>]</span>
+<div class="sub-nav">
+
+<ul>
+</ul>
+
+</div></li>
+<li><span id="help-menu">[https://chem.libretexts.org/?help <span>Help</span> <span class="material-symbols-outlined" aria-hidden="true" focusable="false">expand_more</span>]</span>
+<div class="sub-nav">
+
+<ul>
+<li>[https://chem.libretexts.org/?helpmodal <span>Get Help</span>]</li>
+<li>[https://chem.libretexts.org/?feedback <span>Feedback</span>]</li>
+<li>[https://chem.libretexts.org/?readability <span>Readability</span>]</li></ul>
+
+</div></li></ul>
+
+</div>
+<div id="modal_readerview" class="modal">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel">
+
+<span id="section"></span>
+==   ==
+
+<span class="modal-close" tabindex="0">x</span>
+
+</div>
+
+</div>
+<div class="modal-body">
+
+selected template will load here
+
+</div>
+
+</div>
+
+</div>
+<div id="modal-main" class="modal micromodal-slide" aria-hidden="true">
+
+<div class="modal__overlay" micromodal-close="data-micromodal-close" tabindex="-1">
+
+<div class="modal__container" aria-labelledby="modal-main-title" aria-modal="true" role="dialog">
+
+<div class="modal__header">
+
+<div class="mt-section" mt-section-origin="Template:Custom/Views/Header/Header_Panel">
+
+<span id="modal-main-title"></span>
+== Error ==
+
+</div>
+
+</div>
+<div id="modal-main-body" class="modal__content" role="main">
+
+This action is not available.
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="mt-container-highlight" style="background-color: #ffffff;">
+
+</div>
+<div style="display:none">
+
+<div id="parentTitleHolder" style="display:none">
+
+1: Waves and Particles
+
+</div>
+<div id="parentParentTitleHolder" style="display:none">
+
+Quantum Mechanics
+
+</div>
+<div id="subpagesHolder" style="display:none">
+
+{ }
+
+</div>
+<div id="parentSubpagesHolder" style="display:none">
+
+{ Blackbody_Radiation : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;Chapter_1:_Atoms_and_Photons:_Origin_of_Quantum_Theory&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;Chapter_2:_Waves_and_Particles&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot; }
+
+</div>
+<div id="parentParentSubpagesHolder" style="display:none">
+
+{ &quot;01._Waves_and_Particles&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;02._Fundamental_Concepts_of_Quantum_Mechanics&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;03._The_Tools_of_Quantum_Mechanics&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;04._The_7_Postulates_of_Quantum_Mechanics&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;05.5:_Particle_in_Boxes&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;06._One_Dimensional_Harmonic_Oscillator&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;07._Angular_Momentum&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;09._The_Hydrogen_Atom&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;10:_Multi-electron_Atoms&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;11:_Angular_Momenta_Coupling&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;11:_Molecules&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;12:_Electron_Scattering&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;12:_Stationary_Perturbation_Theory&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;13:_Fine_and_Hyperfine_Structure&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;14:_Systems_of_Identical_Particles&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;15:_Time-dependent_Quantum_Dynamics&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;16:_Molecular_Spectroscopy&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;17:_Quantum_Calculations&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, &quot;Chapter_14.__Nuclear_Magnetic_Resonance&quot; : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, Gen_Chem_Quantum_Theory : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot;, Zeeman_Effect : &quot;property get [Map MindTouch.Deki.Logic.ExtensionProcessorQueryProvider+&lt;&gt;c__DisplayClass234_0.&lt;PageSubPageProperty&gt;b__1]()&quot; }
+
+</div>
+<div id="modifiedHolder" style="display:none">
+
+Mon, 30 Jan 2023 07:05:33 GMT
+
+</div>
+<div id="titleHolder" style="display:none">
+
+Blackbody Radiation
+
+</div>
+<div id="IDHolder" style="display:none">
+
+1677
+
+</div>
+<div id="pageIDHolder" style="display:none">
+
+1677
+
+</div>
+<div id="pageAuthorHolder" style="display:none">
+
+admin
+
+</div>
+<div id="groupHolder" style="display:none">
+
+{ }
+
+</div>
+<div id="usernameHolder" style="display:none">
+
+Anonymous
+
+</div>
+<div id="displaynameHolder" style="display:none">
+
+Anonymous User
+
+</div>
+<div id="userEmailHolder" style="display:none">
+
+</div>
+<div id="emailHolder" style="display:none">
+
+</div>
+<div id="userIDHolder" style="display:none">
+
+2
+
+</div>
+<div id="proHolder" style="display:none">
+
+false
+
+</div>
+<div id="adminHolder" style="display:none">
+
+false
+
+</div>
+<div id="pageTagsHolder" style="display:none">
+
+[ &quot;article:topic&quot;, &quot;Ultraviolet Catastrophe&quot;, &quot;showtoc:no&quot;, &quot;license:ccbyncsa&quot;, &quot;Planck Distribution&quot;, &quot;licenseversion:40&quot; ]
+
+</div>
+<div id="tagsHolder" style="display:none">
+
+[ &quot;article:topic&quot;, &quot;Ultraviolet Catastrophe&quot;, &quot;showtoc:no&quot;, &quot;license:ccbyncsa&quot;, &quot;Planck Distribution&quot;, &quot;licenseversion:40&quot; ]
+
+</div>
+<div id="ssoHolder" style="display:none">
+
+https://chem.libretexts.org/@app/auth/3/login?returnto=https%3A%2F%2Fchem.libretexts.org%2FBookshelves%2FPhysical_and_Theoretical_Chemistry_Textbook_Maps%2FSupplemental_Modules_(Physical_and_Theoretical_Chemistry)%2FQuantum_Mechanics%2F01._Waves_and_Particles%2FBlackbody_Radiation
+
+</div>
+
+</div>
+
+</div>
+<div class="elm-nav mt-translate-module" hidden="true">
+
+<div class="elm-nav-container mt-translate-container">
+
+</div>
+
+</div>
+<div class="elm-header-logo-container">
+
+[https://chem.libretexts.org ([https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Quantum_Mechanics/01._Waves_and_Particles/Blackbody_Radiation Media content: view on original URL]) Chemistry LibreTexts]
+
+</div>
+
+</div>
+<div>
+
+<div id="flash-messages">
+
+<div class="dekiFlash">
+
+</div>
+
+</div>
+<span id="title"></span>
+= Blackbody Radiation =
+
+# #; Last updated
+#: <span class="mt-last-updated" timestamp="2023-01-30T07:05:33Z"></span>
+# [https://chem.libretexts.org/@api/deki/pages/1677/pdf/Blackbody%2bRadiation.pdf <span class="mt-icon-article-pdf"></span>Save as PDF]
+# 
+
+</div>
+<div class="mt-content-header">
+
+; Page ID
+: 1677
+
+<div class="Headertext">
+
+<span>​</span>
+
+<span>​</span>
+
+\( \newcommand{\vecs}[1]{\overset { \scriptstyle \rightharpoonup} {\mathbf{#1}} } \)
+
+\( \newcommand{\vecd}[1]{\overset{-\!-\!\rightharpoonup}{\vphantom{a}\smash {#1}}} \)
+
+\( \newcommand{\dsum}{\displaystyle\sum\limits} \)
+
+\( \newcommand{\dint}{\displaystyle\int\limits} \)
+
+\( \newcommand{\dlim}{\displaystyle\lim\limits} \)
+
+\( \newcommand{\id}{\mathrm{id}}\) \( \newcommand{\Span}{\mathrm{span}}\)
+
+( \newcommand{\kernel}{\mathrm{null}\,}\) \( \newcommand{\range}{\mathrm{range}\,}\)
+
+\( \newcommand{\RealPart}{\mathrm{Re}}\) \( \newcommand{\ImaginaryPart}{\mathrm{Im}}\)
+
+\( \newcommand{\Argument}{\mathrm{Arg}}\) \( \newcommand{\norm}[1]{\| #1 \|}\)
+
+\( \newcommand{\inner}[2]{\langle #1, #2 \rangle}\)
+
+\( \newcommand{\Span}{\mathrm{span}}\)
+
+\( \newcommand{\id}{\mathrm{id}}\)
+
+\( \newcommand{\Span}{\mathrm{span}}\)
+
+\( \newcommand{\kernel}{\mathrm{null}\,}\)
+
+\( \newcommand{\range}{\mathrm{range}\,}\)
+
+\( \newcommand{\RealPart}{\mathrm{Re}}\)
+
+\( \newcommand{\ImaginaryPart}{\mathrm{Im}}\)
+
+\( \newcommand{\Argument}{\mathrm{Arg}}\)
+
+\( \newcommand{\norm}[1]{\| #1 \|}\)
+
+\( \newcommand{\inner}[2]{\langle #1, #2 \rangle}\)
+
+\( \newcommand{\Span}{\mathrm{span}}\) \( \newcommand{\AA}{\unicode[.8,0]{x212B}}\)
+
+\( \newcommand{\vectorA}[1]{\vec{#1}}      % arrow\)
+
+\( \newcommand{\vectorAt}[1]{\vec{\text{#1}}}      % arrow\)
+
+\( \newcommand{\vectorB}[1]{\overset { \scriptstyle \rightharpoonup} {\mathbf{#1}} } \)
+
+\( \newcommand{\vectorC}[1]{\textbf{#1}} \)
+
+\( \newcommand{\vectorD}[1]{\overrightarrow{#1}} \)
+
+\( \newcommand{\vectorDt}[1]{\overrightarrow{\text{#1}}} \)
+
+\( \newcommand{\vectE}[1]{\overset{-\!-\!\rightharpoonup}{\vphantom{a}\smash{\mathbf {#1}}}} \)
+
+\( \newcommand{\vecs}[1]{\overset { \scriptstyle \rightharpoonup} {\mathbf{#1}} } \)
+
+\(\newcommand{\longvect}{\overrightarrow}\)
+
+\( \newcommand{\vecd}[1]{\overset{-\!-\!\rightharpoonup}{\vphantom{a}\smash {#1}}} \)
+
+\(\newcommand{\ket}[1]{\left| #1 \right&gt;}\)<br />
+\(\newcommand{\bra}[1]{\left&lt; #1 \right|}\)<br />
+\(\newcommand{\braket}[2]{\left&lt; #1 \vphantom{#2} \right| \left. #2 \vphantom{#1} \right&gt;}\)<br />
+\(\newcommand{\braopket}[3]{\left&lt; #1 \vphantom{#2}\vphantom{#3} \right| #2 \vphantom{#1}\vphantom{#3} \left| #3 \vphantom{#1}\vphantom{#2} \right&gt;}\)<br />
+\(\newcommand{\qmvec}[1]{\mathbf{\vec{#1}}}\)<br />
+\(\newcommand{\op}[1]{\hat{\mathbf{#1}}}\)<br />
+\(\newcommand{\expect}[1]{\langle #1 \rangle}\)<br />
+\(\newcommand{\dfn}[1]{\emph{\textbf{#1}}}\)
+
+\(\newcommand{\avec}{\mathbf a}\) \(\newcommand{\bvec}{\mathbf b}\) \(\newcommand{\cvec}{\mathbf c}\) \(\newcommand{\dvec}{\mathbf d}\) \(\newcommand{\dtil}{\widetilde{\mathbf d}}\) \(\newcommand{\evec}{\mathbf e}\) \(\newcommand{\fvec}{\mathbf f}\) \(\newcommand{\nvec}{\mathbf n}\) \(\newcommand{\pvec}{\mathbf p}\) \(\newcommand{\qvec}{\mathbf q}\) \(\newcommand{\svec}{\mathbf s}\) \(\newcommand{\tvec}{\mathbf t}\) \(\newcommand{\uvec}{\mathbf u}\) \(\newcommand{\vvec}{\mathbf v}\) \(\newcommand{\wvec}{\mathbf w}\) \(\newcommand{\xvec}{\mathbf x}\) \(\newcommand{\yvec}{\mathbf y}\) \(\newcommand{\zvec}{\mathbf z}\) \(\newcommand{\rvec}{\mathbf r}\) \(\newcommand{\mvec}{\mathbf m}\) \(\newcommand{\zerovec}{\mathbf 0}\) \(\newcommand{\onevec}{\mathbf 1}\) \(\newcommand{\real}{\mathbb R}\) \(\newcommand{\twovec}[2]{\left[\begin{array}{r}#1 \\ #2 \end{array}\right]}\) \(\newcommand{\ctwovec}[2]{\left[\begin{array}{c}#1 \\ #2 \end{array}\right]}\) \(\newcommand{\threevec}[3]{\left[\begin{array}{r}#1 \\ #2 \\ #3 \end{array}\right]}\) \(\newcommand{\cthreevec}[3]{\left[\begin{array}{c}#1 \\ #2 \\ #3 \end{array}\right]}\) \(\newcommand{\fourvec}[4]{\left[\begin{array}{r}#1 \\ #2 \\ #3 \\ #4 \end{array}\right]}\) \(\newcommand{\cfourvec}[4]{\left[\begin{array}{c}#1 \\ #2 \\ #3 \\ #4 \end{array}\right]}\) \(\newcommand{\fivevec}[5]{\left[\begin{array}{r}#1 \\ #2 \\ #3 \\ #4 \\ #5 \\ \end{array}\right]}\) \(\newcommand{\cfivevec}[5]{\left[\begin{array}{c}#1 \\ #2 \\ #3 \\ #4 \\ #5 \\ \end{array}\right]}\) \(\newcommand{\mattwo}[4]{\left[\begin{array}{rr}#1 \amp #2 \\ #3 \amp #4 \\ \end{array}\right]}\) \(\newcommand{\laspan}[1]{\text{Span}\{#1\}}\) \(\newcommand{\bcal}{\cal B}\) \(\newcommand{\ccal}{\cal C}\) \(\newcommand{\scal}{\cal S}\) \(\newcommand{\wcal}{\cal W}\) \(\newcommand{\ecal}{\cal E}\) \(\newcommand{\coords}[2]{\left\{#1\right\}_{#2}}\) \(\newcommand{\gray}[1]{\color{gray}{#1}}\) \(\newcommand{\lgray}[1]{\color{lightgray}{#1}}\) \(\newcommand{\rank}{\operatorname{rank}}\) \(\newcommand{\row}{\text{Row}}\) \(\newcommand{\col}{\text{Col}}\) \(\renewcommand{\row}{\text{Row}}\) \(\newcommand{\nul}{\text{Nul}}\) \(\newcommand{\var}{\text{Var}}\) \(\newcommand{\corr}{\text{corr}}\) \(\newcommand{\len}[1]{\left|#1\right|}\) \(\newcommand{\bbar}{\overline{\bvec}}\) \(\newcommand{\bhat}{\widehat{\bvec}}\) \(\newcommand{\bperp}{\bvec^\perp}\) \(\newcommand{\xhat}{\widehat{\xvec}}\) \(\newcommand{\vhat}{\widehat{\vvec}}\) \(\newcommand{\uhat}{\widehat{\uvec}}\) \(\newcommand{\what}{\widehat{\wvec}}\) \(\newcommand{\Sighat}{\widehat{\Sigma}}\) \(\newcommand{\lt}{&lt;}\) \(\newcommand{\gt}{&gt;}\) \(\newcommand{\amp}{&amp;}\) \(\definecolor{fillinmathshade}{gray}{0.9}\)
+
+</div>
+
+</div>
+<div class="section mt-content-container">
+
+Blackbody radiation is a cornerstone in the study of quantum mechanics.This experiment is what led to the discovery of a field that would revolutionize physics and chemistry. Quantum mechanics gives a more complete understanding of the fundamental mechanisms at the sub-atomic level.
+
+<div id="section_1" class="mt-section" mt-section-origin="Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Quantum_Mechanics/01._Waves_and_Particles/Blackbody_Radiation">
+
+<span id="Introduction"></span>
+<span id="introduction"></span>
+== Introduction ==
+
+The work done at the turn of the 20<sup>th</sup> century on blackbody radiation was the beginning of a totally new field of science. Blackbody radiation is a theoretical concept in quantum mechanics in which a material or substance completely absorbs all frequencies of light.<span style=""> </span>Because of the laws of thermodynamics, this ideal body must also re-emit as much light as it absorbs.Although there is no material that can truly be a blackbody, some have come close.Carbon in its graphite form is about 96% efficient in its absorption of light.<span style=""> </span>
+
+The concept of blackbody radiation is seen in many different places.The intensity of the energy coming from the radiator is a function only of temperature.<span style=""> </span>A good example of this temperature dependence is a flame.<span style=""> </span>The flame starts out with a low frequency emitting red light in the visible range, as the temperature increases the flame turns white and then blue as is moves across the visible spectrum with an increasing temperature.<span style=""> </span>Also, with each temperature corresponds a new maximum radiance which can be emitted.<span style=""> </span>As the temperature increases, the total radiation emitted also increases due to an increase in the area under the curve.<span style=""> </span>
+
+<span class="external">([https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Quantum_Mechanics/01._Waves_and_Particles/Blackbody_Radiation Media content: view on original URL]) emspec.gif</span>
+
+<span style="font-size:small;"><span style="font-size:x-small;">Electromagnetic spectrum:click for citation</span></span>
+
+Lord Rayleigh and J. H. Jeans developed an equation which explained blackbody radiation at low frequencies.The equation which seemed to express blackbody radiation was built upon all the known assumptions of physics at the time. The big assumption which Rayleigh and Jean implied was that infinitesimal amounts of energy were continuously added to the system when the frequency was increased. Classical physics assumed that energy emitted by atomic oscillations could have any continuous value.<span style=""> </span>This was true for anything that had been studied up until that point, including things like acceleration, position, or energy.They came up with [https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Quantum_Mechanics/02._Fundamental_Concepts_of_Quantum_Mechanics/Deriving_the_Rayleigh-Jeans_Radiation_Law ''Rayleigh-Jeans law''] and the equation they derived was
+
+\[ d\rho \left( \nu ,T \right) = \rho_{\nu} \left( T \right) d \nu = \frac{8 \pi k_B T}{c^3} \nu^2 d\nu \]
+
+<span style="">Experimental data performed on the black box showed slightly different results than what was expected by the ''Rayleigh-Jeans law.<span style=""> </span>''The law had been studied and widely accepted by many physicists of the day, but the experimental results did not lie, something was different between what was theorized and what actually happens.The experimental results showed a bell type of curve but according to the ''Rayleigh-Jeans law'' the frequency diverged as it neared the ultraviolet region.This inconsistency was termed the ''ultraviolet catastrophe.'' </span>
+
+</div>
+<div id="section_2" class="mt-section" mt-section-origin="Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Quantum_Mechanics/01._Waves_and_Particles/Blackbody_Radiation">
+
+<span id="Ultraviolet_Catastrophe"></span>
+<span id="ultraviolet-catastrophe"></span>
+== Ultraviolet Catastrophe ==
+
+During the 19th century much attention was given to the study of heat properties of various objects. An idealised model that was considered was the Black Body, an object which absorbs all incident radiation and then re-emits all this energy again. We can think of the radiating energy as standing waves inside our blackbody cavity. The energy of the radiating waves at a given frequency <span class="texhtml">ν</span>, should be proportional to the number of modes at this frequency. Classical physics states that all these modes have the same energy <span class="texhtml">''kT''</span> (a result derived from classical thermodynamics) and as the number of modes is proportional to \(\nu^2\):
+
+\[E \propto \nu^2 kT \label{1.1.1}\]
+
+This implies that we would expect most of the energy at higher frequency, and this energy diverges with frequency. If we try and sum the energies at each frequency we find that there is an infinite energy in ths system! This paradox was called the '''ULTRAVIOLET CATASTROPHE'''.
+
+It was left to Planck to resolve this gaping paradox, but postulated that the energy of the modes could only come in discrete packets – quanta – of energy:
+
+\[E = h\nu, 2h\nu, 3h\nu, \ldots \qquad \Delta E = h\nu \label{1.1.2}\]
+
+Using statistical mechanics Planck found that the modes at higher frequency were less likely excited so the average energy of these modes would decrease with the frequency. The exact expression for the average energy of each mode is given by the Planck distribution:
+
+\[\langle E \rangle = \frac{h\nu}{\exp(\frac{h\nu}{KT}) - 1} \label{1.1.3}\]
+
+You can see that if the frequency is low then the average energy tends towards the classical result, and as frequency goes to infinity we get that the average energy goes to zero as expected.
+
+Max Planck was the first person to properly explain this experimental data. Rayleigh and Jean made the assumption that energy is continuous, but Planck took a slightly different approach. He said energy must come in certain unit intervals instead of being any random unit or number. He instead “quantized” energy in the form of \(E= nh\nu\) where \(n\) is an integer, \(h\) is a constant, and \(\nu\) is the frequency. This assumption proved to be the missing piece of the puzzle and Planck derived an expression which could explain the experimental data.
+
+\[ d\rho \left( \nu ,T \right) = \rho_{\nu} \left( T \right) d\nu = \dfrac{8 \pi k_B T}{c^3} \dfrac{nu^2}{e^{hv/K_bT}-1} d\nu \]
+
+<span style=""><span style="">This now famous equation is known as the ''Planck Distribution Law for Blackbody Radiation''.The h </span><span style="">in this equation is the famous ''Planck’s constant'', which has a value of \(6.626 \times 10^-34\; J \;s\).</span></span>
+
+<span style=""><span style=""><span style="">([https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Quantum_Mechanics/01._Waves_and_Particles/Blackbody_Radiation Media content: view on original URL]) blackbody.gif</span></span></span>
+
+</div>
+
+</div>
+
+</div>
+<div id="mt-modal-container">
+
+</div>

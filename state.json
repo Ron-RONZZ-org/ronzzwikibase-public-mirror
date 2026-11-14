@@ -198,6 +198,12 @@
       "sha256": "404ad75f4a529928493c24c0d5ce884aa702a6d595733db0f9d1f87e0739d6cc",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Black body": {
+      "path": "Main/Black body.wiki",
+      "revid": 16384,
+      "sha256": "d9cfd64f1228d6f54a346af56751df7df1f007572832207f4a900b9110ba1d1f",
+      "synced_at": "2026-11-14T14:19:32+00:00"
+    },
     "Bohr atomic model": {
       "path": "Main/Bohr atomic model.wiki",
       "revid": 12433,
@@ -4398,6 +4404,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T20:35:26+00:00"
     },
+    "Person:Maximilian Planck": {
+      "path": "Person/Maximilian Planck.wiki",
+      "revid": 16394,
+      "sha256": "cda173cf2f1268342bbae2babeb3bb14a441333e40e48f08676c8ffde57c177d",
+      "synced_at": "2026-11-14T14:19:32+00:00"
+    },
     "Person:Maxwell Forbes": {
       "path": "Person/Maxwell Forbes.wiki",
       "revid": 15646,
@@ -6521,6 +6533,18 @@
       "revid": 11656,
       "sha256": "3ca6f01eefa882f812a176a12afb680e0e4a78df59515f77f3815d49acc48165",
       "synced_at": "2026-10-29T15:11:28+00:00"
+    },
+    "Source:Blackbody Radiation (Webpage)": {
+      "path": "Source/Blackbody Radiation (Webpage).wiki",
+      "revid": 16400,
+      "sha256": "0f8a79d871162cf8ac395fa50673c896b0c8045dc636e1113946852bb731b657",
+      "synced_at": "2026-11-14T14:19:32+00:00"
+    },
+    "Source:Blackbody Radiation (Webpage)/archivedText": {
+      "path": "Source/Blackbody Radiation (Webpage)/archivedText.wiki",
+      "revid": 16399,
+      "sha256": "27729ca3aa9d1b4c010af25b3bf5026adc9c98d426b5714a45fc954ca4644448",
+      "synced_at": "2026-11-14T14:19:32+00:00"
     },
     "Source:Build context (Webpage)": {
       "path": "Source/Build context (Webpage).wiki",
@@ -8665,6 +8689,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-13T18:21:01+00:00",
+  "updated": "2026-11-14T14:19:32+00:00",
   "version": 1
 }
