@@ -1,0 +1,23 @@
+[[Category:Electromagnetism]]
+A '''photon''' is the smallest discrete packet of [[electromagnetic radiation]], modelled as a [[fundamental particle]].
+
+== Fundamental properties ==
+
+Since a photon is part of an electromagnetic radiation, it
+
+* is massless ($m=0$)
+* has no finite size
+* has no substructure
+* travels at speed of light $c$
+* characterised by its wavelength $\lambda$ or frequency $\nu$, where
+
+{{#content:Q3360}}
+<ref>{{#cite:Q3352}}</ref>
+
+== Energy/momentum ==
+
+The energy/momentum of a photon is proportional to its frequency/wavelength respectively
+
+{{#content:Q3365}}
+{{#content:Q3369}}
+<ref>{{#cite:Q3352}}</ref>

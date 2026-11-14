@@ -5532,6 +5532,12 @@
       "sha256": "5cb96dbcd4f935b86f133616f36ee9b43e7240e47e238222449d1d10292bf07d",
       "synced_at": "2026-11-14T18:19:50+00:00"
     },
+    "Photon": {
+      "path": "Main/Photon.wiki",
+      "revid": 16484,
+      "sha256": "d8a54a400b4ab35dd3aa3bb150266e991e8decaad1797673c9df5024ed868364",
+      "synced_at": "2026-11-14T18:35:42+00:00"
+    },
     "Physics": {
       "path": "Main/Physics.wiki",
       "revid": 7789,
@@ -8749,6 +8755,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-14T18:19:50+00:00",
+  "updated": "2026-11-14T18:35:42+00:00",
   "version": 1
 }
