@@ -1,0 +1,7 @@
+{{Person}}
+
+== Biography ==
+
+''from Wikipedia (CC BY-SA 4.0):''
+
+Thomas Young was a British polymath who made notable contributions to the fields of vision, light, solid mechanics, energy, physiology, language, musical harmony, and Egyptology. He was instrumental in the decipherment of Egyptian hieroglyphs, specifically the Rosetta Stone.

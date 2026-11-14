@@ -5238,6 +5238,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T13:10:22+00:00"
     },
+    "Person:Thomas Young": {
+      "path": "Person/Thomas Young.wiki",
+      "revid": 16490,
+      "sha256": "d611afb6fb35fe83e6875570b5b7fdf7e99de152909ea00497485607a70c6862",
+      "synced_at": "2026-11-14T19:35:21+00:00"
+    },
     "Person:Tie Sun": {
       "path": "Person/Tie Sun.wiki",
       "revid": 14814,
@@ -8755,6 +8761,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-14T18:35:42+00:00",
+  "updated": "2026-11-14T19:35:21+00:00",
   "version": 1
 }
