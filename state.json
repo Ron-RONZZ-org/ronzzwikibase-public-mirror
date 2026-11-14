@@ -3570,6 +3570,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
     },
+    "Person:Erwin Schrödinger": {
+      "path": "Person/Erwin Schrödinger.wiki",
+      "revid": 16509,
+      "sha256": "34cdb35f381a544a7ed126c40f6f05de4818367c812a72bbcc420168568a39ba",
+      "synced_at": "2026-11-14T21:35:15+00:00"
+    },
     "Person:Eugene M. Caruso": {
       "path": "Person/Eugene M. Caruso.wiki",
       "revid": 13824,
@@ -8773,6 +8779,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-14T20:09:06+00:00",
+  "updated": "2026-11-14T21:35:15+00:00",
   "version": 1
 }
