@@ -1,0 +1,11 @@
+[[Category:Quantum physics]]
+'''Wave-particle duality of light''' describes the [[physical phenomenon]] that light cannot be modelled as either a wave or particle, but both to explain different experimental observations.
+
+== Mathematical modelling ==
+
+Light is modelled as
+
+* A wave: [[electromagnetic radiation]]
+* A particle: [[photon]]
+
+<ref>{{#cite:Q3352}}</ref>

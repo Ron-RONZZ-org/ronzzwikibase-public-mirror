@@ -8742,6 +8742,12 @@
       "sha256": "248333ebd5f32fad3b1e67940eea8b45a9ab75c11439ef4485380a14965e5ee6",
       "synced_at": "2026-10-21T14:16:28+00:00"
     },
+    "Wave-particle duality of light": {
+      "path": "Main/Wave-particle duality of light.wiki",
+      "revid": 16501,
+      "sha256": "9b2df057d8d166b08c5eaac2624207fb0b7a82065a0e4316f4027dde7eed56b7",
+      "synced_at": "2026-11-14T20:09:06+00:00"
+    },
     "Weak nuclear interaction": {
       "path": "Main/Weak nuclear interaction.wiki",
       "revid": 12065,
@@ -8759,8 +8765,14 @@
       "revid": 14731,
       "sha256": "7b1db3dae8062a0e15cc0924416d678b13c952b7e1f6b94f969d441a0c7bf2d6",
       "synced_at": "2026-11-09T11:35:57+00:00"
+    },
+    "Young experiment (1801)": {
+      "path": "Main/Young experiment (1801).wiki",
+      "revid": 16499,
+      "sha256": "a637241bf1d7d2626c25195a06f3328ea04ebcf1ac000e9bd1892fee678e04ba",
+      "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-14T19:35:21+00:00",
+  "updated": "2026-11-14T20:09:06+00:00",
   "version": 1
 }

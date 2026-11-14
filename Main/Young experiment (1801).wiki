@@ -1,0 +1,11 @@
+[[Category:Well-known physics experiments]][[Category:Quantum physics proof]]
+[[File:Young-thomas-lectures1807-plate-x-xx-fig442-dbl-slit.jpg|thumbnail|Thomas Young's own illustration of his experiment.]]
+The '''Young experiment (1801)''', first performed by [[Person:Thomas Young]], proved the '''[[wave-particle duality of light]]'''.
+
+The experiment has since been repeated with [[electron]]s to prove its wave-particle duality.
+
+== Experimental setup ==
+
+[[File:Double-slit-Young-experiment.svg|thumbnail|Schema of '''Young experiment''' (modern variant)]]
+
+As seen in the schema, electron and photons, which are normally modelled as particles, exhibit wave-like interference behaviour after passing through two thin slits.
