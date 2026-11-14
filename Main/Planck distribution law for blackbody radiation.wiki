@@ -1,0 +1,5 @@
+[[Category:black body]]
+[[File:Black body radiation curves.png|thumbnail|Black body radiation curves]]
+First derived by [[Person:Maximilian Planck]], '''Planck distribution law for blackbody radiation''' describes the energy density of a [[black body]] in the frequency interval $[\nu,\nu+d\nu]$ at temperature $T$.
+
+{{#content:Q3345}}

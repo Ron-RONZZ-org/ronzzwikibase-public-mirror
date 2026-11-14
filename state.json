@@ -3534,6 +3534,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Ernest Rutherford": {
+      "path": "Person/Ernest Rutherford.wiki",
+      "revid": 16413,
+      "sha256": "61b1d117b321d7cc18f79681dc0dacce04c6559bcb7f48566bfa08c31cb63c5d",
+      "synced_at": "2026-11-14T14:35:23+00:00"
+    },
     "Person:Ervin Laszlo": {
       "path": "Person/Ervin Laszlo.wiki",
       "revid": 13789,
@@ -5508,6 +5514,12 @@
       "sha256": "66b4cf0fa248b4532b61722b9ef20a13abaa2ad6a701d8e8d876d5b1ae5f7de7",
       "synced_at": "2026-10-21T20:14:21+00:00"
     },
+    "Planck distribution law for blackbody radiation": {
+      "path": "Main/Planck distribution law for blackbody radiation.wiki",
+      "revid": 16407,
+      "sha256": "dfd2f1bac3b8ba2832c23b56f219f481c411f7f1e3224ef7bcf496110e1afc50",
+      "synced_at": "2026-11-14T14:35:23+00:00"
+    },
     "Polynomial": {
       "path": "Main/Polynomial.wiki",
       "revid": 10107,
@@ -5693,6 +5705,12 @@
       "revid": 9202,
       "sha256": "2b38df35296312f3ce79d05a5e12be065595fb73e8407e2b02d747cd375326d7",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Rutherford experiment (1911)": {
+      "path": "Main/Rutherford experiment (1911).wiki",
+      "revid": 16418,
+      "sha256": "be5af6f1a714d5c2d5a0963c805096743608d1f6000fa3becd58904506e666ea",
+      "synced_at": "2026-11-14T14:35:23+00:00"
     },
     "SIFT method": {
       "path": "Main/SIFT method.wiki",
@@ -8689,6 +8707,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-14T14:19:32+00:00",
+  "updated": "2026-11-14T14:35:23+00:00",
   "version": 1
 }

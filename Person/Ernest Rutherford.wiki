@@ -1,0 +1,7 @@
+{{Person}}
+
+== Biography ==
+
+''from Wikipedia (CC BY-SA 4.0):''
+
+Ernest Rutherford, 1st Baron Rutherford of Nelson was a New Zealand physicist and chemist who was a pioneering researcher in both atomic and nuclear physics. He has been described as "the father of nuclear physics" and "the greatest experimentalist since Michael Faraday". In 1908, he was awarded the Nobel Prize in Chemistry "for his investigations into the disintegration of the elements, and the chemistry of radioactive substances."
