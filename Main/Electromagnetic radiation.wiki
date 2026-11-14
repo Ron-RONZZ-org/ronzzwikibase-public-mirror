@@ -1,0 +1,44 @@
+[[Category:Electromagnetism]][[Category:Quantum physics]]
+[[File:Electromagnetic radiation.png|thumbnail|A 3D schema of '''electromagnetic radiation''']]
+'''Electromagnetic radiation''' is a [[physical phenomenon]] responsible for
+
+* visible light
+* electromagnetic interactions in [[spacetime]]
+
+== Mathematical modelling ==
+
+In modern physics, '''electromagnetic radiation''' is modelled by transverse waves of [[electric field|electric]] and [[magnetic field]]s propagating at $c$. Different radiation have different wavelength and frequency, but always satisfying
+
+{{#content:Q3360}}
+
+=== Energy flux ===
+
+{{#content:Q3367}}
+
+=== Energy density ===
+
+{{#content:Q3361}}
+
+=== Wave function ===
+
+{{#content:Q3362}}
+
+Hence
+
+$$
+\rho\left(\vec{r},t\right)=|\Psi\left(\vec{r},t\right)|^2=\overline \Psi\left(\vec{r},t\right)\Psi\left(\vec{r},t\right)
+$$
+
+== Superposition ==
+
+[[File:Electromagnetic superposition.png|thumbnail|An one-dimensional illustration for electromagnetic superposition]]
+
+{{#content:Q3364}}
+
+$$
+\rho=\Psi^2=\Psi_{1}^2+\Psi_{2}^2+2\Psi_{1}\Psi_{2}
+$$
+
+== Wave-particle duality ==
+
+See [[photon]].

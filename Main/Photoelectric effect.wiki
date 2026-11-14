@@ -4,6 +4,6 @@
 
 == Mathematical description ==
 
-The [[kinetic energy]] of the ejected electrons
+The [[kinetic energy]] of the ejected electrons<ref>{{#cite:Q3352}}</ref>
 
 {{#content:Q3353}}

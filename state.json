@@ -1782,6 +1782,12 @@
       "sha256": "bd54f07cccecb0add0a9dd0c2335c5321fd59f7b38d24cb356cd7b2c76e2657b",
       "synced_at": "2026-10-31T19:07:45+00:00"
     },
+    "Electromagnetic radiation": {
+      "path": "Main/Electromagnetic radiation.wiki",
+      "revid": 16480,
+      "sha256": "56918cf2b93d2123be0eef7a7ecf73144c68be5858a112ddce00bd9ef9326369",
+      "synced_at": "2026-11-14T18:19:50+00:00"
+    },
     "Electrostatic equilibrium": {
       "path": "Main/Electrostatic equilibrium.wiki",
       "revid": 8654,
@@ -5522,9 +5528,9 @@
     },
     "Photoelectric effect": {
       "path": "Main/Photoelectric effect.wiki",
-      "revid": 16435,
-      "sha256": "2f2c452091a84365463a95ec968b91d9ed125eb36d2b82306a136ffdfd0a6795",
-      "synced_at": "2026-11-14T15:08:16+00:00"
+      "revid": 16481,
+      "sha256": "5cb96dbcd4f935b86f133616f36ee9b43e7240e47e238222449d1d10292bf07d",
+      "synced_at": "2026-11-14T18:19:50+00:00"
     },
     "Physics": {
       "path": "Main/Physics.wiki",
@@ -8743,6 +8749,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-14T15:35:17+00:00",
+  "updated": "2026-11-14T18:19:50+00:00",
   "version": 1
 }
