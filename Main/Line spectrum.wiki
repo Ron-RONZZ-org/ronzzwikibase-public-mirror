@@ -1,0 +1,7 @@
+[[Category:Quantum physics]]
+In [[physics]], a '''line spectrum''' is either:
+
+* An [[absorption spectrum]]
+* An [[emission spectrum]]
+
+In both cases, it is a proof that [[electron]]s can only occupy specific energy levels in an [[atom]]. In other words, electron energy is [[quantised]].

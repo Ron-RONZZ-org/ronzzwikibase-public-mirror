@@ -2448,6 +2448,12 @@
       "sha256": "cc41f1647931aea7ec7d27088fd1266235447233948ecb8df49c31ac838c3f52",
       "synced_at": "2026-10-20T13:53:22+00:00"
     },
+    "Line spectrum": {
+      "path": "Main/Line spectrum.wiki",
+      "revid": 16437,
+      "sha256": "06d1c098a957cb865136bdd3f0b30508b16c66a9a53e9de4a3943dd8a68b70f2",
+      "synced_at": "2026-11-14T15:08:16+00:00"
+    },
     "Linear accelerator (linac)": {
       "path": "Main/Linear accelerator (linac).wiki",
       "revid": 11994,
@@ -5502,6 +5508,12 @@
       "sha256": "4c425d6a3c229935521b1a6263bd55c929f393a038f2828323126652f5bffbe5",
       "synced_at": "2026-11-10T09:49:21+00:00"
     },
+    "Photoelectric effect": {
+      "path": "Main/Photoelectric effect.wiki",
+      "revid": 16435,
+      "sha256": "2f2c452091a84365463a95ec968b91d9ed125eb36d2b82306a136ffdfd0a6795",
+      "synced_at": "2026-11-14T15:08:16+00:00"
+    },
     "Physics": {
       "path": "Main/Physics.wiki",
       "revid": 7789,
@@ -6617,6 +6629,18 @@
       "revid": 11069,
       "sha256": "e2b7187d629382df8b9f02b6b54374c5a84fdb39963ab2449f3e8f851adc3211",
       "synced_at": "2026-10-22T06:56:09+00:00"
+    },
+    "Source:Chapter 1: Atoms and Photons: Origin of Quantum Theory (Webpage)": {
+      "path": "Source/Chapter 1_ Atoms and Photons_ Origin of Quantum Theory (Webpage).wiki",
+      "revid": 16431,
+      "sha256": "6bda8dbdf1be21ca5e718f56da1dc82fe0317698c6d1b91a3b0c45189abfa6af",
+      "synced_at": "2026-11-14T15:08:16+00:00"
+    },
+    "Source:Chapter 1: Atoms and Photons: Origin of Quantum Theory (Webpage)/archivedText": {
+      "path": "Source/Chapter 1_ Atoms and Photons_ Origin of Quantum Theory (Webpage)/archivedText.wiki",
+      "revid": 16430,
+      "sha256": "937a1714b2be69c5a9fd4553a453eee8eeab601964f7949e7e7a0e1ecf2c84f2",
+      "synced_at": "2026-11-14T15:08:16+00:00"
     },
     "Source:Clinical applications of magnetic resonance imaging based functional and structural connectivity (Scholarly article)": {
       "path": "Source/Clinical applications of magnetic resonance imaging based functional and structural connectivity (Scholarly article).wiki",
@@ -8707,6 +8731,6 @@
       "synced_at": "2026-11-09T11:35:57+00:00"
     }
   },
-  "updated": "2026-11-14T14:35:23+00:00",
+  "updated": "2026-11-14T15:08:16+00:00",
   "version": 1
 }

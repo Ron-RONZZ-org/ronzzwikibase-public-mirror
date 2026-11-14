@@ -1,0 +1,9 @@
+[[Category:Quantum physics]]
+[[File:Photoelectric-effect-measurement-apparatus-microscopic-picture.svg|thumbnail|Schema of a demonstration of the '''photoelectric effect'''. Filtered, monochromatic [[electromagnetic radiation]] is directed towards the emitting electrode (E). When the collecting electrode (C) has a positive charge, a current can be detected between C and E, from the ejection of [[electron]]s from (E), which are then attracted by (C).]]
+'''Photoelectric effect''' describes the phenomenon that when visible or ultraviolet [[electromagnetic radiation]] impinge on clean metal surfaces, [[electron]]s may be ejected from the metal.<ref>{{#cite:Q3352}}</ref>
+
+== Mathematical description ==
+
+The [[kinetic energy]] of the ejected electrons
+
+{{#content:Q3353}}
