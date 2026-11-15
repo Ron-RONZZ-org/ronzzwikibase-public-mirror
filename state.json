@@ -5676,6 +5676,12 @@
       "sha256": "c96029be83aa5e800ec8fde5e315ba4e8d5f51c5e068987ba8cbc01a946ed4b9",
       "synced_at": "2026-10-31T16:09:35+00:00"
     },
+    "Quantum uncertainty principle": {
+      "path": "Main/Quantum uncertainty principle.wiki",
+      "revid": 16545,
+      "sha256": "fb731fe8f91c9c159d9f404e31d63ba05c11cf185068aa94fa499b16e6e31fd1",
+      "synced_at": "2026-11-15T14:08:22+00:00"
+    },
     "Quark": {
       "path": "Main/Quark.wiki",
       "revid": 11930,
@@ -8821,6 +8827,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-15T13:35:20+00:00",
+  "updated": "2026-11-15T14:08:22+00:00",
   "version": 1
 }
