@@ -1,3 +1,9 @@
-'''Quantum mechanics''' is one framework to the study of [[mechanics]]. It provides a more accurate description of the behaviour of subatomic-scale particles than [[classical mechanics]].
+[[Category:Quantum physics]]
+[[File:Hydrogen-density-plots.png|thumbnail|Probability density plots of the wave functions of the hydrogen [[atom]] in 2D]]
+'''Quantum mechanics''' is one framework to the study of [[mechanics]]. Developed in the late 19th and 20th century, it describes more accurately the behaviour of sub-atomic scale [[physical system]]s than [[classical mechanics]], such as the [[wave-particle duality of light]].
 
-[[Stern-Gerlach experiment]]
+== Key postulates ==
+
+See [[postulates of quantum mechanics]].
+
+It provides a more accurate description of the behaviour of subatomic-scale particles than [[classical mechanics]].

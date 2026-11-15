@@ -5666,9 +5666,9 @@
     },
     "Quantum mechanics": {
       "path": "Main/Quantum mechanics.wiki",
-      "revid": 11943,
-      "sha256": "dc795b0797f2c7143c03af656adc37fd73a3daf93cb8956356354fdb1c04718c",
-      "synced_at": "2026-10-31T13:35:08+00:00"
+      "revid": 16552,
+      "sha256": "5c83ead599d2a4e60a9deaafd2ad2439924cbfcfd45fe4e90822d19b0c362093",
+      "synced_at": "2026-11-15T14:19:29+00:00"
     },
     "Quantum particle interaction": {
       "path": "Main/Quantum particle interaction.wiki",
@@ -8827,6 +8827,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-15T14:08:22+00:00",
+  "updated": "2026-11-15T14:19:29+00:00",
   "version": 1
 }
