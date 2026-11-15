@@ -1,0 +1,42 @@
+[[Category:Vector space]]
+A '''function space''' is a [[vector space]] of [[function]]s.
+
+== Formal definition ==
+
+=== The ambient space $\mathbb{F}^X$ ===
+
+Let $X\ne \emptyset$ be a [[set]] and $\mathbb{F}$ a [[field (mathematical concept)|field]].
+
+Let
+
+$$
+\mathbb{F}^X \;=\; \{\, f : X \to \mathbb{F} \,\}
+$$
+
+be the set of '''all''' functions from $X$ to $\mathbb{F}$,
+
+define addition and scalar multiplication:
+
+$$
+\forall f,g \in \mathbb{F}^X,\, c \in \mathbb{F},\, x \in X: \\
+(f+g)(x) := f(x)+g(x),\,
+(c\cdot f)(x) := c\,f(x),
+$$
+
+then $(\mathbb{F}^X,+,\cdot)$ is the '''ambient space''' over $\mathbb{F}$.
+
+<blockquote>
+The zero vector is the zero function $0(x)=0$.
+</blockquote>
+
+=== Definition of a function space ===
+
+If $V \subseteq \mathbb{F}^X$
+
+satisfies that:
+
+# $\mathbf{0}(x) \in V$ (existence of zero-vector);
+# $\forall f,g\in V: f+g \in V$;
+# $\forall f\in V,\, c\in\mathbb{F}: cf\in V$.
+
+then $(V,+,\cdot)$ is a '''function space''' over $\mathbb{F}$.
