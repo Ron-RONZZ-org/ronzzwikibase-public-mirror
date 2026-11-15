@@ -1764,6 +1764,18 @@
       "sha256": "4d7f5217b7a7caaf055719c004c4aa5842e576d711e784768549ce1f7daa9281",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Eigenfunction": {
+      "path": "Main/Eigenfunction.wiki",
+      "revid": 16571,
+      "sha256": "0603124f0a68b86e5e07c013b81ce5594301a370aee834d56a2f999b19e44f51",
+      "synced_at": "2026-11-15T19:07:26+00:00"
+    },
+    "Eigenvector and eigenvalue": {
+      "path": "Main/Eigenvector and eigenvalue.wiki",
+      "revid": 16567,
+      "sha256": "99277f24ad2d60c35ef31327f28a7b40738bdb247f22e9d126924393e74643ee",
+      "synced_at": "2026-11-15T19:07:26+00:00"
+    },
     "Elderly care facilities": {
       "path": "Main/Elderly care facilities.wiki",
       "revid": 13098,
@@ -2048,9 +2060,9 @@
     },
     "Function space": {
       "path": "Main/Function space.wiki",
-      "revid": 16565,
-      "sha256": "14282943afb33fa7ce84cf122572c082a1adbfc8b758b25c1b7e4c2ba1cf2edc",
-      "synced_at": "2026-11-15T18:49:31+00:00"
+      "revid": 16574,
+      "sha256": "5fb0bf5e6a82eaf0bbde6d2e0045529409f918090936951dda816917f29ad1ae",
+      "synced_at": "2026-11-15T19:07:26+00:00"
     },
     "Functional MRI (fMRI)": {
       "path": "Main/Functional MRI (fMRI).wiki",
@@ -2516,9 +2528,9 @@
     },
     "Linear map": {
       "path": "Main/Linear map.wiki",
-      "revid": 15234,
-      "sha256": "ee0cfbe7fd239755d16361bd028441319a775a6bcfd34f12f6dae519c98982c2",
-      "synced_at": "2026-11-10T15:49:47+00:00"
+      "revid": 16569,
+      "sha256": "2e485e12dda9c564b966c5c0fd751d5b741139f5c0c477ad6284aa441e1394a6",
+      "synced_at": "2026-11-15T19:07:26+00:00"
     },
     "Linear system": {
       "path": "Main/Linear system.wiki",
@@ -8851,6 +8863,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-15T18:49:31+00:00",
+  "updated": "2026-11-15T19:07:26+00:00",
   "version": 1
 }

@@ -1,0 +1,22 @@
+[[Category:Linear map]][[Category:Matrix]]
+Let $\mathbf{A}$ be a [[linear map]] or a [[matrix]].
+
+If for $\vec v \neq 0$:
+
+$$
+\mathbf{A}\vec v = \lambda \vec v,
+$$
+
+Then:
+
+$\vec v$ is an '''eigenvector''' of $\mathbf{A}$, and $\lambda$ is the associated '''eigenvalue'''.
+
+<blockquote>
+An '''eigenvector''' is a nonzero vector that is scaled by $\mathbf{A}$ according to the '''eigenvalue''' but not rotated in direction.
+</blockquote>
+
+== Properties ==
+
+=== $(\mathbf{A}-\lambda \mathbf{I})\vec v=0$ ===
+
+i.e., any '''eigenvector''' $\vec v$ is in the [[linear map#Kernel|kernel]] of [[linear map]] $\mathbf{A}-\lambda \mathbf{I}$.

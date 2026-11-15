@@ -1,4 +1,4 @@
-[[Category:Vector space]]
+[[Category:Function space]]
 A '''function space''' is a [[vector space]] of [[function]]s.
 
 == Formal definition ==

@@ -1,0 +1,14 @@
+[[Category:function space]]
+An '''eigenfunction''' is [[eigenvector and eigenvalue|an eigenvector]] in a [[function space]].
+
+== Formal definition ==
+
+Let $V\in \mathbb{F}^X$ be a [[function space]], $\hat A$ be an [[operator]] there.
+
+Then if for $f \in V$
+
+$$
+\hat Af=\lambda f,
+$$
+
+then $f$ is an '''eigenfunction''' of [[operator]] $\hat A$, associated with '''eigenvalue''' $\lambda$.
