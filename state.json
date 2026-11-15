@@ -6318,6 +6318,18 @@
       "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:4: The 7 Postulates of Quantum Mechanics (Webpage)": {
+      "path": "Source/4_ The 7 Postulates of Quantum Mechanics (Webpage).wiki",
+      "revid": 16558,
+      "sha256": "d17a683b37c47f96808433dfca1bddaaf6e33ea669bcaec74b85be84dc5ca9d9",
+      "synced_at": "2026-11-15T14:35:09+00:00"
+    },
+    "Source:4: The 7 Postulates of Quantum Mechanics (Webpage)/archivedText": {
+      "path": "Source/4_ The 7 Postulates of Quantum Mechanics (Webpage)/archivedText.wiki",
+      "revid": 16557,
+      "sha256": "35bb3372f76057494b2821542b67bef964e0aa78cb04c19b6a1fd7b78752c5f5",
+      "synced_at": "2026-11-15T14:35:09+00:00"
+    },
     "Source:5.05: Spline Method of Interpolation (Webpage)": {
       "path": "Source/5.05_ Spline Method of Interpolation (Webpage).wiki",
       "revid": 11154,
@@ -8827,6 +8839,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-15T14:19:29+00:00",
+  "updated": "2026-11-15T14:35:09+00:00",
   "version": 1
 }
