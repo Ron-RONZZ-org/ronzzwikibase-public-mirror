@@ -1,0 +1,7 @@
+[[Category:Operator]]
+The '''Hamiltonian''' operator relates the [[mechanical energy]] of a particle in movement in 3D space to its movement ([[kinematics]]) and position ([[potential energy]]).
+
+It comes in two variants:
+
+* [[Classical mechanics]]: [[Classical Hamiltonian]]
+* [[Quantum mechanics]]: [[Quantum Hamiltonian]]

@@ -2142,6 +2142,12 @@
       "sha256": "9b5f8589d3a6b4d7bd09c125fbe02da12417444f971ff5931f850ba353026c71",
       "synced_at": "2026-10-20T21:14:14+00:00"
     },
+    "Hamiltonian": {
+      "path": "Main/Hamiltonian.wiki",
+      "revid": 16518,
+      "sha256": "f9baecbf172807b48b7f885b1e444bd416f9a6a70e6491cd077b6aa0a9c12cd0",
+      "synced_at": "2026-11-15T08:23:40+00:00"
+    },
     "Heuristic": {
       "path": "Main/Heuristic.wiki",
       "revid": 13207,
@@ -2753,6 +2759,12 @@
       "revid": 16253,
       "sha256": "cd7bd74664ebb90a064d47535355770e35e09ca46640de7989952f2760667813",
       "synced_at": "2026-11-13T14:10:32+00:00"
+    },
+    "Operator": {
+      "path": "Main/Operator.wiki",
+      "revid": 16517,
+      "sha256": "9aea459e63a42861ddc49a33002239244d7cb04943e44e6fd1f3538c5d04e73e",
+      "synced_at": "2026-11-15T08:23:40+00:00"
     },
     "Optimisation of generic functions": {
       "path": "Main/Optimisation of generic functions.wiki",
@@ -8779,6 +8791,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-14T21:35:15+00:00",
+  "updated": "2026-11-15T08:23:40+00:00",
   "version": 1
 }

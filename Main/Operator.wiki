@@ -1,0 +1,12 @@
+[[Category:Operator]]
+In [[mathematics]], an operator transforms a [[function]] into another.
+
+For instance, if $\hat O$ is the operator that transforms $f$ into $g$, then
+
+$$
+\hat O f=g
+$$
+
+== Examples ==
+
+* [[Hamiltonian]]
