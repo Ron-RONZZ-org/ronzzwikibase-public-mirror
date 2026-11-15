@@ -1,0 +1,63 @@
+[[Category:Quantum physics]]
+First developed by physicist [[Person:Paul Dirac]], the Dirac notation is a compact [[mathematical notation]] for various mathematical concepts relevant to [[quantum mechanics]].
+
+== $\vert\psi\rangle$ (Ket) & $\langle \psi \vert$ (Bra) ==
+
+=== Ket ===
+
+A '''ket''', denoted as $\vert \psi \rangle$, is a '''representation-independent state vector''' representing a particular state of a quantum system, satisfying
+
+$$
+\langle \vec r \vert \psi(t)\rangle
+= \Psi(\vec r,t).
+$$
+for any position vector $\vec r$.
+
+The [[inner product space]]s in which Kets live, are called '''Ket spaces'''.
+
+=== Bra (dual vector) ===
+
+A '''bra''', denoted $\langle \psi \vert$, is the conjugate transpose of ket $\vert \psi \rangle$, satisfying
+
+$$
+\langle\psi\vert\vec r\rangle=\overline{\langle \vec r \vert \psi \rangle}=\overline{\Psi}(\vec r,t).
+$$
+
+== Operations ==
+
+{| class="wikitable"
+! Operation !! Dirac Notation !! Description
+|-
+| '''Inner Product''' || $\langle\phi\vert\psi\rangle$ || $$= \int_{\mathbb{R}^3}\overline{\Phi}(\vec r,t)\Psi(\vec r,t)\,d\tau$$ in position representation, where $d \tau=dxdydz$
+|-
+| '''Outer Product''' || $\vert\psi\rangle\langle\phi\vert$ || gives an [[operator]] that can act on a ket to produce another ket.
+|-
+| '''Operator Action''' || $\hat{A}\vert\psi\rangle$ || $$\langle \vec r\vert\hat{A}\vert\psi(t)\rangle=\hat A_{\vec r}\Psi(\vec r,t),$$where $\hat{A}_\vec r$ is the position-space form of $\hat A$.
+|}
+
+== Orthonormal basis ==
+
+$\{\vert n\rangle\}$ is an '''[[orthonormal basis]]''' of '''Ket space''' $\mathcal{H}$ if
+
+* $|\{\vert n\rangle\}|=\dim(\mathcal{H}),$
+* $\langle n_i \vert n_j \rangle = \delta_{ij}$, where $\delta$ is the [[Kronecker delta function]].
+
+== Identity operator ==
+
+$\hat I$ is an identity operator over $\mathcal{H}$ if 
+
+$$
+\forall\ \vert a \rangle \in \mathcal{H}: \hat I \vert a \rangle = \vert a \rangle.
+$$
+
+=== Well-known identity operators ===
+
+$$
+\hat I
+=
+\begin{cases}
+\displaystyle\sum_n \vert n\rangle\langle n\vert, & \text{discrete orthonormal basis} \{\vert n \rangle\},\\[2mm]
+\displaystyle\int \vert\vec r\rangle\langle\vec r\vert\,\mathrm{d}^3\vec r, & \text{position basis},\\[2mm]
+\displaystyle\int \vert\vec p\rangle\langle\vec p\vert\,\mathrm{d}^3\vec p, & \text{momentum basis}.
+\end{cases}
+$$
