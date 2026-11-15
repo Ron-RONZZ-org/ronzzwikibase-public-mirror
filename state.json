@@ -4458,6 +4458,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T20:35:26+00:00"
     },
+    "Person:Max Born": {
+      "path": "Person/Max Born.wiki",
+      "revid": 16537,
+      "sha256": "1dabb02bd2984b4043b91cb7e8aa1742af6217567336729cbe053b79907c7006",
+      "synced_at": "2026-11-15T13:19:43+00:00"
+    },
     "Person:Maximilian Planck": {
       "path": "Person/Maximilian Planck.wiki",
       "revid": 16394,
@@ -8809,6 +8815,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-15T08:35:25+00:00",
+  "updated": "2026-11-15T13:19:43+00:00",
   "version": 1
 }

@@ -1,0 +1,7 @@
+{{Person}}
+
+== Biography ==
+
+''from Wikipedia (CC BY-SA 4.0):''
+
+Max Born was a German–British theoretical physicist who was instrumental in the development of quantum mechanics. He also made contributions to solid-state physics and optics, and supervised the work of a number of notable physicists in the 1920s and 1930s. He shared the 1954 Nobel Prize in Physics with Walther Bothe "for his fundamental research in quantum mechanics, especially for his statistical interpretation of the wavefunction."
