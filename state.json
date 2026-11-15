@@ -408,6 +408,12 @@
       "sha256": "db10ea24de776ca10a96d85d81e17974de74564bb7479b0363b820b877b66458",
       "synced_at": "2026-10-21T08:19:49+00:00"
     },
+    "Classical Hamiltonian": {
+      "path": "Main/Classical Hamiltonian.wiki",
+      "revid": 16529,
+      "sha256": "14641c410d75c02ba8851fe2a688a63cdf2698203a8551ff3880b302705139ef",
+      "synced_at": "2026-11-15T08:35:25+00:00"
+    },
     "Classical mechanics": {
       "path": "Main/Classical mechanics.wiki",
       "revid": 9182,
@@ -2144,9 +2150,9 @@
     },
     "Hamiltonian": {
       "path": "Main/Hamiltonian.wiki",
-      "revid": 16518,
-      "sha256": "f9baecbf172807b48b7f885b1e444bd416f9a6a70e6491cd077b6aa0a9c12cd0",
-      "synced_at": "2026-11-15T08:23:40+00:00"
+      "revid": 16532,
+      "sha256": "61d1321833fe1e21b5e38e85e0c297678bec03446d828544a9955d8e886b0899",
+      "synced_at": "2026-11-15T08:35:25+00:00"
     },
     "Heuristic": {
       "path": "Main/Heuristic.wiki",
@@ -5424,6 +5430,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-13T18:11:11+00:00"
     },
+    "Person:William Hamilton": {
+      "path": "Person/William Hamilton.wiki",
+      "revid": 16526,
+      "sha256": "35a7e1b7b770f5a9af7754430fcea98fc9d7e0cdb3ed9b9eb4ccf177a40a4bcf",
+      "synced_at": "2026-11-15T08:35:25+00:00"
+    },
     "Person:William Haynes": {
       "path": "Person/William Haynes.wiki",
       "revid": 13515,
@@ -5639,6 +5651,12 @@
       "revid": 7381,
       "sha256": "430b1dd521a2039c093c22d045d01f7a8481997978b0656ef4288d92fcfeb00e",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Quantum Hamiltonian": {
+      "path": "Main/Quantum Hamiltonian.wiki",
+      "revid": 16520,
+      "sha256": "b32f686bfdebddff00d72b29822ef29b6cdbb1927f7b2280d3e3b6fa6f93cf37",
+      "synced_at": "2026-11-15T08:35:25+00:00"
     },
     "Quantum mechanics": {
       "path": "Main/Quantum mechanics.wiki",
@@ -8791,6 +8809,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-15T08:23:40+00:00",
+  "updated": "2026-11-15T08:35:25+00:00",
   "version": 1
 }

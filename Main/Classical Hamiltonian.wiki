@@ -1,0 +1,4 @@
+[[Category:Hamiltonian]]
+First derived by [[Person:William Hamilton]], the '''classical Hamiltonian''' summarises various [[kinematics]] and [[energy]] laws in [[classical mechanics]] in one single equation.
+
+{{#content:Q3384}}

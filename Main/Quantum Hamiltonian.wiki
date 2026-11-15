@@ -1,0 +1,4 @@
+[[Category:Hamiltonian]]
+The '''quantum Hamiltonian''' is the [[quantum mechanics|quantum-analog]] of the [[classical Hamiltonian]].
+
+{{#content:Q3379}}

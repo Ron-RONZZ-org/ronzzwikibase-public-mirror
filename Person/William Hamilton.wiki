@@ -1,0 +1,7 @@
+{{Person}}
+
+== Biography ==
+
+''from Wikipedia (CC BY-SA 4.0):''
+
+Sir William Rowan Hamilton was an Irish mathematician, physicist, and astronomer who made numerous major contributions to algebra, classical mechanics, and optics. His theoretical works and mathematical equations are considered fundamental to modern theoretical physics, particularly his reformulation of Lagrangian mechanics. His research included the analysis of geometrical optics, Fourier analysis, and quaternions, the last of which made him one of the founders of modern linear algebra.
