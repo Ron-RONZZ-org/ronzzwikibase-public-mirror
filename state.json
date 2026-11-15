@@ -5832,6 +5832,12 @@
       "sha256": "baff2523b4c12a9b228005caa6ee6e1848fab6f4117ce9198f0610eb3d173e62",
       "synced_at": "2026-11-13T13:49:02+00:00"
     },
+    "Schrödinger equations": {
+      "path": "Main/Schrödinger equations.wiki",
+      "revid": 16542,
+      "sha256": "0ca5eceed3bd0cb618ccbd4998977aba99140117e5e41808a7d76f1644bd48ef",
+      "synced_at": "2026-11-15T13:35:20+00:00"
+    },
     "Science": {
       "path": "Main/Science.wiki",
       "revid": 7778,
@@ -8815,6 +8821,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-15T13:19:43+00:00",
+  "updated": "2026-11-15T13:35:20+00:00",
   "version": 1
 }

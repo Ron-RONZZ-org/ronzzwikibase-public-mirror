@@ -1,0 +1,40 @@
+[[Category:Schrödinger equations]]
+'''Schrödinger equations''', first published by [[Person:Erwin Schrödinger]] in 1927, provide a mathematical description of a quantum system.<ref>{{#cite:Q3352}}</ref>
+
+== Time-dependent Schrödinger equation ==
+
+{{#content:Q3376}}
+
+== Time-independent Schrödinger equation ==
+
+{{#content:Q3378}}
+
+Equivalently,
+
+$$
+\hat{H}_Q\Psi=E\Psi.
+$$
+
+where $\hat H_Q$ is the [[quantum Hamiltonian]].
+
+== Interpretation ==
+
+The most well-accepted '''interpretation''' of the Schrödinger equations is given by [[Person:Max Born]] in 1926 (before Schrödinger officially published his famous equations:
+
+$$
+\text{Probability of finding the quantum particle at position } \vec r_1: P(\vec r = \vec r_1) \propto \rho(\vec r) = \Psi^2(\vec r).
+$$
+
+If for volume element $d\tau$, which in Cartesian space satisfies $d\tau=dx\,dy\,dz$:
+
+$$
+\int|\psi(\vec{r})|^2d\tau=1,
+$$
+
+then
+
+$$
+\text{Probability of finding the quantum particle at position } \vec r_1: P(\vec r = \vec r_1) = \rho(\vec r) = \Psi^2(\vec r).
+$$
+
+<ref>{{#cite:Q3352}}</ref>
