@@ -1,0 +1,120 @@
+[[Category:Quantum physics]]
+== 1. State wavefunctions describe everything ==
+
+All '''accessible information''' about '''any physically-possible state of a quantum system''' is described by its '''state wavefunction''' 
+
+$$
+\psi(\vec r,t)
+$$
+where $\vec r=(x_1, y_1, z_1, x_2, y_2, z_2,\dots, x_n, y_n, z_n)$ contains spatial coordinates of all particles in the system.
+
+<ref>{{#cite:Q3391}}</ref>
+
+== 2. The square of state wavefunctions is the spatial probability density ==
+
+The probability of finding a quantum system of one or multiple particles in a state where particle $1,2,\dots,i$ are located in volume elements $dx_1dy_1dz_1,\, dx_2,dy_2,dz_2,\dots,dx_i,dy_i,dz_i$
+
+$$
+P=\int \Psi ^* (r, t) \psi (r , t) d \tau
+$$
+where $dτ = dx_1dy_1dz_1\dots dx_ndy_ndz_n$
+
+and
+
+$$
+\int \limits _{all space} \Psi ^* (r, t) \psi (r , t) d \tau = 1
+$$
+(since $\int \limits_{all space} P d\tau=1$)
+
+<ref>{{#cite:Q3391}}</ref>
+
+== 3. Every observable can be obtained from the state wavefunction with a dedicated [[operator]] ==
+
+=== In arbitrary spatial dimension $\vec x$ ===
+
+$$
+\begin{cases}
+\text{Momentum operator}: \hat {P} _x = -i \hbar \dfrac {\partial}{\partial x} \\
+\text{Kinetic energy operator}: \hat {T} _x = \left ( -\dfrac {\hbar ^2}{2m} \right ) \dfrac {\partial ^2}{\partial x^2} 
+\end{cases}
+$$
+
+<ref>{{#cite:Q3391}}</ref>
+
+=== Aggregation over 3 dimensional space ===
+
+$$
+\begin{cases}
+\text{Momentum operator}: \hat {p} = -i \hbar \nabla \\
+\text{Kinetic energy operator}: \hat {T} = \left ( -\dfrac {\hbar ^2}{2m} \right ) \nabla ^2 
+\end{cases}
+$$
+
+where $\nabla^2$ is the [[Laplacian]].
+
+<ref>{{#cite:Q3391}}</ref>
+
+== 4. The time-dependent Schrödinger equation governs the time development of state wavefunctions ==
+
+$$
+\hat{H}_Q (\vec r , t) \Psi (\vec r , t) = i \hbar \dfrac {\partial}{\partial t} \Psi (\vec r , t ) 
+$$
+where $\hat H_Q$ is the [[quantum Hamiltonian]].
+
+<ref>{{#cite:Q3391}}</ref>
+
+=== Special case: when $\hat H_Q$ is time-independent ===
+
+then
+
+$$
+\Psi(\vec r,t)=e^{-i\nu t}\Psi(\vec r)
+$$
+where $\nu= \frac{E}{h}$
+
+<ref>{{#cite:Q3391}}</ref>
+
+== 5. Expected value of observables ==
+
+Let $A$ be an observable corresponding to quantum [[operator]] $\hat A$, and $\langle A \rangle$ denotes its average value, then
+
+in [[Dirac notation]]:
+
+$$
+\langle A\rangle(t)
+=
+\frac{\langle \psi(t)|\hat A|\psi(t)\rangle}{\langle \psi(t)|\psi(t)\rangle},
+$$
+
+Equivalently,
+
+$$
+\langle A\rangle(t)
+=
+\frac{
+\displaystyle\int_{\mathbb{R}^3}
+\overline \Psi(\vec r,t)\,
+\bigl(\hat A_{\vec r}\Psi\bigr)(\vec r,t)\,
+d \tau
+}{
+\displaystyle\int_{\mathbb{R}^3}
+\overline \Psi(\vec r,t)\,
+\Psi(\vec r,t)\,
+d \tau
+},
+$$
+where $dτ = dx_1dy_1dz_1\dots dx_ndy_ndz_n$.
+
+<ref>{{#cite:Q3391}}</ref>
+
+== 6. State wavefunction as an [[eigenfunction]] ==
+
+If
+
+$$
+\hat {A} \Psi = a \Psi ,
+$$
+
+then the observable associated with $\hat A$ will always have value $a$.
+
+<ref>{{#cite:Q3391}}</ref>

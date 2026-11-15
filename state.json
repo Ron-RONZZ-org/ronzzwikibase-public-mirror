@@ -1706,9 +1706,9 @@
     },
     "Dirac notation": {
       "path": "Main/Dirac notation.wiki",
-      "revid": 16560,
-      "sha256": "a8bf70c0e8fac35347909372458ac58ebe157060b858cd2c4a8d7daf8080d2ad",
-      "synced_at": "2026-11-15T17:07:41+00:00"
+      "revid": 16575,
+      "sha256": "28de98f412ffe62d540e5a4ab1e89cae5edec643b93ed0beec174d8d3e697248",
+      "synced_at": "2026-11-15T19:35:19+00:00"
     },
     "Direct product (sets)": {
       "path": "Main/Direct product (sets).wiki",
@@ -5640,6 +5640,12 @@
       "sha256": "a1544b1ac0a00f883024c5668bc6a898e441b64b6abdddf3fb10c05d49b9d6f6",
       "synced_at": "2026-11-11T16:49:46+00:00"
     },
+    "Postulates of quantum mechanics": {
+      "path": "Main/Postulates of quantum mechanics.wiki",
+      "revid": 16576,
+      "sha256": "7928dc0c71c8efe795c701c88627e2bc16a1a81b9f0a21c9d79e0a1633637942",
+      "synced_at": "2026-11-15T19:35:19+00:00"
+    },
     "Power series": {
       "path": "Main/Power series.wiki",
       "revid": 8816,
@@ -8863,6 +8869,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-15T19:07:26+00:00",
+  "updated": "2026-11-15T19:35:19+00:00",
   "version": 1
 }

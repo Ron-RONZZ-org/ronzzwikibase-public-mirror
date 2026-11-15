@@ -28,7 +28,7 @@ $$
 {| class="wikitable"
 ! Operation !! Dirac Notation !! Description
 |-
-| '''Inner Product''' || $\langle\phi\vert\psi\rangle$ || $$= \int_{\mathbb{R}^3}\overline{\Phi}(\vec r,t)\Psi(\vec r,t)\,d\tau$$ in position representation, where $d \tau=dxdydz$
+| '''Inner Product''' || $\langle\phi\vert\psi\rangle$ || $$= \int_{\mathbb{R}^3}\overline{\Phi}(\vec r,t)\Psi(\vec r,t)\,d\tau$$ in position representation, where $dτ = dx_1dy_1dz_1\dots dx_ndy_ndz_n$
 |-
 | '''Outer Product''' || $\vert\psi\rangle\langle\phi\vert$ || gives an [[operator]] that can act on a ket to produce another ket.
 |-
