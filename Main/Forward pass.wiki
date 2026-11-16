@@ -1,43 +1,13 @@
-[[Category:Artificial neural network]]
-A '''forward pass''' is 1 evaluation of an [[artificial neural network (ANN)]] on an input: the input is carried through the model's stages to produce the output, with no gradient computed.<ref>{{#cite:Q3074}}</ref> For a network trained by [[backpropagation]] it is the 1st of the 2 passes, and it is the only one that runs at inference.
-
-The pass is an assembly of stages, each defined on its own page, rather than a single formula.
+[[Category:Artificial neural network| 1]]
+[[File:Deepseek chat.png|thumbnail|When one chats with an [[LLM]], the LLM repeatedly executes [[forward pass]] to generate a response, often token by token.]]
+A '''forward pass''' of an [[artificial neural network (ANN)]], also called '''inference''', is the process of obtaining an output $f_\theta(X)$ based on input $X$.
 
 == Stages ==
 
-For a [[Transformer]] language model, the stages are:
+Common stages of a '''forward pass''' include:
 
-# '''[[tokenisation (machine learning)|Tokenisation]]''' cuts the raw input into tokens from a [[tokenisation (machine learning)#Definition|token vocabulary]] $\mathcal{V}$, yielding a sequence of $T$ indices.
-# '''[[token embedding (machine learning)|Token embedding]]''' maps those indices to vectors in $\mathbb{R}^d$ through the embedding matrix $\mathbf{W}_E$, stacked as the rows of $\mathbf{X}\in\mathbb{R}^{T\times d}$, after which a [[positional encoding]] supplies the order.
-# A stack of $N$ '''blocks''', each applying [[self-attention]] across positions and then the [[Feed-Forward Network (FFN) Sub-Layer (Transformer)|FFN sub-layer]] to each position separately, both inside a [[residual connection (Transformer)|residual connection and a layer normalisation]].
-# An '''output head''' with [[Softmax|softmax]] maps the final representation to logits over $\mathcal{V}$.
-
-The 2 inner stages are the ones that give the model its power and its cost, and are treated at [[self-attention]] and the [[Feed-Forward Network (FFN) Sub-Layer (Transformer)|FFN sub-layer]] respectively. A plain [[artificial neural network (ANN)]] is the degenerate case: it has no attention stage and no tokenisation, and its pass is repeated application of the feedforward step.
-
-== Composition ==
-
-Writing the block at layer $l$ as a map $\varphi^{(l)}$ from its input representation to its output representation, the model as a whole is the composition
-
-$$
-f_\theta=\varphi^{(N)}\circ\cdots\circ\varphi^{(1)},
-$$
-
-so that the output of the pass is $f_\theta(\vec x)$, and it is this $f_\theta$ whose parameters $\theta$ are defined at [[model parameters]].
-
-== Cost ==
-
-Because the stages compose, so do their costs. For a context of length $T$ and hidden dimension $d$, the 2 dominant terms per block are
-
-$$
-\mathcal{O}(T^2d)
-\qquad\text{and}\qquad
-\mathcal{O}(Td^2),
-$$
-
-the 1st coming from [[self-attention]] and growing quadratically with context, the 2nd coming from the [[Feed-Forward Network (FFN) Sub-Layer (Transformer)|FFN sub-layer]] and growing with the square of the width. Which of the 2 dominates therefore depends on whether the context or the width is larger, and over $N$ blocks both scale linearly in $N$.
-
-== Training and inference ==
-
-The pass retains the [[model parameters]] and, during training, the intermediate activations, because [[backpropagation]] needs them to evaluate the local gradients on the way back. That retention is part of the cost of training but not of inference.
-
-At inference the pass is the unit of generation: each output token costs 1 pass, and the stages of the previous steps need not be recomputed, which is the purpose of [[KV caching]].
+* '''[[tokenisation (machine learning)|Tokenisation]]''' and '''[[token embedding (machine learning)|Token embedding]]''', to convert raw input into real vectors.
+* '''Computation'''
+** in a simple [[ANN]]: via [[feedforward algorithm]];
+** in a [[Transformer]]: via multiple layers of [[self-attention]], [[Feed-Forward Network (FFN) Sub-Layer (Transformer)|FFN sub-layer]], and [[residual connection (Transformer)|residual connection + layer normalisation]].
+* '''Output head''': converts the model output back into token(s), often via [[Softmax|softmax]].

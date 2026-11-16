@@ -15,6 +15,10 @@ $$
 f_\theta=\varphi^{(N)}\circ\cdots\circ\varphi^{(1)},
 $$
 
+== Inference ==
+
+See [[forward pass]].
+
 == History ==
 
 == See also ==

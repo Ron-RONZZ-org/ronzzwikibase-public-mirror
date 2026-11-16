@@ -2024,9 +2024,9 @@
     },
     "Forward pass": {
       "path": "Main/Forward pass.wiki",
-      "revid": 16140,
-      "sha256": "69ee49e2927466f07511b1bc1208b150dc631cd541525b1410d2675deb759ae5",
-      "synced_at": "2026-11-12T10:20:30+00:00"
+      "revid": 16584,
+      "sha256": "dbbff861ceff09f68193d85988133af20f8d3b3a09e245f3fd83181dc2387f02",
+      "synced_at": "2026-11-16T10:55:15+00:00"
     },
     "French Literature/fr": {
       "path": "Main/French Literature/fr.wiki",
@@ -8750,9 +8750,9 @@
     },
     "Transformer": {
       "path": "Main/Transformer.wiki",
-      "revid": 16578,
-      "sha256": "8330634faa6667cc2113c580309411bcb5c4d066c478aa610cdf6c1e2d45be29",
-      "synced_at": "2026-11-16T10:39:12+00:00"
+      "revid": 16585,
+      "sha256": "91ecaa6f9d64cfb0036bad0cbb5a660d51c27419693afd87f3c37c0618b9f77f",
+      "synced_at": "2026-11-16T10:55:15+00:00"
     },
     "Transition matrix between bases of a vector space": {
       "path": "Main/Transition matrix between bases of a vector space.wiki",
@@ -8869,6 +8869,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-16T10:39:12+00:00",
+  "updated": "2026-11-16T10:55:15+00:00",
   "version": 1
 }
