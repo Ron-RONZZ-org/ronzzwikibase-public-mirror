@@ -234,6 +234,12 @@
       "sha256": "340033464cb0ddb7e2d231de6cc5eee6dabb28b9a91851f0784c4c43e440f19c",
       "synced_at": "2026-11-10T09:49:21+00:00"
     },
+    "Cardinality": {
+      "path": "Main/Cardinality.wiki",
+      "revid": 16624,
+      "sha256": "352bfc987934869d901c051f2063faef3c3fa4fbd4dca261b0e65f2bc0e2abe1",
+      "synced_at": "2026-11-16T16:23:36+00:00"
+    },
     "Categorical distribution": {
       "path": "Main/Categorical distribution.wiki",
       "revid": 15880,
@@ -5670,6 +5676,12 @@
       "sha256": "6b384873826222c1b6cb0e88c3d4259b3dc6657173ce828012b769e0319b4491",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Power set": {
+      "path": "Main/Power set.wiki",
+      "revid": 16630,
+      "sha256": "62b8de7dcaca677926ca0692dae0d0ccee2633debd1622615668e6752403c56f",
+      "synced_at": "2026-11-16T16:23:36+00:00"
+    },
     "Premier empire français": {
       "path": "Main/Premier empire français.wiki",
       "revid": 10595,
@@ -5960,9 +5972,9 @@
     },
     "Set": {
       "path": "Main/Set.wiki",
-      "revid": 11682,
-      "sha256": "7204b8c5808c3ee8e5fe616516ccd7926ed4aa537cb8d7a0ebd10d089df59992",
-      "synced_at": "2026-10-29T15:50:24+00:00"
+      "revid": 16626,
+      "sha256": "5bc9c47667f1b5070308acf030f44a208b58f5e3c48cfdd22039f9cd1d3b9abd",
+      "synced_at": "2026-11-16T16:23:36+00:00"
     },
     "Shannon entropy": {
       "path": "Main/Shannon entropy.wiki",
@@ -8899,6 +8911,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-16T16:11:13+00:00",
+  "updated": "2026-11-16T16:23:36+00:00",
   "version": 1
 }

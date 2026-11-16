@@ -1,0 +1,86 @@
+[[Category:Set theory| 2]]
+The '''power set''' of a [[set]] $X$, $\mathcal{P}(A)$, is the set of all subsets of X:
+
+i.e.,
+$$
+\mathcal{P}(X) = \{A_i |\forall A_i \subseteq X\}.
+$$
+
+<ref>{{#cite:Q2192}}</ref>
+
+{{Hidden example}}
+$$
+\mathcal{P}(\{a, b\})= \{\emptyset, \{a\}, \{b\}, \{a,b\}\}.
+$$
+{{End hidden}}
+
+== Properties ==
+
+=== $|\mathcal{P}(S)|=2^{|S|}$ ===
+
+when $|S|$ is finite.
+
+{{Hidden proof}}
+'''Proof by induction''':
+
+Let $S_n:|S_n|=n$ be sets.
+
+By definition of [[#cardinality]], $n \in N$.
+
+If $n=0$:
+
+$$
+\mathcal{P}(S_0)=\{\emptyset\} \\
+|\mathcal{P}(S_0)|=1=2^n
+$$
+
+If $n=1$:
+
+$$
+\mathcal{P}(S_1)=\{\emptyset\,A\} \\
+|\mathcal{P}(S_1)|=2=2^n
+$$
+
+If $n>1$:
+
+Given $|\mathcal{P}(S_n)|=2^n$
+
+For any set $S_{n+1}: |S_{n+1}|=n+1$, identify an arbitrary element $s\in S_{n+1}$, then
+
+$$
+S_{n+1}=S_n+s
+$$
+where set $S_n:|S_n|=n$.
+
+As $|\mathcal{P}(S_n)|=2^n$, $S_n$ has $2^n$ subsets: $A_1=\emptyset,A_2,A_3,...A_{m}$, where $m=2^n$
+
+Since 
+
+$$
+A_m \subseteq S_n \subset S_{n+1} \Rightarrow A_m \subset S_{n+1}
+$$
+
+which gives $m$ subsets of $S_{n+1}$
+
+and
+
+$$
+\because s \in S_{n+1} \\
+\therefore A_m+s \subseteq S_{n+1}
+$$
+
+which gives $m$ more subsets of $S_{n+1}$
+
+Therefore, $S_{n+1}$ has $2m=2 \cdot 2^n=2^{n+1}$ subsets,
+
+i.e.,$|\mathcal{P}(S_{n+1})|=2^{n+1}$
+
+$\therefore $ By induction, 
+
+$$
+|\mathcal{P}(S)|=2^{|S|}
+$$
+
+{{End hidden}}
+
+<ref>{{#cite:Q2192}}</ref>
