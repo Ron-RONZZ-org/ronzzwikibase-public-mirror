@@ -2792,9 +2792,9 @@
     },
     "Normal distribution": {
       "path": "Main/Normal distribution.wiki",
-      "revid": 16618,
-      "sha256": "c48e607d7aee5f71fa608b527ff533b09f16104b322c9ed5cbd53820ea4e662d",
-      "synced_at": "2026-11-16T15:33:37+00:00"
+      "revid": 16662,
+      "sha256": "526190f22d65037204874bef48a309e78e9994dc28823192901453807327adf5",
+      "synced_at": "2026-11-16T21:36:10+00:00"
     },
     "Normal random variable": {
       "path": "Main/Normal random variable.wiki",
@@ -5711,6 +5711,12 @@
       "revid": 16273,
       "sha256": "7d9fb9148a3cd65487bc3ad4a79a53f622d3cc13004dbc4f05245b8297a0cf11",
       "synced_at": "2026-11-13T17:08:47+00:00"
+    },
+    "Probability density function": {
+      "path": "Main/Probability density function.wiki",
+      "revid": 16660,
+      "sha256": "837403c5b35ac3d987e11fd4f71fc5b51703338ab6845c5afdcca3d9b958ee73",
+      "synced_at": "2026-11-16T21:36:10+00:00"
     },
     "Probability distribution": {
       "path": "Main/Probability distribution.wiki",
@@ -8953,6 +8959,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-16T21:20:25+00:00",
+  "updated": "2026-11-16T21:36:10+00:00",
   "version": 1
 }

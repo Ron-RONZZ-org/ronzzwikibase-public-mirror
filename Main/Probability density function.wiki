@@ -1,0 +1,15 @@
+[[Category:Random variable]]
+A '''probability density function''' is a representation of a [[probability distribution]] against a reference [[measure]].
+
+== Formal definition ==
+
+
+Let $X:(\Omega,\mathcal{F}(\Omega)) \to (S,\mathcal{F}(S))$ be a [[random variable]], and $P_X$ be its [[probability distribution]].
+
+if $\mu$ is a [[measure]] of $(S,\mathcal{F}(S))$ and $P_X$ is continuous over $\mu$, then the function $f_X$ satisfying
+
+$$
+\forall B \in \mathcal{F}(S): P_X(B)=\int_B f_X(s)d\mu(s)
+$$
+
+is the '''probability density function''' of $X$.

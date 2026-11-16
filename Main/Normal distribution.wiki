@@ -1,20 +1,20 @@
 [[Category:Probability distribution]]
 [[File:Normal-distribution-p-df.svg|thumbnail|The '''probability density function''' of the normal distribution with different '''parameters''']]
-The '''normal distribution''', denoted by $\mathcal{N}(\mu,\sigma)$ is a [[probability distribution]] over $\mathbb{R}$ with the probability density function
+The '''normal distribution''', denoted by $\mathcal{N}(\overline x,\sigma)$ is a [[probability distribution]] over $\mathbb{R}$ with the probability density function
 
 $$
 \forall x \in \mathbb{R}: f_X(x)=\frac{1}{\sigma\sqrt{2\pi}}
-\exp\left(-\frac{(x-\mu)^2}{2\sigma^2}\right),
+\exp\left(-\frac{(x-\overline x)^2}{2\sigma^2}\right),
 $$
 
-where $\mu, \sigma \in \mathbb{R}$ are the two parameters of the distribution, corresponding to the '''mean''' and the '''standard deviation''' of the distribution respectively.
+where $\overline x, \sigma \in \mathbb{R}$ are the two parameters of the distribution, corresponding to the '''mean''' and the '''standard deviation''' of the real [[random variable]] respectively.
 
 $\mathcal{N}(0,1)$ is known as the '''standard normal distribution'''
 
 == Properties ==
 
-=== Symmetry over $x=\mu$ ===
+=== Symmetry over $x=\overline x$ ===
 
 $$
-\forall x \in \mathbb{R}: f_X(x)=f_X(2\mu-x)
+\forall x \in \mathbb{R}: f_X(x)=f_X(2\overline x-x)
 $$
