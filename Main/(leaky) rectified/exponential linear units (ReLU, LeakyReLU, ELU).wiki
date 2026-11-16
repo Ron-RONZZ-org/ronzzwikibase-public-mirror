@@ -1,0 +1,60 @@
+[[Category:Activation function]]
+''' (Leaky) rectified/exponential linear units''' is a family of [[activation function]]s designed to normalise negative [[artificial neuron#Layer composition|pre-activation values]].
+
+== Rectified linear unit (ReLU) ==
+
+$$
+\operatorname{ReLU}(z)=\max(0,z).
+$$
+
+ReLU, which simply set any negative values to $0$, is the cheapest activation function in compute.
+
+However, since
+
+$$
+\frac{\partial \operatorname{ReLU}(z)}{\partial z}=0 \quad \text{for } z<0
+$$
+
+A potential probelm can arise during training via [[backpropagation]] if $z_i<0$ for most or all [[artificial neuron]]s in a given layer $l$:
+
+$$
+\frac{\partial \operatorname{ReLU}(\vec z_l)}{\partial \vec z_l} \to 0
+$$
+
+preventing efficient backpropagation.
+
+In extreme cases, once $\forall z_i \in \vec z_l: z_i<0$, backpropagation completely stops updating the weights and bias of the layer, making the layer effectively a '''dead unit''' that
+
+* does nothing during [[forward pass]];
+* cannot be recovered via standard [[backpropagation]].
+
+== Leaky ReLU ==
+
+To '''prevent''' the rise of '''dead units''' with standard ReLU, the leaky version introduces a small slope $1 \ll \alpha>0$ (e.g., $0.01$ in [[PyTorch]] by default),
+
+$$
+\operatorname{LeakyReLU}(z)=
+\begin{cases}
+z, & z\ge 0,\\
+\alpha z, & z<0.
+\end{cases}
+$$
+
+normalising $z<0$ towards $0$ without risking dead units.
+
+== Exponential linear unit (ELU) ==
+
+For $\alpha>0$ (e.g., $\alpha=1$ in [[Tensorflow]] by default),
+
+$$
+\operatorname{ELU}(z)=
+\begin{cases}
+z, & z>0,\\
+\alpha\left(e^{z}-1\right), & z\le 0.
+\end{cases}
+$$
+
+which is
+
+* smoother than Leaky ReLU near $z=0$
+* numerically stabler: outputs mean activations closer to zero

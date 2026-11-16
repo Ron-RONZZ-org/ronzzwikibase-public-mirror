@@ -1,5 +1,11 @@
 {
   "pages": {
+    "(leaky) rectified/exponential linear units (ReLU, LeakyReLU, ELU)": {
+      "path": "Main/(leaky) rectified/exponential linear units (ReLU, LeakyReLU, ELU).wiki",
+      "revid": 16590,
+      "sha256": "66862768464e75da0d33c990579a46a544b5ba75464746c5aaeb543377b0d60d",
+      "synced_at": "2026-11-16T13:23:40+00:00"
+    },
     "1st Friedmann equation": {
       "path": "Main/1st Friedmann equation.wiki",
       "revid": 12360,
@@ -8869,6 +8875,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-16T12:48:00+00:00",
+  "updated": "2026-11-16T13:23:40+00:00",
   "version": 1
 }
