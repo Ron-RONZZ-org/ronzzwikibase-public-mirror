@@ -5,7 +5,9 @@ A Transformer is, at the time of writing(2026-08), the most popular architecture
 
 Rongzhou's ''[[User:Rongzhou/Transformer-Intuition|Transformer is a super-charged next word prediction algorithm]]'' provides a short intuition for Transformers.
 
-Interestingly, as [[User:Rongzhou/BehindScenes/Transformer-Intuition|the author explains himself]], the story doubles as a live demonstration of Transformers: parts of the story were co-authored by a Transformer model.
+<blockquote>
+As [[User:Rongzhou/BehindScenes/Transformer-Intuition|the author explains himself]], the story doubles as a live demonstration of Transformers: parts of the story were co-authored by a Transformer model.
+</blockquote>
 
 == Mathematical representation ==
 
@@ -14,6 +16,37 @@ A Transformer is a mathematical [[function]] ($f_\theta$) parametrised by [[mode
 $$
 f_\theta=\varphi^{(N)}\circ\cdots\circ\varphi^{(1)},
 $$
+
+=== Layers: $\varphi^{(n)}$ ===
+
+Typically 
+
+$$
+1 \text{ Layer}= 2 \text{ Residual connection}
+$$ 
+(See [[residual connection (Transformer)]])
+
+==== One popular configuration ====
+
+$$
+\varphi^{(n)}: X \mapsto X'' \\
+\begin{cases}
+\mathbf{X}'=\mathbf{X}+\operatorname{Attn}\left(\operatorname{LN}\left(\mathbf{X}\right)\right),\\
+\mathbf{X}''=\mathbf{X}'+\operatorname{FFN}\left(\operatorname{LN}\left(\mathbf{X}'\right)\right),
+\end{cases}
+$$
+
+{| class="wikitable"
+|-
+| $\operatorname{Attn}$
+| '''Attention''', typically [[self-attention]]
+|-
+| $\operatorname{LN}$
+| '''[[Layer-normalisation]]'''
+|-
+| $\operatorname{FFN}$
+| '''[[feed-Forward Network (FFN) Sub-Layer (Transformer)|Feed-Forward Network (FFN)]]'''
+|}
 
 == Inference ==
 
