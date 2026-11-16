@@ -2652,6 +2652,12 @@
       "sha256": "21cfccba980d7ab586812b3f29f742ef1339e5bd21316fd6c1dae8e342caea23",
       "synced_at": "2026-10-25T19:36:18+00:00"
     },
+    "Measure space": {
+      "path": "Main/Measure space.wiki",
+      "revid": 16641,
+      "sha256": "2dbfe31127ef048a9a2cb4e2b3e4508a06243d87048527abdcc8ea1865007bda",
+      "synced_at": "2026-11-16T16:49:54+00:00"
+    },
     "Mechanics": {
       "path": "Main/Mechanics.wiki",
       "revid": 11940,
@@ -5972,9 +5978,9 @@
     },
     "Set": {
       "path": "Main/Set.wiki",
-      "revid": 16626,
-      "sha256": "5bc9c47667f1b5070308acf030f44a208b58f5e3c48cfdd22039f9cd1d3b9abd",
-      "synced_at": "2026-11-16T16:23:36+00:00"
+      "revid": 16633,
+      "sha256": "66ba80cb3f688d7d9a86a0f534456ddff5078ddcd0304f75053a89144fbb7576",
+      "synced_at": "2026-11-16T16:49:54+00:00"
     },
     "Shannon entropy": {
       "path": "Main/Shannon entropy.wiki",
@@ -5987,6 +5993,12 @@
       "revid": 8082,
       "sha256": "3f28ab89c4b1ae3c8fe7345ae1746f0ae8ee9fbef65d0a6c0716b8b30305db5d",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Sigma algebra": {
+      "path": "Main/Sigma algebra.wiki",
+      "revid": 16638,
+      "sha256": "fae25ce1bbfcf7d06251aefd06fb4dd80e8ccc1d0779697257e4985e8d0c12ad",
+      "synced_at": "2026-11-16T16:49:54+00:00"
     },
     "Sigmoid function": {
       "path": "Main/Sigmoid function.wiki",
@@ -8688,6 +8700,12 @@
       "sha256": "2259286b43b03d3ffbf8939c8403a5bb4840ea9717f9e9f7a9395415aadef21a",
       "synced_at": "2026-10-31T19:35:59+00:00"
     },
+    "Subset": {
+      "path": "Main/Subset.wiki",
+      "revid": 16635,
+      "sha256": "0b27d1e1f65336c075cef754fe339b09a7dd24af6b1c363294af214842b82557",
+      "synced_at": "2026-11-16T16:49:54+00:00"
+    },
     "Sum of squared errors (SSE)": {
       "path": "Main/Sum of squared errors (SSE).wiki",
       "revid": 15151,
@@ -8911,6 +8929,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-16T16:23:36+00:00",
+  "updated": "2026-11-16T16:49:54+00:00",
   "version": 1
 }

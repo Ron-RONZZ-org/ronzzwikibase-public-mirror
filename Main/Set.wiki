@@ -1,3 +1,4 @@
+[[Category:Set theory| ]]
 A '''set''' is an unordered collection of distinct '''elements'''.<ref>{{#cite:Q2194}}</ref>
 
 An ordered collection of distinct elements is referred to as a [[sequence]].
@@ -110,22 +111,7 @@ See [[De Morgan's laws]].
 
 === Subset ===
 
-Let $A$, $B$ be sets.
-
-$$
-A \subseteq B \iff \forall x \in A: x \in B \text{  (subset)} \\
-A \subset B \iff (A \subseteq B) \land (A \neq B) \text{  (proper subset)}
-$$
-
-It can be therefore inferred:
-
-$$
-A \not\subseteq B \iff \exists x \in A: x \notin B \\
-A \subseteq A \\
-\forall S: \emptyset \subseteq S \\
-$$
-
-<ref>{{#cite:Q2192}}</ref>
+See [[subset]].
 
 == Direct product ==
 

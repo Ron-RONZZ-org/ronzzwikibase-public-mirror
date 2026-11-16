@@ -1,0 +1,16 @@
+Let $\Omega$ be a [[sample space]], $\mathcal{F}(X)$ be any of its [[sigma algebra]], then
+
+$$
+(\Omega,\mathcal{F}(X))
+$$
+
+is a [[measure space]], where $F \in \mathcal{F}(X)$ are '''events''' to which [[measure]]s can be assigned.
+
+== Special case: Countable sample space ==
+
+For [[cardinality|countable]] sample spaces, one usually takes
+
+$$
+\mathcal F=\mathcal P(\Omega),
+$$
+where $\mathcal{P}$ is the [[power set]] of $\Omega$.

@@ -1,0 +1,31 @@
+[[Category:Set theory| 3]]
+Let $A$, $B$ be [[set]]s.
+
+<div class=center>
+{| class="wikitable"
+|-
+! Observation
+! Remark
+! Notation
+|-
+| $\forall x \in A: x \in B$
+| $A$ is a '''subset''' of $B$
+| $A \subseteq B$
+|-
+| $(A \subseteq B) \land (A \neq B)$
+| $A$ is a '''proper subset''' of $B$
+| $A \subset B$
+|}
+</div>
+
+<ref>{{#cite:Q2192}}</ref>
+
+== Inferences ==
+
+=== $A \not\subseteq B \iff \exists x \in A: x \notin B$ ===
+
+=== $A \subseteq A$ ===
+
+=== $\forall S: \emptyset \subseteq S$ ===
+
+<ref>{{#cite:Q2192}}</ref>

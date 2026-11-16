@@ -1,0 +1,38 @@
+[[Category:Measure theory]]
+[[Category:Probability theory]]
+'''σ-algebra''' (also written '''sigma-algebra''') on a set $X$ is a collection of [[subset]]s of $X$ satisfying three axioms ensuring closure under countable set operations. 
+
+== Mathematical definition ==
+
+Let $X$ be a [[set]]. A collection $\mathcal{F}(X) \subseteq \mathcal{P}(X)$ is a '''σ-algebra''' on $X$ if:
+
+# $X \in \mathcal{F}(X)$;
+# $A \in \mathcal{F}(X) \Rightarrow X \setminus A \in \mathcal{F}(X)$;
+# $\forall i \in 1,2,\dots,\infty: A_i \in \mathcal{F}(X) \Rightarrow \bigcup_{i=1}^{\infty} A_n \in \mathcal{F}(X).$
+
+== Properties ==
+
+=== $\varnothing \in \mathcal{F}(X)$ ===
+
+since $\varnothing = X \setminus X$ and $X \in \mathcal{F}(X)$.
+
+=== Closure of $\mathcal{F}(X)$ under countable intersections ===
+
+i.e., 
+
+if $\forall i = 1,2,\dots: A_i \in \mathcal{F}(X)$, then
+
+$$
+\bigcap_{i=1}^{\infty} A_i = X \setminus \bigcup_{n=1}^{\infty} (X \setminus A_i) \in \mathcal{F}(X).
+$$
+
+=== Closure of $\mathcal{F}(X)$ under set differences ===
+
+i.e.,
+
+if $A, B \in \mathcal{F}(X)$, then $A \setminus B = A \cap (X \setminus B) \in \mathcal{F}(X)$.
+
+== Special cases ==
+
+* '''Trivial σ-algebra''' on $X$: $\{\varnothing, X\}$.
+* The '''largest''' σ-algebra on $X$: $\mathcal{P}(X)$ (the [[power set]] of $X$).
