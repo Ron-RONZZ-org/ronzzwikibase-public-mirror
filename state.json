@@ -2654,9 +2654,9 @@
     },
     "Measurable space": {
       "path": "Main/Measurable space.wiki",
-      "revid": 16648,
-      "sha256": "05a790100a133bf768ec2b8401242a2855f2f61d02edf1bbf095c18fa76084bf",
-      "synced_at": "2026-11-16T17:09:01+00:00"
+      "revid": 16652,
+      "sha256": "71c3a23fc27c499f1e8e93ad8e94f2fc4f0269a8ca195e6be01195d46c777a1d",
+      "synced_at": "2026-11-16T19:35:58+00:00"
     },
     "Measure space": {
       "path": "Main/Measure space.wiki",
@@ -5706,6 +5706,12 @@
       "sha256": "7d9fb9148a3cd65487bc3ad4a79a53f622d3cc13004dbc4f05245b8297a0cf11",
       "synced_at": "2026-11-13T17:08:47+00:00"
     },
+    "Probability space": {
+      "path": "Main/Probability space.wiki",
+      "revid": 16653,
+      "sha256": "ae793464c0aaafae18ac63d9c6c68cfa2c18d30d0089022e66d742160d869c9a",
+      "synced_at": "2026-11-16T19:35:58+00:00"
+    },
     "Production": {
       "path": "Main/Production.wiki",
       "revid": 16228,
@@ -6000,11 +6006,11 @@
       "sha256": "3f28ab89c4b1ae3c8fe7345ae1746f0ae8ee9fbef65d0a6c0716b8b30305db5d",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
-    "Sigma algebra": {
-      "path": "Main/Sigma algebra.wiki",
-      "revid": 16638,
+    "Sigma-algebra": {
+      "path": "Main/Sigma-algebra.wiki",
+      "revid": 16650,
       "sha256": "fae25ce1bbfcf7d06251aefd06fb4dd80e8ccc1d0779697257e4985e8d0c12ad",
-      "synced_at": "2026-11-16T16:49:54+00:00"
+      "synced_at": "2026-11-16T19:35:58+00:00"
     },
     "Sigmoid function": {
       "path": "Main/Sigmoid function.wiki",
@@ -8935,6 +8941,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-16T17:09:01+00:00",
+  "updated": "2026-11-16T19:35:58+00:00",
   "version": 1
 }

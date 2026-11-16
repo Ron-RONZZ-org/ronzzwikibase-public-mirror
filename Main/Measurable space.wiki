@@ -1,5 +1,5 @@
 [[Category:Measure theory| 1]]
-Let $X=\{x_i\}$ be a [[set]] of points, $\mathcal{F}(X)$ be any of its [[sigma algebra]], then
+Let $X=\{x_i\}$ be a [[set]] of points, $\mathcal{F}(X)$ be any of its [[sigma-algebra]], then
 
 $$
 (X,\mathcal{F}(X))
@@ -10,7 +10,7 @@ is a [[measurable space]], where $F \in \mathcal{F}(X)$ are called '''measurable
 
 == Special case: Countable sample space ==
 
-For [[cardinality|countable]] sample spaces, one usually takes
+For [[cardinality|countable]] sets $X$, one usually takes
 
 $$
 \mathcal F=\mathcal P(X),

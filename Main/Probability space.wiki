@@ -1,0 +1,23 @@
+[[Category:Probability theory| 2]]
+A '''probability space''' is a [[measure space]] built on a [[sample space]] and a '''probability measure'''.
+
+== Definition ==
+
+Let $\Omega$ be a [[sample space]] and let $\mathcal F(\Omega)$ be a [[sigma-algebra]] on $\Omega$. 
+
+=== Probability measure ===
+
+A '''probability measure''' is a special [[measure space#Measure|measure]] satisfying the '''normalisation condition''':
+
+$$
+P:\mathcal F(\Omega) \to [0,1] \\
+P(\Omega)=1
+$$
+
+=== Probability space ===
+
+$$
+(\Omega,\mathcal{F}(\Omega),P)
+$$
+
+is a '''probability space''', and $E \in \mathcal{F}(\Omega)$ are '''events''' of the sample space $\Omega$, whose probabilities can be measured.
