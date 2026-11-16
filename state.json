@@ -2766,6 +2766,12 @@
       "sha256": "d6ab74ef19f1e734b48a6a241238a44584457df03a76288a6d64d821ccaf69bf",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Normal random variable": {
+      "path": "Main/Normal random variable.wiki",
+      "revid": 16612,
+      "sha256": "d3a028635d17e42501f99a3ae62809562dab62d5695e2f24165440749cf3c9f8",
+      "synced_at": "2026-11-16T15:14:56+00:00"
+    },
     "Number": {
       "path": "Main/Number.wiki",
       "revid": 11399,
@@ -5735,6 +5741,12 @@
       "revid": 10662,
       "sha256": "1e630696103fa488d89b01b053454bc34d2546fd5dfa087857f28574327be288",
       "synced_at": "2026-10-19T15:14:50+00:00"
+    },
+    "Random variable": {
+      "path": "Main/Random variable.wiki",
+      "revid": 16609,
+      "sha256": "d277b1e6b2af326e2a324f62182dc8ee41a332a21807aac06f4fe83f07358759",
+      "synced_at": "2026-11-16T15:14:56+00:00"
     },
     "Rational number": {
       "path": "Main/Rational number.wiki",
@@ -8875,6 +8887,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-16T14:47:09+00:00",
+  "updated": "2026-11-16T15:14:56+00:00",
   "version": 1
 }

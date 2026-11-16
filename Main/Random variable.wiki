@@ -1,0 +1,37 @@
+[[Category:Random variable| ]]
+A '''random variable''' is a [[variable]] whose value is probabilistic.
+
+== Formal definition ==
+
+[[Function]]
+
+$$
+X:\Omega\to E,
+$$
+
+is a '''random variable''' if
+
+* $\Omega=\{\omega\}$ is the [[set]] of all possible outcomes of a [[random event]], known as the '''sample space''',
+* $E=X(\Omega)$ is the [[set]] of all possible values of $X$, known as the '''value space'''.
+
+{{Hidden example}}
+Let $\Omega=\mathbb{R}$, then
+
+$$
+X(\omega)=
+\begin{cases}
+1,&\omega\text{ is even},\\
+0,&\omega\text{ is odd}.
+\end{cases}
+$$
+
+is a '''random variable''' with value space $E=\{0,1\}$.
+{{End hidden}}
+
+== Probability ==
+
+For $B \subseteq E$
+
+$$
+P(X\in B)=P(\{\omega\in\Omega:X(\omega)\in B\}).
+$$

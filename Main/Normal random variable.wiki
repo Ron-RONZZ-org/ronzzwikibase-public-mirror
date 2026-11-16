@@ -1,0 +1,9 @@
+[[Category:Random variable]]
+
+A [[random variable]] is said to be '''normal''' if:
+
+$$
+X\sim\mathcal N(\mu,\sigma^2),
+$$
+
+where $\mathcal{N}$ is the [[normal distribution]].
