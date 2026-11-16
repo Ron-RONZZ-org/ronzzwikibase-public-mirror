@@ -8750,9 +8750,9 @@
     },
     "Transformer": {
       "path": "Main/Transformer.wiki",
-      "revid": 15976,
-      "sha256": "1115deb5021d7cce057de5aa83c50a1f78d1c667f52b715c6776e1745537a60e",
-      "synced_at": "2026-11-11T18:36:02+00:00"
+      "revid": 16578,
+      "sha256": "8330634faa6667cc2113c580309411bcb5c4d066c478aa610cdf6c1e2d45be29",
+      "synced_at": "2026-11-16T10:39:12+00:00"
     },
     "Transition matrix between bases of a vector space": {
       "path": "Main/Transition matrix between bases of a vector space.wiki",
@@ -8869,6 +8869,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-15T19:35:19+00:00",
+  "updated": "2026-11-16T10:39:12+00:00",
   "version": 1
 }

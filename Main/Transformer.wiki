@@ -7,7 +7,13 @@ Rongzhou's ''[[User:Rongzhou/Transformer-Intuition|Transformer is a super-charge
 
 Interestingly, as [[User:Rongzhou/BehindScenes/Transformer-Intuition|the author explains himself]], the story doubles as a live demonstration of Transformers: parts of the story were co-authored by a Transformer model.
 
-== Mathematical expression ==
+== Mathematical representation ==
+
+A Transformer is a mathematical [[function]] ($f_\theta$) parametrised by [[model parameters]] $\theta$, composed of $N$ independent smaller mathematical functions ('''layers'''):
+
+$$
+f_\theta=\varphi^{(N)}\circ\cdots\circ\varphi^{(1)},
+$$
 
 == History ==
 
