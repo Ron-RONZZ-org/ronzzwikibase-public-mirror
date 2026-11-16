@@ -1,0 +1,27 @@
+[[Category:Probability theory| 1]]
+In [[probability theory]], the '''sample space''', denoted by $\Omega$, is the set of all possible '''elementary outcomes''' of an [[experiment]], denoted by $\omega_i$.
+
+i.e.,
+$$
+\Omega=\{\omega_i\}
+$$
+
+== Examples ==
+
+=== Coin toss ===
+
+$$
+\Omega=\{H,T\}.
+$$
+
+=== Dice roll ===
+
+$$
+\Omega=\{1,2,3,4,5,6\}.
+$$
+
+=== Waiting time for a bus ===
+
+$$
+\Omega=[0,\infty).
+$$
