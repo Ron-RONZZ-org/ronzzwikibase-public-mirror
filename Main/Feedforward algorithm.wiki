@@ -1,37 +1,50 @@
-The '''feedforward algorithm''' is an [[algorithm]] used in a multi-layer [[artificial neural network (ANN)]] to calculate the value of the next layer of [[artificial neuron]]s.
+[[Category:Artificial neural network]]
+The '''feedforward algorithm''' is the simplest [[algorithm]] connecting [[artificial neuron#Layer_composition|two layers]] of a multi-layer [[artificial neural network (ANN)]], feeding the output of a layer to the next as input.
 
 == Mathematical formulation ==
 
 [[File:Layer-layer calculation in ANN.png|thumbnail|]]
-Given an input vector $\vec a^{(0)} \in \mathbb{R}^n$ consisting values of the [[artificial neurons]] of layer 0, a weight matrix $\mathbf{W} \in \mathbb{R}^m \times \mathbb{R}^n$, and a bias vector $\vec b \in \mathbb{R}^m$, the value of the next layer
+Let $\vec a^{(l)} \in \mathbb{R}^n$ be the [[artificial neuron#Layer_composition|'''layer activation vector''']] of layer $l$, then the '''input vector''' for the next layer ($l+1$)
 
 $$
-\vec a^{(1)} = f(\mathbf{W}\vec a^{(0)} + \vec b)
+\vec x^{(l+1)}=\vec a^{(l)}
 $$
 
-where $f$ is the [[activation function]], often the [[sigmoid function]].
+=== Basic form ===
+
+In [[artificial neuron#Mathematical_representation|basic form]], where each neuron satisfies
+
+{{#content:Q3075|noNote}}
+
+then with feedforward from layer $l$ ($m$ neurons) to layer $l+1$ ($n$ neurons),
+
+$$
+\vec a^{(l+1)} = f(\mathbf{W}\vec a^{(l)} + \vec b)
+$$
+
+where $\mathbf{W} \in \mathbb{R}^m \times \mathbb{R}^n$ is the '''weight matrix''', and $\vec b \in \mathbb{R}^m$ the '''bias vector''', both of layer $l+1$, and $f$ is the [[activation function]], often the [[sigmoid function]].
 
 In matrix form:
 
 $$
-\vec a^{(1)} =
+\vec a^{(l+1)} =
 f \left(
 \begin{pmatrix}
-w_{0,0} & w_{0,1} & \cdots & w_{0,n} \\
-w_{1,0} & w_{1,1} & \cdots & w_{1,n} \\
+w_{1,1} & w_{1,2} & \cdots & w_{0,n} \\
+w_{2,1} & w_{2,2} & \cdots & w_{1,n} \\
 \vdots & \vdots & \ddots & \vdots \\
-w_{m,0} & w_{m,1} & \cdots & w_{m,n}
+w_{m,1} & w_{m,2} & \cdots & w_{m,n}
 \end{pmatrix}
 \begin{pmatrix}
-a^{(0)}_0 \\
-a^{(0)}_1 \\
+a^{(l)}_1 \\
+a^{(l)}_2 \\
 \vdots \\
-a^{(0)}_n
+a^{(l)}_n
 \end{pmatrix}
 +
 \begin{pmatrix}
-b_0 \\
 b_1 \\
+b_2 \\
 \vdots \\
 b_m
 \end{pmatrix}
@@ -40,7 +53,7 @@ $$
 
 == Implementation ==
 
-=== Python ===
+=== Python (basic form) ===
 
 <syntaxhighlight lang="python">
 def feedforward(self, a):
