@@ -2766,6 +2766,12 @@
       "sha256": "d6ab74ef19f1e734b48a6a241238a44584457df03a76288a6d64d821ccaf69bf",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Normal distribution": {
+      "path": "Main/Normal distribution.wiki",
+      "revid": 16618,
+      "sha256": "c48e607d7aee5f71fa608b527ff533b09f16104b322c9ed5cbd53820ea4e662d",
+      "synced_at": "2026-11-16T15:33:37+00:00"
+    },
     "Normal random variable": {
       "path": "Main/Normal random variable.wiki",
       "revid": 16612,
@@ -8887,6 +8893,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-16T15:14:56+00:00",
+  "updated": "2026-11-16T15:33:37+00:00",
   "version": 1
 }
