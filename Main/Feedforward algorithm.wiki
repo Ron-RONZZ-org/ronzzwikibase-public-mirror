@@ -9,7 +9,7 @@ $$
 \vec a^{(1)} = f(\mathbf{W}\vec a^{(0)} + \vec b)
 $$
 
-Where $f$ is the activation function, often the [[sigmoid function]].
+where $f$ is the [[activation function]], often the [[sigmoid function]].
 
 In matrix form:
 

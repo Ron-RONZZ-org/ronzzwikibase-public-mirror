@@ -110,9 +110,9 @@
     },
     "Artificial neuron": {
       "path": "Main/Artificial neuron.wiki",
-      "revid": 15115,
-      "sha256": "3f141c6b34d57aab30bc498b0e04a4948453523682b95a3a69aee7114cc4e8b9",
-      "synced_at": "2026-11-10T10:10:32+00:00"
+      "revid": 16596,
+      "sha256": "26cc23e9aea3c20c9932f8c96a3e442e55faec5422b760a951d28b779cc49017",
+      "synced_at": "2026-11-16T13:51:49+00:00"
     },
     "Assembly line": {
       "path": "Main/Assembly line.wiki",
@@ -1982,9 +1982,9 @@
     },
     "Feedforward algorithm": {
       "path": "Main/Feedforward algorithm.wiki",
-      "revid": 15143,
-      "sha256": "9071547d4a132ca66a958446e4441927ee974da708c15f01486225df22319579",
-      "synced_at": "2026-11-10T11:35:46+00:00"
+      "revid": 16593,
+      "sha256": "922a5d231e84ade0a0786715f780b84780606d9d19a7da1257eb879425615f82",
+      "synced_at": "2026-11-16T13:51:49+00:00"
     },
     "Fermat's theorem in calculus": {
       "path": "Main/Fermat's theorem in calculus.wiki",
@@ -8875,6 +8875,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-16T13:23:40+00:00",
+  "updated": "2026-11-16T13:51:49+00:00",
   "version": 1
 }

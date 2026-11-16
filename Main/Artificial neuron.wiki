@@ -5,6 +5,74 @@ An '''artificial neuron''' is an elementary computational unit in an [[artificia
 
 {{#content:Q3075}}
 
+== Layer composition ==
+
+Let $l$ be a '''layer of artificial neurons''' receiving the same '''input vector''' $\vec x=(x_i)=(x_1,x_2,\dots,x_m)$.
+
+Then the '''layer pre-activation vector'''
+
+$$
+\vec z^{(l)}=(z_1,z_2,\dots,z_n)
+$$
+
+and the '''layer activation vector'''
+
+$$
+\vec a^{(l)}=(a_1,a_2,\dots,a_n)=(f(z_1),f(z_2),\dots,f(z_n)) =f(\vec z^{(l)})
+$$
+
+since the '''[[activation function]]''' $f$ is component-wise by definition.
+
+=== Basic form ===
+
+When
+
+$$
+z_j = \sum_{i=1}^{m} w_{j,i} x_i + b_j
+$$
+
+then
+
+$$
+\vec z^{(l)}=\mathbf{W}\vec x + \vec b \\
+\vec a^{(l)}=f(\vec z^{(l)})=f(\mathbf{W}\vec x + \vec b)
+$$
+
+where $\mathbf{W}$ is an $n \times m$ dimensioned matrix, known as the '''weight matrix''' of layer $l$, satisfying
+
+$$
+\mathbf{W}(j,i)=w_{j,i}
+$$
+
+and $\vec b=(b_j) \in \mathbb{R}^n$ is known as the '''bias vector''' of layer $l$.
+
+i.e.,
+
+$$
+\vec a^{(l)} =
+f \left(
+\begin{pmatrix}
+w_{0,0} & w_{0,1} & \cdots & w_{0,m} \\
+w_{1,0} & w_{1,1} & \cdots & w_{1,m} \\
+\vdots & \vdots & \ddots & \vdots \\
+w_{n,0} & w_{n,1} & \cdots & w_{n,m}
+\end{pmatrix}
+\begin{pmatrix}
+x_1 \\
+x_2 \\
+\vdots \\
+x_m
+\end{pmatrix}
++
+\begin{pmatrix}
+b_0 \\
+b_1 \\
+\vdots \\
+b_n
+\end{pmatrix}^\mathrm{T}
+\right)
+$$
+
 == Training ==
 
-During training of an [[artificial neural network (ANN)]], weights and bias of each artificial neuron is adjusted to achieve desired output behaviour.<ref>{{#cite:Q3074}}</ref>
+During training of an [[artificial neural network (ANN)]], weights and bias of each artificial neuron are adjusted to achieve desired output behaviour.<ref>{{#cite:Q3074}}</ref>
