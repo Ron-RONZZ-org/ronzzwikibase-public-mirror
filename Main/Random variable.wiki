@@ -6,13 +6,14 @@ A '''random variable''' is a [[variable]] whose value is probabilistic.
 [[Function]]
 
 $$
-X:\Omega\to E,
+X:(\Omega,\mathcal{F}(\Omega)) \to (S,\mathcal{F}(S)),
 $$
 
 is a '''random variable''' if
 
-* $\Omega=\{\omega\}$ is the [[set]] of all possible outcomes of a [[random event]], known as the '''sample space''',
-* $E=X(\Omega)$ is the [[set]] of all possible values of $X$, known as the '''value space'''.
+* $\Omega=\{\omega\}$ is a '''[[sample space]]'''
+* $S=X(\Omega)$ is the [[set]] of all possible values of $X$, known as the '''value space'''.
+* $\mathcal{F}(\Omega),\mathcal{F}(S)$ are [[sigma-algebra]]s of $\Omega,S$ respectively
 
 {{Hidden example}}
 Let $\Omega=\mathbb{R}$, then
@@ -25,13 +26,27 @@ X(\omega)=
 \end{cases}
 $$
 
-is a '''random variable''' with value space $E=\{0,1\}$.
+is a '''random variable''' with value space $S=\{0,1\}$.
 {{End hidden}}
 
-== Probability ==
+== Probability distribution ==
 
-For $B \subseteq E$
+Let $P_\Omega$ be the [[probability space#Probability_measure|probability measure]] of $(\Omega,\mathcal{F}(\Omega))$,
+
+then the '''probability measure''' of $(S,\mathcal{F}(S))$
 
 $$
-P(X\in B)=P(\{\omega\in\Omega:X(\omega)\in B\}).
+P_X: \mathcal{F}(S) \to [0,1], \\
+P_X(S)=1, \\
+\forall \omega_i \in \Omega: P_X(X(\omega_i))=P_\Omega(\omega_i)).
+$$
+
+$P_X$ is then known as the '''probability distribution''' of random variable $X$.
+
+=== Property ===
+
+For $B \subseteq S$
+
+$$
+P_X(X\in B)=P_\Omega(\{\omega\in\Omega:X(\omega)\in B\}).
 $$
