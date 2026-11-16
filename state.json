@@ -5706,6 +5706,12 @@
       "sha256": "7d9fb9148a3cd65487bc3ad4a79a53f622d3cc13004dbc4f05245b8297a0cf11",
       "synced_at": "2026-11-13T17:08:47+00:00"
     },
+    "Probability distribution": {
+      "path": "Main/Probability distribution.wiki",
+      "revid": 16658,
+      "sha256": "07116af1c214f54899a216682d500cd2959952b6034568b56b0c20a674e7e61e",
+      "synced_at": "2026-11-16T21:09:23+00:00"
+    },
     "Probability space": {
       "path": "Main/Probability space.wiki",
       "revid": 16653,
@@ -8941,6 +8947,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-16T20:10:31+00:00",
+  "updated": "2026-11-16T21:09:23+00:00",
   "version": 1
 }
