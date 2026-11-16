@@ -1,16 +1,29 @@
-Let $\Omega$ be a [[sample space]], $\mathcal{F}(X)$ be any of its [[sigma algebra]], then
+[[Category:Measure theory| 2]]
+A '''measure space''' is a [[measurable space]] $(\Omega,\mathcal F)$ equipped with a '''measure''' $\mu$. 
+
+== Definition ==
+
+=== Measure ===
+
+Let $(\Omega,\mathcal{F}(X)$ be a [[measurable space]], then [[function]]
 
 $$
-(\Omega,\mathcal{F}(X))
+\mu:\mathcal F\to[0,\infty]
 $$
 
-is a [[measure space]], where $F \in \mathcal{F}(X)$ are '''events''' to which [[measure]]s can be assigned.
+satisfying:
 
-== Special case: Countable sample space ==
+* '''Null empty set''': $\mu(\varnothing)=0$;
+* '''Countable additivity''': $\mu\left(\bigcup_{i=1}^{\infty}A_i\right)=\sum_{i=1}^{\infty}\mu(A_i)$ for [[pairwise disjoint sets]] $A_1,A_2,\dots\in\mathcal F$,
 
-For [[cardinality|countable]] sample spaces, one usually takes
+is a '''measure''' of $(\Omega,\mathcal{F}(X))$.
+
+=== Measure space ===
+
+The triple
 
 $$
-\mathcal F=\mathcal P(\Omega),
+(\Omega,\mathcal F,\mu)
 $$
-where $\mathcal{P}$ is the [[power set]] of $\Omega$.
+
+is then a '''measure space'''.

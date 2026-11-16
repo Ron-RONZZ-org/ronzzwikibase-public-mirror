@@ -2652,11 +2652,17 @@
       "sha256": "21cfccba980d7ab586812b3f29f742ef1339e5bd21316fd6c1dae8e342caea23",
       "synced_at": "2026-10-25T19:36:18+00:00"
     },
+    "Measurable space": {
+      "path": "Main/Measurable space.wiki",
+      "revid": 16648,
+      "sha256": "05a790100a133bf768ec2b8401242a2855f2f61d02edf1bbf095c18fa76084bf",
+      "synced_at": "2026-11-16T17:09:01+00:00"
+    },
     "Measure space": {
       "path": "Main/Measure space.wiki",
-      "revid": 16641,
-      "sha256": "2dbfe31127ef048a9a2cb4e2b3e4508a06243d87048527abdcc8ea1865007bda",
-      "synced_at": "2026-11-16T16:49:54+00:00"
+      "revid": 16646,
+      "sha256": "e090cf0aa6878263a5ad0b96da35e0e44bffaf8da27597974170f4ed899a60eb",
+      "synced_at": "2026-11-16T17:09:01+00:00"
     },
     "Mechanics": {
       "path": "Main/Mechanics.wiki",
@@ -8929,6 +8935,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-16T16:49:54+00:00",
+  "updated": "2026-11-16T17:09:01+00:00",
   "version": 1
 }

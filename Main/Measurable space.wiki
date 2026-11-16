@@ -1,0 +1,18 @@
+[[Category:Measure theory| 1]]
+Let $X=\{x_i\}$ be a [[set]] of points, $\mathcal{F}(X)$ be any of its [[sigma algebra]], then
+
+$$
+(X,\mathcal{F}(X))
+$$
+
+is a [[measurable space]], where $F \in \mathcal{F}(X)$ are called '''measurable sets'''.
+
+
+== Special case: Countable sample space ==
+
+For [[cardinality|countable]] sample spaces, one usually takes
+
+$$
+\mathcal F=\mathcal P(X),
+$$
+where $\mathcal{P}$ is the [[power set]] of $X$.
