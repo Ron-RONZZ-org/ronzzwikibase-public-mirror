@@ -14,10 +14,10 @@ $$
 \sigma:\mathbb{R}^n\to\mathbb{R}^n
 $$
 
-so for any $\vec z = (z_1,z_2,\dots,z_n)$:
+so for any '''pre-activation vector''' $\vec z = (z_1,z_2,\dots,z_n)$ of [[artificial neuron#Layer_composition|a layer of artificial neurons]]:
 
 $$
-\sigma(\vec z)=(\sigma(z_1),\sigma(z_2),\dots,\sigma(z_n))
+\text{Activation vector}:\sigma(\vec z)=(\sigma(z_1),\sigma(z_2),\dots,\sigma(z_n))
 $$
 
 == Importance ==
