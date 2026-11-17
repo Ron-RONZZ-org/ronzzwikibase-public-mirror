@@ -558,6 +558,12 @@
       "sha256": "480096f6b4c3961673dcd20c0cd689f246f4d91606949d688139532d9f5c07af",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Annals of Neurosciences": {
+      "path": "Collective/Annals of Neurosciences.wiki",
+      "revid": 17032,
+      "sha256": "62c81646beb805dc3e1635520aba46f083e6c3f42b91d3379e232af53f5ece01",
+      "synced_at": "2026-11-17T20:36:15+00:00"
+    },
     "Collective:Apress": {
       "path": "Collective/Apress.wiki",
       "revid": 6446,
@@ -7242,6 +7248,12 @@
       "sha256": "46232e0634dcedc3b5409037fcde096edfe312ef278837b086d6c944e8f82069",
       "synced_at": "2026-11-17T20:20:33+00:00"
     },
+    "Source:Conditioned reflexes: An investigation of the physiological activity of the cerebral cortex (Scholarly article)": {
+      "path": "Source/Conditioned reflexes_ An investigation of the physiological activity of the cerebral cortex (Scholarly article).wiki",
+      "revid": 17038,
+      "sha256": "9da85e93d60694c4bec4715303a3e3e6c595b8e1a7aac1630dd0e07a907617d1",
+      "synced_at": "2026-11-17T20:36:15+00:00"
+    },
     "Source:Containerd – a core container runtime project for the industry (Webpage)": {
       "path": "Source/Containerd – a core container runtime project for the industry (Webpage).wiki",
       "revid": 6193,
@@ -9349,6 +9361,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-17T20:20:33+00:00",
+  "updated": "2026-11-17T20:36:15+00:00",
   "version": 1
 }
