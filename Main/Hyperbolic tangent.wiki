@@ -1,0 +1,24 @@
+[[Category:Activation function]]
+'''Hyperbolic tangent''' is an [[activation function]].
+
+== Definition ==
+
+$$
+\tanh(z)=\frac{e^{z}-e^{-z}}{e^{z}+e^{-z}}.
+$$
+
+== Properties ==
+
+<div class=center>
+{| class="wikitable"
+|-
+! 
+! Output
+|-
+| Range
+| $(-1,1)$
+|-
+| Center
+| 0
+|}
+</div>

@@ -1976,9 +1976,9 @@
     },
     "Feed-Forward Network (FFN) Sub-Layer (Transformer)": {
       "path": "Main/Feed-Forward Network (FFN) Sub-Layer (Transformer).wiki",
-      "revid": 16671,
-      "sha256": "551720e8f18eb4e0ae889752e457d0495bdcae21457271682e43423d3e1b123b",
-      "synced_at": "2026-11-17T10:20:30+00:00"
+      "revid": 16676,
+      "sha256": "434cc481559bbb9fc1d46f1a93a6c5eb89dfb4f5adcf324c3cd4d2a975dc168d",
+      "synced_at": "2026-11-17T10:36:08+00:00"
     },
     "Feedback loop": {
       "path": "Main/Feedback loop.wiki",
@@ -2315,6 +2315,12 @@
       "revid": 12671,
       "sha256": "bb702d7400a17f42c7b0484d2601a6a508ab8adcabdbda7c5d0ca294cae9a9b1",
       "synced_at": "2026-11-04T09:36:32+00:00"
+    },
+    "Hyperbolic tangent": {
+      "path": "Main/Hyperbolic tangent.wiki",
+      "revid": 16674,
+      "sha256": "8a3b2936634245015fd038eb361f5db436452b5a0ed33da19ccdf5eaa736a641",
+      "synced_at": "2026-11-17T10:36:08+00:00"
     },
     "Hyperparameter (ANN)": {
       "path": "Main/Hyperparameter (ANN).wiki",
@@ -8977,6 +8983,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-17T10:20:30+00:00",
+  "updated": "2026-11-17T10:36:08+00:00",
   "version": 1
 }
