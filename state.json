@@ -18,6 +18,12 @@
       "sha256": "2b02225f82c6d9f764cd410f651c23cc2c3a7d1974ec24d5121634fbb52501bc",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "ABC method of inventory management": {
+      "path": "Main/ABC method of inventory management.wiki",
+      "revid": 16790,
+      "sha256": "6cf2aeff2da07a70dfa939da872c6200b448d0bbf7e175b80a8cbc1a4d35e92d",
+      "synced_at": "2026-11-17T15:36:08+00:00"
+    },
     "ANN": {
       "path": "Main/ANN.wiki",
       "revid": 15145,
@@ -2438,9 +2444,9 @@
     },
     "Inventory": {
       "path": "Main/Inventory.wiki",
-      "revid": 16787,
-      "sha256": "e857bb80a59e3e669a9551f7dc0e4ce332ea49dfdb09b7adc2d080611811c0e5",
-      "synced_at": "2026-11-17T15:10:53+00:00"
+      "revid": 16791,
+      "sha256": "b3dc0d5bd87d3a4b20080d64d644c2a7c7961b1a16592bbd4a78d6254cffbfde",
+      "synced_at": "2026-11-17T15:36:08+00:00"
     },
     "Jacobian matrix": {
       "path": "Main/Jacobian matrix.wiki",
@@ -9019,6 +9025,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-17T15:10:53+00:00",
+  "updated": "2026-11-17T15:36:08+00:00",
   "version": 1
 }

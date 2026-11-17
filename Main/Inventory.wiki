@@ -64,7 +64,7 @@ Different measurements have been developed to accurately reflect inventory level
 *** Insurance
 ** Depreciation/risk of obsolescence
 ** Cost of tied-up capital ($\text{Cost of tied-up capital} = \text{Inventory value} \times \text{cost of capital rate}$)
-* '''Out-of-stock cost'''
+* '''Stockout cost'''
 ** Production disruption
 *** Substitution cost
 ** Lost opportunities

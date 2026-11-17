@@ -1,0 +1,82 @@
+[[Category:Inventory]]
+The '''ABC method of inventory management''' is a three-tier system for managing inventory.
+
+== Analysis ==
+
+=== Identification ===
+
+For each item $It_i$, identify
+
+{| class="wikitable"
+|-
+| Unit value
+| $v_i$
+|-
+| Quantity consumed over period $t$
+| $Q_i$
+|}
+
+then calculate '''total value''' $V_i$ and '''value percentage'''
+
+$$
+V_i=v_iQ_i \\
+\%V_i=\frac{V_i}{\sum V}
+$$
+
+=== Ordering ===
+
+Order all items by $%V_i$ from highest to lowest to form array $(It_k)$, then calculate cumulative percentage
+
+$$
+\%CV_k=\sum_{n=1}^{k} \%V_k
+$$
+
+=== Classification ===
+
+{| class="wikitable"
+|-
+! $\%CV_k$*
+! Category for $It_k$
+|-
+| 0-75%
+| A
+|-
+| 75-92%
+| B
+|-
+| 92%-100%
+| C
+|}
+
+<blockquote>
+<nowiki/>*: Indicative value
+</blockquote>
+
+== Management ==
+
+<div class=center>
+{| class="wikitable"
+|-
+! Category
+! [[Cycle counting]]
+! Safety stock
+! Ordering
+|-
+| A
+| Frequent
+| Strategically analysed
+| Optimised and periodically reviewed
+|-
+| B
+| Periodic
+| Moderate
+| Standard
+|-
+| C
+| Occasional
+| High
+| Simplified
+|}
+</div>
+
+<ref>{{#cite:Q3306}}</ref>
