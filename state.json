@@ -1230,6 +1230,12 @@
       "sha256": "0883496604c508e8ad589be7e1e7d089d21849553374ff1c5b4db4fda8a789ca",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Psychological Review": {
+      "path": "Collective/Psychological Review.wiki",
+      "revid": 16929,
+      "sha256": "5f83b2eea2cf6d14105def8e5327d255e13413e55f49bf5756f364a997092335",
+      "synced_at": "2026-11-17T17:35:48+00:00"
+    },
     "Collective:Psychophysiology": {
       "path": "Collective/Psychophysiology.wiki",
       "revid": 14774,
@@ -3294,6 +3300,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-10-21T14:41:43+00:00"
     },
+    "Person:Ara Norenzayan": {
+      "path": "Person/Ara Norenzayan.wiki",
+      "revid": 16945,
+      "sha256": "32a59320d615e8f65a57f08ba9c8fccb25483e7f134a2fb1f47d0e82d0982922",
+      "synced_at": "2026-11-17T17:35:48+00:00"
+    },
     "Person:Ari Holtzman": {
       "path": "Person/Ari Holtzman.wiki",
       "revid": 15634,
@@ -4032,6 +4044,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T13:10:22+00:00"
     },
+    "Person:Incheol Choi": {
+      "path": "Person/Incheol Choi.wiki",
+      "revid": 16941,
+      "sha256": "23a7b7437f316b9490301cccaaf9107b4471bb409737a98b7c7c71258a9d8c11",
+      "synced_at": "2026-11-17T17:35:48+00:00"
+    },
     "Person:Isaac Newton": {
       "path": "Person/Isaac Newton.wiki",
       "revid": 6987,
@@ -4362,6 +4380,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
     },
+    "Person:Kaiping Peng": {
+      "path": "Person/Kaiping Peng.wiki",
+      "revid": 16937,
+      "sha256": "3d2f1854473a839e9ed39d6f4d991481c1f455776d344b72a33d3cf74d413d0d",
+      "synced_at": "2026-11-17T17:35:48+00:00"
+    },
     "Person:Kaiwen Zheng": {
       "path": "Person/Kaiwen Zheng.wiki",
       "revid": 16097,
@@ -4607,6 +4631,12 @@
       "revid": 11256,
       "sha256": "e59595d699f028aead97163bcfbb816915fb1a34c9ce29cb135f291cc998e0b6",
       "synced_at": "2026-10-25T15:26:48+00:00"
+    },
+    "Person:Marilyn D. Lovett": {
+      "path": "Person/Marilyn D. Lovett.wiki",
+      "revid": 16964,
+      "sha256": "61f519c80dfbfb3171ca47297306c9cf81b22ad35c1ae768509130ca99ccac9c",
+      "synced_at": "2026-11-17T17:35:48+00:00"
     },
     "Person:Marius Hobbhahn": {
       "path": "Person/Marius Hobbhahn.wiki",
@@ -5148,6 +5178,12 @@
       "sha256": "22293e41f4331d1a46cbba76357d4eca2c7064b0bfcb4dda2f5186e05a2a4a92",
       "synced_at": "2026-10-25T15:26:48+00:00"
     },
+    "Person:Richard E. Nisbett": {
+      "path": "Person/Richard E. Nisbett.wiki",
+      "revid": 16933,
+      "sha256": "221f3e7b07d6dd3896ac7fd4901256fa67818afe2e53fe1930bda9a3eb7d9aa1",
+      "synced_at": "2026-11-17T17:35:48+00:00"
+    },
     "Person:Richard Feynman": {
       "path": "Person/Richard Feynman.wiki",
       "revid": 12033,
@@ -5207,6 +5243,12 @@
       "revid": 13785,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Rose M. Spielman": {
+      "path": "Person/Rose M. Spielman.wiki",
+      "revid": 16956,
+      "sha256": "78f67d1456a2bfc8307ecbb7ce3f700e81e7bac402ab39fd9ab4ebb82d2b0600",
+      "synced_at": "2026-11-17T17:35:48+00:00"
     },
     "Person:Ross Anderson": {
       "path": "Person/Ross Anderson.wiki",
@@ -5687,6 +5729,12 @@
       "revid": 13515,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:19:42+00:00"
+    },
+    "Person:William J. Jenkins": {
+      "path": "Person/William J. Jenkins.wiki",
+      "revid": 16960,
+      "sha256": "61f519c80dfbfb3171ca47297306c9cf81b22ad35c1ae768509130ca99ccac9c",
+      "synced_at": "2026-11-17T17:35:48+00:00"
     },
     "Person:William W. Behrens III": {
       "path": "Person/William W. Behrens III.wiki",
@@ -7176,6 +7224,12 @@
       "sha256": "53b6ddde94424aae370a6c3f11cc803402520aee05908530025eba6cc505c3bb",
       "synced_at": "2026-10-21T10:32:44+00:00"
     },
+    "Source:Culture and systems of thought: Holistic versus analytic cognition (Scholarly article)": {
+      "path": "Source/Culture and systems of thought_ Holistic versus analytic cognition (Scholarly article).wiki",
+      "revid": 16949,
+      "sha256": "e4848f47a2adc3e31e09bf279562bb35dab8ac1f0fb88a122cddddaed17f9c1d",
+      "synced_at": "2026-11-17T17:35:48+00:00"
+    },
     "Source:DSM-5-TR (Book)": {
       "path": "Source/DSM-5-TR (Book).wiki",
       "revid": 7556,
@@ -8382,6 +8436,12 @@
       "sha256": "7df57b12f16403cb92bdd5e7aa43ff83a0ffd88da84cffa907ceb0f4dcee36eb",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Psychology 2e (Book)": {
+      "path": "Source/Psychology 2e (Book).wiki",
+      "revid": 16968,
+      "sha256": "e62869c1fbfe7372817f68e24dd4268ca953c0041c9b1f2b2d3d7a5bfa431400",
+      "synced_at": "2026-11-17T17:35:48+00:00"
+    },
     "Source:Qu’est-ce qu’un think tank ? Une perspective française (Scholarly article)": {
       "path": "Source/Qu’est-ce qu’un think tank _ Une perspective française (Scholarly article).wiki",
       "revid": 12471,
@@ -9211,6 +9271,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-17T17:10:05+00:00",
+  "updated": "2026-11-17T17:35:48+00:00",
   "version": 1
 }

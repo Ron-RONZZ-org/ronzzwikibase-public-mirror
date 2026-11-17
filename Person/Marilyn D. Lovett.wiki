@@ -1,0 +1,5 @@
+{{Person}}
+
+== Overview ==
+
+psychologist, co-author of the OpenStax textbook Psychology 2e
