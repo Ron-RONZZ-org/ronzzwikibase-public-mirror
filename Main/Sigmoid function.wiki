@@ -1,5 +1,5 @@
 [[Category:Special function]][[Category:Activation function]]
-[[File:Sigmoid function.png|thumbnail|]]
+[[File:Sigmoid-function-plot.svg|thumbnail|$\sigma(z)=\frac{1}{1+e^{-z}}$ for $z\in[-5.6,5.6]$, with the asymptote $\sigma=1$ and $\sigma(0)=\frac{1}{2}$ marked]]
 The '''sigmoid function''', also known as the '''logistic function''', is a bounded, differentiable, and real-valued [[special function]], commonly used as an [[activation function]] in [[artificial neural network (ANN)|artificial neural networks (ANN)]].
 
 It is the inverse of the [[logit function]].

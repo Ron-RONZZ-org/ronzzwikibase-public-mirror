@@ -1,4 +1,5 @@
 [[Category:Activation function]]
+[[File:GELU-activation-function.svg|thumbnail|$\mathrm{GELU}(z)=z\,\Phi(z)$ for $z\in[-4.2,4.2]$ against ReLU (dashed); smooth and non-monotonic, with a minimum near $(-0.751,-0.170)$]]
 Gaussian error linear unit is an [[activation function]] liked for its smoothness.
 
 == Definition ==

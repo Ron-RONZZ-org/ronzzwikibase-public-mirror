@@ -1,4 +1,5 @@
 [[Category:Activation function]]
+[[File:GLU-gating-scalar-view.svg|thumbnail|Scalar view with $w_1=0.8$, $w_2=1.7$: the linear branch $z\,w_1$, the sigmoid gate $f(z\,w_2)$, and their product $\mathrm{GLU}(z)$]]
 A gated linear unit (GLU) is a trainable [[activation function]].
 
 $$

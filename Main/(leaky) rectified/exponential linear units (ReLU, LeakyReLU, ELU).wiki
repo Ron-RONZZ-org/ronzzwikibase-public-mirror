@@ -1,4 +1,5 @@
 [[Category:Activation function]]
+[[File:ReLU-LeakyReLU-ELU-activation-functions.svg|thumbnail|ReLU (solid), Leaky ReLU ($\alpha=0.1$ dashed, $\alpha=0.01$ dotted) and ELU ($\alpha=1$, dash-dotted) for $z\in[-4,4]$]]
 ''' (Leaky) rectified/exponential linear units''' is a family of [[activation function]]s designed to normalise negative [[artificial neuron#Layer composition|pre-activation values]].
 
 == Rectified linear unit (ReLU) ==

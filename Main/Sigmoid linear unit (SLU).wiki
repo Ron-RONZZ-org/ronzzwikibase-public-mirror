@@ -1,4 +1,5 @@
 [[Category:Activation function]]
+[[File:SiLU-activation-function.svg|thumbnail|$\mathrm{SiLU}(z)=z\,\sigma(z)$ for $z\in[-5.5,4.5]$; the function is non-monotonic, with a global minimum near $(-1.278,-0.278)$]]
 '''Sigmoid linear unit''' is a non-monotonic and smooth [[activation function]].
 
 $$
