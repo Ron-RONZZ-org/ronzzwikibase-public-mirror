@@ -1,0 +1,7 @@
+[[Category:Cognitive bias]]
+'''Illusory truth effect''' describes the human tendency to increasingly perceive a statement as true after simple repeated exposure. It is a source of [[cognitive bias]].
+
+== Experimental observations ==
+
+[[File:Illusory truth effect.png|thumbnail|400px|Results table from [[Source:Frequency and the conference of referential validity (Scholarly article)|name-author]]]]
+According to experiments conducted by [[Source:Frequency and the conference of referential validity (Scholarly article)|name-author]], participants rated a group of statements as more truthful after repeated exposure in three different sessions, even when the statements are false.

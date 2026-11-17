@@ -990,6 +990,12 @@
       "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
       "synced_at": "2026-11-07T19:35:16+00:00"
     },
+    "Collective:Jurnal Ilmiah Psikologi Terapan": {
+      "path": "Collective/Jurnal Ilmiah Psikologi Terapan.wiki",
+      "revid": 16901,
+      "sha256": "87ea25d1cba43a96bdc03b3d61c8215e3d4059abb4d1e297c54685fdc85d056d",
+      "synced_at": "2026-11-17T17:10:05+00:00"
+    },
     "Collective:Kahneman, Daniel ; Tversky, Amos": {
       "path": "Collective/Kahneman, Daniel ; Tversky, Amos.wiki",
       "revid": 13862,
@@ -1415,6 +1421,12 @@
       "revid": 11814,
       "sha256": "39c3c05775fef2639103f08403975b53eff2507627d14b17e3c86ddecb5530d9",
       "synced_at": "2026-10-30T21:08:41+00:00"
+    },
+    "Collective:Universitas Muhammadiyah Malang": {
+      "path": "Collective/Universitas Muhammadiyah Malang.wiki",
+      "revid": 16905,
+      "sha256": "35dce70bef28b7ac50b195d70d70fe7fc4398b6c75ffabb35ac19dbfd37183e0",
+      "synced_at": "2026-11-17T17:10:05+00:00"
     },
     "Collective:University of Arizona": {
       "path": "Collective/University of Arizona.wiki",
@@ -2393,6 +2405,12 @@
       "revid": 9796,
       "sha256": "fdc4afcba485e34f81981724adedb3e3b3c94a987327f514bb214200f0506fd3",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Illusory truth effect": {
+      "path": "Main/Illusory truth effect.wiki",
+      "revid": 16896,
+      "sha256": "b24628dc73fda0cdad837962cdf146bdd55db36fda16a2cdce39bc39036309ea",
+      "synced_at": "2026-11-17T17:10:05+00:00"
     },
     "Image and preimage of a function": {
       "path": "Main/Image and preimage of a function.wiki",
@@ -3978,6 +3996,12 @@
       "sha256": "82114bd7998d3b58e6a9559e230bc1f61c99f0256d8a67c243cdf826af9ce5d1",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Heni Nur Achdiyah": {
+      "path": "Person/Heni Nur Achdiyah.wiki",
+      "revid": 16909,
+      "sha256": "abb8c3d7c8dbdfefe55672678e8dd7c685421cb3dc24c9528980e357b2554ab9",
+      "synced_at": "2026-11-17T17:10:05+00:00"
+    },
     "Person:Henri Poincaré": {
       "path": "Person/Henri Poincaré.wiki",
       "revid": 7335,
@@ -4434,6 +4458,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-09T16:11:40+00:00"
     },
+    "Person:Latipun": {
+      "path": "Person/Latipun.wiki",
+      "revid": 16913,
+      "sha256": "82451f50fdc67fa3a96128efd5b2b25290ab02837e26b9ffd2d818881a9b55aa",
+      "synced_at": "2026-11-17T17:10:05+00:00"
+    },
     "Person:Laurent Sifre": {
       "path": "Person/Laurent Sifre.wiki",
       "revid": 15514,
@@ -4775,6 +4805,12 @@
       "revid": 7011,
       "sha256": "ed9da64cf404c4db8d958950aeebbf92c7ab39aa8c3bfa1c56bca8cec040247b",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Muhamad Salis Yuniardi": {
+      "path": "Person/Muhamad Salis Yuniardi.wiki",
+      "revid": 16917,
+      "sha256": "ee7688a9ad41d895f266d14623605137460cdbc3115643986617baaf9d4ad0dd",
+      "synced_at": "2026-11-17T17:10:05+00:00"
     },
     "Person:Myriam Saadé": {
       "path": "Person/Myriam Saadé.wiki",
@@ -8574,6 +8610,12 @@
       "sha256": "80fc12c5d3e2334cc329372d7019e938bb02857e3d293413909dc767b5db86ba",
       "synced_at": "2026-11-08T15:49:41+00:00"
     },
+    "Source:The influence of social support on academic performance: The mediating role of cognitive engagement (Scholarly article)": {
+      "path": "Source/The influence of social support on academic performance_ The mediating role of cognitive engagement (Scholarly article).wiki",
+      "revid": 16921,
+      "sha256": "3ca916139b081c1eef8468908399345740e96447c8f94d0d35a20521897d7044",
+      "synced_at": "2026-11-17T17:10:05+00:00"
+    },
     "Source:The latest on Git updates (Webpage)": {
       "path": "Source/The latest on Git updates (Webpage).wiki",
       "revid": 6476,
@@ -9169,6 +9211,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-17T16:49:44+00:00",
+  "updated": "2026-11-17T17:10:05+00:00",
   "version": 1
 }
