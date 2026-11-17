@@ -1230,6 +1230,12 @@
       "sha256": "0883496604c508e8ad589be7e1e7d089d21849553374ff1c5b4db4fda8a789ca",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Psychological Bulletin": {
+      "path": "Collective/Psychological Bulletin.wiki",
+      "revid": 16976,
+      "sha256": "5f83b2eea2cf6d14105def8e5327d255e13413e55f49bf5756f364a997092335",
+      "synced_at": "2026-11-17T17:49:38+00:00"
+    },
     "Collective:Psychological Review": {
       "path": "Collective/Psychological Review.wiki",
       "revid": 16929,
@@ -3474,6 +3480,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
     },
+    "Person:Carol A. Constantian": {
+      "path": "Person/Carol A. Constantian.wiki",
+      "revid": 17000,
+      "sha256": "60a59e5ce0811bdeab2b6ec58f76841f3836bb3832b0c3c125a80ee5d5d8f670",
+      "synced_at": "2026-11-17T17:49:38+00:00"
+    },
     "Person:Carrie Beckwith-Fellows": {
       "path": "Person/Carrie Beckwith-Fellows.wiki",
       "revid": 11329,
@@ -3539,6 +3551,12 @@
       "revid": 7103,
       "sha256": "8b5e142c458958bc0acd980522f85d6cad171af8e7698577724b55fb4bbefe06",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Person:Dan P. McAdams": {
+      "path": "Person/Dan P. McAdams.wiki",
+      "revid": 16996,
+      "sha256": "221f3e7b07d6dd3896ac7fd4901256fa67818afe2e53fe1930bda9a3eb7d9aa1",
+      "synced_at": "2026-11-17T17:49:38+00:00"
     },
     "Person:Dani Yogatama": {
       "path": "Person/Dani Yogatama.wiki",
@@ -3695,6 +3713,12 @@
       "revid": 16338,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-13T18:11:11+00:00"
+    },
+    "Person:Edward L. Deci": {
+      "path": "Person/Edward L. Deci.wiki",
+      "revid": 16980,
+      "sha256": "221f3e7b07d6dd3896ac7fd4901256fa67818afe2e53fe1930bda9a3eb7d9aa1",
+      "synced_at": "2026-11-17T17:49:38+00:00"
     },
     "Person:Edward Lorenz": {
       "path": "Person/Edward Lorenz.wiki",
@@ -5189,6 +5213,18 @@
       "revid": 12033,
       "sha256": "f4c20f167cfe9f910ad5e3621e8211f0bb9cc293ef4ea5650f9d2da76440cde2",
       "synced_at": "2026-10-31T18:35:36+00:00"
+    },
+    "Person:Richard Koestner": {
+      "path": "Person/Richard Koestner.wiki",
+      "revid": 16984,
+      "sha256": "6610452f5da02e9be47fd919df410b13dd1d5c370590efce1f2483377e35c2b9",
+      "synced_at": "2026-11-17T17:49:38+00:00"
+    },
+    "Person:Richard M. Ryan": {
+      "path": "Person/Richard M. Ryan.wiki",
+      "revid": 16988,
+      "sha256": "221f3e7b07d6dd3896ac7fd4901256fa67818afe2e53fe1930bda9a3eb7d9aa1",
+      "synced_at": "2026-11-17T17:49:38+00:00"
     },
     "Person:Richard Seroter": {
       "path": "Person/Richard Seroter.wiki",
@@ -6834,6 +6870,12 @@
       "sha256": "d71d7e07a856c4a714dc2c04297928c41eaf0bb759f83e5c6477bc14e3a9c44c",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation (Scholarly article)": {
+      "path": "Source/A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation (Scholarly article).wiki",
+      "revid": 16992,
+      "sha256": "6f2ff559256071fd72017a59f02e211b2569b5e240571f05c3184e5b84f290f8",
+      "synced_at": "2026-11-17T17:49:38+00:00"
+    },
     "Source:A progress report on the training of probability assessors (Scholarly article)": {
       "path": "Source/A progress report on the training of probability assessors (Scholarly article).wiki",
       "revid": 13056,
@@ -7637,6 +7679,12 @@
       "revid": 1821,
       "sha256": "73a05c4e8678caf99a95220991b9f5b152a85300d6a066599a3edfeacfec9a16",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:Intimacy and affiliation motives in daily living: An experience sampling analysis (Scholarly article)": {
+      "path": "Source/Intimacy and affiliation motives in daily living_ An experience sampling analysis (Scholarly article).wiki",
+      "revid": 17004,
+      "sha256": "af5cfe7c451c8e52860251e8230c1d10de13b168e85de381d8fc4056020e15b3",
+      "synced_at": "2026-11-17T17:49:38+00:00"
     },
     "Source:Introducing Docker, Inc: dotCloud Goes All-In On Container Technology (Webpage)": {
       "path": "Source/Introducing Docker, Inc_ dotCloud Goes All-In On Container Technology (Webpage).wiki",
@@ -9271,6 +9319,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-17T17:35:48+00:00",
+  "updated": "2026-11-17T17:49:38+00:00",
   "version": 1
 }
