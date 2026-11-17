@@ -1,0 +1,5 @@
+{{Person}}
+
+== Overview ==
+
+Canadian-American cognitive psychologist studying memory and attention

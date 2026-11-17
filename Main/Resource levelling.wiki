@@ -1,0 +1,4 @@
+[[Category:Production]]
+In production, '''resource levelling''' is the practice of optimising task organisation to compensate demand spikes with available slacks to prevent overloading.
+
+<ref>{{#cite:Q3306}}</ref>

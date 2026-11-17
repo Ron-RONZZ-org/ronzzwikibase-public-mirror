@@ -492,6 +492,12 @@
       "sha256": "655c5b8ab526be2625b989b0c235ed2f976bb5bda1b9112b9c51155017ff7c2b",
       "synced_at": "2026-11-03T16:49:51+00:00"
     },
+    "Collective:Academic Press": {
+      "path": "Collective/Academic Press.wiki",
+      "revid": 16867,
+      "sha256": "a9a9d0341f997de85799ce1f8e728a9c0c3682dcb42dae9434dd537a62fb05ed",
+      "synced_at": "2026-11-17T16:49:44+00:00"
+    },
     "Collective:Agence Nationale de la Recherche": {
       "path": "Collective/Agence Nationale de la Recherche.wiki",
       "revid": 11085,
@@ -972,6 +978,12 @@
       "sha256": "bf3fe7726f1e173abb979cab0021344efec1494877df48a8fd261fc8f6db7856",
       "synced_at": "2026-11-08T21:19:45+00:00"
     },
+    "Collective:Journal of Verbal Learning and Verbal Behavior": {
+      "path": "Collective/Journal of Verbal Learning and Verbal Behavior.wiki",
+      "revid": 16863,
+      "sha256": "5dd2f501357c1b88b40cd8847f25cd9986695fd451335c2334b5297741cc3ced",
+      "synced_at": "2026-11-17T16:49:44+00:00"
+    },
     "Collective:Juliana Schroeder, Eugene M. Caruso, Nicholas Epley": {
       "path": "Collective/Juliana Schroeder, Eugene M. Caruso, Nicholas Epley.wiki",
       "revid": 13836,
@@ -1313,6 +1325,12 @@
       "revid": 16817,
       "sha256": "d8d28e79a04c48d5317edb655b3144fe31c2de87ffa15a5b94a4fc44e325793c",
       "synced_at": "2026-11-17T16:23:36+00:00"
+    },
+    "Collective:Temple University": {
+      "path": "Collective/Temple University.wiki",
+      "revid": 16871,
+      "sha256": "1bb87ac4fec2a219597d5cf0462e461fbebb927dd7ab9fe1f9d4db6b25c66044",
+      "synced_at": "2026-11-17T16:49:44+00:00"
     },
     "Collective:The Astronomical Journal": {
       "path": "Collective/The Astronomical Journal.wiki",
@@ -3540,6 +3558,12 @@
       "sha256": "3190bfa3210aaceedc07c596b1c21a7aa47a73445643f288825316e33ccbb34b",
       "synced_at": "2026-11-10T13:35:51+00:00"
     },
+    "Person:David Goldstein": {
+      "path": "Person/David Goldstein.wiki",
+      "revid": 16879,
+      "sha256": "e3aee4fc373f40e466d83862968d76d4aad752db1bf3e2573cda9a34bb752c07",
+      "synced_at": "2026-11-17T16:49:44+00:00"
+    },
     "Person:David Lippman": {
       "path": "Person/David Lippman.wiki",
       "revid": 10029,
@@ -4500,6 +4524,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T14:10:29+00:00"
     },
+    "Person:Lynn Hasher": {
+      "path": "Person/Lynn Hasher.wiki",
+      "revid": 16875,
+      "sha256": "659555875603147fc376ba9d5a56752ab2cea9f01f6a53aca688fbe252ed1c8d",
+      "synced_at": "2026-11-17T16:49:44+00:00"
+    },
     "Person:Lyric Ripley": {
       "path": "Person/Lyric Ripley.wiki",
       "revid": 13068,
@@ -5394,6 +5424,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
     },
+    "Person:Thomas C. Toppino": {
+      "path": "Person/Thomas C. Toppino.wiki",
+      "revid": 16883,
+      "sha256": "d71e4e92f4331367da49de8f10e4dd0fe92192e144cf0dae3e8e8a091919394c",
+      "synced_at": "2026-11-17T16:49:44+00:00"
+    },
     "Person:Thomas DE ZAN": {
       "path": "Person/Thomas DE ZAN.wiki",
       "revid": 9372,
@@ -5840,9 +5876,9 @@
     },
     "Production": {
       "path": "Main/Production.wiki",
-      "revid": 16228,
-      "sha256": "a217464c19490719b1724322e2e82be190e65914f09b294154aed7ab803bc847",
-      "synced_at": "2026-11-13T11:49:30+00:00"
+      "revid": 16859,
+      "sha256": "c7dd46023f992a6356f5f24493147a3ef3e447302967bd958748ca2cdb319cb0",
+      "synced_at": "2026-11-17T16:49:44+00:00"
     },
     "Production management": {
       "path": "Main/Production management.wiki",
@@ -5969,6 +6005,12 @@
       "revid": 16150,
       "sha256": "6b6caa4ddca77df2655aa0763950cb6c1556bb0df364e24eb4a597f120b757cd",
       "synced_at": "2026-11-12T10:49:38+00:00"
+    },
+    "Resource levelling": {
+      "path": "Main/Resource levelling.wiki",
+      "revid": 16857,
+      "sha256": "0ca58ed2d8ce4b7af28f3355dec22d27e086dc42e7196c121cd613732d44c26c",
+      "synced_at": "2026-11-17T16:49:44+00:00"
     },
     "Rest energy": {
       "path": "Main/Rest energy.wiki",
@@ -6143,6 +6185,12 @@
       "revid": 8082,
       "sha256": "3f28ab89c4b1ae3c8fe7345ae1746f0ae8ee9fbef65d0a6c0716b8b30305db5d",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Shortage gaming": {
+      "path": "Main/Shortage gaming.wiki",
+      "revid": 16855,
+      "sha256": "71a26ed67ff5f86eccbb566b8a81fcadfdf919f60c87ae296f4dbbfaeb927a0e",
+      "synced_at": "2026-11-17T16:49:44+00:00"
     },
     "Sigma-algebra": {
       "path": "Main/Sigma-algebra.wiki",
@@ -7307,6 +7355,12 @@
       "revid": 12919,
       "sha256": "5a81926dd362d9b6b4dab459ffebdb7e1db2aa01624d0a833b559bbf4a62c0dd",
       "synced_at": "2026-11-05T08:14:14+00:00"
+    },
+    "Source:Frequency and the conference of referential validity (Scholarly article)": {
+      "path": "Source/Frequency and the conference of referential validity (Scholarly article).wiki",
+      "revid": 16887,
+      "sha256": "5df78dc2e996efda63859f799feadc94eb0ad9cdc70cda49db44285a24137d74",
+      "synced_at": "2026-11-17T16:49:44+00:00"
     },
     "Source:From AI foundations to Large Language Models: A survey on challenges and opportunities in collaborative robotics (Scholarly article)": {
       "path": "Source/From AI foundations to Large Language Models_ A survey on challenges and opportunities in collaborative robotics (Scholarly article).wiki",
@@ -9115,6 +9169,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-17T16:36:04+00:00",
+  "updated": "2026-11-17T16:49:44+00:00",
   "version": 1
 }
