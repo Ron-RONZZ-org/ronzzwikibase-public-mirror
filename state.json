@@ -7170,6 +7170,12 @@
       "sha256": "14a0a64d06023c242be2698ebcbc595c0a23340b6bf760aba1521e5e6ca4ce2a",
       "synced_at": "2026-11-11T14:10:29+00:00"
     },
+    "Source:Figshare: Provider of open research repository infrastructure (Website)": {
+      "path": "Source/Figshare_ Provider of open research repository infrastructure (Website).wiki",
+      "revid": 16752,
+      "sha256": "e2b7187d629382df8b9f02b6b54374c5a84fdb39963ab2449f3e8f851adc3211",
+      "synced_at": "2026-11-17T14:35:56+00:00"
+    },
     "Source:Finnegans Wake (Book)": {
       "path": "Source/Finnegans Wake (Book).wiki",
       "revid": 11925,
@@ -8148,6 +8154,12 @@
       "sha256": "3d08defb55ef3c172fd3bf416f141d8ad6acf9150b3841865237ead173534cf9",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Profile: Yoochul Kim (Webpage)": {
+      "path": "Source/Profile_ Yoochul Kim (Webpage).wiki",
+      "revid": 16757,
+      "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
+      "synced_at": "2026-11-17T14:35:56+00:00"
+    },
     "Source:Properties of Determinants (Webpage)": {
       "path": "Source/Properties of Determinants (Webpage).wiki",
       "revid": 10385,
@@ -8995,6 +9007,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-17T13:49:48+00:00",
+  "updated": "2026-11-17T14:35:56+00:00",
   "version": 1
 }
