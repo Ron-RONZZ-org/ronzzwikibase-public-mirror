@@ -1,0 +1,42 @@
+[[Category:System thinking]]
+'''Emergence''' describes the phenomenon that new properties can emerge in a [[system]] as a result of
+
+* [[#Integration with other systems]]
+* [[#Scaling up]]
+* [[#Scaling down]]
+* [[#State change]]
+
+<ref>{{ #cite:Q3337 }}</ref>
+== Causes of emergence ==
+
+=== Integration with other systems ===
+
+Whole is more than the sum of parts.
+
+{{Hidden example}}
+Two wheels, a bunch of screws, a bunch of mechanical gears, a drive chain, and lots of metallic tubes as loose parts are not a practical transport method for a human being. However, when integrated together just the right way to form a larger system, one may have a bicycle.
+{{End hidden}}
+
+== Scaling up ==
+
+In some cases, simply scaling an existing system up may result in emergent properties.
+
+=== Artificial intelligence ===
+
+[[File:Emergent capacity from scaling up LLMs.png|thumbnail|As seen in B), the capacity of fine-tuned [[LLM]] model LaMDA to follow instructions is significantly improved when the model is scaled up from $10^{22}$ to $10^{23}$ [[FLOP]]s. The improvement however slows down as the scaling up comtinues toward $10^{24}$. Curiously, this '''emergence''' is '''not at all''' observed without fine-tuning: in fact, improvement slows down between $10^{22}$ and $10^{23}$, which is a good warning that although '''emergence can happen''' with simple scaling up, it '''may not necessarily''' happen.]]
+According to tests ran by [[Source:Emergent Abilities of Large Language Models (Scholarly article)|name-author]], various abilities of [[large language model (LLM)|large language models]] are significantly improved when the model scale is increased, demonstrating '''emergent capacity''' from scaling up.
+
+<ref>{{ #cite:Q3335 }}</ref>
+
+== Scaling down ==
+
+At extremely small scales (sub-atomic), matter no longer behaves as it usually does. i.e., it no longer subscribes to the description of [[classical mechanics]]. Instead, matter behaviour is better modelled by [[quantum mechanics]], which describes everything with [[postulates of quantum mechanics#1._State_wavefunctions_describe_everything|state wavefunctions]]. Quantum mechanics postulates, among other things, that positions of particles are probabilistic, a notion absurd at human scale.
+
+== State change ==
+
+New properties can emerge spontaneously when the state of a system changes.
+
+e.g., 
+
+* '''Physical state change''': water, when frozen into solid, forms a crystal structure<ref>{{#cite:Q3337}}</ref>
+* '''Abstract state change''': An [[artificial neural network (ANN)]], untrained, outputs near-random [[real vector]]s, but when [[backpropagation|trained]], can among other things, write human-level natural language passages.
