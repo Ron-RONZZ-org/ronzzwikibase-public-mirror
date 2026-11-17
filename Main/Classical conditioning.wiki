@@ -1,0 +1,43 @@
+[[Category:Learning]]
+'''Classical conditioning''', first experimentally verified and described by [[Person:Ivan Pavlov]], refers to the phenomenon that [[living organism]]s associate unconsciously environmental stimuli that frequently appear together and react accordingly.
+
+== Mechanism ==
+
+=== Unconditioned stimulus-response ===
+
+Certain environmental stimuli elicit natural reflexive responses from living organisms:
+
+e.g., 
+
+<div class=center>
+{| class="wikitable"
+|-
+! Reflexive stimulus
+! Reflexive response
+|-
+| Extreme temperature
+| Take distance/avoid contact
+|-
+| Taste of food
+| Salivation
+|}
+</div>
+
+=== Conditioning ===
+
+When a reflexive stimulus appears frequently with another stimulus (e.g., extreme temperature with the sight of fire), living organisms learn to respond to the other stimulus, known as the '''conditioned stimulus''', as to the reflexive stimulus, giving a '''conditioned response'''.
+
+== Experimental evidence ==
+
+=== Pavlov's dogs ===
+
+[[File:Classical conditioning Pavlov's dogs.png|thumbnail|400px]]
+While studying the salivation of dogs in response to various food, [[Person:Ivan Pavlov]] observed that dogs, after having been regularly fed by the same lab assistant in the same bowl, began to salivate at the sight of the empty food bowl or hearing the lab assistant's footsteps.<ref>{{#cite:Q3484}}</ref>
+
+== Higher order conditioning ==
+
+[[File:Higher-order conditioning.png|thumbnail|500px|Even though squeaky cabinet door noise never appeared simultaneously with food, a cat can learn to associate the two via the intermediary of the electric can opener over time.<ref>{{#cite:Q3470}}</ref>]]
+
+The mental association of environmental stimuli is transitive. i.e., when one associates A with B, B with C, then unconsciously one also associates A with C.
+
+[[Source:Sensory pre-conditioning (Scholarly article)|name-author]] exposed dogs to a bell ring and a light beam consecutively. Then, one of these stimuli (e.g., the light) was again given repeatedly to the dogs, this time with a shock causing a natural flexion response. The other stimulus (e.g., the bell) was subsequently given alone, eliciting also flexion, despite never having been paired directly with shock. On the other hand, control animals that did not receive the bell‑light preconditioning, after having received a similar pairing between one of the stimuli and a shock, either did not respond to the other stimulus alone or responded infrequently.<ref>{{#cite:Q3492}}</ref>

@@ -444,6 +444,12 @@
       "sha256": "14641c410d75c02ba8851fe2a688a63cdf2698203a8551ff3880b302705139ef",
       "synced_at": "2026-11-15T08:35:25+00:00"
     },
+    "Classical conditioning": {
+      "path": "Main/Classical conditioning.wiki",
+      "revid": 17059,
+      "sha256": "7e235d1e63f1e7eedf76e9f9d73b6b957575524b0b6b1e5de97ebf91d810b67c",
+      "synced_at": "2026-11-17T21:09:35+00:00"
+    },
     "Classical mechanics": {
       "path": "Main/Classical mechanics.wiki",
       "revid": 9182,
@@ -671,6 +677,12 @@
       "revid": 8109,
       "sha256": "eaf798d7fb06641e066a65c2dc3e8e681e0d07b5bd4e0aca3d39afe8ffcdebdf",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Collective:D. Appleton-Century Company": {
+      "path": "Collective/D. Appleton-Century Company.wiki",
+      "revid": 17064,
+      "sha256": "7bdc2047070b3c5be908f924c7f52733bf50d46b6042d93c51ce01ef2b273a91",
+      "synced_at": "2026-11-17T21:09:35+00:00"
     },
     "Collective:Daniel Kahneman, Amos Tversky": {
       "path": "Collective/Daniel Kahneman, Amos Tversky.wiki",
@@ -977,6 +989,12 @@
       "revid": 7027,
       "sha256": "6debf1d9a9aa58d0fad52d24e57945853f8d0f0142467ce510d8e2797f790a31",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Collective:Journal of Experimental Psychology": {
+      "path": "Collective/Journal of Experimental Psychology.wiki",
+      "revid": 17050,
+      "sha256": "5f83b2eea2cf6d14105def8e5327d255e13413e55f49bf5756f364a997092335",
+      "synced_at": "2026-11-17T21:09:35+00:00"
     },
     "Collective:Journal of Personality and Social Psychology": {
       "path": "Collective/Journal of Personality and Social Psychology.wiki",
@@ -3396,6 +3414,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
     },
+    "Person:B. F. Skinner": {
+      "path": "Person/B. F. Skinner.wiki",
+      "revid": 17068,
+      "sha256": "e6504de018a21956c97536ca14525d38870aee126a381860397a0a10f66f9bd4",
+      "synced_at": "2026-11-17T21:09:35+00:00"
+    },
     "Person:Barret Zoph": {
       "path": "Person/Barret Zoph.wiki",
       "revid": 16317,
@@ -5729,6 +5753,12 @@
       "revid": 14160,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:W. J. Brogden": {
+      "path": "Person/W. J. Brogden.wiki",
+      "revid": 17054,
+      "sha256": "8a9db580134e5144ae11948feace55921c41bd858427b7b31d4f429762f7baae",
+      "synced_at": "2026-11-17T21:09:35+00:00"
     },
     "Person:W. Kent Ford": {
       "path": "Person/W. Kent Ford.wiki",
@@ -8622,6 +8652,12 @@
       "sha256": "486de5c6554b9d04b929bfb8e62236112755405ed3c7450741edfb7547336f06",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Sensory pre-conditioning (Scholarly article)": {
+      "path": "Source/Sensory pre-conditioning (Scholarly article).wiki",
+      "revid": 17058,
+      "sha256": "16f6fc3064233cf9c6422b56a2f087f3b97ff11e4a72d7557580cd935f8aa401",
+      "synced_at": "2026-11-17T21:09:35+00:00"
+    },
     "Source:Sequence Convergence and Divergence - Algebrica (Webpage)": {
       "path": "Source/Sequence Convergence and Divergence - Algebrica (Webpage).wiki",
       "revid": 11626,
@@ -8759,6 +8795,12 @@
       "revid": 14566,
       "sha256": "80fc12c5d3e2334cc329372d7019e938bb02857e3d293413909dc767b5db86ba",
       "synced_at": "2026-11-08T15:49:41+00:00"
+    },
+    "Source:The behavior of organisms: An experimental analysis (Book)": {
+      "path": "Source/The behavior of organisms_ An experimental analysis (Book).wiki",
+      "revid": 17072,
+      "sha256": "436a915d575eee67eed757af4388b91ba47151fba777b7c934f05f9dac26c98e",
+      "synced_at": "2026-11-17T21:09:35+00:00"
     },
     "Source:The influence of social support on academic performance: The mediating role of cognitive engagement (Scholarly article)": {
       "path": "Source/The influence of social support on academic performance_ The mediating role of cognitive engagement (Scholarly article).wiki",
@@ -9361,6 +9403,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-17T20:36:15+00:00",
+  "updated": "2026-11-17T21:09:35+00:00",
   "version": 1
 }
