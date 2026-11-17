@@ -1,4 +1,4 @@
-[[Category:Proper name]]
+[[Category:Cosmology]][[Category:Proper name]]
 The '''Hubble radius ($R_H$)''' denotes the scale around which [[classical mechanics]] ceases to be valid.
 
 At any given instance in time,

@@ -1,3 +1,4 @@
+[[Category:Cosmology]]
 The '''1st Friedmann equation''' relates the rate of expansion of the [[Universe]] to the total energy density, spatial curvature, and cosmological constant.
 
 {{#content:Q2574}}

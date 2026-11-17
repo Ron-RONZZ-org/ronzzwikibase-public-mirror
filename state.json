@@ -8,9 +8,9 @@
     },
     "1st Friedmann equation": {
       "path": "Main/1st Friedmann equation.wiki",
-      "revid": 12360,
-      "sha256": "797d5c81b4c5f38e9c884437a05f7c06da5923ef9b70fa3545de0f1c658b9f5c",
-      "synced_at": "2026-11-02T15:11:26+00:00"
+      "revid": 16731,
+      "sha256": "0cd2d20d0de51a27ce1036736772ba632a020ab7fddcab4d5b7db688a6f6b6a5",
+      "synced_at": "2026-11-17T13:10:39+00:00"
     },
     "1st order ODE": {
       "path": "Main/1st order ODE.wiki",
@@ -1550,9 +1550,9 @@
     },
     "Copernican principle": {
       "path": "Main/Copernican principle.wiki",
-      "revid": 12221,
-      "sha256": "8d0eb64aff92347ea2163486d37422da30fcb7a159256e160b4827dafb3426d1",
-      "synced_at": "2026-11-01T18:20:24+00:00"
+      "revid": 16733,
+      "sha256": "11898c91e6697c88a36a2a43fdde287f096dacdd646686e1450d145e57d7c632",
+      "synced_at": "2026-11-17T13:10:39+00:00"
     },
     "Correlation–causation fallacy": {
       "path": "Main/Correlation–causation fallacy.wiki",
@@ -1562,9 +1562,9 @@
     },
     "Cosmic expansion": {
       "path": "Main/Cosmic expansion.wiki",
-      "revid": 12376,
-      "sha256": "78a916375b694cd6187c5aafb191a5ca260eaff7950da089af4127d6cb1fef60",
-      "synced_at": "2026-11-02T16:23:38+00:00"
+      "revid": 16730,
+      "sha256": "98f7e8574e961268179e137e4fc7860e0c957cfeec22295dafcfd6a770e577a7",
+      "synced_at": "2026-11-17T13:10:39+00:00"
     },
     "Cosmic microwave background": {
       "path": "Main/Cosmic microwave background.wiki",
@@ -1580,15 +1580,15 @@
     },
     "Cosmological parameter": {
       "path": "Main/Cosmological parameter.wiki",
-      "revid": 12357,
-      "sha256": "db8495b08b9fd2960e92cd47f5bfe8a2f3c1c9e4ac73a3b5e33551b9bd32158a",
-      "synced_at": "2026-11-02T14:23:40+00:00"
+      "revid": 16737,
+      "sha256": "0b146034b6968aa8d8d9046f7ffdac181dcacf2292f12703d6c028e5a04ddfe1",
+      "synced_at": "2026-11-17T13:10:39+00:00"
     },
     "Cosmological scale factor": {
       "path": "Main/Cosmological scale factor.wiki",
-      "revid": 12386,
-      "sha256": "54514d777eb9955f30c8e1b1f4483c3ea1305c019d82602b1d63fbd2fe1af19b",
-      "synced_at": "2026-11-02T19:08:44+00:00"
+      "revid": 16738,
+      "sha256": "936af9e322cdab52601b01f2985bbd147984421a1ca1868f636286b59e9f7413",
+      "synced_at": "2026-11-17T13:10:39+00:00"
     },
     "Cost price": {
       "path": "Main/Cost price.wiki",
@@ -1676,9 +1676,9 @@
     },
     "Density parameters of the cosmological fluid": {
       "path": "Main/Density parameters of the cosmological fluid.wiki",
-      "revid": 12368,
-      "sha256": "38571d651532acea0153bc5a650af8ce635c35c00161c96acff9747c81c2875e",
-      "synced_at": "2026-11-02T15:36:29+00:00"
+      "revid": 16736,
+      "sha256": "8e7a3e0f25252d87592605d5fdb03adf949242c433447708457ca945d6da65a2",
+      "synced_at": "2026-11-17T13:10:39+00:00"
     },
     "Derivative": {
       "path": "Main/Derivative.wiki",
@@ -2048,9 +2048,9 @@
     },
     "Friedmann-Lemaître-Robertson-Walker Metric (FLRW)": {
       "path": "Main/Friedmann-Lemaître-Robertson-Walker Metric (FLRW).wiki",
-      "revid": 12176,
-      "sha256": "a2af22b4c9035c5b8a3b158f36a4692f221fbc7339e2d42019731f7f947e7bed",
-      "synced_at": "2026-11-01T15:08:23+00:00"
+      "revid": 16734,
+      "sha256": "d542656c83f8aa0895210dc53ae85f9ed1079b2335952a9feb1679c197f94a84",
+      "synced_at": "2026-11-17T13:10:39+00:00"
     },
     "Fréchet derivative": {
       "path": "Main/Fréchet derivative.wiki",
@@ -2264,9 +2264,9 @@
     },
     "Hubble flow": {
       "path": "Main/Hubble flow.wiki",
-      "revid": 12265,
-      "sha256": "4111aadd7b6c2261ad45c0bdbd999f5767a104e8639fb7c459d83ab872888c61",
-      "synced_at": "2026-11-02T08:15:24+00:00"
+      "revid": 16728,
+      "sha256": "b6736afa0d017820daa7edbabd7d2f25a3f6d67fb9000d9695836cc32bfc381c",
+      "synced_at": "2026-11-17T13:10:39+00:00"
     },
     "Hubble parameter": {
       "path": "Main/Hubble parameter.wiki",
@@ -2276,9 +2276,9 @@
     },
     "Hubble radius": {
       "path": "Main/Hubble radius.wiki",
-      "revid": 12285,
-      "sha256": "4650b22e40b42911e876b2f72f58611611edb5f93bb22e52f17720fffeb587f9",
-      "synced_at": "2026-11-02T09:49:47+00:00"
+      "revid": 16729,
+      "sha256": "b6b8c32f4f776776835ad78a81e7609d0942243bc372fe8bdde1a09c7d9f164c",
+      "synced_at": "2026-11-17T13:10:39+00:00"
     },
     "Hubble time scale": {
       "path": "Main/Hubble time scale.wiki",
@@ -2288,9 +2288,9 @@
     },
     "Hubble-Lemaître law": {
       "path": "Main/Hubble-Lemaître law.wiki",
-      "revid": 12266,
-      "sha256": "f6cc8f026071abd40cccb24dc3027f324250eedd8c187e1efe419b5bb8f19b98",
-      "synced_at": "2026-11-02T08:15:24+00:00"
+      "revid": 16727,
+      "sha256": "e9520985b1b22729317821f3c261a3ef39d4aea22b61bbb26c176956975f0fda",
+      "synced_at": "2026-11-17T13:10:39+00:00"
     },
     "Hubble-Lemaître's law": {
       "path": "Main/Hubble-Lemaître's law.wiki",
@@ -8804,9 +8804,9 @@
     },
     "The Cosmological Principle": {
       "path": "Main/The Cosmological Principle.wiki",
-      "revid": 12226,
-      "sha256": "d5fd086e561db8ed6c978a6322d403377589d7a52925f466924bcc2ffe3bf990",
-      "synced_at": "2026-11-01T18:35:35+00:00"
+      "revid": 16735,
+      "sha256": "ac3412411970c0da4cdc02dda71879edc7f8435cc098aa6e2e92919a9afb80b6",
+      "synced_at": "2026-11-17T13:10:39+00:00"
     },
     "The cosmological scale": {
       "path": "Main/The cosmological scale.wiki",
@@ -8912,9 +8912,9 @@
     },
     "Universe": {
       "path": "Main/Universe.wiki",
-      "revid": 12164,
-      "sha256": "f3d6ed22910be6d4812f7e521d9b88db6740fd4a875ceb2ddd609e5655a4ed68",
-      "synced_at": "2026-11-01T12:25:20+00:00"
+      "revid": 16732,
+      "sha256": "85a64c2d49376562cc0d3f0b0b071283d367248da1b5cad7a854c04a6eea875f",
+      "synced_at": "2026-11-17T13:10:39+00:00"
     },
     "Urinary tract infection (UTI)": {
       "path": "Main/Urinary tract infection (UTI).wiki",
@@ -8989,6 +8989,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-17T12:14:45+00:00",
+  "updated": "2026-11-17T13:10:39+00:00",
   "version": 1
 }

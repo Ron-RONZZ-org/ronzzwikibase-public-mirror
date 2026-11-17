@@ -1,5 +1,5 @@
-[[Category:Proper name]]
-<big>Big text</big>[[File:Hubble s law.jpg|thumbnail|As can be seen, galaxies appear to move away from earth at a velocity roughly proportional to their distance from earth]]
+[[Category:Cosmology]][[Category:Proper name]]
+[[File:Hubble s law.jpg|thumbnail|As can be seen, galaxies appear to move away from earth at a velocity roughly proportional to their distance from earth]]
 
 {{#content:Q2592}}
 

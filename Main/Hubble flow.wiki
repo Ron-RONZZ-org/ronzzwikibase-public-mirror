@@ -1,4 +1,4 @@
-[[Category:Proper name]]
+[[Category:Cosmology]][[Category:Proper name]]
 '''Hubble flow''' is the generalisation of [[Hubble-Lemaître law]] to the entire universe assuming [[the Cosmological Principle]].
 
 It describes a smooth, homogeneous expansion of the [[Universe]], in which, choosing arbitrary origin $O$, the velocity field $\vec v$ of any given point in space in '''the close vincinity*''' with position vector $\vec r$ satisfies:
