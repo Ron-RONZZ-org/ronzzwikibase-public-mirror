@@ -228,6 +228,12 @@
       "sha256": "ea40bcc7b36a9d6b73b1923925d1dd6aeeef9eefdd84a296f92cf867e937a273",
       "synced_at": "2026-11-03T08:13:38+00:00"
     },
+    "Bullwhip phenomenon": {
+      "path": "Main/Bullwhip phenomenon.wiki",
+      "revid": 16853,
+      "sha256": "d17f1286e4c77b18c41bc2922a9f691231f55412c738e8a5e2db54b3701ebac9",
+      "synced_at": "2026-11-17T16:36:04+00:00"
+    },
     "Canonical basis": {
       "path": "Main/Canonical basis.wiki",
       "revid": 14685,
@@ -9109,6 +9115,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-17T16:23:36+00:00",
+  "updated": "2026-11-17T16:36:04+00:00",
   "version": 1
 }

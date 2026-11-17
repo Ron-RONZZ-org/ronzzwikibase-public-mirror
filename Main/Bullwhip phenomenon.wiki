@@ -1,0 +1,19 @@
+[[Category:Information distortion example]][[Category:Market economy phenomenon]]
+[[File:Bullwhip effect.png|thumbnail|An illustration of the '''bullwhip effect''' provided in [[Source:Information Distortion in a Supply Chain: The Bullwhip Effect (Scholarly article)|name-author]]]]
+'''Bullwhip phenomenon''' refers to the observation that consumer demand signals tend to be exaggerated moving up the [[supply chain]].
+
+It is an example of [[information distortion]].
+
+<ref>{{#cite:Q3438}}</ref><ref>{{#cite:Q3306}}</ref>
+
+== Causes ==
+
+To prevent [[stockout]], each layer of the supply chain place an inflated order to ensure a [[safety margin]]. The inflation snowballs into an artificial demand spike at higher levels of the supply chain. This effect can be exacerbated by market noises, such as [[shortage gaming]].
+
+<ref>{{#cite:Q3438}}</ref>
+
+== Management implications ==
+
+To prevent being misled by the '''bullwhip phenomenon''', demand forecasting should be conducted based on end-customer sales data when available, or in partnership with different levels on the supply chain.
+
+<ref>{{#cite:Q3438}}</ref>
