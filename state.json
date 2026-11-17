@@ -446,9 +446,9 @@
     },
     "Classical conditioning": {
       "path": "Main/Classical conditioning.wiki",
-      "revid": 17059,
-      "sha256": "7e235d1e63f1e7eedf76e9f9d73b6b957575524b0b6b1e5de97ebf91d810b67c",
-      "synced_at": "2026-11-17T21:09:35+00:00"
+      "revid": 17080,
+      "sha256": "e8185750f0fbcdd5253af7ebd2bf35be5f9d554a10192e1cda92fe97cf9fe299",
+      "synced_at": "2026-11-17T21:19:59+00:00"
     },
     "Classical mechanics": {
       "path": "Main/Classical mechanics.wiki",
@@ -9403,6 +9403,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-17T21:09:35+00:00",
+  "updated": "2026-11-17T21:19:59+00:00",
   "version": 1
 }

@@ -41,3 +41,13 @@ While studying the salivation of dogs in response to various food, [[Person:Ivan
 The mental association of environmental stimuli is transitive. i.e., when one associates A with B, B with C, then unconsciously one also associates A with C.
 
 [[Source:Sensory pre-conditioning (Scholarly article)|name-author]] exposed dogs to a bell ring and a light beam consecutively. Then, one of these stimuli (e.g., the light) was again given repeatedly to the dogs, this time with a shock causing a natural flexion response. The other stimulus (e.g., the bell) was subsequently given alone, eliciting also flexion, despite never having been paired directly with shock. On the other hand, control animals that did not receive the bell‑light preconditioning, after having received a similar pairing between one of the stimuli and a shock, either did not respond to the other stimulus alone or responded infrequently.<ref>{{#cite:Q3492}}</ref>
+
+== Extinction ==
+
+[[File:Extinction of conditioned response in classical conditioning.png|thumbnail|400px]]
+
+When the reflexive stimulus cease to occur alongside the conditioned stimulus, the effectiveness of the latter to trigger the conditioned response decreases over time. 
+
+However, a '''spontaneous recovery''' phenomenon has been observed. i.e., after a period absent of both stimuli, the effectiveness of the conditioned stimulus recovers spontaneously.
+
+<ref>{{#cite:Q3470}}</ref>
