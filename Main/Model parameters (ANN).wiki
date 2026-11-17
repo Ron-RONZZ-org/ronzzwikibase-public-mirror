@@ -1,12 +1,17 @@
 [[Category:Artificial neural network]]
-The '''model parameters''' of an [[artificial neural network (ANN)]], collectively denoted as $\theta$, are the [[artificial neuron#Mathematical_representation|'''weights''' and '''biases ''']] that connect individual [[artificial neuron]]s, learnt during [[#Training|traning]].
+The '''model parameters''' of an [[artificial neural network (ANN)]], collectively denoted as $\theta$, are the [[artificial neuron#Mathematical_representation|'''weights''', '''biases ''', and other adjustable parameters]] that connect individual [[artificial neuron]]s, learnt during [[#Training|traning]].
 
 In general, parameters do not change while the model is in use. They are only adjusted during [[#Training|training]] between iterations.
 
-== Definition ==
+== Base case ==
 
-For an [[artificial neural network (ANN)]] of $N$ layers each with widths $d_0,\cdots,d_N$, the '''parameters'''
+For a simple [[artificial neural network (ANN)]] of $N$ layers each with $d_0,\cdots,d_N$ [[artificial neuron]]s, obtained by [[artificial neuron#Layer_composition|basic layer composition]] and [[feedforward algorithm]], where each neuron satisfies
 
+{{#content:Q3075|noNote}}
+
+Let $\mathbf{W}^{(l)}, \vec b^{(l)}$ represent [[artificial neuron#Basic_form|'''weights''' and '''biases''']] of layer $l$,
+
+then the '''parameters'''
 $$
 \theta=\left\{\mathbf{W}^{(l)} \in\mathbb{R}^{d_l\times d_{l-1}},\vec b^{(l)} \in \mathbb{R}^{d_l}\right\}_{l=1}^{N}.
 $$
@@ -15,13 +20,13 @@ $$
 '''Distinction from hyperparameters''': The '''[[hyperparameter]]s''' of an [[artificial neural network (ANN)]] determines its '''architecture''', while the '''parameters''' its '''behaviour'''.
 </blockquote>
 
-== Parameter count ==
+=== Parameter count ===
 
 $$
 |\theta|=\sum_{l=1}^{N}\left(d_{l-1}d_l+d_l\right).
 $$
 
-== Training ==
+=== Training ===
 
 With [[gradient descent]], training is the iteration with step
 

@@ -170,9 +170,9 @@
     },
     "Backpropagation": {
       "path": "Main/Backpropagation.wiki",
-      "revid": 15970,
-      "sha256": "2e1cc35f0a6187353ff6f5fef5f32022ead8e580fd110300c5aba50f96d35265",
-      "synced_at": "2026-11-11T18:21:51+00:00"
+      "revid": 16683,
+      "sha256": "1e5174f83d85b8e3c28d53e171953590ab8497a17de9b8b6ab8125a7e5941524",
+      "synced_at": "2026-11-17T11:49:43+00:00"
     },
     "Backward scheduling": {
       "path": "Main/Backward scheduling.wiki",
@@ -2750,9 +2750,9 @@
     },
     "Model parameters (ANN)": {
       "path": "Main/Model parameters (ANN).wiki",
-      "revid": 15975,
-      "sha256": "88435d2eac90cbd6d307860b8dc063c6951c16560d704318ba69c806d928ded0",
-      "synced_at": "2026-11-11T18:36:02+00:00"
+      "revid": 16684,
+      "sha256": "ce819c053eab01e2b3b1e42a2685eb97522c59e9545bf3f7400baf17dd82bb20",
+      "synced_at": "2026-11-17T11:49:43+00:00"
     },
     "Moment of inertia": {
       "path": "Main/Moment of inertia.wiki",
@@ -8989,6 +8989,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-17T11:19:56+00:00",
+  "updated": "2026-11-17T11:49:43+00:00",
   "version": 1
 }

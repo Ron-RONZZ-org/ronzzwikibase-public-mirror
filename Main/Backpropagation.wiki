@@ -1,17 +1,30 @@
 [[Category:Artificial neural network]]
-
 '''Backpropagation''' is an algorithm used to train [[artificial neural network (ANN)|ANNs]].
 
-== Definition ==
+== Base case ==
 
-Let $N$ represent the number of layers in the [[artificial neural network (ANN)]], $\vec a^{(0)}$ be the input value.
+In a simple [[artificial neural network (ANN)]] of N layers obtained by [[artificial neuron#Layer_composition|basic layer composition]] and [[feedforward algorithm]], where each neuron satisfies
 
-Let $\mathbf{W}^{(l)}, \vec b^{(l)}$ represents [[artificial neuron|'''weights''' and '''biases''']], $\vec z^{(l)}=\mathbf{W}^{(l)}\vec a^{(l-1)}+\vec b^{(l)}, \vec a^{(l)}=\sigma(\vec z^{(l)})$ pre-activation and activation of layer $l=1,\dots,N$ in the [[forward pass]], where $\sigma$ is the [[activation function]].
+{{#content:Q3075|noNote}}
 
-For a single training example $(\vec x,\vec y)$, where $\vec x,\vec y$ are input/expected output respectively, by definition
+Let $\mathbf{W}^{(l)}, \vec b^{(l)}$ represent [[artificial neuron#Basic_form|'''weights''' and '''biases''']].
+
+Let $\vec z^{(l)}=\mathbf{W}^{(l)}\vec a^{(l-1)}+\vec b^{(l)}, \vec a^{(l)}=\sigma(\vec z^{(l)})$ represent the pre-activation and activation of layer $l=1,\dots,N$ in the [[forward pass]], where $\sigma$ is the [[activation function]], commonly the [[sigmoid function]].
+
+Feed a single training example $(\vec x,\vec y)$ to the [[ANN]], where $\vec x,\vec y$ are input/expected output respectively:
 
 $$
 \vec a^{(0)}=\vec x.
+$$
+
+=== Loss function ===
+
+Define $L$ as a loss [[function]] measuring the difference between the expected output $\vec y=(y_i)$ and actual output $\vec y'=(y'_i)$.
+
+Commonly, take
+
+$$
+L=\sum (y'_i-y_i)^2
 $$
 
 === Sensitivity ===
@@ -184,9 +197,9 @@ $$
 $$
 {{End hidden}}
 
-== Training ==
+=== Training ===
 
-From [[#Definition]],
+Since
 
 $$
 \begin{cases}
@@ -204,9 +217,13 @@ $$
 \end{cases}
 $$
 
-where $\eta\in \mathbb{R}$ is the '''learning rate''', generally in the range of $10^{-3} \to 10^{-1}$.
+where $\eta\in \mathbb{R}$ is the '''learning rate''' to be set before training begins, generally in the range of $10^{-3} \to 10^{-1}$.
 
-== Python [[pseudocode]] ==
+== General case ==
+
+The same backpropagation process applies for determining local gradients with regard to different [[model parameters]], and training algorithms are empirically-optimised variants of the base case.
+
+== Python [[pseudocode]] (base case) ==
 
 === Backpropagation ===
 
