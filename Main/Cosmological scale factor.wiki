@@ -108,7 +108,7 @@ The only difference is
 
 $$
 \because k>0 \Rightarrow -k < 0
-\Rightarrow \dot{a} \propto -1 \\
+\Rightarrow \dot{a} \propto -1 \Rightarrow a(t) \propto -t\\
 $$
 {{End hidden}}
 
