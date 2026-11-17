@@ -1,4 +1,4 @@
-[[Category:Production]]
+[[Category:Inventory| ]]
 '''Inventory''' are goods and/or raw materials stocked for future use.
 
 == Advantages ==
@@ -111,11 +111,15 @@ dO=
 g(I(t)-D(t))dt,& I<D \\
 0,& I \ge D
 \end{cases} \\
-O=\int dO
+O=\int dO(t)
 $$
 
 Hence, '''optimisation''' is minimising total cost over a period of operation $t_1$ (e.g., one fiscal year)
 
 $$
-TC= TAC+S+O = \sum_{i=1}^N AC(Q_i) + \int^{t_1}_0 f(I) dt + \int^{t_1}_0 dO
+TC= TAC+S+O = \sum_{i=1}^N AC(Q_i) + \int^{t_1}_0 f(I) dt + \int^{t_1}_0 dO(t)
 $$
+
+== Management ==
+
+* [[ABC method of inventory management]]
