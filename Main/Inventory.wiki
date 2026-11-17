@@ -34,7 +34,8 @@ Different measurements have been developed to accurately reflect inventory level
 |-
 | Physical inventory ($I$)
 | Actual amount in storage; 
-| '''Stockout''' = 0 physical inventory for an item
+| Should never fall below [[reorder point (ROP)|$I_{ROP}$]]
+'''Stockout''' = 0 physical inventory for an item
 |-
 | Inventory level ($I_l$)
 | Physical inventory - Foreseen upcoming demands

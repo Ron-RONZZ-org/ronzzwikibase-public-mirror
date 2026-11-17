@@ -1,0 +1,13 @@
+[[Category:Inventory]]
+'''Cycle counting''' refers to the practice of conducting frequent counts for a different small proportion of [[inventory]] each time instead of counting everything in infrequent systematic counts.
+
+{{Hidden example}}
+For a kitchen, one can choose to count eggs and cheese on Monday, vegetables on Tuesday, seasoning on Wednsday, meat Thursday, pasta and rice Friday, cakes Saturday, and bread Sunday.
+{{End hidden}}
+
+== Advantage ==
+
+* Easier to enforce differentiated counting frequency when applying [[ABC method of inventory management]]
+* Detect discrepancies and errors earlier
+
+<ref>{{#cite:Q3306}}</ref>

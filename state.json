@@ -20,9 +20,9 @@
     },
     "ABC method of inventory management": {
       "path": "Main/ABC method of inventory management.wiki",
-      "revid": 16790,
-      "sha256": "6cf2aeff2da07a70dfa939da872c6200b448d0bbf7e175b80a8cbc1a4d35e92d",
-      "synced_at": "2026-11-17T15:36:08+00:00"
+      "revid": 16807,
+      "sha256": "1282e5711a5d2af9ed2c5173fe9754817821cd487db987e567d10213b9e5e67c",
+      "synced_at": "2026-11-17T16:11:42+00:00"
     },
     "ANN": {
       "path": "Main/ANN.wiki",
@@ -1626,6 +1626,12 @@
       "sha256": "daecdc5b914e0bb2cce2bcc43c046e20c5b6e27f1d14d557a6c9a0e76125e8de",
       "synced_at": "2026-10-28T13:36:26+00:00"
     },
+    "Cycle counting": {
+      "path": "Main/Cycle counting.wiki",
+      "revid": 16808,
+      "sha256": "83b246147e043a31e5820b0e48a2b732f51d6be0304d49bf7e6e4bd51c71a530",
+      "synced_at": "2026-11-17T16:11:42+00:00"
+    },
     "Cyclotron": {
       "path": "Main/Cyclotron.wiki",
       "revid": 11984,
@@ -2444,9 +2450,9 @@
     },
     "Inventory": {
       "path": "Main/Inventory.wiki",
-      "revid": 16801,
-      "sha256": "f9e0aba2f3eca66232c81f23a871424c5e5f1bfca6b591e7d647f4d61315cdcd",
-      "synced_at": "2026-11-17T15:49:49+00:00"
+      "revid": 16804,
+      "sha256": "12ab892915600410e47f7984ed6b9fc4bcb9a1483f23cb7d86a8a1d2a5329e5f",
+      "synced_at": "2026-11-17T16:11:42+00:00"
     },
     "Inventory level": {
       "path": "Main/Inventory level.wiki",
@@ -5904,6 +5910,12 @@
       "sha256": "e101f005b86f374806d8529ea076173b1da93442523f412a1c84eb4cd52e5f9c",
       "synced_at": "2026-11-02T12:16:00+00:00"
     },
+    "Reorder point (ROP)": {
+      "path": "Main/Reorder point (ROP).wiki",
+      "revid": 16806,
+      "sha256": "a19f6d18f80068a27a46a50310cf1d40f7f628402e8db7b8491278b3377913f6",
+      "synced_at": "2026-11-17T16:11:42+00:00"
+    },
     "Representativeness heuristic": {
       "path": "Main/Representativeness heuristic.wiki",
       "revid": 14442,
@@ -9055,6 +9067,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-17T15:49:49+00:00",
+  "updated": "2026-11-17T16:11:42+00:00",
   "version": 1
 }

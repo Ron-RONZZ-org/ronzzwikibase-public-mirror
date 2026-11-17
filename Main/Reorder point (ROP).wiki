@@ -1,0 +1,23 @@
+[[Category:Inventory]]
+In [[inventory]] management, the '''reorder point''' ($I_{ROP}$) is the physical inventory when an order must be made to prevent [[stockout]].
+
+In general,
+
+$$
+I_{ROP}=\int^{t_s} D(t) dt + I_S
+$$
+
+<div class=center>
+{| class="wikitable"
+|-
+| $t_s$
+| Expected order-to-delivery time
+|-
+| $D(t)$
+| The demand function
+|-
+| $I_S$
+| [[Safety inventory]]
+|}
+</div>
+<ref>{{#cite:Q3306}}</ref>
