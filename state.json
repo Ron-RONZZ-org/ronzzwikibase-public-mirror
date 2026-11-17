@@ -2490,6 +2490,12 @@
       "sha256": "a64153ee05000271f3c4efb6a9024dcb5c7fc6ee3472be6e473b143f6907046d",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Layer-normalisation": {
+      "path": "Main/Layer-normalisation.wiki",
+      "revid": 16681,
+      "sha256": "497d38b3d13f26529729f2c1af7bfe82dc71eebe0969b138563ffcb9bda06203",
+      "synced_at": "2026-11-17T11:19:56+00:00"
+    },
     "Learning": {
       "path": "Main/Learning.wiki",
       "revid": 12558,
@@ -8983,6 +8989,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-17T11:09:19+00:00",
+  "updated": "2026-11-17T11:19:56+00:00",
   "version": 1
 }

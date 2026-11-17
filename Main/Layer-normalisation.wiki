@@ -1,0 +1,30 @@
+[[Category:Artificial neural network]]
+'''Layer normalisation''' (LN) normalises an input matrix $\mathbf{X}$ row-wise so each row $\vec x_i=(x_j)$ satisfies:
+
+$$
+\overline x_j = 0\\
+\sigma_{x_j} = 1
+$$
+
+== Definition ==
+
+i.e., if
+
+$$
+(\mathbf{X})_{i,}=\vec x_i = (x_j)
+$$
+
+then
+
+$$
+(\operatorname{LN}(\mathbf{X}))_{i,}
+=\vec\gamma\odot\frac{\vec x_i-\overline x_j \dots \vec 1}{\sqrt{\sigma^{2}+\epsilon}}+\vec\beta,
+\qquad
+\overline x_j=\frac{1}{d}\sum_{j=1}^{d}x_j,
+\qquad
+\sigma^{2}=\frac{1}{d}\sum_{j=1}^{d}\left(x_j-\overline x_j\right)^{2},
+$$
+
+where $\vec\gamma,\vec\beta\in\mathbb{R}^{d}$ are learnt [[model parameters (ANN)|model parameters]], known as the '''gain''' and '''bias''' of layer normalisation, and $\odot$ denotes the [[Hadamard-Schur product]].
+
+<ref>{{#cite:Q3264}}</ref>
