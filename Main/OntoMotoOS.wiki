@@ -1,0 +1,6 @@
+[[Category:Philosophical thought experiment]][[Category:Human-AI collaboration]]
+'''OntoMotoOS''' is a series of human-AI collaborative [[philosophy|philosophical]] [[thought experiment]]s conducted by [[Person:Yoochul Kim]], a South Korean IT systems engineer.<ref>{{#cite:Q3425}}</ref>
+
+== Process ==
+
+The thought experiments were conducted via conversations between the human author and various [[large language model (LLM)|large language models]], fed large amounts of scientific literature and given iterative reflection prompts.<ref>{{#cite:Q3426}}</ref>

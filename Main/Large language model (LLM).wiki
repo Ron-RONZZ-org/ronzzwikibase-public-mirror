@@ -57,3 +57,9 @@ where $f_\theta$ is the model [[forward pass]] with [[model parameters]] $\theta
 <blockquote>
 In '''sequential next token prediction''', the LLM first determines $y_1$ based on $x$, then determines $y_2$ based on $x,y_1$, $y_3$ based on $x,y_1,y_2$, so on so forth.
 </blockquote>
+
+== Application ==
+
+=== Thinking partner ===
+
+For example, [[Person:Yoochul Kim]] employed various LLMs as his thinking partner for his philosophical thought experiments [[OntoMotoOS]].<ref>{{#cite:Q3426}}</ref>
