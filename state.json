@@ -3024,6 +3024,12 @@
       "sha256": "28c12d3867dede66e7a5a0e7f3df2792c02427d0d0e1f54e7be9325456319619",
       "synced_at": "2026-10-28T12:40:49+00:00"
     },
+    "Observational learning": {
+      "path": "Main/Observational learning.wiki",
+      "revid": 17223,
+      "sha256": "8e426829e41cf447a87e92adffeb814c8d8a7309a0a4d3483456ef07da2a50e2",
+      "synced_at": "2026-11-17T23:19:51+00:00"
+    },
     "OntoMotoOS": {
       "path": "Main/OntoMotoOS.wiki",
       "revid": 16781,
@@ -9607,6 +9613,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-17T22:49:46+00:00",
+  "updated": "2026-11-17T23:19:51+00:00",
   "version": 1
 }

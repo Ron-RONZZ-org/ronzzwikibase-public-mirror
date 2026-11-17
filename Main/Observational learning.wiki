@@ -1,0 +1,29 @@
+[[Category:Learning]]
+'''Observational learning''' is the process through which [[living organism]]s acquire a behaviour by observing another organism performing the behaviour.
+
+== Conscious observational learning ==
+
+Conscious observational learning happens when
+
+* '''Attention''': An organism (the '''learner''') observes another one (the '''model''') perform a task
+* '''Motivation''': The learner is somehow '''motivated''' to replicate the model
+** e.g., when the learner witness the model receiving [[reinforcement]]
+* '''Replication''': The learner attempts, and is able to fully or partially '''replicate''' the performance of the model.
+
+== Subconscious observational learning ==
+
+'''Subconscious observational learning''' happens after repeated exposure to a '''model behaviour'''
+
+* possibly without/against conscious will of the learner
+* possibly without the learner's knowledge
+
+=== Experimental evidence ===
+
+==== Abusive behaviour inheritance ====
+
+According to estimates cited by the Children's Bureau, U.S. Department of Health and Human Services, about one-third of children grown up in households known to be abusive were identified as abusive when they became parents themselves.<ref>{{#cite:Q3504}}</ref> Assuming children do not intent to recreate their abusive childhood households as adults, '''subconscious observational learning''' must have happened in absence of their conscious motivation.
+
+==== Exposure to violence and propensity to commit violence ====
+
+[[File:Video game violence.png|thumbnail|Yes, violence in video game can translates into real-life violence!<ref>{{#cite:Q3519}}</ref>]]
+[[Source:Violent video game effects on aggression, empathy, and prosocial behavior in Eastern and Western countries: A meta-analytic review (Scholarly article)|name-author]] causally linked exposure to violent video games with an increased propensity to commit violence.<ref>{{#cite:Q3519}}</ref>[[Source:SPSSI research summary on media violence (Scholarly article)|name-author]] further suggests a correlation between exposure to media violence (witnessing violence via television, films, or video games) and desensitisation to real-life violence, characterised by a decrease in empathy and physiological reactivity.<ref>{{#cite:Q3512}}</ref>
