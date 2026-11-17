@@ -1,5 +1,5 @@
 [[Category:Transformer]]
-The '''feed-forward network (FFN) sub-layer''' is the 2nd of the 2 sub-layers of a [[Transformer]] block: a 2-layer [[feedforward algorithm|feedforward network]] applied to each position of the sequence separately, after [[self-attention]].<ref>{{#cite:Q3130}}</ref>
+The '''feed-forward network (FFN) sub-layer''' is the 2nd sub-layer of a typical [[Transformer]] layer.<ref>{{#cite:Q3130}}</ref>
 
 == Definition ==
 

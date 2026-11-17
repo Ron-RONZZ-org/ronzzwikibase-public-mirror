@@ -1,3 +1,4 @@
+[[Category:Cosmology]]
 '''Comoving coordinates''' is a spatial [[coordinate system]] used in [[cosmology]] to model the expanding universe.<ref>{{#cite:Q2580}}</ref>
 
 == Notation ==

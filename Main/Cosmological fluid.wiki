@@ -1,3 +1,4 @@
+[[Category:Cosmology]]
 The '''cosmological fluid''' is a large-scale model of the [[Universe]]'s content.
 
 It applies [[the Cosmological Principle]] and describes the Universe on large scales as a perfect fluid of '''energy density''' $\rho(t)$ and pressure $p(t)$.
@@ -31,11 +32,63 @@ It applies [[the Cosmological Principle]] and describes the Universe on large sc
 | $\rho_\Lambda=\text{constant}$
 |}
 
+{{Hidden proof}}
+Example proof for the radiation case, other two cases are similar:
+
+$$
+\rho_R(t)=\frac{\rho_R(t)}{3}.
+$$
+
+Substituting this into the continuity equation,
+
+$$
+\dot{\rho}_R(t)
+=
+-3\frac{\dot{a}(t)}{a(t)}
+\left(\rho_R(t)+\frac{\rho_R(t)}{3}\right)
+=
+-4\frac{\dot{a}(t)}{a(t)}\rho_R(t).
+$$
+
+Dividing by $\rho_R(t)$ for $\rho_R(t)>0$,
+
+$$
+\frac{\dot{\rho}_R(t)}{\rho_R(t)}
+=
+-4\frac{\dot{a}(t)}{a(t)}.
+$$
+
+Since
+
+$$
+\frac{\dot{\rho}_R(t)}{\rho_R(t)}
+=
+\frac{\mathrm{d}}{\mathrm{d}t}\ln\rho_R(t),
+\qquad
+\frac{\dot{a}(t)}{a(t)}
+=
+\frac{\mathrm{d}}{\mathrm{d}t}\ln a(t),
+$$
+
+integrating with respect to $t$ yields
+
+$$
+\ln\rho_R(t)=-4\ln a(t)+C.
+$$
+
+Therefore,
+
+$$
+\rho_R(t)=e^C a(t)^{-4}\propto a^{-4}.
+$$
+{{End hidden}}
+
+== Aggregation ==
 Since each component is independent,
 
 $$
-\rho_\text{total}=\sum \rho,\, 
-p_\text{total}=\sum_x p.
+\rho_\text{total}(t)=\sum \rho(t),\, 
+p_\text{total}(t)=\sum_x p(t).
 $$
 
 <ref>{{#cite:Q2580}}</ref>

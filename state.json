@@ -1496,9 +1496,9 @@
     },
     "Comoving coordinates": {
       "path": "Main/Comoving coordinates.wiki",
-      "revid": 12288,
-      "sha256": "bf5939ecd164b5e9dbb72d1b6daa90bbbdc287e198efc46955522e84eab8abd7",
-      "synced_at": "2026-11-02T09:49:47+00:00"
+      "revid": 16743,
+      "sha256": "f98358195f2dcd98e10d0dfb4897d95df593ac744e30a2d8f3440a653e56c18b",
+      "synced_at": "2026-11-17T13:36:11+00:00"
     },
     "Complex number": {
       "path": "Main/Complex number.wiki",
@@ -1574,9 +1574,9 @@
     },
     "Cosmological fluid": {
       "path": "Main/Cosmological fluid.wiki",
-      "revid": 12385,
-      "sha256": "d4852bccb5a3a52afca03c3709fd474e7188a63c4fcf1d055b445d4397cf2a23",
-      "synced_at": "2026-11-02T18:49:56+00:00"
+      "revid": 16741,
+      "sha256": "e31650f482c26b5e63446868d37e2c6308cc5bc59761aa62ca9bbf33e208b1d2",
+      "synced_at": "2026-11-17T13:36:11+00:00"
     },
     "Cosmological parameter": {
       "path": "Main/Cosmological parameter.wiki",
@@ -1976,9 +1976,9 @@
     },
     "Feed-Forward Network (FFN) Sub-Layer (Transformer)": {
       "path": "Main/Feed-Forward Network (FFN) Sub-Layer (Transformer).wiki",
-      "revid": 16677,
-      "sha256": "1f54ffdeefd782f48fe95db425ef91de1a5e4cd26bc3993bb6ef04aa6c86630e",
-      "synced_at": "2026-11-17T10:48:58+00:00"
+      "revid": 16744,
+      "sha256": "bab65202a1117c59cf0722f48bb189936f552a88a47a66856350396fb6d55888",
+      "synced_at": "2026-11-17T13:36:11+00:00"
     },
     "Feedback loop": {
       "path": "Main/Feedback loop.wiki",
@@ -8989,6 +8989,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-17T13:20:45+00:00",
+  "updated": "2026-11-17T13:36:11+00:00",
   "version": 1
 }
