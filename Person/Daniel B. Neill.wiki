@@ -1,0 +1,5 @@
+{{Person}}
+
+== Overview ==
+
+American computer scientist working on event detection and public health surveillance

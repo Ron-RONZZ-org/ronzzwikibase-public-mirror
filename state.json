@@ -552,6 +552,12 @@
       "sha256": "8fa1e8054a50b8401bdf01af580e0c89c61c6d0dfbe8d5f01bd76637aa33dea4",
       "synced_at": "2026-11-10T13:35:51+00:00"
     },
+    "Collective:American Psychologist": {
+      "path": "Collective/American Psychologist.wiki",
+      "revid": 17118,
+      "sha256": "5f83b2eea2cf6d14105def8e5327d255e13413e55f49bf5756f364a997092335",
+      "synced_at": "2026-11-17T22:49:46+00:00"
+    },
     "Collective:Ana L. Flores-Mireles, Jennifer N. Walker, Michael Caparon & Scott J. Hultgren": {
       "path": "Collective/Ana L. Flores-Mireles, Jennifer N. Walker, Michael Caparon & Scott J. Hultgren.wiki",
       "revid": 14134,
@@ -563,6 +569,12 @@
       "revid": 14133,
       "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
       "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Collective:Analyses of Social Issues and Public Policy": {
+      "path": "Collective/Analyses of Social Issues and Public Policy.wiki",
+      "revid": 17114,
+      "sha256": "4e27917e45a74a8531b2c10764d86270c85ef6057918949656c77d22cd4eb556",
+      "synced_at": "2026-11-17T22:49:46+00:00"
     },
     "Collective:Annales de la Société scientifique de Bruxelles": {
       "path": "Collective/Annales de la Société scientifique de Bruxelles.wiki",
@@ -647,6 +659,12 @@
       "revid": 12987,
       "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
       "synced_at": "2026-11-05T10:10:38+00:00"
+    },
+    "Collective:Child Welfare Information Gateway": {
+      "path": "Collective/Child Welfare Information Gateway.wiki",
+      "revid": 17106,
+      "sha256": "f38bc5c96e418eceda391ca3efc60fdffa351d6653790237381492cffdb97fb0",
+      "synced_at": "2026-11-17T22:49:46+00:00"
     },
     "Collective:Christian Moro, Charlotte Phelps, Vineesha Veer, Mark Jones, Paul Glasziou, Justin Clark, Kari A.O. Tikkinen, Anna Mae Scott": {
       "path": "Collective/Christian Moro, Charlotte Phelps, Vineesha Veer, Mark Jones, Paul Glasziou, Justin Clark, Kari A.O. Tikkinen, Anna Mae Scott.wiki",
@@ -1439,6 +1457,12 @@
       "revid": 13554,
       "sha256": "7a4a3e5a81987288e8ac5697929c8b6fb49b80379f9456711cfeb4384bc65ed9",
       "synced_at": "2026-11-07T19:19:42+00:00"
+    },
+    "Collective:U.S. Department of Health and Human Services": {
+      "path": "Collective/U.S. Department of Health and Human Services.wiki",
+      "revid": 17102,
+      "sha256": "1ff988c8a01fec782e5d60daf3d79d48460bf261b8d5ec7f80c89f904559b19e",
+      "synced_at": "2026-11-17T22:49:46+00:00"
     },
     "Collective:UFR-SciFA (Université de Lorraine)": {
       "path": "Collective/UFR-SciFA (Université de Lorraine).wiki",
@@ -3174,6 +3198,18 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T13:10:22+00:00"
     },
+    "Person:Akiko Shibuya": {
+      "path": "Person/Akiko Shibuya.wiki",
+      "revid": 17146,
+      "sha256": "a886bceed4dca42051927cab845ef429acd441686c776dd8082158d126fb3986",
+      "synced_at": "2026-11-17T22:49:46+00:00"
+    },
+    "Person:Akira Sakamoto": {
+      "path": "Person/Akira Sakamoto.wiki",
+      "revid": 17158,
+      "sha256": "aba1085c0ba54975f719be943f1d24c3c685f60b0dc64f4d80648886f43bdfd6",
+      "synced_at": "2026-11-17T22:49:46+00:00"
+    },
     "Person:Alain Vaillant": {
       "path": "Person/Alain Vaillant.wiki",
       "revid": 7475,
@@ -3323,6 +3359,12 @@
       "revid": 13631,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Ann S. Masten": {
+      "path": "Person/Ann S. Masten.wiki",
+      "revid": 17198,
+      "sha256": "f67497f5a97c29c17533f22deacd6aac4a14ace985964f9636ad7160b8700f7a",
+      "synced_at": "2026-11-17T22:49:46+00:00"
     },
     "Person:Anna Mae Scott": {
       "path": "Person/Anna Mae Scott.wiki",
@@ -3498,11 +3540,23 @@
       "sha256": "f18a08d03284da733a1c346ba4b47879c386aa89c91aa9505445d17e311eeec3",
       "synced_at": "2026-11-07T13:35:13+00:00"
     },
+    "Person:Brad J. Bushman": {
+      "path": "Person/Brad J. Bushman.wiki",
+      "revid": 17126,
+      "sha256": "709fc017224241ae8298cc3600df46ff68d9e09a9dc6982270333d5e69eaa2f7",
+      "synced_at": "2026-11-17T22:49:46+00:00"
+    },
     "Person:Brian Schmidt": {
       "path": "Person/Brian Schmidt.wiki",
       "revid": 6866,
       "sha256": "c1e310edca80f585bab28840e703b4cbe5453a22f9116c94def27d4b09dc74b9",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Person:Calvin Morrill": {
+      "path": "Person/Calvin Morrill.wiki",
+      "revid": 17202,
+      "sha256": "7a700227072ad5aad64c138399872924fbd0be37ce542f961671b562c22d01f8",
+      "synced_at": "2026-11-17T22:49:46+00:00"
     },
     "Person:Cam Mosher": {
       "path": "Person/Cam Mosher.wiki",
@@ -3600,6 +3654,12 @@
       "sha256": "8b50d92ce1bd7a81e8b33efbeba21a46bb0ff73489a221edf648d3d7ba7fdadc",
       "synced_at": "2026-11-08T06:15:21+00:00"
     },
+    "Person:Craig A. Anderson": {
+      "path": "Person/Craig A. Anderson.wiki",
+      "revid": 17122,
+      "sha256": "177b75b66e70645b1dfa6ce5bc28e981354135fc77a8dee54cf37d33e7699d90",
+      "synced_at": "2026-11-17T22:49:46+00:00"
+    },
     "Person:Craig Newschaffer": {
       "path": "Person/Craig Newschaffer.wiki",
       "revid": 14369,
@@ -3624,6 +3684,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-13T18:11:11+00:00"
     },
+    "Person:Daniel B. Neill": {
+      "path": "Person/Daniel B. Neill.wiki",
+      "revid": 17206,
+      "sha256": "f27c61d77e897e3e27f764f784e1ada2cfe13d55ef8e7ab64e97fc89a5a17cff",
+      "synced_at": "2026-11-17T22:49:46+00:00"
+    },
     "Person:Daniel Kahneman": {
       "path": "Person/Daniel Kahneman.wiki",
       "revid": 13842,
@@ -3636,11 +3702,23 @@
       "sha256": "0b7b40a4b9822f3bed217adaa1bddc8923e002d3a4a86e5727bf8c7f5953514e",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Daniel Romer": {
+      "path": "Person/Daniel Romer.wiki",
+      "revid": 17210,
+      "sha256": "aa11287ba25f5c630c9542ed72856bdd77187e0a38509da0b91670bcff0540c9",
+      "synced_at": "2026-11-17T22:49:46+00:00"
+    },
     "Person:Daniel W. Baker": {
       "path": "Person/Daniel W. Baker.wiki",
       "revid": 13511,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:19:42+00:00"
+    },
+    "Person:Daniel W. Webster": {
+      "path": "Person/Daniel W. Webster.wiki",
+      "revid": 17214,
+      "sha256": "aac156ae4a3e56e5762558d375fcbee714e55b66db3b080b32ef91e7ed2deb59",
+      "synced_at": "2026-11-17T22:49:46+00:00"
     },
     "Person:Dario Amodei": {
       "path": "Person/Dario Amodei.wiki",
@@ -3774,11 +3852,23 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-13T18:11:11+00:00"
     },
+    "Person:Edward Donnerstein": {
+      "path": "Person/Edward Donnerstein.wiki",
+      "revid": 17130,
+      "sha256": "03daa3b5750a5b63b99356dedd5ec3a0c85671cda6ad55268d391c771f1e0efa",
+      "synced_at": "2026-11-17T22:49:46+00:00"
+    },
     "Person:Edward L. Deci": {
       "path": "Person/Edward L. Deci.wiki",
       "revid": 16980,
       "sha256": "221f3e7b07d6dd3896ac7fd4901256fa67818afe2e53fe1930bda9a3eb7d9aa1",
       "synced_at": "2026-11-17T17:49:38+00:00"
+    },
+    "Person:Edward Lee Swing": {
+      "path": "Person/Edward Lee Swing.wiki",
+      "revid": 17154,
+      "sha256": "fb85aecf95ab71acae2d8ba8bb11691c531d1e66801bd3c9f2f54cc87ec60120",
+      "synced_at": "2026-11-17T22:49:46+00:00"
     },
     "Person:Edward Lorenz": {
       "path": "Person/Edward Lorenz.wiki",
@@ -4026,6 +4116,12 @@
       "sha256": "ad98446ef7646eca3787a7443ea45ee670bd680c3095d3b978b1a1a6abe3e907",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Geraldine Downey": {
+      "path": "Person/Geraldine Downey.wiki",
+      "revid": 17182,
+      "sha256": "0b078927defee04e21ad60d781b298f04e540b54f6ff6091e52140222d6a470d",
+      "synced_at": "2026-11-17T22:49:46+00:00"
+    },
     "Person:Gianfranco Bertone": {
       "path": "Person/Gianfranco Bertone.wiki",
       "revid": 7099,
@@ -4061,6 +4157,12 @@
       "revid": 14065,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Hannah R. Rothstein": {
+      "path": "Person/Hannah R. Rothstein.wiki",
+      "revid": 17162,
+      "sha256": "554e1c7715029dfecdef24dfa54ea62da63467b1c345011fb860e1cf95bb04ef",
+      "synced_at": "2026-11-17T22:49:46+00:00"
     },
     "Person:Harith Akram": {
       "path": "Person/Harith Akram.wiki",
@@ -4506,6 +4608,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T14:10:29+00:00"
     },
+    "Person:Katherine S. Newman": {
+      "path": "Person/Katherine S. Newman.wiki",
+      "revid": 17174,
+      "sha256": "608cfc0c5815d5114b5b7ba16076f3164406938ae0f04f2ee21f0db710b791ae",
+      "synced_at": "2026-11-17T22:49:46+00:00"
+    },
     "Person:Katie Millican": {
       "path": "Person/Katie Millican.wiki",
       "revid": 15478,
@@ -4740,6 +4848,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T14:10:29+00:00"
     },
+    "Person:Mark H. Dredze": {
+      "path": "Person/Mark H. Dredze.wiki",
+      "revid": 17186,
+      "sha256": "1d40425dd794749abb50e608283cfce651fd5c8e27b6846d59a08854d393198f",
+      "synced_at": "2026-11-17T22:49:46+00:00"
+    },
     "Person:Mark Jones": {
       "path": "Person/Mark Jones.wiki",
       "revid": 14164,
@@ -4854,6 +4968,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T14:10:29+00:00"
     },
+    "Person:Michael R. Gottfredson": {
+      "path": "Person/Michael R. Gottfredson.wiki",
+      "revid": 17190,
+      "sha256": "0d5a28183dc77e4730bf792cb7f744dab13552992639c6368405e4c68321f393",
+      "synced_at": "2026-11-17T22:49:46+00:00"
+    },
     "Person:Michael Richmond": {
       "path": "Person/Michael Richmond.wiki",
       "revid": 12403,
@@ -4931,6 +5051,12 @@
       "revid": 16917,
       "sha256": "ee7688a9ad41d895f266d14623605137460cdbc3115643986617baaf9d4ad0dd",
       "synced_at": "2026-11-17T17:10:05+00:00"
+    },
+    "Person:Muniba Saleem": {
+      "path": "Person/Muniba Saleem.wiki",
+      "revid": 17166,
+      "sha256": "27bdf8a94f6f9404f2a1f348de10f3caa34c5fbe54c79142a5127d27216975d1",
+      "synced_at": "2026-11-17T22:49:46+00:00"
     },
     "Person:Myriam Saadé": {
       "path": "Person/Myriam Saadé.wiki",
@@ -5010,6 +5136,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T13:10:22+00:00"
     },
+    "Person:Nina G. Jablonski": {
+      "path": "Person/Nina G. Jablonski.wiki",
+      "revid": 17194,
+      "sha256": "2b12cb7c95101ee3783f824d230813da5885aecad4982fe66853de929d4aa1c0",
+      "synced_at": "2026-11-17T22:49:46+00:00"
+    },
     "Person:Noam Harel": {
       "path": "Person/Noam Harel.wiki",
       "revid": 13988,
@@ -5021,6 +5153,12 @@
       "revid": 15354,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T13:10:22+00:00"
+    },
+    "Person:Nobuko Ihori": {
+      "path": "Person/Nobuko Ihori.wiki",
+      "revid": 17150,
+      "sha256": "b37cc6116d260c970ddcc4c10ea125ca08fb17150ac22f2b8897ce15a461e586",
+      "synced_at": "2026-11-17T22:49:46+00:00"
     },
     "Person:Norbert Thonnard": {
       "path": "Person/Norbert Thonnard.wiki",
@@ -5406,6 +5544,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T13:10:22+00:00"
     },
+    "Person:Sandra L. Calvert": {
+      "path": "Person/Sandra L. Calvert.wiki",
+      "revid": 17178,
+      "sha256": "12c4d4b49538dd6ef69cae6a9a8b25c34e27aa154429a7ffea895bd2dd1903b3",
+      "synced_at": "2026-11-17T22:49:46+00:00"
+    },
     "Person:Sani Abubakar Muhammed": {
       "path": "Person/Sani Abubakar Muhammed.wiki",
       "revid": 13623,
@@ -5676,6 +5820,12 @@
       "sha256": "ec559c4b03d8ec3999d2d0a296e1d3c4dffac6598927d9691cd969f96cdbe602",
       "synced_at": "2026-11-08T06:15:21+00:00"
     },
+    "Person:Tom A. Hummer": {
+      "path": "Person/Tom A. Hummer.wiki",
+      "revid": 17134,
+      "sha256": "867d8ddb3b45b25c2eab4d93aebabf2e8eb241e3189f9e660de8512ac058256f",
+      "synced_at": "2026-11-17T22:49:46+00:00"
+    },
     "Person:Tom B. Brown": {
       "path": "Person/Tom B. Brown.wiki",
       "revid": 15398,
@@ -5795,6 +5945,12 @@
       "revid": 13883,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Wayne Warburton": {
+      "path": "Person/Wayne Warburton.wiki",
+      "revid": 17138,
+      "sha256": "e9380bda0b7a004ccbb44144806b28f009fe67714eaed03143c8e5488636b4dd",
+      "synced_at": "2026-11-17T22:49:46+00:00"
     },
     "Person:Wei Li": {
       "path": "Person/Wei Li.wiki",
@@ -6084,6 +6240,12 @@
       "sha256": "867064f2b7752aeffb5dd885e54426ec4a648f0e6fd1bc689da3e1e55d70a43d",
       "synced_at": "2026-11-12T17:09:22+00:00"
     },
+    "Punishment": {
+      "path": "Main/Punishment.wiki",
+      "revid": 17098,
+      "sha256": "b23f08658b3985dd512ac2d6c89c436e590284df78fd86af8ed5983f03d68bca",
+      "synced_at": "2026-11-17T22:49:46+00:00"
+    },
     "Qualitative methods": {
       "path": "Main/Qualitative methods.wiki",
       "revid": 7381,
@@ -6173,6 +6335,12 @@
       "revid": 15074,
       "sha256": "1d15abdd1e2f8d917d7a53e653c2563a9c44af101e7578a492f8a7e43844d876",
       "synced_at": "2026-11-10T08:25:51+00:00"
+    },
+    "Reinforcement": {
+      "path": "Main/Reinforcement.wiki",
+      "revid": 17097,
+      "sha256": "b23f08658b3985dd512ac2d6c89c436e590284df78fd86af8ed5983f03d68bca",
+      "synced_at": "2026-11-17T22:49:46+00:00"
     },
     "Relativistic propagation equation of light": {
       "path": "Main/Relativistic propagation equation of light.wiki",
@@ -8166,6 +8334,12 @@
       "sha256": "83346d392660024aabf1821abdd8b56fd6f26327e12a6907ab4632d2718ff126",
       "synced_at": "2026-10-29T15:11:28+00:00"
     },
+    "Source:Long-term consequences of child abuse and neglect (Report)": {
+      "path": "Source/Long-term consequences of child abuse and neglect (Report).wiki",
+      "revid": 17110,
+      "sha256": "1917c6ab68ef976370b3cb6a5e597af14bd6f3298a7e114f0c25cff9bb8b5104",
+      "synced_at": "2026-11-17T22:49:46+00:00"
+    },
     "Source:Looking into the functional architecture of the brain with diffusion MRI (Scholarly article)": {
       "path": "Source/Looking into the functional architecture of the brain with diffusion MRI (Scholarly article).wiki",
       "revid": 13006,
@@ -8646,6 +8820,12 @@
       "sha256": "710a70e5e7d6a10e8c3bc59ab8722297233535ece1262dcdd524ea579ecc11af",
       "synced_at": "2026-11-08T15:08:19+00:00"
     },
+    "Source:SPSSI research summary on media violence (Scholarly article)": {
+      "path": "Source/SPSSI research summary on media violence (Scholarly article).wiki",
+      "revid": 17142,
+      "sha256": "322abcb87cf54de76f9f4b55efc8a14437d1f38809fee96f256ef531857334a1",
+      "synced_at": "2026-11-17T22:49:46+00:00"
+    },
     "Source:Scaling Data-Constrained Language Models (Conference paper)": {
       "path": "Source/Scaling Data-Constrained Language Models (Conference paper).wiki",
       "revid": 15558,
@@ -9012,6 +9192,12 @@
       "sha256": "a59be86f667782459b41082bd9bf5c79380b43e9f50fe8e6a296eacda99591c5",
       "synced_at": "2026-11-06T09:36:05+00:00"
     },
+    "Source:Violent video game effects on aggression, empathy, and prosocial behavior in Eastern and Western countries: A meta-analytic review (Scholarly article)": {
+      "path": "Source/Violent video game effects on aggression, empathy, and prosocial behavior in Eastern and Western countries_ A meta-analytic review (Scholarly article).wiki",
+      "revid": 17170,
+      "sha256": "209d1b39fa6e0137a86c6b2bc1897f136c08a40cf5aefc1d5b0b73b240986c6f",
+      "synced_at": "2026-11-17T22:49:46+00:00"
+    },
     "Source:Vivest (Website)": {
       "path": "Source/Vivest (Website).wiki",
       "revid": 9401,
@@ -9095,6 +9281,12 @@
       "revid": 15161,
       "sha256": "d0f7e0783fe8263559885ad2622d54244d89a1c5db140b1f6553866e6a46fd76",
       "synced_at": "2026-11-10T12:14:23+00:00"
+    },
+    "Source:Youth violence: What we know and what we need to know (Scholarly article)": {
+      "path": "Source/Youth violence_ What we know and what we need to know (Scholarly article).wiki",
+      "revid": 17218,
+      "sha256": "7f95faa4b5402b33b181b51cfdfcf55ab2af44975c3acdff3c449a6c590024b6",
+      "synced_at": "2026-11-17T22:49:46+00:00"
     },
     "Spatial curvature parameter": {
       "path": "Main/Spatial curvature parameter.wiki",
@@ -9415,6 +9607,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-17T22:10:04+00:00",
+  "updated": "2026-11-17T22:49:46+00:00",
   "version": 1
 }
