@@ -1,0 +1,20 @@
+[[Category:Activation function]]
+Gaussian error linear unit is an [[activation function]] liked for its smoothness.
+
+== Definition ==
+
+$$
+\operatorname{GELU}(z)=z\,\Phi(z)
+$$
+
+where 
+
+$$
+\Phi(z)=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^{z} e^{-t^2/2}\,dt
+$$
+
+is the [[normal distribution|standard normal cumulative distribution function]].
+
+== Application ==
+
+GELU is commonly used in [[Transformer]] [[feed-Forward Network (FFN) Sub-Layer (Transformer)|feed-forward sub-layers]].

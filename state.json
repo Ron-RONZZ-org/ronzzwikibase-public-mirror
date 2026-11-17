@@ -2112,6 +2112,12 @@
       "sha256": "98637ca50deafa5565ec5f398e9780f95c7d238baa3d3d977402c028467d1f4b",
       "synced_at": "2026-11-07T18:49:40+00:00"
     },
+    "Gaussian error linear unit (GeLU)": {
+      "path": "Main/Gaussian error linear unit (GeLU).wiki",
+      "revid": 16666,
+      "sha256": "ad2fd7970ac2e5294fdf131a330ade91d49acc51ed01fa59f6bf359a5c66f09a",
+      "synced_at": "2026-11-17T10:10:38+00:00"
+    },
     "General relativity": {
       "path": "Main/General relativity.wiki",
       "revid": 12259,
@@ -2792,9 +2798,9 @@
     },
     "Normal distribution": {
       "path": "Main/Normal distribution.wiki",
-      "revid": 16662,
-      "sha256": "526190f22d65037204874bef48a309e78e9994dc28823192901453807327adf5",
-      "synced_at": "2026-11-16T21:36:10+00:00"
+      "revid": 16665,
+      "sha256": "6ab4de20f5ae427aa51a145e047859283c80c0421ef51554e45d3a027275d323",
+      "synced_at": "2026-11-17T10:10:38+00:00"
     },
     "Normal random variable": {
       "path": "Main/Normal random variable.wiki",
@@ -6036,6 +6042,12 @@
       "sha256": "23e559d15bdc8cee172a0bcd94aaaff7603a11438652a28ca14a9c3f03f7734d",
       "synced_at": "2026-11-11T10:19:48+00:00"
     },
+    "Sigmoid linear unit (SLU)": {
+      "path": "Main/Sigmoid linear unit (SLU).wiki",
+      "revid": 16670,
+      "sha256": "e54e448d9600cae97267d528e386a68600e75fe696501a45bd75dd4fd40e7b4f",
+      "synced_at": "2026-11-17T10:10:38+00:00"
+    },
     "Silicon tracking system": {
       "path": "Main/Silicon tracking system.wiki",
       "revid": 16283,
@@ -8959,6 +8971,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-16T21:36:10+00:00",
+  "updated": "2026-11-17T10:10:38+00:00",
   "version": 1
 }

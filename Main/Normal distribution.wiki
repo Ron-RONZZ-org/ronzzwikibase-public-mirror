@@ -1,6 +1,6 @@
 [[Category:Probability distribution]]
 [[File:Normal-distribution-p-df.svg|thumbnail|The '''probability density function''' of the normal distribution with different '''parameters''']]
-The '''normal distribution''', denoted by $\mathcal{N}(\overline x,\sigma)$ is a [[probability distribution]] over $\mathbb{R}$ with the probability density function
+The '''normal distribution''', denoted by $\mathcal{N}(\overline x,\sigma^2)$ is a [[probability distribution]] over $\mathbb{R}$ with the probability density function
 
 $$
 \forall x \in \mathbb{R}: f_X(x)=\frac{1}{\sigma\sqrt{2\pi}}
@@ -9,7 +9,7 @@ $$
 
 where $\overline x, \sigma \in \mathbb{R}$ are the two parameters of the distribution, corresponding to the '''mean''' and the '''standard deviation''' of the real [[random variable]] respectively.
 
-$\mathcal{N}(0,1)$ is known as the '''standard normal distribution'''
+$\mathcal{N}(0,1)$ is known as the '''standard normal distribution'''.
 
 == Properties ==
 

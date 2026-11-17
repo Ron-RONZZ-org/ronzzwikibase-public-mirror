@@ -1,0 +1,8 @@
+[[Category:Activation function]]
+'''Sigmoid linear unit''' is a non-monotonic and smooth [[activation function]].
+
+$$
+\operatorname{SiLU}(z)=z\,\sigma(z),
+$$
+
+where $\sigma$ is the [[sigmoid function]].
