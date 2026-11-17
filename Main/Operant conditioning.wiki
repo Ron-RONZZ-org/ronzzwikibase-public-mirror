@@ -1,0 +1,55 @@
+'''Operant conditioning''' describes the phenomenon that organisms learn to associate subconsciously behaviour with consequence and adjust their behaviour accordingly.
+
+== Mechanisms ==
+
+{| class="wikitable center"
+|-
+! 
+! Positive (Presence)
+! Negative (Removal)
+! Consequence on frequency of behaviour
+|-
+! Reinforcement (Encouragment)
+| Presence of pleasant stimulus
+| Removal of unpleasant stimulus
+| $\uparrow$
+|-
+! Punishment (Discouragement)
+| Presence of unpleasant stimulus
+| Removal of pleasant stimulus
+| $\downarrow$
+|}
+
+== Experimental evidence ==
+
+[[File:BF Skinner Foundation - Pigeon Ping Pong Clip.mp4|thumbnail|B.F Skinner's pigeons playing Ping-pong]]
+In [[Source:The behavior of organisms: An experimental analysis (Book)|name-author]] and later replication studies, researchers were able to train various organisms to perform a variety of tasks via '''operant conditioning''', including teaching Pigeons to play Ping-pong.<ref>{{#cite:Q3496}}</ref>
+
+== Application ==
+
+=== Animal domestication ===
+
+Pet training involves frequent '''operant conditioning'''.
+
+e.g.,
+
+* Giving a puppy a treat when it sits down after having heard "sit down" from the owner
+
+=== Education ===
+
+'''Operant conditioning''' is widely used in educational settings.
+
+e.g., 
+
+* Giving out prizes for academic excellence
+
+=== Social organisation ===
+
+Authorities (governments, employers...) in modern human societies employ a range of operant conditioning techniques.
+
+e.g., 
+
+* '''Positive reinforcement''': Monetary and honorary awards for contribution to the authority's set goals
+* '''Negative reinforcement''': Tax reduction, fees exemption
+* '''Positive punishment''':Prison (or even corporal punishment/execution in some places of the world)
+* '''Negative punishment''': Reduction in pay/deprivation of benefits for not contributing as the authority expected

@@ -3000,6 +3000,12 @@
       "sha256": "c84e5d338ccbecc3490bcf33649cb0fdebb130f6e07e661c25e32f84b9f13143",
       "synced_at": "2026-11-17T14:49:41+00:00"
     },
+    "Operant conditioning": {
+      "path": "Main/Operant conditioning.wiki",
+      "revid": 17085,
+      "sha256": "1cab9c0da1996f3a6d8c9faf6a5ed5f5e9fc4b0a7716754535b52446399f5c8e",
+      "synced_at": "2026-11-17T21:49:52+00:00"
+    },
     "Operation research": {
       "path": "Main/Operation research.wiki",
       "revid": 16253,
@@ -9403,6 +9409,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-17T21:19:59+00:00",
+  "updated": "2026-11-17T21:49:52+00:00",
   "version": 1
 }
