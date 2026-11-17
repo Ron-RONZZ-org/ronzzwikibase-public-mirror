@@ -1,0 +1,7 @@
+{{Person}}
+
+== Biography ==
+
+''from Wikipedia (CC BY-SA 4.0):''
+
+Ivan Petrovich Pavlov was a Russian and Soviet experimental neurologist and physiologist known for his discovery of classical conditioning through his experiments with dogs. Pavlov also conducted significant research on the physiology of digestion, for which he was awarded the Nobel Prize in Physiology or Medicine in 1904.

@@ -216,6 +216,12 @@
       "sha256": "404ad75f4a529928493c24c0d5ce884aa702a6d595733db0f9d1f87e0739d6cc",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Biopsychology": {
+      "path": "Main/Biopsychology.wiki",
+      "revid": 17005,
+      "sha256": "1d5a85b9440b4f9e50ab3dd8fea4dd64f5671ba2f0449d064238432aac6debc6",
+      "synced_at": "2026-11-17T20:10:16+00:00"
+    },
     "Black body": {
       "path": "Main/Black body.wiki",
       "revid": 16384,
@@ -1955,6 +1961,12 @@
       "revid": 7380,
       "sha256": "051f140b325802ddf1c437c4d8686066a10f6d960b60929fdcb9df4ed1b578b9",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Evolutionary psychology": {
+      "path": "Main/Evolutionary psychology.wiki",
+      "revid": 17007,
+      "sha256": "72ff1e876dbc8110f09350be600a2b46ce86fc0f690147785ab4ce3d79ff159c",
+      "synced_at": "2026-11-17T20:10:16+00:00"
     },
     "Existential risk": {
       "path": "Main/Existential risk.wiki",
@@ -4079,6 +4091,12 @@
       "revid": 6987,
       "sha256": "df97885111edaba5b49a944dfab0a9697754d5bf84d19607bf18deba8fb05ff4",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Person:Ivan Pavlov": {
+      "path": "Person/Ivan Pavlov.wiki",
+      "revid": 17014,
+      "sha256": "5f7687bb53696a416146e26f3ffa331ccbd8d451673305b203778dfdfc5965a5",
+      "synced_at": "2026-11-17T20:10:16+00:00"
     },
     "Person:J. Anthony Tyson": {
       "path": "Person/J. Anthony Tyson.wiki",
@@ -9319,6 +9337,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-17T17:49:38+00:00",
+  "updated": "2026-11-17T20:10:16+00:00",
   "version": 1
 }
