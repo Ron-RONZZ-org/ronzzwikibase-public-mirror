@@ -2174,9 +2174,9 @@
     },
     "Hadamard-Schur product": {
       "path": "Main/Hadamard-Schur product.wiki",
-      "revid": 15230,
-      "sha256": "8a202b1bad4b2a2fc2744b4eaad14b91ae0e2d7218d256a5c825c665ffeffe43",
-      "synced_at": "2026-11-10T15:49:47+00:00"
+      "revid": 16678,
+      "sha256": "e723dd23b020a1d6fb0f62bba0fb5def64770109db08bc186779e777f3d1a1a9",
+      "synced_at": "2026-11-17T11:09:19+00:00"
     },
     "Hadron": {
       "path": "Main/Hadron.wiki",
@@ -8983,6 +8983,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-17T10:48:58+00:00",
+  "updated": "2026-11-17T11:09:19+00:00",
   "version": 1
 }

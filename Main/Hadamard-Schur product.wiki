@@ -1,5 +1,6 @@
 [[Category:Matrix operation]]
 [[Category:Vector operation]]
+[[Category:Proper name]]
 '''Hadamard-Schur product''' ('''element-wise product''') generalises component-wise multiplication to [[vector]]s and [[matrix|matrices]].
 
 == Definition ==
