@@ -1,0 +1,5 @@
+{{Person}}
+
+== Overview ==
+
+Stanford University operations management scholar

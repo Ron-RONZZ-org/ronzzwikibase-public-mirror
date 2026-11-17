@@ -876,6 +876,12 @@
       "sha256": "d26ed3d70694d875a7648a2c09b31f45c7e346ed6c8ee4fb5ce13b3ac8c2b195",
       "synced_at": "2026-11-09T11:49:44+00:00"
     },
+    "Collective:Institute for Operations Research and the Management Sciences": {
+      "path": "Collective/Institute for Operations Research and the Management Sciences.wiki",
+      "revid": 16825,
+      "sha256": "2a677b86c0cd277d52f523349ef2687527f29e316e3d6ff694484d73d5a72879",
+      "synced_at": "2026-11-17T16:23:36+00:00"
+    },
     "Collective:Institute of Electrical and Electronics Engineers": {
       "path": "Collective/Institute of Electrical and Electronics Engineers.wiki",
       "revid": 8270,
@@ -1031,6 +1037,12 @@
       "revid": 8372,
       "sha256": "e79133e5045a17d61ffd343d8823ea9626f1b2b85dab676e70ee109ed552fdee",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Collective:Management Science": {
+      "path": "Collective/Management Science.wiki",
+      "revid": 16821,
+      "sha256": "7461b48dc2088a201f9d2928fa1760882a7921f82d7d4409ae22c26d97d9c33a",
+      "synced_at": "2026-11-17T16:23:36+00:00"
     },
     "Collective:Math centre": {
       "path": "Collective/Math centre.wiki",
@@ -1289,6 +1301,12 @@
       "revid": 14724,
       "sha256": "9877de3b4f235704b305e2ced986a5e3cafc9cb7b680ddcf3e278e8e66da021e",
       "synced_at": "2026-11-09T11:09:37+00:00"
+    },
+    "Collective:Stanford University": {
+      "path": "Collective/Stanford University.wiki",
+      "revid": 16817,
+      "sha256": "d8d28e79a04c48d5317edb655b3144fe31c2de87ffa15a5b94a4fc44e325793c",
+      "synced_at": "2026-11-17T16:23:36+00:00"
     },
     "Collective:The Astronomical Journal": {
       "path": "Collective/The Astronomical Journal.wiki",
@@ -3918,6 +3936,12 @@
       "sha256": "d4273369e0b259e107008efe78a10f2074246e12aefffd662f0cfcd299897b23",
       "synced_at": "2026-10-28T14:11:58+00:00"
     },
+    "Person:Hau L. Lee": {
+      "path": "Person/Hau L. Lee.wiki",
+      "revid": 16813,
+      "sha256": "d1c23be8dc71c96028f20bdd0e9604eddd62f0f598c9f1cd6e55869d484beaf9",
+      "synced_at": "2026-11-17T16:23:36+00:00"
+    },
     "Person:Heinrich Magnus Manske": {
       "path": "Person/Heinrich Magnus Manske.wiki",
       "revid": 4381,
@@ -5232,6 +5256,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T13:10:22+00:00"
     },
+    "Person:Seungjin Whang": {
+      "path": "Person/Seungjin Whang.wiki",
+      "revid": 16833,
+      "sha256": "8d6ba4157aa322fa16ccc31faff385626b65d69359428e09529b96c360ddee59",
+      "synced_at": "2026-11-17T16:23:36+00:00"
+    },
     "Person:Shalin Hai-Jew": {
       "path": "Person/Shalin Hai-Jew.wiki",
       "revid": 14747,
@@ -5483,6 +5513,12 @@
       "revid": 14629,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-08T21:35:05+00:00"
+    },
+    "Person:V. Padmanabhan": {
+      "path": "Person/V. Padmanabhan.wiki",
+      "revid": 16829,
+      "sha256": "32da23ed2aa7dd28dc1b0fe34d96f95b843718d1517cd413c6f72d31d99334ef",
+      "synced_at": "2026-11-17T16:23:36+00:00"
     },
     "Person:Vejay Vakharia": {
       "path": "Person/Vejay Vakharia.wiki",
@@ -7428,6 +7464,12 @@
       "sha256": "3e678c5c55bfca74c4168df2770f23b983abc3b17ea944e7bde789f8aa109baf",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Information Distortion in a Supply Chain: The Bullwhip Effect (Scholarly article)": {
+      "path": "Source/Information Distortion in a Supply Chain_ The Bullwhip Effect (Scholarly article).wiki",
+      "revid": 16838,
+      "sha256": "4dccd6b315d0cf2c7a730830b320fecbb5c93a169e339d63f7478db9d08eea79",
+      "synced_at": "2026-11-17T16:23:36+00:00"
+    },
     "Source:Information and communications technology (ICT) - Glossary - CSRC (Webpage)": {
       "path": "Source/Information and communications technology (ICT) - Glossary - CSRC (Webpage).wiki",
       "revid": 13204,
@@ -9067,6 +9109,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-17T16:11:42+00:00",
+  "updated": "2026-11-17T16:23:36+00:00",
   "version": 1
 }
