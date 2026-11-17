@@ -1976,9 +1976,9 @@
     },
     "Feed-Forward Network (FFN) Sub-Layer (Transformer)": {
       "path": "Main/Feed-Forward Network (FFN) Sub-Layer (Transformer).wiki",
-      "revid": 16138,
-      "sha256": "434cc481559bbb9fc1d46f1a93a6c5eb89dfb4f5adcf324c3cd4d2a975dc168d",
-      "synced_at": "2026-11-12T10:20:30+00:00"
+      "revid": 16671,
+      "sha256": "551720e8f18eb4e0ae889752e457d0495bdcae21457271682e43423d3e1b123b",
+      "synced_at": "2026-11-17T10:20:30+00:00"
     },
     "Feedback loop": {
       "path": "Main/Feedback loop.wiki",
@@ -2111,6 +2111,12 @@
       "revid": 13270,
       "sha256": "98637ca50deafa5565ec5f398e9780f95c7d238baa3d3d977402c028467d1f4b",
       "synced_at": "2026-11-07T18:49:40+00:00"
+    },
+    "Gated linear unit (GLU)": {
+      "path": "Main/Gated linear unit (GLU).wiki",
+      "revid": 16672,
+      "sha256": "551720e8f18eb4e0ae889752e457d0495bdcae21457271682e43423d3e1b123b",
+      "synced_at": "2026-11-17T10:20:30+00:00"
     },
     "Gaussian error linear unit (GeLU)": {
       "path": "Main/Gaussian error linear unit (GeLU).wiki",
@@ -8971,6 +8977,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-17T10:10:38+00:00",
+  "updated": "2026-11-17T10:20:30+00:00",
   "version": 1
 }

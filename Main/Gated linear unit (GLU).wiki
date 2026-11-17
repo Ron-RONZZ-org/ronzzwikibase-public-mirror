@@ -1,0 +1,17 @@
+[[Category:Activation function]]
+A gated linear unit (GLU) is a trainable [[activation function]].
+
+$$
+\operatorname{GLU}(\mathbf{X})
+=\left(\mathbf{X}\mathbf{W}_1+\mathbf{1}\vec b_1^{\top}\right)
+\odot f\left(\mathbf{X}\mathbf{W}_2+\mathbf{1}\vec b_2^{\top}\right).
+$$
+
+The '''gating function''' $f$ is commonly any of
+
+* [[Gaussian error linear unit (GeLU)]]
+* [[sigmoid function]]
+* [[(leaky) rectified/exponential linear units (ReLU, LeakyReLU, ELU)]]
+
+ 
+GLUs are found to improve [[feed-Forward Network (FFN) Sub-Layer (Transformer)|feed-forward sub-layers]] in [[Transformer]]s at matched parameter count.<ref>{{#cite:Q3270}}</ref>
