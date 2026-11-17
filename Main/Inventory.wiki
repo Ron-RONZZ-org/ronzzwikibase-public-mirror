@@ -22,7 +22,7 @@ Keeping an inventory allows:
 * Upfront payment
 ** Lost [[money rent]]
 
-== Inventory level ==
+== Measurement ==
 
 Different measurements have been developed to accurately reflect inventory level with regards to forseeable future demands and supplies.
 
@@ -32,19 +32,19 @@ Different measurements have been developed to accurately reflect inventory level
 ! Calculation
 ! Significance
 |-
-| Physical inventory
-| Actual amount in storage
-| 
+| Physical inventory ($I$)
+| Actual amount in storage; 
+| '''Stockout''' = 0 physical inventory for an item
 |-
-| Inventory level
-| Physical inventory - Forseen upcoming demands
+| Inventory level ($I_l$)
+| Physical inventory - Foreseen upcoming demands
 | "Spare" inventory
 |-
-| Inventory position
-| Physical inventory + Uncoming delivery
+| Inventory position ($I_p$)
+| Inventory position + Upcoming delivery
 | Effective inventory: what is available in the short term
 |-
-| Safety inventory
+| Safety inventory ($I_S$)
 | Amount always kept in storage as a precaution
 | Order is made when inventory level approaches physical inventory to prevent complete depletion of inventory (shortage)
 |}

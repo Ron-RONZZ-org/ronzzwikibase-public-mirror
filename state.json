@@ -2444,9 +2444,21 @@
     },
     "Inventory": {
       "path": "Main/Inventory.wiki",
-      "revid": 16791,
-      "sha256": "b3dc0d5bd87d3a4b20080d64d644c2a7c7961b1a16592bbd4a78d6254cffbfde",
-      "synced_at": "2026-11-17T15:36:08+00:00"
+      "revid": 16801,
+      "sha256": "f9e0aba2f3eca66232c81f23a871424c5e5f1bfca6b591e7d647f4d61315cdcd",
+      "synced_at": "2026-11-17T15:49:49+00:00"
+    },
+    "Inventory level": {
+      "path": "Main/Inventory level.wiki",
+      "revid": 16797,
+      "sha256": "99c275a77ce1380019c217be002187d6303276ea38443715ba8bae5d56ea3932",
+      "synced_at": "2026-11-17T15:49:49+00:00"
+    },
+    "Inventory position": {
+      "path": "Main/Inventory position.wiki",
+      "revid": 16796,
+      "sha256": "99c275a77ce1380019c217be002187d6303276ea38443715ba8bae5d56ea3932",
+      "synced_at": "2026-11-17T15:49:49+00:00"
     },
     "Jacobian matrix": {
       "path": "Main/Jacobian matrix.wiki",
@@ -5688,6 +5700,12 @@
       "sha256": "d8a54a400b4ab35dd3aa3bb150266e991e8decaad1797673c9df5024ed868364",
       "synced_at": "2026-11-14T18:35:42+00:00"
     },
+    "Physical inventory": {
+      "path": "Main/Physical inventory.wiki",
+      "revid": 16800,
+      "sha256": "99c275a77ce1380019c217be002187d6303276ea38443715ba8bae5d56ea3932",
+      "synced_at": "2026-11-17T15:49:49+00:00"
+    },
     "Physics": {
       "path": "Main/Physics.wiki",
       "revid": 7789,
@@ -5963,6 +5981,12 @@
       "revid": 15148,
       "sha256": "69b7434e4d18de1a50269ee6ae7c0bf29dc78d16de25f56f73825e6d76374e0c",
       "synced_at": "2026-11-10T11:49:12+00:00"
+    },
+    "Safety inventory": {
+      "path": "Main/Safety inventory.wiki",
+      "revid": 16794,
+      "sha256": "99c275a77ce1380019c217be002187d6303276ea38443715ba8bae5d56ea3932",
+      "synced_at": "2026-11-17T15:49:49+00:00"
     },
     "Sample space": {
       "path": "Main/Sample space.wiki",
@@ -8778,6 +8802,12 @@
       "sha256": "ff091a7b76bac291d023ae39de43590a2aacac2846e2f24fa8098dae164b9927",
       "synced_at": "2026-11-11T13:49:28+00:00"
     },
+    "Stockout": {
+      "path": "Main/Stockout.wiki",
+      "revid": 16793,
+      "sha256": "99c275a77ce1380019c217be002187d6303276ea38443715ba8bae5d56ea3932",
+      "synced_at": "2026-11-17T15:49:49+00:00"
+    },
     "Strangeness": {
       "path": "Main/Strangeness.wiki",
       "revid": 11960,
@@ -9025,6 +9055,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-17T15:36:08+00:00",
+  "updated": "2026-11-17T15:49:49+00:00",
   "version": 1
 }
