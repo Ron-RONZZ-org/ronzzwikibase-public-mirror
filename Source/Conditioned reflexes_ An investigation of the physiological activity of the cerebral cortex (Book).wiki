@@ -1,0 +1,5 @@
+{{Book}}
+
+== Overview ==
+
+1927 book by Ivan Pavlov, translated and edited by G. V. Anrep, published by Oxford University Press
