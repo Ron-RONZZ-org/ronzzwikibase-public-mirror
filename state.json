@@ -1976,9 +1976,9 @@
     },
     "Feed-Forward Network (FFN) Sub-Layer (Transformer)": {
       "path": "Main/Feed-Forward Network (FFN) Sub-Layer (Transformer).wiki",
-      "revid": 16676,
-      "sha256": "434cc481559bbb9fc1d46f1a93a6c5eb89dfb4f5adcf324c3cd4d2a975dc168d",
-      "synced_at": "2026-11-17T10:36:08+00:00"
+      "revid": 16677,
+      "sha256": "1f54ffdeefd782f48fe95db425ef91de1a5e4cd26bc3993bb6ef04aa6c86630e",
+      "synced_at": "2026-11-17T10:48:58+00:00"
     },
     "Feedback loop": {
       "path": "Main/Feedback loop.wiki",
@@ -8983,6 +8983,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-17T10:36:08+00:00",
+  "updated": "2026-11-17T10:48:58+00:00",
   "version": 1
 }
