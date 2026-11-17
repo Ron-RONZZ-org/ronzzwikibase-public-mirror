@@ -1,0 +1,27 @@
+[[Category:Associative learning]]
+'''Associative learning''' describes the various processes through which organisms learn to associate different entities, such as
+
+* environmental stimuli
+** light, sound, presence of objects/other organisms
+* physiological responses
+** hunger, arousal
+* abstract concepts
+** love
+
+== Process ==
+
+Associative learning can be either conscious or subconscious.
+
+== Transitivity ==
+
+Associations made via '''associative learning''' are usually '''transitive'''.
+
+i.e., when one associates A with B, B with C, one spontaneously associates A with C.
+
+{{Hidden example}}
+The human desire for '''money''' is transitive. One does not desire a large number on one's banking app or a large amount of paper with special graphics, but the social respect and material abundance money can bring.
+{{End hidden}}
+
+=== Experimental evidence ===
+
+* [[classical conditioning#Higher_order_conditioning|Higher-order classical conditioning]]

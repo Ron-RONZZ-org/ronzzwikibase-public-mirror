@@ -22,6 +22,8 @@
 
 == Experimental evidence ==
 
+[[File:Skinner's operant conditioning box.png|thumbnail|300px|'''Skinner's operant conditioning box''': equipped with a food dispenser and mechanisms to produce various light and sound signals, all triggered by a lever/button (or some other action the conditiong process targets), [[Person:B. F. Skinner]]'s (somewhat uncomfortable) box can teach small animals (pigeons/mices, etc.) various simple to complex behaviour.]]
+
 [[File:BF Skinner Foundation - Pigeon Ping Pong Clip.mp4|thumbnail|B.F Skinner's pigeons playing Ping-pong]]
 In [[Source:The behavior of organisms: An experimental analysis (Book)|name-author]] and later replication studies, researchers were able to train various organisms to perform a variety of tasks via '''operant conditioning''', including teaching Pigeons to play Ping-pong.<ref>{{#cite:Q3496}}</ref>
 

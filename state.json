@@ -126,6 +126,12 @@
       "sha256": "5d70635b7210526a6d41a204ed3778ee65f3855492d3a4ee4fd01a4089f77c86",
       "synced_at": "2026-11-13T12:14:27+00:00"
     },
+    "Associative learning": {
+      "path": "Main/Associative learning.wiki",
+      "revid": 17091,
+      "sha256": "6468290ba5dc5fb458cf89d679ef47eb03ebb6352771f016ed90573742667fc1",
+      "synced_at": "2026-11-17T22:10:04+00:00"
+    },
     "Atom": {
       "path": "Main/Atom.wiki",
       "revid": 11845,
@@ -446,9 +452,9 @@
     },
     "Classical conditioning": {
       "path": "Main/Classical conditioning.wiki",
-      "revid": 17080,
-      "sha256": "e8185750f0fbcdd5253af7ebd2bf35be5f9d554a10192e1cda92fe97cf9fe299",
-      "synced_at": "2026-11-17T21:19:59+00:00"
+      "revid": 17090,
+      "sha256": "18a00e3caf64c3569821529cdf4e3bcbe640e8c480d1304feccc023b4ed711e1",
+      "synced_at": "2026-11-17T22:10:04+00:00"
     },
     "Classical mechanics": {
       "path": "Main/Classical mechanics.wiki",
@@ -3002,9 +3008,9 @@
     },
     "Operant conditioning": {
       "path": "Main/Operant conditioning.wiki",
-      "revid": 17085,
-      "sha256": "1cab9c0da1996f3a6d8c9faf6a5ed5f5e9fc4b0a7716754535b52446399f5c8e",
-      "synced_at": "2026-11-17T21:49:52+00:00"
+      "revid": 17096,
+      "sha256": "41c456f0d5c7b467f0d5c37715583faf7aef3fccdd59819d76f6ddb00ca80298",
+      "synced_at": "2026-11-17T22:10:04+00:00"
     },
     "Operation research": {
       "path": "Main/Operation research.wiki",
@@ -9409,6 +9415,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-17T21:49:52+00:00",
+  "updated": "2026-11-17T22:10:04+00:00",
   "version": 1
 }
