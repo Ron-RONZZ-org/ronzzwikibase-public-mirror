@@ -786,6 +786,12 @@
       "sha256": "f55afed78f880a29f637583fcd8929642772c82d5bbd5dabc9809e9f819e9ace",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Elsevier": {
+      "path": "Collective/Elsevier.wiki",
+      "revid": 17385,
+      "sha256": "aafbc2cab2d260325a830c406d2adb8bf4ef31709b1fb91532fe201ebf6ddcc8",
+      "synced_at": "2026-11-18T14:10:27+00:00"
+    },
     "Collective:Eric Lehman, F. Thomson Leighton, Alberty R. Meyer": {
       "path": "Collective/Eric Lehman, F. Thomson Leighton, Alberty R. Meyer.wiki",
       "revid": 13575,
@@ -1284,6 +1290,12 @@
       "sha256": "3e6930633cb19df342b49b96053c7148530540ce4770adab6a11f3b40e75f6d4",
       "synced_at": "2026-11-08T06:15:21+00:00"
     },
+    "Collective:Personality and Individual Differences": {
+      "path": "Collective/Personality and Individual Differences.wiki",
+      "revid": 17381,
+      "sha256": "9ac51e8010ed5e17f9b8cd48fb25c70edabd738279113fd423da581525567b95",
+      "synced_at": "2026-11-18T14:10:27+00:00"
+    },
     "Collective:Physical Review Letters": {
       "path": "Collective/Physical Review Letters.wiki",
       "revid": 7107,
@@ -1422,6 +1434,12 @@
       "sha256": "d8d28e79a04c48d5317edb655b3144fe31c2de87ffa15a5b94a4fc44e325793c",
       "synced_at": "2026-11-17T16:23:36+00:00"
     },
+    "Collective:Taylor & Francis": {
+      "path": "Collective/Taylor & Francis.wiki",
+      "revid": 17406,
+      "sha256": "62aab93878b84c594394caa9fd640bf3350cc06748b116cb435c03efdb2ff143",
+      "synced_at": "2026-11-18T14:10:27+00:00"
+    },
     "Collective:Teaching of Psychology": {
       "path": "Collective/Teaching of Psychology.wiki",
       "revid": 17253,
@@ -1445,6 +1463,12 @@
       "revid": 6878,
       "sha256": "03e77684f4f8abf535e30a0f5bb17fd32c6ca135363d2440aa908081464e27a2",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Collective:The Journal of Social Psychology": {
+      "path": "Collective/The Journal of Social Psychology.wiki",
+      "revid": 17402,
+      "sha256": "f139e8b9eb5d266dee4f8803a8b8362ad4bd46707f895349ac8c0b72629134d6",
+      "synced_at": "2026-11-18T14:10:27+00:00"
     },
     "Collective:The Linux Foundation": {
       "path": "Collective/The Linux Foundation.wiki",
@@ -2654,9 +2678,9 @@
     },
     "Just-world hypothesis": {
       "path": "Main/Just-world hypothesis.wiki",
-      "revid": 17372,
-      "sha256": "66968080d07a794367787b57093059c6c2306a6742425c215e7d769c870e38ca",
-      "synced_at": "2026-11-18T13:49:32+00:00"
+      "revid": 17398,
+      "sha256": "4168e7a331043836ef121aea1d692fd44cd7310d664530b0297dffa5a5571e0a",
+      "synced_at": "2026-11-18T14:10:27+00:00"
     },
     "KV caching": {
       "path": "Main/KV caching.wiki",
@@ -4554,6 +4578,12 @@
       "sha256": "0b7c2903899ee88b78b8ef60827f7d3c31ccfd496d90d9007ba5b2bc51d5606c",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:John Connors": {
+      "path": "Person/John Connors.wiki",
+      "revid": 17410,
+      "sha256": "53ea60c655bdec944d1da3719634a78bed2bac6aa7b54771afd0ed698e159008",
+      "synced_at": "2026-11-18T14:10:27+00:00"
+    },
     "Person:John Dalton": {
       "path": "Person/John Dalton.wiki",
       "revid": 11824,
@@ -4685,6 +4715,12 @@
       "revid": 16097,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-12T10:20:30+00:00"
+    },
+    "Person:Karen M. Douglas": {
+      "path": "Person/Karen M. Douglas.wiki",
+      "revid": 17393,
+      "sha256": "0d0e136a1045542894e2f4bcdcfaf2ee1aee36a4cc0034891f8ad604f30d7310",
+      "synced_at": "2026-11-18T14:10:27+00:00"
     },
     "Person:Karen Pierce": {
       "path": "Person/Karen Pierce.wiki",
@@ -5394,6 +5430,12 @@
       "sha256": "73722142a677a63ccec1abbe4e7c3a52752b2451ede95e70ed6cb9cdd4eeb4bf",
       "synced_at": "2026-11-18T10:10:23+00:00"
     },
+    "Person:Patrick C. L. Heaven": {
+      "path": "Person/Patrick C. L. Heaven.wiki",
+      "revid": 17414,
+      "sha256": "b110ac3aa4b3f31c7679c94c3872b1f2cf15714903d9a92a6612c01209db9b88",
+      "synced_at": "2026-11-18T14:10:27+00:00"
+    },
     "Person:Paul Dirac": {
       "path": "Person/Paul Dirac.wiki",
       "revid": 11888,
@@ -5579,6 +5621,12 @@
       "revid": 16312,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-13T18:11:11+00:00"
+    },
+    "Person:Robbie M. Sutton": {
+      "path": "Person/Robbie M. Sutton.wiki",
+      "revid": 17389,
+      "sha256": "0d0e136a1045542894e2f4bcdcfaf2ee1aee36a4cc0034891f8ad604f30d7310",
+      "synced_at": "2026-11-18T14:10:27+00:00"
     },
     "Person:Robert Ball": {
       "path": "Person/Robert Ball.wiki",
@@ -7440,6 +7488,12 @@
       "sha256": "be8aec3b074f8a214e857301752b18d2d66c5c004042609551bd44fa305feec7",
       "synced_at": "2026-11-18T10:10:23+00:00"
     },
+    "Source:Belief in a Just World and Attitudes toward AIDS Sufferers (Scholarly article)": {
+      "path": "Source/Belief in a Just World and Attitudes toward AIDS Sufferers (Scholarly article).wiki",
+      "revid": 17418,
+      "sha256": "f7217a61e5c8e9fc0b503c2c178282886530db168ad1571ff707057f1ae20a4e",
+      "synced_at": "2026-11-18T14:10:27+00:00"
+    },
     "Source:Beloved (Book)": {
       "path": "Source/Beloved (Book).wiki",
       "revid": 11551,
@@ -8147,6 +8201,12 @@
       "revid": 12772,
       "sha256": "9e9ab03f1ec4d53ccc98d49c17bb6e2a0aaed9b4aec00123c2b62d002236f8cc",
       "synced_at": "2026-11-04T21:49:31+00:00"
+    },
+    "Source:Justice for all, or just for me? More evidence of the importance of the self-other distinction in just-world beliefs (Scholarly article)": {
+      "path": "Source/Justice for all, or just for me_ More evidence of the importance of the self-other distinction in just-world beliefs (Scholarly article).wiki",
+      "revid": 17397,
+      "sha256": "0c25a3e52d35bc7d7b9f979314d848859ca6e1ed16b1542b52b7ddcfc93c7181",
+      "synced_at": "2026-11-18T14:10:27+00:00"
     },
     "Source:Kristina Kallas (Webpage)": {
       "path": "Source/Kristina Kallas (Webpage).wiki",
@@ -9805,6 +9865,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-18T13:49:32+00:00",
+  "updated": "2026-11-18T14:10:27+00:00",
   "version": 1
 }
