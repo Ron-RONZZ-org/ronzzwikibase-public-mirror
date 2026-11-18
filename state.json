@@ -6798,11 +6798,17 @@
       "sha256": "19f763efc98bce40ffe5ff3ab597f8f3b3222a80dc2cabe19a581dce29a65de6",
       "synced_at": "2026-11-13T17:49:21+00:00"
     },
+    "Social norm": {
+      "path": "Main/Social norm.wiki",
+      "revid": 17456,
+      "sha256": "7a4172842cf6211f87fd783870e10c612af83f89da34336cca0647d5751a13c2",
+      "synced_at": "2026-11-18T14:49:48+00:00"
+    },
     "Social psychology": {
       "path": "Main/Social psychology.wiki",
-      "revid": 17291,
-      "sha256": "aaec335d53703a1d7a95938e4f25f3785d2d6ae09d2bda4a796b61c7cb9a6e5f",
-      "synced_at": "2026-11-18T09:49:48+00:00"
+      "revid": 17455,
+      "sha256": "9154e2628dd5a2130bbdff4bf7e15726517a3ee8f0551558bc0b5c295a7f432b",
+      "synced_at": "2026-11-18T14:49:48+00:00"
     },
     "Social role": {
       "path": "Main/Social role.wiki",
@@ -9913,6 +9919,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-18T14:35:59+00:00",
+  "updated": "2026-11-18T14:49:48+00:00",
   "version": 1
 }
