@@ -7002,6 +7002,12 @@
       "sha256": "19f763efc98bce40ffe5ff3ab597f8f3b3222a80dc2cabe19a581dce29a65de6",
       "synced_at": "2026-11-13T17:49:21+00:00"
     },
+    "Sleeper effect": {
+      "path": "Main/Sleeper effect.wiki",
+      "revid": 17688,
+      "sha256": "969d2a6112a5f70695f67f140b94676f0a7d35ab9fbbd16ef0b1696ef1dc4cd2",
+      "synced_at": "2026-11-18T20:10:38+00:00"
+    },
     "Social norm": {
       "path": "Main/Social norm.wiki",
       "revid": 17456,
@@ -10225,6 +10231,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-18T16:37:01+00:00",
+  "updated": "2026-11-18T20:10:38+00:00",
   "version": 1
 }

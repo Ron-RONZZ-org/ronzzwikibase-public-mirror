@@ -1,0 +1,18 @@
+[[Category:Cognitive bias phenomenon]][[Category:Persuation]][[Category:Proper name]]
+The '''Sleeper effect''' describes the phenomenon that [[persuasiveness]] of a given argument initially discredited by an individual increases spontaneous after a period of time.<ref>{{#cite:Q3470}}</ref>
+
+== Experimental evidence ==
+
+[[File:Sleeper effect Kumkale Albarracin.webp|400px|thumbnail|'''Sleeper effect''' under various [[situational context]] according to meta-analysis of [[Source:The sleeper effect in persuasion: A meta-analytic review (Scholarly article)|name-author]]]]
+[[Source:The sleeper effect in persuasion: A meta-analytic review (Scholarly article)|name-author]] conducted a meta-analysis of 72 independent datasets on experiments ran on the Sleeper effect, and found strong evidence of its existence when
+
+* the initial rejection was a result of a discounting cue towards the end of the message (e.g, a disclaimer)
+* the audience is relatively knowledgeable on the subject
+* the message is personally relevant
+* the initial message was repeated
+
+<ref>{{#cite:Q3649}}</ref>
+
+== Cause ==
+
+Dominant explanation asserts that Sleeper effect is a result of subjects reconsidering the original message over time, and finding credit in the logic despite the discounting cue.<ref>{{#cite:Q3649}}</ref>
