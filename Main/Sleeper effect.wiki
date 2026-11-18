@@ -15,4 +15,4 @@ The '''Sleeper effect''' describes the phenomenon that [[persuasiveness]] of a g
 
 == Cause ==
 
-Dominant explanation asserts that Sleeper effect is a result of subjects reconsidering the original message over time, and finding credit in the logic despite the discounting cue.<ref>{{#cite:Q3649}}</ref>
+Dominant explanations assert that Sleeper effect is a result of subjects mentally disassociating the original message with its source over time, reconsidering and finding credit in the logic despite the discounting cues that initially caused rejection.<ref>{{#cite:Q3649}}</ref><ref>{{#cite:Q3646}}</ref>
