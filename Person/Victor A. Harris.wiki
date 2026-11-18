@@ -1,0 +1,5 @@
+{{Person}}
+
+== Overview ==
+
+American social psychologist and co-author of the classic attitude attribution experiment

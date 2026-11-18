@@ -1020,6 +1020,12 @@
       "sha256": "5f83b2eea2cf6d14105def8e5327d255e13413e55f49bf5756f364a997092335",
       "synced_at": "2026-11-17T21:09:35+00:00"
     },
+    "Collective:Journal of Experimental Social Psychology": {
+      "path": "Collective/Journal of Experimental Social Psychology.wiki",
+      "revid": 17249,
+      "sha256": "698739328353a6591b74371c734aef7ef65e9690ebb89128961b2ea78960a515",
+      "synced_at": "2026-11-18T09:35:57+00:00"
+    },
     "Collective:Journal of Personality and Social Psychology": {
       "path": "Collective/Journal of Personality and Social Psychology.wiki",
       "revid": 15185,
@@ -1409,6 +1415,12 @@
       "revid": 16817,
       "sha256": "d8d28e79a04c48d5317edb655b3144fe31c2de87ffa15a5b94a4fc44e325793c",
       "synced_at": "2026-11-17T16:23:36+00:00"
+    },
+    "Collective:Teaching of Psychology": {
+      "path": "Collective/Teaching of Psychology.wiki",
+      "revid": 17253,
+      "sha256": "57a25fd2d8e8b32f97a87943aad5f4e3add8dd2cb891514e478b6c045f9e8458",
+      "synced_at": "2026-11-18T09:35:57+00:00"
     },
     "Collective:Temple University": {
       "path": "Collective/Temple University.wiki",
@@ -3324,6 +3336,12 @@
       "sha256": "f375c23f569433643d7f50377997ea59f3cc358afc933a48765ee583a9a94447",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Amber L. Garcia": {
+      "path": "Person/Amber L. Garcia.wiki",
+      "revid": 17281,
+      "sha256": "402b314a4951e357f82adfeffa1a96da5c8de27c39b1bfc3585a481c593f81c7",
+      "synced_at": "2026-11-18T09:35:57+00:00"
+    },
     "Person:Amos Tversky": {
       "path": "Person/Amos Tversky.wiki",
       "revid": 13846,
@@ -3870,6 +3888,12 @@
       "sha256": "03daa3b5750a5b63b99356dedd5ec3a0c85671cda6ad55268d391c771f1e0efa",
       "synced_at": "2026-11-17T22:49:46+00:00"
     },
+    "Person:Edward E. Jones": {
+      "path": "Person/Edward E. Jones.wiki",
+      "revid": 17265,
+      "sha256": "e25dd955751535eb4dcb257beb866249dcf516bfd3e07a7fd8f611bd699ad6be",
+      "synced_at": "2026-11-18T09:35:57+00:00"
+    },
     "Person:Edward L. Deci": {
       "path": "Person/Edward L. Deci.wiki",
       "revid": 16980,
@@ -4199,6 +4223,12 @@
       "revid": 16813,
       "sha256": "d1c23be8dc71c96028f20bdd0e9604eddd62f0f598c9f1cd6e55869d484beaf9",
       "synced_at": "2026-11-17T16:23:36+00:00"
+    },
+    "Person:Heidi R. Riggio": {
+      "path": "Person/Heidi R. Riggio.wiki",
+      "revid": 17277,
+      "sha256": "d4a995d2de86b21489d366854492af64079042af5d76c417cc480328d3c44a5b",
+      "synced_at": "2026-11-18T09:35:57+00:00"
     },
     "Person:Heinrich Magnus Manske": {
       "path": "Person/Heinrich Magnus Manske.wiki",
@@ -4727,6 +4757,12 @@
       "revid": 15578,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T13:10:22+00:00"
+    },
+    "Person:Leonard Berkowitz": {
+      "path": "Person/Leonard Berkowitz.wiki",
+      "revid": 17257,
+      "sha256": "35e209499bb87a2352ca6d517039dc8b8694873ce55cc78af993962f3c62a180",
+      "synced_at": "2026-11-18T09:35:57+00:00"
     },
     "Person:Leonhard Euler": {
       "path": "Person/Leonhard Euler.wiki",
@@ -5927,6 +5963,12 @@
       "revid": 15787,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T14:10:29+00:00"
+    },
+    "Person:Victor A. Harris": {
+      "path": "Person/Victor A. Harris.wiki",
+      "revid": 17269,
+      "sha256": "95959d78cddd920aaebf13cde620256a4921e62431d1ec4fe3dbaa3e9739e24b",
+      "synced_at": "2026-11-18T09:35:57+00:00"
     },
     "Person:Vineesha Veer": {
       "path": "Person/Vineesha Veer.wiki",
@@ -7181,6 +7223,12 @@
       "revid": 6714,
       "sha256": "3f4d116288754866f8140def25e35c2f0cf48819a972f5b31820e0e05a441ae5",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:Advances in experimental social psychology. Volume 10 (Book)": {
+      "path": "Source/Advances in experimental social psychology. Volume 10 (Book).wiki",
+      "revid": 17261,
+      "sha256": "34b133827e08a7e06684439aa4a99a00548e429283ffd14fc386bd750c087f44",
+      "synced_at": "2026-11-18T09:35:57+00:00"
     },
     "Source:Alain Vaillant on Cairn.info (Webpage)": {
       "path": "Source/Alain Vaillant on Cairn.info (Webpage).wiki",
@@ -9006,6 +9054,12 @@
       "sha256": "80fc12c5d3e2334cc329372d7019e938bb02857e3d293413909dc767b5db86ba",
       "synced_at": "2026-11-08T15:49:41+00:00"
     },
+    "Source:The attribution of attitudes (Scholarly article)": {
+      "path": "Source/The attribution of attitudes (Scholarly article).wiki",
+      "revid": 17273,
+      "sha256": "accd52d2cbbc2ea1e17a508e5a2b29876c77f4f28e690e4f1aacd1970e2541b1",
+      "synced_at": "2026-11-18T09:35:57+00:00"
+    },
     "Source:The behavior of organisms: An experimental analysis (Book)": {
       "path": "Source/The behavior of organisms_ An experimental analysis (Book).wiki",
       "revid": 17072,
@@ -9035,6 +9089,12 @@
       "revid": 17241,
       "sha256": "9de47e2d1299816223dd283c354d210d0384e73140c77960c5f8b00be9b97d06",
       "synced_at": "2026-11-18T09:22:00+00:00"
+    },
+    "Source:The power of situations: Jonestown and the fundamental attribution error (Scholarly article)": {
+      "path": "Source/The power of situations_ Jonestown and the fundamental attribution error (Scholarly article).wiki",
+      "revid": 17285,
+      "sha256": "b1df2e764fc7d7a4c9fd73d995420f8d3996c00fe31ba8184a382f6570c1e5ac",
+      "synced_at": "2026-11-18T09:35:57+00:00"
     },
     "Source:The role of accident size in the risk-overestimation phenomenon. (Scholarly article)": {
       "path": "Source/The role of accident size in the risk-overestimation phenomenon. (Scholarly article).wiki",
@@ -9631,6 +9691,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-18T09:22:00+00:00",
+  "updated": "2026-11-18T09:35:57+00:00",
   "version": 1
 }

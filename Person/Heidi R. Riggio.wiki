@@ -1,0 +1,5 @@
+{{Person}}
+
+== Overview ==
+
+American psychologist and psychology educator known for research on social psychology pedagogy
