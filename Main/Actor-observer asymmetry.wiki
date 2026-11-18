@@ -1,0 +1,7 @@
+[[Category:Cognitive bias]][[Category:Social psychology]]
+'''Actor-observer asymmetry''' describes the human tendency to attribute more importance to situational context compared to subjective disposition when asked to justify one's own behaviour, compared to when asked to justify that of someone else.
+
+== Experimental evidence ==
+
+[[File:Actor-observer asymmetry.png|thumbnail|]]
+[[Source:Behavior as seen by the actor and as seen by the observer (Scholarly article)|name-author]] invited male participants to justify their liking of their own girlfriend and one of their friends. Results shown that to justify their own liking, participants focused significantly more on [[situational context]], i.e.,traits of their girlfriend, compared to to justify a friend's liking of his girlfriend, when [[subjective disposition]] (e.g., the friend's need for companionship or preference for certain traits) was assigned near equal weight to the situation context, i.e., traits of their girlfriend.<ref>{{#cite:Q3555}}</ref>

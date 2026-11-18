@@ -42,6 +42,12 @@
       "sha256": "fe4d6be12132467a8de5d6b4a3629f2ee1f590c7fb72c724209241a78981412d",
       "synced_at": "2026-11-16T15:54:38+00:00"
     },
+    "Actor-observer asymmetry": {
+      "path": "Main/Actor-observer asymmetry.wiki",
+      "revid": 17328,
+      "sha256": "d205a01d080314bc7e69a69814daea2e074e7642341ddb8338f1eb10617089dc",
+      "synced_at": "2026-11-18T10:10:23+00:00"
+    },
     "Aesthetics": {
       "path": "Main/Aesthetics.wiki",
       "revid": 8128,
@@ -2256,6 +2262,12 @@
       "sha256": "77b2c0017d419e0f832e8889635c4b63c3080b4ac20d75847e0ad3c1d3367816",
       "synced_at": "2026-11-05T16:50:13+00:00"
     },
+    "Fundamental attribution error": {
+      "path": "Main/Fundamental attribution error.wiki",
+      "revid": 17311,
+      "sha256": "950ccdc78a5a40211fba97cdc9d28f4f3ea1ef19c8eae5de40fc5d72b430b07c",
+      "synced_at": "2026-11-18T10:10:23+00:00"
+    },
     "Fundamental forces": {
       "path": "Main/Fundamental forces.wiki",
       "revid": 12026,
@@ -3690,11 +3702,23 @@
       "sha256": "177b75b66e70645b1dfa6ce5bc28e981354135fc77a8dee54cf37d33e7699d90",
       "synced_at": "2026-11-17T22:49:46+00:00"
     },
+    "Person:Craig Caputo": {
+      "path": "Person/Craig Caputo.wiki",
+      "revid": 17297,
+      "sha256": "73722142a677a63ccec1abbe4e7c3a52752b2451ede95e70ed6cb9cdd4eeb4bf",
+      "synced_at": "2026-11-18T10:10:23+00:00"
+    },
     "Person:Craig Newschaffer": {
       "path": "Person/Craig Newschaffer.wiki",
       "revid": 14369,
       "sha256": "222d661bb12d49087d0b736806b83285533e4b2ecdd14e5dc061c729eb9c756f",
       "synced_at": "2026-11-08T06:15:21+00:00"
+    },
+    "Person:Dale T. Miller": {
+      "path": "Person/Dale T. Miller.wiki",
+      "revid": 17319,
+      "sha256": "4eb0e840d21ba42e4176700ec56221fe7fc32d9a47218c9d84b8f536a4b13c17",
+      "synced_at": "2026-11-18T10:10:23+00:00"
     },
     "Person:Dan Hooper": {
       "path": "Person/Dan Hooper.wiki",
@@ -4416,6 +4440,12 @@
       "sha256": "8b9802a45f6652c0a25e88d5fb318e464091fb4cf83c424805b368986920b15a",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Jeanne Marecek": {
+      "path": "Person/Jeanne Marecek.wiki",
+      "revid": 17305,
+      "sha256": "a0fbf586cd42e45f351124d727698fd49be3b7eb58b53bb415d8e3e6f202bee5",
+      "synced_at": "2026-11-18T10:10:23+00:00"
+    },
     "Person:Jeff Achter": {
       "path": "Person/Jeff Achter.wiki",
       "revid": 13537,
@@ -5034,6 +5064,12 @@
       "sha256": "e368fdce1156026de39f96aabe879782aa54bb85c819d41845779aa0103a61eb",
       "synced_at": "2026-11-03T07:11:15+00:00"
     },
+    "Person:Michael Ross": {
+      "path": "Person/Michael Ross.wiki",
+      "revid": 17323,
+      "sha256": "fafa3c19dcbb466977f23ff04fc37c3070796171238af388189200ca1c6adb41",
+      "synced_at": "2026-11-18T10:10:23+00:00"
+    },
     "Person:Michael S. Turner": {
       "path": "Person/Michael S. Turner.wiki",
       "revid": 13681,
@@ -5309,6 +5345,12 @@
       "revid": 14357,
       "sha256": "ec559c4b03d8ec3999d2d0a296e1d3c4dffac6598927d9691cd969f96cdbe602",
       "synced_at": "2026-11-08T06:15:21+00:00"
+    },
+    "Person:Patricia Legant": {
+      "path": "Person/Patricia Legant.wiki",
+      "revid": 17301,
+      "sha256": "73722142a677a63ccec1abbe4e7c3a52752b2451ede95e70ed6cb9cdd4eeb4bf",
+      "synced_at": "2026-11-18T10:10:23+00:00"
     },
     "Person:Paul Dirac": {
       "path": "Person/Paul Dirac.wiki",
@@ -7350,6 +7392,12 @@
       "sha256": "7d18ae0ea7de897dd6a469ad6e98ff934a05c49054bfebb22c6a0d2260718e35",
       "synced_at": "2026-11-11T14:10:29+00:00"
     },
+    "Source:Behavior as seen by the actor and as seen by the observer (Scholarly article)": {
+      "path": "Source/Behavior as seen by the actor and as seen by the observer (Scholarly article).wiki",
+      "revid": 17309,
+      "sha256": "be8aec3b074f8a214e857301752b18d2d66c5c004042609551bd44fa305feec7",
+      "synced_at": "2026-11-18T10:10:23+00:00"
+    },
     "Source:Beloved (Book)": {
       "path": "Source/Beloved (Book).wiki",
       "revid": 11551,
@@ -8916,6 +8964,12 @@
       "sha256": "486de5c6554b9d04b929bfb8e62236112755405ed3c7450741edfb7547336f06",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Self-serving biases in the attribution of causality: Fact or fiction? (Scholarly article)": {
+      "path": "Source/Self-serving biases in the attribution of causality_ Fact or fiction_ (Scholarly article).wiki",
+      "revid": 17327,
+      "sha256": "ea89058b51095881cc1c651bf7a67e9f68534a70c9f78123e2af917eac7e8e87",
+      "synced_at": "2026-11-18T10:10:23+00:00"
+    },
     "Source:Sensory pre-conditioning (Scholarly article)": {
       "path": "Source/Sensory pre-conditioning (Scholarly article).wiki",
       "revid": 17058,
@@ -9697,6 +9751,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-18T09:49:48+00:00",
+  "updated": "2026-11-18T10:10:23+00:00",
   "version": 1
 }
