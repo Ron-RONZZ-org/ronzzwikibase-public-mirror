@@ -1,0 +1,5 @@
+{{Book}}
+
+== Overview ==
+
+1986 book by Richard E. Petty and John T. Cacioppo setting out the elaboration likelihood model of persuasion

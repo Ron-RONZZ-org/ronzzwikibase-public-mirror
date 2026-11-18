@@ -1476,6 +1476,12 @@
       "sha256": "9877de3b4f235704b305e2ced986a5e3cafc9cb7b680ddcf3e278e8e66da021e",
       "synced_at": "2026-11-09T11:09:37+00:00"
     },
+    "Collective:Springer-Verlag New York": {
+      "path": "Collective/Springer-Verlag New York.wiki",
+      "revid": 17707,
+      "sha256": "68e02a9f8b093921262bb4e757e8e149f2117abb31791f544bd8bb5ecf156cf1",
+      "synced_at": "2026-11-18T21:19:49+00:00"
+    },
     "Collective:Stanford University": {
       "path": "Collective/Stanford University.wiki",
       "revid": 16817,
@@ -4728,6 +4734,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:John T. Cacioppo": {
+      "path": "Person/John T. Cacioppo.wiki",
+      "revid": 17711,
+      "sha256": "5d84d766b4301909084dfe90cee16fb604ff7f7f9d4e8730affa22ce5507fafa",
+      "synced_at": "2026-11-18T21:19:49+00:00"
+    },
     "Person:Jona Hattangadi-Gluth": {
       "path": "Person/Jona Hattangadi-Gluth.wiki",
       "revid": 13992,
@@ -7938,6 +7950,12 @@
       "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
       "synced_at": "2026-10-22T11:14:03+00:00"
     },
+    "Source:Communication and Persuasion: Central and Peripheral Routes to Attitude Change (Book)": {
+      "path": "Source/Communication and Persuasion_ Central and Peripheral Routes to Attitude Change (Book).wiki",
+      "revid": 17715,
+      "sha256": "66f4075b149ff3a67fb240cf7598a64e3f6903e02106cd963da927a85a5b50c3",
+      "synced_at": "2026-11-18T21:19:49+00:00"
+    },
     "Source:Complex Numbers - Algebrica (Webpage)": {
       "path": "Source/Complex Numbers - Algebrica (Webpage).wiki",
       "revid": 11004,
@@ -10237,6 +10255,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-18T20:49:49+00:00",
+  "updated": "2026-11-18T21:19:49+00:00",
   "version": 1
 }
