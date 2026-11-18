@@ -1128,6 +1128,12 @@
       "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
       "synced_at": "2026-10-20T15:14:48+00:00"
     },
+    "Collective:McGraw-Hill": {
+      "path": "Collective/McGraw-Hill.wiki",
+      "revid": 17237,
+      "sha256": "a1ba31e8fd39ce7e0ba1a608b71814ad7b2131482829ac0dbfbb38ed5ced299f",
+      "synced_at": "2026-11-18T09:22:00+00:00"
+    },
     "Collective:Michael Janssen and Melissa Lindsey": {
       "path": "Collective/Michael Janssen and Melissa Lindsey.wiki",
       "revid": 13506,
@@ -3026,9 +3032,9 @@
     },
     "Observational learning": {
       "path": "Main/Observational learning.wiki",
-      "revid": 17223,
-      "sha256": "8e426829e41cf447a87e92adffeb814c8d8a7309a0a4d3483456ef07da2a50e2",
-      "synced_at": "2026-11-17T23:19:51+00:00"
+      "revid": 17229,
+      "sha256": "1a6a4eaa5cb83d48f8af7e752cf1677d4355e27ad4ac4cc0397a613e182fec52",
+      "synced_at": "2026-11-18T09:22:00+00:00"
     },
     "OntoMotoOS": {
       "path": "Main/OntoMotoOS.wiki",
@@ -4709,6 +4715,12 @@
       "revid": 6342,
       "sha256": "bc15c5a1a4433e638d07828fddc29858786a8b09fbe6faa3af5a289f2b4ef8f8",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Lee Ross": {
+      "path": "Person/Lee Ross.wiki",
+      "revid": 17233,
+      "sha256": "bc0b4cafaa8eee2ef4f0d8b231edf4e94eb9b9e64679d451c6b5e2757e399eb3",
+      "synced_at": "2026-11-18T09:22:00+00:00"
     },
     "Person:Lennart Heim": {
       "path": "Person/Lennart Heim.wiki",
@@ -9018,6 +9030,12 @@
       "sha256": "e2b7187d629382df8b9f02b6b54374c5a84fdb39963ab2449f3e8f851adc3211",
       "synced_at": "2026-10-30T21:08:41+00:00"
     },
+    "Source:The person and the situation: Perspectives of social psychology (Book)": {
+      "path": "Source/The person and the situation_ Perspectives of social psychology (Book).wiki",
+      "revid": 17241,
+      "sha256": "9de47e2d1299816223dd283c354d210d0384e73140c77960c5f8b00be9b97d06",
+      "synced_at": "2026-11-18T09:22:00+00:00"
+    },
     "Source:The role of accident size in the risk-overestimation phenomenon. (Scholarly article)": {
       "path": "Source/The role of accident size in the risk-overestimation phenomenon. (Scholarly article).wiki",
       "revid": 12734,
@@ -9613,6 +9631,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-17T23:19:51+00:00",
+  "updated": "2026-11-18T09:22:00+00:00",
   "version": 1
 }

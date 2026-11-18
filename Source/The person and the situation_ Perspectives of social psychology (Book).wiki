@@ -1,0 +1,5 @@
+{{Book}}
+
+== Overview ==
+
+1991 book by Lee Ross and Richard E. Nisbett arguing that social psychology's core lesson is the power of the situation and the importance of construal
