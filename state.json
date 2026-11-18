@@ -210,6 +210,12 @@
       "sha256": "dfa850738517ba728f647d8294a8656041490b5e1819686930966d8370583a0a",
       "synced_at": "2026-10-31T13:49:41+00:00"
     },
+    "Behaviour genetics": {
+      "path": "Main/Behaviour genetics.wiki",
+      "revid": 17580,
+      "sha256": "640c35200af99f8dc2a73ff2ce3255043d3e19d0f24e33d6cd368477eb2b8f52",
+      "synced_at": "2026-11-18T16:19:59+00:00"
+    },
     "Bias": {
       "path": "Main/Bias.wiki",
       "revid": 13060,
@@ -485,6 +491,12 @@
       "revid": 12949,
       "sha256": "e374617aab5292c70770250868b2a706dfdf430616da0f3a3cd03bcfdd142961",
       "synced_at": "2026-11-05T08:49:52+00:00"
+    },
+    "Cognitive dissonance": {
+      "path": "Main/Cognitive dissonance.wiki",
+      "revid": 17585,
+      "sha256": "ab7bffb6ae35b7ba7fda4dec43f324c58b7aa5288adbb98ecc3f4aaeed2609fc",
+      "synced_at": "2026-11-18T16:19:59+00:00"
     },
     "Cognitive load theory (CLT)": {
       "path": "Main/Cognitive load theory (CLT).wiki",
@@ -1031,6 +1043,12 @@
       "revid": 7027,
       "sha256": "6debf1d9a9aa58d0fad52d24e57945853f8d0f0142467ce510d8e2797f790a31",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Collective:Journal of Abnormal and Social Psychology": {
+      "path": "Collective/Journal of Abnormal and Social Psychology.wiki",
+      "revid": 17589,
+      "sha256": "636ecc1ba5cbb0cce92c344273309c3a5082530947237d2f55003318f5ed6525",
+      "synced_at": "2026-11-18T16:19:59+00:00"
     },
     "Collective:Journal of Experimental Psychology": {
       "path": "Collective/Journal of Experimental Psychology.wiki",
@@ -3438,6 +3456,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
     },
+    "Person:Andrew J. Elliot": {
+      "path": "Person/Andrew J. Elliot.wiki",
+      "revid": 17571,
+      "sha256": "618f4f06897004c25d32afd338b749179a09df0f8ac1490a30be6f0ce421e494",
+      "synced_at": "2026-11-18T16:19:59+00:00"
+    },
     "Person:Andrew Lavin": {
       "path": "Person/Andrew Lavin.wiki",
       "revid": 12748,
@@ -3485,6 +3509,12 @@
       "revid": 15566,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T13:10:22+00:00"
+    },
+    "Person:Anthony G. Greenwald": {
+      "path": "Person/Anthony G. Greenwald.wiki",
+      "revid": 17551,
+      "sha256": "cb8d29c40d0580e3716f8c0852cbc24d91a820fba8776fb813901ab853a7e9cd",
+      "synced_at": "2026-11-18T16:19:59+00:00"
     },
     "Person:Anton Petrunin": {
       "path": "Person/Anton Petrunin.wiki",
@@ -3876,6 +3906,12 @@
       "sha256": "e3aee4fc373f40e466d83862968d76d4aad752db1bf3e2573cda9a34bb752c07",
       "synced_at": "2026-11-17T16:49:44+00:00"
     },
+    "Person:David L. Ronis": {
+      "path": "Person/David L. Ronis.wiki",
+      "revid": 17555,
+      "sha256": "4891f70719780b14d852f738b81fdcd97bae5ba89f488cee1d16e033b91d6a90",
+      "synced_at": "2026-11-18T16:19:59+00:00"
+    },
     "Person:David Lippman": {
       "path": "Person/David Lippman.wiki",
       "revid": 10029,
@@ -4043,6 +4079,12 @@
       "revid": 13956,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Elliot Aronson": {
+      "path": "Person/Elliot Aronson.wiki",
+      "revid": 17593,
+      "sha256": "e838a2cd45d175dabf6e42c4de080065d3e0e61920f76ba39a66ec3bee5677cb",
+      "synced_at": "2026-11-18T16:19:59+00:00"
     },
     "Person:Emily Frisella": {
       "path": "Person/Emily Frisella.wiki",
@@ -4691,6 +4733,12 @@
       "revid": 14004,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Judson Mills": {
+      "path": "Person/Judson Mills.wiki",
+      "revid": 17597,
+      "sha256": "14f7bf0414cae940d951974ac16b5198f0d9d2a12421092a9c35dfc2052e32ba",
+      "synced_at": "2026-11-18T16:19:59+00:00"
     },
     "Person:Juliana Schroeder": {
       "path": "Person/Juliana Schroeder.wiki",
@@ -5471,6 +5519,12 @@
       "revid": 14357,
       "sha256": "ec559c4b03d8ec3999d2d0a296e1d3c4dffac6598927d9691cd969f96cdbe602",
       "synced_at": "2026-11-08T06:15:21+00:00"
+    },
+    "Person:Patricia G. Devine": {
+      "path": "Person/Patricia G. Devine.wiki",
+      "revid": 17575,
+      "sha256": "645d35e182d5353d70b2dc0d568df6433509978acf8fd5b0a82f323c26e2477a",
+      "synced_at": "2026-11-18T16:19:59+00:00"
     },
     "Person:Patricia Legant": {
       "path": "Person/Patricia Legant.wiki",
@@ -8928,6 +8982,12 @@
       "sha256": "fd3061be7ef1c967e0311e8766ab2f8c4dfde5b1870e24aba48d0758bfa2ce36",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:On the motivational nature of cognitive dissonance: Dissonance as psychological discomfort (Scholarly article)": {
+      "path": "Source/On the motivational nature of cognitive dissonance_ Dissonance as psychological discomfort (Scholarly article).wiki",
+      "revid": 17579,
+      "sha256": "8b59c137c4090c98008c183613fb91565b15f545a7a8d8411f613f85a26110c4",
+      "synced_at": "2026-11-18T16:19:59+00:00"
+    },
     "Source:On the psychology of prediction (Scholarly article)": {
       "path": "Source/On the psychology of prediction (Scholarly article).wiki",
       "revid": 12767,
@@ -9408,6 +9468,12 @@
       "sha256": "436a915d575eee67eed757af4388b91ba47151fba777b7c934f05f9dac26c98e",
       "synced_at": "2026-11-17T21:09:35+00:00"
     },
+    "Source:The effect of severity of initiation on liking for a group (Scholarly article)": {
+      "path": "Source/The effect of severity of initiation on liking for a group (Scholarly article).wiki",
+      "revid": 17601,
+      "sha256": "498f9da7661f9b93d4ac0a538bc79761d49bfa5185dfcb2ee1a8afde01dff107",
+      "synced_at": "2026-11-18T16:19:59+00:00"
+    },
     "Source:The influence of social support on academic performance: The mediating role of cognitive engagement (Scholarly article)": {
       "path": "Source/The influence of social support on academic performance_ The mediating role of cognitive engagement (Scholarly article).wiki",
       "revid": 16921,
@@ -9557,6 +9623,12 @@
       "revid": 15285,
       "sha256": "18f2dae366159f3465c8bbb1c9759a496d522553bb29099b300ee2e189764ca8",
       "synced_at": "2026-11-10T19:08:36+00:00"
+    },
+    "Source:Twenty years of cognitive dissonance: Case study of the evolution of a theory (Scholarly article)": {
+      "path": "Source/Twenty years of cognitive dissonance_ Case study of the evolution of a theory (Scholarly article).wiki",
+      "revid": 17559,
+      "sha256": "6ceac4d997ac0e1f7d13a409bc2aa849c88f7785a463d7de5271433913e5aa80",
+      "synced_at": "2026-11-18T16:19:59+00:00"
     },
     "Source:UNEP - UN Environment Programme (Website)": {
       "path": "Source/UNEP - UN Environment Programme (Website).wiki",
@@ -10045,6 +10117,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-18T15:49:41+00:00",
+  "updated": "2026-11-18T16:19:59+00:00",
   "version": 1
 }
