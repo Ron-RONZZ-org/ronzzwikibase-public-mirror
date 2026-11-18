@@ -2652,6 +2652,12 @@
       "sha256": "eee061450945be38e608a4a9222eb945cecbf30dc8a83454ddc472baf8cf32fe",
       "synced_at": "2026-10-29T17:10:54+00:00"
     },
+    "Just-world hypothesis": {
+      "path": "Main/Just-world hypothesis.wiki",
+      "revid": 17372,
+      "sha256": "66968080d07a794367787b57093059c6c2306a6742425c215e7d769c870e38ca",
+      "synced_at": "2026-11-18T13:49:32+00:00"
+    },
     "KV caching": {
       "path": "Main/KV caching.wiki",
       "revid": 16145,
@@ -9799,6 +9805,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-18T11:09:22+00:00",
+  "updated": "2026-11-18T13:49:32+00:00",
   "version": 1
 }

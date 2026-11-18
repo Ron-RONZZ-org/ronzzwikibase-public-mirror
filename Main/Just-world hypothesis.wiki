@@ -1,0 +1,97 @@
+[[Category:Cognitive bias]][[Category:Social psychology]]
+'''Just-world hypothesis''' describes the human tendency to prefer believing that
+
+* the world is just
+* people get what they "deserve".
+
+== Cause ==
+
+Dominant theories attribute the cognitive popularity of '''just-world hypothesis''' to the human desire for [[autonomy]] and [[justice]], i.e., being in control of one's fate and receiving due rewards in the long run for one's effort.
+
+== Experimental evidence ==
+
+=== [[Source:Observer's reaction to the "innocent victim": Compassion or rejection? (Scholarly article)|name-author]] ===
+
+==== Experimental setup ====
+
+In [[Source:Observer's reaction to the "innocent victim": Compassion or rejection? (Scholarly article)|name-author]], 75 female participants watched a "fellow participant" receiving electric shocks as a [[positive punishment]] for errors made in a purported "learning study" via "television feed", under the justification that they were participating in a separate study about how humans interpret emotional cues of other individuals under stress. Each participant completed a "personality traits" survey that evaluated their social attractiveness based on a standardised numerical scale via self-reporting.
+
+The participants were divided into 6 groups. Each group was asked to fill out the same "personality traits" survey to evaluate the "fellow participant"'s social attractiveness, among some camouflage questions designed to hold up the pretext that the study focus was about the participants' interpretation of emotional cues, not their susceptibility to just-world hypothesis or other cognitive-biases.
+
+<div class=center>
+{| class="wikitable"
+|-
+! style="font-weight:bold;" | Group
+! Description of television feed
+! Instructions at the end of television feed
+! Timing of the attractiveness rating on "fellow participant"
+|-
+| style="font-weight:bold;" | Past-event
+| Recorded
+| Experiment was done in the past; Participant actions would change nothing
+| Immediately after receiving instructions
+|-
+| style="font-weight:bold;" | Reward
+| Live
+| There will be a 2nd session with the same "fellow participant", and participants can vote by secret ballot to decide if the 2nd session would continue to feature electric shock as a [[positive punishment]], money as a [[positive reinforcement]] instead, or nothing.
+| After voting, after vote results announced that 2nd session would be [[positive reinforcement]] with money
+|-
+| style="font-weight:bold;" | Reward-decision
+| Live
+| Same as reward
+| After voting, before vote results announced
+|-
+| style="font-weight:bold;" | Midpoint
+| Live
+| There will be a 2nd session with the same "fellow participant" identical to the first one
+| Immediately after receiving instructions
+|-
+| style="font-weight:bold;" | Endpoint
+| Live
+| Experiment was just done; Participant actions would change nothing
+| Immediately after receiving instructions
+|-
+| style="font-weight:bold;" | Martyr
+| Live
+| Same as endpoint, but participants witnessed before hand the "fellow participant" agreeing reluctantly to participate in the experiment as the "learner" and receive electric shocks so the experiment can take place and everyone would get lab credit.
+| Immediately after receiving instructions
+|}
+</div>
+
+==== Results ====
+
+[[File:Just-world hypothesis Lerner-Simons 1966.png|thumbnail|The attractive ratings in [[Source:Observer's reaction to the "innocent victim": Compassion or rejection? (Scholarly article)|name-author]] are reported as the difference between participant's rating of the "fellow participant" and on themselves to control self-reporting bias and whether perceived similarity in social attractiveness had any effect.]]
+
+* '''Attractiveness via standardised numerical scale''': Participants in the '''reward''' group rated the "fellow participant" as much more attractive than all other groups. In contrast, the '''martyr''' group rated the "fellow participant" as particularly unattractive. 
+* '''Alternative mesurement (Social stimulus value¹ via 5 numerical scale questions)''': '''reward''' group rated the "fellow participant" once again significantly higher, less conclusive results for the '''martyr''' group.
+* '''Similarity''': the perceived similarity between the "fellow participant" and the participants were was not found to have a statistically significant difference across groups²
+
+<blockquote>
+1:The 5 questions asked to determine social stimulus value was:
+
+* How would people in general react to this person after a brief acquaintance, in terms of getting to know him (her) better?
+* How easily would this person fit in with your friends?
+* Some people are able to gain admiration and respect from others very easily and other people are not. How easily can this person gain admiration from others?
+* Some people are able to gain affection and liking from others very easily and other people are not. How easily can this person gain affection and liking from others? (implied by “Similar to the preceding…”)
+* From the impression this person gives, how likely is he (she) to be able to get the things he (she) wants out of life?
+
+Participants were asked to rate from 1 (most negative perception) to 6 (most positive perception).
+
+2:The authors attributed this to inadequate statistical sensitivity in the similarity evaluation.
+
+<ref>{{#cite:Q3570}}</ref>
+</blockquote>
+
+==== Interpretation ====
+
+Participants rated the "fellow participant" more negatively in general when they witness her suffering but cannot reasonably intervene, to minimise the threat to their just-world hypothesis: the "fellow participant" somehow deserved this, because she is not that attractive a person.
+
+Furthermore, participants rated the "fellow participant" particularly harshly when they are under the impression that they benefit from her suffering (i.e., get lab credits), in order to minimise guilt of a "good person" suffering altruistically for their needs.
+
+=== Further evidences ===
+
+[[Source:Experimental Research on Just-World Theory: Problems, Developments, and Future Challenges (Scholarly article)|name-author]] identified 66 further studies generally concurring with [[Source:Observer's reaction to the "innocent victim": Compassion or rejection? (Scholarly article)|name-author]]. However, [[Source:Experimental Research on Just-World Theory: Problems, Developments, and Future Challenges (Scholarly article)|name-author]] cautioned that just-world hypothesis was often not the focus of the experimental designs in said studies, and the evidence thereby provided is unsystematic.<ref>{{#cite:Q3566}}</ref>
+
+== Impact ==
+
+* [[victim derogation]]
