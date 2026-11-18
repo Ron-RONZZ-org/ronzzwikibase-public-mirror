@@ -6804,6 +6804,12 @@
       "sha256": "aaec335d53703a1d7a95938e4f25f3785d2d6ae09d2bda4a796b61c7cb9a6e5f",
       "synced_at": "2026-11-18T09:49:48+00:00"
     },
+    "Social role": {
+      "path": "Main/Social role.wiki",
+      "revid": 17451,
+      "sha256": "b40848de3c9daaf48ac51aa23726412873e3468b4ff78756facd2c2841a5be41",
+      "synced_at": "2026-11-18T14:35:59+00:00"
+    },
     "Softmax": {
       "path": "Main/Softmax.wiki",
       "revid": 15956,
@@ -9870,6 +9876,12 @@
       "sha256": "248333ebd5f32fad3b1e67940eea8b45a9ab75c11439ef4485380a14965e5ee6",
       "synced_at": "2026-10-21T14:16:28+00:00"
     },
+    "Victim derogation": {
+      "path": "Main/Victim derogation.wiki",
+      "revid": 17453,
+      "sha256": "efabfc608608a22ea7018d571fe64d12f131f0efec0ac275a4f77b60fe8d34b9",
+      "synced_at": "2026-11-18T14:35:59+00:00"
+    },
     "Wave-particle duality of light": {
       "path": "Main/Wave-particle duality of light.wiki",
       "revid": 16501,
@@ -9901,6 +9913,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-18T14:20:38+00:00",
+  "updated": "2026-11-18T14:35:59+00:00",
   "version": 1
 }

@@ -1,0 +1,12 @@
+[[Category:Social psychology]]
+'''Victim derogation''' describes the phenomenon that people tend to perceive victims of injustices negatively in order to prevent threats to their [[just-world hypothesis]].
+
+== Experimental evidence ==
+
+=== Just-world hypothesis and negative perception of people suffering from AIDS ===
+
+[[Source:Belief in a Just World and Attitudes toward AIDS Sufferers (Scholarly article)|name-author]] evaluated 184 Australian undergraduate students on the Just World Scale of Rubin&Peplau (1975) and the Attitudes Towards AIDS sufferers scale of Heaven, Connors, Kellehear (1990), and found a negative correlation between belief in the [[just-world hypothesis]] and empathy towards AIDS sufferers among male participants. Such correlation was however not paralleled across female participants.<ref>{{#cite:Q3583}}</ref>
+
+=== Just-world hypothesis and harsh attitude towards the poor ===
+
+[[Source:Justice for all, or just for me? More evidence of the importance of the self-other distinction in just-world beliefs (Scholarly article)|name-author]] conducted a survey of 233 undergraduate students and found a correlation between belief in just-world hypothesis and negative attitudes toward financially-impoverished individuals.<ref>{{#cite:Q3578}}</ref>
