@@ -606,6 +606,18 @@
       "sha256": "62c81646beb805dc3e1635520aba46f083e6c3f42b91d3379e232af53f5ece01",
       "synced_at": "2026-11-17T20:36:15+00:00"
     },
+    "Collective:Annual Review of Psychology": {
+      "path": "Collective/Annual Review of Psychology.wiki",
+      "revid": 17616,
+      "sha256": "1166ab7dc237f9b0ac45b65cf69271b629e935f6fabc75335a6cdee015147a87",
+      "synced_at": "2026-11-18T16:37:01+00:00"
+    },
+    "Collective:Annual Reviews": {
+      "path": "Collective/Annual Reviews.wiki",
+      "revid": 17620,
+      "sha256": "2d3004b48bbd8aad14f7600e31c4581f64ba72ff95d3be10e4b26af8ce947370",
+      "synced_at": "2026-11-18T16:37:01+00:00"
+    },
     "Collective:Apress": {
       "path": "Collective/Apress.wiki",
       "revid": 6446,
@@ -1367,6 +1379,12 @@
       "revid": 14774,
       "sha256": "14ad77a80e4874945ff7300807fcd997797073a3a6a973f8e117f7e51432d8cf",
       "synced_at": "2026-11-09T16:11:40+00:00"
+    },
+    "Collective:Public Opinion Quarterly": {
+      "path": "Collective/Public Opinion Quarterly.wiki",
+      "revid": 17612,
+      "sha256": "3833e2064fe775c402309dda66a155d4c3e60429c9a8ce1ddd63208d6a786ec1",
+      "synced_at": "2026-11-18T16:37:01+00:00"
     },
     "Collective:Reviews of Modern Physics": {
       "path": "Collective/Reviews of Modern Physics.wiki",
@@ -2634,6 +2652,12 @@
       "sha256": "bf1ad62b84b7d907a3d2d0f426c0bb532192467026a4c1bda90f4ea5c307026b",
       "synced_at": "2026-11-07T15:49:17+00:00"
     },
+    "Initiation effect": {
+      "path": "Main/Initiation effect.wiki",
+      "revid": 17606,
+      "sha256": "a6c42afe873d0f5d113b6047df99283163a8362c32a9cb233b798f48d86502a8",
+      "synced_at": "2026-11-18T16:37:01+00:00"
+    },
     "Inner product": {
       "path": "Main/Inner product.wiki",
       "revid": 10323,
@@ -3408,6 +3432,12 @@
       "sha256": "ec559c4b03d8ec3999d2d0a296e1d3c4dffac6598927d9691cd969f96cdbe602",
       "synced_at": "2026-11-08T06:15:21+00:00"
     },
+    "Person:Alice H. Eagly": {
+      "path": "Person/Alice H. Eagly.wiki",
+      "revid": 17640,
+      "sha256": "bbb4495667dfc9c1d2a01b9bdf5419cd9b72bb0b1e8538b9a38732f25bba33fd",
+      "synced_at": "2026-11-18T16:37:01+00:00"
+    },
     "Person:Alison A. Anderson": {
       "path": "Person/Alison A. Anderson.wiki",
       "revid": 13751,
@@ -3702,6 +3732,12 @@
       "sha256": "b84ea2133ba64c5cf1d90710ae3a8af535dad9cd02cf487cae1531cf402d1e73",
       "synced_at": "2026-10-31T10:49:32+00:00"
     },
+    "Person:Carl I. Hovland": {
+      "path": "Person/Carl I. Hovland.wiki",
+      "revid": 17624,
+      "sha256": "0f65a3ccda5fc37a7df41dc5c6c13715d8b70b0b5ca1e8fd45bf11b526a7a54d",
+      "synced_at": "2026-11-18T16:37:01+00:00"
+    },
     "Person:Carl Runge": {
       "path": "Person/Carl Runge.wiki",
       "revid": 7323,
@@ -3984,6 +4020,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T13:10:22+00:00"
     },
+    "Person:Dolores Albarracín": {
+      "path": "Person/Dolores Albarracín.wiki",
+      "revid": 17656,
+      "sha256": "25d00425fba440abdf41cb9064e17a5adf92abe3071a623ab64502eefdde0f5c",
+      "synced_at": "2026-11-18T16:37:01+00:00"
+    },
     "Person:Donald Metzler": {
       "path": "Person/Donald Metzler.wiki",
       "revid": 16334,
@@ -4007,6 +4049,12 @@
       "revid": 6947,
       "sha256": "d84dd1c3711ede2b1829a1c935dc83002a302a24be61423e1abb22a8e61a8fe1",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Person:Duane T. Wegener": {
+      "path": "Person/Duane T. Wegener.wiki",
+      "revid": 17632,
+      "sha256": "02f8803de336f39347677b9794e0b0770a968f898c5d1b0fabd51108475bfd6a",
+      "synced_at": "2026-11-18T16:37:01+00:00"
     },
     "Person:Ed Chi": {
       "path": "Person/Ed Chi.wiki",
@@ -4241,6 +4289,12 @@
       "revid": 8224,
       "sha256": "539d7a9867c4fe2bbb7db63ac32127fc3c4699691d0c0aee3f76232bd63d1786",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Person:G. Tarcan Kumkale": {
+      "path": "Person/G. Tarcan Kumkale.wiki",
+      "revid": 17652,
+      "sha256": "fc6a64b3ec44793d868520e9ccc5d36c89c580363b4d2d29a0158f55f1bb3e09",
+      "synced_at": "2026-11-18T16:37:01+00:00"
     },
     "Person:Galileo Galilei": {
       "path": "Person/Galileo Galilei.wiki",
@@ -4925,6 +4979,12 @@
       "revid": 7095,
       "sha256": "bf201b857fc342046b61107112184354295987a5014dbc6d416f619b17c700ae",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Leandre R. Fabrigar": {
+      "path": "Person/Leandre R. Fabrigar.wiki",
+      "revid": 17644,
+      "sha256": "c5e7f5b00c01617978b4e18f13204c5a2785db4bea40b2e32abf17ce4ff86121",
+      "synced_at": "2026-11-18T16:37:01+00:00"
     },
     "Person:Lee Daniel Crocker": {
       "path": "Person/Lee Daniel Crocker.wiki",
@@ -5706,6 +5766,12 @@
       "sha256": "221f3e7b07d6dd3896ac7fd4901256fa67818afe2e53fe1930bda9a3eb7d9aa1",
       "synced_at": "2026-11-17T17:35:48+00:00"
     },
+    "Person:Richard E. Petty": {
+      "path": "Person/Richard E. Petty.wiki",
+      "revid": 17628,
+      "sha256": "2b6ede43560b669d7237eaaaafb9d8bed3146be6e560d62aec3cf63371959974",
+      "synced_at": "2026-11-18T16:37:01+00:00"
+    },
     "Person:Richard Feynman": {
       "path": "Person/Richard Feynman.wiki",
       "revid": 12033,
@@ -5957,6 +6023,12 @@
       "revid": 14381,
       "sha256": "ec559c4b03d8ec3999d2d0a296e1d3c4dffac6598927d9691cd969f96cdbe602",
       "synced_at": "2026-11-08T06:15:21+00:00"
+    },
+    "Person:Shelly Chaiken": {
+      "path": "Person/Shelly Chaiken.wiki",
+      "revid": 17636,
+      "sha256": "4492deeb31641b6e2201e19d6302fabfcf6a7fda5c825f1665d6722b498a198e",
+      "synced_at": "2026-11-18T16:37:01+00:00"
     },
     "Person:Shinkichi Sugimori": {
       "path": "Person/Shinkichi Sugimori.wiki",
@@ -6281,6 +6353,12 @@
       "revid": 14139,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Walter Weiss": {
+      "path": "Person/Walter Weiss.wiki",
+      "revid": 17648,
+      "sha256": "b4a6776c1efc5ffadf81486372a3f28be7493e98fb21475a2140e6cb000e7da4",
+      "synced_at": "2026-11-18T16:37:01+00:00"
     },
     "Person:Ward Edwards": {
       "path": "Person/Ward Edwards.wiki",
@@ -7590,6 +7668,18 @@
       "sha256": "582f432705b7c8a92d065b84f85315581a464a8521b68f4c3cd812e1cc899b4f",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:An attribution analysis of the effect of communicator characteristics on opinion change: The case of communicator attractiveness": {
+      "path": "Source/An attribution analysis of the effect of communicator characteristics on opinion change_ The case of communicator attractiveness.wiki",
+      "revid": 17674,
+      "sha256": "07410d740de0bd86eeac4b74feda13fcc54e724a1e0197e98d9818ae6072eb11",
+      "synced_at": "2026-11-18T16:37:01+00:00"
+    },
+    "Source:An attribution analysis of the effect of communicator characteristics on opinion change: The case of communicator attractiveness (Scholarly article)": {
+      "path": "Source/An attribution analysis of the effect of communicator characteristics on opinion change_ The case of communicator attractiveness (Scholarly article).wiki",
+      "revid": 17675,
+      "sha256": "c36fe305d426cc44628dabf10c059274ba705dd93fdbca573696f8b6e67fa13c",
+      "synced_at": "2026-11-18T16:37:01+00:00"
+    },
     "Source:An overview of cosmology: Summer Student Lectures 2002-2004 (Book)": {
       "path": "Source/An overview of cosmology_ Summer Student Lectures 2002-2004 (Book).wiki",
       "revid": 12190,
@@ -7619,6 +7709,12 @@
       "revid": 15382,
       "sha256": "8f1745ed4fd0535bf3c27cdb9dd1a984eb29f538fd464ff5dc0832b2f0ddcaf1",
       "synced_at": "2026-11-11T13:10:22+00:00"
+    },
+    "Source:Attitudes and attitude change (Scholarly article)": {
+      "path": "Source/Attitudes and attitude change (Scholarly article).wiki",
+      "revid": 17664,
+      "sha256": "b7f3e9b7a516a7da0642f3b551fc8bcdd3cf08d08e7a0da442471ad576112699",
+      "synced_at": "2026-11-18T16:37:01+00:00"
     },
     "Source:Autisme Info Service - Écoute, soutien & orientation pour l'autisme (Website)": {
       "path": "Source/Autisme Info Service - Écoute, soutien & orientation pour l'autisme (Website).wiki",
@@ -9480,6 +9576,12 @@
       "sha256": "3ca916139b081c1eef8468908399345740e96447c8f94d0d35a20521897d7044",
       "synced_at": "2026-11-17T17:10:05+00:00"
     },
+    "Source:The influence of source credibility on communication effectiveness (Scholarly article)": {
+      "path": "Source/The influence of source credibility on communication effectiveness (Scholarly article).wiki",
+      "revid": 17660,
+      "sha256": "cb23b6d03a12f6101c2b2e89ff0b53811f4f3a3a736ad7a0faf7027be4f50b16",
+      "synced_at": "2026-11-18T16:37:01+00:00"
+    },
     "Source:The latest on Git updates (Webpage)": {
       "path": "Source/The latest on Git updates (Webpage).wiki",
       "revid": 6476,
@@ -9515,6 +9617,12 @@
       "revid": 8219,
       "sha256": "0311d90e243f3be68c13d2082783458de88a2149eb53d4dd209d37db3d2db9bd",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:The sleeper effect in persuasion: A meta-analytic review (Scholarly article)": {
+      "path": "Source/The sleeper effect in persuasion_ A meta-analytic review (Scholarly article).wiki",
+      "revid": 17672,
+      "sha256": "1c9dc8545874066de7a1861d7a54fe842d83139fb1a2d1999a193f50e8c50f07",
+      "synced_at": "2026-11-18T16:37:01+00:00"
     },
     "Source:The three body problem (Book)": {
       "path": "Source/The three body problem (Book).wiki",
@@ -10117,6 +10225,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-18T16:19:59+00:00",
+  "updated": "2026-11-18T16:37:01+00:00",
   "version": 1
 }

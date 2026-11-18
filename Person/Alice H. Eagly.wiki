@@ -1,0 +1,5 @@
+{{Person}}
+
+== Overview ==
+
+American social psychologist at Northwestern University; known for meta-analytic work on the psychology of attitudes, prejudice, and social cognition

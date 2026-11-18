@@ -1,0 +1,15 @@
+[[Category:Cognitive bias phenomenon]]
+The '''initiation effect''' describes the psychological phenomenon that individual appreciation of the value of a positive outcome is positively correlated with the effort they invested to obtain it.
+
+== Experimental evidence ==
+
+[[File:Initiation effect.png|thumbnail|Results from [[Source:The effect of severity of initiation on liking for a group (Scholarly article)|name-author]] as illustrated in [[Source:Psychology 2e (Book)|name-author]].]]
+In [[Source:The effect of severity of initiation on liking for a group (Scholarly article)|name-author]], researchers offered participating university students an opportunity to join a discussion group about sex. They were randomly assigned:
+
+* a '''difficult initiation''' task: reading highly embarrassing sexually explicit content out loud in public
+* an '''easy initiation''' task: reading mildly embarrassing content out loud in public
+* '''no initiation''' task.
+
+Researchers then invited every participant to join the same discussion session, intentionally made extremely boring, and asked them to evaluate subsequently their appreciation of the experience. The level of appreciation and difficulty of initiation was highly correlated.
+
+<ref>{{#cite:Q3631}}</ref>
