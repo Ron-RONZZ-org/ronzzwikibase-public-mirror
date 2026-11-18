@@ -6636,6 +6636,12 @@
       "sha256": "19f763efc98bce40ffe5ff3ab597f8f3b3222a80dc2cabe19a581dce29a65de6",
       "synced_at": "2026-11-13T17:49:21+00:00"
     },
+    "Social psychology": {
+      "path": "Main/Social psychology.wiki",
+      "revid": 17291,
+      "sha256": "aaec335d53703a1d7a95938e4f25f3785d2d6ae09d2bda4a796b61c7cb9a6e5f",
+      "synced_at": "2026-11-18T09:49:48+00:00"
+    },
     "Softmax": {
       "path": "Main/Softmax.wiki",
       "revid": 15956,
@@ -9691,6 +9697,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-18T09:35:57+00:00",
+  "updated": "2026-11-18T09:49:48+00:00",
   "version": 1
 }

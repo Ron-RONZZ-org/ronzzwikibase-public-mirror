@@ -1,0 +1,20 @@
+[[Category:Cognitive bias]][[Category:Social psychology]]
+The '''fundamental attribution error(FAE)''' refers to the human tendency, when interpreting the behaviours of others, to
+
+* overestimate subjective disposition
+** e.g., influence from their personality, attitude, and beliefs
+* underestimate importance of situational context
+
+== Etymology ==
+
+The term was first proposed by [[Source:Advances in experimental social psychology. Volume 10 (Book)|name-author]].<ref>{{#cite:Q3542}}</ref>
+
+== Experimental evidence ==
+
+=== Essay position and personal beliefs ===
+
+In [[Source:The attribution of attitudes (Scholarly article)|name-author]], participants were read essays either in support or criticism of Fidel Castro. Despite being clearly told that the essay writers were randomly assigned to take particular positions hence lacked actual subjective disposition, the participants still inferred that the essay arguments reflected personal opinions of their author, illustrating the persistence of FAE despite information discouraging it.<ref>{{#cite:Q3545}}</ref>
+
+=== Jonestown mass suicide and a "bad day" ===
+
+In [[Source:The power of situations: Jonestown and the fundamental attribution error (Scholarly article)|name-author]], 155 undergraduate students were randomly assigned to 3 groups. One group watched a video documentary on the Jonestown massacre, explaining how strong situational context, notably social isolation, influence of a charismatic leader, and peer-pressure led to 900 people to commit simultaneous suicide. Another group instead received a lecture on FAE, while the control group received only a generic lecture on research methodology. When later asked to attribute causes to a fictional character having a bad day, the group having watched the Jonestown massacre documentary earlier weighed most strongly situational context, followed by the group that received sensibilisation lecture on FAE, while the control group focused on subjective disposition (e.g., the character's personal choices), again illustrating the persistence of FAE, despite clear knowledge of its existence. However, the experiment also suggested that it is possible to diminish FAE through [[vicarious experience]].<ref>{{#cite:Q3548}}</ref>
