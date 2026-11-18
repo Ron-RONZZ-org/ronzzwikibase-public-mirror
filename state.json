@@ -5526,6 +5526,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-10-29T15:11:28+00:00"
     },
+    "Person:Philip Zimbardo": {
+      "path": "Person/Philip Zimbardo.wiki",
+      "revid": 17463,
+      "sha256": "0ae855d554f616535cb5c514b831097c8a1af88705ec1f8e40a6cee8fbdf42bb",
+      "synced_at": "2026-11-18T15:10:27+00:00"
+    },
     "Person:Philipp Kewisch": {
       "path": "Person/Philipp Kewisch.wiki",
       "revid": 6564,
@@ -6714,6 +6720,12 @@
       "sha256": "b52d2aae312693f7df03be73869d2b58ce69109d38f674124defc2a4a5fdf1d7",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Script (social psychology)": {
+      "path": "Main/Script (social psychology).wiki",
+      "revid": 17458,
+      "sha256": "26384aebf124b85b060c0e6bf280769c0551878571420d9e1e7fb672a165a47d",
+      "synced_at": "2026-11-18T15:10:27+00:00"
+    },
     "Section UX 1792328551543": {
       "path": "Main/Section UX 1792328551543.wiki",
       "revid": 10414,
@@ -7451,6 +7463,12 @@
       "revid": 14583,
       "sha256": "9fae8fd2f30d5eba8e115f8aee0274346ce39d638cbcfbe2141f62c09acdc074",
       "synced_at": "2026-11-08T16:49:45+00:00"
+    },
+    "Source:An End to the Experiment (Webpage)": {
+      "path": "Source/An End to the Experiment (Webpage).wiki",
+      "revid": 17471,
+      "sha256": "92fcfdbf1941d5c38ee2e9d61e013d45b4160700c6657d7d9bf31fdb231a49fb",
+      "synced_at": "2026-11-18T15:10:27+00:00"
     },
     "Source:An Introduction to Geology": {
       "path": "Source/An Introduction to Geology.wiki",
@@ -9150,6 +9168,12 @@
       "sha256": "e2b7187d629382df8b9f02b6b54374c5a84fdb39963ab2449f3e8f851adc3211",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Stanford Prison Experiment: A Simulation Study of the Psychology of Imprisonment (Website)": {
+      "path": "Source/Stanford Prison Experiment_ A Simulation Study of the Psychology of Imprisonment (Website).wiki",
+      "revid": 17467,
+      "sha256": "ea7057558cf9fc43768bd392c42ad080e5e28755afdba44d5a021a260a6fa7d5",
+      "synced_at": "2026-11-18T15:10:27+00:00"
+    },
     "Source:Sterile neutrinos as dark matter (Scholarly article)": {
       "path": "Source/Sterile neutrinos as dark matter (Scholarly article).wiki",
       "revid": 7115,
@@ -9919,6 +9943,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-18T14:49:48+00:00",
+  "updated": "2026-11-18T15:10:27+00:00",
   "version": 1
 }
