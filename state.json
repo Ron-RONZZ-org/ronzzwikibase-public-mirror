@@ -1944,6 +1944,12 @@
       "sha256": "4d7f5217b7a7caaf055719c004c4aa5842e576d711e784768549ce1f7daa9281",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Egocentric bias": {
+      "path": "Main/Egocentric bias.wiki",
+      "revid": 17339,
+      "sha256": "f034d6440a016ee032cf68a257306d3109a6c3bf0abb3241c4283c63fa70a88c",
+      "synced_at": "2026-11-18T10:49:40+00:00"
+    },
     "Eigenfunction": {
       "path": "Main/Eigenfunction.wiki",
       "revid": 16571,
@@ -9757,6 +9763,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-18T10:20:27+00:00",
+  "updated": "2026-11-18T10:49:40+00:00",
   "version": 1
 }

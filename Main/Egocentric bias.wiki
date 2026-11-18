@@ -1,0 +1,27 @@
+[[Category:Cognitive bias]][[Category:Social psychology]]
+The '''egocentric bias''' describes the cognitive tendency of individuals to
+
+* Overestimate their own responsibility in a joint-outcome;
+* Concentrate their considerations on themselves and their immediate surrounding, spatially and temporally.
+
+<blockquote>
+Different to [[self-serving bias]], egocentric bias does not intend specifically to increase one's own welfare. People are observed to overclaim responsibility also for negative outcomes.
+</blockquote>
+
+== Influencing factors ==
+
+=== $B_\text{egocentric} \uparrow n$ ===
+
+''[[Source:Many hands make overlooked work: Over-claiming of responsibility increases with group size. (Scholarly article)|Schroeder-Caruso-Epley]]'' found that egocentric bias increases with group size, manifested through increased contribution over-claiming to a team competition on hand-gripping in teams of 6 compared to a team of 3.
+
+=== Cognitive context ===
+
+[[File:Egocentric bias.png|thumbnail|As seen in ''Schroeder-Caruso-Epley'', although over-claiming of contribution increases with group size even when participants are asked explicitly to consider contribution of each person, compared to when asked to only consider their own contribution, there was significantly less over-claiming]]
+''[[Source:Many hands make overlooked work: Over-claiming of responsibility increases with group size. (Scholarly article)|Schroeder-Caruso-Epley]]'' also suggests that cognitive context impact the manifestation of egocentric bias, as participants in their experiment claims more contribution to a collective effort when asked only to consider their own contribution, compared when asked to estimate the contribution of each participant.
+
+== Cause ==
+
+=== [[Availability heuristic]] ===
+
+[[File:Categorising human perspectives.png|As illustrated, most human thoughts tend to concern oneself or their immediate surrounding.|thumbnail|]]
+Prevalent theories attribute egocentric bias to the [[information discrepancy|discrepancy in information accessible to an individual on their own reflection and actions and those of others.]]
