@@ -3834,6 +3834,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T13:10:22+00:00"
     },
+    "Person:David A. Kenny": {
+      "path": "Person/David A. Kenny.wiki",
+      "revid": 17434,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-18T14:20:38+00:00"
+    },
     "Person:David Atkinson": {
       "path": "Person/David Atkinson.wiki",
       "revid": 15821,
@@ -4163,6 +4169,12 @@
       "revid": 5059,
       "sha256": "1178b44b8d4531dc4b6f096062b6307987fb9685d91ff9abad6d5027636f3f42",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Person:Fredric Agatstein": {
+      "path": "Person/Fredric Agatstein.wiki",
+      "revid": 17438,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-18T14:20:38+00:00"
     },
     "Person:Fritz Zwicky": {
       "path": "Person/Fritz Zwicky.wiki",
@@ -4878,6 +4890,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T13:10:22+00:00"
     },
+    "Person:Linda Albright": {
+      "path": "Person/Linda Albright.wiki",
+      "revid": 17430,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-18T14:20:38+00:00"
+    },
     "Person:Lindsay E. Hunter": {
       "path": "Person/Lindsay E. Hunter.wiki",
       "revid": 13948,
@@ -4937,6 +4955,12 @@
       "revid": 16875,
       "sha256": "659555875603147fc376ba9d5a56752ab2cea9f01f6a53aca688fbe252ed1c8d",
       "synced_at": "2026-11-17T16:49:44+00:00"
+    },
+    "Person:Lynn Winquist": {
+      "path": "Person/Lynn Winquist.wiki",
+      "revid": 17442,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-18T14:20:38+00:00"
     },
     "Person:Lyric Ripley": {
       "path": "Person/Lyric Ripley.wiki",
@@ -5945,6 +5969,12 @@
       "revid": 9372,
       "sha256": "645afa8a859538a7a39a53e486d09e355a6260dbe0734fa8646eb60ad951a242",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Thomas E. Malloy": {
+      "path": "Person/Thomas E. Malloy.wiki",
+      "revid": 17426,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-18T14:20:38+00:00"
     },
     "Person:Thomas Eliot": {
       "path": "Person/Thomas Eliot.wiki",
@@ -8154,6 +8184,12 @@
       "sha256": "73a05c4e8678caf99a95220991b9f5b152a85300d6a066599a3edfeacfec9a16",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Interpersonal perception and metaperception in nonoverlapping social groups (Scholarly article)": {
+      "path": "Source/Interpersonal perception and metaperception in nonoverlapping social groups (Scholarly article).wiki",
+      "revid": 17446,
+      "sha256": "1330ab71e9b0339f1716a2e243b9dc55d5538534b2120ce553a6e8b35bcb2305",
+      "synced_at": "2026-11-18T14:20:38+00:00"
+    },
     "Source:Intimacy and affiliation motives in daily living: An experience sampling analysis (Scholarly article)": {
       "path": "Source/Intimacy and affiliation motives in daily living_ An experience sampling analysis (Scholarly article).wiki",
       "revid": 17004,
@@ -9865,6 +9901,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-18T14:10:27+00:00",
+  "updated": "2026-11-18T14:20:38+00:00",
   "version": 1
 }
