@@ -1,0 +1,34 @@
+[[Category:Social psychology experiment]][[Category:Proper name]]
+[[File:Stanford prison experiment.png|thumbnail|Archive photo from the Stanford prison experiment]]
+The '''Stanford prison experiment''' was an demonstration of the power of [[social role]], [[social norm]], and [[script (social psychology)|script]].
+
+== Experimental setup ==
+
+In 1971, social psychologist [[Person:Philip Zimbardo]] and his colleagues at Stanford University recruited 24 healthy male university student volunteers, and randomly assigned to either to play the role of "prisoner" or "guard" to study the effect prison can have on healthy individuals with no criminal precedents.
+
+When the experiment began, participants playing "prisoner" were "arrested" at their house by actual police officers, booked at a real police station, then transferred to the mock prison set up in the basement of Stanford's psychological department.
+<ref>{{#cite:Q3470}}</ref>
+
+== Experimental observations ==
+
+To the surprise of the researchers, all participants engaged in their role almost immediately. On day 2, some "prisoners" revolted, and the guards quelled the rebellion with the threat of "night sticks".
+
+In a few days of time, the "guards" started harassing the "prisoners" in increasingly sadastic manner, such as complete deprivation of privacy, of basic comfort (e.g, a mattress to sleep on), and degrading chores as well as sleep deprivation via late-night counts; the "prisoners", on the other hand, began showing increasing obedience to the "guards" as well as serious signs of distress and hopelessness, but nevertheless did not withdraw themselves from the experiment, despite being told beforehand that they had the right to quit at any time. Even the lead researcher [[Person: Philip Zimbardo]] found himself acting with increasing zeal in the assumed role of "prison supervisor".
+
+<ref>{{#cite:Q3598}}</ref><ref>{{#cite:Q3470}}</ref>
+== Experimental result and interpretation ==
+
+The experiment, originally scheduled to run for two weeks, was ended prematurely after just six days out of concern for the participants' wellbeing.<ref>{{#cite:Q3598}}</ref> Despite its brevity, it demonstrated that [[situational context]], notably individual's understanding of their [[social role]] and the associated [[social norm]]s in their perceived context, can have a significant impact on human behaviour.<ref>{{#cite:Q3470}}</ref>
+
+== Caveats ==
+
+In addition to questions on ethics, the Stanford prison experiment drawn questions on its experimental validity. [[Source:Debunking the Stanford Prison Experiment (Scholarly article)|name-author]], after reviewing the archive documents on the experiment, found that guards were instructed to behave authoritatively as real prison guards during orientation, which may have encouraged their abuse of prisoners, and the audiovisual recording of the experiment was unsystematic.<ref>{{#cite:Q3600}}</ref>[[Source:Revisiting the Stanford prison experiment, again: Examining demand characteristics in the guard orientation (Scholarly article)|name-author]] echoed similar doubts whether the experimental setup actively encouraged abuse.<ref>{{#cite:Q3612}}</ref>
+
+[[Source:Revisiting the Stanford Prison Experiment: Could Participant Self-Selection Have Led to the Cruelty? (Scholarly article)|name-author]] drawn attention instead to potential [[self-selection bias]] in participant recruitment, as an advertisement for "prison study" attracts more actively certain character profiles than others.<ref>{{#cite:Q3613}}</ref>
+
+Furthermore, a 8-days replication study ran in 2006 ([[Source:Rethinking the psychology of tyranny: The BBC prison study (Scholarly article)|name-author]]) did not witness the same morally-degenerated behaviour documented among the "guards" in the original Stanford experiment, underlying the role incidental factors may have played in the original demonstration.<ref>{{#cite:Q3615}}</ref>
+
+== Real life parallel ==
+
+[[File:Prison abuse Abu Ghraib.png|thumbnail|A photo showing an act of abuse U.S. Army troops and CIA personnel committed at the Abu Ghraib prison on prisoners of war in 2003 and 2004]]
+[[Source:Psychology 2e (Book)|name-author]] draw a comparison between the behaviour of participants during the Stanford prison experiment with abuse of prisoners of war by U.S. Army troops and CIA personnel at the Abu Ghraib prison (2003-2004), where some acts were even photographed by the abusers themselves.

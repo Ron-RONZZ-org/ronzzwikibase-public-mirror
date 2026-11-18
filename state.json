@@ -9750,6 +9750,12 @@
       "sha256": "98b634b81338d918ea72c48debc83cb2b7c20e35b338f936cc8dc2f8c9dc38c6",
       "synced_at": "2026-10-31T18:20:24+00:00"
     },
+    "Stanford prison experiment": {
+      "path": "Main/Stanford prison experiment.wiki",
+      "revid": 17546,
+      "sha256": "1435ae1b338128fd65910111ae7b7b4100e02aa8d26fd23ec141c73fa8b4f831",
+      "synced_at": "2026-11-18T15:49:41+00:00"
+    },
     "Statement": {
       "path": "Main/Statement.wiki",
       "revid": 13227,
@@ -10039,6 +10045,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-18T15:36:03+00:00",
+  "updated": "2026-11-18T15:49:41+00:00",
   "version": 1
 }
