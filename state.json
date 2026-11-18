@@ -512,9 +512,9 @@
     },
     "Collective autonomy": {
       "path": "Main/Collective autonomy.wiki",
-      "revid": 12579,
-      "sha256": "655c5b8ab526be2625b989b0c235ed2f976bb5bda1b9112b9c51155017ff7c2b",
-      "synced_at": "2026-11-03T16:49:51+00:00"
+      "revid": 17332,
+      "sha256": "fedad10cac73dfb392d0f30e711f7faa8ee98ede8c7f4b8ccc4dc270bc9cbdfa",
+      "synced_at": "2026-11-18T10:20:27+00:00"
     },
     "Collective:Academic Press": {
       "path": "Collective/Academic Press.wiki",
@@ -2969,6 +2969,12 @@
       "revid": 13183,
       "sha256": "a8ac20684b3a64b0d5809a97efc02a0e93d0be4946c995cfd560aaab293c6c0f",
       "synced_at": "2026-11-07T15:08:12+00:00"
+    },
+    "Motivation": {
+      "path": "Main/Motivation.wiki",
+      "revid": 17330,
+      "sha256": "57b22d488f812220056e3fa2ca4ed41dbc0d656478561c0ac244f7e3dc87cf9d",
+      "synced_at": "2026-11-18T10:20:27+00:00"
     },
     "Multi-epoch training (Machine learning)": {
       "path": "Main/Multi-epoch training (Machine learning).wiki",
@@ -9751,6 +9757,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-18T10:10:23+00:00",
+  "updated": "2026-11-18T10:20:27+00:00",
   "version": 1
 }

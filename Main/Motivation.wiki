@@ -1,0 +1,38 @@
+[[Category:Psychology]]
+[[File:Motivation.png|thumbnail|]]
+'''Motivation''' describes the factors that influence human behaviour.<ref>{{#cite:Q3470}}</ref>
+
+== Intrinsic ==
+
+'''Intrinsic''' motivations involve the desire to become a 'fuller' version of oneself, such as:
+
+* Autonomy
+* Mastery
+* Purpose
+
+<ref>{{#cite:Q3470}}</ref>
+
+== Extrinsic ==
+
+'''Extrinsic''' motivations involve the desire for or repulsion against the expected outcomes associated with a behaviour.
+
+The outcome can be either for the individual<ref>{{#cite:Q3470}}</ref> or a [[group]] one identifies with<ref>{{#cite:Q3466}}</ref>.
+
+It can be:
+
+* physical
+** monetary reward
+** effects to one's body (comfort/pain)
+* emotional
+** intimacy and affiliation<ref>{{#cite:Q3479}}</ref>
+** cultural assimilation (see [[peer pressure]])
+
+== Interaction ==
+
+=== Inhibitive ===
+
+In some cases, increased extrinsic motivation (e.g., regular monetary payment) may reduce intrinsic motivation and induce dependence on extrinsic motivation.<ref>{{#cite:Q3476}}</ref>
+
+=== Cooperative ===
+
+In other cases, unexpected, emotional extrinsic motivations, such as verbal praise, is found to improve intrinsic motivation.<ref>{{#cite:Q3476}}</ref>
