@@ -1,0 +1,5 @@
+{{Person}}
+
+== Overview ==
+
+psychology researcher at Brock University, known for work on belief in a just world

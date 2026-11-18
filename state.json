@@ -3654,6 +3654,18 @@
       "sha256": "60a59e5ce0811bdeab2b6ec58f76841f3836bb3832b0c3c125a80ee5d5d8f670",
       "synced_at": "2026-11-17T17:49:38+00:00"
     },
+    "Person:Carolyn H. Simmons": {
+      "path": "Person/Carolyn H. Simmons.wiki",
+      "revid": 17363,
+      "sha256": "97c2780c006bf8839434bc920b28b14d3e9d73782f836b8b5e2e8ded8d3fb9ae",
+      "synced_at": "2026-11-18T11:09:22+00:00"
+    },
+    "Person:Carolyn L. Hafer": {
+      "path": "Person/Carolyn L. Hafer.wiki",
+      "revid": 17343,
+      "sha256": "e410732dce620fb4a8ca163c186fc5c767596d763bbf4bdcde7b1a11cd5927be",
+      "synced_at": "2026-11-18T11:09:22+00:00"
+    },
     "Person:Carrie Beckwith-Fellows": {
       "path": "Person/Carrie Beckwith-Fellows.wiki",
       "revid": 11329,
@@ -4770,6 +4782,12 @@
       "sha256": "82451f50fdc67fa3a96128efd5b2b25290ab02837e26b9ffd2d818881a9b55aa",
       "synced_at": "2026-11-17T17:10:05+00:00"
     },
+    "Person:Laurent Bègue": {
+      "path": "Person/Laurent Bègue.wiki",
+      "revid": 17347,
+      "sha256": "3bb53811cc16af8587d97e1c97f15b3c0cc4aec56635d5c84204d70af4adcc7b",
+      "synced_at": "2026-11-18T11:09:22+00:00"
+    },
     "Person:Laurent Sifre": {
       "path": "Person/Laurent Sifre.wiki",
       "revid": 15514,
@@ -5033,6 +5051,12 @@
       "revid": 13496,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:19:42+00:00"
+    },
+    "Person:Melvin J. Lerner": {
+      "path": "Person/Melvin J. Lerner.wiki",
+      "revid": 17359,
+      "sha256": "380ab022e9771ae90c6a591cd5533ccfaf19256f0f09e9a80e0ecbb0d832c078",
+      "synced_at": "2026-11-18T11:09:22+00:00"
     },
     "Person:Michael Caparon": {
       "path": "Person/Michael Caparon.wiki",
@@ -7812,6 +7836,12 @@
       "sha256": "bf5fb89bf6a9d8eff8283f542985bb6d01d0773072976a27213b445c7d271d85",
       "synced_at": "2026-11-04T08:36:39+00:00"
     },
+    "Source:Experimental Research on Just-World Theory: Problems, Developments, and Future Challenges (Scholarly article)": {
+      "path": "Source/Experimental Research on Just-World Theory_ Problems, Developments, and Future Challenges (Scholarly article).wiki",
+      "revid": 17351,
+      "sha256": "b8b3ede052de19c8ac21db63662acadd1a96971942628efd359695dfa1fa9bb1",
+      "synced_at": "2026-11-18T11:09:22+00:00"
+    },
     "Source:Exploding Topics (Website)": {
       "path": "Source/Exploding Topics (Website).wiki",
       "revid": 14579,
@@ -8675,6 +8705,12 @@
       "revid": 6886,
       "sha256": "93e0d341cd8b10f752df9b812d0fdbaa4de6448925389b7f4987e4810e8249a2",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:Observer's reaction to the \"innocent victim\": Compassion or rejection? (Scholarly article)": {
+      "path": "Source/Observer's reaction to the _innocent victim__ Compassion or rejection_ (Scholarly article).wiki",
+      "revid": 17367,
+      "sha256": "e225e00bf4d4c1e22b844d4e23c9062e914b69279d6ab13b7bc44dd087f4ca09",
+      "synced_at": "2026-11-18T11:09:22+00:00"
     },
     "Source:On Layer Normalization in the Transformer Architecture (Conference paper)": {
       "path": "Source/On Layer Normalization in the Transformer Architecture (Conference paper).wiki",
@@ -9763,6 +9799,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-18T10:49:40+00:00",
+  "updated": "2026-11-18T11:09:22+00:00",
   "version": 1
 }
