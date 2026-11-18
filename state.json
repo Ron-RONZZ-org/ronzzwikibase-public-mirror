@@ -6534,6 +6534,12 @@
       "sha256": "a5ea75774c07d35cd1ca4f14688f420c38aacd407988b35a492cec372606820a",
       "synced_at": "2026-11-07T15:08:12+00:00"
     },
+    "Persuasiveness": {
+      "path": "Main/Persuasiveness.wiki",
+      "revid": 17690,
+      "sha256": "69e183da1788ef74d2242e63f632e2ac177dea3ff3fc3cf53c646ace22840e78",
+      "synced_at": "2026-11-18T20:49:49+00:00"
+    },
     "Philosophy": {
       "path": "Main/Philosophy.wiki",
       "revid": 15111,
@@ -10231,6 +10237,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-18T20:10:38+00:00",
+  "updated": "2026-11-18T20:49:49+00:00",
   "version": 1
 }
