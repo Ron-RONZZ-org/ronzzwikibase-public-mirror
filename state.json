@@ -624,6 +624,12 @@
       "sha256": "2be071702d2d5439e5322ca8cdbb1b4108e9d4e64409021adf07c29da946893a",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:British Journal of Social Psychology": {
+      "path": "Collective/British Journal of Social Psychology.wiki",
+      "revid": 17515,
+      "sha256": "93497740f4440579bca47040927c9927e632aac8d42a83d469ec6da0934e11cd",
+      "synced_at": "2026-11-18T15:36:03+00:00"
+    },
     "Collective:BuzzFeed": {
       "path": "Collective/BuzzFeed.wiki",
       "revid": 8948,
@@ -1295,6 +1301,12 @@
       "revid": 17381,
       "sha256": "9ac51e8010ed5e17f9b8cd48fb25c70edabd738279113fd423da581525567b95",
       "synced_at": "2026-11-18T14:10:27+00:00"
+    },
+    "Collective:Personality and Social Psychology Bulletin": {
+      "path": "Collective/Personality and Social Psychology Bulletin.wiki",
+      "revid": 17519,
+      "sha256": "c92991a58f659c6a564f310fce7108a886de3f22fcdd4a5454fa9d7e90bc13a2",
+      "synced_at": "2026-11-18T15:36:03+00:00"
     },
     "Collective:Physical Review Letters": {
       "path": "Collective/Physical Review Letters.wiki",
@@ -4470,6 +4482,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T13:10:22+00:00"
     },
+    "Person:Jared M. Bartels": {
+      "path": "Person/Jared M. Bartels.wiki",
+      "revid": 17499,
+      "sha256": "4bdf95c24e7cdd3c59d19244cfecac6e1b4da32a7f12cbef569277c163dcc2f8",
+      "synced_at": "2026-11-18T15:36:03+00:00"
+    },
     "Person:Jason Evangelho": {
       "path": "Person/Jason Evangelho.wiki",
       "revid": 6542,
@@ -4487,6 +4505,12 @@
       "revid": 10369,
       "sha256": "1f33e984e00fb0aec93fe5bb5060b2523cd16f079b5840aabbb29b962eebf805",
       "synced_at": "2026-10-18T11:24:20+00:00"
+    },
+    "Person:Jay J. Van Bavel": {
+      "path": "Person/Jay J. Van Bavel.wiki",
+      "revid": 17495,
+      "sha256": "fa50b6be3f984c9e1203e75a35ec0e79095a30110c6144dac2c15d590e5bda0b",
+      "synced_at": "2026-11-18T15:36:03+00:00"
     },
     "Person:Jean le Rond d'Alembert": {
       "path": "Person/Jean le Rond d'Alembert.wiki",
@@ -5604,6 +5628,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
     },
+    "Person:Richard A. Griggs": {
+      "path": "Person/Richard A. Griggs.wiki",
+      "revid": 17511,
+      "sha256": "f320a6845f6b2952e40cedce4e834fafdf7c1259a8f1149e06f39f43ca99a058",
+      "synced_at": "2026-11-18T15:36:03+00:00"
+    },
     "Person:Richard C. DiPrima": {
       "path": "Person/Richard C. DiPrima.wiki",
       "revid": 7007,
@@ -5730,6 +5760,12 @@
       "sha256": "a348d051d08d029a18cd949088a5314299f675cfa7de7bf73b46697309000193",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:S. Alexander Haslam": {
+      "path": "Person/S. Alexander Haslam.wiki",
+      "revid": 17487,
+      "sha256": "c515a4976b7b2bddccbce1b314006e568e5e15a03a3da61592b61406d3263619",
+      "synced_at": "2026-11-18T15:36:03+00:00"
+    },
     "Person:S. Ragnar Norrby": {
       "path": "Person/S. Ragnar Norrby.wiki",
       "revid": 14143,
@@ -5747,6 +5783,12 @@
       "revid": 15390,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T13:10:22+00:00"
+    },
+    "Person:Sam McFarland": {
+      "path": "Person/Sam McFarland.wiki",
+      "revid": 17507,
+      "sha256": "40efc6987cef0cfa250bfdebdda28d60e654dee6cb8055d235437bf477ec600c",
+      "synced_at": "2026-11-18T15:36:03+00:00"
     },
     "Person:Sameer A. Sheth": {
       "path": "Person/Sameer A. Sheth.wiki",
@@ -5910,6 +5952,12 @@
       "sha256": "6effa7b9d92b3f54663cad08beb2c406eb9c6d1a6627bca2be8ee352d9ca105a",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:Stephen D. Reicher": {
+      "path": "Person/Stephen D. Reicher.wiki",
+      "revid": 17491,
+      "sha256": "526a74011dfc05084352d02ea01d2627030a7261d264dc3ceb02f33c4b51bf74",
+      "synced_at": "2026-11-18T15:36:03+00:00"
+    },
     "Person:Stephen K. Lower": {
       "path": "Person/Stephen K. Lower.wiki",
       "revid": 7995,
@@ -5958,6 +6006,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T13:10:22+00:00"
     },
+    "Person:Thibault Le Texier": {
+      "path": "Person/Thibault Le Texier.wiki",
+      "revid": 17475,
+      "sha256": "3595cfb3758db9c628d67c21831121fcd07730833a56a1a86909bfde43f7b7fa",
+      "synced_at": "2026-11-18T15:36:03+00:00"
+    },
     "Person:Thierry DE MONTBRIAL": {
       "path": "Person/Thierry DE MONTBRIAL.wiki",
       "revid": 13713,
@@ -5969,6 +6023,12 @@
       "revid": 16883,
       "sha256": "d71e4e92f4331367da49de8f10e4dd0fe92192e144cf0dae3e8e8a091919394c",
       "synced_at": "2026-11-17T16:49:44+00:00"
+    },
+    "Person:Thomas Carnahan": {
+      "path": "Person/Thomas Carnahan.wiki",
+      "revid": 17503,
+      "sha256": "364dad788f1082a746ee902136a1c1d030771874327a75b54eb7e9493867ac99",
+      "synced_at": "2026-11-18T15:36:03+00:00"
     },
     "Person:Thomas DE ZAN": {
       "path": "Person/Thomas DE ZAN.wiki",
@@ -7770,6 +7830,12 @@
       "sha256": "cfc0a1b54046c3fab435d3a884bc47cd647371d11244ce51615e9ce9ecb24eca",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Coverage of the Stanford Prison Experiment in Introductory Psychology Textbooks (Scholarly article)": {
+      "path": "Source/Coverage of the Stanford Prison Experiment in Introductory Psychology Textbooks (Scholarly article).wiki",
+      "revid": 17535,
+      "sha256": "cfb7a2155d966518653a83c078676f9bb9a4f8f8028207eaf41e6e098e6578fb",
+      "synced_at": "2026-11-18T15:36:03+00:00"
+    },
     "Source:Cranberry Juice, Cranberry Tablets, or Liquid Therapies for Urinary Tract Infection: A Systematic Review and Network Meta-analysis (Scholarly article)": {
       "path": "Source/Cranberry Juice, Cranberry Tablets, or Liquid Therapies for Urinary Tract Infection_ A Systematic Review and Network Meta-analysis (Scholarly article).wiki",
       "revid": 13128,
@@ -7817,6 +7883,12 @@
       "revid": 11687,
       "sha256": "f0f18ab330c283e2776439f0d6d314d5c22e3f3f6e72be29b3e050ca26887804",
       "synced_at": "2026-10-29T15:50:24+00:00"
+    },
+    "Source:Debunking the Stanford Prison Experiment (Scholarly article)": {
+      "path": "Source/Debunking the Stanford Prison Experiment (Scholarly article).wiki",
+      "revid": 17479,
+      "sha256": "f8fdd90f0dcdcdd262a7d7d0b07dea7aa31de1e01b3f66dab499810b5f0724da",
+      "synced_at": "2026-11-18T15:36:03+00:00"
     },
     "Source:Deep Residual Learning for Image Recognition (Conference paper)": {
       "path": "Source/Deep Residual Learning for Image Recognition (Conference paper).wiki",
@@ -9078,6 +9150,30 @@
       "sha256": "dcc474f60f9f834382d282c66d0c74a2846cf504c9cc61915fe08df38e646cce",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Rethinking the nature of cruelty: The role of identity leadership in the Stanford Prison Experiment (Scholarly article)": {
+      "path": "Source/Rethinking the nature of cruelty_ The role of identity leadership in the Stanford Prison Experiment (Scholarly article).wiki",
+      "revid": 17523,
+      "sha256": "0fe2de813cc4b05a275d1ef06410b69879eb1d7a394265655ba6c022494f7f7e",
+      "synced_at": "2026-11-18T15:36:03+00:00"
+    },
+    "Source:Rethinking the psychology of tyranny: The BBC prison study (Scholarly article)": {
+      "path": "Source/Rethinking the psychology of tyranny_ The BBC prison study (Scholarly article).wiki",
+      "revid": 17539,
+      "sha256": "356fe0a19e9a98393bdb1a2c66e1618a073649ca0ecf400f6f6ee45365f045f3",
+      "synced_at": "2026-11-18T15:36:03+00:00"
+    },
+    "Source:Revisiting the Stanford Prison Experiment: Could Participant Self-Selection Have Led to the Cruelty? (Scholarly article)": {
+      "path": "Source/Revisiting the Stanford Prison Experiment_ Could Participant Self-Selection Have Led to the Cruelty_ (Scholarly article).wiki",
+      "revid": 17531,
+      "sha256": "7bcfbb91a914f63b5eb05b7f32b3e48e841590bda5371ca9a6b17deefde4657e",
+      "synced_at": "2026-11-18T15:36:03+00:00"
+    },
+    "Source:Revisiting the Stanford prison experiment, again: Examining demand characteristics in the guard orientation (Scholarly article)": {
+      "path": "Source/Revisiting the Stanford prison experiment, again_ Examining demand characteristics in the guard orientation (Scholarly article).wiki",
+      "revid": 17527,
+      "sha256": "1ac330c1a00f4d6dba60a6646e55a238b0fb42f993144ecbd12e447ff8b0cb91",
+      "synced_at": "2026-11-18T15:36:03+00:00"
+    },
     "Source:Rotational Properties of 21 SC Galaxies with a Large Range of Luminosities and Radii, from NGC 4605 (R = 4 kpc) to UGC 2885 (R = 122 kpc) (Scholarly article)": {
       "path": "Source/Rotational Properties of 21 SC Galaxies with a Large Range of Luminosities and Radii, from NGC 4605 (R = 4 kpc) to UGC 2885 (R = 122 kpc) (Scholarly article).wiki",
       "revid": 6963,
@@ -9943,6 +10039,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-18T15:10:27+00:00",
+  "updated": "2026-11-18T15:36:03+00:00",
   "version": 1
 }

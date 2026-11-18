@@ -1,0 +1,5 @@
+{{Person}}
+
+== Overview ==
+
+French researcher and author, known for his archival study of the Stanford Prison Experiment archives

@@ -1,0 +1,5 @@
+{{Person}}
+
+== Overview ==
+
+American psychologist at the University of Florida, researcher on textbook coverage of classic psychology studies

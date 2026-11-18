@@ -1,0 +1,5 @@
+{{Person}}
+
+== Overview ==
+
+Psychologist at McKendree University, researcher on coverage of classic psychology studies in teaching and textbooks

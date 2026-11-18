@@ -1,0 +1,5 @@
+{{ScholarlyArticle}}
+
+== Overview ==
+
+Archival study of the Stanford Prison Experiment collections: guards received instructions on how to treat prisoners, were not told they were participants, data were collected and reported selectively, and participants were rarely fully immersed; a PsyArXiv preprint appeared as DOI 10.31234/osf.io/mjhnp
