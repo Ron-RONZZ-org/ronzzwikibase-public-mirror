@@ -1,5 +1,5 @@
 
-The solutions are programmatic: the code in each solution block below runs Python in the page, and follows the conventions of [[matrix#Matrix operations in python|matrix operations in python]], with NumPy for floating-point work and SymPy wherever an exact rational or symbolic result is wanted.
+Reference: [[matrix#Matrix operations in python|Matrix operations in python]]
 
 == Exercise 1 ==
 

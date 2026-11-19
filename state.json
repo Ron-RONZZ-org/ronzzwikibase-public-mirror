@@ -2954,15 +2954,15 @@
     },
     "Matrix": {
       "path": "Main/Matrix.wiki",
-      "revid": 10630,
-      "sha256": "3f1c7774370aa4bbea1a6989b301c8f44ec09baf8affa8fd883ca9af941d1a28",
-      "synced_at": "2026-10-19T13:46:28+00:00"
+      "revid": 17748,
+      "sha256": "be4394b1cab3e3c800ef81520a84444fe1fe9a1b89cf3760d9b004b08e8fc109",
+      "synced_at": "2026-11-19T09:49:46+00:00"
     },
     "Matrix/Practice/Matrix multiplication": {
       "path": "Main/Matrix/Practice/Matrix multiplication.wiki",
-      "revid": 17740,
-      "sha256": "22f30c1f2f69bf3e9bdfa122b397912ca5a794fa122dc31aff08749209271809",
-      "synced_at": "2026-11-19T09:36:13+00:00"
+      "revid": 17744,
+      "sha256": "8cec671b53f30706e7b316dc9534a3ee22f221ec5653fe99854c4c6486e73961",
+      "synced_at": "2026-11-19T09:49:46+00:00"
     },
     "Matter budget equation": {
       "path": "Main/Matter budget equation.wiki",
@@ -10255,6 +10255,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-19T09:36:13+00:00",
+  "updated": "2026-11-19T09:49:46+00:00",
   "version": 1
 }
