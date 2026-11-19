@@ -6734,15 +6734,15 @@
     },
     "Persuasion": {
       "path": "Main/Persuasion.wiki",
-      "revid": 17925,
-      "sha256": "1e15eae10f8bfe4bdc40d619b18e71f228fa5d019a19b8c1ae726fdfe5db2c38",
-      "synced_at": "2026-11-19T13:36:30+00:00"
+      "revid": 18017,
+      "sha256": "36dcc6153049670268babd548b0081785d7d76bfdf4cd96001bb151bcda930d4",
+      "synced_at": "2026-11-19T16:36:03+00:00"
     },
     "Persuasiveness": {
       "path": "Main/Persuasiveness.wiki",
-      "revid": 18016,
-      "sha256": "a06b372098736b64afd658e5a4ec2cb14cd347ed4db756095f862cbbe5deffc9",
-      "synced_at": "2026-11-19T16:21:53+00:00"
+      "revid": 18018,
+      "sha256": "fd88bd2f6f1d67fafccdb4a84a453d26952e444aed291f1972dc16f241c640e7",
+      "synced_at": "2026-11-19T16:36:03+00:00"
     },
     "Philosophy": {
       "path": "Main/Philosophy.wiki",
@@ -10549,6 +10549,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-19T16:21:53+00:00",
+  "updated": "2026-11-19T16:36:03+00:00",
   "version": 1
 }

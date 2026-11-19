@@ -37,3 +37,7 @@ Meta-analysis by [[Source:Self-esteem and intelligence affect influenceability: 
 === Audience self-esteem ===
 
 Meta-analysis by [[Source:Self-esteem and intelligence affect influenceability: The mediating role of message reception (Scholarly article)|name-author]] on 57 data sets shows that people with higher or lower self-esteem are harder to persuade than the average.<ref>{{#cite:Q3676}}</ref>
+
+== Audience motivation ==
+
+[[Source:Getting at the truth or getting along: Accuracy- versus impression-motivated heuristic and systematic processing (Scholarly article)|name-author]] emphasises that persuasiveness is social-context dependent and person-dependent: when arguments are made as part of a social conversation, certain people would be inclined to provide consensus (i.e., "go along to get alone"), while others would not.
