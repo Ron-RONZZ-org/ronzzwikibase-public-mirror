@@ -38,6 +38,23 @@ Meta-analysis by [[Source:Self-esteem and intelligence affect influenceability: 
 
 Meta-analysis by [[Source:Self-esteem and intelligence affect influenceability: The mediating role of message reception (Scholarly article)|name-author]] on 57 data sets shows that people with higher or lower self-esteem are harder to persuade than the average.<ref>{{#cite:Q3676}}</ref>
 
+=== Audience mood ===
+
+[[File:Mood-Message-Ambiguity-Interaction.svg|thumbnail|Results from [[Source:The role of mood and message ambiguity in the interplay of heuristic and systematic processing (Scholarly article)|name-author]]]]
+'''Sadness''' increases the propensity to analytical thinking, i.e., engaging arguments in the central route.
+
+In [[Source:The role of mood and message ambiguity in the interplay of heuristic and systematic processing (Scholarly article)|name-author]], 114 participants read a fictional excerpt from ''Consumer Reports'', which they estimated to be trustworthy in a source confidence poll. The excerpt compares a new telephone answering machine, the XT-100 with two competing brands on 6 attributes and concludes that it is the best product overall.
+
+Three major versions of the excerpt was presented:
+
+* '''Weak''': the XT-100 is superior on 4 unimportant attributes (e.g, Variety of colour available), but inferior on two key attributes (e.g, Cassette flexibility, call screening, etc.);
+* '''Ambiguous''': the XT-100 is superior on 3 randomly chosen attributes, and inferior on 3 (no correlation with importance);
+* '''Strong''': the XT-100 is superior on 4 important attributes and inferior on 2 unimportant ones.
+
+The mood of the participants was induced to either be '''sad''' or '''happy''', by writing about a tragic/joyous past life-event for 10-minutes, under the ruse of an unrelated study on autobiography writing, and validated via a self-evaluation questionnaire.
+
+When asked about their opinion on the XT-100, participants who received the '''ambiguous''' or '''strong''' versions had a positive average view towards the XT-100, while only '''happy''' participants who received the '''weak''' version had a slightly positive average view towards the XT-100. '''Sad''' participants had instead a slightly negative average opinion towards the XT-100, which researchers attribute in them considering the excerpt more analytically, rather than accepting the overall conclusion based on source credibility.<ref>{{#cite:Q3722}}</ref>
+
 == Audience motivation ==
 
 [[Source:Getting at the truth or getting along: Accuracy- versus impression-motivated heuristic and systematic processing (Scholarly article)|name-author]] emphasises that persuasiveness is social-context dependent and person-dependent: when arguments are made as part of a social conversation, certain people would be inclined to provide consensus (i.e., "go along to get alone"), while others would not.
