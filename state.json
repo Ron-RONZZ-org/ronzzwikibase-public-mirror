@@ -9906,6 +9906,12 @@
       "sha256": "6a1bc9ca2267e577ea71c989405b5fbfb13a9b49ed04ce91bf0cbb18b0cf8238",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:The mediational effects of attributions and information processing in minority social influence (Scholarly article)": {
+      "path": "Source/The mediational effects of attributions and information processing in minority social influence (Scholarly article).wiki",
+      "revid": 18034,
+      "sha256": "5533dcdc206e41538b5526090222a2e02c40d7ad08ffa1f046e18a51c229b40a",
+      "synced_at": "2026-11-19T17:36:00+00:00"
+    },
     "Source:The particle adventure (Website)": {
       "path": "Source/The particle adventure (Website).wiki",
       "revid": 11819,
@@ -10549,6 +10555,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-19T16:36:03+00:00",
+  "updated": "2026-11-19T17:36:00+00:00",
   "version": 1
 }
