@@ -13,6 +13,18 @@ Dominant theories identify two routes to persuasion:
 
 <ref>{{#cite:Q3656}}</ref>
 
+=== Sufficiency principle ===
+
+[[Source:Heuristic processing can bias systematic processing: Effects of source credibility, argument ambiguity, and task importance on attitude judgment (Scholarly article)]] suggests that people prefer evaluating arguments via the peripheral route, which draws on [[heuristic]]s and requires less effort.<ref>{{#cite:Q3712}}</ref>
+
+=== Escalation ===
+
+When an argument fails to convince via the peripheral route but nevertheless causes doubts in subjects on their previous beliefs, interested subjects may escalate the arguments to the central route for more analytical clarity.<ref>{{#cite:Q3711}}</ref>
+
+=== Interactivity ===
+
+[[Source:The interplay of heuristic and systematic processing of social information (Scholarly article)|name-author]], based on various empirical experiments conducted by the authors and colleagues previously,<ref>{{#cite:Q3711}}</ref><ref>{{#cite:Q3712}}</ref> suggests that the two routes to persuade are not exclusive. Notably, under high-motivation, e.g, concerning a topic deemed highly relevant and important, subjects evaluate arguments via both the analytical central route and the intuitive peripheral route. An argument is the most persuasive when cognitive conclusions drawn from both routes agree with it. Otherwise, conclusions drawn from the analytical route dominates.<ref>{{#cite:Q3714}}</ref>
+
 == Persuasion techniques ==
 
 * [[Foot-in-the-door persuasion]]

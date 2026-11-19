@@ -6734,15 +6734,15 @@
     },
     "Persuasion": {
       "path": "Main/Persuasion.wiki",
-      "revid": 18017,
-      "sha256": "36dcc6153049670268babd548b0081785d7d76bfdf4cd96001bb151bcda930d4",
-      "synced_at": "2026-11-19T16:36:03+00:00"
+      "revid": 18050,
+      "sha256": "83807a38156cdd9de8385404d8d6c881b1caea6fb645c57fd752c564c4e5e671",
+      "synced_at": "2026-11-19T20:10:42+00:00"
     },
     "Persuasiveness": {
       "path": "Main/Persuasiveness.wiki",
-      "revid": 18041,
-      "sha256": "6f486f6f60d6a365c14cf7462143ae17aef540c3299b6a07556d2f64473dacdd",
-      "synced_at": "2026-11-19T19:49:23+00:00"
+      "revid": 18047,
+      "sha256": "105e3be5e6902e59b8c95308e807bbeacf1185df7230dcf730d05a19e0d3248a",
+      "synced_at": "2026-11-19T20:10:42+00:00"
     },
     "Philosophy": {
       "path": "Main/Philosophy.wiki",
@@ -7214,9 +7214,9 @@
     },
     "Sleeper effect": {
       "path": "Main/Sleeper effect.wiki",
-      "revid": 17720,
-      "sha256": "9bc2ee0b5797ae540fc57b40225d3b119efac71d2ee95c29aeb113bcfe7cb2bd",
-      "synced_at": "2026-11-18T21:49:45+00:00"
+      "revid": 18048,
+      "sha256": "c0bdb17fefeeff9883fcfa2eaa68607e9850b23ba075cf4f385b8c8e378de719",
+      "synced_at": "2026-11-19T20:10:42+00:00"
     },
     "Social norm": {
       "path": "Main/Social norm.wiki",
@@ -10555,6 +10555,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-19T19:49:23+00:00",
+  "updated": "2026-11-19T20:10:42+00:00",
   "version": 1
 }

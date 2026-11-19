@@ -1,3 +1,4 @@
+[[Category:Persuasion]]
 '''Persuasiveness''', which measures the effectiveness of [[persuasion]], is found to be influenced by a dozen or so factors.
 
 == Positively correlated factors ==
@@ -15,6 +16,11 @@ In [[Source:An attribution analysis of the effect of communicator characteristic
 
 * subtleness and comprehensiveness of message
 ** e.g, different sides presented without an obvious agenda
+
+== Perceived self-interest of the source ==
+
+[[File:Moskowitz-1996-Perceived-Quality-Percent.svg|thumbnail|Results from [[Source:The mediational effects of attributions and information processing in minority social influence (Scholarly article)|name-author]]]]
+[[Source:The mediational effects of attributions and information processing in minority social influence (Scholarly article)|name-author]] found in an experiment with 52 participants that an identical minority argument on athletic scholarships is more convincing when the source is believed to be external to the debate, i.e., having no vested interest in it, especially when the argument itself is strong.<ref>{{#cite:Q3726}}</ref>
 
 == Negatively correlated factors ==
 
