@@ -1,0 +1,5 @@
+{{Person}}
+
+== Overview ==
+
+American social psychologist known for research on habits and influenceability

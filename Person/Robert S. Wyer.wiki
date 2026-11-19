@@ -1,0 +1,5 @@
+{{Person}}
+
+== Overview ==
+
+American psychologist working on social cognition and persuasion

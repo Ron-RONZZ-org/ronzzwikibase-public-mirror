@@ -540,6 +540,12 @@
       "sha256": "fbbd17f4db6e58187037fe846ca95ff99e32017f9189fafba45e1833314b3e20",
       "synced_at": "2026-10-22T11:14:03+00:00"
     },
+    "Collective:Allyn & Bacon": {
+      "path": "Collective/Allyn & Bacon.wiki",
+      "revid": 17828,
+      "sha256": "a815f8a5af7c0b8539dc490c7afa9a79ba3b194deb29222603a0a288a45909f9",
+      "synced_at": "2026-11-19T10:36:13+00:00"
+    },
     "Collective:American Academy of Pediatrics": {
       "path": "Collective/American Academy of Pediatrics.wiki",
       "revid": 14297,
@@ -4056,6 +4062,12 @@
       "sha256": "d84dd1c3711ede2b1829a1c935dc83002a302a24be61423e1abb22a8e61a8fe1",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Duane F. Alwin": {
+      "path": "Person/Duane F. Alwin.wiki",
+      "revid": 17792,
+      "sha256": "e41b34c9aab84f758f61e77e91f5ea8fdc38114d6c3a011762ee3f0d6b79d79b",
+      "synced_at": "2026-11-19T10:36:13+00:00"
+    },
     "Person:Duane T. Wegener": {
       "path": "Person/Duane T. Wegener.wiki",
       "revid": 17632,
@@ -4740,6 +4752,12 @@
       "sha256": "5d84d766b4301909084dfe90cee16fb604ff7f7f9d4e8730affa22ce5507fafa",
       "synced_at": "2026-11-18T21:19:49+00:00"
     },
+    "Person:Jon A. Krosnick": {
+      "path": "Person/Jon A. Krosnick.wiki",
+      "revid": 17788,
+      "sha256": "7502b08086999e2bf158c705ae4d310e7196bf1843e427d475adaac4012ca0b0",
+      "synced_at": "2026-11-19T10:36:13+00:00"
+    },
     "Person:Jona Hattangadi-Gluth": {
       "path": "Person/Jona Hattangadi-Gluth.wiki",
       "revid": 13992,
@@ -4757,6 +4775,12 @@
       "revid": 15614,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T13:10:22+00:00"
+    },
+    "Person:Jonathan L. Freedman": {
+      "path": "Person/Jonathan L. Freedman.wiki",
+      "revid": 17824,
+      "sha256": "b1b49e6e944aeb77c58eaa02f7e06bb264a331e662c5c5d4c65f8c258dbb7f6d",
+      "synced_at": "2026-11-19T10:36:13+00:00"
     },
     "Person:Jordan Hoffmann": {
       "path": "Person/Jordan Hoffmann.wiki",
@@ -5015,6 +5039,12 @@
       "revid": 15578,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T13:10:22+00:00"
+    },
+    "Person:Leon Festinger": {
+      "path": "Person/Leon Festinger.wiki",
+      "revid": 17776,
+      "sha256": "316b2ae11c5d24b789ee2eec7c52c7b930c7c0a158c3feec67172d3b5543912a",
+      "synced_at": "2026-11-19T10:36:13+00:00"
     },
     "Person:Leonard Berkowitz": {
       "path": "Person/Leonard Berkowitz.wiki",
@@ -5412,6 +5442,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T14:10:29+00:00"
     },
+    "Person:Nancy Rhodes": {
+      "path": "Person/Nancy Rhodes.wiki",
+      "revid": 17800,
+      "sha256": "a692c804157e13ae885c850c579137db483e67f6ec7f11a0d96130b13a7f2194",
+      "synced_at": "2026-11-19T10:36:13+00:00"
+    },
     "Person:Natalie Ivanova": {
       "path": "Person/Natalie Ivanova.wiki",
       "revid": 6546,
@@ -5423,6 +5459,12 @@
       "revid": 16162,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-12T13:49:19+00:00"
+    },
+    "Person:Nathan Maccoby": {
+      "path": "Person/Nathan Maccoby.wiki",
+      "revid": 17780,
+      "sha256": "39244af4f037440b433a5e4061e95859117ba025294a3770677e4a0b7c58768e",
+      "synced_at": "2026-11-19T10:36:13+00:00"
     },
     "Person:Nathan Rosen": {
       "path": "Person/Nathan Rosen.wiki",
@@ -5820,6 +5862,12 @@
       "sha256": "0d0e136a1045542894e2f4bcdcfaf2ee1aee36a4cc0034891f8ad604f30d7310",
       "synced_at": "2026-11-18T14:10:27+00:00"
     },
+    "Person:Robert B. Cialdini": {
+      "path": "Person/Robert B. Cialdini.wiki",
+      "revid": 17820,
+      "sha256": "b700decd0548bb4296d563ceefe00c8946d5c59423a6c13419b518ebb1324fec",
+      "synced_at": "2026-11-19T10:36:13+00:00"
+    },
     "Person:Robert Ball": {
       "path": "Person/Robert Ball.wiki",
       "revid": 8261,
@@ -5837,6 +5885,12 @@
       "revid": 7202,
       "sha256": "010306020299628312c2185a87863e3bd5d9606b269f333161ae7e05de745b26",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Robert S. Wyer": {
+      "path": "Person/Robert S. Wyer.wiki",
+      "revid": 17784,
+      "sha256": "f954c48a4b9279395eb92c923ee8e6bc3c5f335892c96e4db897e1f5480ebb0a",
+      "synced_at": "2026-11-19T10:36:13+00:00"
     },
     "Person:Robert Woodrow Wilson": {
       "path": "Person/Robert Woodrow Wilson.wiki",
@@ -5963,6 +6017,12 @@
       "revid": 9967,
       "sha256": "5d11d05414dfe6a6257640d7b1b1f6d94c82d6058de41f50dde8e48245367fca",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Scott C. Fraser": {
+      "path": "Person/Scott C. Fraser.wiki",
+      "revid": 17832,
+      "sha256": "da19e70b6664214f2b9e4533b9fb96c88d709bde2959d38f6782a1bcce6fba1b",
+      "synced_at": "2026-11-19T10:36:13+00:00"
     },
     "Person:Scott Chacon": {
       "path": "Person/Scott Chacon.wiki",
@@ -6395,6 +6455,12 @@
       "revid": 14309,
       "sha256": "ec559c4b03d8ec3999d2d0a296e1d3c4dffac6598927d9691cd969f96cdbe602",
       "synced_at": "2026-11-08T06:15:21+00:00"
+    },
+    "Person:Wendy Wood": {
+      "path": "Person/Wendy Wood.wiki",
+      "revid": 17796,
+      "sha256": "3aac796a28974607fb7bc3a00c503e08107af24c0bf4cf1d435fb0fa1d6a36c5",
+      "synced_at": "2026-11-19T10:36:13+00:00"
     },
     "Person:William E. Boyce": {
       "path": "Person/William E. Boyce.wiki",
@@ -7638,6 +7704,12 @@
       "sha256": "34b133827e08a7e06684439aa4a99a00548e429283ffd14fc386bd750c087f44",
       "synced_at": "2026-11-18T09:35:57+00:00"
     },
+    "Source:Aging and susceptibility to attitude change (Scholarly article)": {
+      "path": "Source/Aging and susceptibility to attitude change (Scholarly article).wiki",
+      "revid": 17816,
+      "sha256": "6706125964dbf454cc58b350bb4644473f40c4cc85ddb7d03d5cad6a1512b628",
+      "synced_at": "2026-11-19T10:36:13+00:00"
+    },
     "Source:Alain Vaillant on Cairn.info (Webpage)": {
       "path": "Source/Alain Vaillant on Cairn.info (Webpage).wiki",
       "revid": 7494,
@@ -7962,6 +8034,12 @@
       "sha256": "9fdf965cc0c8610ec3f3d79017352eaddb10f0c0b27ec59e1f6e39c9be9249f5",
       "synced_at": "2026-10-21T14:41:43+00:00"
     },
+    "Source:Compliance without pressure: The foot-in-the-door technique (Scholarly article)": {
+      "path": "Source/Compliance without pressure_ The foot-in-the-door technique (Scholarly article).wiki",
+      "revid": 17836,
+      "sha256": "24a86a0ef3f79cf2dd82f740aed9d593b76c4f38e2d4758919c83809063ed345",
+      "synced_at": "2026-11-19T10:36:13+00:00"
+    },
     "Source:Conceptual physics (Book)": {
       "path": "Source/Conceptual physics (Book).wiki",
       "revid": 7776,
@@ -8165,6 +8243,12 @@
       "revid": 15630,
       "sha256": "2520a7ad68c2d98ef2bd7a92816bed2ee03a82f91e46592eb62929a33aa52397",
       "synced_at": "2026-11-11T13:10:22+00:00"
+    },
+    "Source:Elaborative and Nonelaborative Processing of a Behavior-Related Communication (Scholarly article)": {
+      "path": "Source/Elaborative and Nonelaborative Processing of a Behavior-Related Communication (Scholarly article).wiki",
+      "revid": 17804,
+      "sha256": "1c9fd575a21ba5b25f92c1f19457de6de154f278527c4a4e7864355a6619523a",
+      "synced_at": "2026-11-19T10:36:13+00:00"
     },
     "Source:Elementary Differential Equations and Boundary Value Problems (Book)": {
       "path": "Source/Elementary Differential Equations and Boundary Value Problems (Book).wiki",
@@ -8435,6 +8519,12 @@
       "revid": 11054,
       "sha256": "ed92ed0062d5252f468a86ea14d129c53a8f0554dc2fe8fa8507a34a70684e24",
       "synced_at": "2026-10-22T06:56:09+00:00"
+    },
+    "Source:Influence: Science and Practice (Book)": {
+      "path": "Source/Influence_ Science and Practice (Book).wiki",
+      "revid": 17840,
+      "sha256": "fac85e879aae726a3af2e54abaaba0028779a98ac136eb64d7be341cc85c1a68",
+      "synced_at": "2026-11-19T10:36:13+00:00"
     },
     "Source:InfoQ: Software Development News, Trends & Best Practices - InfoQ (Website)": {
       "path": "Source/InfoQ_ Software Development News, Trends & Best Practices - InfoQ (Website).wiki",
@@ -9102,6 +9192,12 @@
       "sha256": "d57a140fd8a1f3665f1350d95cf7810db9326d22be2fef76adf8ba51b99834d3",
       "synced_at": "2026-11-12T10:20:30+00:00"
     },
+    "Source:On resistance to persuasive communications (Scholarly article)": {
+      "path": "Source/On resistance to persuasive communications (Scholarly article).wiki",
+      "revid": 17808,
+      "sha256": "0ff7599c0a607ec948d9bfe5e9b3cc66801b434ad4df4a5c8361020d4634dd26",
+      "synced_at": "2026-11-19T10:36:13+00:00"
+    },
     "Source:On the Relative Abundance of the Elements (Scholarly article)": {
       "path": "Source/On the Relative Abundance of the Elements (Scholarly article).wiki",
       "revid": 7219,
@@ -9425,6 +9521,12 @@
       "revid": 8280,
       "sha256": "486de5c6554b9d04b929bfb8e62236112755405ed3c7450741edfb7547336f06",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:Self-esteem and intelligence affect influenceability: The mediating role of message reception (Scholarly article)": {
+      "path": "Source/Self-esteem and intelligence affect influenceability_ The mediating role of message reception (Scholarly article).wiki",
+      "revid": 17812,
+      "sha256": "753ecd1b5def400f6cd86e638409c4cb732f682e851c9e7936b78b34130ac624",
+      "synced_at": "2026-11-19T10:36:13+00:00"
     },
     "Source:Self-serving biases in the attribution of causality: Fact or fiction? (Scholarly article)": {
       "path": "Source/Self-serving biases in the attribution of causality_ Fact or fiction_ (Scholarly article).wiki",
@@ -10255,6 +10357,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-19T09:49:46+00:00",
+  "updated": "2026-11-19T10:36:13+00:00",
   "version": 1
 }
