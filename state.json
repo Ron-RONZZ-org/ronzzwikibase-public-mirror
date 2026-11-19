@@ -6674,9 +6674,9 @@
     },
     "Persuasion": {
       "path": "Main/Persuasion.wiki",
-      "revid": 17920,
-      "sha256": "47557ee052a852b959a4cef98a21daa0c414fade1cdd77fcbf63ec4e6c26d9fb",
-      "synced_at": "2026-11-19T13:20:11+00:00"
+      "revid": 17925,
+      "sha256": "1e15eae10f8bfe4bdc40d619b18e71f228fa5d019a19b8c1ae726fdfe5db2c38",
+      "synced_at": "2026-11-19T13:36:30+00:00"
     },
     "Persuasiveness": {
       "path": "Main/Persuasiveness.wiki",
@@ -10453,6 +10453,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-19T13:20:11+00:00",
+  "updated": "2026-11-19T13:36:30+00:00",
   "version": 1
 }
