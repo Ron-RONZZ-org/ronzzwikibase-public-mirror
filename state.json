@@ -368,9 +368,9 @@
     },
     "Cheatsheet:LinuxCLI/Bash shell": {
       "path": "Cheatsheet/LinuxCLI/Bash shell.wiki",
-      "revid": 17917,
-      "sha256": "e462f1f7d61ff0287b7c461d0241a3b1c2320ecda3c5beb2e7cc60725ed4ca6a",
-      "synced_at": "2026-11-19T12:28:57+00:00"
+      "revid": 17918,
+      "sha256": "1da4e05b8d0968d1e2840408f3234679bc7ad3abf036a5963e9c61f7c6fc5591",
+      "synced_at": "2026-11-19T13:10:17+00:00"
     },
     "Cheatsheet:LinuxCLI/FileOps": {
       "path": "Cheatsheet/LinuxCLI/FileOps.wiki",
@@ -10447,6 +10447,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-19T12:28:57+00:00",
+  "updated": "2026-11-19T13:10:17+00:00",
   "version": 1
 }

@@ -1,9 +1,10 @@
 {{DesktopLinux}}
 
-The line you are typing at the prompt is edited by GNU Readline, so these keys work in Bash and in every other Readline program (<code>python</code>, <code>psql</code>, <code>gdb</code>, <code>mysql</code>, ...). They are pressed while the line is still on screen, before Enter.
-
 <blockquote>
-Notation: <code>C-a</code> is Ctrl+A. <code>M-f</code> is Alt+F, or ESC then <code>f</code> when no Alt key is available.
+Notation:
+
+* <code>C-a</code> Ctrl+A
+* <code>M-f</code> is Alt+F (or ESC then <code>f</code> when no Alt key is available)
 </blockquote>
 
 == Move around the line ==
@@ -20,15 +21,9 @@ Notation: <code>C-a</code> is Ctrl+A. <code>M-f</code> is Alt+F, or ESC then <co
 | <code>M-&lt;</code> / <code>M-&gt;</code> || oldest / newest entry in the history
 |}
 
-<syntaxhighlight lang="bash" copy>
-# the cursor starts at the end of the line
-git commit -m 'fix typo in README'
-# C-a      cursor to 'git'
-# M-f M-f  cursor to 'fix'
-# C-e      back to the end
-</syntaxhighlight>
-
 == Delete, and paste back ==
+
+Deleted text is not immediately lost: it goes to the kill ring and can be pasted back later:
 
 {| class="wikitable"
 ! Key !! Action
@@ -50,53 +45,16 @@ git commit -m 'fix typo in README'
 | <code>C-_</code> or <code>C-x C-u</code> || undo
 |}
 
-Deleted text is not lost: it goes to the kill ring and can be pasted back later, even on the next line.
-
-<syntaxhighlight lang="bash" copy>
-# cursor at the end of the line
-vim /etc/nginx/sites-enabled/default
-# C-w    →  vim                              kills back to the previous space
-# M-DEL  →  vim /etc/nginx/sites-enabled/    kills one path component
-
-# C-u kills from the cursor back to the start, C-k kills forward; C-y pastes either back
-</syntaxhighlight>
-
-== Transpose and change case ==
-
-{| class="wikitable"
-! Key !! Action
-|-
-| <code>C-t</code> || swap the 2 characters around the cursor
-|-
-| <code>M-t</code> || swap the 2 words around the cursor
-|-
-| <code>M-u</code> / <code>M-l</code> / <code>M-c</code> || upcase / downcase / capitalize the word
-|}
-
-<blockquote>
-The case commands act on the word at the cursor and move forward, so pressing <code>M-u</code> at the end of the line changes nothing. Move back with <code>M-b</code> first.
-</blockquote>
-
-<syntaxhighlight lang="bash" copy>
-echo hELLO world
-# M-b M-b M-c  →  echo Hello world    capitalize (rest of the word is lowercased)
-# M-b M-b M-l  →  echo hello world    downcase
-# M-b M-b M-u  →  echo HELLO world    upcase
-
-echo one two
-# M-t  →  echo two one
-</syntaxhighlight>
-
 == History ==
 
 {| class="wikitable"
 ! Key !! Action
 |-
-| <code>C-p</code> / <code>C-n</code> || previous / next command
+| <code>upArrow</code> / <code>downArrow</code> || previous / next command
 |-
 | <code>C-r</code> || reverse incremental search: type a substring, <code>C-r</code> again for the next older match
 |-
-| <code>C-s</code> || the same, searching forward
+| <code>C-g</code> || aborts the search and gives back the line you were typing
 |-
 | <code>M-p</code> / <code>M-n</code> || non-incremental search backward / forward for a string you type after the prompt
 |-
@@ -104,24 +62,12 @@ echo one two
 |-
 | <code>M-C-y</code> || insert the first argument of the previous command; with a number, the nth (0 is the command itself)
 |-
-| <code>C-o</code> || run this line, then fetch the next history entry for editing
-|-
 | <code>C-x C-e</code> || edit the line in <code>$VISUAL</code> or <code>$EDITOR</code>, then run the result
 |}
 
 <blockquote>
-<code>C-r</code> leaves the matching command on the line: <code>C-g</code> aborts the search and gives back the line you were typing, any movement key (<code>C-a</code>, <code>M-b</code>, ...) stops the search and lets you edit the match, Enter runs it.
+While <code>C-r</code>is active, any movement key (<code>C-a</code>, <code>M-b</code>, ...) stops the search and accepts the current match for editing as the new command line.
 </blockquote>
-
-<blockquote>
-<code>C-s</code> is often swallowed by terminal flow control (see [[#Screen and processes]]); <code>stty -ixon</code> in <code>~/.bashrc</code> frees it.
-</blockquote>
-
-<syntaxhighlight lang="bash" copy>
-# C-r  ssh        the most recent command containing 'ssh'; C-r again for older ones
-# C-x C-e         a long loop: vim opens, edit it comfortably, save and quit, bash runs it
-# C-o             step through a block of commands you ran earlier, editing each before running
-</syntaxhighlight>
 
 == History expansion ==
 
@@ -144,12 +90,13 @@ echo one two
 sudo !!                                          # the command you forgot to prefix with sudo
 mkdir -p /srv/app/releases/2026-11-19
 cd !$                                            # → cd /srv/app/releases/2026-11-19
-git status
-^status^diff^                                    # → git diff
 </syntaxhighlight>
 
 <blockquote>
-Expansion happens on the whole line, before it runs, and inside double quotes too: <code>echo "!$"</code> expands, <code>echo '!$'</code> does not. <code>set +H</code> turns expansion off; <code>shopt -s histverify</code> shows the expanded line for confirmation before running it.
+Expansion works anywhere on the command line including inside double but not single quotes: 
+
+* <code>echo "!$"</code> expands
+* <code>echo '!$'</code> does not. 
 </blockquote>
 
 == Completion and typing helpers ==
@@ -161,8 +108,6 @@ Expansion happens on the whole line, before it runs, and inside double quotes to
 |-
 | <code>M-?</code> or <code>M-=</code> || list the possible completions
 |-
-| <code>M-*</code> || insert all the possible completions
-|-
 | <code>M-/</code> / <code>M-$</code> / <code>M-~</code> || complete a filename / a variable / a username after <code>~</code>
 |-
 | <code>M-C-e</code> || expand the line as the shell would (aliases, variables, <code>~</code>), then leave it for review
@@ -171,14 +116,6 @@ Expansion happens on the whole line, before it runs, and inside double quotes to
 |-
 | <code>C-v</code> or <code>C-q</code> || insert the next key literally (a Tab, a <code>C-m</code>, ...)
 |}
-
-<syntaxhighlight lang="bash" copy>
-cd ~/Doc<Tab>              # → cd ~/Documents
-ls /usr/shar<Tab>          # the single match is inserted, no list needed
-# M-C-e on   ll ~/x/*
-#   becomes  ls -l /home/user/x/*
-# M-# on   rm -rf build/   →  #rm -rf build/   stored and recalled later, not run
-</syntaxhighlight>
 
 == Screen and processes ==
 
@@ -207,6 +144,10 @@ jobs          # what is running or suspended in this shell
 
 == Change the bindings ==
 
+=== <code>~/.bashrc</code> ===
+
+apply to Bash only:
+
 <syntaxhighlight lang="bash" copy>
 set -o vi                                # vi keys (ESC, k, j, dd, ...) instead of emacs keys
 set -o emacs                             # back to the default
@@ -218,19 +159,15 @@ bind -x '"\C-x\C-l": ls -l'              # shell command whose output is shown, 
 bind '"\C-h": backward-delete-char'      # rebind one key
 </syntaxhighlight>
 
-Settings for every Readline program (Bash, <code>python</code>, <code>psql</code>, <code>gdb</code>, ...) live in <code>~/.inputrc</code>:
+=== <code>~/.inputrc</code> ===
+
+apply to every program using Readline (Bash, <code>python</code>, <code>psql</code>, <code>gdb</code>, ...):
 
 <syntaxhighlight lang="text" copy>
 set editing-mode vi
 set show-all-if-ambiguous on       # Tab lists the candidates at once instead of beeping
 set completion-ignore-case on
-"\e[1;5C": forward-word            # Ctrl+Right: one word forward
-"\C-x\C-r": re-read-init-file      # C-x C-r: apply the edits without restarting the shell
 </syntaxhighlight>
-
-<blockquote>
-Bindings in <code>~/.bashrc</code> apply to Bash only; <code>~/.inputrc</code> applies to every program that uses Readline. <code>bind -p</code> prints the bindings in <code>~/.inputrc</code> syntax, so its output can be pasted there.
-</blockquote>
 
 == For more ==
 
