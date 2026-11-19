@@ -6,6 +6,8 @@
 
 [[Source:The influence of source credibility on communication effectiveness (Scholarly article)|name-author]] presented 223 participants with the same set of arguments on controversial topics such as [[nuclear submarine]]s, attributed either to sources participants rated as highly credible (e.g, Robert J. Oppenheimer) and poorly credible (a mass-circulation pictorial magazine, ''Pravda''). The net opinion change immediately after reading the same arguments attributed to highly credible sources were significantly higher ($p<0.03$). However, the gap in net opinion change decreased over time, and disappeared all together on some topics after 4 weeks.<ref>{{#cite:Q3646}}</ref>
 
+[[Source:Heuristic processing can bias systematic processing: Effects of source credibility, argument ambiguity, and task importance on attitude judgment (Scholarly article)|name-author]] further suggests that credibility is most influential when the message is ambiguous, preventing effective analysis via the central route and forcing the audience to resort to peripheral "Expert is more likely to be right" [[heuristic]]s.<ref>{{#cite:Q3712}}</ref>
+
 === Perceived attractiveness of the speaker ===
 
 [[File:Attractiveness and persuasiveness Eagly Chaiken.webp|thumbnail|400px]]
