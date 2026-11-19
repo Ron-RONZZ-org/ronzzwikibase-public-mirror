@@ -534,6 +534,12 @@
       "sha256": "a9a9d0341f997de85799ce1f8e728a9c0c3682dcb42dae9434dd537a62fb05ed",
       "synced_at": "2026-11-17T16:49:44+00:00"
     },
+    "Collective:Advances in Experimental Social Psychology": {
+      "path": "Collective/Advances in Experimental Social Psychology.wiki",
+      "revid": 17844,
+      "sha256": "daaf72b0a8a62c1a9b7b164f4bf02818f29b915ed5c13b92a6c4a6ddd843dcda",
+      "synced_at": "2026-11-19T10:49:03+00:00"
+    },
     "Collective:Agence Nationale de la Recherche": {
       "path": "Collective/Agence Nationale de la Recherche.wiki",
       "revid": 11085,
@@ -1067,6 +1073,12 @@
       "revid": 17589,
       "sha256": "636ecc1ba5cbb0cce92c344273309c3a5082530947237d2f55003318f5ed6525",
       "synced_at": "2026-11-18T16:19:59+00:00"
+    },
+    "Collective:Journal of Consumer Research": {
+      "path": "Collective/Journal of Consumer Research.wiki",
+      "revid": 17848,
+      "sha256": "4261c57a3604b273e7da198bc161917540fed43d4150d1d3252e073b55bebfe3",
+      "synced_at": "2026-11-19T10:49:03+00:00"
     },
     "Collective:Journal of Experimental Psychology": {
       "path": "Collective/Journal of Experimental Psychology.wiki",
@@ -2960,9 +2972,9 @@
     },
     "Matrix": {
       "path": "Main/Matrix.wiki",
-      "revid": 17748,
-      "sha256": "be4394b1cab3e3c800ef81520a84444fe1fe9a1b89cf3760d9b004b08e8fc109",
-      "synced_at": "2026-11-19T09:49:46+00:00"
+      "revid": 17897,
+      "sha256": "4862d9d6757025f3533f0079127d6d508e4b6badebbb8f21b618bbe88c172e8d",
+      "synced_at": "2026-11-19T10:49:03+00:00"
     },
     "Matrix/Practice/Matrix multiplication": {
       "path": "Main/Matrix/Practice/Matrix multiplication.wiki",
@@ -3588,6 +3600,12 @@
       "sha256": "771cddba6cf95ba32b8c508a7edc8945d917440dda3413ff9ef3c216f02b1aaa",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Arthur A. Lumsdaine": {
+      "path": "Person/Arthur A. Lumsdaine.wiki",
+      "revid": 17872,
+      "sha256": "811ff29925e3b537914701b85bf5acdfc179748bfcc0fb36b107224c5ea5ea42",
+      "synced_at": "2026-11-19T10:49:03+00:00"
+    },
     "Person:Arthur Mensch": {
       "path": "Person/Arthur Mensch.wiki",
       "revid": 15438,
@@ -3629,6 +3647,12 @@
       "revid": 11146,
       "sha256": "4b8f3b650b25fe0261b75b6eddfc8abab80b0cc4225d5331e7e9658f6ef54122",
       "synced_at": "2026-10-22T18:44:57+00:00"
+    },
+    "Person:Ayn E. Crowley": {
+      "path": "Person/Ayn E. Crowley.wiki",
+      "revid": 17856,
+      "sha256": "0104efdded9d78f4a9a550d12044b73f459910143d9aae4089b131f8c425bbbf",
+      "synced_at": "2026-11-19T10:49:03+00:00"
     },
     "Person:Azam Faraji": {
       "path": "Person/Azam Faraji.wiki",
@@ -4128,6 +4152,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T14:10:29+00:00"
     },
+    "Person:Elaine Walster": {
+      "path": "Person/Elaine Walster.wiki",
+      "revid": 17852,
+      "sha256": "c4b86a988e3969b9f1bffb65fe735e8d42d6a7837231389657f3299f3b84a9b7",
+      "synced_at": "2026-11-19T10:49:03+00:00"
+    },
     "Person:Elena Buchatskaya": {
       "path": "Person/Elena Buchatskaya.wiki",
       "revid": 15442,
@@ -4175,6 +4205,12 @@
       "revid": 15474,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T13:10:22+00:00"
+    },
+    "Person:Eric R. Igou": {
+      "path": "Person/Eric R. Igou.wiki",
+      "revid": 17864,
+      "sha256": "0b600f032e6dc0575220bf89a1cdf6086c5bdca2c733499fb05edc9237081889",
+      "synced_at": "2026-11-19T10:49:03+00:00"
     },
     "Person:Eric Schopler": {
       "path": "Person/Eric Schopler.wiki",
@@ -4464,6 +4500,12 @@
       "sha256": "2b7ba735e7290ccc59b62c927aa4a46fca3392759bfffa3ac2a4772b2fbffa56",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Herbert Bless": {
+      "path": "Person/Herbert Bless.wiki",
+      "revid": 17868,
+      "sha256": "c9d7b67847a4867a99a90db6f91e9c5965d8b22ef91dc1010b965e7c9f393710",
+      "synced_at": "2026-11-19T10:49:03+00:00"
+    },
     "Person:Herbert Simon": {
       "path": "Person/Herbert Simon.wiki",
       "revid": 14527,
@@ -4493,6 +4535,12 @@
       "revid": 16941,
       "sha256": "23a7b7437f316b9490301cccaaf9107b4471bb409737a98b7c7c71258a9d8c11",
       "synced_at": "2026-11-17T17:35:48+00:00"
+    },
+    "Person:Irving L. Janis": {
+      "path": "Person/Irving L. Janis.wiki",
+      "revid": 17876,
+      "sha256": "2a2017b071978f19345f585f5b18e1a3c334f28f13353623bccf887da2f7b32e",
+      "synced_at": "2026-11-19T10:49:03+00:00"
     },
     "Person:Isaac Newton": {
       "path": "Person/Isaac Newton.wiki",
@@ -6438,6 +6486,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
     },
+    "Person:Wayne D. Hoyer": {
+      "path": "Person/Wayne D. Hoyer.wiki",
+      "revid": 17860,
+      "sha256": "3a5ccea6a8fe4211e98ecbc98961ba9c910e0235c64e36e4d5155d7cd3ccf0f7",
+      "synced_at": "2026-11-19T10:49:03+00:00"
+    },
     "Person:Wayne Warburton": {
       "path": "Person/Wayne Warburton.wiki",
       "revid": 17138,
@@ -7758,6 +7812,12 @@
       "sha256": "92fcfdbf1941d5c38ee2e9d61e013d45b4160700c6657d7d9bf31fdb231a49fb",
       "synced_at": "2026-11-18T15:10:27+00:00"
     },
+    "Source:An Integrative Framework for Understanding Two-Sided Persuasion (Scholarly article)": {
+      "path": "Source/An Integrative Framework for Understanding Two-Sided Persuasion (Scholarly article).wiki",
+      "revid": 17888,
+      "sha256": "794005d04083a047357b3fa6c8c1da2afa36f92b19321d435608146eea0cc4d7",
+      "synced_at": "2026-11-19T10:49:03+00:00"
+    },
     "Source:An Introduction to Geology": {
       "path": "Source/An Introduction to Geology.wiki",
       "revid": 1657,
@@ -8519,6 +8579,12 @@
       "revid": 11054,
       "sha256": "ed92ed0062d5252f468a86ea14d129c53a8f0554dc2fe8fa8507a34a70684e24",
       "synced_at": "2026-10-22T06:56:09+00:00"
+    },
+    "Source:Inferring the importance of arguments: Order effects and conversational rules (Scholarly article)": {
+      "path": "Source/Inferring the importance of arguments_ Order effects and conversational rules (Scholarly article).wiki",
+      "revid": 17892,
+      "sha256": "1f553aea0974f15104c3102e40b0a8ef109d332455df5b3aa36726c738b13b01",
+      "synced_at": "2026-11-19T10:49:03+00:00"
     },
     "Source:Influence: Science and Practice (Book)": {
       "path": "Source/Influence_ Science and Practice (Book).wiki",
@@ -9432,6 +9498,12 @@
       "sha256": "dcc474f60f9f834382d282c66d0c74a2846cf504c9cc61915fe08df38e646cce",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Resistance to \"Counterpropaganda\" Produced by One-Sided and Two-Sided \"Propaganda\" Presentations (Scholarly article)": {
+      "path": "Source/Resistance to _Counterpropaganda_ Produced by One-Sided and Two-Sided _Propaganda_ Presentations (Scholarly article).wiki",
+      "revid": 17896,
+      "sha256": "19f51250ad4fe5a34c4919c4a232dc2221999aa3c1de433d15779a6fb59f31cb",
+      "synced_at": "2026-11-19T10:49:03+00:00"
+    },
     "Source:Rethinking the nature of cruelty: The role of identity leadership in the Stanford Prison Experiment (Scholarly article)": {
       "path": "Source/Rethinking the nature of cruelty_ The role of identity leadership in the Stanford Prison Experiment (Scholarly article).wiki",
       "revid": 17523,
@@ -9654,6 +9726,12 @@
       "sha256": "a59be86f667782459b41082bd9bf5c79380b43e9f50fe8e6a296eacda99591c5",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:The Elaboration Likelihood Model of Persuasion (Scholarly article)": {
+      "path": "Source/The Elaboration Likelihood Model of Persuasion (Scholarly article).wiki",
+      "revid": 17880,
+      "sha256": "4987684a7db348fb5b1a6114ed1b2be756beaf1b4727b243623095e3c13b2365",
+      "synced_at": "2026-11-19T10:49:03+00:00"
+    },
     "Source:The International System of Units (SI), 9th Edition (Document)": {
       "path": "Source/The International System of Units (SI), 9th Edition (Document).wiki",
       "revid": 10809,
@@ -9701,6 +9779,12 @@
       "revid": 17601,
       "sha256": "498f9da7661f9b93d4ac0a538bc79761d49bfa5185dfcb2ee1a8afde01dff107",
       "synced_at": "2026-11-18T16:19:59+00:00"
+    },
+    "Source:The effectiveness of \"overheard\" persuasive communications (Scholarly article)": {
+      "path": "Source/The effectiveness of _overheard_ persuasive communications (Scholarly article).wiki",
+      "revid": 17884,
+      "sha256": "2441e45fe4915f1a959a8846f011ea0291d34e145a4de5ec503e0e1c0313f2ec",
+      "synced_at": "2026-11-19T10:49:03+00:00"
     },
     "Source:The influence of social support on academic performance: The mediating role of cognitive engagement (Scholarly article)": {
       "path": "Source/The influence of social support on academic performance_ The mediating role of cognitive engagement (Scholarly article).wiki",
@@ -10357,6 +10441,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-19T10:36:13+00:00",
+  "updated": "2026-11-19T10:49:03+00:00",
   "version": 1
 }
