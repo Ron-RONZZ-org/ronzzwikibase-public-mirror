@@ -1,0 +1,5 @@
+{{Person}}
+
+== Overview ==
+
+Social psychologist at Lehigh University working on social cognition and stereotyping

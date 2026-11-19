@@ -1,0 +1,5 @@
+{{Person}}
+
+== Overview ==
+
+German social psychologist working on attitude change, persuasion, and social cognition

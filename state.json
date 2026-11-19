@@ -864,6 +864,18 @@
       "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:European Journal of Social Psychology": {
+      "path": "Collective/European Journal of Social Psychology.wiki",
+      "revid": 17933,
+      "sha256": "4c3c36233d92680391ddec057bd28c6f43ab24750d3715633acb7806e8cb311d",
+      "synced_at": "2026-11-19T14:49:15+00:00"
+    },
+    "Collective:European Review of Social Psychology": {
+      "path": "Collective/European Review of Social Psychology.wiki",
+      "revid": 17929,
+      "sha256": "6a6938a959547bbe5c8695a3cc26b600ee0c3d11188f6d559ce8837d3c10ffaa",
+      "synced_at": "2026-11-19T14:49:15+00:00"
+    },
     "Collective:European Southern Observatory": {
       "path": "Collective/European Southern Observatory.wiki",
       "revid": 4834,
@@ -2754,11 +2766,17 @@
       "sha256": "99c275a77ce1380019c217be002187d6303276ea38443715ba8bae5d56ea3932",
       "synced_at": "2026-11-17T15:49:49+00:00"
     },
+    "Jacobian determinant": {
+      "path": "Main/Jacobian determinant.wiki",
+      "revid": 18012,
+      "sha256": "b1534c255ff16c6df386f4e1935c0ed94286ee7131b6efd931416f480d0bf8ae",
+      "synced_at": "2026-11-19T14:49:15+00:00"
+    },
     "Jacobian matrix": {
       "path": "Main/Jacobian matrix.wiki",
-      "revid": 17915,
-      "sha256": "ed8286e141a817c01fff9c575abb414974c62fe3c1a8a12e2e43b5b96ebf80f4",
-      "synced_at": "2026-11-19T12:14:36+00:00"
+      "revid": 18010,
+      "sha256": "a85d31cf658dcf09e00e59dc95b470b13a2a59ee37962813530609948ec0f79a",
+      "synced_at": "2026-11-19T14:49:15+00:00"
     },
     "Just-world hypothesis": {
       "path": "Main/Just-world hypothesis.wiki",
@@ -4002,6 +4020,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T14:10:29+00:00"
     },
+    "Person:David Shechter": {
+      "path": "Person/David Shechter.wiki",
+      "revid": 17945,
+      "sha256": "9307b5e3096de39c3751decc6dc148ac01e4b725c48f339492cc19a37ba6f529",
+      "synced_at": "2026-11-19T14:49:15+00:00"
+    },
     "Person:David T. Wilkinson": {
       "path": "Person/David T. Wilkinson.wiki",
       "revid": 7278,
@@ -4103,6 +4127,12 @@
       "revid": 17632,
       "sha256": "02f8803de336f39347677b9794e0b0770a968f898c5d1b0fabd51108475bfd6a",
       "synced_at": "2026-11-18T16:37:01+00:00"
+    },
+    "Person:Durairaj Maheswaran": {
+      "path": "Person/Durairaj Maheswaran.wiki",
+      "revid": 17937,
+      "sha256": "049f6bc9ddb111a0ebbe9fea59347f1ebb529b754a6aa4d256a43a7113602a04",
+      "synced_at": "2026-11-19T14:49:15+00:00"
     },
     "Person:Ed Chi": {
       "path": "Person/Ed Chi.wiki",
@@ -4416,6 +4446,12 @@
       "sha256": "0b078927defee04e21ad60d781b298f04e540b54f6ff6091e52140222d6a470d",
       "synced_at": "2026-11-17T22:49:46+00:00"
     },
+    "Person:Gerd Bohner": {
+      "path": "Person/Gerd Bohner.wiki",
+      "revid": 17949,
+      "sha256": "cea93454c29424c65f4b502d2e401fc564c5e0ee8bb5d919b0408de9fc8cd6bd",
+      "synced_at": "2026-11-19T14:49:15+00:00"
+    },
     "Person:Gianfranco Bertone": {
       "path": "Person/Gianfranco Bertone.wiki",
       "revid": 7099,
@@ -4433,6 +4469,12 @@
       "revid": 13602,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Gordon B. Moskowitz": {
+      "path": "Person/Gordon B. Moskowitz.wiki",
+      "revid": 17953,
+      "sha256": "bc413af6908c594b877358b107a4a511d1425eecb16467766ff91e5fb9ac1ee9",
+      "synced_at": "2026-11-19T14:49:15+00:00"
     },
     "Person:Gottfried Wilhelm Leibniz": {
       "path": "Person/Gottfried Wilhelm Leibniz.wiki",
@@ -5790,6 +5832,12 @@
       "sha256": "55f0995a9209f95a0d3fbbbb636edc979b49bd498b46672d22edd354649c99fd",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:Piroska Hunyadi": {
+      "path": "Person/Piroska Hunyadi.wiki",
+      "revid": 18001,
+      "sha256": "8d8a28106150257e635ea30d41690c92e83c6d1af2ca3c6c855c04019823f767",
+      "synced_at": "2026-11-19T14:49:15+00:00"
+    },
     "Person:Priscila López": {
       "path": "Person/Priscila López.wiki",
       "revid": 14561,
@@ -6012,6 +6060,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
     },
+    "Person:S. Ratneshwar": {
+      "path": "Person/S. Ratneshwar.wiki",
+      "revid": 17957,
+      "sha256": "e75df6f1c6bcab7426e25b754d51596257ef2d28a0fd8e8402ee39b3f889cfcd",
+      "synced_at": "2026-11-19T14:49:15+00:00"
+    },
     "Person:Saad Jbabdi": {
       "path": "Person/Saad Jbabdi.wiki",
       "revid": 14000,
@@ -6119,6 +6173,12 @@
       "revid": 15434,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T13:10:22+00:00"
+    },
+    "Person:Serena Chen": {
+      "path": "Person/Serena Chen.wiki",
+      "revid": 17941,
+      "sha256": "944f48dcd6fd7cd1d5de541bfdaec756b887ec036340157f2c999d0bbde20879",
+      "synced_at": "2026-11-19T14:49:15+00:00"
     },
     "Person:Seungjin Whang": {
       "path": "Person/Seungjin Whang.wiki",
@@ -8112,6 +8172,12 @@
       "sha256": "24a86a0ef3f79cf2dd82f740aed9d593b76c4f38e2d4758919c83809063ed345",
       "synced_at": "2026-11-19T10:36:13+00:00"
     },
+    "Source:Comprehension's role in persuasion: The case of its moderating effect on the persuasive impact of source cues (Scholarly article)": {
+      "path": "Source/Comprehension's role in persuasion_ The case of its moderating effect on the persuasive impact of source cues (Scholarly article).wiki",
+      "revid": 17977,
+      "sha256": "c437445177dce485f289ed7e96d43bc34a3874f37c9e78bc03c8d8c176a55fd5",
+      "synced_at": "2026-11-19T14:49:15+00:00"
+    },
     "Source:Conceptual physics (Book)": {
       "path": "Source/Conceptual physics (Book).wiki",
       "revid": 7776,
@@ -8478,6 +8544,12 @@
       "sha256": "cfc0a1b54046c3fab435d3a884bc47cd647371d11244ce51615e9ce9ecb24eca",
       "synced_at": "2026-11-12T13:49:19+00:00"
     },
+    "Source:Getting at the truth or getting along: Accuracy- versus impression-motivated heuristic and systematic processing (Scholarly article)": {
+      "path": "Source/Getting at the truth or getting along_ Accuracy- versus impression-motivated heuristic and systematic processing (Scholarly article).wiki",
+      "revid": 17969,
+      "sha256": "c6d7cb0763c8bd93c9df96a96325b46b3ceed49b760a79f0a593afb766ecf8ca",
+      "synced_at": "2026-11-19T14:49:15+00:00"
+    },
     "Source:Git (Website)": {
       "path": "Source/Git (Website).wiki",
       "revid": 6454,
@@ -8537,6 +8609,12 @@
       "revid": 14506,
       "sha256": "bb6eae6d8e22012294c64ab776b83aef8dd58037ff3c505c7cd317c88b558f25",
       "synced_at": "2026-11-08T15:08:19+00:00"
+    },
+    "Source:Heuristic processing can bias systematic processing: Effects of source credibility, argument ambiguity, and task importance on attitude judgment (Scholarly article)": {
+      "path": "Source/Heuristic processing can bias systematic processing_ Effects of source credibility, argument ambiguity, and task importance on attitude judgment (Scholarly article).wiki",
+      "revid": 17965,
+      "sha256": "dbc1f72383181b8d8aa159690b0b4b1b716e6f2716f59ddf780f371f68fe5234",
+      "synced_at": "2026-11-19T14:49:15+00:00"
     },
     "Source:Histoire de la littérature française du XIXe siècle (Book)": {
       "path": "Source/Histoire de la littérature française du XIXe siècle (Book).wiki",
@@ -9444,6 +9522,12 @@
       "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
       "synced_at": "2026-11-17T14:35:56+00:00"
     },
+    "Source:Promoting systematic processing in low-motivation settings: Effect of incongruent information on processing and judgment (Scholarly article)": {
+      "path": "Source/Promoting systematic processing in low-motivation settings_ Effect of incongruent information on processing and judgment (Scholarly article).wiki",
+      "revid": 17961,
+      "sha256": "976e9222d9261c0d8eefde65fabada2a254c8e8555e1748aac47fdb098b16292",
+      "synced_at": "2026-11-19T14:49:15+00:00"
+    },
     "Source:Properties of Determinants (Webpage)": {
       "path": "Source/Properties of Determinants (Webpage).wiki",
       "revid": 10385,
@@ -9810,6 +9894,12 @@
       "sha256": "cb23b6d03a12f6101c2b2e89ff0b53811f4f3a3a736ad7a0faf7027be4f50b16",
       "synced_at": "2026-11-18T16:37:01+00:00"
     },
+    "Source:The interplay of heuristic and systematic processing of social information (Scholarly article)": {
+      "path": "Source/The interplay of heuristic and systematic processing of social information (Scholarly article).wiki",
+      "revid": 17973,
+      "sha256": "955e11da53df5543b66f1091ba2b1ff27e0df3c3989f425e363445f590bbd66e",
+      "synced_at": "2026-11-19T14:49:15+00:00"
+    },
     "Source:The latest on Git updates (Webpage)": {
       "path": "Source/The latest on Git updates (Webpage).wiki",
       "revid": 6476,
@@ -9839,6 +9929,12 @@
       "revid": 12734,
       "sha256": "104c9e8819851d83509d0da09f0952409f9d3c119a2b12ea0845c79cc36bf408",
       "synced_at": "2026-11-04T14:11:43+00:00"
+    },
+    "Source:The role of mood and message ambiguity in the interplay of heuristic and systematic processing (Scholarly article)": {
+      "path": "Source/The role of mood and message ambiguity in the interplay of heuristic and systematic processing (Scholarly article).wiki",
+      "revid": 18005,
+      "sha256": "a46f1c1496908616ea120743fcd96d2c744f6493caf435cdfa9ed1d4f9e0c985",
+      "synced_at": "2026-11-19T14:49:15+00:00"
     },
     "Source:The screw calculus and its applications in mechanics (Book)": {
       "path": "Source/The screw calculus and its applications in mechanics (Book).wiki",
@@ -10453,6 +10549,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-19T13:36:30+00:00",
+  "updated": "2026-11-19T14:49:15+00:00",
   "version": 1
 }

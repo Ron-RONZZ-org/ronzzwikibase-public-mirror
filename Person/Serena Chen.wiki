@@ -1,0 +1,5 @@
+{{Person}}
+
+== Overview ==
+
+Social psychologist at UC Berkeley working on culture, self, and social cognition

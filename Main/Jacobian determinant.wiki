@@ -1,0 +1,16 @@
+[[Category:Jacobian]]
+The '''Jacobian determinant''', denoted by $\det \mathbf{J}_{\vec f}(\vec x)$, is the [[matrix#Determinant|determinant]] of a square [[Jacobian matrix]].
+
+== Application ==
+
+=== Volume transformation: change of variables ===
+
+For an [[integrable function]] $g$ on $T(U)$, where $T:\mathbb R^n\to\mathbb R^n$ is a [[diffeomorphism]] and $U$ is a region in the $\vec x$-domain,
+
+$$
+\int_{T(U)} g(\vec y)\,d\vec y
+=
+\int_U g(T(\vec x))\,\left|\det \mathbf{J}_T(\vec x)\right|\,d\vec x.
+$$
+
+Where $T(U)=\{\,T(\vec x):\vec x\in U\,\}$ is the corresponding region of $U$ in the $\vec y$-domain.

@@ -1,5 +1,4 @@
-[[Category:Multivariable calculus]]
-[[Category:Proper name]]
+[[Category:Jacobian]]
 The '''Jacobian matrix''' assembles all first [[partial derivative]]s of a [[map function]] between two [[vector space]]s.
 
 == Formal definition ==
