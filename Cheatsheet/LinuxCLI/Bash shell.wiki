@@ -1,0 +1,241 @@
+{{DesktopLinux}}
+
+The line you are typing at the prompt is edited by GNU Readline, so these keys work in Bash and in every other Readline program (<code>python</code>, <code>psql</code>, <code>gdb</code>, <code>mysql</code>, ...). They are pressed while the line is still on screen, before Enter.
+
+<blockquote>
+Notation: <code>C-a</code> is Ctrl+A. <code>M-f</code> is Alt+F, or ESC then <code>f</code> when no Alt key is available.
+</blockquote>
+
+== Move around the line ==
+
+{| class="wikitable"
+! Key !! Action
+|-
+| <code>C-a</code> / <code>C-e</code> || beginning / end of line
+|-
+| <code>C-b</code> / <code>C-f</code> || one character back / forward
+|-
+| <code>M-b</code> / <code>M-f</code> || one word back / forward
+|-
+| <code>M-&lt;</code> / <code>M-&gt;</code> || oldest / newest entry in the history
+|}
+
+<syntaxhighlight lang="bash" copy>
+# the cursor starts at the end of the line
+git commit -m 'fix typo in README'
+# C-a      cursor to 'git'
+# M-f M-f  cursor to 'fix'
+# C-e      back to the end
+</syntaxhighlight>
+
+== Delete, and paste back ==
+
+{| class="wikitable"
+! Key !! Action
+|-
+| <code>C-w</code> || delete the word before the cursor, up to whitespace (<code>unix-word-rubout</code>)
+|-
+| <code>M-DEL</code> || delete the word before the cursor, word characters only (<code>backward-kill-word</code>)
+|-
+| <code>M-d</code> || delete the word after the cursor (<code>kill-word</code>)
+|-
+| <code>C-u</code> || delete from the line start to the cursor
+|-
+| <code>C-k</code> || delete from the cursor to the end of the line
+|-
+| <code>C-y</code> || paste back the last deleted text (yank)
+|-
+| <code>M-y</code> || replace the pasted text with older deleted text, only right after <code>C-y</code>
+|-
+| <code>C-_</code> or <code>C-x C-u</code> || undo
+|}
+
+Deleted text is not lost: it goes to the kill ring and can be pasted back later, even on the next line.
+
+<syntaxhighlight lang="bash" copy>
+# cursor at the end of the line
+vim /etc/nginx/sites-enabled/default
+# C-w    →  vim                              kills back to the previous space
+# M-DEL  →  vim /etc/nginx/sites-enabled/    kills one path component
+
+# C-u kills from the cursor back to the start, C-k kills forward; C-y pastes either back
+</syntaxhighlight>
+
+== Transpose and change case ==
+
+{| class="wikitable"
+! Key !! Action
+|-
+| <code>C-t</code> || swap the 2 characters around the cursor
+|-
+| <code>M-t</code> || swap the 2 words around the cursor
+|-
+| <code>M-u</code> / <code>M-l</code> / <code>M-c</code> || upcase / downcase / capitalize the word
+|}
+
+<blockquote>
+The case commands act on the word at the cursor and move forward, so pressing <code>M-u</code> at the end of the line changes nothing. Move back with <code>M-b</code> first.
+</blockquote>
+
+<syntaxhighlight lang="bash" copy>
+echo hELLO world
+# M-b M-b M-c  →  echo Hello world    capitalize (rest of the word is lowercased)
+# M-b M-b M-l  →  echo hello world    downcase
+# M-b M-b M-u  →  echo HELLO world    upcase
+
+echo one two
+# M-t  →  echo two one
+</syntaxhighlight>
+
+== History ==
+
+{| class="wikitable"
+! Key !! Action
+|-
+| <code>C-p</code> / <code>C-n</code> || previous / next command
+|-
+| <code>C-r</code> || reverse incremental search: type a substring, <code>C-r</code> again for the next older match
+|-
+| <code>C-s</code> || the same, searching forward
+|-
+| <code>M-p</code> / <code>M-n</code> || non-incremental search backward / forward for a string you type after the prompt
+|-
+| <code>M-.</code> || insert the last argument of the previous command; press again for the command before it
+|-
+| <code>M-C-y</code> || insert the first argument of the previous command; with a number, the nth (0 is the command itself)
+|-
+| <code>C-o</code> || run this line, then fetch the next history entry for editing
+|-
+| <code>C-x C-e</code> || edit the line in <code>$VISUAL</code> or <code>$EDITOR</code>, then run the result
+|}
+
+<blockquote>
+<code>C-r</code> leaves the matching command on the line: <code>C-g</code> aborts the search and gives back the line you were typing, any movement key (<code>C-a</code>, <code>M-b</code>, ...) stops the search and lets you edit the match, Enter runs it.
+</blockquote>
+
+<blockquote>
+<code>C-s</code> is often swallowed by terminal flow control (see [[#Screen and processes]]); <code>stty -ixon</code> in <code>~/.bashrc</code> frees it.
+</blockquote>
+
+<syntaxhighlight lang="bash" copy>
+# C-r  ssh        the most recent command containing 'ssh'; C-r again for older ones
+# C-x C-e         a long loop: vim opens, edit it comfortably, save and quit, bash runs it
+# C-o             step through a block of commands you ran earlier, editing each before running
+</syntaxhighlight>
+
+== History expansion ==
+
+<syntaxhighlight lang="bash" copy>
+!!                    # rerun the previous command
+!$                    # last argument of the previous command
+!^                    # first argument
+!*                    # all arguments
+!:2                   # 2nd argument
+!-2                   # the command before the previous one
+!ssh                  # most recent command starting with ssh
+!?docker?             # most recent command containing docker
+^old^new^             # rerun the previous command, first old replaced by new
+!!:gs/old/new/        # rerun it, every old replaced by new
+!$:h                  # last argument, minus its last path component:  /a/b/c.pdf → /a/b
+!$:t                  # last argument, basename only:                     /a/b/c.pdf → c.pdf
+</syntaxhighlight>
+
+<syntaxhighlight lang="bash" copy>
+sudo !!                                          # the command you forgot to prefix with sudo
+mkdir -p /srv/app/releases/2026-11-19
+cd !$                                            # → cd /srv/app/releases/2026-11-19
+git status
+^status^diff^                                    # → git diff
+</syntaxhighlight>
+
+<blockquote>
+Expansion happens on the whole line, before it runs, and inside double quotes too: <code>echo "!$"</code> expands, <code>echo '!$'</code> does not. <code>set +H</code> turns expansion off; <code>shopt -s histverify</code> shows the expanded line for confirmation before running it.
+</blockquote>
+
+== Completion and typing helpers ==
+
+{| class="wikitable"
+! Key !! Action
+|-
+| <code>Tab</code> || complete the word; press twice to list the candidates
+|-
+| <code>M-?</code> or <code>M-=</code> || list the possible completions
+|-
+| <code>M-*</code> || insert all the possible completions
+|-
+| <code>M-/</code> / <code>M-$</code> / <code>M-~</code> || complete a filename / a variable / a username after <code>~</code>
+|-
+| <code>M-C-e</code> || expand the line as the shell would (aliases, variables, <code>~</code>), then leave it for review
+|-
+| <code>M-#</code> || comment the line out with <code>#</code> and keep it in the history
+|-
+| <code>C-v</code> or <code>C-q</code> || insert the next key literally (a Tab, a <code>C-m</code>, ...)
+|}
+
+<syntaxhighlight lang="bash" copy>
+cd ~/Doc<Tab>              # → cd ~/Documents
+ls /usr/shar<Tab>          # the single match is inserted, no list needed
+# M-C-e on   ll ~/x/*
+#   becomes  ls -l /home/user/x/*
+# M-# on   rm -rf build/   →  #rm -rf build/   stored and recalled later, not run
+</syntaxhighlight>
+
+== Screen and processes ==
+
+{| class="wikitable"
+! Key !! Action
+|-
+| <code>C-l</code> || clear the screen, keep the line being typed
+|-
+| <code>M-C-l</code> || clear the screen and the scrollback buffer
+|-
+| <code>C-c</code> || interrupt the running command
+|-
+| <code>C-d</code> || end of input: logs out an interactive shell, or deletes the character under the cursor
+|-
+| <code>C-z</code> || suspend the running command; <code>fg</code> brings it back, <code>bg</code> continues it in the background
+|-
+| <code>C-s</code> / <code>C-q</code> || freeze / resume terminal output: an accidental <code>C-s</code> looks like a hang, press <code>C-q</code>
+|}
+
+<syntaxhighlight lang="bash" copy>
+sleep 100     # C-z: suspended, back at the prompt
+bg            # continue it in the background
+fg            # or bring it to the foreground
+jobs          # what is running or suspended in this shell
+</syntaxhighlight>
+
+== Change the bindings ==
+
+<syntaxhighlight lang="bash" copy>
+set -o vi                                # vi keys (ESC, k, j, dd, ...) instead of emacs keys
+set -o emacs                             # back to the default
+bind -p                                  # every key and the function bound to it
+bind -p | grep -i yank                   # what is bound to yanking
+bind -l                                  # names of all bindable functions
+bind '"\C-o": "| less\n"'                # macro: C-o types ' | less' and presses Enter
+bind -x '"\C-x\C-l": ls -l'              # shell command whose output is shown, the line stays
+bind '"\C-h": backward-delete-char'      # rebind one key
+</syntaxhighlight>
+
+Settings for every Readline program (Bash, <code>python</code>, <code>psql</code>, <code>gdb</code>, ...) live in <code>~/.inputrc</code>:
+
+<syntaxhighlight lang="text" copy>
+set editing-mode vi
+set show-all-if-ambiguous on       # Tab lists the candidates at once instead of beeping
+set completion-ignore-case on
+"\e[1;5C": forward-word            # Ctrl+Right: one word forward
+"\C-x\C-r": re-read-init-file      # C-x C-r: apply the edits without restarting the shell
+</syntaxhighlight>
+
+<blockquote>
+Bindings in <code>~/.bashrc</code> apply to Bash only; <code>~/.inputrc</code> applies to every program that uses Readline. <code>bind -p</code> prints the bindings in <code>~/.inputrc</code> syntax, so its output can be pasted there.
+</blockquote>
+
+== For more ==
+
+* [https://www.gnu.org/software/bash/manual/html_node/Readline-Interaction.html Readline interaction] — the short official tour: moving, killing, searching
+* [https://www.gnu.org/software/bash/manual/html_node/History-Interaction.html History interaction] — every <code>!</code> form, word designator and modifier
+* [https://tiswww.case.edu/php/chet/readline/readline.html GNU Readline manual] — every bindable command and variable
+* [https://www.gnu.org/software/bash/manual/html_node/Readline-Init-File.html Readline init file] — <code>~/.inputrc</code> syntax
+* <code>man readline</code>, <code>man bash</code> (search <code>/^READLINE</code>), <code>bind -p</code>
