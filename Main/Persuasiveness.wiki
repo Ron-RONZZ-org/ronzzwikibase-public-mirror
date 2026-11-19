@@ -1,0 +1,37 @@
+'''Persuasiveness''', which measures the effectiveness of [[persuasion]], is found to be influenced by a dozen or so factors.
+
+== Positively correlated factors ==
+
+=== Perceived credibility of the source ===
+
+[[Source:The influence of source credibility on communication effectiveness (Scholarly article)|name-author]] presented 223 participants with the same set of arguments on controversial topics such as [[nuclear submarine]]s, attributed either to sources participants rated as highly credible (e.g, Robert J. Oppenheimer) and poorly credible (a mass-circulation pictorial magazine, ''Pravda''). The net opinion change immediately after reading the same arguments attributed to highly credible sources were significantly higher ($p<0.03$). However, the gap in net opinion change decreased over time, and disappeared all together on some topics after 4 weeks.<ref>{{#cite:Q3646}}</ref>
+
+=== Perceived attractiveness of the speaker ===
+
+[[File:Attractiveness and persuasiveness Eagly Chaiken.webp|thumbnail|400px]]
+In [[Source:An attribution analysis of the effect of communicator characteristics on opinion change: The case of communicator attractiveness|name-author]], a [[controlled study]] of 349 participants found that when undesirable positions were advocated, the perceived likeability of the source had a significant positive impact on persuasiveness (persuasiveness rating $\overline x=2.07\ v.\ \overline x=0.47,\, p<0.001$).
+
+* subtleness and comprehensiveness of message
+** e.g, different sides presented without an obvious agenda
+
+== Negatively correlated factors ==
+
+=== Attention ===
+
+Somehow unintuitively, according to [[Source:On resistance to persuasive communications (Scholarly article)|name-author]], '''less attentive''' audiences are easier to persuade. Having recruited 343 male members of [[fraternity group]]s, researchers had some of them watch a film strongly opposing fraternities, while others listen to the audio of the same film while watching images from an irrelevant cartoon. The resulting opinion change in the latter group was slightly but statistically significantly higher than the former in one of the three runs of the experiment ($p<0.01$), and somewhat likely higher ($p<0.06$) in a 2nd run, while no difference was measured in the 3rd run, suggesting that diminished attention may actually increase '''persuasiveness''' of the same message. [[Source:On resistance to persuasive communications (Scholarly article)|name-author]] hypothesised that such phenomenon is a result of persuasion being met with less mental resistance when audience is distracted.<ref>{{#cite:Q3675}}</ref>
+
+[[Source:Elaborative and Nonelaborative Processing of a Behavior-Related Communication (Scholarly article)|name-author]] conducted further experiments with arguments of various strengths presented with and without distraction, and found statistically the improved persuasiveness from diminished attention is probably related to [[persuasion#Persuasion_routes|peripheral persuasion]], in which audience takes a less analytical attitude towards a message, and is more likely to be influenced by external factors. (e.g, mood).<ref>{{#cite:Q3674}}</ref>
+
+=== Audience intelligence ===
+
+Meta-analysis by [[Source:Self-esteem and intelligence affect influenceability: The mediating role of message reception (Scholarly article)|name-author]] on 57 data sets concluded that people with higher intelligence levels are generally harder to persuade.<ref>{{#cite:Q3676}}</ref>
+
+== Other influencing factors ==
+
+=== Audience age ===
+
+[[Source:Aging and susceptibility to attitude change (Scholarly article)|name-author]] analysed data from 1956–1960 and 1972–1976 National Election Study panels and 1980 NES three-wave within-campaign panel survey data in the United States and found that consistency in political attitudes to be lower among 18-25 year old compared to older adults. Researchers speculated that this could either be a result of younger adults being easier to persuade, or them being more likely to experience change-inducing life-events.<ref>{{#cite:Q3677}}</ref>
+
+=== Audience self-esteem ===
+
+Meta-analysis by [[Source:Self-esteem and intelligence affect influenceability: The mediating role of message reception (Scholarly article)|name-author]] on 57 data sets shows that people with higher or lower self-esteem are harder to persuade than the average.<ref>{{#cite:Q3676}}</ref>
