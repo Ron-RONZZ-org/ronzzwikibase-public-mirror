@@ -1,3 +1,5 @@
+[[Category:Multivariable calculus]]
+[[Category:Proper name]]
 The '''Jacobian matrix''' assembles all first [[partial derivative]]s of a [[map function]] between two [[vector space]]s.
 
 == Formal definition ==
@@ -24,8 +26,14 @@ $$
 
 == Properties ==
 
-The gradient of $f_i$
+=== $\nabla f_i(\vec x)= (\text{row}_i)^T$ ===
 
-$$
-\nabla f_i(\vec x)= (\text{row}_i)^T
-$$
+where $\nabla f_i(\vec x)$ is the [[local gradient]] of $f_i(\vec x)$.
+
+=== $\vec f(\vec x+\vec h)\approx \vec f(\vec x)+\mathbf{J}_{\vec f}(\vec x)\vec h$ ===
+
+which provides the best [[linear approximation]] of $\vec f$ near $\vec x$:
+
+=== Jacobian determinant ===
+
+See [[Jacobian determinant]].
