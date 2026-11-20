@@ -7212,6 +7212,12 @@
       "sha256": "19f763efc98bce40ffe5ff3ab597f8f3b3222a80dc2cabe19a581dce29a65de6",
       "synced_at": "2026-11-13T17:49:21+00:00"
     },
+    "Single variable derivative/Practice/Calculation and plotting with Python": {
+      "path": "Main/Single variable derivative/Practice/Calculation and plotting with Python.wiki",
+      "revid": 18087,
+      "sha256": "7515682aefa0d0e3f98c3ec20ea751e4ca1fbe9b065c0f445dee350bb4bcbcf6",
+      "synced_at": "2026-11-20T04:35:40+00:00"
+    },
     "Sleeper effect": {
       "path": "Main/Sleeper effect.wiki",
       "revid": 18048,
@@ -10561,6 +10567,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-20T04:24:07+00:00",
+  "updated": "2026-11-20T04:35:40+00:00",
   "version": 1
 }
