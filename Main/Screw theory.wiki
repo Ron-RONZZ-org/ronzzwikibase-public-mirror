@@ -216,9 +216,9 @@ Then by definition
 * $m\vec{a}(C)$ is the '''mass-acceleration product''' of system $K$ relative to its centre of gravity $C$;
 * $\vec{D}_A$ is the '''dynamic moment''' about $A$.
 
-== Relationships between the kinetic and dynamic screw ==
+=== Relationships between the kinetic and dynamic screw ===
 
-=== Fixed reference point ===
+==== Fixed reference point ====
 
 At a point $A$ fixed in the reference frame, $\vec{a}(M)=\frac{d\vec{v}(M)}{dt}$ for every mass element $dm$, so
 
@@ -226,7 +226,7 @@ $$
 \{\mathcal{D}\}_A=\frac{d}{dt}\{\mathcal{K}\}_A .
 $$
 
-=== Dynamic reference point ===
+==== Dynamic reference point ====
 
 If $A$ is moving at $\vec{v}_A$:
 
@@ -235,6 +235,17 @@ $$
 $$
 
 <ref>{{#cite:Q3751}}</ref>
+
+== Kinetic energy ($E_k$) ==
+
+Again let $K$ be any mechanical system, then
+$$
+E_k(K)=\frac{1}{2}\vec{v}_A\cdot\vec{p}(K)+\vec{\omega}\cdot\vec{L}_A(K)$
+$$
+
+where $A$ is an arbitrary reference point.
+
+<ref>{{#cite:Q3750}}{{#cite:Q3751}}</ref>
 
 == Fundamental principle of dynamics ==
 
