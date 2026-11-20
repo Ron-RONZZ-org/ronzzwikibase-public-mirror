@@ -81,31 +81,7 @@ tail -n 50 app.log      # show last 50 lines of a file. If no -n parsed, default
 tail -f app.log         # follow a growing log, Ctrl+C to stop
 </syntaxhighlight>
 
-== Searching ==
-
-'''grep''' — search inside files:
-
-<syntaxhighlight lang="bash" copy>
-grep [options] pattern file   # print matching lines
-</syntaxhighlight>
-
-{| class="wikitable"
-! Option !! Effect
-|-
-| <code>-i</code> || case-insensitive
-|-
-| <code>-n</code> || include line numbers
-|-
-| <code>-v</code> || invert: lines that do NOT match
-|-
-| <code>-r</code> || search a directory recursively
-|-
-| <code>-l</code> || only filenames with matches
-|-
-| <code>-c</code> || count matching lines
-|-
-| <code>-E</code> || extended regex, e.g. <code>grep -E 'a|b' file</code>
-|}
+== Searching by filename ==
 
 '''find''' — search by name, type, age, size:
 

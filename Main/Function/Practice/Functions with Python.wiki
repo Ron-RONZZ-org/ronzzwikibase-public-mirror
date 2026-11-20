@@ -1,22 +1,13 @@
-The exercises below come from a practical-work handout written for Matlab by [[Person:Gautier List|M. Gautier List]]<ref>{{#cite:Q3739}}</ref>, translated here and solved with NumPy and Matplotlib. They cover <code>if</code> statements, user-defined [[Function|functions]], the trace of a matrix, parametric curves, the golden ratio, and the Fibonacci sequence.
-
-<blockquote>
-3 differences with Matlab are worth stating once:
-
-* a Python function is declared with <code>def</code>, and its body is delimited by indentation instead of being closed by <code>end</code>;
-* inside an <code>if</code> the equality test is <code>==</code>, conjunction is <code>and</code>, and disjunction is <code>or</code>, where Matlab writes <code>==</code>, <code>&amp;&amp;</code>, and <code>||</code>;
-* a snippet marked <code>class="pyodide"</code> below runs in the reader's browser, so every program on this page can be executed in place.
-</blockquote>
+The five exercises below come from a practical-work handout written for Matlab created by my beloved teacher [[Person:Gautier List|M. Gautier List]]<ref>{{#cite:Q3739}}</ref>, which we solve here with NumPy and SymPy.
 
 == Exercise 1 ==
 
-# What does the instruction <code>max(2, 3)</code> return?
-# Write a program that returns the maximum of 3 numbers $a$, $b$, and $c$, without using the function <code>max</code>.
-# Write the same thing again as a function $m=\mathrm{monmax}(a,b,c)$.
+# What does <code>max(2, 3)</code> return?
+# Write a function $m=\mathrm{mymax}(a,b,c)$ that returns the maximum of a set of n numbers $\max \{x_1,\dots,x_n\}$, without using the function <code>max</code>.
 
 {{Hidden solution}}
 
-'''Question 1.''' <code>max</code> of two scalars compares them one against the other and returns the larger, so
+'''Question 1.'''
 
 <syntaxhighlight lang="python" class="pyodide" copy>
 print(max(2, 3))
@@ -28,74 +19,38 @@ Expected output:
 3
 </pre>
 
-In Python <code>max</code> accepts either several arguments (<code>max(2, 3)</code>) or one iterable (<code>max([2, 3])</code>); in Matlab the same instruction is <code>max(2,3)</code>, which also returns <code>3</code>, since <code>max</code> compares two arrays element by element.
-
-'''Question 2.''' The comparison is written by hand, one candidate at a time: take $a$ as the provisional maximum, then let $b$, then $c$, take its place whenever it is larger.
-
-<syntaxhighlight lang="python" class="pyodide" copy>
-a, b, c = 3, 7, 5                    # the 3 numbers to compare
-
-if a >= b and a >= c:                # a is at least as large as the 2 others
-    m = a
-elif b >= c:                         # otherwise b, if it beats c
-    m = b
-else:                                # otherwise c
-    m = c
-
-print(f"the maximum of {a}, {b}, and {c} is {m}")
-</syntaxhighlight>
-
-Expected output:
-
-<pre>
-the maximum of 3, 7, and 5 is 7
-</pre>
-
-'''Question 3.''' The same comparison, wrapped in a function. The 2 tests are now independent, which is the usual way of writing it: the provisional maximum is updated twice, in sequence.
-
-<syntaxhighlight lang="python" class="pyodide" copy>
-import itertools
-
-def monmax(a, b, c):
-    """Return the largest of three numbers, without max()."""
-    m = a
-    if b > m:                        # strictly greater: a tie keeps the earlier value
-        m = b
-    if c > m:
-        m = c
-    return m
-
-print(monmax(3, 7, 5))
-print(monmax(-1, -5, -3))
-print(monmax(2, 2, 1))
-print(monmax(0.5, -2, 0.25))
-
-mismatches = [(a, b, c)
-              for a, b, c in itertools.product(range(-5, 6), repeat=3)
-              if monmax(a, b, c) != max(a, b, c)]
-print()
-print("triples tested:", 11**3)
-print("mismatches:    ", len(mismatches))
-</syntaxhighlight>
-
-Expected output:
-
-<pre>
-7
--1
-2
-0.5
-
-triples tested: 1331
-mismatches:     0
-</pre>
-
 <blockquote>
-The last lines check the function against the built-in <code>max</code> on every triple of integers between $-5$ and $5$: the count of disagreements is $0$.
+In Python <code>max</code> accepts either several arguments (<code>max(1, 2, 3, 4)</code>) or one iterable (<code>max([2, 3, 4, 6])</code>)
 </blockquote>
 
+'''Question 2/3.'''
+
+<syntaxhighlight lang="python" class="pyodide" copy>
+test_list = [1, 2, 3, 4, 5, 6]
+
+def mymax(number_list: list[int]) -> int: # do not name number_list "list": overshadowing Python built-in keywords breaks code unpredicatably and make you an unhappy individual
+    maximum = number_list[0]          # initialize from the first element so comparison works; again do not name maximum "max".
+    for number in number_list[1:]:
+        if number > maximum:
+            maximum = number
+    return maximum
+
+print(f"test list max: {mymax(test_list)}")
+</syntaxhighlight>
+
+Expected output:
+
+<pre>
+test list max: 6
+</pre>
+
 <blockquote>
-Caution: the assignment is <code>=</code>, and the comparison inside an <code>if</code> is <code>==</code>. Writing <code>if a = b:</code> is a syntax error in Python, so the mistake is caught immediately, but <code>if a == b:</code> where an assignment was meant is not.
+Caution:
+
+* Assignment: <code>=</code>
+* Commparison: <code>==</code>
+
+Writing <code>if a = b:</code> buys a syntax error in Python, and <code>if a == b:</code> where <code>a</code> is supposed to be assigned to <code>b</code> causes a silent logic error: the assignment is not made, but Python doesn't complain.
 </blockquote>
 
 {{End hidden}}
@@ -103,8 +58,8 @@ Caution: the assignment is <code>=</code>, and the comparison inside an <code>if
 == Exercise 2 ==
 
 # Build a square $3\times3$ matrix of integers of your choice, named $A$.
-# Test the commands <code>trace(A)</code> and <code>sum(diag(A))</code>.
-# Write a function $t=\mathrm{matrace}(A)$ that computes the trace of a square $3\times3$ matrix, without using the functions <code>trace</code>, <code>sum</code>, or <code>diag</code>.
+# Test the commands <code>np.trace(A)</code> and <code>np.sum(diag(A))</code> from <code>numpy</code>
+# Write a function $t=\mathrm{mytrace}(A)$ that computes the trace of any matrix, without using the functions <code>trace</code>, <code>sum</code>, or <code>diag</code>.
 
 Recall that the trace of a square matrix $A=(a_{ij})$ is the sum of its diagonal entries,
 
@@ -142,67 +97,42 @@ trace(A)     = 3
 sum(diag(A)) = 3
 </pre>
 
-The diagonal entries are $4$, $5$, and $-6$, and $4+5-6=3$.
-
 '''Question 3.''' Walk down the diagonal with a single index and accumulate the entries in a variable initialised at $0$.
 
 <syntaxhighlight lang="python" class="pyodide" copy>
-import numpy as np
-
-def matrace(A):
-    """Trace of a square matrix, without trace(), sum(), or diag()."""
+def mytrace(A):
+    """Trace of a square matrix, without numpy's trace(), sum(), or diag()."""
     n = len(A)
     if any(len(row) != n for row in A):
-        raise ValueError("matrace expects a square matrix")
+        raise ValueError(f"mytrace handles only square matrixs of dimension n*n;{A} is not a square matrix")
     t = 0
     for i in range(n):
         t += A[i][i]                 # A[i][i] on a list of lists, or on an array
     return t
 
-print(matrace([[1, 2, 3],
+print(mytrace([[1, 2, 3],
                [4, 5, 6],
                [7, 8, 9]]))
-print(matrace(np.array([[ 4, -1,  2],
-                        [ 0,  5,  3],
-                        [ 7,  2, -6]])))
-print(matrace([[1, 2], [3, 4]]))
-print(matrace([[7]]))
 
 try:
-    matrace([[1, 2, 3], [4, 5, 6]])
+    mytrace([[1, 2, 3], [4, 5, 6]])
 except ValueError as err:
     print("not square ->", err)
-
-rng = np.random.default_rng(seed=0)
-for size in (1, 2, 3, 5, 10):
-    M = rng.integers(-9, 10, size=(size, size))
-    print(f"{size}x{size}: matrace = {matrace(M):4d}   np.trace = {np.trace(M):4d}   "
-          f"agree = {matrace(M) == np.trace(M)}")
 </syntaxhighlight>
 
 Expected output:
 
 <pre>
 15
-3
-5
-7
-not square -> matrace expects a square matrix
-1x1: matrace =    7   np.trace =    7   agree = True
-2x2: matrace =   -1   np.trace =   -1   agree = True
-3x3: matrace =   -1   np.trace =   -1   agree = True
-5x5: matrace =   -2   np.trace =   -2   agree = True
-10x10: matrace =   24   np.trace =   24   agree = True
+not square -> mytrace handles only square matrixs of dimension n*n;[[1, 2, 3], [4, 5, 6]] is not a square matrix
 </pre>
 
 <blockquote>
-The function is written for any size $n$ rather than for $3\times3$ alone, and for any container that supports <code>len</code> and indexing: a list of lists as well as a NumPy array. It also refuses a rectangular matrix, where <code>np.trace</code> happily sums $a_{00}$, $a_{11}$, and so on as far as the shape allows.
-</blockquote>
+<code>np.diag</code> is versatile: 
 
-<blockquote>
-Careful with <code>np.diag</code>: on a 2D array it extracts the diagonal, but on a 1D array it does the opposite and builds a diagonal matrix. Matlab's <code>diag</code> has the same two behaviours.
+* on a 2D array it extracts the diagonal;
+* on an 1D array it does the opposite and builds a diagonal matrix. 
 </blockquote>
-
 {{End hidden}}
 
 == Exercise 3 ==
@@ -227,7 +157,7 @@ y(t)=t+\sin(3t)
 \end{cases},\,-4\pi\le t\le4\pi
 $$
 
-'''3.''' A curve in space,
+'''3.''' A curve in 3D Euclidean space,
 
 $$
 \begin{cases}
@@ -239,8 +169,6 @@ $$
 
 {{Hidden solution}}
 
-The 3 curves share one figure, as a row of 3 panels. The sampling step must be small with respect to the period $2\pi$ of the sines: about 600 points over the interval, so that the curves are drawn as curves and not as polygons.
-
 <syntaxhighlight lang="python" class="pyodide" copy>
 import numpy as np
 import matplotlib.pyplot as plt
@@ -249,13 +177,13 @@ fig = plt.figure(figsize=(13, 4.2))
 
 # 1. the Lissajous curve
 t = np.linspace(-2 * np.pi, 2 * np.pi, 601)
-ax = fig.add_subplot(1, 3, 1)
+ax = fig.add_subplot(1, 3, 1) # set plot target (ax) to plot 1 of a plot panel with 1 row and 3 columns (fig), 
 ax.plot(np.sin(2 * t), np.sin(3 * t), lw=1.2)
 ax.set_aspect("equal")                       # same scale on both axes: a circle stays round
 ax.set_title(r"$x=\sin(2t)$, $y=\sin(3t)$")
 ax.set_xlabel("$x(t)$")
 ax.set_ylabel("$y(t)$")
-ax.grid(alpha=0.3)
+ax.grid(alpha=0.3) # semi-transparent gridlines
 
 # 2. the same, with a linear drift
 t = np.linspace(-4 * np.pi, 4 * np.pi, 1201)
@@ -269,7 +197,7 @@ ax.grid(alpha=0.3)
 
 # 3. a curve in space
 t = np.linspace(-2 * np.pi, 2 * np.pi, 601)
-ax = fig.add_subplot(1, 3, 3, projection="3d")
+ax = fig.add_subplot(1, 3, 3, projection="3d") # plot handles 3D just like 2D once you specify projection="3d"
 ax.plot(t * np.cos(t), t * np.sin(t), t, lw=1.2)
 ax.set_title(r"$x=t\cos t$, $y=t\sin t$, $z=t$")
 ax.set_xlabel("$x$")
@@ -280,17 +208,19 @@ fig.tight_layout()
 plt.show()
 </syntaxhighlight>
 
-[[File:Three parametric curves.png|thumbnail|300px|alt=Three panels: a closed Lissajous figure with crossing loops; a straight diagonal line decorated with small loops; a three-dimensional corkscrew widening away from the origin|Left: the Lissajous curve of question 1. Middle: the curve of question 2, a diagonal drift decorated with loops. Right: the spatial curve of question 3, a corkscrew whose radius grows with $t$.]]
+[[File:Three parametric curves.png|thumbnail|500px|alt=Three panels: a closed Lissajous figure with crossing loops; a straight diagonal line decorated with small loops; a three-dimensional corkscrew widening away from the origin|Left: the Lissajous curve (Q1). Middle: a diagonal drift decorated with loops (Q2) Right: the spatial curve (Q3), a corkscrew whose radius grows with $t$.]]
 
 <blockquote>
-Notice the periods: $x$ has period $\pi$ and $y$ has period $2\pi/3$, so their common period is $2\pi$, and the interval $-2\pi\le t\le2\pi$ describes the closed curve twice. Without <code>set_aspect("equal")</code> the figure is stretched by the shape of the axes, and a closed symmetric curve looks distorted.
+Notice the periods for curve 1&2: $x$ has period $\pi$ and $y$ has period $2\pi/3$, so their common period is $2\pi$, and the interval $-2\pi\le t\le2\pi$ consists of two periods.
 
-The third curve needs <code>projection="3d"</code> in <code>add_subplot</code>: its radius $\sqrt{x^{2}+y^{2}}=|t|$ grows with $|t|$, which draws a corkscrew opening outwards.
+Without <code>set_aspect("equal")</code> the figure is stretched by the shape of the axes, and curves look distorted.
+
+The third curve has radius $\sqrt{x^{2}+y^{2}}=|t|$ which grows with $|t|$, drawing a corkscrew opening outwards.
 </blockquote>
 
 {{End hidden}}
 
-== Problem: the golden ratio and the Fibonacci sequence ==
+== Exercise 3: the golden ratio and the Fibonacci sequence ==
 
 The golden ratio is a proportion originally defined in geometry as the ratio of 2 lengths $a$ and $b$, noted $\varphi$, such that
 
@@ -298,7 +228,7 @@ $$
 \varphi=\frac{a}{b}=\frac{a+b}{a}
 $$
 
-with $a>b>0$. It appears in painting, sculpture, and architecture, and in nature.
+with $a>b>0$. Said ratio appears not only in human-creations (paintings, sculptures, architecture, etc.), but also in nature.
 
 === 1. The equation satisfied by the golden ratio ===
 
@@ -310,30 +240,21 @@ $$
 
 {{Hidden solution}}
 
-Start from the 2nd form of the ratio and split the fraction:
-
 $$
 \varphi=\frac{a+b}{a}=1+\frac{b}{a}=1+\frac{1}{\varphi},
 $$
 
-since $\dfrac{a}{b}=\varphi$ implies $\dfrac{b}{a}=\dfrac{1}{\varphi}$.
-
 Multiplying both sides by $\varphi\neq0$,
 
 $$
-\varphi^{2}=\varphi+1,
-$$
-
-that is,
-
-$$
+\varphi^{2}=\varphi+1, \\
 \varphi^{2}-\varphi-1=0.
 $$
 {{End hidden}}
 
 === 2. A function for the quadratic equation ===
 
-Write a function <code>degre2(a, b, c)</code> that gives the solutions of
+Write a function <code>quadratic_solve(a, b, c)</code> that gives the solutions of
 
 $$
 ax^{2}+bx+c=0.
@@ -341,27 +262,26 @@ $$
 
 {{Hidden solution}}
 
-The discriminant decides the number of real roots,
+Recall
 
 $$
 x_{1,2}=\frac{-b\pm\sqrt{\Delta}}{2a},\,\Delta=b^{2}-4ac.
 $$
 
-Python has no real square root of a negative number, but <code>cmath.sqrt</code> returns a complex one, so a single code path covers $\Delta>0$, $\Delta=0$, and $\Delta<0$.
-
 <syntaxhighlight lang="python" class="pyodide" copy>
 import cmath
 
-def degre2(a, b, c):
+def quadratic_solve(a, b, c):
     """Return the two roots of a*x**2 + b*x + c = 0."""
     if a == 0:
         raise ValueError("a is zero: this is not a second-degree equation")
     delta = b * b - 4 * a * c            # the discriminant
-    root = cmath.sqrt(delta)             # complex square root: covers delta < 0 as well
-    return (-b + root) / (2 * a), (-b - root) / (2 * a)
+    delta_root = cmath.sqrt(delta)             # cmath.sqrt handles square root with complex numbers, so this covers delta < 0 as well
+    return (-b + delta_root) / (2 * a), (-b - delta_root) / (2 * a)
 
+# test
 for a, b, c in [(1, -1, -1), (1, -3, 2), (1, 0, 1), (2, 4, 2)]:
-    print(f"a={a}, b={b}, c={c} -> {degre2(a, b, c)}")
+    print(f"a={a}, b={b}, c={c} -> {quadratic_solve(a, b, c)}")
 </syntaxhighlight>
 
 Expected output:
@@ -374,68 +294,38 @@ a=2, b=4, c=2 -> ((-1+0j), (-1+0j))
 </pre>
 
 <blockquote>
-Because <code>cmath.sqrt</code> always returns a complex number, so do the roots, even when they are real: they carry a zero imaginary part. To stay in the reals, branch on the sign of $\Delta$ and use <code>math.sqrt</code> when $\Delta\ge0$:
-
-<syntaxhighlight lang="python" class="pyodide" copy>
-import math
-
-def degre2_reel(a, b, c):
-    """Return the two roots, as floats when the discriminant is positive."""
-    if a == 0:
-        raise ValueError("a is zero: this is not a second-degree equation")
-    delta = b * b - 4 * a * c
-    if delta < 0:
-        return None                    # no real root
-    d = math.sqrt(delta)
-    return (-b + d) / (2 * a), (-b - d) / (2 * a)
-
-print(degre2_reel(1, -1, -1))          # the golden ratio and its conjugate
-print(degre2_reel(1, -3, 2))
-print(degre2_reel(1, 0, 1))            # None: no real root
-</syntaxhighlight>
-
-<pre>
-(1.618033988749895, -0.6180339887498949)
-(2.0, 1.0)
-None
-</pre>
-</blockquote>
+Note <code>cmath.sqrt</code> always returns a complex number, so our <code>quadratic_solve</code> function does as well. When the imaginary part 0j, the root is acutally real.$:
 {{End hidden}}
 
 === 3. The value of the golden ratio ===
 
-Deduce that
+Prove that
 
 $$
 \varphi=\frac{1+\sqrt{5}}{2}\approx1.618.
 $$
 
 {{Hidden solution}}
-
-Apply the function of question 2 to $a=1$, $b=-1$, $c=-1$:
-
 $$
-x_{1,2}=\frac{1\pm\sqrt{1+4}}{2}=\frac{1\pm\sqrt{5}}{2}.
-$$
-
-The 2 roots are therefore
-
-$$
-\begin{cases}
-x_1=\dfrac{1+\sqrt{5}}{2}\approx1.6180339887 \\
-x_2=\dfrac{1-\sqrt{5}}{2}\approx-0.6180339887
-\end{cases}
+\text{From definition, }\frac{a+b}{a}=\frac{a}{b} \\
+b(a+b)=a^2 \\
+a^2-b^2-ab=0
+\frac{}{b^2} \Rightarrow (\frac{a}{b})^2-1-\frac{a}{b}=0
+\text{Recall }\varphi=\frac{a}{b}
+\therefore \varphi^2-\varphi-1=0 \tag{1}
 $$
 
-Since $a>b>0$, $\varphi=\dfrac{a}{b}>1$, which selects the positive root:
+Use the quadratic root formula, and one gets
 
 $$
-\varphi=\frac{1+\sqrt{5}}{2}\approx1.618
+\varphi=\frac{1\pm \sqrt{5}}{2}
 $$
 
-The other root is $-\dfrac{1}{\varphi}$, the conjugate golden ratio, whose product with $\varphi$ is $-1$, as Vieta's relation $x_1x_2=\dfrac{c}{a}=-1$ requires.
+By convention, on takes the positive value $\varphi=\frac{1+\sqrt{5}}{2}$.
 
-Sympy confirms the value exactly, and confirms that it cancels the polynomial of question 1:
+Alternatively, we can also be lazy and solve (1) with the <code>quadratic_solve</code> function we just handrolled.
+
+Or with Sympy:
 
 <syntaxhighlight lang="python" class="pyodide" copy>
 import sympy as sp
@@ -444,21 +334,18 @@ x = sp.symbols("x")
 roots = sp.solve(x**2 - x - 1, x)        # x**2 - x - 1 = 0
 print("roots:", roots)
 
-phi_exact = (1 + sp.sqrt(5)) / 2
-print("positive root:", roots[1])
-print("difference from (1 + sqrt(5))/2:", sp.simplify(roots[1] - phi_exact))
-print("phi^2 - phi - 1 =", sp.simplify(phi_exact**2 - phi_exact - 1))
-print("phi =", sp.N(phi_exact, 20))
+phi = max(roots, key=lambda r: float(r)) # Pick the positive root, notice since roots are sympy objects, direct comparison does not work without float conversion.
+
+print("Phi:", phi)
+print(f"Phi (approximate): {float(phi):.3f}")
 </syntaxhighlight>
 
 Expected output:
 
 <pre>
 roots: [1/2 - sqrt(5)/2, 1/2 + sqrt(5)/2]
-positive root: 1/2 + sqrt(5)/2
-difference from (1 + sqrt(5))/2: 0
-phi^2 - phi - 1 = 0
-phi = 1.6180339887498948482
+Phi: 1/2 + sqrt(5)/2
+Phi (approximate): 1.618
 </pre>
 {{End hidden}}
 
@@ -470,11 +357,9 @@ $$
 F_{n+2}=F_{n+1}+F_n
 $$
 
-with $F_1=F_2=1$. Write a program that gives the terms of the sequence up to a rank $N$, set at the beginning of the program, for instance $N=20$.
+with $F_1=F_2=1$. Write a program that gives the terms of the sequence up to a rank $N$, set at the beginning of the program, i.e., $N=20$.
 
 {{Hidden solution}}
-
-Each new term needs the 2 previous ones, so the terms are accumulated in a list, which keeps them all available for questions 5 and 6.
 
 <syntaxhighlight lang="python" class="pyodide" copy>
 N = 20
@@ -484,7 +369,7 @@ for n in range(2, N):
     F.append(F[n - 1] + F[n - 2])       # F_{n+1} = F_n + F_{n-1}
 
 for n, f in enumerate(F, start=1):
-    print(f"F_{n:<2} = {f}")
+    print(f"F_{n:<2} = {f}") # <2 renders n as a string of minimum width 2.
 </syntaxhighlight>
 
 Expected output:
@@ -513,7 +398,7 @@ F_20 = 6765
 </pre>
 
 <blockquote>
-Python integers have no fixed width, so the loop does not overflow the way a Matlab <code>double</code> would: it can run to $N=1000$ and beyond. The terms only lose their exactness when they are converted to a float, which happens for $F_n$ at $n=1477$, the 1st term above $1.8\cdot10^{308}$.
+Python integers have no fixed upper limit, so the iterative loop can run to $N=1000$ and beyond (warning: it will take a while). The terms are automatically converted to a float approximation above $1.8\cdot10^{308}$, which happens for $F_n$ at $n=1477$.
 </blockquote>
 {{End hidden}}
 
@@ -523,18 +408,16 @@ Verify numerically that the ratio $\dfrac{F_{n+1}}{F_n}$ tends to the golden rat
 
 {{Hidden solution}}
 
-Print the ratio, its distance to $\varphi$, and that distance multiplied by $\varphi^{2n}$:
-
 <syntaxhighlight lang="python" class="pyodide" copy>
 import numpy as np
 
 phi = (1 + np.sqrt(5)) / 2
 
-print(f"{'n':>3}  {'F_{n+1}/F_n':>16}  {'|error|':>10}  {'|error| phi^(2n)':>17}")
+print(f"{'n':>3}  {'F_{n+1}/F_n':>16}  {'|error|':>10}")
 for n in range(1, N):
     r = F[n] / F[n - 1]                 # F_{n+1} / F_n
     err = abs(r - phi)
-    print(f"{n:3d}  {r:16.12f}  {err:10.2e}  {err * phi**(2 * n):17.6f}")
+    print(f"{n:3d}  {r:16.12f}  {err:10.2e}") # 16.12f: minimum width 16, 12 digits after decimal point, fixed-point notation (f). 10.2e: exponential notation (e)
 </syntaxhighlight>
 
 Expected output:
@@ -561,110 +444,47 @@ Expected output:
  18    1.618034055728    6.70e-08           2.236068
  19    1.618033963167    2.56e-08           2.236068
 </pre>
+As seen, the error decreases as $n$ increases, demonstrating convergence.
 
-The ratio does converge, and the last column is the interesting one: it settles at $2.236068$, which is $\sqrt{5}$, to 6 digits. The distance to $\varphi$ therefore behaves as
-
-$$
-\left|\frac{F_{n+1}}{F_n}-\varphi\right|\approx\sqrt{5}\,\varphi^{-2n}.
-$$
-
-That law follows from Binet's formula,
-
-$$
-F_n=\frac{\varphi^{n}-\psi^{n}}{\sqrt{5}},\,\psi=\frac{1-\sqrt{5}}{2}=-\frac{1}{\varphi},
-$$
-
-from which, since $\varphi-\psi=\sqrt{5}$,
-
-$$
-F_{n+1}-\varphi F_n=\frac{-\psi^{n+1}+\varphi\psi^{n}}{\sqrt{5}}=\frac{\psi^{n}\,(\varphi-\psi)}{\sqrt{5}}=\psi^{n},
-$$
-
-so that
-
-$$
-\frac{F_{n+1}}{F_n}-\varphi=\frac{\psi^{n}}{F_n}.
-$$
-
-Since $\psi<0$, the ratio alternates above and below $\varphi$, as the 2nd column of the output shows; and since $|\psi|^{n}=\varphi^{-n}$ while $F_n\approx\varphi^{n}/\sqrt{5}$, the distance falls like $\varphi^{-2n}$, that is, by a factor $\varphi^{2}\approx2.618$ at each step.
-
-[[File:Fibonacci ratio convergence.png|thumbnail|400px|alt=Two panels: the ratio of consecutive Fibonacci numbers oscillating about the golden ratio and settling on it; the absolute error on logarithmic axes following a straight line of slope minus 2 in the exponent|Left: the ratio $F_{n+1}/F_n$ against $\varphi$. Right: the absolute error $|F_{n+1}/F_n-\varphi|$ on a logarithmic scale, along the line $\sqrt{5}\,\varphi^{-2n}$. The convergence is geometric, with ratio $\varphi^{2}$. Illustration, not an output of the script above.]]
+[[File:Fibonacci ratio convergence.png|thumbnail|400px|alt=Two panels: the ratio of consecutive Fibonacci numbers oscillating about the golden ratio and settling on it; the absolute error on logarithmic axes following a straight line of slope minus 2 in the exponent|Left: the ratio $F_{n+1}/F_n$ against $\varphi$. Right: the absolute error $|F_{n+1}/F_n-\varphi|$ on a logarithmic scale, which interestingly follow the line $\sqrt{5}\,\varphi^{-2n}$. (Illustration, not an output of the script above)]]
 {{End hidden}}
 
 === 6. The golden spiral ===
 
-The golden spiral, built on the proportions of the golden ratio, is approximated by the logarithmic spiral of polar equation
+The golden spiral, built on the proportions of the golden ratio, can be drawn as the [[polar equation]]
 
 $$
-r(\theta)=Ae^{B\theta},\,B=\frac{\ln(\varphi)}{\pi/2},
+r(\theta)=A\varphi^{2\theta/\pi}
 $$
 
-or, as a parametric curve in Cartesian coordinates,
+where $A$ is the scale factor.
 
-$$
-\begin{cases}
-x=r(\theta)\cos(\theta) \\
-y=r(\theta)\sin(\theta)
-\end{cases}
-$$
-
-Plot the golden spiral, choosing an arbitrary value for $A$.
+Plot the golden spiral choosing an arbitrary value for $A$.
 
 {{Hidden solution}}
 
-$A$ is only a scale: it does not change the shape of the spiral, and $A=1$ is the simplest choice. The constant $B$ is set so that a quarter turn multiplies the radius by $\varphi$,
-
-$$
-\frac{r(\theta+\pi/2)}{r(\theta)}=e^{B\pi/2}=\varphi.
-$$
+$A$ is only a scale: it does not change the shape of the spiral, so choose the simplest choice $A=1$.
 
 <syntaxhighlight lang="python" class="pyodide" copy>
 import numpy as np
 import matplotlib.pyplot as plt
 
 phi = (1 + np.sqrt(5)) / 2
-B = np.log(phi) / (np.pi / 2)            # quarter turn = one factor phi
-A = 1.0                                  # arbitrary scale
+theta = np.linspace(0, 6 * np.pi, 1000)
+r = phi ** (2 * theta / np.pi)          # A = 1
 
-theta = np.linspace(0, 4 * np.pi, 800)
-r = A * np.exp(B * theta)
-
-plt.figure(figsize=(6, 5.6))
-plt.plot(r * np.cos(theta), r * np.sin(theta), lw=1.6, color="darkgoldenrod")
-plt.plot([0], [0], "k+", ms=12)          # the pole
-for k in range(8):                       # one mark at each quarter turn
-    turn = k * np.pi / 2
-    plt.plot(A * np.exp(B * turn) * np.cos(turn),
-             A * np.exp(B * turn) * np.sin(turn), "o", ms=3, color="black")
-plt.gca().set_aspect("equal")            # without this the spiral is not a spiral
-plt.xlabel("$x$")
-plt.ylabel("$y$")
-plt.title(r"Golden spiral, $r(\theta)=Ae^{B\theta}$")
-plt.grid(alpha=0.3)
+fig = plt.figure(figsize=(5, 5))
+ax = fig.add_subplot(projection="polar")   # or plt.subplots(subplot_kw={"projection": "polar"})
+ax.plot(theta, r, color="goldenrod", lw=2)
+ax.set_rlim(0, r.max())
+ax.set_rticks([5, 25, 100])
+ax.set_rlabel_position(67.5)               # where the r labels sit, in degrees
 plt.show()
-
-print("one quarter turn multiplies r by", np.exp(B * np.pi / 2))
-print("two whole turns multiply r by    ", np.exp(B * 4 * np.pi))
-print("phi**8 =                         ", phi**8)
 </syntaxhighlight>
 
-Expected output:
-
-<pre>
-one quarter turn multiplies r by 1.618033988749895
-two whole turns multiply r by     46.97871376374778
-phi**8 =                          46.978713763747805
-</pre>
-
-[[File:Golden spiral.png|thumbnail|400px|alt=A spiral coiling outwards from the centre, each quarter turn wider by the golden ratio|The golden spiral for $A=1$ and $0\le\theta\le4\pi$: 2 turns, during which the radius is multiplied by $\varphi^{8}\approx46.98$. The marks sit at each quarter turn.]]
-
-<blockquote>
-During 2 turns the radius grows by a factor $\varphi^{8}\approx47$, so the outer coil is far wider than the inner one and the 2 cannot both be seen in detail on the same figure. <code>set_aspect("equal")</code> keeps the circles centred on the origin circular: without it, the spiral looks elliptical.
-</blockquote>
+[[File:Golden spiral.png|thumbnail|400px|alt=A spiral coiling outwards from the centre, each quarter turn wider by the golden ratio|The golden spiral for $A=1$ and $0\le\theta\le4\pi$]]
 {{End hidden}}
 
 == References ==
 
 <references />
-
-[[Category:Function]]

@@ -374,9 +374,9 @@
     },
     "Cheatsheet:LinuxCLI/FileOps": {
       "path": "Cheatsheet/LinuxCLI/FileOps.wiki",
-      "revid": 10394,
-      "sha256": "72b585a56f1fbdeeceeff3770d0263df5a911a7bd8f4057b08ca5933e08948bf",
-      "synced_at": "2026-10-18T12:54:28+00:00"
+      "revid": 18155,
+      "sha256": "1a689d42bb25a5d98984854a162ca435ea867f720e3de87fec3e273cd3744381",
+      "synced_at": "2026-11-20T10:35:48+00:00"
     },
     "Cheatsheet:LinuxCLI/Password management": {
       "path": "Cheatsheet/LinuxCLI/Password management.wiki",
@@ -2378,9 +2378,9 @@
     },
     "Function/Practice/Functions with Python": {
       "path": "Main/Function/Practice/Functions with Python.wiki",
-      "revid": 18144,
-      "sha256": "46e5850dc2bd9e0cbc5a9b5fc55ce81a40a21b6fea0aa376b4c4d8de50c49798",
-      "synced_at": "2026-11-20T07:35:29+00:00"
+      "revid": 18153,
+      "sha256": "3e8a85368f7c74b0311da8791f53d5955081dd98462b57d67a4ec9899fdd9521",
+      "synced_at": "2026-11-20T10:35:48+00:00"
     },
     "Functional MRI (fMRI)": {
       "path": "Main/Functional MRI (fMRI).wiki",
@@ -10597,6 +10597,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-20T07:35:29+00:00",
+  "updated": "2026-11-20T10:35:48+00:00",
   "version": 1
 }
