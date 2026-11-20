@@ -3240,6 +3240,12 @@
       "sha256": "44ba6dcae81ceb8e3cc18eb07ec412c84caa4d6b2aa5b37387f1eb05878ded77",
       "synced_at": "2026-10-29T18:29:25+00:00"
     },
+    "Ordinary derivative/Practice/Calculation and plotting with Python": {
+      "path": "Main/Ordinary derivative/Practice/Calculation and plotting with Python.wiki",
+      "revid": 18117,
+      "sha256": "82ced3862f06d4f1cffda924e81d73e7a13a7837325020bc74c1682ad4f69b64",
+      "synced_at": "2026-11-20T06:17:00+00:00"
+    },
     "Ordinary differential equation": {
       "path": "Main/Ordinary differential equation.wiki",
       "revid": 10327,
@@ -7220,9 +7226,9 @@
     },
     "Single variable derivative/Practice/Calculation and plotting with Python": {
       "path": "Main/Single variable derivative/Practice/Calculation and plotting with Python.wiki",
-      "revid": 18110,
-      "sha256": "77010177381d577077c76ba280e6d1734987fab2e35704ffce76b59c5fc1af51",
-      "synced_at": "2026-11-20T05:20:03+00:00"
+      "revid": 18116,
+      "sha256": "51fa3778d6ca624dc9030016a258148d0b30bca084fde7f695f06b04766f58f7",
+      "synced_at": "2026-11-20T06:17:00+00:00"
     },
     "Sleeper effect": {
       "path": "Main/Sleeper effect.wiki",
@@ -10579,6 +10585,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-20T05:20:03+00:00",
+  "updated": "2026-11-20T06:17:00+00:00",
   "version": 1
 }

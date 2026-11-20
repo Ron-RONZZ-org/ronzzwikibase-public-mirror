@@ -1,0 +1,405 @@
+The four exercises below come from a practical-work handout written for Matlab created by my beloved teacher [[Person:Gautier List|M. Gautier List]]<ref>{{#cite:Q3733}}</ref>, which we solve here with NumPy and Matplotlib.
+
+== Exercise 1 ==
+
+Plot, on the same graph, with legends, a title, and symbols, the two Gaussian functions on $[-3,3]$:
+
+$$
+y_1(x)=\frac{\exp\left(-0.25x^{2}\right)}{\sqrt{2\pi}}
+$$
+
+$$
+y_2(x)=\frac{\exp\left(-0.5x^{2}\right)}{\sqrt{2\pi}}
+$$
+
+{{Hidden solution}}
+
+<blockquote>
+Caution: The square is written <code>x**2</code> in Python.: Python's <code>^</code> is the bitwise exclusive OR !
+</blockquote>
+
+<syntaxhighlight lang="python" class="pyodide" copy>
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.linspace(-3, 3, 400)                       # 400 points on [-3, 3]
+y_1 = np.exp(-0.25 * x**2) / np.sqrt(2 * np.pi)
+y_2 = np.exp(-0.5 * x**2) / np.sqrt(2 * np.pi)
+
+plt.figure(figsize=(7, 4.2))
+plt.plot(x, y_1, "-o", markevery=40, label=r"$y_1(x)=\exp(-0.25x^2)/\sqrt{2\pi}$")
+plt.plot(x, y_2, "--s", markevery=40, label=r"$y_2(x)=\exp(-0.5x^2)/\sqrt{2\pi}$")
+plt.xlabel("$x$")
+plt.ylabel("$y$")
+plt.title("Two Gaussian densities on $[-3, 3]$")
+plt.grid(alpha=0.3)
+plt.legend()
+plt.show()
+</syntaxhighlight>
+
+<blockquote>
+<code>markevery=40</code> places a symbol on every 40th point only: a marker on each of the 400 points would flood the curve.
+</blockquote>
+
+[[File:Two Gaussian densities over -3 to 3.png|thumbnail|300px|alt=Two bell curves on the interval from minus 3 to 3, the wider in blue with circle markers, the narrower in red with square markers|Both densities on $[-3,3]$, with the markers, the legend, and the title the exercise asks for.]]
+{{End hidden}}
+
+== Exercise 2 ==
+
+Plot, on the same graph, with legends, a title, and symbols, the four functions:
+
+# (a) $\exp(-0.5x^{2})/\sqrt{2\pi}$
+# (b) $\sin(x)$
+# (c) $\cos(x)$
+# (d) $|x|$
+
+{{Hidden solution}}
+
+<blockquote>
+Hint: <code>np.abs</code> calculates the element-wise absolute value.
+</blockquote>
+
+<syntaxhighlight lang="python" class="pyodide" copy>
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.linspace(-3, 3, 400)
+gauss = np.exp(-0.5 * x**2) / np.sqrt(2 * np.pi)
+
+plt.figure(figsize=(7, 4.2))
+plt.plot(x, gauss, "-o", markevery=40, label=r"$\exp(-0.5x^2)/\sqrt{2\pi}$")
+plt.plot(x, np.sin(x), "--s", markevery=40, label=r"$\sin x$")
+plt.plot(x, np.cos(x), "-.^", markevery=40, label=r"$\cos x$")
+plt.plot(x, np.abs(x), ":d", markevery=40, label=r"$|x|$")
+plt.xlabel("$x$")
+plt.ylabel("$y$")
+plt.title("A Gaussian, sine, cosine, and the absolute value on $[-3, 3]$")
+plt.ylim(-1.2, 3.2) 
+plt.grid(alpha=0.3)
+plt.legend()
+plt.show()
+</syntaxhighlight>
+
+[[File:Gaussian sine cosine and absolute value over -3 to 3.png|thumbnail|300px|alt=Four curves on the interval from minus 3 to 3: a Gaussian bump, a sine, a cosine, and a V-shaped absolute value|The four functions of Exercise 2 on a common window.]]
+
+{{End hidden}}
+
+== Exercise 3 ==
+
+Determine numerically the derivative of $\sin(x)$ for the steps $h=0.5$, $h=0.1$, and $h=0.01$, then compare the errors with the exact solution $\cos(x)$.
+
+Reminder, from the definition of the derivative:
+
+$$
+\frac{df}{dx}=f'(x)=\lim_{h\to0}\frac{f(x+h)-f(x)}{h}
+$$
+
+The limit is approximated by a finite $h\ll1$, which may be taken forward, backward, or centred:
+
+$$
+\begin{cases}
+f'(x)\approx\dfrac{f(x+h)-f(x)}{h} \\
+f'(x)\approx\dfrac{f(x)-f(x-h)}{h} \\
+f'(x)\approx\dfrac{f(x+h)-f(x-h)}{2h}
+\end{cases}
+$$
+
+{{Hidden solution}}
+
+The three grids are built with <code>np.linspace(-2, 2, n, retstep=True)</code>: the number of points is fixed, and the call returns the step <code>dx</code> that the grid really has, which is the step the quotients divide by. <code>np.arange</code> gives no such guarantee, since its last point depends on how the round-off of the successive additions accumulates, so the end point has to be tested and patched.
+
+<syntaxhighlight lang="python" class="pyodide" copy>
+import numpy as np
+import matplotlib.pyplot as plt
+
+def forward(f, h):
+    return (f[1:] - f[:-1]) / h                  # approximation of the derivative at x_i
+
+def backward(f, h):
+    return (f[1:] - f[:-1]) / h                  # same slopes, read as the derivative at x_{i+1}
+
+def centred(f, h):
+    return (f[2:] - f[:-2]) / (2 * h)            # interior points only
+
+# 1. the three steps of the question
+steps = [0.5, 0.1, 0.01]
+err_forward, err_centred = [], []
+
+for h in steps:
+    n = int(round(4 / h)) + 1                    # 9, 41, and 401 points on [-2, 2]
+    x, dx = np.linspace(-2, 2, n, retstep=True)  # dx: the step the grid really has
+    s = np.sin(x)
+
+    e_fwd = np.max(np.abs(forward(s, dx) - np.cos(x[:-1])))
+    e_bwd = np.max(np.abs(backward(s, dx) - np.cos(x[1:])))
+    e_cen = np.max(np.abs(centred(s, dx) - np.cos(x[1:-1])))
+
+    err_forward.append(e_fwd)
+    err_centred.append(e_cen)
+    print(f"h = {dx:<5} n = {x.size:<4} max|err| forward {e_fwd:.3e}  backward {e_bwd:.3e}  centred {e_cen:.3e}")
+
+# 2. the two panels: the quotients on the coarse grid, then the error against the step
+x, h = np.linspace(-2, 2, 9, retstep=True)       # 9 points, so h = 0.5
+s = np.sin(x)
+xx = np.linspace(-2, 2, 400)
+
+fig, ax = plt.subplots(1, 2, figsize=(10.5, 4.0))
+
+ax[0].plot(xx, np.cos(xx), "-", color="black", label=r"exact $\cos x$")
+ax[0].plot(x[:-1], forward(s, h), "o", label=r"forward, $h=0.5$")
+ax[0].plot(x[1:-1], centred(s, h), "s", label=r"centred, $h=0.5$")
+ax[0].set_xlabel("$x$")
+ax[0].set_ylabel(r"$f'(x)$")
+ax[0].set_title(r"Derivative of $\sin x$ from the grid, $h=0.5$")
+ax[0].grid(alpha=0.3)
+ax[0].legend()
+
+ax[1].loglog(steps, err_forward, "o-", label="forward / backward")
+ax[1].loglog(steps, err_centred, "s-", label="centred")
+ax[1].loglog(steps, np.array(steps) / 2, "k--", lw=1, label=r"$\propto h$")
+ax[1].loglog(steps, np.array(steps)**2 / 6, "k:", lw=1, label=r"$\propto h^2$")
+ax[1].set_xlabel("$h$")
+ax[1].set_ylabel("max|err|")
+ax[1].set_title("Maximum absolute error against the step")
+ax[1].grid(alpha=0.3, which="both")
+ax[1].legend()
+
+fig.tight_layout()
+plt.show()
+</syntaxhighlight>
+
+Expected output:
+
+<pre>
+h = 0.5   n = 9    max|err| forward 2.471e-01  backward 2.471e-01  centred 4.115e-02
+h = 0.1   n = 41   max|err| forward 4.999e-02  backward 4.999e-02  centred 1.666e-03
+h = 0.01  n = 401  max|err| forward 5.000e-03  backward 5.000e-03  centred 1.667e-05
+</pre>
+
+[[File:Numerical derivative of sine for three steps.png|thumbnail|300px|alt=Left panel: markers of the forward and centred differences about the exact cosine curve at the 9 points of the coarse grid. Right panel: two straight lines on logarithmic axes, the centred one steeper|Left: the quotients at $h=0.5$ against $\cos(x)$. Right: the maximum error against $h$, on logarithmic axes.]]
+
+<blockquote>
+On the right panel the error of the forward and backward quotients falls as $h$,
+
+$$
+\max|err| \propto h,
+$$
+
+while that of the centred quotient falls as $h^{2}$: the centred difference is the best of the three.
+</blockquote>
+
+{{End hidden}}
+
+== Exercise 4 ==
+
+Let $f$ be the function
+
+$$
+f(x)=2x^{3}+4x^{2}-3x+1
+$$
+
+for $-2.8\le x\le2.8$. Write a script that:
+
+# builds the vectors $X$ and $Y$ holding $x$ and $y=f(x)$ with a step $h=0.1$;
+# plots the curve $y=f(x)$ from $X$ and $Y$;
+# computes numerically, by several methods, the first derivative of $f$;
+# computes numerically, by several methods, the second derivative of $f$;
+# plots, on one graph, the first derivatives of 3 against the exact first derivative;
+# plots, on one graph, the second derivatives of 4 against the exact second derivative.
+
+{{Hidden solution}}
+
+First calculate the exact symbolic derivatives for reference with Sympy:
+
+<syntaxhighlight lang="python" class="pyodide" copy>
+import sympy as sp
+
+x = sp.symbols("x")
+f = 2*x**3 + 4*x**2 - 3*x + 1
+print("f(x) =", sp.expand(f))
+d1, d2 = sp.diff(f, x), sp.diff(f, x, 2)
+print()
+print("f'(x)  =", sp.expand(d1), "  ->  LaTeX:", sp.latex(d1))
+print("f''(x) =", sp.expand(d2), "  ->  LaTeX:", sp.latex(sp.expand(d2)))
+</syntaxhighlight>
+
+Expected output:
+
+<pre>
+f(x) = 2*x**3 + 4*x**2 - 3*x + 1
+f'(x)  = 6*x**2 + 8*x - 3   ->  LaTeX: 6 x^{2} + 8 x - 3
+f''(x) = 12*x + 8   ->  LaTeX: 12 x + 8
+</pre>
+
+In human form,
+$$
+\begin{cases}
+f'(x)=6x^{2}+8x-3 \\
+f''(x)=12x+8
+\end{cases}
+$$
+
+<syntaxhighlight lang="python" class="pyodide" copy>
+import numpy as np
+import matplotlib.pyplot as plt
+
+# 1. the function, and its exact derivatives
+def f(x):
+    return 2*x**3 + 4*x**2 - 3*x + 1
+
+def df(x):
+    return 6*x**2 + 8*x - 3              # exact first derivative
+
+def d2f(x):
+    return 12*x + 8                      # exact second derivative
+
+# 2. the vectors X and Y, with the step h = 0.1
+a, b, h = -2.8, 2.8, 0.1
+n = int(round((b - a) / h)) + 1          # 57 points including both end points
+X = np.linspace(a, b, n)
+Y = f(X)
+
+print("points:", X.size, " X[0] =", X[0], " X[-1] =", X[-1])
+
+# 3. first derivative, four ways
+d1_forward  = (Y[1:] - Y[:-1]) / h
+d1_backward = (Y[1:] - Y[:-1]) / h
+d1_centred  = (Y[2:] - Y[:-2]) / (2 * h)
+d1_gradient = np.gradient(Y, h) 
+
+# 4. second derivative, two ways
+def second_difference(Y, h):
+    d2 = np.empty(Y.size)
+    d2[1:-1] = (Y[2:] - 2*Y[1:-1] + Y[:-2]) / h**2            # centred, interior points
+    return d2
+
+d2_direct   = second_difference(Y, h)
+d2_gradient = np.gradient(d1_gradient, h)
+
+# 5. the error of each method against the exact references
+def report(name, approx, exact):
+    print(f"{name:<30} max|err| = {np.max(np.abs(approx - exact)):.3e}")
+
+report("f' forward", d1_forward, df(X[:-1]))
+report("f' backward", d1_backward, df(X[1:]))
+report("f' centred", d1_centred, df(X[1:-1]))
+report("f' np.gradient", d1_gradient, df(X))
+report("f'' centred", d2_direct[1:-1], d2f(X[1:-1]))
+report("f'' centred, closed ends", d2_direct, d2f(X))
+report("f'' np.gradient twice", d2_gradient, d2f(X))
+report("f'' np.gradient, interior", d2_gradient[2:-2], d2f(X[2:-2]))
+
+# 6. the three graphs of questions 2, 5, and 6
+fig, ax = plt.subplots(1, 3, figsize=(12, 3.4))
+
+ax[0].plot(X, Y, "-")                                   # question 2
+ax[0].set_title(r"$y=f(x)$ on $[-2.8,\,2.8]$, $h=0.1$")
+ax[0].set_xlabel("$x$")
+ax[0].set_ylabel("$f(x)$")
+
+ax[1].plot(X, df(X), "-", color="black", lw=2, label="exact $f'(x)$")   # question 5
+ax[1].plot(X[:-1], d1_forward, "o", ms=3, label="forward")
+ax[1].plot(X[1:], d1_backward, "x", ms=3, label="backward")
+ax[1].plot(X[1:-1], d1_centred, "s", ms=2.5, label="centred")
+ax[1].plot(X, d1_gradient, "--", lw=0.9, label="numpy.gradient")
+ax[1].set_title("First derivative, numerical methods and exact")
+ax[1].set_xlabel("$x$")
+ax[1].set_ylabel("$f'(x)$")
+ax[1].legend(fontsize=6)
+
+ax[2].plot(X, d2f(X), "-", color="black", lw=2, label="exact $f''(x)$")  # question 6
+ax[2].plot(X[1:-1], d2_direct[1:-1], "s", ms=2.5, label="centred 2nd difference")
+ax[2].plot(X[[0, -1]], d2_direct[[0, -1]], "^", ms=6, label="one-sided 2nd difference")
+ax[2].plot(X, d2_gradient, ":", lw=1.2, label="numpy.gradient twice")
+ax[2].set_title("Second derivative, numerical methods and exact")
+ax[2].set_xlabel("$x$")
+ax[2].set_ylabel("$f''(x)$")
+ax[2].legend(fontsize=6)
+
+for axis in ax:
+    axis.grid(alpha=0.3)
+fig.tight_layout()
+plt.show()
+</syntaxhighlight>
+
+Expected output:
+
+<pre>
+points: 57  X[0] = -2.8  X[-1] = 2.8
+f' forward                     max|err| = 2.040e+00
+f' backward                    max|err| = 2.060e+00
+f' centred                     max|err| = 2.000e-02
+f' np.gradient                 max|err| = 2.060e+00
+f'' centred                    max|err| = 4.015e-12
+f'' centred, closed ends       max|err| = 1.105e-11
+f'' np.gradient twice          max|err| = 2.140e+01
+f'' np.gradient, interior      max|err| = 1.165e-12
+</pre>
+
+[[File:Cubic polynomial with its numerical derivatives.png|thumbnail|300px|alt=Three panels: the cubic curve; its first derivative with four numerical versions falling on the exact parabola; its second derivative as a straight line with a spurious drop at both ends|Left: $f$ on $[-2.8,2.8]$. Middle: the first derivative by four methods against $f'$. Right: the second derivative against $f''$, where the double <code>np.gradient</code> breaks down at both ends.]]
+
+<blockquote>
+Notice something strange:
+
+<pre>
+f'' np.gradient twice          max|err| = 2.140e+01
+</pre>
+
+This is an error of $21.4$! Astronomical in this case!
+
+But why?
+{{Hidden explanation}}
+<code>np.gradient</code> is highly accurate on the interior points of a range, where it applies the centred formula
+
+$$
+\tilde f'(x_i)=\frac{f_{i+1}-f_{i-1}}{2h},
+$$
+
+with $h\ll 1$ (really, really small $h$).
+
+but a centred formula needs points to the left and right of the target point, and the two end points have only a point either to the right or to the left. Hence for $n$ points $x_0,\dots,x_{n-1}$, <code>np.gradient</code> applies the forward/backward formulae:
+
+$$
+\tilde f'(x_0)=\frac{f_1-f_0}{h}, \qquad \tilde f'(x_{n-1})=\frac{f_{n-1}-f_{n-2}}{h},
+$$
+
+which is not that accurate: It returns $20.38$ for $f'(-2.8)=21.64$, A second call to <code>np.gradient</code> then divides that error by $2h=0.2$, multiplying the error 5 folds, blowing it increasingly out of proportion.
+
+So what is the real solution?
+
+{{Hidden solution}}
+Either use really, really $h\ll 1$ (like $10^{-5}$, etc.), or cheat:
+
+Instead of 
+
+<syntaxhighlight lang="python" copy>
+a, b, h = -2.8, 2.8, 0.1
+n = int(round((b - a) / h)) + 1          # 57 points including both end points
+X = np.linspace(a, b, n)
+</syntaxhighlight>
+
+Write
+
+<syntaxhighlight lang="python" copy>
+a, b, h = -2.8, 2.8, 0.1
+n = int(round((b - a) / h)) + 1          # 57 points including both end points
+X = np.linspace(a-h, b+h, n+2)
+</syntaxhighlight>
+
+Then after graphing, discard the two additional points
+
+<syntaxhighlight lang="python" copy>
+X=X[1:]
+Y=Y[1:]
+d1_gradient=d1_gradient[1:]
+d2_gradient=d2_gradient[1:]
+</syntaxhighlight>
+
+{{End hidden}}
+{{End hidden}}
+</blockquote>
+{{End hidden}}
+
+== References ==
+
+<references />
