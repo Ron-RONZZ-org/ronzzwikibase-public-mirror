@@ -108,47 +108,51 @@ $$
 
 {{Hidden solution}}
 
-<syntaxhighlight lang="python" class="pyodide" copy>
-h = 0.5                                          # modify for different precisions
-x = np.arange(-2, 2 + h/2, h)
-s = np.sin(x)
-xx = np.linspace(-2, 2, 400)
+The three grids are built with <code>np.linspace(-2, 2, n, retstep=True)</code>: the number of points is fixed, and the call returns the step <code>dx</code> that the grid really has, which is the step the quotients divide by. <code>np.arange</code> gives no such guarantee, since its last point depends on how the round-off of the successive additions accumulates, so the end point has to be tested and patched.
 
+<syntaxhighlight lang="python" class="pyodide" copy>
 import numpy as np
 import matplotlib.pyplot as plt
 
 def forward(f, h):
-    return (f[1:] - f[:-1]) / h                  # approximation of derivative of x_i
+    return (f[1:] - f[:-1]) / h                  # approximation of the derivative at x_i
 
 def backward(f, h):
-    return (f[1:] - f[:-1]) / h                  # same slopes, but considered approximation of derivative of x_{i+1}
+    return (f[1:] - f[:-1]) / h                  # same slopes, read as the derivative at x_{i+1}
 
 def centred(f, h):
     return (f[2:] - f[:-2]) / (2 * h)            # interior points only
 
+# 1. the three steps of the question
 steps = [0.5, 0.1, 0.01]
 err_forward, err_centred = [], []
 
 for h in steps:
-    x = np.arange(-2, 2 + h/2, h)                # + h/2 keeps x = 2 on the grid
+    n = int(round(4 / h)) + 1                    # 9, 41, and 401 points on [-2, 2]
+    x, dx = np.linspace(-2, 2, n, retstep=True)  # dx: the step the grid really has
     s = np.sin(x)
 
-    e_fwd = np.max(np.abs(forward(s, h) - np.cos(x[:-1])))
-    e_bwd = np.max(np.abs(backward(s, h) - np.cos(x[1:])))
-    e_cen = np.max(np.abs(centred(s, h) - np.cos(x[1:-1])))
+    e_fwd = np.max(np.abs(forward(s, dx) - np.cos(x[:-1])))
+    e_bwd = np.max(np.abs(backward(s, dx) - np.cos(x[1:])))
+    e_cen = np.max(np.abs(centred(s, dx) - np.cos(x[1:-1])))
 
     err_forward.append(e_fwd)
     err_centred.append(e_cen)
-    print(f"h = {h:<5} n = {x.size:<4} max|err| forward {e_fwd:.3e}  backward {e_bwd:.3e}  centred {e_cen:.3e}")
+    print(f"h = {dx:<5} n = {x.size:<4} max|err| forward {e_fwd:.3e}  backward {e_bwd:.3e}  centred {e_cen:.3e}")
 
-fig, ax = plt.subplots(1, 2, figsize=(10.5, 3.8))
+# 2. the two panels: the quotients on the coarse grid, then the error against the step
+x, h = np.linspace(-2, 2, 9, retstep=True)       # 9 points, so h = 0.5
+s = np.sin(x)
+xx = np.linspace(-2, 2, 400)
+
+fig, ax = plt.subplots(1, 2, figsize=(10.5, 4.0))
 
 ax[0].plot(xx, np.cos(xx), "-", color="black", label=r"exact $\cos x$")
 ax[0].plot(x[:-1], forward(s, h), "o", label=r"forward, $h=0.5$")
 ax[0].plot(x[1:-1], centred(s, h), "s", label=r"centred, $h=0.5$")
 ax[0].set_xlabel("$x$")
 ax[0].set_ylabel(r"$f'(x)$")
-ax[0].set_title(r"Derivative of $\sin x$ from the grid values")
+ax[0].set_title(r"Derivative of $\sin x$ from the grid, $h=0.5$")
 ax[0].grid(alpha=0.3)
 ax[0].legend()
 
@@ -158,7 +162,7 @@ ax[1].loglog(steps, np.array(steps) / 2, "k--", lw=1, label=r"$\propto h$")
 ax[1].loglog(steps, np.array(steps)**2 / 6, "k:", lw=1, label=r"$\propto h^2$")
 ax[1].set_xlabel("$h$")
 ax[1].set_ylabel("max|err|")
-ax[1].set_title("Error against the step")
+ax[1].set_title("Maximum absolute error against the step")
 ax[1].grid(alpha=0.3, which="both")
 ax[1].legend()
 
@@ -174,16 +178,16 @@ h = 0.1   n = 41   max|err| forward 4.999e-02  backward 4.999e-02  centred 1.666
 h = 0.01  n = 401  max|err| forward 5.000e-03  backward 5.000e-03  centred 1.667e-05
 </pre>
 
-[[File:Numerical derivative of sine for three steps.png|thumb|alt=Left panel: markers of the forward difference around the exact cosine curve. Right panel: two straight lines on logarithmic axes, the centred one steeper|Left: the three quotients at $h=0.5$ against $\cos(x)$. Right: the maximum error against $h$, on logarithmic axes.]]
+[[File:Numerical derivative of sine for three steps.png|thumb|alt=Left panel: markers of the forward and centred differences about the exact cosine curve at the 9 points of the coarse grid. Right panel: two straight lines on logarithmic axes, the centred one steeper|Left: the quotients at $h=0.5$ against $\cos(x)$. Right: the maximum error against $h$, on logarithmic axes.]]
 
 <blockquote>
-As seen
+On the right panel the error of the forward and backward quotients falls as $h$,
 
 $$
-\max |err| \propto h
+\max|err| \propto h,
 $$
 
-and centered method gives the best numerical approximation.
+while that of the centred quotient falls as $h^{2}$: the centred difference is the best of the three.
 </blockquote>
 
 {{End hidden}}
@@ -206,22 +210,61 @@ for $-2.8\le x\le2.8$. Write a script that:
 # plots, on one graph, the second derivatives of 4 against the exact second derivative.
 
 {{Hidden solution}}
-<!-- show calculation via sympy, don't assume -->
-The exact derivatives, used as references, are
+
+The exact derivatives, used as references, follow from the power rule applied term by term, which SymPy carries out rather than the reader taking it on trust:
+
+<syntaxhighlight lang="python" class="pyodide" copy>
+import sympy as sp
+
+x = sp.symbols("x")
+f = 2*x**3 + 4*x**2 - 3*x + 1
+
+print("f(x) =", sp.expand(f))
+print()
+for term in sorted(sp.Add.make_args(f), key=lambda t: -sp.degree(t, x)):
+    print(f"   d/dx  ({str(term):<6}) = {sp.diff(term, x)}")
+    print(f"   d2/dx2({str(term):<6}) = {sp.diff(term, x, 2)}")
+
+d1, d2 = sp.diff(f, x), sp.diff(f, x, 2)
+print()
+print("f'(x)  =", sp.expand(d1), "  ->  LaTeX:", sp.latex(d1))
+print("f''(x) =", sp.expand(d2), "  ->  LaTeX:", sp.latex(sp.expand(d2)))
+</syntaxhighlight>
+
+Output:
+
+<pre>
+f(x) = 2*x**3 + 4*x**2 - 3*x + 1
+
+   d/dx  (2*x**3) = 6*x**2
+   d2/dx2(2*x**3) = 12*x
+   d/dx  (4*x**2) = 8*x
+   d2/dx2(4*x**2) = 8
+   d/dx  (-3*x  ) = -3
+   d2/dx2(-3*x  ) = 0
+   d/dx  (1     ) = 0
+   d2/dx2(1     ) = 0
+
+f'(x)  = 6*x**2 + 8*x - 3   ->  LaTeX: 6 x^{2} + 8 x - 3
+f''(x) = 12*x + 8   ->  LaTeX: 12 x + 8
+</pre>
+
+so the references are
 
 $$
-f'(x)=6x^{2}+8x-3
-$$
-
-$$
+\begin{cases}
+f'(x)=6x^{2}+8x-3 \\
 f''(x)=12x+8
+\end{cases}
 $$
 
-<!-- merge the two code snippets below into 1. clearly separate sections with # {section title} -->
+One script answers the six questions, each under its own numbered section:
 
 <syntaxhighlight lang="python" class="pyodide" copy>
 import numpy as np
+import matplotlib.pyplot as plt
 
+# 1. the function, and its exact derivatives
 def f(x):
     return 2*x**3 + 4*x**2 - 3*x + 1
 
@@ -231,6 +274,7 @@ def df(x):
 def d2f(x):
     return 12*x + 8                      # exact second derivative
 
+# 2. the vectors X and Y, with the step h = 0.1
 a, b, h = -2.8, 2.8, 0.1
 n = int(round((b - a) / h)) + 1          # 57 points, both end points included
 X = np.linspace(a, b, n)
@@ -238,48 +282,40 @@ Y = f(X)
 
 print("points:", X.size, " X[0] =", X[0], " X[-1] =", X[-1])
 
+# 3. first derivative, four ways
 d1_forward  = (Y[1:] - Y[:-1]) / h
 d1_backward = (Y[1:] - Y[:-1]) / h
 d1_centred  = (Y[2:] - Y[:-2]) / (2 * h)
 d1_gradient = np.gradient(Y, h)          # centred inside, one-sided at the two ends
 
-d2_centred  = (Y[2:] - 2*Y[1:-1] + Y[:-2]) / h**2
-d2_gradient = np.gradient(d1_gradient, h)   # the first difference applied twice
+# 4. second derivative, two ways
+def second_difference(Y, h):
+    d2 = np.empty(Y.size)
+    d2[1:-1] = (Y[2:] - 2*Y[1:-1] + Y[:-2]) / h**2            # centred, interior points
+    d2[0]    = (2*Y[0]  - 5*Y[1]  + 4*Y[2]  - Y[3] ) / h**2   # 4-point closure, left end
+    d2[-1]   = (2*Y[-1] - 5*Y[-2] + 4*Y[-3] - Y[-4]) / h**2   # 4-point closure, right end
+    return d2
 
+d2_direct   = second_difference(Y, h)
+d2_gradient = np.gradient(d1_gradient, h)      # kept to show why it fails at the ends
+
+# 5. the error of each method against the exact references
 def report(name, approx, exact):
-    print(f"{name:<28} max|err| = {np.max(np.abs(approx - exact)):.3e}")
+    print(f"{name:<30} max|err| = {np.max(np.abs(approx - exact)):.3e}")
 
 report("f' forward", d1_forward, df(X[:-1]))
 report("f' backward", d1_backward, df(X[1:]))
 report("f' centred", d1_centred, df(X[1:-1]))
 report("f' np.gradient", d1_gradient, df(X))
-report("f'' centred", d2_centred, d2f(X[1:-1]))
+report("f'' centred", d2_direct[1:-1], d2f(X[1:-1]))
+report("f'' centred, closed ends", d2_direct, d2f(X))
 report("f'' np.gradient twice", d2_gradient, d2f(X))
 report("f'' np.gradient, interior", d2_gradient[2:-2], d2f(X[2:-2]))
-</syntaxhighlight>
 
-Output:
-
-<pre>
-points: 57  X[0] = -2.8  X[-1] = 2.8
-f' forward                   max|err| = 2.040e+00
-f' backward                  max|err| = 2.060e+00
-f' centred                   max|err| = 2.000e-02
-f' np.gradient               max|err| = 2.060e+00
-f'' centred                  max|err| = 4.015e-12
-f'' np.gradient twice        max|err| = 2.140e+01
-f'' np.gradient, interior    max|err| = 1.165e-12
-</pre>
-
-The same script draws the three graphs of questions 2, 5, and 6:
-
-<syntaxhighlight lang="python" class="pyodide" copy>
-import numpy as np
-import matplotlib.pyplot as plt
-
+# 6. the three graphs of questions 2, 5, and 6
 fig, ax = plt.subplots(1, 3, figsize=(12, 3.4))
 
-ax[0].plot(X, Y, "-")                            # question 2
+ax[0].plot(X, Y, "-")                                   # question 2
 ax[0].set_title(r"$y=f(x)$ on $[-2.8,\,2.8]$, $h=0.1$")
 ax[0].set_xlabel("$x$")
 ax[0].set_ylabel("$f(x)$")
@@ -295,7 +331,8 @@ ax[1].set_ylabel("$f'(x)$")
 ax[1].legend(fontsize=6)
 
 ax[2].plot(X, d2f(X), "-", color="black", lw=2, label="exact $f''(x)$")  # question 6
-ax[2].plot(X[1:-1], d2_centred, "s", ms=2.5, label="centred 2nd difference")
+ax[2].plot(X[1:-1], d2_direct[1:-1], "s", ms=2.5, label="centred 2nd difference")
+ax[2].plot(X[[0, -1]], d2_direct[[0, -1]], "^", ms=6, label="one-sided 2nd difference")
 ax[2].plot(X, d2_gradient, ":", lw=1.2, label="numpy.gradient twice")
 ax[2].set_title("Second derivative, numerical methods and exact")
 ax[2].set_xlabel("$x$")
@@ -308,9 +345,95 @@ fig.tight_layout()
 plt.show()
 </syntaxhighlight>
 
+Output:
+
+<pre>
+points: 57  X[0] = -2.8  X[-1] = 2.8
+f' forward                     max|err| = 2.040e+00
+f' backward                    max|err| = 2.060e+00
+f' centred                     max|err| = 2.000e-02
+f' np.gradient                 max|err| = 2.060e+00
+f'' centred                    max|err| = 4.015e-12
+f'' centred, closed ends       max|err| = 1.105e-11
+f'' np.gradient twice          max|err| = 2.140e+01
+f'' np.gradient, interior      max|err| = 1.165e-12
+</pre>
+
 [[File:Cubic polynomial with its numerical derivatives.png|thumb|alt=Three panels: the cubic curve; its first derivative with four numerical versions falling on the exact parabola; its second derivative as a straight line with a spurious drop at both ends|Left: $f$ on $[-2.8,2.8]$. Middle: the first derivative by four methods against $f'$. Right: the second derivative against $f''$, where the double <code>np.gradient</code> breaks down at both ends.]]
 
-<!-- why np.gradient breaks down? Fix it! -->
+=== Why the double <code>np.gradient</code> breaks down at the ends ===
+
+<code>np.gradient</code> is exact on the interior points, where it applies the centred formula
+
+$$
+\tilde f'(x_i)=\frac{f_{i+1}-f_{i-1}}{2h},
+$$
+
+but a centred formula needs a point on each side, and the two end points have none. numpy closes the array there with the 2-point one-sided difference of the default <code>edge_order=1</code>,
+
+$$
+\tilde f'(x_0)=\frac{f_1-f_0}{h}, \qquad \tilde f'(x_{n-1})=\frac{f_{n-1}-f_{n-2}}{h},
+$$
+
+which is only first-order accurate: it returns $20.38$ for $f'(-2.8)$, against the exact $21.64$. A second call then divides that error by $2h=0.2$, so one wrong slope at an end injects an error of order $1$ into the neighbouring second difference, which is what the $2.1\cdot10^{1}$ above measures, at the two ends and nowhere else.
+
+The end values of the double call can be written out exactly. Substituting the two end formulas in the centred second difference gives
+
+$$
+\begin{cases}
+\tilde f''(x_0)=\dfrac{f_0-2f_1+f_2}{2h^{2}}=\dfrac{1}{2}\tilde f''_{\mathrm{c}}(x_1) \\
+\tilde f''(x_{n-1})=\dfrac{f_{n-3}-2f_{n-2}+f_{n-1}}{2h^{2}}=\dfrac{1}{2}\tilde f''_{\mathrm{c}}(x_{n-2})
+\end{cases}
+$$
+
+where $\tilde f''_{\mathrm{c}}$ is the centred second difference, so the double call reports, at each end, half the second derivative of the neighbouring point, at the wrong abscissa: $-12.2$ instead of $-25.6$, and $20.2$ instead of $41.6$.
+
+Raising <code>edge_order=2</code> repairs the two end slopes, but a second difference built from first differences still loses an order: the error then decays as $h$, that is by a factor $2$ at each halving, and it stands at $9.0\cdot10^{-1}$ on this cubic, whose second derivative the direct centred formula reproduces to $4.0\cdot10^{-12}$.
+
+The fix is to close the second difference itself, with a 4-point one-sided formula at each end:
+
+$$
+\begin{cases}
+\tilde f''(x_i)=\dfrac{f_{i+1}-2f_i+f_{i-1}}{h^{2}} \quad 1\le i\le n-2 \\
+\tilde f''(x_0)=\dfrac{2f_0-5f_1+4f_2-f_3}{h^{2}} \\
+\tilde f''(x_{n-1})=\dfrac{2f_{n-1}-5f_{n-2}+4f_{n-3}-f_{n-4}}{h^{2}}
+\end{cases}
+$$
+
+The $2,-5,4,-1$ stencil is exact on a cubic, and second-order accurate otherwise, so both ends join the interior at the same order. That is the <code>second_difference</code> function of the script, and it takes the maximum error from $2.1\cdot10^{1}$ to $1.1\cdot10^{-11}$. On a function that is not a polynomial, where the error is a genuine truncation error, the defect of the double call stands out further, because it does not shrink with $h$ at all while the closure drops by a factor $4$ at each halving:
+
+<syntaxhighlight lang="python" class="pyodide" copy>
+import numpy as np
+
+def second_difference(Y, h):
+    d2 = np.empty(Y.size)
+    d2[1:-1] = (Y[2:] - 2*Y[1:-1] + Y[:-2]) / h**2
+    d2[0]    = (2*Y[0]  - 5*Y[1]  + 4*Y[2]  - Y[3] ) / h**2
+    d2[-1]   = (2*Y[-1] - 5*Y[-2] + 4*Y[-3] - Y[-4]) / h**2
+    return d2
+
+# a function that is not a polynomial, so the error is a genuine truncation error
+g   = lambda t: np.exp(0.3 * t)
+d2g = lambda t: 0.3**2 * np.exp(0.3 * t)
+
+for n in (57, 113, 225):
+    X, h = np.linspace(-2.8, 2.8, n, retstep=True)
+    Y = g(X)
+    e_closed = np.max(np.abs(second_difference(Y, h) - d2g(X)))
+    e_nested = np.max(np.abs(np.gradient(np.gradient(Y, h), h) - d2g(X)))
+    print(f"h = {h:.4f}   closed {e_closed:.2e}   nested {e_nested:.2e}")
+</syntaxhighlight>
+
+Output:
+
+<pre>
+h = 0.1000   closed 1.66e-04   nested 1.07e-01
+h = 0.0500   closed 4.23e-05   nested 1.06e-01
+h = 0.0250   closed 1.07e-05   nested 1.05e-01
+</pre>
+
+The whole error of the double call sits at the two ends, where it is about half the second derivative itself, while the interior still converges at second order: restricting the comparison to the interior points gives $5.7\cdot10^{-5}$, $1.5\cdot10^{-5}$, and $3.8\cdot10^{-6}$.
+
 {{End hidden}}
 
 == References ==

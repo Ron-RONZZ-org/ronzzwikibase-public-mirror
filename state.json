@@ -7124,9 +7124,9 @@
     },
     "Screw theory": {
       "path": "Main/Screw theory.wiki",
-      "revid": 9919,
-      "sha256": "b52d2aae312693f7df03be73869d2b58ce69109d38f674124defc2a4a5fdf1d7",
-      "synced_at": "2026-10-18T07:12:56+00:00"
+      "revid": 18111,
+      "sha256": "cafde858fe61033439eb2f719ce0b5a47607753980e07516178229e7e1b2e997",
+      "synced_at": "2026-11-20T05:20:03+00:00"
     },
     "Script (social psychology)": {
       "path": "Main/Script (social psychology).wiki",
@@ -7220,9 +7220,9 @@
     },
     "Single variable derivative/Practice/Calculation and plotting with Python": {
       "path": "Main/Single variable derivative/Practice/Calculation and plotting with Python.wiki",
-      "revid": 18105,
-      "sha256": "7bf338c6153b4071faf09b5f3ce20ba868f9e18f1f5fcb7e58c37f8b6fee9a74",
-      "synced_at": "2026-11-20T05:10:23+00:00"
+      "revid": 18110,
+      "sha256": "77010177381d577077c76ba280e6d1734987fab2e35704ffce76b59c5fc1af51",
+      "synced_at": "2026-11-20T05:20:03+00:00"
     },
     "Sleeper effect": {
       "path": "Main/Sleeper effect.wiki",
@@ -10579,6 +10579,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-20T05:10:23+00:00",
+  "updated": "2026-11-20T05:20:03+00:00",
   "version": 1
 }

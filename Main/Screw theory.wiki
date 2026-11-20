@@ -50,9 +50,9 @@ $$
 
 analog to classic screws.
 
-== Screws describing forces and torques ==
+== Forces and torques ==
 
-A wrench describes external forces on a solid or a system and their associated moments, also known as '''torques''', according to a reference point.
+A '''wrench''' describes external forces on a solid or a system and their associated moments, also known as '''torques''', according to a reference point.
 
 === Wrench (discrete forces) ===
 
@@ -70,7 +70,7 @@ $$
 
 === Twist ===
 
-Wrench is the screw of the rotational velocity vector of solid $S$ according to a given reference and its associated moment vector, the linear velocity vector at a given point.
+'''Twist''' is the screw of the rotational velocity vector of solid $S$ according to a given reference and its associated moment vector, the linear velocity vector at a given point.
 
 $$
 \mathcal{\{V}(S/R)\}_A=\left\{\begin{matrix}\vec \omega_{S/R} \\ \vec v_{A,S/R}\end{matrix}\right\}
