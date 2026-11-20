@@ -2376,6 +2376,12 @@
       "sha256": "5fb0bf5e6a82eaf0bbde6d2e0045529409f918090936951dda816917f29ad1ae",
       "synced_at": "2026-11-15T19:07:26+00:00"
     },
+    "Function/Practice/Functions with Python": {
+      "path": "Main/Function/Practice/Functions with Python.wiki",
+      "revid": 18144,
+      "sha256": "46e5850dc2bd9e0cbc5a9b5fc55ce81a40a21b6fea0aa376b4c4d8de50c49798",
+      "synced_at": "2026-11-20T07:35:29+00:00"
+    },
     "Functional MRI (fMRI)": {
       "path": "Main/Functional MRI (fMRI).wiki",
       "revid": 13039,
@@ -10591,6 +10597,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-20T07:22:10+00:00",
+  "updated": "2026-11-20T07:35:29+00:00",
   "version": 1
 }
