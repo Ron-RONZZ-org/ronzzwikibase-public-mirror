@@ -7166,9 +7166,9 @@
     },
     "Screw theory": {
       "path": "Main/Screw theory.wiki",
-      "revid": 18194,
-      "sha256": "6dcd4e8d31a9f7152307b78a73a0a88a23d09a9334633906063ccb9ecdce89a0",
-      "synced_at": "2026-11-20T13:10:04+00:00"
+      "revid": 18197,
+      "sha256": "108b6a8f21be408f2f8a6db638006bbd1be618abb575ad4b84e2ac8b1801e37a",
+      "synced_at": "2026-11-20T14:49:31+00:00"
     },
     "Script (social psychology)": {
       "path": "Main/Script (social psychology).wiki",
@@ -10651,6 +10651,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-20T13:10:04+00:00",
+  "updated": "2026-11-20T14:49:31+00:00",
   "version": 1
 }

@@ -37,7 +37,7 @@ $$
 \begin{Bmatrix}
 \displaystyle \int_K \vec{R}(P)\,dP \\[6pt]
 \displaystyle \int_K \overrightarrow{AP}\times \vec{R}(P)\,dP
-\end{Bmatrix}_A .
+\end{Bmatrix}.
 $$
 
 is an '''integrated screw'''.
@@ -49,6 +49,41 @@ $$
 $$
 
 analogous to classic screws.
+
+=== Relationship between classic and integrated screws ===
+
+All integrated screws can be converted into classic screws.
+
+{{Hidden explanation}}
+For 
+
+$$
+\{\mathcal{U}\}_A=
+\begin{Bmatrix}
+\displaystyle \int_K \vec{R}(P)\,dP \\[6pt]
+\displaystyle \int_K \overrightarrow{AP}\times \vec{R}(P)\,dP
+\end{Bmatrix}.
+$$
+
+Define
+
+$$
+\vec{\mathcal{R}}=\int_K \vec{R}(P)\,dP \\
+\vec{\mathcal{M}}_A=\int_K \overrightarrow{AP}\times \vec{R}(P)\,dP
+$$
+
+Then
+
+$$
+\vec{\mathcal{M}}_B=\vec{\mathcal{M}}_A+\overrightarrow{BA} \times \vec{\mathcal{R}}\\
+\{\mathcal{U}\}_A=
+\begin{Bmatrix}
+\vec{\mathcal{R}}\\
+\vec{\mathcal{M}}_A
+\end{Bmatrix}.
+$$
+{{End hidden}}
+</blockquote>
 
 == Forces and torques ==
 
@@ -131,56 +166,59 @@ $$
 \{\mathcal{K}\}_A=
 \begin{Bmatrix}
 \displaystyle \vec{p}=\int_K \vec{v}(M)\,dm=m\vec{v}(C) \\[6pt]
-\displaystyle \vec{\sigma}_A=\int_K \overrightarrow{AM}\times \vec{v}(M)\,dm
+\displaystyle \vec{L}_A=\int_K \overrightarrow{AM}\times \vec{v}(M)\,dm
 \end{Bmatrix}_A .
 $$
 
-The rows are separate physical quantities:
+where 
 
-* the resultant $\vec{p}$ is the '''linear momentum''' of $K$;
-* the moment $\vec{\sigma}_A$ is the '''angular momentum''' of $K$ about $A$.
+* $\vec{v}(M)$ is the velocity of the mass element $dm$ in the chosen reference frame;
+* $C$ is the centre of mass of $K$.
 
-So the moment row is not "$\vec{p}$ taken at $A$": it is the angular momentum, which the resultant does not determine.
+Then by definition,
 
-Here $\vec{v}(M)$ is the velocity of the mass element $dm$ in the chosen reference frame, $C$ is the centre of mass of $K$, and the identity $\int_K \vec{v}(M)\,dm=m\vec{v}(C)$ assumes the mass $m$ of $K$ is constant in time.
+* $\vec{p}$ is the '''linear momentum''' of $K$;
+* $\vec{L}_A$ is the '''angular momentum''' of $K$ about $A$.
 
-==== The pair is a screw ====
+<ref>{{#cite:Q3751}}</ref>
 
-For arbitrary points $A,B$,
+=== Special case: no internal motion ===
 
-$$
-\vec{\sigma}_B=\int_K \overrightarrow{BM}\times \vec{v}(M)\,dm
-=\int_K \left(\overrightarrow{BA}+\overrightarrow{AM}\right)\times \vec{v}(M)\,dm
-=\vec{\sigma}_A+\overrightarrow{BA}\times \vec{p},
-$$
-
-which is the transport law of [[#Classic screw|the classic screw]]. The pair $\{\mathcal{K}\}_A$ is therefore a screw, of resultant $\vec{p}$ and moment $\vec{\sigma}_A$.<ref>{{#cite:Q3751}}</ref>
-
-==== Kinetic screw of a solid ====
-
-For a solid $(S)$ of mass $m$ whose inertia matrix at its centre of mass $C$ is $\mathbf{I}_C$,
+For a system $K$ (e.g, a rigid body $(S)$) with negligible internal motion between components,
 
 $$
-\vec{\sigma}_A=\mathbf{I}_C\vec{\omega}+\overrightarrow{AC}\times \vec{p},
+\vec{L}_A=\mathbf{I}_C\vec{\omega}+\overrightarrow{AC}\times \vec{p},
 $$
 
-so $\vec{p}$ together with the pure spin $\vec{\sigma}_C=\mathbf{I}_C\vec{\omega}$ determines the kinetic screw at every point.<ref>{{#cite:Q3751}}{{#cite:Q3749}}</ref>
+where $\mathbf{I}_C$ is its [[inertia matrix]].
+
+<ref>{{#cite:Q3751}}{{#cite:Q3749}}</ref>
 
 === Dynamic screw ===
 
-The dynamic screw represents the acceleration of a system $K$ and its moment according to a given reference point.
+The dynamic screw represents the '''mass-acceleration product''' and '''dynamic moment''' of a system $K$ according to a given reference point.
 
 $$
 \{\mathcal{D}\}_A=
 \begin{Bmatrix}
-\displaystyle \int_K \vec{a}(M)\,dm=m\vec{a}(C) \\[6pt]
-\displaystyle \vec{\delta}_A=\int_K \overrightarrow{AM}\times \vec{a}(M)\,dm
+\displaystyle m\vec{a}(C)=\int_K \vec{a}(M)\,dm \\[6pt]
+\displaystyle \vec{D}_A=\int_K \overrightarrow{AM}\times \vec{a}(M)\,dm
 \end{Bmatrix}_A ,
 $$
 
-where $\vec{a}(M)$ is the acceleration of the mass element $dm$ in the chosen reference frame, $C$ is the centre of mass of $K$, and $\vec{\delta}_A$ is the '''dynamic moment''' about $A$. It obeys the same transport law as the kinetic screw.
+where
 
-==== Relation to the kinetic screw ====
+* $\vec{a}(M)$ is the acceleration of the mass element $dm$ in the chosen reference frame;
+* $C$ is the centre of mass of $K$.
+
+Then by definition
+
+* $m\vec{a}(C)$ is the '''mass-acceleration product''' of system $K$ relative to its centre of gravity $C$;
+* $\vec{D}_A$ is the '''dynamic moment''' about $A$.
+
+== Relationships between the kinetic and dynamic screw ==
+
+=== Fixed reference point ===
 
 At a point $A$ fixed in the reference frame, $\vec{a}(M)=\frac{d\vec{v}(M)}{dt}$ for every mass element $dm$, so
 
@@ -188,24 +226,15 @@ $$
 \{\mathcal{D}\}_A=\frac{d}{dt}\{\mathcal{K}\}_A .
 $$
 
-At a moving point the moment row gains a term: differentiating $\vec{\sigma}_A$ with $A$ moving at $\vec{v}_A$ gives
+=== Dynamic reference point ===
+
+If $A$ is moving at $\vec{v}_A$:
 
 $$
-\vec{\delta}_A=\frac{d\vec{\sigma}_A}{dt}+\vec{v}_A\times \vec{p} .
+\vec{D}_A=\frac{d\vec{L}_A}{dt}+\vec{v}_A\times \vec{p} .
 $$
 
-So $\{\mathcal{D}\}_A$ is the time derivative of $\{\mathcal{K}\}_A$ only when $\vec{v}_A\times\vec{p}=\vec{0}$, that is at a point fixed in the frame, at $A=C$, or at any point whose velocity is parallel to $\vec{p}$. At other points the shortcut misses $\vec{v}_A\times\vec{p}$, which is the term dropped when a moment equation is written about an accelerating point.<ref>{{#cite:Q3751}}</ref>
-
-=== Use of the kinetic screw ===
-
-# '''One transported pair, not two theorems.''' The momentum state of $K$ is the single pair $(\vec{p},\vec{\sigma}_A)$ at one point, and the transport law above carries it to any other point with one cross product, so nothing has to be re-derived at each new reference point.<ref>{{#cite:Q3750}}</ref>
-# '''The fundamental principle of dynamics in one line.''' $\{\mathcal{D}\}_A=\{\mathcal{F}_{\mathrm{ext}}\}_A$ has exactly two rows, the resultant theorem $\dot{\vec{p}}=\sum\vec{F}_{\mathrm{ext}}$ and the moment theorem $\vec{\delta}_A=\sum\vec{M}_{A,\mathrm{ext}}$. The reference point is then a free parameter that deletes terms: $A=C$ deletes the transport term $\overrightarrow{AC}\times\vec{p}$, and a point on the line of action of an unknown reaction deletes that reaction from the moment row.<ref>{{#cite:Q3751}}{{#cite:Q1848}}</ref>
-# '''Additivity, so internal actions cancel.''' Screws of the same kind add, so for a system $K$ made of solids $S_i$, $\{\mathcal{K}(K)\}_A=\sum_i\{\mathcal{K}(S_i)\}_A$, and likewise for $\{\mathcal{D}\}$ and $\{\mathcal{F}\}$. Summing the fundamental principle over a mechanism cancels every joint reaction pairwise by the 3rd law, which yields its equations of motion without solving for the constraint forces.<ref>{{#cite:Q3751}}{{#cite:Q3749}}</ref>
-# '''Conservation as one statement.''' If the external wrench vanishes, $\dot{\vec{p}}=\vec{0}$ and $\dot{\vec{\sigma}}_A=\vec{v}_A\times\vec{p}$, so for $A$ fixed in the frame, or for $A=C$, the kinetic screw itself is constant. Conservation of linear momentum and of angular momentum then form one conservation law about one object.<ref>{{#cite:Q3750}}</ref>
-# '''Dynamics as a derivative, with a moving-point caveat.''' As shown [[#Relation to the kinetic screw|above]], $\{\mathcal{D}\}_A=\frac{d}{dt}\{\mathcal{K}\}_A$ holds at a point fixed in the frame and at the centre of mass, and is otherwise off by $\vec{v}_A\times\vec{p}$.
-# '''Energy and virtual power are pairings of screws.''' Two screws $\{\mathcal{A}\}_A$, $\{\mathcal{B}\}_A$ have the '''comoment''' $\{\mathcal{A}\}_A\otimes\{\mathcal{B}\}_A=\vec{R}_{\mathcal{A}}\cdot\vec{M}_{\mathcal{B},A}+\vec{M}_{\mathcal{A},A}\cdot\vec{R}_{\mathcal{B}}$, independent of the reference point, so pairing the twist of a solid with its kinetic screw gives twice its kinetic energy, $2T=\vec{v}_A\cdot\vec{p}+\vec{\omega}\cdot\vec{\sigma}_A$, whose independence from $A$ is König's decomposition at $A=C$ and the parallel-axis transport of the inertia matrix at $A\neq C$. Pairing a wrench with a twist gives the virtual power, and a pair of screws whose comoment vanishes is '''reciprocal''', i.e. that wrench does no work on that motion.<ref>{{#cite:Q3750}}{{#cite:Q3751}}</ref>
-# '''An invariant and a central axis.''' $\vec{p}\cdot\vec{\sigma}_A$ does not depend on $A$, so the kinetic screw has a pitch $h=\vec{p}\cdot\vec{\sigma}_A/\|\vec{p}\|^2$, the momentum analogue of the pitch of a motion screw, and the points where $\vec{\sigma}_A\parallel\vec{p}$ form its '''central axis''', on which $\|\vec{\sigma}_A\|$ is minimal. The central axis plays the role for momentum that the instantaneous screw axis plays for motion.<ref>{{#cite:Q3750}}{{#cite:Q1848}}</ref>
-# '''The 6-D form used in computation.''' In a common frame the kinetic screw is the 6-component '''spatial momentum''' and its relation to the twist is the $6\times 6$ spatial inertia, $\{\mathcal{K}\}_A=\mathcal{I}_A\{\mathcal{V}\}_A$, which is the quantity that recursive Newton-Euler, articulated-body, and composite-rigid-body algorithms operate on. Taken about the centre of mass it is the '''centroidal momentum matrix''' of momentum-based control for legged, humanoid, and free-flying robots.<ref>{{#cite:Q3749}}{{#cite:Q3754}}</ref>
+<ref>{{#cite:Q3751}}</ref>
 
 == Fundamental principle of dynamics ==
 
