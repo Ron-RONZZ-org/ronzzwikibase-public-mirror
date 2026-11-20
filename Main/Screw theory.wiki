@@ -209,10 +209,10 @@ So $\{\mathcal{D}\}_A$ is the time derivative of $\{\mathcal{K}\}_A$ only when $
 
 == Fundamental principle of dynamics ==
 
-The '''fundamental principle of dynamics''' of screw theory states
+The '''fundamental principle of dynamics''' states
 
 $$
 \{\mathcal{D}\}_A=\{\mathcal{F}_{\mathrm{ext}}\}_A
 $$
 
-where $\{\mathcal{D}\}$ is [[#Dynamic_screw|the dynamic screw]] and $\{\mathcal{F}_{\mathrm{ext}}\}_A$ is [[#Wrench_(discrete_forces)|the wrench]]
+where $\{\mathcal{D}\}$ is [[#Dynamic_screw|the dynamic screw]] and $\{\mathcal{F}_{\mathrm{ext}}\}_A$ is [[#Wrench_(discrete_forces)|the wrench]].
