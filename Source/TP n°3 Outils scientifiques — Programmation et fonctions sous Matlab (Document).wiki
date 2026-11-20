@@ -1,0 +1,5 @@
+{{Document}}
+
+== Overview ==
+
+Practical-work handout for the L2 SPI course "Outils scientifiques", covering Matlab functions, the trace of a matrix, parametric curves, the golden ratio, and the Fibonacci sequence (2024-2025).
