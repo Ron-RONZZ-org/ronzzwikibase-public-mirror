@@ -9792,6 +9792,12 @@
       "sha256": "d01d70cfa7eef78bed13d0268da8d0497b02c0f230ad81a41fa6cb2116d0e769",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:TP n°2 Outils scientifiques — Scripts et graphiques sous Matlab (Document)": {
+      "path": "Source/TP n°2 Outils scientifiques — Scripts et graphiques sous Matlab (Document).wiki",
+      "revid": 18080,
+      "sha256": "3d22f76caa6fdf3a1db78a9c380795d862f0c8bd160b9fabf39988234f97af19",
+      "synced_at": "2026-11-20T04:24:07+00:00"
+    },
     "Source:The BVG Unified Cosmology: A Complete Field-Driven Alternative to the Big Bang": {
       "path": "Source/The BVG Unified Cosmology_ A Complete Field-Driven Alternative to the Big Bang.wiki",
       "revid": 1843,
@@ -10555,6 +10561,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-19T20:10:42+00:00",
+  "updated": "2026-11-20T04:24:07+00:00",
   "version": 1
 }

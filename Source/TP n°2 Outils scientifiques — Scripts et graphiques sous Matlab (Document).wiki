@@ -1,0 +1,5 @@
+{{Document}}
+
+== Overview ==
+
+Practical-work handout for the L2 SPI course "Outils scientifiques", covering Matlab scripts, plotting and numerical differentiation with finite differences (2026-2027).
