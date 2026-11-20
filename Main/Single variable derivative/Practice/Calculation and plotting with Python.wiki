@@ -4,7 +4,7 @@ The four exercises below come from a practical-work handout written for Matlab c
 
 == Exercise 1 ==
 
-Plot, on one and the same graph, with legends, a title, and symbols, the two Gaussian functions on $[-3,3]$:
+Plot, on the same graph, with legends, a title, and symbols, the two Gaussian functions on $[-3,3]$:
 
 $$
 y_1(x)=\frac{\exp\left(-0.25x^{2}\right)}{\sqrt{2\pi}}
@@ -16,7 +16,9 @@ $$
 
 {{Hidden solution}}
 
-The square of the abscissa is written <code>x**2</code>: Python's <code>^</code> is the bitwise exclusive or, so <code>x^2</code> returns a wrong array without raising an error. Both expressions are evaluated element-wise on the whole vector of abscissae, and that is what makes one <code>plot</code> call draw a complete curve.
+<blockquote>
+Caution: The square is written <code>x**2</code> in Python.: Python's <code>^</code> is the bitwise exclusive OR !
+</blockquote>
 
 <syntaxhighlight lang="python" class="pyodide" copy>
 import numpy as np
@@ -37,17 +39,16 @@ plt.legend()
 plt.show()
 </syntaxhighlight>
 
-<code>markevery=40</code> places a symbol on every 40th point only: a marker on each of the 400 points would hide the curve it marks.
+<blockquote>
+<code>markevery=40</code> places a symbol on every 40th point only: a marker on each of the 400 points would flood the curve.
+</blockquote>
 
 [[File:Two Gaussian densities over -3 to 3.png|thumb|alt=Two bell curves on the interval from minus 3 to 3, the wider in blue with circle markers, the narrower in red with square markers|Both densities on $[-3,3]$, with the markers, the legend, and the title the exercise asks for.]]
-
-Both densities peak at $x=0$ with $y_1(0)=y_2(0)=1/\sqrt{2\pi}\approx0.3989$. The coefficient $0.25$ makes $y_1$ the wider curve: at $x=1$, $y_1(1)\approx0.3107$ and $y_2(1)\approx0.2420$, and the half-maximum of $y_1$ lies at $x\approx\pm1.665$, against $\pm1.177$ for $y_2$.
-
 {{End hidden}}
 
 == Exercise 2 ==
 
-Plot, on one and the same graph, with legends, a title, and symbols, the four functions:
+Plot, on the same graph, with legends, a title, and symbols, the four functions:
 
 # (a) $\exp(-0.5x^{2})/\sqrt{2\pi}$
 # (b) $\sin(x)$
@@ -56,7 +57,9 @@ Plot, on one and the same graph, with legends, a title, and symbols, the four fu
 
 {{Hidden solution}}
 
-The handout gives no interval for this exercise, so $[-3,3]$, the interval of Exercise 1, is used. The four curves share one abscissa vector, as they must share a grid to share axes. <code>np.abs</code> is the element-wise absolute value, and the vertical axis is widened because $|x|$ reaches 3 while the other three curves stay inside $[-1,1]$.
+<blockquote>
+Hint: <code>np.abs</code> calculates the element-wise absolute value.
+</blockquote>
 
 <syntaxhighlight lang="python" class="pyodide" copy>
 import numpy as np
@@ -73,15 +76,13 @@ plt.plot(x, np.abs(x), ":d", markevery=40, label=r"$|x|$")
 plt.xlabel("$x$")
 plt.ylabel("$y$")
 plt.title("A Gaussian, sine, cosine, and the absolute value on $[-3, 3]$")
-plt.ylim(-1.2, 3.2)                               # |x| reaches 3, the others stay in [-1, 1]
+plt.ylim(-1.2, 3.2) 
 plt.grid(alpha=0.3)
 plt.legend()
 plt.show()
 </syntaxhighlight>
 
 [[File:Gaussian sine cosine and absolute value over -3 to 3.png|thumb|alt=Four curves on the interval from minus 3 to 3: a Gaussian bump, a sine, a cosine, and a V-shaped absolute value|The four functions of Exercise 2 on a common window.]]
-
-Three of the curves are smooth; $|x|$ has a corner at $x=0$. It is continuous everywhere and differentiable everywhere except at the origin, where the right derivative is $+1$ and the left derivative $-1$. The function of Exercise 3, $\sin$, has no such point.
 
 {{End hidden}}
 
@@ -95,7 +96,7 @@ $$
 \frac{df}{dx}=f'(x)=\lim_{h\to0}\frac{f(x+h)-f(x)}{h}
 $$
 
-With $h\ll1$ the limit is replaced by a finite quotient, which may be taken forward, backward, or centred:
+The limit is approximated by a finite $h\ll1$, which may be taken forward, backward, or centred:
 
 $$
 \begin{cases}
@@ -107,17 +108,20 @@ $$
 
 {{Hidden solution}}
 
-The three quotients are computed from the grid values only, with no symbolic differentiation. The forward and backward quotients return the same list of slopes, and differ only in the point each slope is credited to; the centred quotient has no value at the two end points, since it needs a neighbour on either side.
-
 <syntaxhighlight lang="python" class="pyodide" copy>
+h = 0.5                                          # modify for different precisions
+x = np.arange(-2, 2 + h/2, h)
+s = np.sin(x)
+xx = np.linspace(-2, 2, 400)
+
 import numpy as np
 import matplotlib.pyplot as plt
 
 def forward(f, h):
-    return (f[1:] - f[:-1]) / h                  # credited to x_i
+    return (f[1:] - f[:-1]) / h                  # approximation of derivative of x_i
 
 def backward(f, h):
-    return (f[1:] - f[:-1]) / h                  # same slopes, credited to x_i+1
+    return (f[1:] - f[:-1]) / h                  # same slopes, but considered approximation of derivative of x_{i+1}
 
 def centred(f, h):
     return (f[2:] - f[:-2]) / (2 * h)            # interior points only
@@ -138,11 +142,6 @@ for h in steps:
     print(f"h = {h:<5} n = {x.size:<4} max|err| forward {e_fwd:.3e}  backward {e_bwd:.3e}  centred {e_cen:.3e}")
 
 fig, ax = plt.subplots(1, 2, figsize=(10.5, 3.8))
-
-h = 0.5                                          # left panel: the coarsest grid
-x = np.arange(-2, 2 + h/2, h)
-s = np.sin(x)
-xx = np.linspace(-2, 2, 400)
 
 ax[0].plot(xx, np.cos(xx), "-", color="black", label=r"exact $\cos x$")
 ax[0].plot(x[:-1], forward(s, h), "o", label=r"forward, $h=0.5$")
@@ -177,19 +176,15 @@ h = 0.01  n = 401  max|err| forward 5.000e-03  backward 5.000e-03  centred 1.667
 
 [[File:Numerical derivative of sine for three steps.png|thumb|alt=Left panel: markers of the forward difference around the exact cosine curve. Right panel: two straight lines on logarithmic axes, the centred one steeper|Left: the three quotients at $h=0.5$ against $\cos(x)$. Right: the maximum error against $h$, on logarithmic axes.]]
 
-The one-sided quotient carries a truncation error of 1st order in $h$, the centred quotient one of 2nd order: dividing $h$ by 10 divides the first error by 10 and the second by 100, as the right panel shows. The measured values follow the leading terms,
+<blockquote>
+As seen
 
 $$
-\frac{h}{2}\,\lvert f''\rvert
+\max |err| \propto h
 $$
 
-for the one-sided quotient and
-
-$$
-\frac{h^{2}}{6}\,\lvert f'''\rvert
-$$
-
-for the centred one. At $h=0.5$ these give $0.25$ and $0.0417$ for $f=\sin$, against $0.2471$ and $0.04115$ measured: the coarsest step, where the higher-order terms still matter, is the only one that departs noticeably from its leading term.
+and centered method gives the best numerical approximation.
+</blockquote>
 
 {{End hidden}}
 
@@ -211,7 +206,7 @@ for $-2.8\le x\le2.8$. Write a script that:
 # plots, on one graph, the second derivatives of 4 against the exact second derivative.
 
 {{Hidden solution}}
-
+<!-- show calculation via sympy, don't assume -->
 The exact derivatives, used as references, are
 
 $$
@@ -222,7 +217,7 @@ $$
 f''(x)=12x+8
 $$
 
-The grid holds 57 points, $(2.8-(-2.8))/0.1+1$. <code>np.arange(-2.8, 2.8, 0.1)</code> returns 56 of them and stops at $2.7$: the upper bound is excluded, and $5.6/0.1$ evaluates to $55.99\ldots$ in binary floating point. <code>np.linspace</code>, with the number of points computed from the step, includes both end points exactly.
+<!-- merge the two code snippets below into 1. clearly separate sections with # {section title} -->
 
 <syntaxhighlight lang="python" class="pyodide" copy>
 import numpy as np
@@ -315,16 +310,7 @@ plt.show()
 
 [[File:Cubic polynomial with its numerical derivatives.png|thumb|alt=Three panels: the cubic curve; its first derivative with four numerical versions falling on the exact parabola; its second derivative as a straight line with a spurious drop at both ends|Left: $f$ on $[-2.8,2.8]$. Middle: the first derivative by four methods against $f'$. Right: the second derivative against $f''$, where the double <code>np.gradient</code> breaks down at both ends.]]
 
-Reading the errors:
-
-* At $h=0.1$ the one-sided first difference is off by about 2, not 0.02: the truncation term is $\frac{h}{2}\lvert f''\rvert$, and $\lvert f''\rvert$ reaches $41.6$ at $x=2.8$, so $0.05\cdot41.6=2.08$. It is the steepest end of the interval, not the formula, that sets the maximum.
-* The centred first difference is off by $0.0200$, which is exactly $\frac{h^{2}}{6}\lvert f'''\rvert=\frac{0.01}{6}\cdot12$, since $f'''=12$ is constant.
-* The centred second difference is exact here: $4\cdot10^{-12}$ is round-off, not truncation. Its truncation error is $\frac{h^{2}}{12}f^{(4)}$, which vanishes for every polynomial of degree 3 or less.
-* <code>np.gradient</code> is centred inside and one-sided at the two end points, which is why its maximum error (2.06) is the one-sided error while its interior error is the centred one (0.02).
-* Applied twice, <code>np.gradient</code> gives the centred second difference inside (error $1.2\cdot10^{-12}$) but propagates the first-order end formulas outward, with errors of 13.4 at $x=-2.8$ and 21.4 at $x=2.8$. The visible spikes at the ends of the right-hand panel are that artefact, not the function.
-
-The graphs also read as a check on the derivatives: $f'$ vanishes at $x\approx-1.6385$ and $x\approx0.3052$, where $f$ has its local maximum ($f\approx7.857$) and its local minimum ($f\approx0.514$), and $f''$ vanishes at $x=-2/3$, where $f'$ reaches its minimum, $-17/3$. Question 6 of the handout asks for the first derivative to be compared with the exact second derivative, which is a slip in the wording: the second derivatives are compared.
-
+<!-- why np.gradient breaks down? Fix it! -->
 {{End hidden}}
 
 == References ==
