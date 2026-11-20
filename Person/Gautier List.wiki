@@ -1,0 +1,5 @@
+{{Person}}
+
+== Overview ==
+
+Teacher of the "Outils scientifiques" practical work (L2 SPI), author of the Matlab practical-work handouts

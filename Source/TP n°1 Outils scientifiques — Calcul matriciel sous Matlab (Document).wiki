@@ -1,0 +1,5 @@
+{{Document}}
+
+== Overview ==
+
+Practical-work handout for the L2 SPI course "Outils scientifiques", covering matrix calculation with Matlab: matrix products, determinants, inverses, scalar products, and linear systems (2024-2025).

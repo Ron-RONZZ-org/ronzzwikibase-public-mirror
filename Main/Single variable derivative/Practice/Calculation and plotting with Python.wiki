@@ -1,6 +1,6 @@
 Reference: [[Ordinary derivative#Formal definition|Formal definition]]
 
-The four exercises below come from a practical-work handout written for Matlab created by my beloved teacher M. Gautier List<ref>{{#cite:Q3733}}</ref>, which we solve here with NumPy and Matplotlib.
+The four exercises below come from a practical-work handout written for Matlab created by my beloved teacher [[Person:Gautier List|M. Gautier List]]<ref>{{#cite:Q3733}}</ref>, which we solve here with NumPy and Matplotlib.
 
 == Exercise 1 ==
 
