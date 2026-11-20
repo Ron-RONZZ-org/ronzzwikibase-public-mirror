@@ -1,0 +1,5 @@
+{{Book}}
+
+== Overview ==
+
+3rd edition; theory, methods and algorithms, including screw-vector dynamics

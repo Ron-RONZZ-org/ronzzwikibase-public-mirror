@@ -1,0 +1,5 @@
+{{ConferencePaper}}
+
+== Overview ==
+
+defines the centroidal momentum matrix, i.e. the kinetic screw taken about the centre of mass; IROS 2008, IEEE/RSJ International Conference on Intelligent Robots and Systems

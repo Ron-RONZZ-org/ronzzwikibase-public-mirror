@@ -3510,6 +3510,12 @@
       "sha256": "f375c23f569433643d7f50377997ea59f3cc358afc933a48765ee583a9a94447",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Ambarish Goswami": {
+      "path": "Person/Ambarish Goswami.wiki",
+      "revid": 18187,
+      "sha256": "0c3c4a3ecf82432742e99213b134e507a47db2d287342af6cb07ff34b7baafd6",
+      "synced_at": "2026-11-20T11:49:43+00:00"
+    },
     "Person:Amber L. Garcia": {
       "path": "Person/Amber L. Garcia.wiki",
       "revid": 17281,
@@ -4007,6 +4013,12 @@
       "revid": 15181,
       "sha256": "3190bfa3210aaceedc07c596b1c21a7aa47a73445643f288825316e33ccbb34b",
       "synced_at": "2026-11-10T13:35:51+00:00"
+    },
+    "Person:David E. Orin": {
+      "path": "Person/David E. Orin.wiki",
+      "revid": 18183,
+      "sha256": "3926c564cf92855324388481bca56169293acd6c21553ddf4a62bc9997dc820c",
+      "synced_at": "2026-11-20T11:49:43+00:00"
     },
     "Person:David Goldstein": {
       "path": "Person/David Goldstein.wiki",
@@ -4626,6 +4638,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
     },
+    "Person:J. M. Selig": {
+      "path": "Person/J. M. Selig.wiki",
+      "revid": 18163,
+      "sha256": "20ec728ae9f98a43be0c9e52b81394f9e2620c42d29a4ec1c07dfbbad813c4fb",
+      "synced_at": "2026-11-20T11:49:43+00:00"
+    },
     "Person:Jack W. Rae": {
       "path": "Person/Jack W. Rae.wiki",
       "revid": 15506,
@@ -4901,6 +4919,12 @@
       "revid": 15430,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T13:10:22+00:00"
+    },
+    "Person:Jorge Angeles": {
+      "path": "Person/Jorge Angeles.wiki",
+      "revid": 18167,
+      "sha256": "f30ba149392e21888eec38037b357fcdcffd0c906a6fc0aa31fc5e5d90925d1d",
+      "synced_at": "2026-11-20T11:49:43+00:00"
     },
     "Person:Joseph Angus Corneli": {
       "path": "Person/Joseph Angus Corneli.wiki",
@@ -6054,6 +6078,12 @@
       "sha256": "ec559c4b03d8ec3999d2d0a296e1d3c4dffac6598927d9691cd969f96cdbe602",
       "synced_at": "2026-11-08T06:15:21+00:00"
     },
+    "Person:Roy Featherstone": {
+      "path": "Person/Roy Featherstone.wiki",
+      "revid": 18159,
+      "sha256": "5fd9ba9d91db884bd4bd2e392b88fc91dbf9580a710c946b83b9f613567eabad",
+      "synced_at": "2026-11-20T11:49:43+00:00"
+    },
     "Person:Ruibin Xiong": {
       "path": "Person/Ruibin Xiong.wiki",
       "revid": 16085,
@@ -7136,9 +7166,9 @@
     },
     "Screw theory": {
       "path": "Main/Screw theory.wiki",
-      "revid": 18111,
-      "sha256": "cafde858fe61033439eb2f719ce0b5a47607753980e07516178229e7e1b2e997",
-      "synced_at": "2026-11-20T05:20:03+00:00"
+      "revid": 18193,
+      "sha256": "a6db7f0056d392eab1e1177f2e791638af4cb3883dd21642e3dbafab39fd2d5e",
+      "synced_at": "2026-11-20T11:49:43+00:00"
     },
     "Script (social psychology)": {
       "path": "Main/Script (social psychology).wiki",
@@ -8118,6 +8148,12 @@
       "sha256": "e2b7187d629382df8b9f02b6b54374c5a84fdb39963ab2449f3e8f851adc3211",
       "synced_at": "2026-10-22T06:56:09+00:00"
     },
+    "Source:Centroidal Momentum Matrix of a humanoid robot: Structure and properties (Conference paper)": {
+      "path": "Source/Centroidal Momentum Matrix of a humanoid robot_ Structure and properties (Conference paper).wiki",
+      "revid": 18191,
+      "sha256": "9f6f7cd09494524e864f02aa2b627d1a5d06fdf109af21017880cf555e541dcf",
+      "synced_at": "2026-11-20T11:49:43+00:00"
+    },
     "Source:Chapter 1: Atoms and Photons: Origin of Quantum Theory (Webpage)": {
       "path": "Source/Chapter 1_ Atoms and Photons_ Origin of Quantum Theory (Webpage).wiki",
       "revid": 16431,
@@ -8532,6 +8568,12 @@
       "sha256": "003ea40c58d97e816e7b60b06b9e5d2baea63f16d23695dd394ad3a9b6b7be6e",
       "synced_at": "2026-10-22T11:14:03+00:00"
     },
+    "Source:Fundamentals of Robotic Mechanical Systems (Book)": {
+      "path": "Source/Fundamentals of Robotic Mechanical Systems (Book).wiki",
+      "revid": 18179,
+      "sha256": "4654efefa099616a5a34866a667444f1a69993890a52dd83750abf8f470ae9d3",
+      "synced_at": "2026-11-20T11:49:43+00:00"
+    },
     "Source:GENtle, a free multi-purpose molecular biology tool - Kölner UniversitätsPublikationsServer": {
       "path": "Source/GENtle, a free multi-purpose molecular biology tool - Kölner UniversitätsPublikationsServer.wiki",
       "revid": 4380,
@@ -8555,6 +8597,12 @@
       "revid": 10000,
       "sha256": "0311d90e243f3be68c13d2082783458de88a2149eb53d4dd209d37db3d2db9bd",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:Geometric Fundamentals of Robotics (Book)": {
+      "path": "Source/Geometric Fundamentals of Robotics (Book).wiki",
+      "revid": 18175,
+      "sha256": "b2eefafa58b5527c7b1205fb7019761b700a5520aba6dd4f2dddb5229e65f06a",
+      "synced_at": "2026-11-20T11:49:43+00:00"
     },
     "Source:Geometric Sequence - Algebrica (Webpage)": {
       "path": "Source/Geometric Sequence - Algebrica (Webpage).wiki",
@@ -9648,6 +9696,12 @@
       "sha256": "1ac330c1a00f4d6dba60a6646e55a238b0fb42f993144ecbd12e447ff8b0cb91",
       "synced_at": "2026-11-18T15:36:03+00:00"
     },
+    "Source:Rigid Body Dynamics Algorithms (Book)": {
+      "path": "Source/Rigid Body Dynamics Algorithms (Book).wiki",
+      "revid": 18171,
+      "sha256": "5c56742c0d94ed96e672ee20dbe62f11f7c688157000c7f82582005398091a89",
+      "synced_at": "2026-11-20T11:49:43+00:00"
+    },
     "Source:Rotational Properties of 21 SC Galaxies with a Large Range of Luminosities and Radii, from NGC 4605 (R = 4 kpc) to UGC 2885 (R = 122 kpc) (Scholarly article)": {
       "path": "Source/Rotational Properties of 21 SC Galaxies with a Large Range of Luminosities and Radii, from NGC 4605 (R = 4 kpc) to UGC 2885 (R = 122 kpc) (Scholarly article).wiki",
       "revid": 6963,
@@ -10597,6 +10651,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-20T10:35:48+00:00",
+  "updated": "2026-11-20T11:49:43+00:00",
   "version": 1
 }

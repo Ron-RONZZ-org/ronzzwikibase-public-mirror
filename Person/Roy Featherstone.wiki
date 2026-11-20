@@ -1,0 +1,5 @@
+{{Person}}
+
+== Overview ==
+
+robotics researcher, author of Rigid Body Dynamics Algorithms

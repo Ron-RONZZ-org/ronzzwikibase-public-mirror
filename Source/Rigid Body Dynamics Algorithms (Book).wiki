@@ -1,0 +1,5 @@
+{{Book}}
+
+== Overview ==
+
+textbook on spatial-vector (screw-algebra) algorithms for rigid body dynamics

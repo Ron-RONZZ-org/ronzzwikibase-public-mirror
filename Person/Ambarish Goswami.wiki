@@ -1,0 +1,5 @@
+{{Person}}
+
+== Overview ==
+
+robotics researcher working on humanoid dynamics and balance
