@@ -1,0 +1,29 @@
+[[Category:Cognitive bias]]
+'''Conformity''' describes the human tendency to agree with the majority, even when it contradicts one's own judgement.<ref>{{#cite:Q3470}}</ref>
+
+It is sometimes referred to as the '''Asch effect'''.
+
+== Experimental evidence ==
+
+=== The majority makes a line longer or shorter ===
+
+[[File:Asch-1956-Conformity-Mean-Errors-By-Group.svg|thumbnail|500px|Results from [[Source:Opinions and Social Pressure (Scholarly article)|name-author]]]]
+[[Source:Opinions and Social Pressure (Scholarly article)|name-author]] presented 123 participants 9 two-card sets, each consisting of:
+
+* 1 '''reference card''' containing 1 reference line ($x$ in the example). 
+* 1 '''choice card''' with three candidate lines ($a,b,c$ shown in the example), of which one had the exact same length to the reference line, while the others were 10-60% longer or shorter than the reference line.
+
+Each participant was put in a group with 6-8 [[confederate]]s. Experimenters asked the group to identify which line on the choice card had the same length as the one on the '''reference card''', and the group answered one-by-one loudly in seating order. The participants were always sat to answer last, under the ruse that they were recruited at last minute to replace someone. 9 two-card sets were shown twice (run I, run II) without any pause in between. The confederates answered intentionally unanimously wrong 66% (6/9) of the times for each run (set 3,4,6,7,8,9).
+
+The results were compared with a [[control group]] who answered the same questions individually without any confederate presence.
+
+The experiment was repeated with university students from different socioeconomic and academic backgrounds. 
+
+Researchers found across all experimental groups, regardless of demographic, a strong tendency to conform to the majority. Control group subjects who answered individually identified the correct candidate line on the choice card nearly every single time, while ones put with an erring majority were wrong about 1/3 of times on average ($p<0.001$).
+
+<ref>{{#cite:Q3791}}</ref>
+
+== Real-life observations ==
+
+[[File:Voting booth.png|thumbnail|Modern [[election]]s often feature secret voting booths to reduce '''conformity''' pressure.]]
+* People vote differently by secret ballot compared to by a show of hands

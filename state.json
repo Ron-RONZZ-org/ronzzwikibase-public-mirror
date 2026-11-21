@@ -1836,6 +1836,12 @@
       "sha256": "423b59b2dd9a19037b96e4b725acfd49b610755ecff5446222f1f1a2948f508e",
       "synced_at": "2026-11-05T08:49:52+00:00"
     },
+    "Conformity": {
+      "path": "Main/Conformity.wiki",
+      "revid": 18555,
+      "sha256": "749b119d711c16a19366468b2378fd59df5a2730ce42f6c55da31681e378eede",
+      "synced_at": "2026-11-21T16:09:57+00:00"
+    },
     "Conserved property": {
       "path": "Main/Conserved property.wiki",
       "revid": 11948,
@@ -6348,6 +6354,12 @@
       "sha256": "6effa7b9d92b3f54663cad08beb2c406eb9c6d1a6627bca2be8ee352d9ca105a",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:Stanley Milgram": {
+      "path": "Person/Stanley Milgram.wiki",
+      "revid": 18559,
+      "sha256": "5c2de84ab67039453a46762eb855b5f7ad08d41566d4982bceb340bdb68e639a",
+      "synced_at": "2026-11-21T16:09:57+00:00"
+    },
     "Person:Stephen D. Reicher": {
       "path": "Person/Stephen D. Reicher.wiki",
       "revid": 17491,
@@ -8081,6 +8093,12 @@
       "revid": 17309,
       "sha256": "be8aec3b074f8a214e857301752b18d2d66c5c004042609551bd44fa305feec7",
       "synced_at": "2026-11-18T10:10:23+00:00"
+    },
+    "Source:Behavioral Study of Obedience (Scholarly article)": {
+      "path": "Source/Behavioral Study of Obedience (Scholarly article).wiki",
+      "revid": 18563,
+      "sha256": "2ed5e0854e446de33119eb098d311480932587f888faafa43bed9cc957e11438",
+      "synced_at": "2026-11-21T16:09:57+00:00"
     },
     "Source:Belief in a Just World and Attitudes toward AIDS Sufferers (Scholarly article)": {
       "path": "Source/Belief in a Just World and Attitudes toward AIDS Sufferers (Scholarly article).wiki",
@@ -10711,6 +10729,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-21T14:35:38+00:00",
+  "updated": "2026-11-21T16:09:57+00:00",
   "version": 1
 }
