@@ -1,0 +1,51 @@
+[[Category:Cognitive bias]][[Category:Social psychology]]
+'''Obedience to authority''' is an experimentally demonstrated common human [[cognitive bias]].<ref>{{#cite:Q3470}}</ref>
+
+== Experimental demonstration ==
+
+=== Up to 450V ===
+
+[[File:Milgram-1963-Obedience-Sample-And-Breakoff-Levels.svg|thumbnail|500px]]
+[[Source:Behavioral Study of Obedience (Scholarly article)|name-author]] recruited 40 '''male''' participants of diverse demographics via newspaper advertisements and direct mail solicitations to participate in a supposed "learning and punishment experiment" at Yale university.
+
+Participants were received 1-by-1 alongside a [[confederate]] by an experimenter dressed in grey lab coat (played by a high school biology teacher). The participant and the confederate drew each one of the two paper slips to become either "learner" or "teacher". In reality, the participant always became the "teacher" and the confederate "learner", as both paper slips had "teacher" written on them.
+
+Participants witnessed the "learner" confederate being strapped into a chair and having electrodes attached to him. They were then led in front of an electric shock generator in a separate room, at which point they no longer have sight of the "learner". They were shown how to manipulate the generator, and asked to validate on themself at 45V that the apparatus is in good working order. To convince participants of the realness of the apparatus, all participants received an actual 45 V shock on the wrist delivered by a hidden battery.
+
+When the "learning experiment" began, participants were instructed to read the "learner" a series of 2-word pairs once, then quiz the "learner" by giving one of the words in a pair and ask the "learner" to select the other word among four by pushing one of four buttons. Each time the "learner" erred, they should administer an electric shock, 15V stronger than the one before. The "learner" intentionally erred about 3 times out of 4 so participants would augment the voltage gradually.
+
+The participants were told that although brief electric shocks administered by the apparatus would cause no permanent body damage, they can be extremely painful towards the high-end of the voltage dial. Accordingly, participants started questioning the experimenter whether they must always augment voltages by 15V each time as the voltage-level increased. To ensure parallel experimental condition across participants, the experimenter always responded according to a written script:
+
+* '''1st doubt''': "Please go on."
+* '''2nd doubt/expression of concern''': "The experiment requires that you continue."
+* '''Continued expression of concern''': "It is absolutely essential that you continue."
+* '''4th expression of concern''': "You have no other choice, you must go on."
+* '''5th expression of concern''': "It's alright. We can stop here."
+
+Despite some participants expressing concerns early on and showing visible signs of discomfort, every participant continued administering shocks as instructed until the dial labelled "300V, intense shock" (20th shock), at which point the "learner" can be heard pounding the wall in protest. After giving the audible sign of distress, "learner" stopped responding, at which point the experimenter directed the participant to count up to 10 and treat no response as a wrong answer. 5 out of 40 participants refused to comply and quitted the experiment, but the 35 others administered the 315V shock, labelled "extreme intensity" after 10 seconds of silence from the "learner" as directed. "Learner" then pounded the wall again in protest, at which point 4 other participants quitted. The others, however, administered the next shock at 330V after another 10 seconds of silence from the "learner". In the end, 26 out of 40 participants administered shocks up to the highest voltage level (450V, labelled XXX):
+
+<div class=center>
+{| class="wikitable"
+! Label on apparatus !! Voltage range !! Shock count !! n: Subjects who stopped here !! n/N
+|-
+| Slight Shock || 15-60 V || 1-4 || 0 || 0.0%
+|-
+| Moderate Shock || 75-120 V || 5-8 || 0 || 0.0%
+|-
+| Strong Shock || 135-180 V || 9-12 || 0 || 0.0%
+|-
+| Very Strong Shock || 195-240 V || 13-16 || 0 || 0.0%
+|-
+! Intense Shock || 255-300 V || 17-20 || 5 || 12.5%
+|-
+! Extreme Intensity Shock || 315-360 V || 21-24 || 8 || 20.0%
+|-
+| '''Danger: Severe Shock''' || '''375-420 V''' || '''25-28''' || '''1''' || '''2.5%'''
+|-
+| '''XXX''' || '''435-450 V''' || '''29-30''' || '''26''' || '''65.0%'''
+|}
+</div>
+
+During [[post-experiment briefing]], all participants reported being convinced that they were actually delivering painful electric shocks to the "learner", estimating on average "learner" pain level to be 13.42/14, presumably as a result of receiving a real 45V test shock and manipulating an apparatus made realistic by professional industrial machinists that not only lighted up, but actually produced buzzing sounds of strong electric currents when activated. The experimenter then explained that the electric shock generator was merely a prop that never delivered any electric shock to the [[confederate]] "learner", and invited the participants to meet the "learner" again to be reassured by them.Many apologised to the "learner" and stated that they were never this sadistic in their own lives.
+
+Despite many participants expressing severe discomfort during and after the experiment, the overwhelming majority chose to trust the experimenter's authority over their own instincts, and continued administering high-voltage shocks to an unresponsive "learner" with awareness of the pain inflicted, demonstrating the human tendency to be '''obedient towards authority'''.

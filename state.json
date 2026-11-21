@@ -3234,6 +3234,12 @@
       "sha256": "3777d005fc7329d850c726c747b31dfa5e6c60877b51e912929e1a397b3f36c4",
       "synced_at": "2026-10-29T15:11:28+00:00"
     },
+    "Obedience to authority": {
+      "path": "Main/Obedience to authority.wiki",
+      "revid": 18669,
+      "sha256": "947677025e1c844af81205415cc27ec602a8caa57f92c9b2d233218c5c7e89e1",
+      "synced_at": "2026-11-21T19:35:12+00:00"
+    },
     "Objectivity": {
       "path": "Main/Objectivity.wiki",
       "revid": 11534,
@@ -10729,6 +10735,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-21T16:35:26+00:00",
+  "updated": "2026-11-21T19:35:12+00:00",
   "version": 1
 }
