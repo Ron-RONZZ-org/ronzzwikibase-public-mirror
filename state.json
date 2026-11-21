@@ -1838,9 +1838,9 @@
     },
     "Conformity": {
       "path": "Main/Conformity.wiki",
-      "revid": 18555,
-      "sha256": "749b119d711c16a19366468b2378fd59df5a2730ce42f6c55da31681e378eede",
-      "synced_at": "2026-11-21T16:09:57+00:00"
+      "revid": 18578,
+      "sha256": "61a3d877c7194ccad196d6f7086b25e05cf5b25767640e33d7db1db6009cfd4e",
+      "synced_at": "2026-11-21T16:35:26+00:00"
     },
     "Conserved property": {
       "path": "Main/Conserved property.wiki",
@@ -10729,6 +10729,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-21T16:09:57+00:00",
+  "updated": "2026-11-21T16:35:26+00:00",
   "version": 1
 }
