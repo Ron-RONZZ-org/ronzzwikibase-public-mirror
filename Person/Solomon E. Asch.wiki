@@ -1,0 +1,5 @@
+{{Person}}
+
+== Overview ==
+
+Polish-American social psychologist (1907-1996), known for the conformity line-judgment experiments

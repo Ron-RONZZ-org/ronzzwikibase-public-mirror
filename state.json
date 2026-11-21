@@ -1410,6 +1410,12 @@
       "sha256": "5f83b2eea2cf6d14105def8e5327d255e13413e55f49bf5756f364a997092335",
       "synced_at": "2026-11-17T17:49:38+00:00"
     },
+    "Collective:Psychological Monographs: General and Applied": {
+      "path": "Collective/Psychological Monographs_ General and Applied.wiki",
+      "revid": 18461,
+      "sha256": "73775b2c68a4cc19b6c13c48bae7c892541c2c62e72f5b28e0e72df6c2c1d606",
+      "synced_at": "2026-11-21T14:35:38+00:00"
+    },
     "Collective:Psychological Review": {
       "path": "Collective/Psychological Review.wiki",
       "revid": 16929,
@@ -1487,6 +1493,12 @@
       "revid": 13264,
       "sha256": "2b5b5e5c976f40d8284b05582b68522943201d406f630a00de05bef3802b3d74",
       "synced_at": "2026-11-07T17:08:07+00:00"
+    },
+    "Collective:Scientific American": {
+      "path": "Collective/Scientific American.wiki",
+      "revid": 18457,
+      "sha256": "2111cf478522e241999bf3501de74fc60921bb9eb51f85d450958a686e1ddbb3",
+      "synced_at": "2026-11-21T14:35:38+00:00"
     },
     "Collective:Shanxi Normal University": {
       "path": "Collective/Shanxi Normal University.wiki",
@@ -1811,6 +1823,12 @@
       "revid": 14443,
       "sha256": "32a76404805a7abb23cf9216cd0103722f018d57cb4d8c1b4aaa6de5a1f59ac3",
       "synced_at": "2026-11-08T12:49:04+00:00"
+    },
+    "Confederate": {
+      "path": "Main/Confederate.wiki",
+      "revid": 18487,
+      "sha256": "2ce93f22c489282ddd6147e5f563928dc12978b304c81ca9146b0579dd89ddd1",
+      "synced_at": "2026-11-21T14:35:38+00:00"
     },
     "Confirmation bias": {
       "path": "Main/Confirmation bias.wiki",
@@ -6312,6 +6330,12 @@
       "sha256": "1a41eccbce3bbb1015e29493740377c3a75da7c5486df19e28e2f337bf64447d",
       "synced_at": "2026-11-09T11:49:44+00:00"
     },
+    "Person:Solomon E. Asch": {
+      "path": "Person/Solomon E. Asch.wiki",
+      "revid": 18453,
+      "sha256": "bd58b9d112e57070bf5bedf673e83f0b375184843cef9d913e50758be516afdf",
+      "synced_at": "2026-11-21T14:35:38+00:00"
+    },
     "Person:Solomon Hykes": {
       "path": "Person/Solomon Hykes.wiki",
       "revid": 6122,
@@ -9486,6 +9510,12 @@
       "sha256": "f7970e7fc8098e35c850888ba5e5275c9ec56099794f1f9306805a012821d135",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Opinions and Social Pressure (Scholarly article)": {
+      "path": "Source/Opinions and Social Pressure (Scholarly article).wiki",
+      "revid": 18465,
+      "sha256": "a0e6fdeab1e861264bbc6281b7adda56e56e65871e55e38962f3214163621a70",
+      "synced_at": "2026-11-21T14:35:38+00:00"
+    },
     "Source:Ordinance of Villers-Cotterêts (Legislation)": {
       "path": "Source/Ordinance of Villers-Cotterêts (Legislation).wiki",
       "revid": 7629,
@@ -9839,6 +9869,12 @@
       "revid": 8715,
       "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:Studies of Independence and Conformity: I. A Minority of One Against a Unanimous Majority (Scholarly article)": {
+      "path": "Source/Studies of Independence and Conformity_ I. A Minority of One Against a Unanimous Majority (Scholarly article).wiki",
+      "revid": 18473,
+      "sha256": "0c052e373ca36c803c8b3f54d521d740d1323870bb3fbec561c178ad14c59a88",
+      "synced_at": "2026-11-21T14:35:38+00:00"
     },
     "Source:Study of the antihydrogen atom and ion formation in the collisions antiproton-positronium (Scholarly article)": {
       "path": "Source/Study of the antihydrogen atom and ion formation in the collisions antiproton-positronium (Scholarly article).wiki",
@@ -10675,6 +10711,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-21T12:49:42+00:00",
+  "updated": "2026-11-21T14:35:38+00:00",
   "version": 1
 }
