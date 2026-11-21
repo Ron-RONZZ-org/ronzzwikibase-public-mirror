@@ -2340,6 +2340,12 @@
       "sha256": "69676064ae74aa0da6742bc668ce27af5f4cd83a09337c71c579ad48d34686b7",
       "synced_at": "2026-10-26T17:40:19+00:00"
     },
+    "Foot-in-the-door persuasion": {
+      "path": "Main/Foot-in-the-door persuasion.wiki",
+      "revid": 18383,
+      "sha256": "03796cf2f38e13de9add1eaa82f5ba13aeab53e01730b66980b510eb910f384b",
+      "synced_at": "2026-11-21T12:49:42+00:00"
+    },
     "Forward pass": {
       "path": "Main/Forward pass.wiki",
       "revid": 16584,
@@ -10669,6 +10675,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-21T12:13:03+00:00",
+  "updated": "2026-11-21T12:49:42+00:00",
   "version": 1
 }

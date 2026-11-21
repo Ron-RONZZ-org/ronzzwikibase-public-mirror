@@ -1,0 +1,20 @@
+[[Category:Persuasion]]
+'''Foot-in-the-door persuasion''' is an experimentally validated technique to [[persuasion|persuade]].<ref>{{#cite:Q3470}}</ref>
+
+== Experimental evidence ==
+
+[[File:Foot-In-The-Door-Compliance-Freedman-Fraser-1966.svg|thumbnail|Results from [[Source:Compliance without pressure: The foot-in-the-door technique (Scholarly article)|name-author]]|400px]]
+[[Source:Compliance without pressure: The foot-in-the-door technique (Scholarly article)|name-author]] approached 127 residents (114 females, 13 males) of Palo Alto, California during weekday afternoons at their house by experimenters presenting as representatives of local charitable organisations.
+
+* 24 were shown a picture of an extremely large "Drive carefully" sign blocking the frontview of an attractive house and asked directly if the experimenters can place the same sign in their frontyard for about week;
+* Others were asked first a small task, before being asked about placing the same disproportionally large sign in their frontyard 2 weeks later:
+** Some were asked if experimenters can place a small sign in their yard by a different experimenter representing a different organisation: ('''same task''')
+*** 25 about a smaller "Drive carefully" sign ('''same issue''')
+*** 23 about a small "Keep California beautiful" sign ('''different issue''')
+** Some were instead asked if they would sign a petition already bearing at least 20 signatures to the Californian senate ('''different task''')
+*** 21 on "safe driving laws" ('''same issue''')
+*** 19 on "Keep California beautiful" ('''different issue''')
+
+Experimenters found with high certainty ($p<0.001$) that making a smaller request first, especially of an identical nature and for an identical cause, made subjects more likely to agree to a larger request.
+
+<ref>{{#cite:Q3682}}</ref>
