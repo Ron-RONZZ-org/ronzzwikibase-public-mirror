@@ -3546,6 +3546,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
     },
+    "Person:Allan I. Teger": {
+      "path": "Person/Allan I. Teger.wiki",
+      "revid": 18694,
+      "sha256": "1fec062400caa3b4c9c15ec4b73930ba5a446b98ac0f970f50867abdcc33b8d3",
+      "synced_at": "2026-11-21T19:48:59+00:00"
+    },
     "Person:Alphonse de Lamartine": {
       "path": "Person/Alphonse de Lamartine.wiki",
       "revid": 8891,
@@ -4103,6 +4109,12 @@
       "revid": 13529,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:19:42+00:00"
+    },
+    "Person:Dean G. Pruitt": {
+      "path": "Person/Dean G. Pruitt.wiki",
+      "revid": 18698,
+      "sha256": "373145d5de7e066dbca703bec8230c259e3c6a2aac45f13bad11c87c8baebd0d",
+      "synced_at": "2026-11-21T19:48:59+00:00"
     },
     "Person:Deborah Fein": {
       "path": "Person/Deborah Fein.wiki",
@@ -8298,6 +8310,12 @@
       "sha256": "24a86a0ef3f79cf2dd82f740aed9d593b76c4f38e2d4758919c83809063ed345",
       "synced_at": "2026-11-19T10:36:13+00:00"
     },
+    "Source:Components of group risk taking (Scholarly article)": {
+      "path": "Source/Components of group risk taking (Scholarly article).wiki",
+      "revid": 18702,
+      "sha256": "98864418ea9bab3e716be12dfc7f0a2f82dfbc96f1bb80e9f436962f665a5d9f",
+      "synced_at": "2026-11-21T19:48:59+00:00"
+    },
     "Source:Comprehension's role in persuasion: The case of its moderating effect on the persuasive impact of source cues (Scholarly article)": {
       "path": "Source/Comprehension's role in persuasion_ The case of its moderating effect on the persuasive impact of source cues (Scholarly article).wiki",
       "revid": 17977,
@@ -10735,6 +10753,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-21T19:35:12+00:00",
+  "updated": "2026-11-21T19:48:59+00:00",
   "version": 1
 }
