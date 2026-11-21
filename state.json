@@ -6774,6 +6774,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T13:10:22+00:00"
     },
+    "Person:念棣 陈": {
+      "path": "Person/念棣 陈.wiki",
+      "revid": 18294,
+      "sha256": "4df32ed01cf4de52fea7271fbd6c2c48fa3daabdf60001b94da8ce9ddac7af5a",
+      "synced_at": "2026-11-21T11:35:44+00:00"
+    },
     "Personal identity": {
       "path": "Main/Personal identity.wiki",
       "revid": 13184,
@@ -10320,6 +10326,12 @@
       "sha256": "7f95faa4b5402b33b181b51cfdfcf55ab2af44975c3acdff3c449a6c590024b6",
       "synced_at": "2026-11-17T22:49:46+00:00"
     },
+    "Source:回忆赤石暴动 (Magazine article)": {
+      "path": "Source/回忆赤石暴动 (Magazine article).wiki",
+      "revid": 18298,
+      "sha256": "ddbe552d210dc5455f117203e2866198c870e7ecfddc989c89e599d4b459554c",
+      "synced_at": "2026-11-21T11:35:44+00:00"
+    },
     "Spatial curvature parameter": {
       "path": "Main/Spatial curvature parameter.wiki",
       "revid": 12353,
@@ -10651,6 +10663,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-20T19:19:48+00:00",
+  "updated": "2026-11-21T11:35:44+00:00",
   "version": 1
 }
