@@ -456,6 +456,12 @@
       "sha256": "55e2420c21c258679fb42c6000f8c67b4e4aa8139b417a8f794405ff48372def",
       "synced_at": "2026-11-11T21:35:42+00:00"
     },
+    "Chishi uprising": {
+      "path": "Main/Chishi uprising.wiki",
+      "revid": 18313,
+      "sha256": "8c4ddecac38bf65b81846d3a08a3b0cc1d71013ae73a2c151132e7e4fb22a3e9",
+      "synced_at": "2026-11-21T11:49:26+00:00"
+    },
     "Circle": {
       "path": "Main/Circle.wiki",
       "revid": 10841,
@@ -10663,6 +10669,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-21T11:35:44+00:00",
+  "updated": "2026-11-21T11:49:26+00:00",
   "version": 1
 }
