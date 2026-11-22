@@ -1092,6 +1092,12 @@
       "sha256": "6debf1d9a9aa58d0fad52d24e57945853f8d0f0142467ce510d8e2797f790a31",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Journal of Abnormal Psychology": {
+      "path": "Collective/Journal of Abnormal Psychology.wiki",
+      "revid": 19097,
+      "sha256": "a1109a403f7478e5390fa54eeba837094fb43c515efc839b52b8851324e4daa1",
+      "synced_at": "2026-11-22T17:49:20+00:00"
+    },
     "Collective:Journal of Abnormal and Social Psychology": {
       "path": "Collective/Journal of Abnormal and Social Psychology.wiki",
       "revid": 17589,
@@ -3828,6 +3834,12 @@
       "sha256": "85b98e30a5f8b098f0914d7f1bfe17172f31f0adca2e74f055f22b46b7ac42c6",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Bethany A. Lohr": {
+      "path": "Person/Bethany A. Lohr.wiki",
+      "revid": 19109,
+      "sha256": "524c9a4ddede7f53781ff21500a9b7923a92faf51f7397635a43c5494baa323b",
+      "synced_at": "2026-11-22T17:49:20+00:00"
+    },
     "Person:Bhuvaneswari Varnam": {
       "path": "Person/Bhuvaneswari Varnam.wiki",
       "revid": 1736,
@@ -4680,6 +4692,12 @@
       "sha256": "2b7ba735e7290ccc59b62c927aa4a46fca3392759bfffa3ac2a4772b2fbffa56",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Henry E. Adams": {
+      "path": "Person/Henry E. Adams.wiki",
+      "revid": 19101,
+      "sha256": "ed1b055328e802edd77e27a153130d2c2651920311e2ab121b88516e6af7ed84",
+      "synced_at": "2026-11-22T17:49:20+00:00"
+    },
     "Person:Herbert Bless": {
       "path": "Person/Herbert Bless.wiki",
       "revid": 17868,
@@ -5327,6 +5345,12 @@
       "revid": 6995,
       "sha256": "15cb83742bc23167e9a33d0d5c989bde680020c77e0090ff4e5b8f69af96285f",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Lester W. Wright": {
+      "path": "Person/Lester W. Wright.wiki",
+      "revid": 19105,
+      "sha256": "524c9a4ddede7f53781ff21500a9b7923a92faf51f7397635a43c5494baa323b",
+      "synced_at": "2026-11-22T17:49:20+00:00"
     },
     "Person:Li Du": {
       "path": "Person/Li Du.wiki",
@@ -9036,6 +9060,12 @@
       "sha256": "0b3cf5736cf05b15b14ec547218b05f77a1a369668c150e8fb68c5048d801c95",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Is homophobia associated with homosexual arousal? (Scholarly article)": {
+      "path": "Source/Is homophobia associated with homosexual arousal_ (Scholarly article).wiki",
+      "revid": 19113,
+      "sha256": "61ae38843b0d86f32de41a5015d79657decd0a9595706593d40aaeab9ea78477",
+      "synced_at": "2026-11-22T17:49:20+00:00"
+    },
     "Source:It's Here: Docker 1.0 (Webpage)": {
       "path": "Source/It's Here_ Docker 1.0 (Webpage).wiki",
       "revid": 6187,
@@ -10951,6 +10981,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-22T15:08:22+00:00",
+  "updated": "2026-11-22T17:49:20+00:00",
   "version": 1
 }
