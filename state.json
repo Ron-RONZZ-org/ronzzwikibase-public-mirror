@@ -7364,9 +7364,9 @@
     },
     "Social loafing": {
       "path": "Main/Social loafing.wiki",
-      "revid": 18939,
-      "sha256": "390d8a202900e4355a06503bd7d3c365c9bcb11abfea996f1bc71cb5bafc7389",
-      "synced_at": "2026-11-22T10:19:30+00:00"
+      "revid": 18948,
+      "sha256": "5a4e979f8d84e02917eb9b3a7cb12d89885cd8b8e1191824108fcbd2fe81a1f1",
+      "synced_at": "2026-11-22T10:49:19+00:00"
     },
     "Social norm": {
       "path": "Main/Social norm.wiki",
@@ -10783,6 +10783,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-22T10:19:30+00:00",
+  "updated": "2026-11-22T10:49:19+00:00",
   "version": 1
 }
