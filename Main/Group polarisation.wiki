@@ -1,0 +1,41 @@
+[[Category:Cognitive bias]][[Category:Social psychology]]
+'''Group polarisation''' describes the human tendency to be more convinced of an idea once it has been echoed by other persons.<ref>{{#cite:Q3470}}</ref>
+
+== Influencing factors ==
+
+=== Positively correlated factors ===
+
+* Group size
+
+== Implication ==
+
+* People are generally more willing to take a risk when others are willing to take the same risk.
+
+== Experimental evidence ==
+
+[[File:Teger-Pruitt-1967-Group-Risk-Shift-Mean-95CI.svg|thumbnail|500px|Strangely, in the results of [[Source:Components of group risk taking (Scholarly article)|name-author]], 1 additional participant in the small group (4 v. 3) seems to make a magical difference.]]
+In [[Source:Components of group risk taking (Scholarly article)|name-author]], participants were asked to advised a fictional character on 10 dilemma, choosing between a bold, risky solution and an alternative. Each participant was asked to consider the dilemma individually first, and consider the minimum odds on 10 required for the bold and risky solution to be worthwhile (e.g, 1/10, 7/10, etc.) and then either:
+
+* Reconsider in groups of 4-5 or 3 people with '''free discussion''' ('''Experiment groups I or II''')
+* Consider the problems individually, but exchange opinions '''in silence''' in groups of 4-5 by each writing their chosen minimum odds for each dilemma on a board, reveal to everyone else, revise if felt so based on what others wrote, then compare again, then revise, then compare a final time (3 comparisons with a  revision opportunity between each comparison) ('''Experiment group III''')
+* Simply reconsider the problems and finalise their answers ('''Control''')
+
+Consensus among each 4-5/3-person group in experiment groups I/II were encouraged but not forced by the instruction that each person can freely write their response, but in case of multiple different responses within the same small group, the group average will be considered as the final response of each individual in the group.
+
+Researchers defined the '''risk score''' of a response $X$ containing minimal acceptable odds $x_1,x_2,\cdot,x_12$ as
+
+$$
+\text{risk score}=\sum_{i=1}^10 10(1-x_i) \in [0,100]
+$$
+which indicates how much risk a given response takes.
+
+The '''shift''' of a participant is defined as
+
+$$
+\text{risk score}_\text{final response}-\text{risk score}_\text{initial individual response}
+$$
+which indicates how much more risk a participant's final response takes compared to their initial individual response.
+
+It was observed that participants who have participated in 4-5-person groups, discussion (I) or silent information exchange (III), took more risks than before ($\text{mean shift}=7.85 \lor 3.13,\, p<0.001 \lor p=0.02$). The results were however inconclusive for participants having participated in discussion groups with only 3 participants ($p=0.457$). 
+
+<ref>{{#cite:Q3841}}</ref>

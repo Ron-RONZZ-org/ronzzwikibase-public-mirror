@@ -2514,6 +2514,12 @@
       "sha256": "632113263d09b76eaf58f9e48842c4204c8c50409385b717c30e4e927d44a656",
       "synced_at": "2026-11-07T15:08:12+00:00"
     },
+    "Group polarisation": {
+      "path": "Main/Group polarisation.wiki",
+      "revid": 18821,
+      "sha256": "dd2fb881b57460b05d3dd29ad5ca2ac43223a615c466342c3c0032eae99351ed",
+      "synced_at": "2026-11-22T04:11:15+00:00"
+    },
     "Gâteaux derivative": {
       "path": "Main/Gâteaux derivative.wiki",
       "revid": 11720,
@@ -4734,6 +4740,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T13:10:22+00:00"
     },
+    "Person:James A. Shepperd": {
+      "path": "Person/James A. Shepperd.wiki",
+      "revid": 18830,
+      "sha256": "157917d195fefcd2357e0c970dca5893758d74b623838b46e6cb7ecfd4e88854",
+      "synced_at": "2026-11-22T04:11:15+00:00"
+    },
     "Person:James Bradbury": {
       "path": "Person/James Bradbury.wiki",
       "revid": 15606,
@@ -5159,6 +5171,12 @@
       "revid": 13581,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Kevin M. Taylor": {
+      "path": "Person/Kevin M. Taylor.wiki",
+      "revid": 18834,
+      "sha256": "055babf00ec113afa57f7df2d3fa13105538dbe9f874d8b83d4ad17aa16f4980",
+      "synced_at": "2026-11-22T04:11:15+00:00"
     },
     "Person:Kristin Kuter": {
       "path": "Person/Kristin Kuter.wiki",
@@ -9888,6 +9906,12 @@
       "sha256": "e2b7187d629382df8b9f02b6b54374c5a84fdb39963ab2449f3e8f851adc3211",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Social Loafing and Expectancy-Value Theory (Scholarly article)": {
+      "path": "Source/Social Loafing and Expectancy-Value Theory (Scholarly article).wiki",
+      "revid": 18838,
+      "sha256": "5e44a675ba70cc41cdf70eaa0d995e2537f46531f0732d6e7a482aa2742302f1",
+      "synced_at": "2026-11-22T04:11:15+00:00"
+    },
     "Source:Stanford Prison Experiment: A Simulation Study of the Psychology of Imprisonment (Website)": {
       "path": "Source/Stanford Prison Experiment_ A Simulation Study of the Psychology of Imprisonment (Website).wiki",
       "revid": 17467,
@@ -10753,6 +10777,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-21T19:48:59+00:00",
+  "updated": "2026-11-22T04:11:15+00:00",
   "version": 1
 }

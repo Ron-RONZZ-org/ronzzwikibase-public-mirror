@@ -1,0 +1,5 @@
+{{ScholarlyArticle}}
+
+== Abstract ==
+
+Expectancy value theory holds that goal-directed behavior is a function of (a) expectations, the belief that performance depends on effort, (b) instrumentality, the belief that outcome depends on performance, and (c) outcome value, the value attached to achieving the outcome. The present research provides a direct test of two factors involved in the instrumentality component: the contingency between individual performance and group performance and the contingency between group performance and group outcome. Experiment 1 revealed that collective participants worked hard when they perceived a contingency between individual performance and group performance. Experiment 2 revealed that collective participants worked hard when they perceived a contingency between group performance and the group outcome. Taken together, the results confirm the importance of high instrumentality in eliminating social loafing.
