@@ -1,0 +1,5 @@
+{{Person}}
+
+== Overview ==
+
+American psychologist who conducted the 1st social facilitation experiment (1898)

@@ -1,0 +1,13 @@
+[[Category:Social psychology]]
+'''Social compensation''' refers to the phenomenon that individuals engage more on a given group task when
+
+* the task is judged '''meaningful''',
+* and the individual has low expectation on the performance of other group members.
+
+<ref>{{#cite:Q3879}}</ref>
+
+== Experimental evidence ==
+
+In [[Source:Social Loafing and Social Compensation: The Effects of Expectations of Co-Worker Performance (Scholarly article)|name-author]], participants generated statistically significantly more ideas ($p=0.009$) when paired with a [[confederate]] who stated at the beginning that he considers the experment "interesting", but does not expect high performance. Similar improvement was not observed when the participants were induced to consider the task not meaningful by an intentionally disengaged experimenter.<ref>{{#cite:Q3879}}</ref>
+
+In [[Source:Social Loafing and Expectancy-Value Theory (Scholarly article)|name-author]], participants again generated much more ideas on a similar brainstorming task when the 2 conditions for '''social compensation''' was met.<ref>{{#cite:Q3873}}</ref>

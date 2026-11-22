@@ -1,0 +1,5 @@
+{{Person}}
+
+== Overview ==
+
+Psychologist, co-author of the 1983 meta-analysis of social facilitation studies

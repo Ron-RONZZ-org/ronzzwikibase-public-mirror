@@ -1560,6 +1560,12 @@
       "sha256": "1bb87ac4fec2a219597d5cf0462e461fbebb927dd7ab9fe1f9d4db6b25c66044",
       "synced_at": "2026-11-17T16:49:44+00:00"
     },
+    "Collective:The American Journal of Psychology": {
+      "path": "Collective/The American Journal of Psychology.wiki",
+      "revid": 19026,
+      "sha256": "953e0dd9b9b918feb5309330bc9821b5612ee5c157dd0f019d2471b04e614c86",
+      "synced_at": "2026-11-22T12:12:40+00:00"
+    },
     "Collective:The Astronomical Journal": {
       "path": "Collective/The Astronomical Journal.wiki",
       "revid": 6874,
@@ -1685,6 +1691,12 @@
       "revid": 11336,
       "sha256": "de3af5d1af84fba3d18f4fd07ca8db18e412fbeb64639b83cc1a9cc9ee2308dc",
       "synced_at": "2026-10-27T09:17:43+00:00"
+    },
+    "Collective:University of Illinois Press": {
+      "path": "Collective/University of Illinois Press.wiki",
+      "revid": 19030,
+      "sha256": "d2133a9cd4135eb3260366d9baf945ddd25e1b5e3f2305dd0ed01e45a78de5be",
+      "synced_at": "2026-11-22T12:12:40+00:00"
     },
     "Collective:University of Lorraine": {
       "path": "Collective/University of Lorraine.wiki",
@@ -3522,6 +3534,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
     },
+    "Person:Alexander Heingartner": {
+      "path": "Person/Alexander Heingartner.wiki",
+      "revid": 19010,
+      "sha256": "38ad80085fef85e194f4555a4b41ad905058b1a72ee32dd0e501ac80553b0be5",
+      "synced_at": "2026-11-22T12:12:40+00:00"
+    },
     "Person:Alexander M. Rush": {
       "path": "Person/Alexander M. Rush.wiki",
       "revid": 15526,
@@ -3912,6 +3930,12 @@
       "sha256": "7c6dd00f95256e148a2c2f147f76a058ff8559e4738b2396e1fcf41d041481b9",
       "synced_at": "2026-10-27T09:17:43+00:00"
     },
+    "Person:Charles F. Bond": {
+      "path": "Person/Charles F. Bond.wiki",
+      "revid": 19018,
+      "sha256": "c2f755460a541206b73c6e8ec3993aedba741e4a031f3a79f95e1ba146def271",
+      "synced_at": "2026-11-22T12:12:40+00:00"
+    },
     "Person:Charlotte Phelps": {
       "path": "Person/Charlotte Phelps.wiki",
       "revid": 14156,
@@ -4254,6 +4278,12 @@
       "sha256": "96c7fad6435a5f50addbc44578b327fbe34b749c640cc5762949fdb5f34ce821",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Edward M. Herman": {
+      "path": "Person/Edward M. Herman.wiki",
+      "revid": 19014,
+      "sha256": "38ad80085fef85e194f4555a4b41ad905058b1a72ee32dd0e501ac80553b0be5",
+      "synced_at": "2026-11-22T12:12:40+00:00"
+    },
     "Person:Edwin Herman": {
       "path": "Person/Edwin Herman.wiki",
       "revid": 8824,
@@ -4421,6 +4451,12 @@
       "revid": 7319,
       "sha256": "61b7aa1ccb1d06940defe94098a2ef8f2f0e46ca521fe7b1bc7ecc731ff76a5e",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Person:Floyd H. Allport": {
+      "path": "Person/Floyd H. Allport.wiki",
+      "revid": 18994,
+      "sha256": "4f73b515276c35b14fe4fd8a63d52a4cf072630555d32e50bd1a0f1159403b0e",
+      "synced_at": "2026-11-22T12:12:40+00:00"
     },
     "Person:Franci Rrapi": {
       "path": "Person/Franci Rrapi.wiki",
@@ -5010,6 +5046,12 @@
       "sha256": "6060cda800e5ece12487e1d7eec770aa5e66258ea498a2925ce2e4682abae507",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:Joseph Pessin": {
+      "path": "Person/Joseph Pessin.wiki",
+      "revid": 19002,
+      "sha256": "696dffd29cd838b7a345bc826362ac2ba31678b90ea590843d5af1749e830174",
+      "synced_at": "2026-11-22T12:12:40+00:00"
+    },
     "Person:Joshua Frieman": {
       "path": "Person/Joshua Frieman.wiki",
       "revid": 12137,
@@ -5244,6 +5286,12 @@
       "sha256": "bc15c5a1a4433e638d07828fddc29858786a8b09fbe6faa3af5a289f2b4ef8f8",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:Lee Edward Travis": {
+      "path": "Person/Lee Edward Travis.wiki",
+      "revid": 18998,
+      "sha256": "cf5b094fb4a0d8a806bb9137457eab8025b916f59562c64feb29b72499fc882e",
+      "synced_at": "2026-11-22T12:12:40+00:00"
+    },
     "Person:Lee Ross": {
       "path": "Person/Lee Ross.wiki",
       "revid": 17233,
@@ -5285,6 +5333,12 @@
       "revid": 17430,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-18T14:20:38+00:00"
+    },
+    "Person:Linda J. Titus": {
+      "path": "Person/Linda J. Titus.wiki",
+      "revid": 19022,
+      "sha256": "412f6c8e8c2e6a213c4578830866b001643d0c9f85eecacb049f5b9f0f71a4d2",
+      "synced_at": "2026-11-22T12:12:40+00:00"
     },
     "Person:Lindsay E. Hunter": {
       "path": "Person/Lindsay E. Hunter.wiki",
@@ -5760,6 +5814,12 @@
       "sha256": "c1507ca637f71b55095343a409dfe42ae92f0d68c32960022631a1c835ba165e",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Person:Norman Triplett": {
+      "path": "Person/Norman Triplett.wiki",
+      "revid": 18986,
+      "sha256": "31fdeaef7db4b08421f03315186961745f53c16b71cd41a2a6443f0a563fc06d",
+      "synced_at": "2026-11-22T12:12:40+00:00"
+    },
     "Person:Nouamane Tazi": {
       "path": "Person/Nouamane Tazi.wiki",
       "revid": 15542,
@@ -6090,6 +6150,12 @@
       "sha256": "b700decd0548bb4296d563ceefe00c8946d5c59423a6c13419b518ebb1324fec",
       "synced_at": "2026-11-19T10:36:13+00:00"
     },
+    "Person:Robert B. Zajonc": {
+      "path": "Person/Robert B. Zajonc.wiki",
+      "revid": 18990,
+      "sha256": "74ef9640c097b9c92753b821812bc58d0467d09300d9c1acaf1f6de42325b3f0",
+      "synced_at": "2026-11-22T12:12:40+00:00"
+    },
     "Person:Robert Ball": {
       "path": "Person/Robert Ball.wiki",
       "revid": 8261,
@@ -6419,6 +6485,12 @@
       "revid": 8033,
       "sha256": "7d9e4bef7ff2a70546cba9a1a57b5bc3d7dbd1151c849041e125cf30f5980a4b",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Stephen M. Sales": {
+      "path": "Person/Stephen M. Sales.wiki",
+      "revid": 19006,
+      "sha256": "b06d1e6c0c301e09283805275f7f9d0bae26e0f5ffe92dea30400856abf042e1",
+      "synced_at": "2026-11-22T12:12:40+00:00"
     },
     "Person:Steven H. Strogatz": {
       "path": "Person/Steven H. Strogatz.wiki",
@@ -7373,6 +7445,12 @@
       "revid": 18048,
       "sha256": "c0bdb17fefeeff9883fcfa2eaa68607e9850b23ba075cf4f385b8c8e378de719",
       "synced_at": "2026-11-19T20:10:42+00:00"
+    },
+    "Social compensation": {
+      "path": "Main/Social compensation.wiki",
+      "revid": 18982,
+      "sha256": "4fb241297798d8836a3384929a2d8e9ce6e02b4006358e684e6ac2909c76cf69",
+      "synced_at": "2026-11-22T12:12:40+00:00"
     },
     "Social loafing": {
       "path": "Main/Social loafing.wiki",
@@ -9924,6 +10002,12 @@
       "sha256": "e2b7187d629382df8b9f02b6b54374c5a84fdb39963ab2449f3e8f851adc3211",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Social Facilitation (Scholarly article)": {
+      "path": "Source/Social Facilitation (Scholarly article).wiki",
+      "revid": 19058,
+      "sha256": "9b0fd64b51453fe074a3b1295318f8d4ca35dae3f1d7bdffac0fa2324f666f13",
+      "synced_at": "2026-11-22T12:12:40+00:00"
+    },
     "Source:Social Loafing and Expectancy-Value Theory (Scholarly article)": {
       "path": "Source/Social Loafing and Expectancy-Value Theory (Scholarly article).wiki",
       "revid": 18838,
@@ -9935,6 +10019,24 @@
       "revid": 18960,
       "sha256": "075a60863bc0a605e7f87632c57e131b3376cce8fd8cc7bfe0836c4862d54d94",
       "synced_at": "2026-11-22T11:08:11+00:00"
+    },
+    "Source:Social enhancement and impairment of performance in the cockroach (Scholarly article)": {
+      "path": "Source/Social enhancement and impairment of performance in the cockroach (Scholarly article).wiki",
+      "revid": 19054,
+      "sha256": "acde196486ede2c94540f22e5fdfa51b946465638d45eb3e78608cb8333c6053",
+      "synced_at": "2026-11-22T12:12:40+00:00"
+    },
+    "Source:Social facilitation of dominant and subordinate responses (Scholarly article)": {
+      "path": "Source/Social facilitation of dominant and subordinate responses (Scholarly article).wiki",
+      "revid": 19050,
+      "sha256": "7958e25ece1a46863a90c7c9e5f9026c169d6a2b226ed1232ebc76e95574e324",
+      "synced_at": "2026-11-22T12:12:40+00:00"
+    },
+    "Source:Social facilitation: A meta-analysis of 241 studies (Scholarly article)": {
+      "path": "Source/Social facilitation_ A meta-analysis of 241 studies (Scholarly article).wiki",
+      "revid": 19062,
+      "sha256": "0374866f3a008e652c31e6af6f6701a876f01f338ef82ad837e09f7224b1d6b3",
+      "synced_at": "2026-11-22T12:12:40+00:00"
     },
     "Source:Stanford Prison Experiment: A Simulation Study of the Psychology of Imprisonment (Website)": {
       "path": "Source/Stanford Prison Experiment_ A Simulation Study of the Psychology of Imprisonment (Website).wiki",
@@ -10044,6 +10146,12 @@
       "sha256": "a331d2f58418d6030b4c612d814cd4549dfe86a00592fceaf4adb42cdf10c4b7",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:The Comparative Effects of Social and Mechanical Stimulation on Memorizing (Scholarly article)": {
+      "path": "Source/The Comparative Effects of Social and Mechanical Stimulation on Memorizing (Scholarly article).wiki",
+      "revid": 19046,
+      "sha256": "76b05d458464a3559b34b00548031c2236b90f70a3b669fb7ef91e2ece91c1f8",
+      "synced_at": "2026-11-22T12:12:40+00:00"
+    },
     "Source:The Cosmological Constant (Scholarly article)": {
       "path": "Source/The Cosmological Constant (Scholarly article).wiki",
       "revid": 6894,
@@ -10061,6 +10169,12 @@
       "revid": 1988,
       "sha256": "a59be86f667782459b41082bd9bf5c79380b43e9f50fe8e6a296eacda99591c5",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:The Dynamogenic Factors in Pacemaking and Competition (Scholarly article)": {
+      "path": "Source/The Dynamogenic Factors in Pacemaking and Competition (Scholarly article).wiki",
+      "revid": 19034,
+      "sha256": "d094fee1c7b70429e652713dd60b0718fc83ad9f179882958d1131b839d4b223",
+      "synced_at": "2026-11-22T12:12:40+00:00"
     },
     "Source:The Elaboration Likelihood Model of Persuasion (Scholarly article)": {
       "path": "Source/The Elaboration Likelihood Model of Persuasion (Scholarly article).wiki",
@@ -10110,6 +10224,12 @@
       "sha256": "436a915d575eee67eed757af4388b91ba47151fba777b7c934f05f9dac26c98e",
       "synced_at": "2026-11-17T21:09:35+00:00"
     },
+    "Source:The effect of a small audience upon eye-hand coordination (Scholarly article)": {
+      "path": "Source/The effect of a small audience upon eye-hand coordination (Scholarly article).wiki",
+      "revid": 19042,
+      "sha256": "4637d72f5da2b9da7596d90038cefda2ed57fd174dc774f782356c05f39069d9",
+      "synced_at": "2026-11-22T12:12:40+00:00"
+    },
     "Source:The effect of severity of initiation on liking for a group (Scholarly article)": {
       "path": "Source/The effect of severity of initiation on liking for a group (Scholarly article).wiki",
       "revid": 17601,
@@ -10133,6 +10253,12 @@
       "revid": 17660,
       "sha256": "cb23b6d03a12f6101c2b2e89ff0b53811f4f3a3a736ad7a0faf7027be4f50b16",
       "synced_at": "2026-11-18T16:37:01+00:00"
+    },
+    "Source:The influence of the group upon association and thought (Scholarly article)": {
+      "path": "Source/The influence of the group upon association and thought (Scholarly article).wiki",
+      "revid": 19038,
+      "sha256": "292648369ea2c6446651eb2b909d06ff4a3651438b1779f4b138955c7bb75f30",
+      "synced_at": "2026-11-22T12:12:40+00:00"
     },
     "Source:The interplay of heuristic and systematic processing of social information (Scholarly article)": {
       "path": "Source/The interplay of heuristic and systematic processing of social information (Scholarly article).wiki",
@@ -10801,6 +10927,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-22T11:08:11+00:00",
+  "updated": "2026-11-22T12:12:40+00:00",
   "version": 1
 }
