@@ -2058,6 +2058,12 @@
       "sha256": "4273c48fb10a2702bf991f96d4b4286c149ca4cb07eaed46361e61f3cc23cd20",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Discrimination": {
+      "path": "Main/Discrimination.wiki",
+      "revid": 19168,
+      "sha256": "9832e82b8383e992da61c1663c4430c3326bbefcc64bed6d97b03858c19e17eb",
+      "synced_at": "2026-11-22T18:49:37+00:00"
+    },
     "Doppler effect": {
       "path": "Main/Doppler effect.wiki",
       "revid": 12202,
@@ -4968,6 +4974,12 @@
       "sha256": "f0ac5804aa33f09b547fdfa504c234fd20c74f3cbea9bb89d283f354ab573714",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Jessica Bigazzi Foster": {
+      "path": "Person/Jessica Bigazzi Foster.wiki",
+      "revid": 19177,
+      "sha256": "f1e959c6636f934eba0cb6058e885896dc1d82cda2bd4a9c047383e143eb260b",
+      "synced_at": "2026-11-22T18:49:37+00:00"
+    },
     "Person:Jessica K. Sklar": {
       "path": "Person/Jessica K. Sklar.wiki",
       "revid": 10053,
@@ -5021,6 +5033,12 @@
       "revid": 11824,
       "sha256": "c53df6b84ea6520d600ebe3b079129d9f53153d69ee45d8b97780c4429f2fdf0",
       "synced_at": "2026-10-30T21:08:41+00:00"
+    },
+    "Person:John F. Dovidio": {
+      "path": "Person/John F. Dovidio.wiki",
+      "revid": 19185,
+      "sha256": "7502b08086999e2bf158c705ae4d310e7196bf1843e427d475adaac4012ca0b0",
+      "synced_at": "2026-11-22T18:49:37+00:00"
     },
     "Person:John L. Kelly": {
       "path": "Person/John L. Kelly.wiki",
@@ -5303,6 +5321,12 @@
       "revid": 16913,
       "sha256": "82451f50fdc67fa3a96128efd5b2b25290ab02837e26b9ffd2d818881a9b55aa",
       "synced_at": "2026-11-17T17:10:05+00:00"
+    },
+    "Person:Laura M. Mannix": {
+      "path": "Person/Laura M. Mannix.wiki",
+      "revid": 19181,
+      "sha256": "818b94205a6266fd691df3ae9fa4b235036440ca9f8e22d77936245e8b5d8ac6",
+      "synced_at": "2026-11-22T18:49:37+00:00"
     },
     "Person:Laurent Bègue": {
       "path": "Person/Laurent Bègue.wiki",
@@ -5687,6 +5711,12 @@
       "revid": 8256,
       "sha256": "dbfd71f895a8c60407e5e808a3ca084f9cb5965a9080b6cfa7afef9691df7c0e",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Michelle R. Hebl": {
+      "path": "Person/Michelle R. Hebl.wiki",
+      "revid": 19173,
+      "sha256": "6338551539b6ec1e9f20ad89a4ce7d317acba5a384673683aa2bc12a5705f0ba",
+      "synced_at": "2026-11-22T18:49:37+00:00"
     },
     "Person:Mike Caulfield": {
       "path": "Person/Mike Caulfield.wiki",
@@ -8832,6 +8862,12 @@
       "sha256": "2f84a612c194b812ae2d75c78c04e49f72c94fe86cf86d6aa7a27e4d376c4d31",
       "synced_at": "2026-11-09T11:49:44+00:00"
     },
+    "Source:Formal and Interpersonal Discrimination: A Field Study of Bias Toward Homosexual Applicants (Scholarly article)": {
+      "path": "Source/Formal and Interpersonal Discrimination_ A Field Study of Bias Toward Homosexual Applicants (Scholarly article).wiki",
+      "revid": 19189,
+      "sha256": "ed467017fd7ccf08125b9de0e8d57d1129dc83883b0157bc6100e8473ba1f364",
+      "synced_at": "2026-11-22T18:49:37+00:00"
+    },
     "Source:Formal representation of human judgement (Scholarly article)": {
       "path": "Source/Formal representation of human judgement (Scholarly article).wiki",
       "revid": 12918,
@@ -11023,6 +11059,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-22T18:35:34+00:00",
+  "updated": "2026-11-22T18:49:37+00:00",
   "version": 1
 }
