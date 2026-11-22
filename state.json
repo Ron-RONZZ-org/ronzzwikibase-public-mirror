@@ -7134,6 +7134,12 @@
       "sha256": "ee713a7fb8e03251c76806e4a2d595739a65a4c650c18daf0e7d1db982b33e63",
       "synced_at": "2026-10-31T12:35:52+00:00"
     },
+    "Racism": {
+      "path": "Main/Racism.wiki",
+      "revid": 19075,
+      "sha256": "094f701c8fffe22c88c4a005ae09bb8b41d501464acfc1ee18f2633d06b80ce0",
+      "synced_at": "2026-11-22T13:35:25+00:00"
+    },
     "Radian": {
       "path": "Main/Radian.wiki",
       "revid": 10810,
@@ -10927,6 +10933,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-22T12:12:40+00:00",
+  "updated": "2026-11-22T13:35:25+00:00",
   "version": 1
 }
