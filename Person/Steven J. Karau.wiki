@@ -1,0 +1,5 @@
+{{Person}}
+
+== Overview ==
+
+Social psychologist known for research on social loafing and social compensation

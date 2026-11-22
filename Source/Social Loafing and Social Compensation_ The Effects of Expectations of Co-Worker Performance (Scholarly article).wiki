@@ -1,0 +1,5 @@
+{{ScholarlyArticle}}
+
+== Abstract ==
+
+Previous research has suggested that people tend to engage in social loafing when working collectively. The present research tested the social compensation hypothesis, which states that people will work harder collectively than individually when they expect their co-workers to perform poorly on a meaningful task. In 3 experiments, participants worked either collectively or coactively on an idea generation task. Expectations of co-worker performance were either inferred from participants' interpersonal trust scores (Experiment 1) or were directly manipulated by a confederate co-worker's statement of either his intended effort (Experiment 2) or his ability at the task (Experiment 3). All 3 studies supported the social compensation hypothesis. Additionally, Experiment 3 supported the hypothesis that participants would not socially compensate for a poorly performing co-worker when working on a task that was low in meaningfulness.

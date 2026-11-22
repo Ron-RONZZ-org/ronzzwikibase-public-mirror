@@ -5178,6 +5178,12 @@
       "sha256": "055babf00ec113afa57f7df2d3fa13105538dbe9f874d8b83d4ad17aa16f4980",
       "synced_at": "2026-11-22T04:11:15+00:00"
     },
+    "Person:Kipling D. Williams": {
+      "path": "Person/Kipling D. Williams.wiki",
+      "revid": 18952,
+      "sha256": "93871959270ae2c8e4c70614efacac6338d0ba5aa2d983da2f002137a6a6c0fc",
+      "synced_at": "2026-11-22T11:08:11+00:00"
+    },
     "Person:Kristin Kuter": {
       "path": "Person/Kristin Kuter.wiki",
       "revid": 14419,
@@ -6419,6 +6425,12 @@
       "revid": 7019,
       "sha256": "cc6de5bf7da42a8518499b67bcce717d60c1f9b23548d72d294c5c3982372e16",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Steven J. Karau": {
+      "path": "Person/Steven J. Karau.wiki",
+      "revid": 18956,
+      "sha256": "d0d01b14dcf45f0804762b936f39d7445ff60ed70cce55e66996c61e299563f7",
+      "synced_at": "2026-11-22T11:08:11+00:00"
     },
     "Person:Susanne Smith Roley": {
       "path": "Person/Susanne Smith Roley.wiki",
@@ -9918,6 +9930,12 @@
       "sha256": "5e44a675ba70cc41cdf70eaa0d995e2537f46531f0732d6e7a482aa2742302f1",
       "synced_at": "2026-11-22T04:11:15+00:00"
     },
+    "Source:Social Loafing and Social Compensation: The Effects of Expectations of Co-Worker Performance (Scholarly article)": {
+      "path": "Source/Social Loafing and Social Compensation_ The Effects of Expectations of Co-Worker Performance (Scholarly article).wiki",
+      "revid": 18960,
+      "sha256": "075a60863bc0a605e7f87632c57e131b3376cce8fd8cc7bfe0836c4862d54d94",
+      "synced_at": "2026-11-22T11:08:11+00:00"
+    },
     "Source:Stanford Prison Experiment: A Simulation Study of the Psychology of Imprisonment (Website)": {
       "path": "Source/Stanford Prison Experiment_ A Simulation Study of the Psychology of Imprisonment (Website).wiki",
       "revid": 17467,
@@ -10783,6 +10801,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-22T10:49:19+00:00",
+  "updated": "2026-11-22T11:08:11+00:00",
   "version": 1
 }
