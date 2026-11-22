@@ -4128,6 +4128,18 @@
       "sha256": "e3aee4fc373f40e466d83862968d76d4aad752db1bf3e2573cda9a34bb752c07",
       "synced_at": "2026-11-17T16:49:44+00:00"
     },
+    "Person:David H. Barlow": {
+      "path": "Person/David H. Barlow.wiki",
+      "revid": 19130,
+      "sha256": "c38580c22ba07504887e48735cf6925f6da4be3e86f9058d96e843da460e0487",
+      "synced_at": "2026-11-22T18:21:54+00:00"
+    },
+    "Person:David K. Sakheim": {
+      "path": "Person/David K. Sakheim.wiki",
+      "revid": 19134,
+      "sha256": "04c2d2451a817c4eb5a80c386e79b6012c54a440602468fab604a54a409a3647",
+      "synced_at": "2026-11-22T18:21:54+00:00"
+    },
     "Person:David L. Ronis": {
       "path": "Person/David L. Ronis.wiki",
       "revid": 17555,
@@ -4763,6 +4775,12 @@
       "revid": 13685,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:J. Gayle Beck": {
+      "path": "Person/J. Gayle Beck.wiki",
+      "revid": 19138,
+      "sha256": "49114ed8446b2f6375abd86e4756f51667c1010a37b4d7f51031b7b7c4fb175b",
+      "synced_at": "2026-11-22T18:21:54+00:00"
     },
     "Person:J. M. Selig": {
       "path": "Person/J. M. Selig.wiki",
@@ -8226,6 +8244,12 @@
       "sha256": "0311d90e243f3be68c13d2082783458de88a2149eb53d4dd209d37db3d2db9bd",
       "synced_at": "2026-11-02T21:09:13+00:00"
     },
+    "Source:Anxiety increases sexual arousal (Scholarly article)": {
+      "path": "Source/Anxiety increases sexual arousal (Scholarly article).wiki",
+      "revid": 19142,
+      "sha256": "9a7604d354c3df70b8635ce15f560a37b8b32d07f2078bd2ff4a98cca8b98d93",
+      "synced_at": "2026-11-22T18:21:54+00:00"
+    },
     "Source:Arithmetic Sequence - Algebrica (Webpage)": {
       "path": "Source/Arithmetic Sequence - Algebrica (Webpage).wiki",
       "revid": 11601,
@@ -10999,6 +11023,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-22T18:11:09+00:00",
+  "updated": "2026-11-22T18:21:54+00:00",
   "version": 1
 }
