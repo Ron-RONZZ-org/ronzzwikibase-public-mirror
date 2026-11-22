@@ -1,1 +1,9 @@
-'''Group identity''' refers to one's auto-perception in the context of a particular group.<ref>{{#cite:Q2747}}</ref>
+[[Category:Social psychology]]
+[[File:Young children playing.png|thumbnail|'''Group identity''' may be a helpful conceptual model to understand why even children may practice [[sexual discrimination]].]]
+'''Group identity''' describes an individual's perception of belonging/exclusion relative to different [[social group]]s.
+
+Groups one identify with are called '''in-groups'''.
+
+Groups perceived fundamentally different from one's '''in-groups''' are called '''out-groups'''.
+
+<ref>{{#cite:Q3470}}</ref>
