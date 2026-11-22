@@ -7050,6 +7050,12 @@
       "sha256": "62b8de7dcaca677926ca0692dae0d0ccee2633debd1622615668e6752403c56f",
       "synced_at": "2026-11-16T16:23:36+00:00"
     },
+    "Prejudice": {
+      "path": "Main/Prejudice.wiki",
+      "revid": 19087,
+      "sha256": "2cdad24f84244000e423a974f3c812f26ab7fc6f1ccac9918c8a51b925091239",
+      "synced_at": "2026-11-22T15:08:22+00:00"
+    },
     "Premier empire français": {
       "path": "Main/Premier empire français.wiki",
       "revid": 10595,
@@ -7403,6 +7409,12 @@
       "revid": 16633,
       "sha256": "66ba80cb3f688d7d9a86a0f534456ddff5078ddcd0304f75053a89144fbb7576",
       "synced_at": "2026-11-16T16:49:54+00:00"
+    },
+    "Sexism": {
+      "path": "Main/Sexism.wiki",
+      "revid": 19092,
+      "sha256": "ce02609feb80ba788e26f31363b48ea77997fbb641aff0fb28377ee6381ab920",
+      "synced_at": "2026-11-22T15:08:22+00:00"
     },
     "Shannon entropy": {
       "path": "Main/Shannon entropy.wiki",
@@ -10939,6 +10951,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-22T14:35:28+00:00",
+  "updated": "2026-11-22T15:08:22+00:00",
   "version": 1
 }
