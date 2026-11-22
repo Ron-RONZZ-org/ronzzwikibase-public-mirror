@@ -1,0 +1,48 @@
+[[Category:Social psychology]]
+'''Social loafing''' describes the human tendency to be [[free-rider]]s during a group assignment when
+
+* the outcome is collective,
+** particularly, if individual contributions are never identified
+* and there is little to no stake.
+
+<ref>{{#cite:Q3470}}</ref>
+
+== Experimental evidence ==
+
+In [[Source:Social Loafing and Expectancy-Value Theory (Scholarly article)|name-author]], 103 participants (35 male, 68 female) were asked to collectively brainstorm the maximum number of uses one can think of a '''knife''' in 15minutes in small groups ($\overline n=4.3,\, \sigma=0.79$), under the following conditions:
+
+* Participants brainstormed in isolated cubicles where they cannot see the progress of their teammates
+* Four practice runs on other objects (e.g, shoebox) were conducted before the actual experimental run
+* Participants were told that only the number, not quality of ideas would be considered.
+
+Additional per group conditions were imposed:
+
+* '''Instrumentality'''
+* Participants were told that the top 10th percentile of the groups in the experimental run would receive either a free pizza or free movie voucher. They received pre-determined false feedback about group-standing during the practice runs.
+** '''High instrumentality''': false feedback (90th, 82nd,92nd,84th)
+** '''Low instrumentality''': false feedback (86th, 68th, 46th, 49th)
+* '''Evaluation/no evaluation''': participants were either told that their individual contributions would be counted, or only the group total would be considered.
+* '''Control''': neither evaluation nor instrumentality information
+
+{{Curiosity}}
+How many uses of a '''knife''' can '''you''' think of in 15 minutes?
+
+If you are curious, see [[User:Rongzhou/knife-brainstorming|Rong's response]].
+{{End special}}
+
+{| class="wikitable center"
+! Mean maximum number of uses identified per participant (95% CI lower bound, mean, 95% CI higher bound) · Sample size
+! Instrumentality !! Evaluation !! No evaluation
+|-
+| '''High''' || (22.08, '''28.40''', 34.72) · ''n'' = 17 || (24.51, '''28.40''', 32.29) · ''n'' = 16
+|-
+| '''Low''' || (28.68, '''37.90''', 47.12) · ''n'' = 16 || (15.09, '''21.11''', 27.13) · ''n'' = 17
+|-
+| '''Control''' || (20.93, '''28.40''', 35.87) · ''n'' = 19 || (15.18, '''20.00''', 24.82) · ''n'' = 18
+|}
+
+Researchers found with high certainty that:
+
+* '''High instrumentality''' (Knowing that effort would potentially pay off) encourages effort ($p=0.032$);
+* '''Evaluation''' (i.e., having individual contributions recognised) increases subjects' engagement when subject [[motivation]] is otherwise low (low instrumentality) ($p=0.028$);
+* '''Low instrumentality''' coupled with '''evaluation''' encourages the most effort, a phenomenon as [[social compensation]] ($p<0.001$).
