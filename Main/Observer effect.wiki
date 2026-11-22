@@ -1,0 +1,40 @@
+[[Category:Social psychology]]
+The '''observer effect''' refers to the phenomenon that a person's performance on a given task is often influenced by the presence or absence of an audience.<ref>{{#cite:Q3470}}</ref>
+
+== Influencing factors ==
+
+[[Source:Social facilitation: A meta-analysis of 241 studies (Scholarly article)|name-author]] conducted a [[meta-analysis]] on 241 studies and found:
+
+=== Visible non-expert audience ===
+
+In general, the presence of a '''non-expert''' audience '''visible''' to an individual
+
+* '''improves''' the '''speed''' and '''quality''' for performing '''simple tasks''';
+* '''worsens''' the '''quality''' when performing '''complex tasks''', especially when the audience is '''unfamiliar'''
+* '''worsens''' also the '''speed''' when performing '''complex tasks''' when the audience is '''unfamiliar''', '''no impact''' when the audience is '''familiar'''
+
+=== Invisible non-expert audience ===
+
+In contrast, when the same '''non-expert audience''' is '''invisible''' to the individual (e.g, behind their back), there is
+
+* '''no experimentally significant impact''' on '''speed''' on '''any task''';
+* '''similarly negative impact on quality''' when performing '''complex tasks''' to a visible audience;
+* an '''uncertain impact''' on '''quality''' when performing '''simple tasks'''.
+
+=== Expert panel ===
+
+In contrast, the presence of a '''panel of domain experts'''
+
+* does '''not''' have an experimentally validated '''effect''' on '''speed''';
+* significantly '''increases''' '''physiological arousal''' for '''complex tasks'''
+* '''improves''' '''quality''' for '''simple tasks''', but '''worsens''' it for '''complex tasks'''
+
+=== [[Coactor]] ===
+
+Presence of '''peers performing the same task'''
+
+* '''Significantly improves speed''' for performing '''simple tasks''', more than a simple non-expert audience;
+* seems to have '''no impact''' on the '''speed''' when performing '''complex tasks''' or '''quality''' when performing '''simple tasks'''
+* has '''less but always negative impact''' for the '''quality''' of performing complex tasks;
+
+<ref>{{#cite:Q3901}}</ref>

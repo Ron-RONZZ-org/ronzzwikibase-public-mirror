@@ -3270,6 +3270,12 @@
       "sha256": "1a6a4eaa5cb83d48f8af7e752cf1677d4355e27ad4ac4cc0397a613e182fec52",
       "synced_at": "2026-11-18T09:22:00+00:00"
     },
+    "Observer effect": {
+      "path": "Main/Observer effect.wiki",
+      "revid": 19080,
+      "sha256": "4f2a84a447e3e7cff963aac9ebf0c9fc84ad0746f06b6355e604f630dae693bd",
+      "synced_at": "2026-11-22T14:35:28+00:00"
+    },
     "OntoMotoOS": {
       "path": "Main/OntoMotoOS.wiki",
       "revid": 16781,
@@ -10933,6 +10939,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-22T13:35:25+00:00",
+  "updated": "2026-11-22T14:35:28+00:00",
   "version": 1
 }
