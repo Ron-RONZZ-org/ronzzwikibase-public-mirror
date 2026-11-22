@@ -1,5 +1,1 @@
-{{Person}}
-
-== Overview ==
-
-American psychologist at the University of Georgia; co-author of the 1996 study on homophobia and homosexual arousal
+#REDIRECT [[Person:Lester W. Wright Jr.]]

@@ -2598,6 +2598,12 @@
       "sha256": "a6fcf1b5cfa88e7f9582cff0dc024fb797e51168c471333334f723ba08f688c6",
       "synced_at": "2026-11-02T14:12:35+00:00"
     },
+    "Homophobia": {
+      "path": "Main/Homophobia.wiki",
+      "revid": 19125,
+      "sha256": "8ebade16850428c3c9b42219059d48a6eac3d4a694c7d2494ea0b2dfdd565756",
+      "synced_at": "2026-11-22T18:11:09+00:00"
+    },
     "Hot Big Bang Model": {
       "path": "Main/Hot Big Bang Model.wiki",
       "revid": 12453,
@@ -5348,9 +5354,15 @@
     },
     "Person:Lester W. Wright": {
       "path": "Person/Lester W. Wright.wiki",
-      "revid": 19105,
+      "revid": 19120,
+      "sha256": "899dc88ecb56298cfb223862793a9a332e5985576ab7cb5924341afd98131bb2",
+      "synced_at": "2026-11-22T18:11:09+00:00"
+    },
+    "Person:Lester W. Wright Jr.": {
+      "path": "Person/Lester W. Wright Jr.wiki",
+      "revid": 19119,
       "sha256": "524c9a4ddede7f53781ff21500a9b7923a92faf51f7397635a43c5494baa323b",
-      "synced_at": "2026-11-22T17:49:20+00:00"
+      "synced_at": "2026-11-22T18:11:09+00:00"
     },
     "Person:Li Du": {
       "path": "Person/Li Du.wiki",
@@ -7439,6 +7451,12 @@
       "revid": 19092,
       "sha256": "ce02609feb80ba788e26f31363b48ea77997fbb641aff0fb28377ee6381ab920",
       "synced_at": "2026-11-22T15:08:22+00:00"
+    },
+    "Sexual-orientation prejudice": {
+      "path": "Main/Sexual-orientation prejudice.wiki",
+      "revid": 19122,
+      "sha256": "f90bb6a8c45dfefc25a118cbb2045198e99902905fad3ae2b6dce86833805598",
+      "synced_at": "2026-11-22T18:11:09+00:00"
     },
     "Shannon entropy": {
       "path": "Main/Shannon entropy.wiki",
@@ -10981,6 +10999,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-22T17:49:20+00:00",
+  "updated": "2026-11-22T18:11:09+00:00",
   "version": 1
 }
