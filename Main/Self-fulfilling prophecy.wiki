@@ -1,0 +1,44 @@
+[[Category:Social psychology]]
+'''Self-fulfilling prophecy''' is a mechanism through which justifications for [[cognitive bias]]es, in particular [[prejudice]]s and pessimistic [[fatalism]], are frequently made.
+
+== Typical mechanism ==
+
+=== Social interaction ===
+
+Negative discrimination > Negative attitude > Reciprocation > Negative perception
+
+=== Probabilistic events ===
+
+Negative expectation > Less motivation to make an effort > Undesirable outcome
+
+== Experimental observation: pre-hiring discrimination ==
+
+[[File:Hebl-2002-Formal-Discrimination-95CI.svg|500px|thumbnail|]]
+[[File:Hebl-2002-Interpersonal-Discrimination-95CI.svg|thumbnail|500px|Results from [[Source:Formal and Interpersonal Discrimination: A Field Study of Bias Toward Homosexual Applicants (Scholarly article)|name-author]]]]
+[[Source:Formal and Interpersonal Discrimination: A Field Study of Bias Toward Homosexual Applicants (Scholarly article)|name-author]] recruited 16 student volunteers (8 male 8 female) from the University of Texas. They visited 91 stores posing as job searchers, wearing either a baseball cap that reads "Texan and proud" or "Gay and proud". 
+
+To control irrelevant variables:
+
+* the cap was issued at random just before a store visit;
+* volunteers dressed in similar jeans and pull-up jackets customary to the local student demographic
+* volunteers were trained to keep the text on the cap invisible to them at all times, by holding always the cap upside down and avoiding mirrors.
+* at each store, volunteers always asked to speak to "the person in charge", and asked four questions in order after initial greetings:
+*# "Do you have any job openings?"
+*# "Could I fill out an application?"
+*# "What sort of things would I be doing if I worked here?"
+*# "Would you mind if I used your bathroom?"
+* volunteers self-reported on their experience before seeing the text on their cap
+
+Volunteers wore a hidden tape recorder and the conversations were analysed by independent observers. They also self-reported perception of store employee attitude and any negativity.
+
+While wearing "Gay and proud" caps, volunteers had 13% less job availability, 11% less permission to complete a job application onsite, 7% less callback (12% v. 19%) and 5% less permission to use the bathroom. Although identifiable, those differences are '''not statistically significant''' with the given sample size ($N=84$).
+
+What was '''statistically significantly different''' however, was the subtlety in the interactions between the volunteers and store employee. The conversations with volunteers wearing "Gay and proud" heads were 36% shorter on average ($p=0.0285$), and those volunteers reported 30% more negativity ($p=0.0059$). Independent observers also considered the tape recordings of their interactions to be less positive than those of volunteers wearing "Texan and proud" caps (9% mean difference, $p=0.0314$).
+
+<ref>{{#cite:Q3930}}</ref>
+
+=== Interpretation ===
+
+Modern [[social discrimination]] can be quite subtle, sometimes even to the unawareness of discriminators themselves. However, those [[discrimination]] can still have a marked impact on career prospects and social integration of [[marginalised group]]s, as [[unconscious discrimination]] can manifest themselves through subtle attitude differences, which tend to be echoed back by the recipients, constituting a '''self-fulfilling prophecy''': marginalised groups are always less sociable (because the majority treat them with less interest/friendliness, which invites also less reciprocation).
+
+<ref>{{#cite:Q3470}}</ref>

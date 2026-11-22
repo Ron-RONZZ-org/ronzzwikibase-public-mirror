@@ -7482,6 +7482,12 @@
       "sha256": "6eeff602c84a92a765d3ad436b62ead1ec5cca1153122a6f3eebe1d8478e12c4",
       "synced_at": "2026-11-12T09:11:06+00:00"
     },
+    "Self-fulfilling prophecy": {
+      "path": "Main/Self-fulfilling prophecy.wiki",
+      "revid": 19239,
+      "sha256": "2899899a69295b75fd5c172ad504b10addd99913e69bc55d315936b306290895",
+      "synced_at": "2026-11-22T21:08:30+00:00"
+    },
     "Sequence": {
       "path": "Main/Sequence.wiki",
       "revid": 11723,
@@ -11059,6 +11065,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-22T20:09:51+00:00",
+  "updated": "2026-11-22T21:08:30+00:00",
   "version": 1
 }
