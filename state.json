@@ -2060,9 +2060,9 @@
     },
     "Discrimination": {
       "path": "Main/Discrimination.wiki",
-      "revid": 19168,
-      "sha256": "9832e82b8383e992da61c1663c4430c3326bbefcc64bed6d97b03858c19e17eb",
-      "synced_at": "2026-11-22T18:49:37+00:00"
+      "revid": 19202,
+      "sha256": "dc3a84f433d80a9edd917c6b099cd4e6db9ac3a1ae4294ab07afc2c6291620a1",
+      "synced_at": "2026-11-22T20:09:51+00:00"
     },
     "Doppler effect": {
       "path": "Main/Doppler effect.wiki",
@@ -11059,6 +11059,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-22T18:49:37+00:00",
+  "updated": "2026-11-22T20:09:51+00:00",
   "version": 1
 }
