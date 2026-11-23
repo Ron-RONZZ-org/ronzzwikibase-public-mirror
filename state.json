@@ -1206,6 +1206,12 @@
       "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Lumen Learning": {
+      "path": "Collective/Lumen Learning.wiki",
+      "revid": 19424,
+      "sha256": "0133d728f858e95e6d280813e458675eeadd73196b4100c72a1c86c2333e51de",
+      "synced_at": "2026-11-23T14:36:06+00:00"
+    },
     "Collective:M. Alpert and H.": {
       "path": "Collective/M. Alpert and H.wiki",
       "revid": 13050,
@@ -10794,6 +10800,12 @@
       "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
       "synced_at": "2026-10-27T11:14:31+00:00"
     },
+    "Source:Western Civilization (Lumen) (Book)": {
+      "path": "Source/Western Civilization (Lumen) (Book).wiki",
+      "revid": 19428,
+      "sha256": "a8ab6e67b0c5ebb32a38ecf6fdc429eb18526923f92249aab9fd0c6a922d3324",
+      "synced_at": "2026-11-23T14:36:06+00:00"
+    },
     "Source:What is Docker? (Webpage)": {
       "path": "Source/What is Docker_ (Webpage).wiki",
       "revid": 6159,
@@ -11221,6 +11233,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-23T14:22:24+00:00",
+  "updated": "2026-11-23T14:36:06+00:00",
   "version": 1
 }
