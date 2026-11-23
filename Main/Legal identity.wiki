@@ -1,0 +1,13 @@
+[[Category:Legal entity]]
+'''Legal identity''' is a set of information that fully identifies a [[legal identity]] beyond any reasonable doubt, sanctioned by law.<ref>{{#cite:Q3952}}</ref>
+
+== For a person ==
+
+Although the exact set of legally identifying information varies by [[jurisdiction]], in general they contain
+
+* Given and family name
+* Date and place of birth
+* Nationality (especially concerning immigration/marriage/international law, etc.)
+* Parental links (especially in case of ambiguity)
+
+<ref>{{#cite:Q3952}}</ref>

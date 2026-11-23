@@ -132,6 +132,12 @@
       "sha256": "5d70635b7210526a6d41a204ed3778ee65f3855492d3a4ee4fd01a4089f77c86",
       "synced_at": "2026-11-13T12:14:27+00:00"
     },
+    "Asset": {
+      "path": "Main/Asset.wiki",
+      "revid": 19410,
+      "sha256": "a0714b4b7cf838d7ac2d0c4067006ab79df664df1601dbfdc55faf0ba35e3c5b",
+      "synced_at": "2026-11-23T13:35:56+00:00"
+    },
     "Associative learning": {
       "path": "Main/Associative learning.wiki",
       "revid": 17091,
@@ -2969,6 +2975,12 @@
       "revid": 19294,
       "sha256": "881c53b2904cdde106ad7655dde2c498562be512473be42a6b90097d17577341",
       "synced_at": "2026-11-23T08:15:04+00:00"
+    },
+    "Legal identity": {
+      "path": "Main/Legal identity.wiki",
+      "revid": 19413,
+      "sha256": "de125efb623d217c3364284263f498cd836b14e5cc4aa9da7eb525197e314151",
+      "synced_at": "2026-11-23T13:35:56+00:00"
     },
     "Lepton number": {
       "path": "Main/Lepton number.wiki",
@@ -7272,6 +7284,12 @@
       "sha256": "867064f2b7752aeffb5dd885e54426ec4a648f0e6fd1bc689da3e1e55d70a43d",
       "synced_at": "2026-11-12T17:09:22+00:00"
     },
+    "Properties": {
+      "path": "Main/Properties.wiki",
+      "revid": 19412,
+      "sha256": "47251c0f837655f6b844775607c9941570fff45230d2f22bf32903bb5bea6517",
+      "synced_at": "2026-11-23T13:35:56+00:00"
+    },
     "Property": {
       "path": "Main/Property.wiki",
       "revid": 19409,
@@ -11185,6 +11203,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-23T13:22:56+00:00",
+  "updated": "2026-11-23T13:35:56+00:00",
   "version": 1
 }
