@@ -936,6 +936,12 @@
       "sha256": "233269e2ec993cb2b5922cd61f59385e56c68c56fce9061304b0546882a62402",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:France Université Numérique": {
+      "path": "Collective/France Université Numérique.wiki",
+      "revid": 19253,
+      "sha256": "e0b69d9e9bef1ab0a4240bc004ecad52f9597846c54f350ee9a95e62120f504d",
+      "synced_at": "2026-11-23T07:12:46+00:00"
+    },
     "Collective:Franci Rrapi, Beatrice Portelli, Giuseppe Serra, Lorenzo Scalera": {
       "path": "Collective/Franci Rrapi, Beatrice Portelli, Giuseppe Serra, Lorenzo Scalera.wiki",
       "revid": 11100,
@@ -1727,6 +1733,12 @@
       "revid": 11351,
       "sha256": "e2f2a141f74a748d06b5486d6fbdfef645d6e0cc7c67fd6c2e34f9d106a1627a",
       "synced_at": "2026-10-27T09:17:43+00:00"
+    },
+    "Collective:Université de Liège": {
+      "path": "Collective/Université de Liège.wiki",
+      "revid": 19249,
+      "sha256": "f9c2c432722326e217668838de66b839d3b55d77042ca58abaf6622e2e6b4b75",
+      "synced_at": "2026-11-23T07:12:46+00:00"
     },
     "Collective:Ville de Metz": {
       "path": "Collective/Ville de Metz.wiki",
@@ -4542,6 +4554,12 @@
       "sha256": "539d7a9867c4fe2bbb7db63ac32127fc3c4699691d0c0aee3f76232bd63d1786",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Frédéric Bouhon": {
+      "path": "Person/Frédéric Bouhon.wiki",
+      "revid": 19261,
+      "sha256": "56627115fd5c67b506a11c35ebd13c054d0f5fc61d9eca587dda4c5f6dc89bf4",
+      "synced_at": "2026-11-23T07:12:46+00:00"
+    },
     "Person:G. Tarcan Kumkale": {
       "path": "Person/G. Tarcan Kumkale.wiki",
       "revid": 17652,
@@ -5862,6 +5880,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T14:10:29+00:00"
     },
+    "Person:Nicolas Thirion": {
+      "path": "Person/Nicolas Thirion.wiki",
+      "revid": 19265,
+      "sha256": "7d9a19ca5238700181311e6a0f6ff384bc51b22c897178cd5f76c813c6129023",
+      "synced_at": "2026-11-23T07:12:46+00:00"
+    },
     "Person:Niki Parmar": {
       "path": "Person/Niki Parmar.wiki",
       "revid": 15358,
@@ -5993,6 +6017,12 @@
       "revid": 10282,
       "sha256": "1ebd5eee8c8ded087fb2eec8226f20b4c7e156ecb3fee99669406d94f880a8fd",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Pascale Lecocq": {
+      "path": "Person/Pascale Lecocq.wiki",
+      "revid": 19257,
+      "sha256": "8532aa9c9069248b13579cb33e845b4a835683d6ae9242bd2fb6d3c38380a89d",
+      "synced_at": "2026-11-23T07:12:46+00:00"
     },
     "Person:Patricia A. Davis": {
       "path": "Person/Patricia A. Davis.wiki",
@@ -6791,6 +6821,12 @@
       "revid": 16829,
       "sha256": "32da23ed2aa7dd28dc1b0fe34d96f95b843718d1517cd413c6f72d31d99334ef",
       "synced_at": "2026-11-17T16:23:36+00:00"
+    },
+    "Person:Vanessa Franssen": {
+      "path": "Person/Vanessa Franssen.wiki",
+      "revid": 19269,
+      "sha256": "58f006954aa6665aa453accd8b812aca92014238da58a96718fd084c47d4fae1",
+      "synced_at": "2026-11-23T07:12:46+00:00"
     },
     "Person:Vejay Vakharia": {
       "path": "Person/Vejay Vakharia.wiki",
@@ -7613,6 +7649,12 @@
       "revid": 6307,
       "sha256": "4306d02c48b19740b803f949637088ae3d799d864d308ddc3a265ead38d225fe",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:1.1 Introduction – Régler les relations entre les personnes privées (Transcript)": {
+      "path": "Source/1.1 Introduction – Régler les relations entre les personnes privées (Transcript).wiki",
+      "revid": 19281,
+      "sha256": "27a8f7285a40a3795bcdb86e7f453925cf42c58b5ba979795b216d1a5950d9cf",
+      "synced_at": "2026-11-23T07:12:46+00:00"
     },
     "Source:1.1.2: The Periodic Table (Webpage)": {
       "path": "Source/1.1.2_ The Periodic Table (Webpage).wiki",
@@ -8831,6 +8873,12 @@
       "revid": 15799,
       "sha256": "14a0a64d06023c242be2698ebcbc595c0a23340b6bf760aba1521e5e6ca4ce2a",
       "synced_at": "2026-11-11T14:10:29+00:00"
+    },
+    "Source:FUN-MOOC (Website)": {
+      "path": "Source/FUN-MOOC (Website).wiki",
+      "revid": 19273,
+      "sha256": "d505281ea61f8c2220cf2ba6d482e332eca51530191891f10320f0c1078d814b",
+      "synced_at": "2026-11-23T07:12:46+00:00"
     },
     "Source:Figshare: Provider of open research repository infrastructure (Website)": {
       "path": "Source/Figshare_ Provider of open research repository infrastructure (Website).wiki",
@@ -10728,6 +10776,12 @@
       "sha256": "7f95faa4b5402b33b181b51cfdfcf55ab2af44975c3acdff3c449a6c590024b6",
       "synced_at": "2026-11-17T22:49:46+00:00"
     },
+    "Source:Étudier le droit : une introduction (Webpage)": {
+      "path": "Source/Étudier le droit _ une introduction (Webpage).wiki",
+      "revid": 19277,
+      "sha256": "e0ef39e81c1f103d9b114d592603d2777b421daafd1cc0a84dc1f65eb5fda2f5",
+      "synced_at": "2026-11-23T07:12:46+00:00"
+    },
     "Source:回忆赤石暴动 (Magazine article)": {
       "path": "Source/回忆赤石暴动 (Magazine article).wiki",
       "revid": 18298,
@@ -11065,6 +11119,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-22T21:08:30+00:00",
+  "updated": "2026-11-23T07:12:46+00:00",
   "version": 1
 }
