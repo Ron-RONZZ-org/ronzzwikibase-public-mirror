@@ -7326,6 +7326,12 @@
       "sha256": "915117b5b4765deaf4b31c8e2be338150d776b8fd06f828bb67cbad8db244aae",
       "synced_at": "2026-11-23T07:49:22+00:00"
     },
+    "Public service": {
+      "path": "Main/Public service.wiki",
+      "revid": 19462,
+      "sha256": "a004286408206dbf97be9c62b48077ac8bba99562d93df4521d480ec8d0a1f00",
+      "synced_at": "2026-11-23T16:10:17+00:00"
+    },
     "Punishment": {
       "path": "Main/Punishment.wiki",
       "revid": 17098,
@@ -11251,6 +11257,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-23T15:49:18+00:00",
+  "updated": "2026-11-23T16:10:17+00:00",
   "version": 1
 }

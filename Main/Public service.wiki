@@ -1,0 +1,58 @@
+'''Public service''' includes
+
+* any service provided by the [[government]] to its population;
+* other essential services managed or closely overseen by the government.
+
+<ref>{{#cite:Q3952}}</ref>
+
+== Characteristics ==
+
+=== Essentiality ===
+
+Public services are often essential to the basic needs of its population
+
+e.g, 
+
+* '''Public transport''': ensure that people can move around, even if they do not own a personal vehicle/cannot drive;
+* '''Water, heating, and electricity''': vital to modern lifestyles;
+* '''Health care''': vital to the [[human rights|bodily integrity]] of human beings.
+
+=== Large scale and low profit ===
+
+Public services are often assumed by the government because private entities are unwilling/unable to provide such service
+
+e.g,
+
+* '''Postal distribution''': the distribution of small letters nationally and internationally is resource-intensive and not always profitable;
+* '''Education''': which many argue should not be for profit.
+
+=== Authority ===
+
+Some services that requires a high degree of trust are usually public:
+
+e.g, 
+* '''Police and justice''': ensure that police officers execute faithfully the law without influence from private interest;
+* '''Identification and registration''' (delivery of passports, birth certificates,etc.): ensure that personal data are centralised, safely stored, accurate, and verifiable.
+
+=== Accessibility ===
+
+In many [[state]]s, it is considered important that public service is equally accessible to '''everyone''', regardless of
+
+* Gender
+* Ethnic origin
+* Age
+* Ability to move/understand
+* Ability to pay
+
+As such, public service is often
+
+* offered freely or at a discounted price to people less able to pay
+* adapted for people with less ability to move or understand
+* controlled and supervised via formal inspections to discourage [[discrimination]].
+
+In practice, however, many states deny a certain part of their population access to public service, either formally or in effect.
+
+e.g, in many states, one's access to education,healthcare, and other public services can be denied if one is
+
+* an immigrant without legal permission;
+* or unable to pay.
