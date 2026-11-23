@@ -8,7 +8,7 @@ A '''state''' is a [[formal institution]] that exercises power over
 
 == Organisation ==
 
-== Rule of law ==
+=== Rule of law ===
 
 Many modern states are organised by the '''rule of law''', which means the state's institutions (the '''government''') is organised according to legal rules set out in a [[constitution]].<ref>{{#cite:Q3952}}</ref>
 
@@ -24,3 +24,7 @@ A state may be categorised as
 * ...
 
 Some states possesses characteristics of more than one form. They are then said to be a '''mixed state'''.
+
+In addition, in some states, each geographical region exercise a high degree of autonomy. e.g, each region may possess a regional legislature with power to enact regional laws, or even an armed force (e.g, the national guards in the United States). Those states are called '''[[federal state]]s'''. Non-federal states are sometimes called '''unitary states'''.
+
+<ref>{{#cite:Q3952}}</ref>
