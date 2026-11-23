@@ -2916,6 +2916,12 @@
       "sha256": "4168e7a331043836ef121aea1d692fd44cd7310d664530b0297dffa5a5571e0a",
       "synced_at": "2026-11-18T14:10:27+00:00"
     },
+    "Justice system": {
+      "path": "Main/Justice system.wiki",
+      "revid": 19419,
+      "sha256": "dd2d4f3703163488c853f523c309f6f1a14b4e2c749c12568ae6ca0c6c216207",
+      "synced_at": "2026-11-23T14:22:24+00:00"
+    },
     "KV caching": {
       "path": "Main/KV caching.wiki",
       "revid": 16145,
@@ -11215,6 +11221,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-23T14:10:56+00:00",
+  "updated": "2026-11-23T14:22:24+00:00",
   "version": 1
 }
