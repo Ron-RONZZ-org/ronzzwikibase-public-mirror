@@ -11130,6 +11130,12 @@
       "sha256": "0268ed4200e4ea473743b6962d6a2a483a377f13860ad2a171f84a09a869662f",
       "synced_at": "2026-11-10T15:49:47+00:00"
     },
+    "Trial": {
+      "path": "Main/Trial.wiki",
+      "revid": 19438,
+      "sha256": "fa78c9355b70c81935986278e1db5d0a2b6ab6c9b17bf935017e4bc17cb0ca28",
+      "synced_at": "2026-11-23T15:36:03+00:00"
+    },
     "Triangle inequality": {
       "path": "Main/Triangle inequality.wiki",
       "revid": 10334,
@@ -11245,6 +11251,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-23T15:20:42+00:00",
+  "updated": "2026-11-23T15:36:03+00:00",
   "version": 1
 }
