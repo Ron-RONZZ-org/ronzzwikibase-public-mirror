@@ -1,0 +1,26 @@
+[[Category:State]]
+A '''state''' is a [[formal institution]] that exercises power over
+
+* a permanent population
+* an exclusive territory (i.e., territory of a state cannot be simultaneously territory of another state)
+
+<ref>{{#cite:Q4052}}</ref>
+
+== Organisation ==
+
+== Rule of law ==
+
+Many modern states are organised by the '''rule of law''', which means the state's institutions (the '''government''') is organised according to legal rules set out in a [[constitution]].<ref>{{#cite:Q3952}}</ref>
+
+== Division of power ==
+
+A state may be categorised as
+
+* an [[absolute monarchy]], if one person detains the ultimate power of the state and pass it down to their offsprings;
+* a [[constitutional monarchy]], in which the head of state is similarly hereditary as in an absolute monarchy, but the monarch's power is limited by a [[constitution]];
+* an [[oligarchy]], if a few families exercice effective control over a state's institutions
+* a [[dictatorship]],if one or few people detain the ultimate power of the state
+* a [[republic]], if the power of the state is detained by its '''[[citizens]]''', and exercised via [[election|democratically elected representatives]]
+* ...
+
+Some states possesses characteristics of more than one form. They are then said to be a '''mixed state'''.
