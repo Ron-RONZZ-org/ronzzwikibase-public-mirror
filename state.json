@@ -7272,6 +7272,12 @@
       "sha256": "867064f2b7752aeffb5dd885e54426ec4a648f0e6fd1bc689da3e1e55d70a43d",
       "synced_at": "2026-11-12T17:09:22+00:00"
     },
+    "Property": {
+      "path": "Main/Property.wiki",
+      "revid": 19409,
+      "sha256": "0b7fd7f7c9a934c2723f3e2eecd900ab9ef8b7d5346edce0fb5fa815f3f94720",
+      "synced_at": "2026-11-23T13:22:56+00:00"
+    },
     "Public law": {
       "path": "Main/Public law.wiki",
       "revid": 19288,
@@ -11179,6 +11185,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-23T09:39:22+00:00",
+  "updated": "2026-11-23T13:22:56+00:00",
   "version": 1
 }

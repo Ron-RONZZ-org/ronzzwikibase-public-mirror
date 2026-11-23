@@ -1,0 +1,62 @@
+[[Category:Asset]]
+'''Properties''' are positive [[asset]]s owned by a [[legal entity]].<ref>{{#cite:Q3952}}</ref>
+
+== Classification ==
+
+A property can be:
+
+* '''material''' or '''immaterial''': e.g, a house v. copyright over a book ([[intellectual property]]);
+* '''exclusive''', '''shared''', or '''public''': owned by one [[legal entity]], jointly owned by multiple legal entities, or owned by a [[government]];
+* '''mobile''' or '''immobile'''¹: e.g, a mobile phone v. an acre of farm land;
+* '''disposable''' or '''non-disposable''': a bicycle you own v. a debt someone owes to you³;
+
+<blockquote>
+1:
+{| class="wikitable"
+|-
+! Proper terminology in [[jurisdiction]]
+! Mobile property
+! Immobile property
+|-
+| France
+| Bien mobilier
+| Bien immobilier
+|-
+| Common Law
+| Personal property²
+| Real property
+|}
+
+2: Somewhat counterintuitively, '''personal property''' is also used to designate mobile properties owned by organisations.
+
+3: Debt owed by other legal entities are considered part of property. However, this property is completely '''non-disposable''' until the debt is recovered.
+</blockquote>
+
+<blockquote>
+In some [[jurisdiction]]s, animals, or even human beings can be considered property of someone. In other jurisdictions, such as France, this is never the case.<ref>{{#cite:Q3952}}</ref>
+</blockquote>
+
+== Ownership ==
+
+To be considered the '''legal owner''' of a property, one must have acquired it lawfully.
+
+=== Rights of owner ===
+
+When one owns a property, one can, unless a law forbids it:
+
+* Use it;
+* Move it;
+* Transform it;
+* Rent it;
+* Use it as [[collateral]] to obtain a bank loan;
+* Dispose of it (sell, convert, destroy, etc.).
+
+==== In case of death ====
+
+In many jurisdictions, a person continues to exercise the '''right of disposal''' on their property after death.
+
+Therefore, a person is free to establish a '''[[will]]'''.
+
+When no will is established, their properties are often divided between their relatives, especially their life partner and children, according to proportions established by law.
+
+<ref>{{#cite:Q3952}}</ref>
