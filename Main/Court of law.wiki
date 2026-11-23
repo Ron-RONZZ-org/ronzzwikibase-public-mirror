@@ -1,0 +1,7 @@
+[[Category:Court of law]]
+A '''court of law''' is a part of a [[justice system]] responsible for<ref>{{#cite:Q3952}}</ref>
+
+* Receiving requests ('''cases''') from [[legal entities]]
+* Assess whether it has [[jurisdiction]] over the case
+* If so, follow '''legal procedure''' to arrive at a decision based on relevant law ('''judgement''')
+** For many cases, the legal procedure requires a [[trial]]

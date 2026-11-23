@@ -1956,6 +1956,12 @@
       "sha256": "687ab51230f8a6c2c342930a3a2c3953a936714ff9f237063a22f0074ea0c10d",
       "synced_at": "2026-11-12T17:09:22+00:00"
     },
+    "Court of law": {
+      "path": "Main/Court of law.wiki",
+      "revid": 19415,
+      "sha256": "72c0ebefceace3b7d23ec0e2963d86532452947854bc74a0b57cb77f2831ee08",
+      "synced_at": "2026-11-23T14:10:56+00:00"
+    },
     "Critical density of the Universe": {
       "path": "Main/Critical density of the Universe.wiki",
       "revid": 12363,
@@ -2897,6 +2903,12 @@
       "revid": 18010,
       "sha256": "a85d31cf658dcf09e00e59dc95b470b13a2a59ee37962813530609948ec0f79a",
       "synced_at": "2026-11-19T14:49:15+00:00"
+    },
+    "Jurisdiction": {
+      "path": "Main/Jurisdiction.wiki",
+      "revid": 19417,
+      "sha256": "bd743af0bba1a27bfdafec93dcf38987c3eb287ade05d14cc2e76dd59522c8aa",
+      "synced_at": "2026-11-23T14:10:56+00:00"
     },
     "Just-world hypothesis": {
       "path": "Main/Just-world hypothesis.wiki",
@@ -11203,6 +11215,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-23T13:35:56+00:00",
+  "updated": "2026-11-23T14:10:56+00:00",
   "version": 1
 }
