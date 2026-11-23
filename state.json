@@ -1896,6 +1896,12 @@
       "sha256": "1f9d7633a6d8d137e95116bf894f1a992da37c56a799fd584acffe61191f360c",
       "synced_at": "2026-10-31T13:49:41+00:00"
     },
+    "Constitution": {
+      "path": "Main/Constitution.wiki",
+      "revid": 19477,
+      "sha256": "0756d99546d61b91fd53b0cd15118a176c9589469e4c3bd582377c66f366fc8f",
+      "synced_at": "2026-11-23T16:21:26+00:00"
+    },
     "Constructive anticipation": {
       "path": "Main/Constructive anticipation.wiki",
       "revid": 12545,
@@ -7328,9 +7334,9 @@
     },
     "Public service": {
       "path": "Main/Public service.wiki",
-      "revid": 19462,
-      "sha256": "a004286408206dbf97be9c62b48077ac8bba99562d93df4521d480ec8d0a1f00",
-      "synced_at": "2026-11-23T16:10:17+00:00"
+      "revid": 19466,
+      "sha256": "f22df1be1c0cf400b706353ba0228a912a7b515661acb827b1367470111757a5",
+      "synced_at": "2026-11-23T16:21:26+00:00"
     },
     "Punishment": {
       "path": "Main/Punishment.wiki",
@@ -11257,6 +11263,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-23T16:10:17+00:00",
+  "updated": "2026-11-23T16:21:26+00:00",
   "version": 1
 }
