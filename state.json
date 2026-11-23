@@ -1884,6 +1884,12 @@
       "sha256": "f133aa76054f13a67c60cee6de234067fcbeeaae7ace763bcfba5e58baafd2f9",
       "synced_at": "2026-11-03T16:11:15+00:00"
     },
+    "Contract": {
+      "path": "Main/Contract.wiki",
+      "revid": 19304,
+      "sha256": "fa2d05208e206ffa560d2cdee5ad8cbb951b79b2584e66dd1da8e2d7ef8a784a",
+      "synced_at": "2026-11-23T09:14:33+00:00"
+    },
     "Copernican principle": {
       "path": "Main/Copernican principle.wiki",
       "revid": 16733,
@@ -2699,6 +2705,12 @@
       "revid": 12514,
       "sha256": "9da288caea9e96b4caf81e92e07f9edc888c129068665dd025bd9acef112cc91",
       "synced_at": "2026-11-03T14:36:26+00:00"
+    },
+    "Human rights": {
+      "path": "Main/Human rights.wiki",
+      "revid": 19300,
+      "sha256": "de90181203c11769ba2d11d14677100dd2ae4409d27be3401adb36939ab05822",
+      "synced_at": "2026-11-23T09:14:33+00:00"
     },
     "Humanities": {
       "path": "Main/Humanities.wiki",
@@ -11149,6 +11161,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-23T08:30:49+00:00",
+  "updated": "2026-11-23T09:14:33+00:00",
   "version": 1
 }

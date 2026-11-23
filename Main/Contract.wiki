@@ -1,0 +1,21 @@
+[[Category:Contract]]
+A '''contract''' is a '''legally-binding agreement''' between [[legal entities]]. Legal entities participating in a contract are called '''parties''' to the contract.<ref>{{#cite:Q3952}}</ref>
+
+A contract
+
+* identifies the participating legal entities
+* specifies the '''terms''': the rights and obligations of each party
+
+== Format ==
+
+A contract is most commonly '''written''', however, some [[jurisdictions]] also accept '''oral contracts'''.
+
+== Basis ==
+
+Contracts are formed on the principle of '''mutual consent'''.
+
+i.e., to form a contract
+
+* each party must consent freely, without coercion, to the terms of the contract;
+* they must express this consent
+** in the case of a written contract, often via dated signatures
