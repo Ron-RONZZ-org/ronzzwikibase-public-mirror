@@ -1,2 +1,5 @@
-[[Category:Law]]
-'''Public law''' governs the interaction between the [[government]] and other [[legal entities]].<ref>{{#cite:Q3952}}</ref>
+[[Category:Public law]]
+'''Public law''' governs the 
+
+* organisation of the government
+* interaction between the [[government]] and other [[legal entities]].<ref>{{#cite:Q3952}}</ref>

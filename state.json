@@ -7274,9 +7274,9 @@
     },
     "Private law": {
       "path": "Main/Private law.wiki",
-      "revid": 19286,
-      "sha256": "2ffc080ab659065512b5ba30bb95a6ea7b85370d6ca32fb4b5af0517193da0ef",
-      "synced_at": "2026-11-23T07:35:54+00:00"
+      "revid": 19493,
+      "sha256": "b162377cd9b9d057a467029ef05c12cc57337e18903edcaef78d202b60a85b7b",
+      "synced_at": "2026-11-23T17:09:38+00:00"
     },
     "Probabilistic model": {
       "path": "Main/Probabilistic model.wiki",
@@ -7334,9 +7334,9 @@
     },
     "Public law": {
       "path": "Main/Public law.wiki",
-      "revid": 19288,
-      "sha256": "915117b5b4765deaf4b31c8e2be338150d776b8fd06f828bb67cbad8db244aae",
-      "synced_at": "2026-11-23T07:49:22+00:00"
+      "revid": 19491,
+      "sha256": "2e0b40270367f4d64d54c33b2f06f1ddbd6375fdd5e84c124a5dfe58df53513c",
+      "synced_at": "2026-11-23T17:09:38+00:00"
     },
     "Public service": {
       "path": "Main/Public service.wiki",
@@ -11269,6 +11269,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-23T16:49:48+00:00",
+  "updated": "2026-11-23T17:09:38+00:00",
   "version": 1
 }
