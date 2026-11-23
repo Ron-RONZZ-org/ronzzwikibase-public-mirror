@@ -2934,6 +2934,12 @@
       "sha256": "f9cd302ee60bb3a3035ffedbe41fd935e7cb879348eb6498cc96b6e52ea69b73",
       "synced_at": "2026-11-03T16:11:15+00:00"
     },
+    "Legal entities": {
+      "path": "Main/Legal entities.wiki",
+      "revid": 19290,
+      "sha256": "8ee52392297f920c98fa44126e41d88b38cf2e49631781a71602bd5eadbbf25a",
+      "synced_at": "2026-11-23T07:49:22+00:00"
+    },
     "Lepton number": {
       "path": "Main/Lepton number.wiki",
       "revid": 11963,
@@ -7230,6 +7236,12 @@
       "sha256": "867064f2b7752aeffb5dd885e54426ec4a648f0e6fd1bc689da3e1e55d70a43d",
       "synced_at": "2026-11-12T17:09:22+00:00"
     },
+    "Public law": {
+      "path": "Main/Public law.wiki",
+      "revid": 19288,
+      "sha256": "915117b5b4765deaf4b31c8e2be338150d776b8fd06f828bb67cbad8db244aae",
+      "synced_at": "2026-11-23T07:49:22+00:00"
+    },
     "Punishment": {
       "path": "Main/Punishment.wiki",
       "revid": 17098,
@@ -11125,6 +11137,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-23T07:35:54+00:00",
+  "updated": "2026-11-23T07:49:22+00:00",
   "version": 1
 }
