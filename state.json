@@ -1890,6 +1890,12 @@
       "sha256": "fa2d05208e206ffa560d2cdee5ad8cbb951b79b2584e66dd1da8e2d7ef8a784a",
       "synced_at": "2026-11-23T09:14:33+00:00"
     },
+    "Contractual liability": {
+      "path": "Main/Contractual liability.wiki",
+      "revid": 19309,
+      "sha256": "d926070020e571f1ffb8852e2cf1be669be20211aa973aa4d9979e21386206f8",
+      "synced_at": "2026-11-23T09:28:48+00:00"
+    },
     "Copernican principle": {
       "path": "Main/Copernican principle.wiki",
       "revid": 16733,
@@ -11022,6 +11028,12 @@
       "sha256": "09cbb032cf9d393903c2e534fff57043be40d9c89d98face7d8eeda4cf8de69b",
       "synced_at": "2026-11-10T19:20:00+00:00"
     },
+    "Tortious liability": {
+      "path": "Main/Tortious liability.wiki",
+      "revid": 19307,
+      "sha256": "2a1bb6a24816319cf54f0ce3121085e4f06d778bd94e5588003872155930cb4b",
+      "synced_at": "2026-11-23T09:28:48+00:00"
+    },
     "Total energy": {
       "path": "Main/Total energy.wiki",
       "revid": 12339,
@@ -11161,6 +11173,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-23T09:14:33+00:00",
+  "updated": "2026-11-23T09:28:48+00:00",
   "version": 1
 }
