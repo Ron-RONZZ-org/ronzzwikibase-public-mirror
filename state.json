@@ -2940,6 +2940,12 @@
       "sha256": "8ee52392297f920c98fa44126e41d88b38cf2e49631781a71602bd5eadbbf25a",
       "synced_at": "2026-11-23T07:49:22+00:00"
     },
+    "Legal entity": {
+      "path": "Main/Legal entity.wiki",
+      "revid": 19294,
+      "sha256": "881c53b2904cdde106ad7655dde2c498562be512473be42a6b90097d17577341",
+      "synced_at": "2026-11-23T08:15:04+00:00"
+    },
     "Lepton number": {
       "path": "Main/Lepton number.wiki",
       "revid": 11963,
@@ -11137,6 +11143,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-23T07:49:22+00:00",
+  "updated": "2026-11-23T08:15:04+00:00",
   "version": 1
 }

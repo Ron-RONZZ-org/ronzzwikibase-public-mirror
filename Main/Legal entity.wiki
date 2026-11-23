@@ -1,0 +1,18 @@
+[[Category:Legal entity]]
+A '''legal entity''' is an individual or an [[organisation]] by [[law]]
+
+* considered as distinct;
+* entitled to rights and subjected to obligations.
+
+<ref>{{#cite:Q3952}}</ref>
+
+== Representation ==
+
+In general, legal entities can represent '''themselves''' in front of a court of law.
+
+Some legal entities however, must be represented by a [[legal representative]].
+
+* '''Person considered with reduced capacity'''
+** [[Minor]]
+** [[Adults judged of mental incapacity]]
+* '''Organisation (abstract non-life entity)'''
