@@ -3186,6 +3186,12 @@
       "sha256": "dbb9476728ee12ad5f5281611ffafe64d390b6869acc0d81bdf96db2fb6319c5",
       "synced_at": "2026-10-20T16:53:14+00:00"
     },
+    "Minor": {
+      "path": "Main/Minor.wiki",
+      "revid": 19296,
+      "sha256": "363694183679cd1bbb874416a04659a06deeaad26afbe68118b37b11fe977c72",
+      "synced_at": "2026-11-23T08:30:49+00:00"
+    },
     "Model parameters": {
       "path": "Main/Model parameters.wiki",
       "revid": 15910,
@@ -11143,6 +11149,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-23T08:15:04+00:00",
+  "updated": "2026-11-23T08:30:49+00:00",
   "version": 1
 }
