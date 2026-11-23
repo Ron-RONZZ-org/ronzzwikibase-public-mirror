@@ -7452,6 +7452,12 @@
       "sha256": "7aa431a128d2119d9aab4d38b2aa048a6e4f10190d09e3603bd471404982065e",
       "synced_at": "2026-11-08T12:49:04+00:00"
     },
+    "Republic": {
+      "path": "Main/Republic.wiki",
+      "revid": 19433,
+      "sha256": "9674795db8c7c0eec60ce1b4cd7c3781d306cf522ad99d48364272d6bb7d7add",
+      "synced_at": "2026-11-23T15:20:42+00:00"
+    },
     "Residual connection (Transformer)": {
       "path": "Main/Residual connection (Transformer).wiki",
       "revid": 16150,
@@ -11239,6 +11245,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-23T15:10:38+00:00",
+  "updated": "2026-11-23T15:20:42+00:00",
   "version": 1
 }

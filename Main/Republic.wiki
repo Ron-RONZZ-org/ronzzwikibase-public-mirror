@@ -1,0 +1,46 @@
+A '''republic''' is a form of state in which
+
+* the head of state is elected through democratic elections by all adult '''[[citizen]]s'''¹ for a '''term''' defined by law (often a few years);
+* the legislative power is detained by a [[parliament]], whose members are also democratically elected, sometimes by geographical regions.
+
+<blockquote>
+In certain [[jurisdiction]]s, an adult citizen can be legally denied the right to vote if
+
+* they are convicted of certain categories of crime;
+* they are declared to be of mental incapacity;
+* refuse to fulfil certain legal obligations (e.g, register themself with the government before elections);
+* ...
+
+Other citizens may simply choose not to vote.
+</blockquote>
+<ref>{{#cite:Q3952}}</ref>
+
+== [[Political regime]] ==
+
+Common regimes of republics include
+
+== Presidential ==
+
+The '''president''', elected by popular vote detains the ultimate '''executive power'''
+
+i.e., they
+* are not responsible to the parliament
+* can exercise freely the power bestowed in them by the [[constitution]]
+
+== Parliament ==
+
+The [[parliament]] retains the ultimate decision power on all state affairs
+
+i.e., the parliament
+
+* can summon the head of government to report in front of them
+* can overwrite executive decisions taken by the head of government
+
+== Semi-presidential ==
+
+The executive power is shared between a '''president''' elected by popular vote and a '''prime-minister''' elected by the parliament.
+
+* The prime-minister is responsible to the parliament;
+* but the president is not.
+
+<ref>{{#cite:Q3952}}</ref>
