@@ -1,0 +1,20 @@
+[[Category:Civil liability| ]]
+'''Civil liability''' refers to the legal obligation to repair undue damages caused by a [[legal entity]] to another one.<ref>{{#cite:Q3952}}</ref>
+
+The two main forms are:
+
+* [[contractual liability]]
+* [[tortious liability]]
+
+== Obligor and obligee ==
+
+If A is civilly liable to B, then A is called an '''obligor''' to '''obligee''' B.
+
+In French law, the equivalent terms are '''débiteur·euse''' and '''créancier·ère'''.<ref>{{#cite:Q3952}}</ref>
+
+== Repair ==
+
+In most modern [[jurisdiction]]s, repair of damages is either done
+
+* in kind, by repairing or replacing the damage
+* via financial compensation

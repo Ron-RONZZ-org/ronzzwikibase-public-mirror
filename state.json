@@ -468,6 +468,12 @@
       "sha256": "db10ea24de776ca10a96d85d81e17974de74564bb7479b0363b820b877b66458",
       "synced_at": "2026-10-21T08:19:49+00:00"
     },
+    "Civil liability": {
+      "path": "Main/Civil liability.wiki",
+      "revid": 19403,
+      "sha256": "b39c22c5dfb9899f5b70f092beb67a5ddf7dc784bcce67304711588b9fbbcba8",
+      "synced_at": "2026-11-23T09:39:22+00:00"
+    },
     "Classical Hamiltonian": {
       "path": "Main/Classical Hamiltonian.wiki",
       "revid": 16529,
@@ -11173,6 +11179,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-23T09:28:48+00:00",
+  "updated": "2026-11-23T09:39:22+00:00",
   "version": 1
 }
