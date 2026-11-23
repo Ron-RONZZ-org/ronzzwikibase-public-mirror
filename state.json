@@ -2976,6 +2976,12 @@
       "sha256": "117076bd77fe42e50fe31a5bfd07c0ca816fe33ace72a0caaf6b58610657cf59",
       "synced_at": "2026-11-17T14:49:41+00:00"
     },
+    "Law": {
+      "path": "Main/Law.wiki",
+      "revid": 19488,
+      "sha256": "edf412d8c49457a69bfc01e62faa57aef44b97a0b25baab018dc9a633975f042",
+      "synced_at": "2026-11-23T16:49:48+00:00"
+    },
     "Law of cosine": {
       "path": "Main/Law of cosine.wiki",
       "revid": 8586,
@@ -11263,6 +11269,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-23T16:21:26+00:00",
+  "updated": "2026-11-23T16:49:48+00:00",
   "version": 1
 }
