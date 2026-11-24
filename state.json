@@ -2102,9 +2102,9 @@
     },
     "Digital twin": {
       "path": "Main/Digital twin.wiki",
-      "revid": 19542,
-      "sha256": "da494c3420def6fc593842bd0cc3315407751c1366c5048bff79887d09860352",
-      "synced_at": "2026-11-24T11:09:48+00:00"
+      "revid": 19559,
+      "sha256": "3c494e81fc344f549533b5a3a23d4a0e69a4c946832f71314954c7815816828d",
+      "synced_at": "2026-11-24T14:10:59+00:00"
     },
     "Dirac notation": {
       "path": "Main/Dirac notation.wiki",
@@ -7526,9 +7526,9 @@
     },
     "Robot simulation": {
       "path": "Main/Robot simulation.wiki",
-      "revid": 19540,
-      "sha256": "5b3ef657d3d56524994fc033168127a1434e719da381ce21873e739d7f281137",
-      "synced_at": "2026-11-24T11:09:48+00:00"
+      "revid": 19558,
+      "sha256": "44512a9a3b23e7c4d66e4721d6e648eb774760d289fa8c8b55c4c0fa63321460",
+      "synced_at": "2026-11-24T14:10:59+00:00"
     },
     "Rolle's theorem": {
       "path": "Main/Rolle's theorem.wiki",
@@ -11317,6 +11317,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-24T11:09:48+00:00",
+  "updated": "2026-11-24T14:10:59+00:00",
   "version": 1
 }

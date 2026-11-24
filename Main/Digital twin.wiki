@@ -1,2 +1,3 @@
+[[Category:Robot simulation]]
 [[File:Digital twin cobot.png|The digital twin of a [[cobot]].|thumbnail]]
 A '''digital twin''' is the computer simulation of a real system, that reacts to simulated conditions similar to how its real counter-part react to corresponding real-world conditions.

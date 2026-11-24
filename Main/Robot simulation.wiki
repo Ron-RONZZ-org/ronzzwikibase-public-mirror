@@ -1,1 +1,14 @@
+[[Category:Robot simulation| ]]
 '''Robot simulation''' is the process of programming and testing a [[robotic system]] digitally with the aid of a [[digital twin]].
+
+== Movement ==
+
+[[File:Digital twin axis.png|thumb|A cobot with an orthogonal basis shown on its right arm]]
+[[File:Digital twin point label.png|thumb|The same cobot with an orthogonal basis shown on a target movement point]]
+[[File:Digital twin simulation movement sequence.png|thumb|A series of bases defines a trajectory.]]
+
+The movements of robot digital twins are most commonly controlled via [[orthogonal bases]], placed on destination points with the required orientation. A series of bases defines a trajectory.
+
+Advanced simulations allow also control of the speed and fine-tuning the trajectory of robots as on its real counter-part.
+
+Some simulations are capable of synchronising an entire robotic system with multiple autonomous robotic entities, based on custom sequences/trigger conditions.
