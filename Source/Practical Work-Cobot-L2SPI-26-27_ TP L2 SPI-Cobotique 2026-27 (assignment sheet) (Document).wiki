@@ -1,0 +1,5 @@
+{{Document}}
+
+== Overview ==
+
+Practical-work assignment for L2 SPI (University of Lorraine, UE Conception Réalisation - EC Robotique, 2026-27) on programming the two arms of an ABB YuMi cobot in order to place three PCB boards on a luminaire and remove them again. TP1 programmes the placement of a single PCB on the luminaire with one arm; TP2 covers lead-through programming of the cobot and is not run in 2026-27; TP3 requires place, removal and return-to-rack cycles with both arms, I/O communication between the arms to avoid collisions, collision-free trajectories, tag (balise) creation and cycle-time optimisation. Includes the 8-session plan, the intermediate deadlines (24 November 2026 to 18 December 2026), the required programming rules (approach positions at v200, free moves at v1000, zone z50 versus fine positioning, explicit move names), the deliverables (3DXML station file, station published in the 3DEXPERIENCE Bookmark Editor, simulation animations) and the assessment criteria.

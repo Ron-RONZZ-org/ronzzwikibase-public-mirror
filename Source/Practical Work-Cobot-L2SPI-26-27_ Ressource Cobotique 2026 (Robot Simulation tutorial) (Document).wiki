@@ -1,0 +1,5 @@
+{{Document}}
+
+== Overview ==
+
+Step-by-step tutorial for the L2 SPI cobotics practical work (University of Lorraine, UE Conception Réalisation - EC Robotique, 2026). Covers importing the workstation from Arche and opening it in 3DEXPERIENCE, importing the MinGW compiler and declaring the access to gcc.exe (32 and 64 bit), publishing the station in the Bookmark Editor, manual moves of the cobot via the TCP, creating tags and tag groups, creating an arm programme, defining the trajectory in teaching mode (speed v1000, zone z), capture and release actions to attach a PCB to the gripper, simulation states, initial positions, recording an animation, creating and mapping the I/O of the two arms to avoid collisions, and generating then importing the module on the cobot through Robot Programming and Program Editor.

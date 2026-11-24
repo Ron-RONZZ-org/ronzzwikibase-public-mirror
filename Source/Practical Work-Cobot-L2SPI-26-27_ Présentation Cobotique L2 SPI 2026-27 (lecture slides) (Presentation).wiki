@@ -1,0 +1,5 @@
+{{Presentation}}
+
+== Overview ==
+
+Sixteen-slide lecture deck introducing collaborative robotics for the L2 SPI practical work (University of Lorraine, UE Conception Réalisation - EC Robotique, 2026-27): definition and classification of robots (industrial, collaborative, humanoid, mobile, domestic), evolution of robot installations after the International Federation of Robotics, caged cells versus shared-workspace cells, the position of cobotics between manual and automated assembly (flexibility, diversity, productivity), the benefits of human-robot collaboration, presentation of the ABB YuMi two-arm cobot and its characteristics (0.5 kg payload per arm, 559 mm reach, 0.02 mm repeatability, 38 kg, 7 axes per arm), the teaching progression of the practical work, the 3DEXPERIENCE platform and Delmia Robot Simulation, and the case study - assembling PCB boards on an Eclatec luminaire - with the work requested (initiation phase, advanced phase) and the deliverables (3DXML station file, simulation videos).

@@ -1,0 +1,5 @@
+{{Person}}
+
+== Overview ==
+
+Teacher and author of the L2 SPI robotics and cobotics practical-work materials at the University of Lorraine (2026-27)

@@ -1,0 +1,5 @@
+{{Document}}
+
+== Overview ==
+
+Two-step connection sheet for the 3DEXPERIENCE platform used in the L2 SPI cobotics practical work at the University of Lorraine: select the profile UL2021X, then the https protocol, the host 3dexperience2021.univ-lorraine.fr, port 443 and the root 3dspace, and sign in with the University of Lorraine login. The credentials themselves are deliberately not reproduced in this description; they are readable in the internal-use access file.

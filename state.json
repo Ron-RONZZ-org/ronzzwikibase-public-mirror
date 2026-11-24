@@ -5046,6 +5046,12 @@
       "sha256": "8b9802a45f6652c0a25e88d5fb318e464091fb4cf83c424805b368986920b15a",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Jean-Marc Philippe": {
+      "path": "Person/Jean-Marc Philippe.wiki",
+      "revid": 19503,
+      "sha256": "3b8f07d0dd3801f15ebee08765db8e1780b2d24b8c5a99e338e092d99ed30020",
+      "synced_at": "2026-11-24T10:36:26+00:00"
+    },
     "Person:Jeanne Marecek": {
       "path": "Person/Jeanne Marecek.wiki",
       "revid": 17305,
@@ -10080,6 +10086,30 @@
       "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Practical Work-Cobot-L2SPI-26-27: Plateforme 3Dex 2021 v2 (connection settings) (Document)": {
+      "path": "Source/Practical Work-Cobot-L2SPI-26-27_ Plateforme 3Dex 2021 v2 (connection settings) (Document).wiki",
+      "revid": 19531,
+      "sha256": "0a9e9b98260f39348e9987a3feeff77727b2c7996f80ee248cc5cef6494a0c14",
+      "synced_at": "2026-11-24T10:36:26+00:00"
+    },
+    "Source:Practical Work-Cobot-L2SPI-26-27: Présentation Cobotique L2 SPI 2026-27 (lecture slides) (Presentation)": {
+      "path": "Source/Practical Work-Cobot-L2SPI-26-27_ Présentation Cobotique L2 SPI 2026-27 (lecture slides) (Presentation).wiki",
+      "revid": 19523,
+      "sha256": "5e0167b61bcc96f418b50d8d1c4ea8ae58bf088a31d3bfd66edd841904d3b82f",
+      "synced_at": "2026-11-24T10:36:26+00:00"
+    },
+    "Source:Practical Work-Cobot-L2SPI-26-27: Ressource Cobotique 2026 (Robot Simulation tutorial) (Document)": {
+      "path": "Source/Practical Work-Cobot-L2SPI-26-27_ Ressource Cobotique 2026 (Robot Simulation tutorial) (Document).wiki",
+      "revid": 19507,
+      "sha256": "83289471bee0c1a4e1241c051b2e32674d15e8588060de4e1bda0a268129f492",
+      "synced_at": "2026-11-24T10:36:26+00:00"
+    },
+    "Source:Practical Work-Cobot-L2SPI-26-27: TP L2 SPI-Cobotique 2026-27 (assignment sheet) (Document)": {
+      "path": "Source/Practical Work-Cobot-L2SPI-26-27_ TP L2 SPI-Cobotique 2026-27 (assignment sheet) (Document).wiki",
+      "revid": 19515,
+      "sha256": "25f4f26b30768e26e90bcec6f7a8199bfe0f58dffc334aeca873e85128cb629c",
+      "synced_at": "2026-11-24T10:36:26+00:00"
+    },
     "Source:Principle of Mathematical Induction - Algebrica (Webpage)": {
       "path": "Source/Principle of Mathematical Induction - Algebrica (Webpage).wiki",
       "revid": 11647,
@@ -11275,6 +11305,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-23T21:08:46+00:00",
+  "updated": "2026-11-24T10:36:26+00:00",
   "version": 1
 }
