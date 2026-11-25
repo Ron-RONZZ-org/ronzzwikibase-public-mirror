@@ -846,6 +846,12 @@
       "sha256": "94da5b2393ee2331038cd10146b68191b4d610ad2ac7d88eca11b39fae882707",
       "synced_at": "2026-11-07T19:35:16+00:00"
     },
+    "Collective:DoITPoMS": {
+      "path": "Collective/DoITPoMS.wiki",
+      "revid": 19784,
+      "sha256": "c5c248dfab57ecfd0415a5704e8bd71e3f5c66ba3a19c7c420c143f58fda319d",
+      "synced_at": "2026-11-25T12:49:51+00:00"
+    },
     "Collective:Docker, Inc.": {
       "path": "Collective/Docker, Inc.wiki",
       "revid": 6125,
@@ -1733,6 +1739,12 @@
       "revid": 8297,
       "sha256": "3a9548c74a435b0c8ce60b81a2f629ff896d8b90116bb233f14e1fc2cc726c24",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Collective:University of Cambridge": {
+      "path": "Collective/University of Cambridge.wiki",
+      "revid": 19780,
+      "sha256": "e4969bc92bb70356decab09ce23882959616fda26c36d427a0f85959c85d028d",
+      "synced_at": "2026-11-25T12:49:51+00:00"
     },
     "Collective:University of Cologne": {
       "path": "Collective/University of Cologne.wiki",
@@ -8634,6 +8646,12 @@
       "sha256": "e31e978ef388023396404326f0e070d3f2ef5ac302b9fcce9909e5a702852704",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Atomic Scale Structure of Materials: Introduction (Webpage)": {
+      "path": "Source/Atomic Scale Structure of Materials_ Introduction (Webpage).wiki",
+      "revid": 19792,
+      "sha256": "8880940f4e1298ed56867a97633725b2f29ad6153e17a99a01cffca4bb747390",
+      "synced_at": "2026-11-25T12:49:51+00:00"
+    },
     "Source:Attention Is All You Need (Conference paper)": {
       "path": "Source/Attention Is All You Need (Conference paper).wiki",
       "revid": 15382,
@@ -9053,6 +9071,12 @@
       "revid": 9121,
       "sha256": "cff3f4632bbcbd3d33abeebf019d95693d231d916f3ce7dde3e4d9f189b5510f",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:DoITPoMS Teaching and Learning Packages (Website)": {
+      "path": "Source/DoITPoMS Teaching and Learning Packages (Website).wiki",
+      "revid": 19788,
+      "sha256": "5abb404d7989fad1896ecf5271adfd7033c09a518e83bfc0daa8a641c5347872",
+      "synced_at": "2026-11-25T12:49:51+00:00"
     },
     "Source:Docker Blog (Website)": {
       "path": "Source/Docker Blog (Website).wiki",
@@ -10338,6 +10362,18 @@
       "sha256": "c6d9cceaf9b187e8d48ab02ab5b8ed04e593d9d6d15ef06b279a43352cba88e2",
       "synced_at": "2026-10-18T11:24:20+00:00"
     },
+    "Source:Propriétés mécaniques des matériaux (Document)": {
+      "path": "Source/Propriétés mécaniques des matériaux (Document).wiki",
+      "revid": 19756,
+      "sha256": "e7741d416949247d6eeb0aa8cc967e9ac0e02c5d06e466299d6477a86cd8f3d4",
+      "synced_at": "2026-11-25T12:49:51+00:00"
+    },
+    "Source:Propriétés physiques des matériaux (Document)": {
+      "path": "Source/Propriétés physiques des matériaux (Document).wiki",
+      "revid": 19764,
+      "sha256": "6ee6cb4f6743c98b928ec8c00cbf26f2b1cf501ca626868870ea31aa8b261c29",
+      "synced_at": "2026-11-25T12:49:51+00:00"
+    },
     "Source:Proxy - Glossary - CSRC (Webpage)": {
       "path": "Source/Proxy - Glossary - CSRC (Webpage).wiki",
       "revid": 12803,
@@ -10589,6 +10625,18 @@
       "revid": 8715,
       "sha256": "c8a1e05ed808d1da92ee55b53db10ad86561a8725223781ac76436ce37912149",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:Structures des matériaux (Document)": {
+      "path": "Source/Structures des matériaux (Document).wiki",
+      "revid": 19748,
+      "sha256": "d62cec63479bf71913224082f66deb0d998b2acf0d8bd03cc18094430522231d",
+      "synced_at": "2026-11-25T12:49:51+00:00"
+    },
+    "Source:Structures et propriétés des matériaux, 1. Introduction (diapositives) (Presentation)": {
+      "path": "Source/Structures et propriétés des matériaux, 1. Introduction (diapositives) (Presentation).wiki",
+      "revid": 19772,
+      "sha256": "6a3e8783298655f96bcb3693cefb7a628f369663c5f55eb539fa45abbc379fc9",
+      "synced_at": "2026-11-25T12:49:51+00:00"
     },
     "Source:Studies of Independence and Conformity: I. A Minority of One Against a Unanimous Majority (Scholarly article)": {
       "path": "Source/Studies of Independence and Conformity_ I. A Minority of One Against a Unanimous Majority (Scholarly article).wiki",
@@ -11485,6 +11533,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-25T10:10:48+00:00",
+  "updated": "2026-11-25T12:49:51+00:00",
   "version": 1
 }

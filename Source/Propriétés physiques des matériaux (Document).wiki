@@ -1,0 +1,5 @@
+{{Document}}
+
+== Overview ==
+
+Course handout for the unit "Structures et propriétés des matériaux", L2 Sciences pour l'ingénieur – Mécanique Génie Civil, Université de Lorraine: temperature and thermal agitation, heat and energy conservation, the three modes of heat transfer, molar and specific heat capacity, thermal conductivity (Fourier's laws) and thermal diffusivity; with sections on electrical, magnetic and optical properties.

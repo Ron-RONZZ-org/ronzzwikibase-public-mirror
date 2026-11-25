@@ -1,0 +1,5 @@
+{{Document}}
+
+== Overview ==
+
+Course handout for the unit "Structures et propriétés des matériaux", L2 Sciences pour l'ingénieur – Mécanique Génie Civil, Université de Lorraine: uniaxial tensile testing, behaviour of the main material families (metals, polymers), and strengthening mechanisms of crystalline materials (work hardening, grain refinement, solid-solution and precipitation hardening). The document's own footer credits Alain Hazotte, September 2015.

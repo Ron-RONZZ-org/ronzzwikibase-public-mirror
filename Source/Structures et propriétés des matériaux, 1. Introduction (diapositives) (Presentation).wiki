@@ -1,0 +1,5 @@
+{{Presentation}}
+
+== Overview ==
+
+Lecture slides for chapter 1 (Introduction) of the unit "Structures et propriétés des matériaux", L2 Sciences pour l'ingénieur – Mécanique Génie Civil, Université de Lorraine (16 h lectures, 14 h tutorials): definition of a material, scales of study (atomic, microstructure, mesostructure, macrostructure), and the fundamental constituents of matter (atoms, electrons, the periodic table).
