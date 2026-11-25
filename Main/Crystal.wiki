@@ -12,8 +12,13 @@ An ideal single crystal consists of cells of atoms that repeat over the entire v
 It is said to be perfectly '''translationally symmetric'''.
 
 ==== Polycrystalline ====
-
+[[File:Galvanised steel plate.png|thumbnail|right|In galvanised steel, the grains are large enough to be seen with the naked eye, which is not the case for most polycrystals.]]
+[[File:Hypoeutectoid iron-carbon alloy.png|thumbnail|left|In most polycrystals, the grains are of [[microscopic scale]].]]
 A polycrystalline has multiple '''grains''', each similar to a single crystal.
+
+The boundaries between two grains are called '''grain boundaries'''.
+
+Most crystals on the [[macroscopic scale]] are polycrystalline, and the most polycrystal grains are '''polyhedrals''' with $120^\circ$ angle between surfaces, as grain boundaries are high energy surfaces that tend to naturally minimise themselves.
 
 == Lattice system ==
 
