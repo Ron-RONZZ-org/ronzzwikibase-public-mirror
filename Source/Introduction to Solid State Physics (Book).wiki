@@ -1,0 +1,5 @@
+{{Book}}
+
+== Overview ==
+
+Standard graduate textbook on the physics of solids, 8th edition (2004)

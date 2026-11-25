@@ -1,0 +1,85 @@
+[[File:Crystal structure.png|thumbnail|400px]]
+'''Crystal''' is a solid with periodic atomic structure.
+
+== Classification ==
+
+=== Grain ===
+
+==== Single crystal ====
+
+An ideal single crystal consists of cells of atoms that repeat over the entire volume of the solid.
+
+It is said to be perfectly '''translationally symmetric'''.
+
+==== Polycrystalline ====
+
+A polycrystalline has multiple '''grains''', each similar to a single crystal.
+
+== Lattice system ==
+
+The 6 crystal families group the 7 lattice systems and the 14 Bravais lattices, each fixed by constraints on the lattice constants $a$, $b$, and $c$ and on the angles $\alpha$, $\beta$, and $\gamma$ between the axes.<ref>{{#cite:Q4223}}</ref>
+
+{| class="wikitable" style="text-align:center;"
+|+ The 7 lattice systems and 14 Bravais lattices
+! rowspan="2" scope="col" | Crystal family
+! rowspan="2" scope="col" | Lattice system
+! rowspan="2" scope="col" | Axial constraints
+! colspan="4" scope="colgroup" | Bravais lattices (Pearson symbol)
+|-
+! scope="col" | Primitive
+! scope="col" | Base-centred
+! scope="col" | Body-centred
+! scope="col" | Face-centred
+|-
+! colspan="2" scope="rowgroup" | Triclinic
+| none
+| [[File:Triclinic.svg|80px|alt=Primitive triclinic cell]]<br />aP
+|
+|
+|
+|-
+! colspan="2" scope="rowgroup" | Monoclinic
+| $\alpha = \gamma = 90^\circ$
+| [[File:Monoclinic.svg|80px|alt=Primitive monoclinic cell]]<br />mP
+| [[File:Base-centred monoclinic.svg|80px|alt=Base-centred monoclinic cell]]<br />mS
+|
+|
+|-
+! colspan="2" scope="rowgroup" | Orthorhombic
+| $\alpha = \beta = \gamma = 90^\circ$
+| [[File:Orthorhombic.svg|80px|alt=Primitive orthorhombic cell]]<br />oP
+| [[File:Base-centred orthorhombic.svg|80px|alt=Base-centred orthorhombic cell]]<br />oS
+| [[File:Body-centred orthorhombic.svg|80px|alt=Body-centred orthorhombic cell]]<br />oI
+| [[File:Face-centred orthorhombic.svg|80px|alt=Face-centred orthorhombic cell]]<br />oF
+|-
+! colspan="2" scope="rowgroup" | Tetragonal
+| $a = b$<br />$\alpha = \beta = \gamma = 90^\circ$
+| [[File:Tetragonal.svg|80px|alt=Primitive tetragonal cell]]<br />tP
+|
+| [[File:Body-centred tetragonal.svg|80px|alt=Body-centred tetragonal cell]]<br />tI
+|
+|-
+! rowspan="2" scope="rowgroup" | Hexagonal
+! scope="row" | Rhombohedral
+| $a = b = c$<br />$\alpha = \beta = \gamma \neq 90^\circ$
+| [[File:Rhombohedral.svg|80px|alt=Rhombohedral cell]]<br />hR
+|
+|
+|
+|-
+! scope="row" | Hexagonal
+| $a = b$<br />$\alpha = \beta = 90^\circ$, $\gamma = 120^\circ$
+| [[File:Hexagonal latticeFRONT.svg|80px|alt=Hexagonal cell, front view]]<br />hP
+|
+|
+|
+|-
+! colspan="2" scope="rowgroup" | Cubic
+| $a = b = c$<br />$\alpha = \beta = \gamma = 90^\circ$
+| [[File:Cubic.svg|80px|alt=Primitive cubic cell]]<br />cP
+|
+| [[File:Body-centred cubic.svg|80px|alt=Body-centred cubic cell]]<br />cI
+| [[File:Face-centred cubic.svg|80px|alt=Face-centred cubic cell]]<br />cF
+|}
+
+The hexagonal crystal family holds 2 lattice systems, rhombohedral and hexagonal, so that the 6 crystal families give 7 lattice systems.<ref>{{#cite:Q4223}}</ref> The first letter of the Pearson symbol names the crystal family (a for anorthic, that is triclinic, then m, o, t, h, c), and the second the centring (P primitive, S base-centred, I body-centred, F face-centred).<ref>{{#cite:Q4223}}</ref>

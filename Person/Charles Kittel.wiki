@@ -1,0 +1,5 @@
+{{Person}}
+
+== Overview ==
+
+American physicist (1916-2019), author of Introduction to Solid State Physics

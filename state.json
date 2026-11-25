@@ -2034,6 +2034,12 @@
       "sha256": "7c38e6daf717871c39ff9c0078d269b60cef6fe701117645ab2c927d1cf99f66",
       "synced_at": "2026-10-21T15:14:40+00:00"
     },
+    "Crystal": {
+      "path": "Main/Crystal.wiki",
+      "revid": 19865,
+      "sha256": "e69262788a32dd2592d744460b43858dfdc977ae651a827cbba03b43fba1bdb6",
+      "synced_at": "2026-11-25T13:10:49+00:00"
+    },
     "Cubic spline interpolation": {
       "path": "Main/Cubic spline interpolation.wiki",
       "revid": 11553,
@@ -4133,6 +4139,12 @@
       "revid": 19018,
       "sha256": "c2f755460a541206b73c6e8ec3993aedba741e4a031f3a79f95e1ba146def271",
       "synced_at": "2026-11-22T12:12:40+00:00"
+    },
+    "Person:Charles Kittel": {
+      "path": "Person/Charles Kittel.wiki",
+      "revid": 19858,
+      "sha256": "d97e73d750e9f01b39e2e430fc713825e82961feec9350037cac63b78cee0dee",
+      "synced_at": "2026-11-25T13:10:49+00:00"
     },
     "Person:Charlotte Phelps": {
       "path": "Person/Charlotte Phelps.wiki",
@@ -9528,6 +9540,12 @@
       "sha256": "b4d497ee8b10d22b7fd1c647677e3c6baf56c2ab90f916ca1a8dd08243b48fcb",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:Introduction to Solid State Physics (Book)": {
+      "path": "Source/Introduction to Solid State Physics (Book).wiki",
+      "revid": 19864,
+      "sha256": "b03dda4dbe7227285801ebf6b38477e1e03b7f18aa4fc7240096596558d7dcb9",
+      "synced_at": "2026-11-25T13:10:49+00:00"
+    },
     "Source:Invisible Diversity: A Story Of Undiagnosed Autism - Carrie Beckwith-Fellows - TEDxVilnius (YouTube video)": {
       "path": "Source/Invisible Diversity_ A Story Of Undiagnosed Autism - Carrie Beckwith-Fellows - TEDxVilnius (YouTube video).wiki",
       "revid": 8937,
@@ -11533,6 +11551,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-25T12:49:51+00:00",
+  "updated": "2026-11-25T13:10:49+00:00",
   "version": 1
 }
