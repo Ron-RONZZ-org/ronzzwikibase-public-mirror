@@ -1,0 +1,5 @@
+{{ScholarlyArticle}}
+
+== Abstract ==
+
+A four-week controlled trial in a French university cafeteria in Dijon: vegetarian main meals rose from 24% (control) to 48% of the offer (intervention), without informing students. Doubling availability significantly increased the likelihood of choosing a vegetarian main meal (OR = 2.57, 95% CI [2.41; 2.74]); satisfaction with the offer and liking of the chosen meal improved slightly; only 6% of students noticed the change. The intervention decreased the environmental impact of the meals chosen, slightly decreased nutritional quality, slightly increased cost, and did not change food waste.

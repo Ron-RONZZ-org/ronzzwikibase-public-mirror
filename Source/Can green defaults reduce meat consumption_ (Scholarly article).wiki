@@ -1,0 +1,5 @@
+{{ScholarlyArticle}}
+
+== Abstract ==
+
+A systematic review of twelve studies (sixteen default interventions) on defaults that aim to reduce meat consumption. Virtually all studies find the default to reduce meat consumption; the evidence base is limited but of relatively good quality. The authors propose that defaults operate mainly through endorsement and effort, and identify four contextual moderators: the invasiveness of the default, the recognisability and presentation of the alternative, and the objective of the study setting.

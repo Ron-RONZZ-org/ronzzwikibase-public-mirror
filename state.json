@@ -954,6 +954,12 @@
       "sha256": "233269e2ec993cb2b5922cd61f59385e56c68c56fce9061304b0546882a62402",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Food Policy": {
+      "path": "Collective/Food Policy.wiki",
+      "revid": 19648,
+      "sha256": "ffd387b71eaa2b8bcc4d9bc38468d02e20351e0b2b4ad9cdd81d5bcdf209f03a",
+      "synced_at": "2026-11-25T10:10:48+00:00"
+    },
     "Collective:France Université Numérique": {
       "path": "Collective/France Université Numérique.wiki",
       "revid": 19253,
@@ -1068,6 +1074,12 @@
       "sha256": "66502cba17bf7ed8cfc40930ed51caae9fb5eaa587bb3614c1bc1d92b930ddfc",
       "synced_at": "2026-10-22T06:25:08+00:00"
     },
+    "Collective:International Journal of Behavioral Nutrition and Physical Activity": {
+      "path": "Collective/International Journal of Behavioral Nutrition and Physical Activity.wiki",
+      "revid": 19644,
+      "sha256": "fdefd22c32fabc0e219d6fff5e256cd757089eddd41199ef2ecac9e07e0a77d1",
+      "synced_at": "2026-11-25T10:10:48+00:00"
+    },
     "Collective:Isaiah Lankham, Bruno Nachtergaele, and Anne Schilling": {
       "path": "Collective/Isaiah Lankham, Bruno Nachtergaele, and Anne Schilling.wiki",
       "revid": 8302,
@@ -1145,6 +1157,12 @@
       "revid": 17249,
       "sha256": "698739328353a6591b74371c734aef7ef65e9690ebb89128961b2ea78960a515",
       "synced_at": "2026-11-18T09:35:57+00:00"
+    },
+    "Collective:Journal of Nutritional Science": {
+      "path": "Collective/Journal of Nutritional Science.wiki",
+      "revid": 19652,
+      "sha256": "8c37e3499c45f35c4acc5bb0ebd5daa95afdf4e72c164aa586901f7cb5398613",
+      "synced_at": "2026-11-25T10:10:48+00:00"
     },
     "Collective:Journal of Personality and Social Psychology": {
       "path": "Collective/Journal of Personality and Social Psychology.wiki",
@@ -3774,6 +3792,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
     },
+    "Person:Andrew Balmford": {
+      "path": "Person/Andrew Balmford.wiki",
+      "revid": 19684,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-25T10:10:48+00:00"
+    },
     "Person:Andrew J. Elliot": {
       "path": "Person/Andrew J. Elliot.wiki",
       "revid": 17571,
@@ -4068,6 +4092,12 @@
       "sha256": "60a59e5ce0811bdeab2b6ec58f76841f3836bb3832b0c3c125a80ee5d5d8f670",
       "synced_at": "2026-11-17T17:49:38+00:00"
     },
+    "Person:Carolina Cerqueira Azevedo": {
+      "path": "Person/Carolina Cerqueira Azevedo.wiki",
+      "revid": 19712,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-25T10:10:48+00:00"
+    },
     "Person:Carolyn H. Simmons": {
       "path": "Person/Carolyn H. Simmons.wiki",
       "revid": 17363,
@@ -4116,17 +4146,35 @@
       "sha256": "d3c99797d0c2e8b2e7d0a0b7920eb0a5c80a71bd1163f35dca9b7972afa2dad8",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Chris Sandbrook": {
+      "path": "Person/Chris Sandbrook.wiki",
+      "revid": 19688,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-25T10:10:48+00:00"
+    },
     "Person:Christian Moro": {
       "path": "Person/Christian Moro.wiki",
       "revid": 14152,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
     },
+    "Person:Christine Le Noan": {
+      "path": "Person/Christine Le Noan.wiki",
+      "revid": 19664,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-25T10:10:48+00:00"
+    },
     "Person:Cixin Liu": {
       "path": "Person/Cixin Liu.wiki",
       "revid": 12681,
       "sha256": "368ec82b50dea7019445eac40d79a49213d034f455cbffd95311049b941c02d5",
       "synced_at": "2026-11-04T10:12:17+00:00"
+    },
+    "Person:Claire Cambriels": {
+      "path": "Person/Claire Cambriels.wiki",
+      "revid": 19660,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-25T10:10:48+00:00"
     },
     "Person:Colin Raffel": {
       "path": "Person/Colin Raffel.wiki",
@@ -4506,6 +4554,12 @@
       "sha256": "7e61806c7549290d5e0d79a923bd8524dd1dc9ec9e9a6522750591e52aace98b",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Emma Garnett": {
+      "path": "Person/Emma Garnett.wiki",
+      "revid": 19680,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-25T10:10:48+00:00"
+    },
     "Person:Enrico Fermi": {
       "path": "Person/Enrico Fermi.wiki",
       "revid": 11841,
@@ -4655,6 +4709,12 @@
       "revid": 17438,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-18T14:20:38+00:00"
+    },
+    "Person:Friederike Döbbe": {
+      "path": "Person/Friederike Döbbe.wiki",
+      "revid": 19732,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-25T10:10:48+00:00"
     },
     "Person:Fritz Zwicky": {
       "path": "Person/Fritz Zwicky.wiki",
@@ -4902,6 +4962,12 @@
       "sha256": "df97885111edaba5b49a944dfab0a9697754d5bf84d19607bf18deba8fb05ff4",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Isabelle Carrard": {
+      "path": "Person/Isabelle Carrard.wiki",
+      "revid": 19716,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-25T10:10:48+00:00"
+    },
     "Person:Ivan Pavlov": {
       "path": "Person/Ivan Pavlov.wiki",
       "revid": 17014,
@@ -5147,6 +5213,12 @@
       "revid": 14237,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T20:35:26+00:00"
+    },
+    "Person:Johanna Meier": {
+      "path": "Person/Johanna Meier.wiki",
+      "revid": 19724,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-25T10:10:48+00:00"
     },
     "Person:Johannes Welbl": {
       "path": "Person/Johannes Welbl.wiki",
@@ -5460,6 +5532,12 @@
       "sha256": "82451f50fdc67fa3a96128efd5b2b25290ab02837e26b9ffd2d818881a9b55aa",
       "synced_at": "2026-11-17T17:10:05+00:00"
     },
+    "Person:Laura Arrazat": {
+      "path": "Person/Laura Arrazat.wiki",
+      "revid": 19656,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-25T10:10:48+00:00"
+    },
     "Person:Laura M. Mannix": {
       "path": "Person/Laura M. Mannix.wiki",
       "revid": 19181,
@@ -5604,6 +5682,18 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
     },
+    "Person:Lucia Reisch": {
+      "path": "Person/Lucia Reisch.wiki",
+      "revid": 19740,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-25T10:10:48+00:00"
+    },
+    "Person:Lucile Marty": {
+      "path": "Person/Lucile Marty.wiki",
+      "revid": 19672,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-25T10:10:48+00:00"
+    },
     "Person:Ludvic Zrinzo": {
       "path": "Person/Ludvic Zrinzo.wiki",
       "revid": 14024,
@@ -5694,6 +5784,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T14:10:29+00:00"
     },
+    "Person:Mark Andor": {
+      "path": "Person/Mark Andor.wiki",
+      "revid": 19728,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-25T10:10:48+00:00"
+    },
     "Person:Mark H. Dredze": {
       "path": "Person/Mark H. Dredze.wiki",
       "revid": 17186,
@@ -5705,6 +5801,12 @@
       "revid": 14164,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:35:16+00:00"
+    },
+    "Person:Mark Pilling": {
+      "path": "Person/Mark Pilling.wiki",
+      "revid": 19692,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-25T10:10:48+00:00"
     },
     "Person:Martin Hilbert": {
       "path": "Person/Martin Hilbert.wiki",
@@ -5969,6 +6071,12 @@
       "revid": 13170,
       "sha256": "36230adc29beea3de828c9bf5cdcc80d63cb241dd59523cceabfb4018ff8d2f9",
       "synced_at": "2026-11-07T13:35:13+00:00"
+    },
+    "Person:Neal Haddaway": {
+      "path": "Person/Neal Haddaway.wiki",
+      "revid": 19736,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-25T10:10:48+00:00"
     },
     "Person:Neil Thompson": {
       "path": "Person/Neil Thompson.wiki",
@@ -6672,6 +6780,12 @@
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-12T10:20:30+00:00"
     },
+    "Person:Sidonie Fabbi": {
+      "path": "Person/Sidonie Fabbi.wiki",
+      "revid": 19708,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-25T10:10:48+00:00"
+    },
     "Person:Simon Osindero": {
       "path": "Person/Simon Osindero.wiki",
       "revid": 15494,
@@ -6695,6 +6809,12 @@
       "revid": 6122,
       "sha256": "b2e0cf18f872ca035428995256da34cab990b2befa88f32ca20b16da6778c66c",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Person:Sophie Nicklaus": {
+      "path": "Person/Sophie Nicklaus.wiki",
+      "revid": 19668,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-25T10:10:48+00:00"
     },
     "Person:Sorj Chalandon": {
       "path": "Person/Sorj Chalandon.wiki",
@@ -6773,6 +6893,12 @@
       "revid": 15534,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-11T13:10:22+00:00"
+    },
+    "Person:Theresa Marteau": {
+      "path": "Person/Theresa Marteau.wiki",
+      "revid": 19696,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-25T10:10:48+00:00"
     },
     "Person:Thibault Le Texier": {
       "path": "Person/Thibault Le Texier.wiki",
@@ -6941,6 +7067,12 @@
       "revid": 16829,
       "sha256": "32da23ed2aa7dd28dc1b0fe34d96f95b843718d1517cd413c6f72d31d99334ef",
       "synced_at": "2026-11-17T16:23:36+00:00"
+    },
+    "Person:Valeria Bertoni Maluf": {
+      "path": "Person/Valeria Bertoni Maluf.wiki",
+      "revid": 19704,
+      "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
+      "synced_at": "2026-11-25T10:10:48+00:00"
     },
     "Person:Vanessa Franssen": {
       "path": "Person/Vanessa Franssen.wiki",
@@ -8550,6 +8682,12 @@
       "sha256": "7d18ae0ea7de897dd6a469ad6e98ff934a05c49054bfebb22c6a0d2260718e35",
       "synced_at": "2026-11-11T14:10:29+00:00"
     },
+    "Source:Barriers and facilitators influencing the choice of a vegetarian menu in a university cafeteria (Scholarly article)": {
+      "path": "Source/Barriers and facilitators influencing the choice of a vegetarian menu in a university cafeteria (Scholarly article).wiki",
+      "revid": 19720,
+      "sha256": "8d7a05fb69a356624f9498b5c7f53f409eed0c783c0461bd261ce6041a66515c",
+      "synced_at": "2026-11-25T10:10:48+00:00"
+    },
     "Source:Behavior as seen by the actor and as seen by the observer (Scholarly article)": {
       "path": "Source/Behavior as seen by the actor and as seen by the observer (Scholarly article).wiki",
       "revid": 17309,
@@ -8663,6 +8801,12 @@
       "revid": 13178,
       "sha256": "af51c7b495c9cbe86f940407ac45924409d1e625edc2a3a0cb187b0d41813641",
       "synced_at": "2026-11-07T13:35:13+00:00"
+    },
+    "Source:Can green defaults reduce meat consumption? (Scholarly article)": {
+      "path": "Source/Can green defaults reduce meat consumption_ (Scholarly article).wiki",
+      "revid": 19744,
+      "sha256": "ae10a108abf4da96e67414fe53793ba295b1d03d36d0360ae9f3c2b42ac9a947",
+      "synced_at": "2026-11-25T10:10:48+00:00"
     },
     "Source:Carnegie Mellon University - CMU (Website)": {
       "path": "Source/Carnegie Mellon University - CMU (Website).wiki",
@@ -8963,6 +9107,12 @@
       "revid": 14389,
       "sha256": "609eb8402040a0092c6bffb00bc6c81b724e27829c477f1491d8734a0a7f67b2",
       "synced_at": "2026-11-08T06:15:21+00:00"
+    },
+    "Source:Effects of increasing the availability of vegetarian options on main meal choices, meal offer satisfaction and liking: a pre-post analysis in a French university cafeteria (Scholarly article)": {
+      "path": "Source/Effects of increasing the availability of vegetarian options on main meal choices, meal offer satisfaction and liking_ a pre-post analysis in a French university cafeteria (Scholarly article).wiki",
+      "revid": 19676,
+      "sha256": "ffa62d2204cb826c3ddec9b152536419864a8fddcbb480fd4060ccaf2ad4e3f2",
+      "synced_at": "2026-11-25T10:10:48+00:00"
     },
     "Source:Efficiently Scaling Transformer Inference (Conference paper)": {
       "path": "Source/Efficiently Scaling Transformer Inference (Conference paper).wiki",
@@ -9275,6 +9425,12 @@
       "revid": 11526,
       "sha256": "3ee9729cc624b10e07246258d304504e26b11dcf090a0dfa819fc5f76c97c767",
       "synced_at": "2026-10-28T12:40:49+00:00"
+    },
+    "Source:Impact of increasing vegetarian availability on meal selection and sales in cafeterias (Scholarly article)": {
+      "path": "Source/Impact of increasing vegetarian availability on meal selection and sales in cafeterias (Scholarly article).wiki",
+      "revid": 19700,
+      "sha256": "3a159b9bfabd29adc240bf2424e4080f939d5eefb42dd0ce204d3e123d94eb15",
+      "synced_at": "2026-11-25T10:10:48+00:00"
     },
     "Source:Industrial manufacturers embrace industry 4.0 to boost productivity (Webpage)": {
       "path": "Source/Industrial manufacturers embrace industry 4.0 to boost productivity (Webpage).wiki",
@@ -11329,6 +11485,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-25T08:13:29+00:00",
+  "updated": "2026-11-25T10:10:48+00:00",
   "version": 1
 }
