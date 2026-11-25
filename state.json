@@ -1896,6 +1896,12 @@
       "sha256": "61a3d877c7194ccad196d6f7086b25e05cf5b25767640e33d7db1db6009cfd4e",
       "synced_at": "2026-11-21T16:35:26+00:00"
     },
+    "Conseil de Prud'homme": {
+      "path": "Main/Conseil de Prud'homme.wiki",
+      "revid": 19639,
+      "sha256": "259cd8ef108ad589ce51b13fcd6a5a6035dbc4e92ba0c742b63f84783102ff9b",
+      "synced_at": "2026-11-25T08:13:29+00:00"
+    },
     "Conserved property": {
       "path": "Main/Conserved property.wiki",
       "revid": 11948,
@@ -11323,6 +11329,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-24T14:36:14+00:00",
+  "updated": "2026-11-25T08:13:29+00:00",
   "version": 1
 }

@@ -1,0 +1,204 @@
+[[Category:French private law]]
+The '''Conseils de prud'hommes (CPH)''' are French [[courts of law]] with [[jurisdiction]] over all individual employer-employee disputes in the private sector.<ref>{{#cite:Q4105}}</ref>
+
+== Composition ==
+
+All CPH courts are presided by [[lay judge]]s nominated by professional organisations representing employers or employees. The nominations are approved by the justice minister and labour minister of France,<ref>{{#cite:Q4097}}</ref> and all nominees receive mandatory initial training to help them correctly fulfil their duties.
+
+=== Parity ===
+
+There are always an equal number of lay judges representing employers and employees in each court.<ref>{{#cite:Q4092}}</ref>
+
+=== Presidency ===
+
+Each year, all lay judges representing the employees and all lay judges representing the employers in a CPH elect by secret ballot vote their respective headpersons. The presidency and vice-presidency rotates each year between the two head persons (i.e., if last year the headperson representing employees was the president, then this year the head person representing employers will be the president).<ref>{{#cite:Q4106}}</ref><ref>{{#cite:Q4107}}</ref><ref>{{#cite:Q4108}}</ref>
+
+== Territorial division ==
+
+There is at least one CPH court per judicial court district.<ref>{{#cite:Q4093}}</ref>
+
+=== Jurisdiction ===
+
+A CPH court has jurisdiction over a case if
+
+* the concerned employee works in its jurisdiction,
+* or if the concerned employee works remotely, the the employee resides in this jurisdiction.
+
+At the employee's initiative, the CPH court where
+
+* the concerned employer has its headquarters
+* the employee has been first hired by the employer
+
+can also exercise jurisdiction.
+
+<ref>{{#cite:Q4105}}</ref>
+
+== Functional division ==
+
+=== Five autonomous sections by activity sector ===
+
+Each CPH is divided into five autonomous sections
+
+* Managerial
+* Industry
+* Commerce
+* Agriculture
+* Miscellaneous activities
+
+Each section has at least 6 judges (3 representing employees, 3 representing employers).
+
+<ref>{{#cite:Q4094}}</ref>
+
+=== Summary court ===
+
+In addition to the 5 regular sections, there is 1 summary court per CPH, composed of 2 judges (1 representing employees, 1 representing employers),<ref>{{#cite:Q4096}}</ref> which can intervene rapidly in case of emergency regardless of sector.<ref>{{#cite:Q4109}}</ref>
+
+It can
+
+* render a summary judgement if there is the case is clear beyond reasonable contest;<ref>{{#cite:Q4109}}</ref>
+* order protective measures if there is significant contest<ref>{{#cite:Q4110}}</ref>
+* send the case to regular judgement, after a conciliation attempt, if it considers the case particularly complex and outside its jurisdiction.<ref>{{#cite:Q4111}}</ref>
+
+== Procedure ==
+
+=== Request ([[requête]]) ===
+
+To request an audience before the CPH, one must file a written motion, known as '''requête'''.
+
+A valid '''requête''' must mention:
+
+* the court to which it is addressed
+* the subject matter
+* the identity of the requester
+** For individuals, full legal name, profession, address, nationality, date and place of birth.
+** For organisations, the legal form (private company, association, etc.), registered name, office, and their legal representatives
+* information allowing the identification of other parties
+** For individuals, full legal name and address
+** For organisations, registered name and office (dénomination et siège social)
+* the principal reasons of the request 
+* supporting evidence that the requester wish to use in court
+
+The '''requête''' must be addressed to the appropriate court registry either by personal delivery or post, in $N+1$ copies, where $N$ is the number of concerned parties.
+<ref>{{#cite:Q4121}}</ref><ref>{{#cite:Q4116}}</ref>
+
+==== Reception and summons ====
+
+===== Requester =====
+
+Upon reception and validation, the court registry summons any means (simple letter, verbal notification, email) the requester to the court, informing them the address and time of the audience, as well as their obligation to
+
+* communicate evidence they wish to rely on in court to their adversaries;
+* attend the summons, otherwise a judgement can be made in their absence.
+
+<ref>{{#cite:Q4162}}</ref>
+
+===== Defendant(s) =====
+
+The court registry summons formally the defendant(s) by registered letter with acknowledgement of receipt ([[LRAR]]).
+
+Defendant(s) are thereby advised
+
+* that they should communicate evidence they wish to rely in court to their adversaries;
+* attend the summons, otherwise a judgement can be made in their absence.
+
+<ref>{{#cite:Q4163}}</ref>
+
+=== Conciliation ===
+
+The CPHs attempt reconciliation in all cases before judgement.<ref>{{#cite:Q4091}}</ref>
+
+==== Conciliatory sessions ====
+
+Conciliatory sessions are held at least once per week at each CPH, in private audience closed to public,<ref>{{#cite:Q4131}}</ref> in front of 2 judges, 1 representing employees and 1 representing employers.<ref>{{#cite:Q4096}}</ref>
+
+During conciliation, the court can choose to hear from different parties separately in confidentiality.<ref>{{#cite:Q4098}}</ref>
+
+A written record ([[procès-verbal]]) is established on the outcome of the conciliation attempt. i.e., what has been agreed only, if anything, and what stays contested.<ref>{{#cite:Q4136}}</ref>
+
+===== Unjustified absence =====
+
+If, without legitimate reasons, one or more parties do not attend their summons, a judgement can be rendered in their absence. In this case, the judges act in the capacity of a reduced panel of judgement.<ref>{{#cite:Q4143}}</ref><ref>{{#cite:Q4135}}</ref>
+
+In the case where the requester(s) are themselves absent, the conciliatory panel can either<ref>{{#cite:Q4134}}</ref>
+
+* judge the case in their absence;
+* send the case to judgement in front of a judgement panel;
+* declare the request void.
+
+==== Outcomes of conciliation ====
+
+===== Immediate measures =====
+
+Judges presiding a conciliatory session can order the following '''immediate measures''', if they see fit:
+
+* work certificates, payslips, and any documents that an employer should by law have delivered to an employee;
+* payment of missing salaries, in case there is no reasonable grounds for objection;
+* investigative measures, such as the submission of relevant documents or production of witness statements;
+* preservative measures for key evidences, to prevent tempering before the case goes to trial.
+
+<ref>{{#cite:Q4142}}</ref>
+
+===== Total settlement =====
+
+If a settlement is agreed upon on all articles of the original request, the court notes this in its official record and orders the execution of the settlement.<ref>{{#cite:Q4133}}</ref>
+
+If only a partial settlement or no settlement is agreed upon, the court summons, either verbally during the conciliatory session, or by any means afterwards, the parties to a court of judgement.<ref>{{#cite:Q4137}}</ref>
+
+=== Judgement ===
+
+A court of judgement is ordinarily presided by 4 [[lay judge]]s (2 representing employees and 2 representing employers).<ref>{{#cite:Q4137}}</ref>
+
+A reduced panel of 2 [[lay judge]]s (1 representing employees 1 representing employers), which renders a judgement more rapidly (within 3 months), can sometimes render judgement with the consent of the parties.<ref>{{#cite:Q4142}}</ref>
+
+In case of a 2-2 tie, the case is retried before the same 4 [[lay judge]]s joined by a [[professional judge]] from the district judicial court.<ref>{{#cite:Q4099}}</ref>
+
+== Representation ==
+
+<blockquote>
+Les parties se défendent elles-mêmes.
+
+(Each party represent themselves.)
+
+- C. trav. R1453-1 LEGIARTI000032580149<ref>{{#cite:Q4118}}</ref>
+</blockquote>
+
+However, one can choose to be represented or assisted by
+
+* A [[lawyer]];
+* another person working/employing in the same activity sector;
+* an official from a registered professional organisation;
+* in case of an individual, their life partner;
+* in case of an organisation, any person within the organisation formally authorised to represent it.
+
+All representatives, except lawyers, must justify their power of representation by a written authorisation.
+
+<ref>{{#cite:Q4119}}</ref>
+
+== Statute of limitations ==
+
+{| class="wikitable"
+|-
+! Motif !! Limitation !! Start date
+|-
+| Dispute on amount mentioned as paid on final settlement statement ([[Solde de tout compte]]) || $6$ months || date the employee signed the receipt
+|-
+| Dispute on termination of contract || $12$ months || notification of termination
+|-
+| Dispute on execution of contract || $24$ months || day on which the requester knew or should have known the facts
+|-
+| Unpaid salary¹ || $36$ months || day on which the requester knew or should have known the facts<ref>{{#cite:Q4153}}</ref>
+|-
+| Illegal discrimination || $60$ months || day on which said illegal discrimination has been revealed<ref>{{#cite:Q4154}}</ref>
+|-
+| Bodily harm || $120$ months || day of incident causing said harm, or day that major effects from it became noticeable<ref>{{#cite:Q4151}}</ref>
+|-
+| Torture; Sexual assault against a minor || $240$ months || day of incident<ref>{{#cite:Q4151}}</ref>
+|}
+
+<blockquote>
+Only the salary of the last 36 months before the start date of the limitation period can be reclaimed via CPH.<ref>{{#cite:Q4153}}</ref>
+</blockquote>
+
+=== Date of assessment ===
+
+The validity of a request (requête) with regards to temporal limitation is assessed on the date the request is received by a CPH.
