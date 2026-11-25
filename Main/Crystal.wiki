@@ -20,9 +20,9 @@ The boundaries between two grains are called '''grain boundaries'''.
 
 Most crystals on the [[macroscopic scale]] are polycrystalline, and the most polycrystal grains are '''polyhedrals''' with $120^\circ$ angle between surfaces, as grain boundaries are high energy surfaces that tend to naturally minimise themselves.
 
-== Lattice system ==
+== Unit cell and lattice system ==
 
-The 6 crystal families group the 7 lattice systems and the 14 Bravais lattices, each fixed by constraints on the lattice constants $a$, $b$, and $c$ and on the angles $\alpha$, $\beta$, and $\gamma$ between the axes.<ref>{{#cite:Q4223}}</ref>
+The geometry of the smallest repeating unit of a crystal, called a '''unit cell''', can be modelled by 14 '''Bravais lattices''', classed into 7 families.<ref>{{#cite:Q4223}}</ref>
 
 {| class="wikitable" style="text-align:center;"
 |+ The 7 lattice systems and 14 Bravais lattices
@@ -86,5 +86,3 @@ The 6 crystal families group the 7 lattice systems and the 14 Bravais lattices, 
 | [[File:Body-centred cubic.svg|80px|alt=Body-centred cubic cell]]<br />cI
 | [[File:Face-centred cubic.svg|80px|alt=Face-centred cubic cell]]<br />cF
 |}
-
-The hexagonal crystal family holds 2 lattice systems, rhombohedral and hexagonal, so that the 6 crystal families give 7 lattice systems.<ref>{{#cite:Q4223}}</ref> The first letter of the Pearson symbol names the crystal family (a for anorthic, that is triclinic, then m, o, t, h, c), and the second the centring (P primitive, S base-centred, I body-centred, F face-centred).<ref>{{#cite:Q4223}}</ref>
