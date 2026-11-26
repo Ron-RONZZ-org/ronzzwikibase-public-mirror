@@ -1,5 +1,4 @@
 '''Primary batteries''' are a class of [[solid oxide fuel cell]]s that cannot be easily charged due to the poor reversibility of their discharging reactions.
-
 They are notably
 
 * relatively stable: the electrolyte is most commonly a solid paste (e.g, $KOH$)
@@ -7,13 +6,16 @@ They are notably
 * cheap to produce;
 * have good capacity and often higher voltage than rechargeable counterparts.
 
+<ref>{{#cite:Q4245}}</ref>
+
 == Limitations ==
 
-* The collection and recyling of waste batteries requires a significant amount of effort
+* The collection and recycling of waste batteries requires a significant amount of effort
 ** the cost of which is seldom covered by the manufacturers
 ** leading to a poor lifecycle energy efficiency (<2%)
 ** many batteries end up in the landfill, causing sometimes serious soil pollution from heavy metal.
 
+<ref>{{#cite:Q4245}}</ref>
 == Common designs ==
 
 {| class="wikitable"
@@ -24,7 +26,7 @@ They are notably
 ! Capacity
 ! Shelf life
 ! Characteristics
-! Schema (cylindral design)
+! Schema (cylinder design)
 |-
 |Zinc-carbon battery
 (Leclanché cell)
@@ -51,3 +53,5 @@ They are notably
 | Highly stable, higher energy density (130%) than alkaline. Used in larger space applications and watches, where energy density is essential
 | [[File:Zinc silver oxide button battery.png|thumbnail|]]
 |}
+
+<ref>{{#cite:Q4245}}</ref>
