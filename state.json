@@ -222,6 +222,12 @@
       "sha256": "dfa850738517ba728f647d8294a8656041490b5e1819686930966d8370583a0a",
       "synced_at": "2026-10-31T13:49:41+00:00"
     },
+    "Battery": {
+      "path": "Main/Battery.wiki",
+      "revid": 19960,
+      "sha256": "4c93f0e8b3d4bbe846f2eecdb2e3324ad9632ad6658f4bdbab78c36be5c39cef",
+      "synced_at": "2026-11-26T14:11:10+00:00"
+    },
     "Behaviour genetics": {
       "path": "Main/Behaviour genetics.wiki",
       "revid": 17580,
@@ -461,6 +467,12 @@
       "revid": 10399,
       "sha256": "7a76704b29997462a83bc4e00fd1dbeffb53880dc0561bd10f2f27b364c26ef2",
       "synced_at": "2026-10-18T12:54:28+00:00"
+    },
+    "Chemical battery": {
+      "path": "Main/Chemical battery.wiki",
+      "revid": 19965,
+      "sha256": "2143e0ad13ac56f77d56442c3ccfb1fc697ba59ce7d2ee135cebe15138aba29e",
+      "synced_at": "2026-11-26T14:11:10+00:00"
     },
     "Chinchilla prescription": {
       "path": "Main/Chinchilla prescription.wiki",
@@ -8760,6 +8772,12 @@
       "sha256": "8d7a05fb69a356624f9498b5c7f53f409eed0c783c0461bd261ce6041a66515c",
       "synced_at": "2026-11-25T10:10:48+00:00"
     },
+    "Source:Batteries: DoITPoMS Teaching and Learning Package (Webpage)": {
+      "path": "Source/Batteries_ DoITPoMS Teaching and Learning Package (Webpage).wiki",
+      "revid": 19964,
+      "sha256": "05e5f2f909b43fd76a878e065a0a25e14a5b7f34016f20bff58a467915425413",
+      "synced_at": "2026-11-26T14:11:10+00:00"
+    },
     "Source:Behavior as seen by the actor and as seen by the observer (Scholarly article)": {
       "path": "Source/Behavior as seen by the actor and as seen by the observer (Scholarly article).wiki",
       "revid": 17309,
@@ -11605,6 +11623,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-26T13:36:05+00:00",
+  "updated": "2026-11-26T14:11:10+00:00",
   "version": 1
 }

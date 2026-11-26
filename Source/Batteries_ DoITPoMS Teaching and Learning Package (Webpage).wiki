@@ -1,0 +1,5 @@
+{{Webpage}}
+
+== Overview ==
+
+Start page of the DoITPoMS teaching and learning package 'Batteries', which investigates the basic principles, design, and applications of batteries, covering both primary and rechargeable cells, how they work, and how they may be used. Sections: aims, basic principles, thermodynamics and kinetics, primary batteries (zinc/carbon, alkaline/manganese oxide, zinc/silver oxide), secondary batteries (lead/acid, lithium), battery characteristics, and the future. First created November 2005; converted to HTML5 November 2021; CC BY-NC-SA 4.0.

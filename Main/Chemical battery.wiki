@@ -1,0 +1,6 @@
+[[Category:Chemical battery]]
+A '''chemical battery''' is a [[battery]] that stores energy as [[chemical energy]].<ref>{{#cite:Q4245}}</ref>
+
+== Example ==
+
+* [[Solid oxide fuel cell]]
