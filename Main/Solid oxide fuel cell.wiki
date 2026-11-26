@@ -1,6 +1,6 @@
 [[Category:chemical battery]]
-[[File:Tubular solide oxide fuel cell- charge.png|A classical example of a solid oxide fuel cell, known as a '''Daniel cell''']]
-A '''solid oxide fuel cell''' comprises of two electrodes consisting of metals or composites with different [[€lectron affinities]], known as the '''anode''' and the '''cathode''', both submerged in electrolytes and separated via a [[salt bridge]].
+[[File:Tubular solide oxide fuel cell- charge.png|A classical example of a solid oxide fuel cell, known as a '''Daniel cell'''|thumbnail]]
+A '''solid oxide fuel cell''' comprises of two electrodes consisting of metals or composites with different [[electron affinities]], known as the '''anode''' and the '''cathode''', both submerged in electrolytes (known as '''half cells''') and separated via a [[salt bridge]].
 
 During charge , an external electrical current pushes electrons away from the '''anode and towards the cathode''', causing an electrochemical '''disequilibrium'''. When the external electrical current is removed, as long as the two electrodes stay isolated from each other, the state of electrochemical disequilibrium is maintained.
 
@@ -8,4 +8,15 @@ When the two electrodes are connected again in an electrical circuit, electrons 
 
 * there is no stronger, competing external electrical current,
 
+<ref>{{#cite:Q4245}}</ref>
+
+== Potential ==
+
+The '''[[electrical potential]]''' of a solid oxide fuel cell
+
+$$
+E_\text{cell}=E^\circ_\text{cathode}-E^\circ_\text{anode}
+$$
+
+where $E^\circ$ denotes the [[standard reduction potential]].
 <ref>{{#cite:Q4245}}</ref>

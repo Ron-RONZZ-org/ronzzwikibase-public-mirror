@@ -2298,6 +2298,12 @@
       "sha256": "56918cf2b93d2123be0eef7a7ecf73144c68be5858a112ddce00bd9ef9326369",
       "synced_at": "2026-11-14T18:19:50+00:00"
     },
+    "Electron affinities": {
+      "path": "Main/Electron affinities.wiki",
+      "revid": 19971,
+      "sha256": "cf8539a49234038589bc8ec81fa8aa587c4a633105a33a9b29c7161902454192",
+      "synced_at": "2026-11-26T14:49:44+00:00"
+    },
     "Electron affinity": {
       "path": "Main/Electron affinity.wiki",
       "revid": 19950,
@@ -8018,9 +8024,9 @@
     },
     "Solid oxide fuel cell": {
       "path": "Main/Solid oxide fuel cell.wiki",
-      "revid": 19968,
-      "sha256": "d04e4dc6d9d87d252b10196598b2189e137261bb11228a8c2bc82dcfc46ab81c",
-      "synced_at": "2026-11-26T14:35:47+00:00"
+      "revid": 19972,
+      "sha256": "b7bb161400c647fd255ab4b23c4a4e349cd9c7781a1efc7b9c070fc11707ac7f",
+      "synced_at": "2026-11-26T14:49:44+00:00"
     },
     "Source:1.1 Introduction – Régler les relations entre les personnes privées (Transcript)": {
       "path": "Source/1.1 Introduction – Régler les relations entre les personnes privées (Transcript).wiki",
@@ -11629,6 +11635,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-26T14:35:47+00:00",
+  "updated": "2026-11-26T14:49:44+00:00",
   "version": 1
 }
