@@ -7806,6 +7806,12 @@
       "sha256": "99c275a77ce1380019c217be002187d6303276ea38443715ba8bae5d56ea3932",
       "synced_at": "2026-11-17T15:49:49+00:00"
     },
+    "Salt bridge": {
+      "path": "Main/Salt bridge.wiki",
+      "revid": 19973,
+      "sha256": "a2e036f2082308779615dbd699aa610a0c3bc7650deda29be4c132c5ba19a5c7",
+      "synced_at": "2026-11-26T15:36:07+00:00"
+    },
     "Sample space": {
       "path": "Main/Sample space.wiki",
       "revid": 16621,
@@ -8024,9 +8030,9 @@
     },
     "Solid oxide fuel cell": {
       "path": "Main/Solid oxide fuel cell.wiki",
-      "revid": 19972,
-      "sha256": "b7bb161400c647fd255ab4b23c4a4e349cd9c7781a1efc7b9c070fc11707ac7f",
-      "synced_at": "2026-11-26T14:49:44+00:00"
+      "revid": 19976,
+      "sha256": "c53c274f7f586e49c9fad9273478950992f4e57a72adeaf49a84b7f210e34d39",
+      "synced_at": "2026-11-26T15:36:07+00:00"
     },
     "Source:1.1 Introduction – Régler les relations entre les personnes privées (Transcript)": {
       "path": "Source/1.1 Introduction – Régler les relations entre les personnes privées (Transcript).wiki",
@@ -11635,6 +11641,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-26T14:49:44+00:00",
+  "updated": "2026-11-26T15:36:07+00:00",
   "version": 1
 }

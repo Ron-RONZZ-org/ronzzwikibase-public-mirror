@@ -1,0 +1,3 @@
+A '''salt bridge''' is a device used in a [[solid oxide fuel cell]] to connect the two half-cells.
+
+It consists of inert ions, such as $K^+$ and $NO_3^-,Cl^-$, which move in the same/opposing (positive/negative ions) to maintain '''electroneutrality''' of the two half-cells, and thereby the continuity of the charging/discharging chemical reactions.
