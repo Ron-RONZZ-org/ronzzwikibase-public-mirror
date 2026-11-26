@@ -1,0 +1,5 @@
+{{Webpage}}
+
+== Overview ==
+
+Section 2.3.2 of the LibreTexts Inorganic Chemistry textbook: the two IUPAC definitions of electron affinity (EA as the energy to remove an electron from a gaseous anion, i.e. the zeroth ionization energy; and EA as the energy released when an electron is added to a gaseous atom), and the periodic trends in EA across a period and down a group.

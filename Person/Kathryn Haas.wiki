@@ -1,0 +1,5 @@
+{{Person}}
+
+== Overview ==
+
+chemist, author of LibreTexts Inorganic Chemistry textbook chapters (Duke University)

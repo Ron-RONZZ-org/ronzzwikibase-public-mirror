@@ -864,6 +864,12 @@
       "sha256": "f55afed78f880a29f637583fcd8929642772c82d5bbd5dabc9809e9f819e9ace",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Duke University": {
+      "path": "Collective/Duke University.wiki",
+      "revid": 19917,
+      "sha256": "df137cec1e96ce123d6b4a6b978d07da9040db22a92aef7c5ccfe187af5fff02",
+      "synced_at": "2026-11-26T13:20:56+00:00"
+    },
     "Collective:Elsevier": {
       "path": "Collective/Elsevier.wiki",
       "revid": 17385,
@@ -5472,6 +5478,12 @@
       "sha256": "608cfc0c5815d5114b5b7ba16076f3164406938ae0f04f2ee21f0db710b791ae",
       "synced_at": "2026-11-17T22:49:46+00:00"
     },
+    "Person:Kathryn Haas": {
+      "path": "Person/Kathryn Haas.wiki",
+      "revid": 19921,
+      "sha256": "d3663f7a0a45a37789bccf0640c316770685955ebcab67ea8a56ade0fd387401",
+      "synced_at": "2026-11-26T13:20:56+00:00"
+    },
     "Person:Katie Millican": {
       "path": "Person/Katie Millican.wiki",
       "revid": 15478,
@@ -8226,6 +8238,12 @@
       "sha256": "440dc49447245530870722439b95a9d377376062e9032539bc0361692b3d2912",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Source:2.3.2: Electron Affinity (Webpage)": {
+      "path": "Source/2.3.2_ Electron Affinity (Webpage).wiki",
+      "revid": 19929,
+      "sha256": "e0bb3955e305961083a5e21b61830e77ed05c0218e7969ffbbe9e27a463f3074",
+      "synced_at": "2026-11-26T13:20:56+00:00"
+    },
     "Source:2.4: The Cross Product (Webpage)": {
       "path": "Source/2.4_ The Cross Product (Webpage).wiki",
       "revid": 10892,
@@ -9515,6 +9533,12 @@
       "revid": 1821,
       "sha256": "73a05c4e8678caf99a95220991b9f5b152a85300d6a066599a3edfeacfec9a16",
       "synced_at": "2026-10-18T07:12:56+00:00"
+    },
+    "Source:Inorganic Chemistry (LibreTexts) (Website)": {
+      "path": "Source/Inorganic Chemistry (LibreTexts) (Website).wiki",
+      "revid": 19925,
+      "sha256": "0a862a591f3538ff2ea83c745549a74cf69bd9cff9197c465ea8b6e4707dadc2",
+      "synced_at": "2026-11-26T13:20:56+00:00"
     },
     "Source:Interpersonal perception and metaperception in nonoverlapping social groups (Scholarly article)": {
       "path": "Source/Interpersonal perception and metaperception in nonoverlapping social groups (Scholarly article).wiki",
@@ -11551,6 +11575,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-26T11:09:43+00:00",
+  "updated": "2026-11-26T13:20:56+00:00",
   "version": 1
 }
