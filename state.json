@@ -7512,6 +7512,12 @@
       "sha256": "31fa0d07a860ba562b720b0ba915e8491eb94e0c1093b61afe06d8c78cbfdd2e",
       "synced_at": "2026-10-19T12:24:06+00:00"
     },
+    "Primary battery": {
+      "path": "Main/Primary battery.wiki",
+      "revid": 19990,
+      "sha256": "f64217654a1ab5b54032fab4cb8a237c3d45d8891c656b74edf161502c465403",
+      "synced_at": "2026-11-26T16:36:11+00:00"
+    },
     "Private law": {
       "path": "Main/Private law.wiki",
       "revid": 19493,
@@ -11641,6 +11647,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-26T15:36:07+00:00",
+  "updated": "2026-11-26T16:36:11+00:00",
   "version": 1
 }

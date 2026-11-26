@@ -1,0 +1,53 @@
+'''Primary batteries''' are a class of [[solid oxide fuel cell]]s that cannot be easily charged due to the poor reversibility of their discharging reactions.
+
+They are notably
+
+* relatively stable: the electrolyte is most commonly a solid paste (e.g, $KOH$)
+** hence the common name '''dry cells''';
+* cheap to produce;
+* have good capacity and often higher voltage than rechargeable counterparts.
+
+== Limitations ==
+
+* The collection and recyling of waste batteries requires a significant amount of effort
+** the cost of which is seldom covered by the manufacturers
+** leading to a poor lifecycle energy efficiency (<2%)
+** many batteries end up in the landfill, causing sometimes serious soil pollution from heavy metal.
+
+== Common designs ==
+
+{| class="wikitable"
+|-
+! Name
+! Approximate reaction
+! Theoretical voltage
+! Capacity
+! Shelf life
+! Characteristics
+! Schema (cylindral design)
+|-
+|Zinc-carbon battery
+(Leclanché cell)
+| $$Zn \to Zn^{2+} + 2e^- \\ 2NH_4^+2MnO_2+2e^- \to Mn_2O_3 + H_2O + 2NH_3$$
+| 1.5 V
+| AA: $\approx 800 \mathrm{mAh}$
+| 24 months
+| Low cost, sensitive to environmental conditions, most efficient in intermittent discharge
+| [[File:Leclanché cell Zinc-carbon battery.png|thumbnail|]]
+|-
+| Alkaline/manganese oxide
+| $$Zn \to Zn^{2+} + 2e^-,\, Zn(OH)_2 + 2OH^ \to [Zn(OH)^4]^{2-} \\ 2MnO_2 + H_2O + 2e^- \to Mn_2O_3 + 2OH^-,\, MnO_2 + 2H_2O + 2e^- \to Mn(OH)_2 + 2OH^-$$
+| 1.5V
+| AA: $\approx 2500 \mathrm{mAh}$
+| 60-120 months
+| an improved version of the Lechanché cell, longer shelf-life, less sensitive to environmental conditions, and higher capacity
+| [[File:Alkaline Manganese battery.png|thumbnail|]]
+|-
+| Zinc/Silver oxide
+| $$Zn+2OH^- \to Zn(OH)_2 +2e^- \\ Ag_2O + H_2O + 2e^- \to 2 Ag + 2OH^-$$
+| 1.6 V, $U \propto T$
+| Larger button cells: $200 \mathrm{mAh}$
+| 60-120 months
+| Highly stable, higher energy density (130%) than alkaline. Used in larger space applications and watches, where energy density is essential
+| [[File:Zinc silver oxide button battery.png|thumbnail|]]
+|}
