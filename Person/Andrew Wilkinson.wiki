@@ -1,0 +1,5 @@
+{{Person}}
+
+== Overview ==
+
+researcher; co-compiler of the 2nd edition (1997) of the IUPAC Compendium of Chemical Terminology (the "Gold Book")

@@ -684,6 +684,12 @@
       "sha256": "214a0f047bc77022eb3b851ff20a90525f650f5d651dc4cbe5b4e6b7e6bba924",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Collective:Blackwell Scientific Publications": {
+      "path": "Collective/Blackwell Scientific Publications.wiki",
+      "revid": 19945,
+      "sha256": "11d74d299a198b7e16d0f0be9b9f5ee6a4da416fd8dc6d8aff044257de383b43",
+      "synced_at": "2026-11-26T13:36:05+00:00"
+    },
     "Collective:British Broadcasting Corporation": {
       "path": "Collective/British Broadcasting Corporation.wiki",
       "revid": 1663,
@@ -2280,6 +2286,12 @@
       "sha256": "56918cf2b93d2123be0eef7a7ecf73144c68be5858a112ddce00bd9ef9326369",
       "synced_at": "2026-11-14T18:19:50+00:00"
     },
+    "Electron affinity": {
+      "path": "Main/Electron affinity.wiki",
+      "revid": 19950,
+      "sha256": "5506ba718f697a861ab6c5bf62ace58d37e7ee7482fed313092a0b8740a1ab49",
+      "synced_at": "2026-11-26T13:36:05+00:00"
+    },
     "Electrostatic equilibrium": {
       "path": "Main/Electrostatic equilibrium.wiki",
       "revid": 8654,
@@ -3666,6 +3678,12 @@
       "sha256": "e925cbcd8e80e2cec05c817ed676003f8e4918a56949d1d8052d5cab93252fb2",
       "synced_at": "2026-10-18T07:12:55+00:00"
     },
+    "Person:Alan D. McNaught": {
+      "path": "Person/Alan D. McNaught.wiki",
+      "revid": 19937,
+      "sha256": "1aabf8e155d10a4b057f193f08843abe247e07295a946bf161e6c0e595da1bf1",
+      "synced_at": "2026-11-26T13:36:05+00:00"
+    },
     "Person:Alastair Gunn": {
       "path": "Person/Alastair Gunn.wiki",
       "revid": 1673,
@@ -3839,6 +3857,12 @@
       "revid": 13468,
       "sha256": "53dd8c0390443a750e40e4dcd59b1855becec27b2b5730f04d9b107c3f27ec8e",
       "synced_at": "2026-11-07T19:19:42+00:00"
+    },
+    "Person:Andrew Wilkinson": {
+      "path": "Person/Andrew Wilkinson.wiki",
+      "revid": 19941,
+      "sha256": "5b6996cbfe5e74e3bcfcc96e315f52d0e6a4f35faf7faeb5c2c8538513260457",
+      "synced_at": "2026-11-26T13:36:05+00:00"
     },
     "Person:Aniugo Victor Onyekachi": {
       "path": "Person/Aniugo Victor Onyekachi.wiki",
@@ -8934,6 +8958,12 @@
       "sha256": "66f4075b149ff3a67fb240cf7598a64e3f6903e02106cd963da927a85a5b50c3",
       "synced_at": "2026-11-18T21:19:49+00:00"
     },
+    "Source:Compendium of Chemical Terminology (Book)": {
+      "path": "Source/Compendium of Chemical Terminology (Book).wiki",
+      "revid": 19949,
+      "sha256": "447b4fb55e8c70ddfc1c2bc8f580aa96f3ebee9c5c5bac09b9892f1fa0a1de81",
+      "synced_at": "2026-11-26T13:36:05+00:00"
+    },
     "Source:Complex Numbers - Algebrica (Webpage)": {
       "path": "Source/Complex Numbers - Algebrica (Webpage).wiki",
       "revid": 11004,
@@ -11575,6 +11605,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-26T13:20:56+00:00",
+  "updated": "2026-11-26T13:36:05+00:00",
   "version": 1
 }

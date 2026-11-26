@@ -1,0 +1,7 @@
+{{Book}}
+
+== Summary ==
+
+The Compendium of Chemical Terminology is IUPAC's glossary of chemical terminology, informally known as the "Gold Book" in recognition of Victor Gold, who initiated work on the first edition. It is one of the series of IUPAC "Colour Books" on chemical nomenclature, terminology, symbols, and units, and collects together terminology definitions from IUPAC recommendations already published in Pure and Applied Chemistry and in the other Colour Books. The 2nd edition (1997) was compiled by Alan D. McNaught and Andrew Wilkinson and published by Blackwell Scientific Publications, Oxford.
+
+The online edition at goldbook.iupac.org (relaunched in July 2019 on new technical underpinnings) carries DOI 10.1351/goldbook, lists Jan Kaiser as content editor and Stuart J. Chalk as technical editor, and licenses individual terms under CC BY-SA 4.0. IUPAC notes on that site that this edition of the Gold Book has not been updated in several years, so a term's definition is correct with respect to its cited source but may since have been superseded.

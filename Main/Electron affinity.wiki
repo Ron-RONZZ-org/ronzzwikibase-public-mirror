@@ -1,0 +1,20 @@
+[[Category:Electrochemistry]]
+'''Electron affinity''' of an [[element]] is defined as the energy released when a gaseous anion gains an [[electron]].<ref>{{#cite:Q4236}}</ref>
+
+<blockquote>
+An alternative equivalent definition is also sanctioned by the IUPAC.<ref>{{#cite:Q3952}}</ref>
+</blockquote>
+
+$$
+A{(g)} + e^- \longrightarrow A^{-}_{(g)} \hspace{1cm} EA = - \Delta U \label{EA2}
+$$
+
+== Trend ==
+
+[[File:Electron affinity and ionisation energy.png|thumbnail|Plot of electron affinity (the zeroth ionization energy) overlaid on plots of the first ($I_1$), second ($I_2$), and third ($I_3$) ionization energies.]]
+
+* Across a period, ionisation generally increases from group 1 to group 18;
+* Down a group, the trend is more uncertain;
+* Overall, a zigzag pattern is observed as $Z^*$ increases.
+
+<ref>{{#cite:Q4236}}</ref>

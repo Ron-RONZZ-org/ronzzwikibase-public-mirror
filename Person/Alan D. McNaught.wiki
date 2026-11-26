@@ -1,0 +1,5 @@
+{{Person}}
+
+== Overview ==
+
+British chemist; compiler of the IUPAC Compendium of Chemical Terminology (the "Gold Book")
