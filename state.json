@@ -2036,9 +2036,9 @@
     },
     "Crystal": {
       "path": "Main/Crystal.wiki",
-      "revid": 19909,
-      "sha256": "e17453cc37a6cfa833f8eb4cbd82697518f6838a775ba7687dc4355a2b71e3b1",
-      "synced_at": "2026-11-25T20:19:55+00:00"
+      "revid": 19913,
+      "sha256": "420e6fbc9078bf52a53ae349c2fdcb47b3530c437f271c161ab6202cb83a5530",
+      "synced_at": "2026-11-26T11:09:43+00:00"
     },
     "Cubic spline interpolation": {
       "path": "Main/Cubic spline interpolation.wiki",
@@ -11551,6 +11551,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-25T20:19:55+00:00",
+  "updated": "2026-11-26T11:09:43+00:00",
   "version": 1
 }

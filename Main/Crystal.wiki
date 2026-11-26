@@ -20,7 +20,9 @@ The boundaries between two grains are called '''grain boundaries'''.
 
 Most crystals on the [[macroscopic scale]] are polycrystalline, and the most polycrystal grains are '''polyhedrals''' with $120^\circ$ angle between surfaces, as grain boundaries are high energy surfaces that tend to naturally minimise themselves.
 
-== Unit cell and lattice system ==
+== Atomic structure ==
+
+=== Unit cell and lattice system ===
 
 The geometry of the smallest repeating unit of a crystal, called a '''unit cell''', can be modelled by 14 '''Bravais lattices''', classed into 7 families.<ref>{{#cite:Q4223}}</ref>
 
@@ -86,3 +88,25 @@ The geometry of the smallest repeating unit of a crystal, called a '''unit cell'
 | [[File:Body-centred cubic.svg|80px|alt=Body-centred cubic cell]]<br />cI
 | [[File:Face-centred cubic.svg|80px|alt=Face-centred cubic cell]]<br />cF
 |}
+<ref>{{#cite:Q4205}}</ref>
+
+=== Defect ===
+
+[[File:CrystalGrainGrowth.mp4|The cross sections of polycrystals can be simulated by dropping small balls dropped in a single layer between two transparent glasses, as seen, the structure is not perfectly translationally symmetric even within the same grain due to presence of '''defects'''.|thumbnail]]
+Most real-world crystals are '''imperfect''', i.e., their structures do not perfectly follow the lattice model.
+
+e.g,
+
+* there may be atoms missing completely, a phenomenon known as '''vacancy''';
+* or some atoms maybe found away from their expected place, a phenomenon known as '''dislocation'''.
+
+<ref>{{#cite:Q4205}}</ref>
+
+==== Significance of defects ====
+
+Defects have an impact on
+
+* Mechanical strength
+* Rate of atomic diffusion
+
+<ref>{{#cite:Q4205}}</ref>
