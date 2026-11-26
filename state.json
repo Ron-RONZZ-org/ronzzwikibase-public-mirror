@@ -8016,6 +8016,12 @@
       "sha256": "4306d02c48b19740b803f949637088ae3d799d864d308ddc3a265ead38d225fe",
       "synced_at": "2026-10-18T07:12:56+00:00"
     },
+    "Solid oxide fuel cell": {
+      "path": "Main/Solid oxide fuel cell.wiki",
+      "revid": 19968,
+      "sha256": "d04e4dc6d9d87d252b10196598b2189e137261bb11228a8c2bc82dcfc46ab81c",
+      "synced_at": "2026-11-26T14:35:47+00:00"
+    },
     "Source:1.1 Introduction – Régler les relations entre les personnes privées (Transcript)": {
       "path": "Source/1.1 Introduction – Régler les relations entre les personnes privées (Transcript).wiki",
       "revid": 19281,
@@ -11623,6 +11629,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-26T14:11:10+00:00",
+  "updated": "2026-11-26T14:35:47+00:00",
   "version": 1
 }
