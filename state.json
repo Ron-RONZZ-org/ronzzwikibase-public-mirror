@@ -2288,9 +2288,9 @@
     },
     "Electrolysis": {
       "path": "Main/Electrolysis.wiki",
-      "revid": 20038,
-      "sha256": "8d6b641e0ee5f3dc317194792a38df64d165b3b90299ba9914178394c5806ae6",
-      "synced_at": "2026-11-27T17:20:21+00:00"
+      "revid": 20047,
+      "sha256": "087440c2cba9cdfecd31d5078a87adcb0ff2643c44f3e3b413a2267094029dbc",
+      "synced_at": "2026-11-27T18:11:42+00:00"
     },
     "Electromagnetic calorimeter": {
       "path": "Main/Electromagnetic calorimeter.wiki",
@@ -11683,6 +11683,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-27T17:20:21+00:00",
+  "updated": "2026-11-27T18:11:42+00:00",
   "version": 1
 }
