@@ -38,3 +38,42 @@
 * Electricity generation in spacecrafts
 
 <ref>{{#cite:Q4257}}</ref>
+
+== Common designs ==
+
+{| class="wikitable"
+|-
+! Fuel cell type !! DMFC !! PEMFC !! AFC !! PAFC !! MCFC !! SOFC
+|-
+! Electrolyte type
+| Polymeric ion exchange membrane || Polymeric ion exchange membrane || Immobilised alkaline salt solution || Immobilised liquid phosphoric acid || Immobilised liquid molten carbonate || Ceramic
+|-
+! Operating temperature $(^{\circ}\mathrm{C})$
+| $20 - 90$ || $30 - 100$ || $50 - 200$ || $\sim 220$ || $\sim 650$ || $500 - 1000$
+|-
+! Charge carrier
+| $H^+$ || $H^+$ || $OH^-$ || $H^+$ || $CO_3^{2-}$ || $O^{2-}$
+|-
+! Power range $(\mathrm{W})$
+| $1 - 100$ || $1 - 100\mathrm{k}$ || $500 - 10\mathrm{k}$ || $10\mathrm{k} - 1\mathrm{M}$ || $100\mathrm{k} - 10\mathrm{M}+$ || $1\mathrm{k} - 10\mathrm{M}+$
+|-
+! colspan="7" | Applications and main advantages:
+|-
+! Portable electronics
+| style="background-color: #5c2929; color: white;" | Higher energy density than batteries and faster recharge. || || || || || 
+|-
+! Propulsion of smaller automobiles (cars) and boats; electricity generation on spaceships
+| || style="background-color: #4a4f29; color: white;" | Zero emissions and higher efficiency. || || || || 
+|-
+! Domestic CHP
+| || || colspan="2" style="background-color: #704894; color: white;" | Efficiency and reliability || ||style="background-color: #704894;"|
+|-
+! Distributed power generation, CHP, propulsion of large automobiles (buses, trucks, etc.)
+| || || || || colspan="2" style="background-color: #1b2534; color: white;" | Efficiency, emissions and less noise
+|-
+! Able to internally reform $\mathrm{CH}_4$
+| $\times$ || $\times$ || $\times$ || $\times$ || $\checkmark$ || $\checkmark$
+|}
+
+<ref>{{#cite:Q4257}}</ref>
+[[File:Fuel cell mechanisms.png|thumbnail|The mechanisms by which different fuel cell types operate]]
