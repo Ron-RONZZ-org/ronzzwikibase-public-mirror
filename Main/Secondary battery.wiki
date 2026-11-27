@@ -61,3 +61,23 @@ In order to achieve higher energy density, researchers actively experiment with 
 In lithium polymer batteries, each cell consists of four thin foils rolled together: both electrodes and a solid polymer electrolyte are pressed into thin foils and packaged in a layer of insulator foil. Different cells can be then rolled together to make an arbitrarily large battery.
 
 In this design, since the electrolyte is a stable solid, the anode can safely contain a high proportion of lithium, drastically improving energy density. The closeness of the anode and cathode also aid with chemical diffusion, increasing the maximum current that can be generated.
+
+== Service life ==
+
+A secondary battery is considered end-of-service when its capacity falls below 80% of design capacity,¹ as a result of undesirable, not-easily-reversible chemical reactions happening over time, from usage or simple storage.
+
+The maximum cycles of complete charge and discharge that can be performed before end-of-service is known as the '''battery cycle life'''.
+
+The maximum time a battery can be stored inactive before end-of-service is known as the '''battery shelf life'''.
+
+<ref>{{#cite:Q4245}}</ref>
+
+=== Influencing factors ===
+
+Battery life is extended by:
+
+* moderate charging and discharging (i.e., recharge once battery level falls below 20%)
+* preventing short-circuiting or overloading (i.e., drawing more current from a battery than designed for)
+* avoiding extreme temperature or physical shock
+
+<ref>{{#cite:Q4245}}</ref>

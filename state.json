@@ -7886,9 +7886,9 @@
     },
     "Secondary battery": {
       "path": "Main/Secondary battery.wiki",
-      "revid": 20005,
-      "sha256": "68f1b09ff40846d9f8d598251e6def65689c8cd8a6e619897593f8aafc782e70",
-      "synced_at": "2026-11-27T11:35:47+00:00"
+      "revid": 20012,
+      "sha256": "e50f163a6566a28b3b084d9959693fbaff5c5655542b3ede0e7472f4fc2f321b",
+      "synced_at": "2026-11-27T13:35:53+00:00"
     },
     "Section UX 1792328551543": {
       "path": "Main/Section UX 1792328551543.wiki",
@@ -11665,6 +11665,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-27T13:19:59+00:00",
+  "updated": "2026-11-27T13:35:53+00:00",
   "version": 1
 }
