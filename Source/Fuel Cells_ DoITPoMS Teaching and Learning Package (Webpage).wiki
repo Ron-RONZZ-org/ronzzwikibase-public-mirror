@@ -1,0 +1,5 @@
+{{Webpage}}
+
+== Overview ==
+
+Start page of the DoITPoMS teaching and learning package 'Fuel Cells', a short summary of four of the most promising fuel cell technologies, giving a general overview of the field with a focus on the materials used (electrolytes and electrodes) and the mechanism of function (electrochemistry and thermodynamics). Sections: aims, the principle, history of the technology, types of fuel cells, solid oxide fuel cells (SOFCs: electrolyte, electrode materials, interconnection, thermodynamics, system and outlook), molten carbonate fuel cells (MCFCs: electrolyte, electrochemistry, electrodes), proton exchange membrane fuel cells (PEMFCs: membrane, electrodes and membrane-electrode assembly, efficiency and reaction conditions), fuelling requirements, case study on fuelling practicalities, summary. First created April 2006, last updated July 2006, converted to HTML5 November 2021; CC BY-NC-SA 4.0.

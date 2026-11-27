@@ -9402,6 +9402,12 @@
       "sha256": "003ea40c58d97e816e7b60b06b9e5d2baea63f16d23695dd394ad3a9b6b7be6e",
       "synced_at": "2026-10-22T11:14:03+00:00"
     },
+    "Source:Fuel Cells: DoITPoMS Teaching and Learning Package (Webpage)": {
+      "path": "Source/Fuel Cells_ DoITPoMS Teaching and Learning Package (Webpage).wiki",
+      "revid": 20016,
+      "sha256": "75dc83ac9d0c03096252532ea260f9335581ac955e4ced32d4cb9d48d2fc5078",
+      "synced_at": "2026-11-27T16:11:18+00:00"
+    },
     "Source:Fundamentals of Robotic Mechanical Systems (Book)": {
       "path": "Source/Fundamentals of Robotic Mechanical Systems (Book).wiki",
       "revid": 18179,
@@ -11665,6 +11671,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-27T13:35:53+00:00",
+  "updated": "2026-11-27T16:11:18+00:00",
   "version": 1
 }
