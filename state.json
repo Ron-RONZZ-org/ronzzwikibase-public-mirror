@@ -476,9 +476,9 @@
     },
     "Chemical battery": {
       "path": "Main/Chemical battery.wiki",
-      "revid": 20008,
-      "sha256": "d1654ffdf3360c5e367971c29f0efb6d66c5fca683c69c2ef8fcdd409987fb4c",
-      "synced_at": "2026-11-27T11:35:47+00:00"
+      "revid": 20011,
+      "sha256": "bd15da8f46c7eedc98425380c726396f6856c4853b25d9ca4cbf9ba68bbfde77",
+      "synced_at": "2026-11-27T13:19:59+00:00"
     },
     "Chinchilla prescription": {
       "path": "Main/Chinchilla prescription.wiki",
@@ -11665,6 +11665,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-27T11:35:47+00:00",
+  "updated": "2026-11-27T13:19:59+00:00",
   "version": 1
 }

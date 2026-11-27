@@ -9,3 +9,115 @@ A '''chemical battery''' is a [[battery]] that stores energy as [[chemical energ
 
 * [[Primary battery]]
 * [[Secondary battery]]
+
+== Cell ==
+
+A '''cell''' is the smallest [[functional unit]] of a chemical battery, consisted of two [[solid oxide fuel cell|electrodes]] submerged in [[electrolytes]].
+
+A chemical battery consists '''one or more cells'''.
+
+<ref>{{#cite:Q4245}}</ref>
+
+== Charging and discharging ==
+
+=== Discharge ===
+
+==== Potential ====
+
+===== Theoretical =====
+
+The '''[[electric potential]]''' of a '''single cell''' of a chemical battery
+
+$$
+E_\text{cell}=E^\circ_\text{cathode}-E^\circ_\text{anode}
+$$
+
+where $E^\circ$ denotes the [[standard reduction potential]].
+<ref>{{#cite:Q4245}}</ref>
+
+===== Actual =====
+
+The actual potential is often much lower than the theoretical potential in any given cell, due to
+
+* [[polarisation]];
+* internal resistance;
+* non-standard state when significantly discharged.
+
+To obtain the desired potential for practical applications, practical chemical batteries consist of many cells connected in series.
+
+<ref>{{#cite:Q4245}}</ref>
+
+=== Charging ===
+
+Some chemical batteries, known as '''[[secondary batteries]]''', are rechargeable by the application of an external [[electric voltage]].
+
+Due to [[polarisation]], the potential required to charge a [[secondary battery]] is often much higher than its discharging potential.
+
+<ref>{{#cite:Q4245}}</ref>
+
+== Capacity ==
+
+The '''capacity''' of a single cell is given by
+
+$$
+Q=xnF
+$$
+
+<div class="center">
+{| class="wikitable"
+|-
+| $Q$
+| Battery capacity
+|-
+| $x$
+| [[Valency]]
+|-
+| $n$
+| Amount of active components in [[moles]]
+|-
+| $F$
+| [[Faraday constant]]
+|}
+</div>
+
+<ref>{{#cite:Q4245}}</ref>
+
+=== Capacity-per-unit-mass ===
+
+The '''capacity-per-unit-mass''' of a single cell is
+
+$$
+\frac{Q}{m},
+$$
+
+where $m$ is the [[mass]] of the battery.
+
+<ref>{{#cite:Q4245}}</ref>
+
+== Specific energy density ==
+
+The '''total energy''' stored in a battery cell is
+
+$$
+E=\int I(t)V(t)dt
+$$
+
+The '''specific energy desntiy''' is therefore
+
+$$
+\frac{E}{m}
+$$
+
+<ref>{{#cite:Q4245}}</ref>
+
+== Power density ==
+
+Power density 
+
+$$
+\frac{P_\text{functional}}{m}
+$$
+
+is the functional power that can be derived per unit weight.
+
+<ref>{{#cite:Q4245}}</ref>
