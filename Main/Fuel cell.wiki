@@ -1,0 +1,31 @@
+[[File:Alkaline aeronautic fuel cell.png|thumbnail|An alkaline fuel cell installed in NASA spacecrafts to generate electricity]]
+'''Fuel cells''' produce electricity by separating a combustion reaction into two half-reactions, made to happen at two separate '''electrodes''' submerged in an [[electrolyte]], producing an electric current in the process.
+
+== History ==
+
+* [[Grove's fuel cell]]
+
+== Advantages ==
+
+=== Less environmental impact ===
+
+* Negligible air pollution
+* Quiet
+
+=== Reliability ===
+
+* Very few moving parts
+
+=== Cost-efficiency ===
+
+* Low maintenance cost
+* High efficiency (80%+, compared to 40% for traditional [[internal combustion engine]]s)
+* Constant efficiency at low-load
+* Flexible output with fast adjustment
+
+== Application ==
+
+[[File:Fuel cell car schema.png|thumbnail|Schema of a fuel cell car]]
+[[File:Space shuttle fuel cell.png|thumbnail|Installing a PEM fuel cell in a Gemini 7 spacecraft]]
+* Automobile propulsion
+* Electricity generation in spacecrafts
