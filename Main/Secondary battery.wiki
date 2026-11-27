@@ -1,0 +1,63 @@
+[[Category:chemical battery]]
+'''Secondary batteries''' are rechargeable [[chemical batteries]], most commonly [[solid oxide fuel cell]]s.
+
+They are used to store [[electric energy]] temporarily as [[chemical energy]].
+
+== Advantage ==
+
+A standard secondary battery can be charged and discharged (known as a '''charge cycle''') about $10^2 \to 10^3$ times, which
+
+* significantly reduces the number of waste batteries produced for the same usage compared to [[primary batteries]];
+* lowers usage cost over the long run.
+
+== Disadvantage ==
+
+However, secondary batteries
+
+* often have lower energy density to [[primary battery|non-rechargeable counterparts]], resulting in either larger size or smaller capacity;
+* can be dangerous:
+** if involved in collision;
+** when overcharged.
+
+== Common designs ==
+
+{| class="wikitable center"
+|-
+! Name
+! Approximate reaction (discharging
+! Theoretical voltage
+! Maximum charge cycles
+! Characteristics
+! Schema
+|-
+| Lead/acid
+| $$Pb+HSO_4^- \to PbSO_4 + H^+ 2e^- \\ PbO_2+3H^+HSO_4^-+2e^- \to PbSO_4 + 2H_2O $$
+| 2 V
+| 200-500
+| Relatively inexpensive, best performance with intermittent discharge. Can be explosive if severely overcharged¹. 
+| [[File:Lead-acid battery.png|thumbnail|]]
+|-
+| Lithium ion
+| $$xLi^+ + Mn_2O_4 + xe^- \to Li_xMn_2O_4 \\ Li_xC_6 \to xLi^+ + 6C + xe^-$$
+| 4.2V (fully-charged) $\to$ 2.8V (cutoff value)
+| More expensive, but higher energy density and longer service life.
+| 500-2000 cycles²
+| [[File:Lithium ion battery.png|thumbnail|]]
+|}
+
+<blockquote>
+1: A side effect of charging lead/acid battery is [[electrolysis of water]], which produces $H_{2(g)}$ and $O_{2(g)}$. If this gas is not reabsorbed correctly in time, an explosion can occur from pressure built-up.
+
+2: Heavily dependent on specific chemical composition and usage pattern.
+</blockquote>
+
+== Innovative designs ==
+
+In order to achieve higher energy density, researchers actively experiment with new battery designs.
+
+=== Lithium polymer batteries ===
+
+[[File:Lithium polymer battery.png|thumbnail|Simplified schema of a lithium polymer battery]]
+In lithium polymer batteries, each cell consists of four thin foils rolled together: both electrodes and a solid polymer electrolyte are pressed into thin foils and packaged in a layer of insulator foil. Different cells can be then rolled together to make an arbitrarily large battery.
+
+In this design, since the electrolyte is a stable solid, the anode can safely contain a high proportion of lithium, drastically improving energy density. The closeness of the anode and cathode also aid with chemical diffusion, increasing the maximum current that can be generated.

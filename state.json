@@ -468,11 +468,17 @@
       "sha256": "7a76704b29997462a83bc4e00fd1dbeffb53880dc0561bd10f2f27b364c26ef2",
       "synced_at": "2026-10-18T12:54:28+00:00"
     },
+    "Chemical batteries": {
+      "path": "Main/Chemical batteries.wiki",
+      "revid": 20009,
+      "sha256": "b376f32515a4c8a2c91c37d419d01f691cebe980269124438e745f2e94788921",
+      "synced_at": "2026-11-27T11:35:47+00:00"
+    },
     "Chemical battery": {
       "path": "Main/Chemical battery.wiki",
-      "revid": 19965,
-      "sha256": "2143e0ad13ac56f77d56442c3ccfb1fc697ba59ce7d2ee135cebe15138aba29e",
-      "synced_at": "2026-11-26T14:11:10+00:00"
+      "revid": 20008,
+      "sha256": "d1654ffdf3360c5e367971c29f0efb6d66c5fca683c69c2ef8fcdd409987fb4c",
+      "synced_at": "2026-11-27T11:35:47+00:00"
     },
     "Chinchilla prescription": {
       "path": "Main/Chinchilla prescription.wiki",
@@ -7512,6 +7518,12 @@
       "sha256": "31fa0d07a860ba562b720b0ba915e8491eb94e0c1093b61afe06d8c78cbfdd2e",
       "synced_at": "2026-10-19T12:24:06+00:00"
     },
+    "Primary batteries": {
+      "path": "Main/Primary batteries.wiki",
+      "revid": 20007,
+      "sha256": "13177a8633e638f93b72eac56943d2f6af928aeddf5b5112bb4fb4508b2e99bb",
+      "synced_at": "2026-11-27T11:35:47+00:00"
+    },
     "Primary battery": {
       "path": "Main/Primary battery.wiki",
       "revid": 19992,
@@ -7872,6 +7884,12 @@
       "sha256": "26384aebf124b85b060c0e6bf280769c0551878571420d9e1e7fb672a165a47d",
       "synced_at": "2026-11-18T15:10:27+00:00"
     },
+    "Secondary battery": {
+      "path": "Main/Secondary battery.wiki",
+      "revid": 20005,
+      "sha256": "68f1b09ff40846d9f8d598251e6def65689c8cd8a6e619897593f8aafc782e70",
+      "synced_at": "2026-11-27T11:35:47+00:00"
+    },
     "Section UX 1792328551543": {
       "path": "Main/Section UX 1792328551543.wiki",
       "revid": 10414,
@@ -8036,9 +8054,9 @@
     },
     "Solid oxide fuel cell": {
       "path": "Main/Solid oxide fuel cell.wiki",
-      "revid": 19976,
-      "sha256": "c53c274f7f586e49c9fad9273478950992f4e57a72adeaf49a84b7f210e34d39",
-      "synced_at": "2026-11-26T15:36:07+00:00"
+      "revid": 20010,
+      "sha256": "8fad2233af1b37c98182b507c8fe1578e16757961d7a3cc88e05bbae3bf567bc",
+      "synced_at": "2026-11-27T11:35:47+00:00"
     },
     "Source:1.1 Introduction – Régler les relations entre les personnes privées (Transcript)": {
       "path": "Source/1.1 Introduction – Régler les relations entre les personnes privées (Transcript).wiki",
@@ -11647,6 +11665,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-26T17:09:10+00:00",
+  "updated": "2026-11-27T11:35:47+00:00",
   "version": 1
 }

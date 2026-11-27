@@ -9,20 +9,3 @@ When the two electrodes are connected again in an electrical circuit, electrons 
 * there is no stronger, competing external electrical current,
 
 <ref>{{#cite:Q4245}}</ref>
-
-== Discharging ==
-
-=== Potential ===
-
-The '''[[electric potential]]''' of a solid oxide fuel cell
-
-$$
-E_\text{cell}=E^\circ_\text{cathode}-E^\circ_\text{anode}
-$$
-
-where $E^\circ$ denotes the [[standard reduction potential]].
-<ref>{{#cite:Q4245}}</ref>
-
-== Charging ==
-
-Due to [[polarisation]], the potential required to charge a solid oxide fuel cell is often much higher than its discharging potential.
