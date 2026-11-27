@@ -1,6 +1,6 @@
 [[Category:Electrolysis]]
 [[File:Electrolysis.png|thumbnail|Comparison between a galvanic cell and an electrolytic cell]]
-'''Electrolysis''' is the practice of applying an external [[electric voltage]] to drive a non-spontaneous [[chemical reaction]].
+'''Electrolysis''' is the practice of applying an external [[electric voltage]] to drive a non-spontaneous [[chemical reaction]].<ref>{{#cite:Q4269}}</ref>
 
 == Application ==
 

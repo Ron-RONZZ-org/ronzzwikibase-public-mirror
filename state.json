@@ -2216,9 +2216,9 @@
     },
     "Downs cell": {
       "path": "Main/Downs cell.wiki",
-      "revid": 20053,
-      "sha256": "019af7470d59816f3593a9acdd49696113036843c2a17c9365f6764a464a1ccb",
-      "synced_at": "2026-11-27T18:23:47+00:00"
+      "revid": 20063,
+      "sha256": "724e2eb765887abd98d6b13edd5e778233697121b7ec81806a2b3bed72438ee7",
+      "synced_at": "2026-11-27T18:35:36+00:00"
     },
     "EditRetryProbe1793854224657": {
       "path": "Main/EditRetryProbe1793854224657.wiki",
@@ -2294,9 +2294,9 @@
     },
     "Electrolysis": {
       "path": "Main/Electrolysis.wiki",
-      "revid": 20047,
-      "sha256": "087440c2cba9cdfecd31d5078a87adcb0ff2643c44f3e3b413a2267094029dbc",
-      "synced_at": "2026-11-27T18:11:42+00:00"
+      "revid": 20064,
+      "sha256": "886624380d651373721bac2341f2dd307024be312c932b24a9a8c2f2372739d4",
+      "synced_at": "2026-11-27T18:35:36+00:00"
     },
     "Electromagnetic calorimeter": {
       "path": "Main/Electromagnetic calorimeter.wiki",
@@ -2582,9 +2582,9 @@
     },
     "Fuel cell": {
       "path": "Main/Fuel cell.wiki",
-      "revid": 20032,
-      "sha256": "0ff80a28b456b71a9794545f53449461f4c141633f8a412aa425327148a4a026",
-      "synced_at": "2026-11-27T16:35:41+00:00"
+      "revid": 20075,
+      "sha256": "e0567455d5b7ce282d437fc9100c196d70bd905caa9574fbcad908a97e36e28f",
+      "synced_at": "2026-11-27T18:35:36+00:00"
     },
     "Function": {
       "path": "Main/Function.wiki",
@@ -2711,6 +2711,12 @@
       "revid": 18821,
       "sha256": "dd2fb881b57460b05d3dd29ad5ca2ac43223a615c466342c3c0032eae99351ed",
       "synced_at": "2026-11-22T04:11:15+00:00"
+    },
+    "Grove's fuel cell": {
+      "path": "Main/Grove's fuel cell.wiki",
+      "revid": 20067,
+      "sha256": "8576ee1289d362b281450cef63c3909ba0af1d8113c180fc475c06b80d89e274",
+      "synced_at": "2026-11-27T18:35:36+00:00"
     },
     "Gâteaux derivative": {
       "path": "Main/Gâteaux derivative.wiki",
@@ -9288,6 +9294,12 @@
       "sha256": "1c9fd575a21ba5b25f92c1f19457de6de154f278527c4a4e7864355a6619523a",
       "synced_at": "2026-11-19T10:36:13+00:00"
     },
+    "Source:Electrolysis I (Webpage)": {
+      "path": "Source/Electrolysis I (Webpage).wiki",
+      "revid": 20062,
+      "sha256": "9d9c1a150ca752fedbad11ad17afeefc7dc1bcfb229fe96c0b83215e7b2cb32f",
+      "synced_at": "2026-11-27T18:35:36+00:00"
+    },
     "Source:Elementary Differential Equations and Boundary Value Problems (Book)": {
       "path": "Source/Elementary Differential Equations and Boundary Value Problems (Book).wiki",
       "revid": 7039,
@@ -10824,6 +10836,12 @@
       "sha256": "78aaaec9d90210e9114d60dc89df2c3f56367f26ba1c28520f062812a5c28838",
       "synced_at": "2026-10-29T10:11:32+00:00"
     },
+    "Source:Supplemental Modules (Analytical Chemistry) (LibreTexts) (Website)": {
+      "path": "Source/Supplemental Modules (Analytical Chemistry) (LibreTexts) (Website).wiki",
+      "revid": 20058,
+      "sha256": "98f536ee8020fb2259d282d6f0c3ffa6439b3fd3ffa1426541094c35ab5f582a",
+      "synced_at": "2026-11-27T18:35:36+00:00"
+    },
     "Source:Supported Standards (Webpage)": {
       "path": "Source/Supported Standards (Webpage).wiki",
       "revid": 6710,
@@ -11689,6 +11707,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-27T18:23:47+00:00",
+  "updated": "2026-11-27T18:35:36+00:00",
   "version": 1
 }

@@ -1,0 +1,19 @@
+[[Category:Fuel cell]]
+'''Grove's fuel cell''' is the first known functional [[fuel cell]].<ref>{{#cite:Q4257}}</ref>
+
+== Setup ==
+
+[[File:Grove's fuel cell.png|thumbnail|Schema of a modern recreation of Grove's fuel cell]]
+A standard setup of a Grove's fuel cell is the same as the standard setup for [[electrolysis]] of water.
+
+One important detail is that the electrodes must be made of '''[[platinum]]'''.
+
+=== Charging ===
+
+To charge a Grove's cell, one connect the two currents to an external source of electricity to electrolyse water and obtain oxygen and hydrogen gases.<ref>{{#cite:Q4257}}</ref>
+
+{{#content:Q4264}}
+
+=== Discharging ===
+
+Once the external source of electricity is removed, the reverse reaction happens with Platinum as catalyst, producing an electric current.<ref>{{#cite:Q4257}}</ref>

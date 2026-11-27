@@ -1,3 +1,5 @@
 [[Category:Electrolysis]]
-[[File:Downs cell.png|thumbnail|A typical Downs cell features a steel cathode and a graphite anode separated by an iron screen, all submerged in the $NaCl+CaCl_2$ mixture molten at high temperature and electrified by an external voltage. $Na$ and $Cl_2$ created under the Downs cell condition are liquid and gas respectively, both less dense than the molten mixture and naturally float upward. They can therefore be collected with two simple pipes above the electrodes. The iron screen ensures that $Na$ and $Cl_2$ never mix with each other.]]
+[[File:Downs cell.png|thumbnail|A typical Downs cell features a steel cathode and a graphite anode separated by an iron screen, all submerged in the $NaCl+CaCl_2$ mixture molten at high temperature and electrified by an external voltage. $Na$ and $Cl_2$ created under the Downs cell condition are liquid and gas respectively, both less dense than the molten mixture and naturally float upward. They can therefore be collected with two simple pipes above the electrodes. The iron screen ensures that $Na$ and $Cl_2$ never mix with each other.<ref>{{#cite:Q4269}}</ref>]]
 A '''Downs cell''' is a device used to obtain pure sodium and pure chlorine via the [[electrolysis]] of a mixture of $NaCl$ and $CaCl_2$.
+
+<ref>{{#cite:Q4269}}</ref>
