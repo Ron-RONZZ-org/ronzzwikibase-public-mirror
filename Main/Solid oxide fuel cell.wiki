@@ -1,11 +1,43 @@
-[[Category:chemical battery]]
-[[File:Tubular solide oxide fuel cell- charge.png|A classical example of a solid oxide fuel cell, known as a '''Daniel cell'''|thumbnail]]
-A '''solid oxide fuel cell''' comprises of two electrodes consisting of metals or composites with different [[electron affinities]], known as the '''anode''' and the '''cathode''', both submerged in electrolytes (known as '''half cells''') and separated via a [[salt bridge]].
+'''Solid oxide fuel cell''' is a common [[fuel cell]] design known for
 
-During charge , an external electrical current pushes electrons away from the '''anode and towards the cathode''', causing an electrochemical '''disequilibrium'''. When the external electrical current is removed, as long as the two electrodes stay isolated from each other, the state of electrochemical disequilibrium is maintained.
+* efficiency
+* high operating temperature
+** relatively long startup time
+** need for integrated heat management system
 
-When the two electrodes are connected again in an electrical circuit, electrons flow spontaneously '''away from the cathode towards the anode''' to restore electrochemical equilibrium, producing a current in the process, given
+<ref>{{#cite:Q4257}}</ref>
 
-* there is no stronger, competing external electrical current,
+== Operation<ref>{{#cite:Q4257}}</ref> ==
 
-<ref>{{#cite:Q4245}}</ref>
+[[File:SOFC-schema.png|thumbnail|Simplified SOFC operation schema]]
+=== Cathode ===
+
+[[File:SOFC-1.mp4|thumbnail|SOFC cathode operation schema]]
+$$
+\frac{1}{2}O_2+2e^- \to O^{2-}
+$$
+
+=== Ionic diffusion through electrolyte ===
+
+[[File:SOFC-2.mp4|thumbnail|SOFC ionic diffusion operation schema]]
+[[File:SOFC-3.mp4|thumbnail|SOFC ionic diffusion operation schema 2]]
+The most common electrolyte in a SOFC is doped $ZrO_2$ ionised by heating to $600-1000^\circ C$. The dopent cations ($Ca,Mg,Y$, 2+ or 3+, compared to 4+ for $Zr^{4+}$) creates vacancies allowing for the transport of $O^{2-}$.
+
+=== Anode (fuel combustion) ===
+
+Various [[fuel]]s can be used at the anode of an SOFC:
+
+* $H_2,CO$ ('''most common''')
+
+$$
+CO+O^{2-} \to CO_2+ 2e^-
+H_2+O^{2-} \to H_2O + 2e^-
+$$
+
+* Hydrocarbons: diesel, gasoline, alcohol, natural gas, etc.
+
+== Limitations ==
+
+The high operation temperature of SOFCs make it less suitable for mobile/intermittent applications. As a result, SOFCs are most commonly used in electricity generators as of now, although recent advancements in [[supercapacitor batteries]], which can be used to shorten the startup time of SOFCs, are opening up the way to new applications such as in heavy passenger/goods vehicles.
+
+<ref>{{#cite:Q4257}}</ref>

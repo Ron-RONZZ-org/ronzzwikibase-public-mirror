@@ -1,0 +1,13 @@
+[[Category:chemical battery]]
+[[File:Daniel cell.png|A classical example of a solid oxide fuel cell, known as a '''Daniel cell'''|thumbnail]]
+A '''Galvanic cell''' comprises of two electrodes consisting of metals or composites with different [[electron affinities]], known as the '''anode''' and the '''cathode''', both submerged in electrolytes (known as '''half cells''') and separated via a [[salt bridge]].
+
+== Discharge ==
+
+When the two electrodes are connected in an electrical circuit, electrons flow spontaneously '''away from the cathode towards the anode''' due to the differences in [[electron affinity]], producing a current in the process, given there is no stronger, competing external electrical current.
+
+== Recharge ==
+
+Certain Galvanic cells can be recharged by applying an external electrical current to catalyse the reverse reaction of discharge.
+
+<ref>{{#cite:Q4245}}</ref>

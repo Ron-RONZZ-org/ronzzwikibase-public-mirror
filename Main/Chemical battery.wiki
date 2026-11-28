@@ -3,7 +3,7 @@ A '''chemical battery''' is a [[battery]] that stores energy as [[chemical energ
 
 == Simplest form ==
 
-* [[Solid oxide fuel cell]]
+* [[Galvanic cell]]
 
 == Classification and applications ==
 

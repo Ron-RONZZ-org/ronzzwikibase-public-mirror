@@ -476,9 +476,9 @@
     },
     "Chemical battery": {
       "path": "Main/Chemical battery.wiki",
-      "revid": 20011,
-      "sha256": "bd15da8f46c7eedc98425380c726396f6856c4853b25d9ca4cbf9ba68bbfde77",
-      "synced_at": "2026-11-27T13:19:59+00:00"
+      "revid": 20101,
+      "sha256": "3161c5857ba888d2c6576ac244fc2cb408cafc9d5bfbdf82eb7c9a335b4333ae",
+      "synced_at": "2026-11-28T11:49:27+00:00"
     },
     "Chinchilla prescription": {
       "path": "Main/Chinchilla prescription.wiki",
@@ -2645,6 +2645,12 @@
       "revid": 10336,
       "sha256": "13935779acd3d1f3f7958ad0e0ed0e41d261216a8d239e413ccdc00a1b2ee6a6",
       "synced_at": "2026-10-18T07:12:55+00:00"
+    },
+    "Galvanic cell": {
+      "path": "Main/Galvanic cell.wiki",
+      "revid": 20102,
+      "sha256": "858c3f8330270aede6c6f62752624d23a90e9e30e9e7e9a3b32d4638cbdda18b",
+      "synced_at": "2026-11-28T11:49:27+00:00"
     },
     "Gambler's fallacy": {
       "path": "Main/Gambler's fallacy.wiki",
@@ -8078,9 +8084,9 @@
     },
     "Solid oxide fuel cell": {
       "path": "Main/Solid oxide fuel cell.wiki",
-      "revid": 20010,
-      "sha256": "8fad2233af1b37c98182b507c8fe1578e16757961d7a3cc88e05bbae3bf567bc",
-      "synced_at": "2026-11-27T11:35:47+00:00"
+      "revid": 20104,
+      "sha256": "cdfb28a8fdb10fb8772407ff86ec893b61675f7a228f3bf33629d78978fee3bb",
+      "synced_at": "2026-11-28T11:49:27+00:00"
     },
     "Source:1.1 Introduction – Régler les relations entre les personnes privées (Transcript)": {
       "path": "Source/1.1 Introduction – Régler les relations entre les personnes privées (Transcript).wiki",
@@ -11707,6 +11713,6 @@
       "synced_at": "2026-11-14T20:09:06+00:00"
     }
   },
-  "updated": "2026-11-28T10:49:42+00:00",
+  "updated": "2026-11-28T11:49:27+00:00",
   "version": 1
 }
