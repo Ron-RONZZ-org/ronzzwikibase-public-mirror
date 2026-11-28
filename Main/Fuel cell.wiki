@@ -43,7 +43,7 @@
 
 {| class="wikitable"
 |-
-! Fuel cell type !! DMFC !! PEMFC !! AFC !! PAFC !! MCFC !! SOFC
+! Fuel cell type !! DMFC !! [[PEMFC]] !! AFC !! PAFC !! [[MCFC]] !! [[SOFC]]
 |-
 ! Electrolyte type
 | Polymeric ion exchange membrane || Polymeric ion exchange membrane || Immobilised alkaline salt solution || Immobilised liquid phosphoric acid || Immobilised liquid molten carbonate || Ceramic
